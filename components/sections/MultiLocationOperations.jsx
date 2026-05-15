@@ -47,12 +47,13 @@ export default function MultiLocationOperations() {
 
         {/* MAIN IMAGE */}
         <div className="overflow-hidden rounded-[28px] border border-white/10 bg-white/[0.03] p-4 backdrop-blur-3xl md:rounded-[42px] md:p-8">
-          <Image
-            src="/showcase/multi-location-command-center.png"
-            alt="Multi-location operations"
-            loading="lazy"
-            className="w-full rounded-[22px] border border-white/10 shadow-[0_40px_120px_rgba(0,0,0,0.9)] md:rounded-[34px]"
-          />
+         <Image
+  src="/showcase/multi-location-command-center.png"
+  alt="Multi-location operations"
+  width={1600}
+  height={900}
+  className="w-full rounded-[24px]"
+/>
         </div>
 
         {/* FEATURE GRID */}

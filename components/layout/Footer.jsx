@@ -1,134 +1,194 @@
+"use client";
+
+import Image from "next/image";
+
 export default function Footer() {
   return (
-    <footer className="relative overflow-hidden border-t border-white/5 py-24">
+    <footer className="relative overflow-hidden border-t border-white/10 bg-[#02030A] px-6 pt-24 pb-14">
 
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(139,92,246,0.06),transparent_60%)]" />
+      {/* TOP LIGHT LINE */}
+      <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[#8B5CF6]/30 to-transparent" />
 
-      <div className="relative mx-auto max-w-7xl px-6">
+      {/* LIGHTS */}
+      <div className="absolute left-[-10%] top-[-20%] h-[500px] w-[500px] rounded-full bg-[#8B5CF6]/10 blur-[140px]" />
+
+      <div className="absolute bottom-[-20%] right-[-10%] h-[500px] w-[500px] rounded-full bg-[#D6A66A]/10 blur-[160px]" />
+
+      {/* NOISE */}
+      <div className="absolute inset-0 opacity-[0.03]" />
+
+      <div className="relative mx-auto max-w-7xl">
 
         {/* TOP */}
-        <div className="flex flex-col gap-12 border-b border-white/5 pb-16 lg:flex-row lg:items-end lg:justify-between">
+        <div className="grid items-start gap-20 border-b border-white/10 pb-20 md:grid-cols-2 xl:grid-cols-4">
 
+          {/* BRAND */}
           <div>
 
-            <img
-              src="/brand/avantiqo-logo1.png"
-              className="h-50 w-auto object-contain"
-            />
+            <Image
+  src="/brand/avantiqo-logo1.png"
+  alt="Avantiqo"
+  width={300}
+  height={100}
+  className="h-auto w-[180px] object-contain"
+/>
 
-            <p
-              className="mt-8 max-w-xl text-white/40"
-              style={{
-                fontSize: "17px",
-                lineHeight: 1.9,
-                fontWeight: 400,
-                letterSpacing: "-0.01em",
-              }}
-            >
-              AI-powered business operating infrastructure
-              designed for modern enterprise, intelligent
-              operations and scalable AI-native companies.
+            
+
+          </div>
+
+          {/* PLATFORM */}
+          <div>
+
+            <p className="mb-6 text-xs tracking-[0.35em] text-[#B58AF8]">
+              PLATFORM
             </p>
 
-          </div>
+            <div className="grid gap-5 text-[15px]">
 
-          <div className="flex items-center gap-4">
+              <a
+                href="/platform"
+                className="text-white/45 transition duration-300 hover:text-white"
+              >
+                Platform
+              </a>
 
-            <button className="rounded-2xl bg-gradient-to-r from-[#D6A66A] via-[#B98B57] to-[#8B5CF6] px-7 py-4 text-sm font-medium text-white shadow-[0_0_90px_rgba(168,85,247,.18)] transition hover:scale-[1.02]">
-              Book Demo
-            </button>
+              <a
+                href="/ai"
+                className="text-white/45 transition duration-300 hover:text-white"
+              >
+                AI Infrastructure
+              </a>
 
-            <button className="rounded-2xl border border-white/10 bg-white/[0.03] px-7 py-4 text-sm text-white/70 backdrop-blur-xl transition hover:border-[#8B5CF6]/30 hover:bg-[#8B5CF6]/10">
-              Contact
-            </button>
+              <a
+                href="/enterprise"
+                className="text-white/45 transition duration-300 hover:text-white"
+              >
+                Enterprise
+              </a>
 
-          </div>
-
-        </div>
-
-        {/* LINKS */}
-        <div className="grid gap-12 py-20 md:grid-cols-2 lg:grid-cols-5">
-
-          {[
-            {
-              title: "Platform",
-              links: [
-                "Operations",
-                "Finance",
-                "Analytics",
-                "AI Intelligence",
-              ],
-            },
-            {
-              title: "AI Studio",
-              links: [
-                "AI Render",
-                "AI Enhance",
-                "AI Composite",
-                "AI Video",
-              ],
-            },
-            {
-              title: "Enterprise",
-              links: [
-                "Infrastructure",
-                "Security",
-                "Governance",
-                "Multi-location",
-              ],
-            },
-            {
-              title: "Company",
-              links: [
-                "About",
-                "Partners",
-                "Contact",
-                "Careers",
-              ],
-            },
-            {
-              title: "Legal",
-              links: [
-                "Privacy",
-                "Terms",
-                "Compliance",
-                "Security",
-              ],
-            },
-          ].map((group) => (
-            <div key={group.title}>
-
-              <p className="mb-6 text-xs tracking-[0.35em] text-[#B58AF8]">
-                {group.title}
-              </p>
-
-              <div className="space-y-4">
-
-                {group.links.map((link) => (
-                  <div
-                    key={link}
-                    className="cursor-pointer text-sm text-white/40 transition hover:text-white"
-                  >
-                    {link}
-                  </div>
-                ))}
-
-              </div>
+              <a
+                href="/demo"
+                className="text-white/45 transition duration-300 hover:text-white"
+              >
+                Demo
+              </a>
 
             </div>
-          ))}
+
+          </div>
+
+          {/* COMPLIANCE */}
+          <div>
+
+            <p className="mb-6 text-xs tracking-[0.35em] text-[#B58AF8]">
+              COMPLIANCE
+            </p>
+
+            <div className="grid gap-5 text-[15px]">
+
+              <a
+                href="/security"
+                className="text-white/45 transition duration-300 hover:text-white"
+              >
+                Enterprise Security
+              </a>
+
+              <a
+                href="/privacy"
+                className="text-white/45 transition duration-300 hover:text-white"
+              >
+                Privacy Policy
+              </a>
+
+              <a
+                href="/gdpr"
+                className="text-white/45 transition duration-300 hover:text-white"
+              >
+                GDPR Compliance
+              </a>
+
+              <a
+                href="/governance"
+                className="text-white/45 transition duration-300 hover:text-white"
+              >
+                Governance
+              </a>
+
+            </div>
+
+          </div>
+
+          {/* CONTACT */}
+          <div>
+
+            <p className="mb-6 text-xs tracking-[0.35em] text-[#B58AF8]">
+              CONTACT
+            </p>
+
+            <div className="grid gap-5 text-[15px]">
+
+              <a
+                href="mailto:hello@avantiqo.ai"
+                className="text-white/45 transition duration-300 hover:text-white"
+              >
+                hello@avantiqo.ai
+              </a>
+
+              <a
+                href="/contact"
+                className="text-white/45 transition duration-300 hover:text-white"
+              >
+                Enterprise Consultation
+              </a>
+
+              <a
+                href="/terms"
+                className="text-white/45 transition duration-300 hover:text-white"
+              >
+                Terms & Conditions
+              </a>
+
+            </div>
+
+          </div>
 
         </div>
 
         {/* BOTTOM */}
-        <div className="flex flex-col gap-6 border-t border-white/5 pt-10 text-sm text-white/30 lg:flex-row lg:items-center lg:justify-between">
+        <div className="pt-10">
 
-          <div>
-            © 2026 Avantiqo. All rights reserved.
-          </div>
+          <div className="flex flex-col items-center justify-between gap-8 text-sm text-white/30 md:flex-row">
 
-          <div>
-            AI Business Operating Infrastructure
+            <p>
+              © 2026 Avantiqo. All rights reserved.
+            </p>
+
+            <div className="flex items-center gap-8">
+
+              <a
+                href="/privacy"
+                className="transition duration-300 hover:text-white/60"
+              >
+                Privacy
+              </a>
+
+              <a
+                href="/terms"
+                className="transition duration-300 hover:text-white/60"
+              >
+                Terms
+              </a>
+
+              <a
+                href="/security"
+                className="transition duration-300 hover:text-white/60"
+              >
+                Security
+              </a>
+
+            </div>
+
           </div>
 
         </div>
@@ -136,5 +196,5 @@ export default function Footer() {
       </div>
 
     </footer>
-  )
+  );
 }

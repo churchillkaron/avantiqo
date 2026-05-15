@@ -141,11 +141,12 @@ export default function FinancialInfrastructure() {
             {/* RIGHT SIDE */}
             <div className="flex items-center justify-center lg:min-h-[920px]">
               <Image
-                src="/finance/invoice-mobile.png"
-                alt="Staff invoice upload"
-                loading="lazy"
-                className="max-h-[760px] w-full max-w-[520px] object-contain drop-shadow-[0_40px_120px_rgba(0,0,0,0.9)] md:max-h-[920px]"
-              />
+  src="/finance/invoice-mobile.png"
+  alt="Staff invoice upload"
+  width={900}
+  height={1800}
+  className="h-auto w-full max-w-[420px]"
+/>
             </div>
           </div>
         </div>
@@ -192,11 +193,12 @@ export default function FinancialInfrastructure() {
           {/* COMPUTER IMAGE */}
           <div className="overflow-hidden rounded-[28px] border border-white/10 bg-white/[0.03] p-4 backdrop-blur-3xl md:rounded-[42px] md:p-8">
             <Image
-              src="/finance/invoice-approval.png"
-              alt="Invoice approval"
-              loading="lazy"
-              className="w-full rounded-[24px] border border-white/10 shadow-[0_40px_120px_rgba(0,0,0,0.7)] md:rounded-[32px]"
-            />
+  src="/finance/invoice-approval.png"
+  alt="Invoice approval"
+  width={1600}
+  height={900}
+  className="w-full rounded-[24px]"
+/>
           </div>
 
           {/* ENTERPRISE FLOW */}

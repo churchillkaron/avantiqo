@@ -1,9 +1,11 @@
 "use client";
 
+import { usePathname } from "next/navigation"
 import { useEffect, useState } from "react";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
+  const pathname = usePathname()
 
   useEffect(() => {
     const handleScroll = () => {
@@ -38,44 +40,16 @@ export default function Navbar() {
         </a>
 
         {/* NAVIGATION */}
-        <div className="hidden items-center gap-10 lg:flex">
+<div className="hidden items-center gap-10 lg:flex">
+<a href="/">Home</a>
+<a href="/platform">Platform</a>
+<a href="/ai">AI</a>
+<a href="/enterprise">Enterprise</a>
+<a href="/industries">Industries</a>
+<a href="/demo">Demo</a>
+<a href="/contact">Contact</a>
 
-          <a
-            href="#platform"
-            className="text-sm tracking-wide text-white/55 transition duration-300 hover:text-white"
-          >
-            Platform
-          </a>
-
-          <a
-            href="#studio"
-            className="text-sm tracking-wide text-white/55 transition duration-300 hover:text-white"
-          >
-            AI Studio
-          </a>
-
-          <a
-            href="#enterprise"
-            className="text-sm tracking-wide text-white/55 transition duration-300 hover:text-white"
-          >
-            Enterprise
-          </a>
-
-          <a
-            href="#infrastructure"
-            className="text-sm tracking-wide text-white/55 transition duration-300 hover:text-white"
-          >
-            Infrastructure
-          </a>
-
-          <a
-            href="#contact"
-            className="text-sm tracking-wide text-white/55 transition duration-300 hover:text-white"
-          >
-            Contact
-          </a>
-
-        </div>
+</div>
 
         {/* CTA */}
         <div className="flex items-center gap-3">

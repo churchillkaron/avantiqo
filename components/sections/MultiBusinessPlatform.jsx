@@ -99,12 +99,12 @@ export default function MultiBusinessPlatform() {
             >
               {/* IMAGE */}
               <div className="relative h-[240px] overflow-hidden md:h-[260px]">
-                <Image
-                  src={item.image}
-                  alt={item.title}
-                  loading="lazy"
-                  className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
-                />
+               <Image
+  src={item.image}
+  alt={item.title}
+  fill
+  className="object-cover transition duration-700 group-hover:scale-105"
+/>
 
                 <div className="absolute inset-0 bg-gradient-to-t from-[#020617] via-[#020617]/20 to-transparent" />
               </div>
@@ -140,11 +140,12 @@ export default function MultiBusinessPlatform() {
         {/* MAP */}
         <div className="mt-10 overflow-hidden rounded-[28px] border border-white/10 bg-white/[0.03] p-4 backdrop-blur-3xl md:mt-16 md:rounded-[42px] md:p-8">
           <Image
-            src="/showcase/global-enterprise.png"
-            alt="Global infrastructure"
-            loading="lazy"
-            className="w-full rounded-[22px] border border-white/10 md:rounded-[34px]"
-          />
+  src="/showcase/global-enterprise.png"
+  alt="Global infrastructure"
+  width={1600}
+  height={900}
+  className="w-full rounded-[24px] border border-white/10 md:rounded-[34px]"
+/>
         </div>
       </div>
     </section>

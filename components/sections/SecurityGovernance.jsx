@@ -48,11 +48,12 @@ export default function SecurityGovernance() {
         {/* IMAGE */}
         <div className="overflow-hidden rounded-[28px] border border-white/10 bg-white/[0.03] p-4 backdrop-blur-3xl md:rounded-[42px] md:p-8">
          <Image
-            src="/showcase/security-governance.png"
-            alt="Security governance"
-            loading="lazy"
-            className="w-full rounded-[22px] border border-white/10 shadow-[0_40px_120px_rgba(0,0,0,0.9)] md:rounded-[34px]"
-          />
+  src="/showcase/security-governance.png"
+  alt="Security governance"
+  width={1600}
+  height={900}
+  className="w-full rounded-[24px] border border-white/10"
+/>
         </div>
 
         {/* CARDS */}

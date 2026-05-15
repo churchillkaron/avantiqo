@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image"
+
 import Navbar from "@/components/layout/Navbar"
 import OperationsShowcase from "@/components/sections/OperationsShowcase"
 import AIIntelligence from "@/components/sections/AIIntelligence"
@@ -215,9 +216,11 @@ export default function Home() {
                       <div className="relative h-52 overflow-hidden">
 
                         <Image
-                          src={item.image}
-                          className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
-                        />
+                       src={item.image}
+                        alt={item.title}
+                          fill
+                        className="object-cover transition duration-700 group-hover:scale-105"
+                          />
 
                         <div className="absolute inset-0 bg-gradient-to-t from-[#05060D] via-transparent to-transparent" />
 
@@ -337,7 +340,7 @@ export default function Home() {
 <SecurityGovernance />
 <EnterpriseInfrastructure />
 <FinalCTA />
-<Footer />
+
 
 
 </section>

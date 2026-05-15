@@ -105,11 +105,12 @@ export default function EnterpriseAIWorkforce() {
             <div className="relative overflow-hidden rounded-[24px] border border-white/10 md:rounded-[32px]">
               <div className="absolute inset-0 bg-gradient-to-tr from-[#8B5CF6]/10 via-transparent to-[#D6A66A]/10" />
               <Image
-                src="/showcase/ai-workforce-dashboard.png"
-                alt="AI Workforce Dashboard"
-                loading="lazy"
-                className="relative z-10 h-auto w-full object-cover"
-              />
+  src="/showcase/ai-workforce-dashboard.png"
+  alt="AI Workforce Dashboard"
+  width={1600}
+  height={900}
+  className="relative z-10 w-full object-cover"
+/>
             </div>
           </div>
         </div>

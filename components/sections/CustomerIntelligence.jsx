@@ -54,10 +54,12 @@ export default function CustomerIntelligence() {
         <div className="overflow-hidden rounded-[42px] border border-white/10 bg-white/[0.03] p-8 backdrop-blur-3xl">
 
           <Image
-            src="/showcase/customer-intelligence.png"
-            alt="Customer intelligence"
-            className="w-full rounded-[34px] border border-white/10 shadow-[0_40px_120px_rgba(0,0,0,0.9)]"
-          />
+  src="/showcase/customer-intelligence.png"
+  alt="Customer intelligence"
+  width={1600}
+  height={900}
+  className="w-full rounded-[24px] border border-white/10 md:rounded-[34px]"
+/>
 
         </div>
 

@@ -98,10 +98,13 @@ export default function EnterpriseIntelligence() {
 
               <div className="absolute inset-0 bg-gradient-to-tr from-[#8B5CF6]/10 via-transparent to-[#D6A66A]/10" />
 
-              <Image
-                src="/showcase/enterprise-dashboard.png"
-                className="relative z-10 w-full object-cover"
-              />
+             <Image
+  src="/showcase/enterprise-dashboard.png"
+  alt="Enterprise intelligence dashboard"
+  width={1600}
+  height={900}
+  className="relative z-10 w-full object-cover"
+/>
 
             </div>
 
