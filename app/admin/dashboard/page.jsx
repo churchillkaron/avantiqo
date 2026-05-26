@@ -33,7 +33,7 @@ export default function DashboardPage() {
   }
 
   return (
-    <main className="min-h-screen bg-[#050407] p-8 text-white">
+    <main className="min-h-screen bg-[#050407] p-4 md:p-8 text-white">
 
       <div className="mb-12">
 
@@ -53,7 +53,7 @@ export default function DashboardPage() {
           Loading dashboard...
         </div>
       ) : (
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-1 md:grid-cols-3">
 
           <Card
             title="Leads"
@@ -99,7 +99,7 @@ function Card({
   value,
 }) {
   return (
-    <div className="rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur-md">
+    <div className="rounded-3xl border border-white/10 bg-white/5 p-4 md:p-8 backdrop-blur-md">
 
       <div className="text-sm uppercase tracking-[0.2em] text-zinc-500">
         {title}

@@ -58,7 +58,7 @@ export default function LocalizationPage() {
           AI LOCALIZATION ENGINE
         </p>
 
-        <h1 className="text-6xl font-light tracking-[-0.06em]">
+        <h1 className="text-4xl md:text-6xl font-light tracking-[-0.06em]">
           Dynamic enterprise localization
         </h1>
 
@@ -116,7 +116,7 @@ export default function LocalizationPage() {
 
         </div>
 
-        <div className="mt-14 rounded-[30px] border border-white/10 bg-white/[0.03] p-8">
+        <div className="mt-14 rounded-[30px] border border-white/10 bg-white/[0.03] p-4 md:p-8">
 
           <pre className="whitespace-pre-wrap text-sm leading-8 text-white/70">
             {result}

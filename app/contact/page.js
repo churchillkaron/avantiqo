@@ -19,7 +19,7 @@ export default function ContactPage() {
             </p>
 
             <h1
-              className="text-5xl text-white sm:text-6xl md:text-[96px]"
+              className="text-5xl text-white sm:text-4xl md:text-6xl md:text-[96px]"
               style={{
                 lineHeight: 0.95,
                 fontWeight: 300,
@@ -60,10 +60,10 @@ export default function ContactPage() {
       {/* CONTACT GRID */}
       <section className="relative overflow-hidden px-6 pb-24 md:pb-36">
 
-        <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.85fr_1.15fr]">
+        <div className="mx-auto grid max-w-7xl gap-4 md:p-8 lg:grid-cols-[0.85fr_1.15fr]">
 
           {/* LEFT */}
-          <div className="overflow-hidden rounded-[38px] border border-white/10 bg-white/[0.03] p-10 backdrop-blur-3xl">
+          <div className="overflow-hidden rounded-[38px] border border-white/10 bg-white/[0.03] p-5 md:p-10 backdrop-blur-3xl">
 
             <p className="mb-8 text-xs tracking-[0.35em] text-[#B58AF8]">
               CONSULTATION AREAS
@@ -129,7 +129,7 @@ export default function ContactPage() {
           </div>
 
           {/* RIGHT */}
-          <div className="overflow-hidden rounded-[38px] border border-white/10 bg-white/[0.03] p-10 backdrop-blur-3xl">
+          <div className="overflow-hidden rounded-[38px] border border-white/10 bg-white/[0.03] p-5 md:p-10 backdrop-blur-3xl">
 
             <p className="mb-10 text-xs tracking-[0.35em] text-[#B58AF8]">
               REQUEST CONSULTATION
@@ -183,7 +183,7 @@ export default function ContactPage() {
                 className="rounded-[22px] border border-white/10 bg-[#02030A]/80 px-6 py-5 text-white outline-none placeholder:text-white/30"
               />
 
-              <button className="mt-4 rounded-full bg-gradient-to-r from-[#D6A66A] to-[#8B5CF6] px-10 py-5 text-lg font-medium text-white shadow-[0_20px_80px_rgba(139,92,246,0.35)] transition duration-300 hover:scale-[1.02]">
+              <button className="mt-4 rounded-full bg-gradient-to-r from-[#D6A66A] to-[#8B5CF6] px-4 md:px-10 py-5 text-lg font-medium text-white shadow-[0_20px_80px_rgba(139,92,246,0.35)] transition duration-300 hover:scale-[1.02]">
                 Request Enterprise Consultation
               </button>
 

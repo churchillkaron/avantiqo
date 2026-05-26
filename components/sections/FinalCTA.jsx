@@ -15,7 +15,7 @@ export default function FinalCTA() {
         <Image
           src="/showcase/final-cta-bg.png"
           alt="Avantiqo enterprise future"
-          fill
+          fill sizes="(max-width: 768px) 100vw, 50vw"
           className="object-cover opacity-20"
         />
 

@@ -71,9 +71,9 @@ export default function LoginPage() {
   }
 
   return (
-    <main className="flex min-h-screen items-center justify-center bg-[#050407] p-8 text-white">
+    <main className="flex min-h-screen items-center justify-center bg-[#050407] p-4 md:p-8 text-white">
 
-      <div className="w-full max-w-md rounded-[32px] border border-white/10 bg-white/[0.04] p-8 backdrop-blur-xl">
+      <div className="w-full max-w-md rounded-[32px] border border-white/10 bg-white/[0.04] p-4 md:p-8 backdrop-blur-xl">
 
         <div className="mb-8">
 

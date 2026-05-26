@@ -9,7 +9,7 @@ export default function WorkspaceLayout({
 
       <WorkspaceSidebar />
 
-      <main className="ml-[320px] min-h-screen px-10 pb-10 pt-25">
+      <main className="ml-[320px] min-h-screen px-4 md:px-10 pb-10 pt-25">
 
         <WorkspaceTopbar />
 
