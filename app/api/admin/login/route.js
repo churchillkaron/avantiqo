@@ -1,135 +1,51 @@
 import { createClient } from "@supabase/supabase-js";
-import { NextResponse } from "next/server";
 
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL,
-  process.env.SUPABASE_SERVICE_ROLE_KEY
-);
-
-export async function POST(
-  request
-) {
+export async function POST(req) {
   try {
-    const body =
-      await request.json();
 
-    const email =
-      body.email?.trim();
+    const supabase = createClient(
+      process.env.NEXT_PUBLIC_SUPABASE_URL,
+      process.env.SUPABASE_SERVICE_ROLE_KEY
+    );
 
-    if (!email) {
-      return NextResponse.json(
-        {
-          success: false,
-          message:
-            "Email required.",
-        },
-        {
-          status: 400,
-        }
+    const body = await req.json();
+
+    const { email, password } = body;
+
+    if (!email || !password) {
+      return Response.json(
+        { error: "Missing credentials" },
+        { status: 400 }
       );
     }
 
-    const {
-      data: user,
-      error,
-    } = await supabase
-      .from("tenant_users")
-      .select("*")
-      .eq("email", email)
-      .single();
+    const { data, error } = await supabase.auth.signInWithPassword({
+      email,
+      password,
+    });
 
-    if (error || !user) {
-      return NextResponse.json(
-        {
-          success: false,
-          message:
-            "User not found.",
-        },
-        {
-          status: 401,
-        }
+    if (error) {
+      return Response.json(
+        { error: error.message },
+        { status: 401 }
       );
     }
 
-    const role =
-      user.role ||
-      "customer";
+    return Response.json({
+      success: true,
+      user: data.user,
+      session: data.session,
+    });
 
-    let redirect =
-      "/platform";
+  } catch (err) {
 
-    if (
-      role ===
-        "super_admin" ||
-      role === "admin"
-    ) {
-      redirect =
-        "/admin/dashboard";
-    }
-
-    if (
-      role === "finance"
-    ) {
-      redirect =
-        "/admin/billing";
-    }
-
-    if (
-      role === "support"
-    ) {
-      redirect =
-        "/admin/tenants";
-    }
-
-    const response =
-      NextResponse.json({
-        success: true,
-        redirect,
-      });
-
-    response.cookies.set(
-      "admin_role",
-      role,
+    return Response.json(
       {
-        httpOnly: true,
-        secure:
-          process.env.NODE_ENV ===
-          "production",
-        sameSite: "lax",
-        path: "/",
-        maxAge:
-          60 * 60 * 24 * 7,
-      }
-    );
-
-    response.cookies.set(
-      "user_id",
-      user.id,
-      {
-        httpOnly: true,
-        secure:
-          process.env.NODE_ENV ===
-          "production",
-        sameSite: "lax",
-        path: "/",
-        maxAge:
-          60 * 60 * 24 * 7,
-      }
-    );
-
-    return response;
-  } catch (error) {
-    console.error(error);
-
-    return NextResponse.json(
-      {
-        success: false,
-        message:
-          error.message,
+        error: "Server error",
+        details: err.message,
       },
-      {
-        status: 500,
-      }
+      { status: 500 }
     );
+
   }
 }
