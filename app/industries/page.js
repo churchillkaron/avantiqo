@@ -1,53 +1,72 @@
 "use client";
 
+import Image from "next/image";
+import Link from "next/link";
+
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
+
+const industries = [
+  {
+    title: "Accounting Firms",
+    description:
+      "Live financial visibility, document automation, audit trails and multi-company operational control.",
+    href: "/industries/accounting-firms",
+    image: "/images/industry-accounting.png",
+  },
+  {
+    title: "Hotels & Hospitality",
+    description:
+      "Reservations, housekeeping, procurement, payroll and hospitality operations connected live.",
+    href: "/industries/hotels",
+    image: "/images/industry-hotels.png",
+  },
+  {
+    title: "Restaurants & Nightlife",
+    description:
+      "POS, kitchen, inventory, staff, service charge and venue operations connected in real time.",
+    href: "/industries/restaurants",
+    image: "/images/industry-restaurants.png",
+  },
+  {
+    title: "Construction",
+    description:
+      "Site reporting, procurement, workforce, budgets and project approvals connected live.",
+    href: "/industries/construction",
+    image: "/images/industry-construction.png",
+  },
+];
+
 export default function IndustriesPage() {
   return (
-    <main className="min-h-screen bg-[#02030A] text-white">
+    <main className="min-h-screen overflow-hidden bg-[#04050B] text-white">
+      <Navbar />
 
       {/* HERO */}
-      <section className="relative overflow-hidden px-6 pb-24 pt-40 md:pb-32 md:pt-52">
+      <section className="relative px-6 py-32">
 
-        {/* GLOW */}
-        <div className="absolute left-1/2 top-1/2 h-[1000px] w-[1000px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#8B5CF6]/10 blur-[200px]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,#241237_0%,#070B16_40%,#02030A_100%)]" />
 
         <div className="relative mx-auto max-w-7xl">
 
           <div className="max-w-5xl">
 
-            <p className="mb-8 text-xs tracking-[0.35em] text-[#B58AF8]">
-              INDUSTRY INFRASTRUCTURE
+            <p className="mb-6 text-xs tracking-[0.35em] text-[#D6A66A]">
+              INDUSTRY OPERATING RUNTIMES
             </p>
 
-            <h1
-              className="text-5xl text-white sm:text-6xl md:text-[96px]"
-              style={{
-                lineHeight: 0.95,
-                fontWeight: 300,
-                letterSpacing: "-0.06em",
-              }}
-            >
-              One operational system.
+            <h1 className="text-6xl font-light leading-[0.92] tracking-[-0.07em] md:text-[92px]">
+              One operational runtime.
               <br />
-
-              <span className="bg-gradient-to-r from-[#E7C38A] via-white to-[#8B5CF6] bg-clip-text text-transparent">
-                Multiple industries.
-              </span>
-
+              Multiple industries.
+              <br />
+              Complete visibility.
             </h1>
 
-            <p
-              className="mt-10 max-w-3xl text-white/55"
-              style={{
-                fontSize: "22px",
-                lineHeight: 1.9,
-                fontWeight: 400,
-                letterSpacing: "-0.01em",
-              }}
-            >
-              Avantiqo adapts across hospitality,
-              restaurants, retail, construction,
-              nightlife, agencies and enterprise groups
-              through one unified AI operational infrastructure.
+            <p className="mt-8 max-w-[760px] text-lg leading-8 text-white/60">
+              Avantiqo connects operations, approvals, finance,
+              documents, payroll, procurement, marketing and live
+              business visibility into one connected enterprise runtime.
             </p>
 
           </div>
@@ -57,108 +76,122 @@ export default function IndustriesPage() {
       </section>
 
       {/* INDUSTRY GRID */}
-      <section className="relative overflow-hidden px-6 py-24 md:py-36">
+      <section className="px-6 pb-32">
 
-        <div className="mx-auto grid max-w-7xl gap-6 md:grid-cols-2 xl:grid-cols-4">
+        <div className="mx-auto max-w-7xl">
 
-          {[
-            {
-              title: "Hotels",
-              text: "Reservations, housekeeping, finance and guest operations synchronized in one platform.",
-              image: "/industries/hotel-checkin.png",
-            },
-            {
-              title: "Restaurants",
-              text: "POS, production, workforce and inventory management connected live.",
-              image: "/industries/restaurant-order.png",
-            },
-            {
-              title: "Retail",
-              text: "Inventory, sales analytics, procurement and customer infrastructure unified.",
-              image: "/industries/retail-inventory.png",
-            },
-            {
-              title: "Construction",
-              text: "Projects, procurement, approvals and financial workflows managed centrally.",
-              image: "/industries/construction-project.png",
-            },
-            {
-              title: "Nightlife",
-              text: "Beach clubs, bars and entertainment operations connected through live intelligence.",
-              image: "/industries/beachclub.png",
-            },
-            {
-              title: "Coffee Shops",
-              text: "Multi-location café operations optimized with AI forecasting and automation.",
-              image: "/industries/coffeeshop.png",
-            },
-            {
-              title: "Agencies",
-              text: "Clients, contracts, invoicing and operational performance managed together.",
-              image: "/industries/agency-advertise.png",
-            },
-            {
-              title: "Enterprise Groups",
-              text: "Multi-company infrastructure connected through one operational intelligence layer.",
-              image: "/industries/enterprise-groups.png",
-            },
-          ].map((item) => (
-            <div
-              key={item.title}
-              className="group relative overflow-hidden rounded-[30px] border border-white/10 bg-white/[0.03] p-8 backdrop-blur-3xl"
-            >
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
 
-              {/* BACKGROUND IMAGE */}
-              <div
-                className="absolute inset-0 bg-cover bg-center opacity-[0.70] transition duration-700 group-hover:scale-105"
-                style={{
-                  backgroundImage: `url(${item.image})`,
-                }}
-              />
+            {industries.map((industry) => (
 
-              {/* DARK OVERLAY */}
-              <div className="absolute inset-0 bg-[#02030A]/20" />
+              <Link
+                key={industry.title}
+                href={industry.href}
+                className="group overflow-hidden rounded-[36px] border border-white/10 bg-[#070B16] transition-all duration-500 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_0_60px_rgba(120,80,255,0.12)]"
+              >
 
-              {/* HOVER GLOW */}
-              <div className="absolute inset-0 bg-gradient-to-br from-[#8B5CF6]/5 via-transparent to-[#D6A66A]/5 opacity-0 transition duration-500 group-hover:opacity-100" />
+                <div className="relative overflow-hidden">
 
-              {/* CONTENT */}
-              <div className="relative z-10">
+                  <Image
+                    src={industry.image}
+                    alt={industry.title}
+                    width={1400}
+                    height={900}
+                    quality={100}
+                    className="h-[420px] w-full object-cover transition-all duration-700 group-hover:scale-[1.03]"
+                  />
 
-                <div className="mb-8 h-[1px] w-16 bg-gradient-to-r from-[#8B5CF6] to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#04050B] via-transparent to-transparent" />
 
-                <h3
-                  className="text-white"
-                  style={{
-                    fontSize: "32px",
-                    lineHeight: 1.05,
-                    fontWeight: 300,
-                    letterSpacing: "-0.03em",
-                  }}
-                >
-                  {item.title}
-                </h3>
+                </div>
 
-                <p
-                  className="mt-5 text-white/45"
-                  style={{
-                    fontSize: "16px",
-                    lineHeight: 1.9,
-                    fontWeight: 400,
-                    letterSpacing: "-0.01em",
-                  }}
-                >
-                  {item.text}
-                </p>
+                <div className="p-10">
 
-              </div>
+                  <div className="mb-5 flex items-center gap-3">
 
-            </div>
-          ))}
+                    <div className="h-2 w-2 rounded-full bg-gradient-to-r from-[#D6A66A] to-purple-500" />
+
+                    <div className="text-xs uppercase tracking-[0.3em] text-white/40">
+                      Operational Runtime
+                    </div>
+
+                  </div>
+
+                  <h2 className="text-4xl font-light tracking-[-0.03em]">
+                    {industry.title}
+                  </h2>
+
+                  <p className="mt-6 max-w-[580px] text-[16px] leading-8 text-white/60">
+                    {industry.description}
+                  </p>
+
+                  <div className="mt-8 flex items-center gap-3 text-sm text-[#D6A66A]">
+
+                    Explore Industry Runtime
+
+                    <span className="transition-transform duration-500 group-hover:translate-x-2">
+                      →
+                    </span>
+
+                  </div>
+
+                </div>
+
+              </Link>
+
+            ))}
+
+          </div>
 
         </div>
 
       </section>
+
+      {/* CTA */}
+      <section className="border-t border-white/5 px-6 py-32">
+
+        <div className="mx-auto max-w-5xl text-center">
+
+          <p className="mb-6 text-xs tracking-[0.35em] text-[#D6A66A]">
+            ENTERPRISE OPERATIONS
+          </p>
+
+          <h2 className="text-5xl font-light leading-[1.02] tracking-[-0.05em] md:text-7xl">
+            Everything connected.
+            <br />
+            Everything visible.
+            <br />
+            One runtime.
+          </h2>
+
+          <p className="mx-auto mt-8 max-w-[760px] text-lg leading-8 text-white/60">
+            Replace fragmented software, disconnected teams and delayed reporting
+            with one connected operational system built for modern businesses.
+          </p>
+
+          <div className="mt-12 flex flex-col items-center justify-center gap-4 sm:flex-row">
+
+            <Link
+              href="/demo"
+              className="rounded-[20px] bg-gradient-to-r from-[#D6A66A] to-[#8B5CF6] px-8 py-4 text-sm font-medium transition-all duration-500 hover:-translate-y-1"
+            >
+              Book Enterprise Demo
+            </Link>
+
+            <Link
+              href="/platform"
+              className="rounded-[20px] border border-white/10 bg-white/[0.04] px-8 py-4 text-sm text-white/70 transition-all duration-500 hover:border-purple-500/30"
+            >
+              Explore Platform
+            </Link>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <Footer />
 
     </main>
   );

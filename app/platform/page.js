@@ -1,66 +1,114 @@
 "use client";
-import Image from "next/image"
+
+import Image from "next/image";
+import Link from "next/link";
+
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
+
+const platformSections = [
+  {
+    title: "CONNECTED RUNTIME",
+    description:
+      "Hotels, restaurants, accounting, procurement, payroll, approvals and operations connected in one live system.",
+    image: "/images/platform-connected-runtime.png",
+  },
+  {
+    title: "ROLE & PERMISSION CONTROL",
+    description:
+      "Control visibility, approvals and access across owners, managers, accounting, HR and operations teams.",
+    image: "/images/platform-role-control.png",
+  },
+  {
+    title: "LIVE OPERATIONAL EVENTS",
+    description:
+      "Track approvals, alerts, operational risks, tasks and business events live across the organization.",
+    image: "/images/platform-live-events.png",
+  },
+  {
+    title: "MOBILE OPERATIONS",
+    description:
+      "Run approvals, reporting, communication and operational workflows directly from mobile devices.",
+    image: "/images/platform-mobile.png",
+  },
+  {
+    title: "MULTI-COMPANY STRUCTURE",
+    description:
+      "Manage multiple companies, projects, venues and departments from one connected runtime.",
+    image: "/images/platform-multicompany.png",
+  },
+  {
+    title: "INTEGRATIONS & ECOSYSTEM",
+    description:
+      "Connect Booking.com, POS, Meta, banks, payroll, suppliers, Google and operational systems.",
+    image: "/images/platform-integrations.png",
+  },
+];
+
 export default function PlatformPage() {
   return (
-    <main className="min-h-[650vh] bg-[#02030A] text-white">
+    <main className="min-h-screen overflow-hidden bg-[#04050B] text-white">
+      <Navbar />
 
       {/* HERO */}
-      <section className="relative overflow-hidden px-6 pb-24 pt-10 md:pb-32 md:pt-52">
+      <section className="relative px-6 py-32">
 
-<div className="-mt-24 overflow-hidden rounded-[42px] border border-white/10 bg-white/[0.03] p-6 backdrop-blur-3xl">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,#241237_0%,#070B16_40%,#02030A_100%)]" />
 
-  <Image
-    src="/showcase/platform-overview.png"
-    alt="Avantiqo enterprise operating system"
-    width={1600}
-    height={900}
-    className="w-full rounded-[30px] border border-white/10"
-  />
+        <div className="relative mx-auto grid max-w-7xl items-center gap-20 lg:grid-cols-[0.9fr_1.1fr]">
 
+          <div>
 
-</div>
-        <div className="absolute left-1/2 top-1/2 h-[700px] w-[700px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#8B5CF6]/10 blur-[140px] md:h-[1100px] md:w-[1100px] md:blur-[220px]" />
-
-        <div className="relative mt-18 mx-auto max-w-7xl">
-
-          <div className="max-w-5xl">
-
-            <p className="mb-8 text-xs tracking-[0.35em] text-[#B58AF8]">
-              THE AI ENTERPRISE OPERATING SYSTEM
+            <p className="mb-6 text-xs tracking-[0.35em] text-[#D6A66A]">
+              ENTERPRISE OPERATIONAL PLATFORM
             </p>
 
-            <h1
-              className="text-5xl text-white sm:text-6xl md:text-[96px]"
-              style={{
-                lineHeight: 0.95,
-                fontWeight: 300,
-                letterSpacing: "-0.06em",
-              }}
-            >
-              One unified
+            <h1 className="text-6xl font-light leading-[0.92] tracking-[-0.07em] md:text-[92px]">
+              The connected
               <br />
-
-              <span className="bg-gradient-to-r from-[#E7C38A] via-white to-[#8B5CF6] bg-clip-text text-transparent">
-                operational intelligence layer.
-              </span>
-
+              operating system
+              <br />
+              for modern business.
             </h1>
 
-            <p
-              className="mt-10 max-w-3xl text-white/55"
-              style={{
-                fontSize: "22px",
-                lineHeight: 1.9,
-                fontWeight: 400,
-                letterSpacing: "-0.01em",
-              }}
-            >
-              Avantiqo connects operations, finance,
-              workforce, AI automation, production,
-              analytics and enterprise infrastructure
-              into one scalable platform designed
-              for modern organizations.
+            <p className="mt-8 max-w-[700px] text-lg leading-8 text-white/60">
+              Avantiqo connects departments, workflows,
+              approvals, operations, payroll, procurement,
+              accounting, marketing and live business visibility
+              into one enterprise operational runtime.
             </p>
+
+            <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+
+              <Link
+                href="/demo"
+                className="rounded-[20px] bg-gradient-to-r from-[#D6A66A] to-[#8B5CF6] px-8 py-4 text-sm font-medium transition-all duration-500 hover:-translate-y-1"
+              >
+                Book Platform Demo
+              </Link>
+
+              <Link
+                href="/industries"
+                className="rounded-[20px] border border-white/10 bg-white/[0.04] px-8 py-4 text-sm text-white/70 transition-all duration-500 hover:border-purple-500/30"
+              >
+                Explore Industries
+              </Link>
+
+            </div>
+
+          </div>
+
+          <div className="overflow-hidden rounded-[36px] border border-white/10 bg-[#070B16] shadow-[0_0_60px_rgba(120,80,255,0.08)]">
+
+            <Image
+              src="/images/platform-hero.png"
+              alt="Platform Runtime"
+              width={1600}
+              height={1000}
+              quality={100}
+              priority
+              className="h-full w-full object-cover"
+            />
 
           </div>
 
@@ -68,94 +116,81 @@ export default function PlatformPage() {
 
       </section>
 
-      {/* PLATFORM ARCHITECTURE */}
-      <section className="relative overflow-hidden px-6 py-24 md:py-2">
+      {/* PLATFORM CORE */}
+      <section className="px-6 py-28">
+
+        <div className="mx-auto max-w-6xl text-center">
+
+          <p className="mb-6 text-xs tracking-[0.35em] text-[#B58AF8]">
+            CONNECTED BUSINESS INFRASTRUCTURE
+          </p>
+
+          <h2 className="text-5xl font-light leading-[1.02] tracking-[-0.05em] md:text-7xl">
+            Replace disconnected
+            <br />
+            software and fragmented
+            <br />
+            operations.
+          </h2>
+
+          <p className="mx-auto mt-10 max-w-[900px] text-lg leading-9 text-white/60">
+            Most businesses operate through disconnected systems,
+            manual approvals, delayed reporting and fragmented
+            communication. Avantiqo connects the business into one
+            live operational environment.
+          </p>
+
+        </div>
+
+      </section>
+
+      {/* PLATFORM GRID */}
+      <section className="px-6 pb-32">
 
         <div className="mx-auto max-w-7xl">
 
-          <div className="mb-20 max-w-4xl">
+          <div className="grid gap-8 md:grid-cols-2">
 
-            <p className="mb-6 text-xs tracking-[0.35em] text-[#B58AF8]">
-              PLATFORM ARCHITECTURE
-            </p>
+            {platformSections.map((section) => (
 
-            <h2
-              className="text-5xl text-white md:text-7xl"
-              style={{
-                lineHeight: 1,
-                fontWeight: 300,
-                letterSpacing: "-0.05em",
-              }}
-            >
-              Every operational layer
-              <br />
-
-              <span className="bg-gradient-to-r from-[#E7C38A] via-white to-[#8B5CF6] bg-clip-text text-transparent">
-                connected through AI.
-              </span>
-
-            </h2>
-
-          </div>
-
-          <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
-
-            {[
-              {
-                title: "Operations",
-                text: "POS, service flow, kitchen coordination, production management and operational execution synchronized in real time.",
-              },
-              {
-                title: "Finance",
-                text: "Accounting, payroll, procurement, invoice control and financial intelligence connected into one infrastructure.",
-              },
-              {
-                title: "AI Intelligence",
-                text: "Live anomaly detection, forecasting, automation, optimization and enterprise intelligence workflows.",
-              },
-              {
-                title: "Workforce",
-                text: "Staff management, performance tracking, scheduling, approvals and AI challenge systems.",
-              },
-              {
-                title: "Marketing",
-                text: "AI campaign generation, publishing, customer engagement and growth automation connected directly to operations.",
-              },
-              {
-                title: "Enterprise Infrastructure",
-                text: "Permissions, governance, audit visibility, multi-location synchronization and cloud architecture.",
-              },
-            ].map((item) => (
               <div
-                key={item.title}
-                className="rounded-[30px] border border-white/10 bg-white/[0.03] p-8 backdrop-blur-3xl"
+                key={section.title}
+                className="overflow-hidden rounded-[36px] border border-white/10 bg-[#070B16] transition-all duration-500 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_0_60px_rgba(120,80,255,0.10)]"
               >
 
-                <h3
-                  className="text-white"
-                  style={{
-                    fontSize: "34px",
-                    lineHeight: 1.05,
-                    fontWeight: 300,
-                    letterSpacing: "-0.03em",
-                  }}
-                >
-                  {item.title}
-                </h3>
+                <Image
+                  src={section.image}
+                  alt={section.title}
+                  width={1400}
+                  height={900}
+                  quality={100}
+                  className="h-[420px] w-full object-cover"
+                />
 
-                <p
-                  className="mt-5 text-white/45"
-                  style={{
-                    fontSize: "16px",
-                    lineHeight: 1.9,
-                    fontWeight: 400,
-                    letterSpacing: "-0.01em",
-                  }}
-                >
-                  {item.text}
-                </p>
+                <div className="p-10">
+
+                  <div className="mb-5 flex items-center gap-3">
+
+                    <div className="h-2 w-2 rounded-full bg-gradient-to-r from-[#D6A66A] to-purple-500" />
+
+                    <div className="text-xs uppercase tracking-[0.3em] text-white/40">
+                      Enterprise Runtime
+                    </div>
+
+                  </div>
+
+                  <h3 className="text-4xl font-light tracking-[-0.03em]">
+                    {section.title}
+                  </h3>
+
+                  <p className="mt-6 text-[16px] leading-8 text-white/60">
+                    {section.description}
+                  </p>
+
+                </div>
 
               </div>
+
             ))}
 
           </div>
@@ -164,264 +199,176 @@ export default function PlatformPage() {
 
       </section>
 
-      {/* LIVE OPERATION FLOW */}
-<section className="relative overflow-hidden px-6 py-24 md:py-36">
+      {/* SECURITY */}
+      <section className="border-t border-white/5 px-6 py-32">
 
-  <div className="mx-auto max-w-7xl">
+        <div className="mx-auto max-w-7xl grid gap-16 lg:grid-cols-[0.9fr_1.1fr] items-center">
 
-    <div className="mb-20 max-w-5xl">
+          <div>
 
-      <p className="mb-6 text-xs tracking-[0.35em] text-[#B58AF8]">
-        LIVE OPERATION FLOW
-      </p>
+            <p className="mb-6 text-xs tracking-[0.35em] text-[#D6A66A]">
+              SECURITY & GOVERNANCE
+            </p>
 
-      <h2
-        className="text-5xl text-white md:text-7xl"
-        style={{
-          lineHeight: 1,
-          fontWeight: 300,
-          letterSpacing: "-0.05em",
-        }}
-      >
-        Real operational
-        <br />
+            <h2 className="text-5xl font-light leading-[1.02] tracking-[-0.05em] md:text-7xl">
+              Enterprise visibility
+              <br />
+              with controlled access.
+            </h2>
 
-        <span className="bg-gradient-to-r from-[#E7C38A] via-white to-[#8B5CF6] bg-clip-text text-transparent">
-          intelligence pipelines.
-        </span>
+            <p className="mt-8 max-w-[680px] text-lg leading-8 text-white/60">
+              Avantiqo includes role-based permissions,
+              audit visibility, approval tracking,
+              operational accountability and secure
+              multi-company access management.
+            </p>
 
-      </h2>
+            <div className="mt-10 grid gap-5 sm:grid-cols-2">
 
-      <p
-        className="mt-10 max-w-3xl text-white/50"
-        style={{
-          fontSize: "20px",
-          lineHeight: 1.9,
-        }}
-      >
-        Every transaction, workflow, approval,
-        production movement and financial event
-        synchronizes through one connected AI infrastructure.
-      </p>
+              {[
+                "Role-Based Permissions",
+                "Approval Audit Trails",
+                "Department Visibility",
+                "Operational Logs",
+                "Multi-Company Access",
+                "Live Activity Tracking",
+              ].map((item) => (
 
-    </div>
+                <div
+                  key={item}
+                  className="rounded-[22px] border border-white/10 bg-white/[0.03] px-5 py-4 text-sm text-white/70"
+                >
+                  {item}
+                </div>
 
-    <div className="relative overflow-hidden rounded-[42px] border border-white/10 bg-white/[0.03] p-8 md:p-14 backdrop-blur-3xl">
-
-      <div className="absolute inset-0 bg-gradient-to-br from-[#8B5CF6]/5 via-transparent to-[#D6A66A]/5" />
-
-      <div className="relative z-10 grid gap-6 xl:grid-cols-5">
-
-        {[
-          {
-            number: "01",
-            title: "Orders",
-            text: "Transactions, sales activity and customer operations captured live across locations.",
-          },
-          {
-            number: "02",
-            title: "Production",
-            text: "Kitchen, manufacturing and operational workflows synchronized instantly.",
-          },
-          {
-            number: "03",
-            title: "Inventory",
-            text: "Live stock movement, costing and supply chain visibility connected automatically.",
-          },
-          {
-            number: "04",
-            title: "Finance",
-            text: "Revenue, accounting, payroll and approvals processed through unified infrastructure.",
-          },
-          {
-            number: "05",
-            title: "AI Layer",
-            text: "Forecasting, anomaly detection and optimization generated continuously in real time.",
-          },
-        ].map((item) => (
-          <div
-            key={item.title}
-            className="relative overflow-hidden rounded-[30px] border border-white/10 bg-[#060816] p-8"
-          >
-
-            <div className="absolute inset-0 bg-gradient-to-br from-white/[0.03] to-transparent" />
-
-            <div className="relative z-10">
-
-              <p className="mb-6 text-xs tracking-[0.35em] text-[#B58AF8]">
-                {item.number}
-              </p>
-
-              <h3
-                className="text-white"
-                style={{
-                  fontSize: "34px",
-                  lineHeight: 1.05,
-                  fontWeight: 300,
-                  letterSpacing: "-0.03em",
-                }}
-              >
-                {item.title}
-              </h3>
-
-              <p
-                className="mt-5 text-white/45"
-                style={{
-                  fontSize: "15px",
-                  lineHeight: 1.9,
-                }}
-              >
-                {item.text}
-              </p>
+              ))}
 
             </div>
 
           </div>
-        ))}
 
-      </div>
+          <div className="overflow-hidden rounded-[36px] border border-white/10 bg-[#070B16]">
 
-    </div>
-
-  </div>
-
-</section>
-{/* MODULE SYSTEMS */}
-<section className="relative overflow-hidden px-6 py-24 md:py-2">
-
-  <div className="mx-auto max-w-7xl">
-
-    <div className="mb-20 max-w-5xl">
-
-      <p className="mb-6 text-xs tracking-[0.35em] text-[#B58AF8]">
-        ENTERPRISE MODULE SYSTEMS
-      </p>
-
-      <h2
-        className="text-5xl text-white md:text-7xl"
-        style={{
-          lineHeight: 1,
-          fontWeight: 300,
-          letterSpacing: "-0.05em",
-        }}
-      >
-        Built as a
-        <br />
-
-        <span className="bg-gradient-to-r from-[#E7C38A] via-white to-[#8B5CF6] bg-clip-text text-transparent">
-          complete operational ecosystem.
-        </span>
-
-      </h2>
-
-    </div>
-
-    <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
-
-      {[
-        "POS & Operations",
-        "Payroll Engine",
-        "AI Marketing",
-        "Inventory Control",
-        "Accounting",
-        "Procurement",
-        "Production Systems",
-        "Multi-Location Control",
-      ].map((item) => (
-        <div
-          key={item}
-          className="group relative overflow-hidden rounded-[30px] border border-white/10 bg-white/[0.03] p-8 backdrop-blur-3xl transition duration-500 hover:border-[#8B5CF6]/30 hover:bg-white/[0.05]"
-        >
-
-          <div className="absolute inset-0 bg-gradient-to-br from-[#8B5CF6]/5 via-transparent to-[#D6A66A]/5 opacity-0 transition duration-500 group-hover:opacity-100" />
-
-          <div className="relative z-10">
-
-            <div className="mb-8 h-[1px] w-16 bg-gradient-to-r from-[#8B5CF6] to-transparent" />
-
-            <h3
-              className="text-white"
-              style={{
-                fontSize: "32px",
-                lineHeight: 1.05,
-                fontWeight: 300,
-                letterSpacing: "-0.03em",
-              }}
-            >
-              {item}
-            </h3>
+            <Image
+              src="/images/platform-security.png"
+              alt="Platform Security"
+              width={1400}
+              height={1000}
+              quality={100}
+              className="h-full w-full object-cover"
+            />
 
           </div>
 
         </div>
-      ))}
 
-    </div>
+      </section>
 
-  </div>
+      {/* OPERATIONAL FLOW */}
+      <section className="px-6 py-32">
 
-</section>
-{/* FINAL CTA */}
-<section className="relative overflow-hidden px-6 pb-32 pt-24 md:pb-40 md:pt-32">
+        <div className="mx-auto max-w-7xl">
 
-  <div className="absolute left-1/2 top-1/2 h-[1000px] w-[1000px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#8B5CF6]/10 blur-[220px]" />
+          <div className="text-center">
 
-  <div className="relative mx-auto max-w-6xl overflow-hidden rounded-[42px] border border-white/10 bg-white/[0.03] px-8 py-20 text-center backdrop-blur-3xl md:px-20 md:py-28">
+            <p className="mb-6 text-xs tracking-[0.35em] text-[#D6A66A]">
+              CROSS-MODULE OPERATIONAL FLOW
+            </p>
 
-    <div className="absolute inset-0 bg-gradient-to-br from-[#8B5CF6]/5 via-transparent to-[#D6A66A]/5" />
+            <h2 className="text-5xl font-light leading-[1.02] tracking-[-0.05em] md:text-7xl">
+              Every action
+              <br />
+              connected across
+              <br />
+              the business.
+            </h2>
 
-    <div className="relative z-10">
+          </div>
 
-      <p className="mb-8 text-xs tracking-[0.35em] text-[#B58AF8]">
-        ENTERPRISE TRANSFORMATION
-      </p>
+          <div className="mt-20 grid gap-6 md:grid-cols-5">
 
-      <h2
-        className="text-5xl text-white md:text-7xl"
-        style={{
-          lineHeight: 0.95,
-          fontWeight: 300,
-          letterSpacing: "-0.05em",
-        }}
-      >
-        Build the future
-        <br />
+            {[
+              "Operations",
+              "Inventory",
+              "Approvals",
+              "Accounting",
+              "Visibility",
+            ].map((step, index) => (
 
-        <span className="bg-gradient-to-r from-[#E7C38A] via-white to-[#8B5CF6] bg-clip-text text-transparent">
-          of enterprise operations.
-        </span>
+              <div
+                key={step}
+                className="rounded-[30px] border border-white/10 bg-[#070B16] p-8"
+              >
 
-      </h2>
+                <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-full border border-purple-500/30 bg-purple-500/10 text-lg">
+                  {index + 1}
+                </div>
 
-      <p
-        className="mx-auto mt-10 max-w-3xl text-white/50"
-        style={{
-          fontSize: "20px",
-          lineHeight: 1.9,
-        }}
-      >
-        Avantiqo transforms fragmented operational systems
-        into one intelligent enterprise infrastructure
-        designed for modern scalable organizations.
-      </p>
+                <h3 className="text-2xl font-light">
+                  {step}
+                </h3>
 
-      <div className="mt-14 flex flex-col items-center justify-center gap-0 sm:flex-row">
+                <p className="mt-5 text-sm leading-7 text-white/50">
+                  Connected automatically through the runtime.
+                </p>
 
-        <button className="rounded-full bg-gradient-to-r from-[#D6A66A] to-[#8B5CF6] px-10 py-5 text-lg font-medium text-white shadow-[0_20px_80px_rgba(139,92,246,0.35)] transition-all duration-300 hover:scale-[1.03]">
-          Book Enterprise Demo
-        </button>
+              </div>
 
-        <button className="rounded-full border border-white/10 bg-white/[0.03] px-10 py-5 text-lg font-medium text-white backdrop-blur-3xl transition-all duration-300 hover:bg-white/[0.06]">
-          Contact Enterprise Sales
-        </button>
+            ))}
 
-      </div>
+          </div>
 
-    </div>
+        </div>
 
-  </div>
+      </section>
 
-</section>
+      {/* CTA */}
+      <section className="px-6 py-32">
+
+        <div className="mx-auto max-w-5xl text-center">
+
+          <p className="mb-6 text-xs tracking-[0.35em] text-[#D6A66A]">
+            ENTERPRISE OPERATIONAL PLATFORM
+          </p>
+
+          <h2 className="text-5xl font-light leading-[1.02] tracking-[-0.05em] md:text-7xl">
+            One platform.
+            <br />
+            One operational runtime.
+            <br />
+            Total visibility.
+          </h2>
+
+          <p className="mx-auto mt-8 max-w-[760px] text-lg leading-8 text-white/60">
+            Connect departments, workflows, teams,
+            approvals and operations into one intelligent
+            enterprise operating system.
+          </p>
+
+          <div className="mt-12 flex flex-col items-center justify-center gap-4 sm:flex-row">
+
+            <Link
+              href="/demo"
+              className="rounded-[20px] bg-gradient-to-r from-[#D6A66A] to-[#8B5CF6] px-8 py-4 text-sm font-medium transition-all duration-500 hover:-translate-y-1"
+            >
+              Book Enterprise Demo
+            </Link>
+
+            <Link
+              href="/ai"
+              className="rounded-[20px] border border-white/10 bg-white/[0.04] px-8 py-4 text-sm text-white/70 transition-all duration-500 hover:border-purple-500/30"
+            >
+              Explore AI Runtime
+            </Link>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <Footer />
+
     </main>
-  )
+  );
 }

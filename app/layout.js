@@ -1,102 +1,51 @@
-import "./globals.css"
-import { Inter } from "next/font/google"
-import Navbar from "@/components/layout/Navbar"
-import Footer from "@/components/layout/Footer"
+import "./globals.css";
 
-const inter = Inter({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600"],
-  variable: "--font-inter",
-})
+import Navbar from "@/components/layout/Navbar";
 
 export const metadata = {
-  metadataBase: new URL("https://avantiqo.ai"),
-
-  title: "Avantiqo — AI Enterprise Operating System",
-
+  title: "Avantiqo",
   description:
-    "AI-powered enterprise operating system connecting operations, finance, workforce, marketing, automation and business intelligence into one scalable platform.",
+    "AI Enterprise Operating System",
+};
 
-  keywords: [
-    "AI operating system",
-    "enterprise AI",
-    "business automation",
-    "hospitality software",
-    "restaurant operating system",
-    "AI payroll",
-    "AI finance",
-    "AI marketing",
-    "enterprise infrastructure",
-    "AI workforce management",
-    "enterprise automation platform",
-    "hospitality AI infrastructure",
-  ],
-
-  alternates: {
-    canonical: "/",
-  },
-
-  robots: {
-    index: true,
-    follow: true,
-  },
-
-  icons: {
-    icon: "/favicon.ico",
-  },
-
-  openGraph: {
-    title: "Avantiqo — AI Enterprise Operating System",
-
-    description:
-      "Unified AI infrastructure for operations, finance, workforce, marketing and enterprise intelligence.",
-
-    url: "https://avantiqo.ai",
-
-    siteName: "Avantiqo",
-
-    images: [
-      {
-        url: "/seo/og-cover.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Avantiqo AI Enterprise Operating System",
-      },
-    ],
-
-    locale: "en_US",
-    type: "website",
-  },
-
-  twitter: {
-    card: "summary_large_image",
-
-    title: "Avantiqo — AI Enterprise Operating System",
-
-    description:
-      "Unified AI infrastructure for modern scalable organizations.",
-
-    images: ["/seo/og-cover.jpg"],
-  },
-
-}
-
-export const viewport = {
-  themeColor: "#02030A",
-}
-
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}) {
   return (
-    <html lang="en" className={inter.variable}>
-     <body className="bg-[#02030A] font-sans text-white antialiased">
+    <html lang="en">
+      <body className="bg-[#03030A] text-white">
 
-  <Navbar />
+        <ConditionalLayout>
+          {children}
+        </ConditionalLayout>
 
-  {children}
-
-  <Footer />
-
-</body>
+      </body>
     </html>
-  )
+  );
+}
+
+function ConditionalLayout({
+  children,
+}) {
+  if (
+    typeof window !==
+      "undefined" &&
+    (
+      window.location.pathname.startsWith(
+        "/workspace"
+      ) ||
+      window.location.pathname.startsWith(
+        "/admin"
+      )
+    )
+  ) {
+    return children;
+  }
+
+  return (
+    <>
+      <Navbar />
+      {children}
+    </>
+  );
 }
