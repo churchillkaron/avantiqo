@@ -63,18 +63,19 @@ export default function Navbar() {
 
         <Link
           href="/"
-          className="flex items-center gap-3"
+          className="flex items-center gap-5"
         >
 
           <Image
             src="/avantiqo-logo.png"
             alt="Avantiqo"
-            width={42}
-            height={42}
+            width={120}
+            height={120}
             priority
+            className="h-[72px] w-auto object-contain"
           />
 
-          <span className="text-lg font-light tracking-[0.25em] text-white">
+          <span className="text-xl font-light tracking-[0.28em] text-white">
             AVANTIQO
           </span>
 
@@ -92,6 +93,10 @@ export default function Navbar() {
 
           <Link href="/ai" className="text-sm text-white/70 hover:text-white">
             AI Runtime
+          </Link>
+
+          <Link href="/localization" className="text-sm text-white/70 hover:text-white">
+            Localization
           </Link>
 
           <Link href="/demo" className="text-sm text-white/70 hover:text-white">
