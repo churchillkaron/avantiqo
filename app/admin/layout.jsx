@@ -8,7 +8,7 @@ export default function PlatformLayout({
 
       <PlatformSidebar />
 
-      <main className="ml-[260px] min-h-screen px-4 md:px-10 pt-14 pb-12">
+      <main className="ml-[260px] min-h-screen px-10 pt-14 pb-12">
         {children}
       </main>
 

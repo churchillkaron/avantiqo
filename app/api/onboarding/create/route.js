@@ -1,42 +1,128 @@
+import { NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
+
+const supabase = createClient(
+  process.env.NEXT_PUBLIC_SUPABASE_URL,
+  process.env.SUPABASE_SERVICE_ROLE_KEY
+);
+
+function generateOrganizationId() {
+  return (
+    "ORG-" +
+    Math.random().toString(36).substring(2, 8).toUpperCase()
+  );
+}
 
 export async function POST(req) {
   try {
 
-    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-    const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+    const body = await req.json();
 
-    if (!supabaseUrl || !serviceRoleKey) {
-      return Response.json(
+    const organizationId = generateOrganizationId();
+
+    const {
+      company,
+      contact,
+      email,
+      phone,
+      website,
+      industry,
+      country,
+      city,
+      currency,
+      locations,
+      employees,
+      revenue,
+      challenges,
+      modules,
+      estimatedPrice,
+    } = body;
+
+    const { error: leadError } = await supabase
+      .from("organization_leads")
+      .insert({
+        organization_id: organizationId,
+        company,
+        contact,
+        email,
+        phone,
+        website,
+        industry,
+        country,
+        city,
+        currency,
+        locations,
+        employees,
+        revenue,
+        challenges,
+        estimated_monthly_price: estimatedPrice,
+      });
+
+    if (leadError) {
+      console.error(leadError);
+
+      return NextResponse.json(
         {
-          error: "Missing Supabase environment variables",
+          success: false,
+          error: leadError.message,
         },
         { status: 500 }
       );
     }
 
-    const supabase = createClient(
-      supabaseUrl,
-      serviceRoleKey
-    );
+    const moduleRows = [];
 
-    const body = await req.json();
+    Object.keys(modules).forEach((key) => {
 
-    return Response.json({
-      success: true,
-      message: "Route working",
-      body,
+      if (modules[key].enabled) {
+
+        moduleRows.push({
+          organization_id: organizationId,
+          module_key: key,
+          module_name: modules[key].name,
+          monthly_price: modules[key].price,
+          enabled: true,
+        });
+      }
     });
 
-  } catch (err) {
+    if (moduleRows.length > 0) {
 
-    return Response.json(
+      const { error: moduleError } = await supabase
+        .from("organization_modules")
+        .insert(moduleRows);
+
+      if (moduleError) {
+        console.error(moduleError);
+      }
+    }
+
+    const { error: deploymentError } = await supabase
+      .from("deployment_requests")
+      .insert({
+        organization_id: organizationId,
+        estimated_monthly_price: estimatedPrice,
+      });
+
+    if (deploymentError) {
+      console.error(deploymentError);
+    }
+
+    return NextResponse.json({
+      success: true,
+      organizationId,
+    });
+
+  } catch (error) {
+
+    console.error(error);
+
+    return NextResponse.json(
       {
-        error: "Server error",
-        details: err.message,
+        success: false,
+        error: "Server Error",
       },
       { status: 500 }
     );
-
   }
 }

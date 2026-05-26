@@ -713,7 +713,7 @@ setShowSuccessModal(true);
       <div className="fixed inset-0 bg-[linear-gradient(120deg,rgba(255,255,255,0.06),transparent_25%,rgba(255,255,255,0.03))]" />
 
       <div className="relative z-10 grid min-h-screen grid-cols-1 lg:grid-cols-[420px_1fr]">
-        <aside className="hidden border-r border-white/10 bg-black/30 p-4 md:p-8 backdrop-blur-xl lg:flex lg:flex-col lg:justify-between">
+        <aside className="hidden border-r border-white/10 bg-black/30 p-8 backdrop-blur-xl lg:flex lg:flex-col lg:justify-between">
           <div>
             <div className="mb-10">
               <div className="text-4xl font-black tracking-[0.22em] text-white">
@@ -766,7 +766,7 @@ setShowSuccessModal(true);
           </div>
         </aside>
 
-        <section className="flex min-h-screen flex-col p-5 md:p-4 md:p-8">
+        <section className="flex min-h-screen flex-col p-5 md:p-8">
           <header className="mb-6 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
             <div>
               <div className="text-xs uppercase tracking-[0.35em] text-[#d7b66a]">
@@ -811,7 +811,7 @@ setShowSuccessModal(true);
             })}
           </div>
 
-          <div className="flex-1 rounded-[2rem] border border-white/10 bg-black/40 p-5 shadow-2xl backdrop-blur-xl md:p-4 md:p-8">
+          <div className="flex-1 rounded-[2rem] border border-white/10 bg-black/40 p-5 shadow-2xl backdrop-blur-xl md:p-8">
             {step === 1 && (
   <StepBlock
     title="Business Verification"
@@ -1180,7 +1180,7 @@ setShowSuccessModal(true);
                 title="Global Configuration"
                 subtitle="Country controls currency, tax, locale, timezone and billing formatting automatically."
               >
-                <div className="grid grid-cols-1 gap-4 md:grid-cols-1 md:grid-cols-3">
+                <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
                   <InfoCard title="Country" value={country.name} />
                   <InfoCard title="Currency" value={`${country.currency} ${country.symbol}`} />
                   <InfoCard title="Timezone" value={country.timezone} />
@@ -1217,7 +1217,7 @@ setShowSuccessModal(true);
                       <div key={category} className="mb-6">
                         <h3 className="mb-3 text-lg font-semibold text-[#d7b66a]">{category}</h3>
 
-                        <div className="grid grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-1 md:grid-cols-3">
+                        <div className="grid grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-3">
                           {MODULES.filter((module) => module.category === category).map((module) => {
                             const active = selectedModules.includes(module.id);
                             const price = module.prices[country.currency] || 0;

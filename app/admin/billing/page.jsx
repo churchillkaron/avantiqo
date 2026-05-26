@@ -26,7 +26,7 @@ export default function BillingPage() {
   }
 
   return (
-    <main className="min-h-screen bg-[#050407] p-4 md:p-8 text-white">
+    <main className="min-h-screen bg-[#050407] p-8 text-white">
       <div className="mb-10">
         <div className="text-5xl font-bold">Billing Engine</div>
         <div className="mt-3 text-zinc-400">
@@ -37,7 +37,7 @@ export default function BillingPage() {
       {loading ? (
         <div className="text-zinc-500">Loading billing...</div>
       ) : subscriptions.length === 0 ? (
-        <div className="rounded-3xl border border-white/10 bg-white/5 p-4 md:p-8 text-zinc-400">
+        <div className="rounded-3xl border border-white/10 bg-white/5 p-8 text-zinc-400">
           No subscriptions created yet.
         </div>
       ) : (
@@ -67,7 +67,7 @@ export default function BillingPage() {
                 <Info label="Yearly" value={item.final_yearly_total} />
               </div>
 
-              <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-1 md:grid-cols-3">
+              <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-3">
                 <Info label="Subtotal" value={item.subtotal} />
                 <Info label="Discount" value={item.discount_total} />
                 <Info

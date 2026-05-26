@@ -15,7 +15,7 @@ export default function EnterprisePage() {
         <div className="relative mx-auto max-w-7xl">
 
           {/* TOP GRID */}
-          <div className="grid items-center gap-5 md:p-10 md:gap-20 lg:grid-cols-[1fr_0.85fr]">
+          <div className="grid items-center gap-20 lg:grid-cols-[1fr_0.85fr]">
 
             {/* LEFT */}
             <div className="max-w-5xl">
@@ -25,7 +25,7 @@ export default function EnterprisePage() {
               </p>
 
               <h1
-                className="text-5xl text-white sm:text-4xl md:text-6xl md:text-[96px]"
+                className="text-5xl text-white sm:text-6xl md:text-[96px]"
                 style={{
                   lineHeight: 0.95,
                   fontWeight: 300,
@@ -84,7 +84,7 @@ export default function EnterprisePage() {
       </section>
 
       {/* ENTERPRISE FEATURES */}
-      <section className="relative overflow-hidden px-6 py-24 md:py-20 md:py-32">
+      <section className="relative overflow-hidden px-6 py-24 md:py-32">
 
         <div className="mx-auto max-w-7xl">
 
@@ -109,7 +109,7 @@ export default function EnterprisePage() {
 
           </div>
 
-          <div className="grid gap-4 md:p-8 lg:grid-cols-2">
+          <div className="grid gap-8 lg:grid-cols-2">
 
             {[
               {
@@ -147,7 +147,7 @@ export default function EnterprisePage() {
             ].map((item) => (
               <div
                 key={item.title}
-                className="group relative overflow-hidden rounded-[34px] border border-white/10 bg-white/[0.03] p-5 md:p-10 backdrop-blur-3xl transition duration-500 hover:border-white/20 hover:bg-white/[0.05]"
+                className="group relative overflow-hidden rounded-[34px] border border-white/10 bg-white/[0.03] p-10 backdrop-blur-3xl transition duration-500 hover:border-white/20 hover:bg-white/[0.05]"
               >
 
                 <div className="absolute inset-0 bg-gradient-to-br from-[#8B5CF6]/0 via-transparent to-[#D6A66A]/0 opacity-0 transition duration-500 group-hover:opacity-100 group-hover:from-[#8B5CF6]/5 group-hover:to-[#D6A66A]/5" />

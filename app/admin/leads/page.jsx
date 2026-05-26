@@ -53,7 +53,7 @@ export default function LeadsPage() {
     }, [leads, filter]);
 
   return (
-    <main className="min-h-screen bg-[#050407] p-4 md:p-8 text-white">
+    <main className="min-h-screen bg-[#050407] p-8 text-white">
 
       <div className="mb-10">
 
@@ -93,7 +93,7 @@ export default function LeadsPage() {
           Loading leads...
         </div>
       ) : filteredLeads.length === 0 ? (
-        <div className="rounded-3xl border border-white/10 bg-white/5 p-5 md:p-10 text-zinc-400">
+        <div className="rounded-3xl border border-white/10 bg-white/5 p-10 text-zinc-400">
           No leads found.
         </div>
       ) : (
@@ -151,7 +151,7 @@ export default function LeadsPage() {
 
                 </div>
 
-                <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-1 md:grid-cols-3">
+                <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-3">
 
                   <Info
                     label="Billing"

@@ -23,7 +23,7 @@ export default function WorkspacePage() {
             </div>
 
             <h1
-              className="text-4xl md:text-7xl"
+              className="text-7xl"
               style={{
                 lineHeight: 0.9,
                 fontWeight: 250,
@@ -88,7 +88,7 @@ export default function WorkspacePage() {
           ].map((item) => (
             <div
               key={item.label}
-              className="relative overflow-hidden rounded-[34px] border border-white/10 bg-white/[0.03] p-4 md:p-8 backdrop-blur-3xl"
+              className="relative overflow-hidden rounded-[34px] border border-white/10 bg-white/[0.03] p-8 backdrop-blur-3xl"
             >
 
               <div className="absolute inset-0 bg-gradient-to-br from-[#8B5CF6]/10 via-transparent to-[#D6A66A]/10" />
@@ -117,13 +117,13 @@ export default function WorkspacePage() {
         </div>
 
         {/* MAIN GRID */}
-        <div className="mt-6 grid gap-6 xl:grid-cols-1 md:grid-cols-3">
+        <div className="mt-6 grid gap-6 xl:grid-cols-3">
 
           {/* LEFT */}
           <div className="xl:col-span-2 space-y-6">
 
             {/* LIVE OPERATIONS */}
-            <div className="relative overflow-hidden rounded-[38px] border border-white/10 bg-white/[0.03] p-5 md:p-10 backdrop-blur-3xl">
+            <div className="relative overflow-hidden rounded-[38px] border border-white/10 bg-white/[0.03] p-10 backdrop-blur-3xl">
 
               <div className="absolute inset-0 bg-gradient-to-br from-[#8B5CF6]/10 via-transparent to-[#D6A66A]/10" />
 
@@ -155,7 +155,7 @@ export default function WorkspacePage() {
 
                 </div>
 
-                <div className="grid gap-5 md:grid-cols-1 md:grid-cols-3">
+                <div className="grid gap-5 md:grid-cols-3">
 
                   {[
                     "POS Transactions",
@@ -192,7 +192,7 @@ export default function WorkspacePage() {
             </div>
 
             {/* AI INTELLIGENCE */}
-            <div className="relative overflow-hidden rounded-[38px] border border-white/10 bg-white/[0.03] p-5 md:p-10 backdrop-blur-3xl">
+            <div className="relative overflow-hidden rounded-[38px] border border-white/10 bg-white/[0.03] p-10 backdrop-blur-3xl">
 
               <div className="absolute inset-0 bg-gradient-to-br from-[#8B5CF6]/10 via-transparent to-[#D6A66A]/10" />
 
@@ -239,7 +239,7 @@ export default function WorkspacePage() {
           <div className="space-y-6">
 
             {/* ACTIVITY */}
-            <div className="relative overflow-hidden rounded-[38px] border border-white/10 bg-white/[0.03] p-4 md:p-8 backdrop-blur-3xl">
+            <div className="relative overflow-hidden rounded-[38px] border border-white/10 bg-white/[0.03] p-8 backdrop-blur-3xl">
 
               <div className="absolute inset-0 bg-gradient-to-br from-[#8B5CF6]/10 via-transparent to-[#D6A66A]/10" />
 
@@ -283,7 +283,7 @@ export default function WorkspacePage() {
             </div>
 
             {/* SYSTEMS */}
-            <div className="relative overflow-hidden rounded-[38px] border border-white/10 bg-white/[0.03] p-4 md:p-8 backdrop-blur-3xl">
+            <div className="relative overflow-hidden rounded-[38px] border border-white/10 bg-white/[0.03] p-8 backdrop-blur-3xl">
 
               <div className="absolute inset-0 bg-gradient-to-br from-[#8B5CF6]/10 via-transparent to-[#D6A66A]/10" />
 

@@ -35,7 +35,7 @@ export default function TenantsPage() {
   }
 
   return (
-    <main className="min-h-screen bg-[#050407] p-4 md:p-8 text-white">
+    <main className="min-h-screen bg-[#050407] p-8 text-white">
 
       <div className="mb-10">
 
@@ -56,7 +56,7 @@ export default function TenantsPage() {
           Loading tenants...
         </div>
       ) : tenants.length === 0 ? (
-        <div className="rounded-3xl border border-white/10 bg-white/5 p-5 md:p-10 text-zinc-400">
+        <div className="rounded-3xl border border-white/10 bg-white/5 p-10 text-zinc-400">
           No tenants provisioned.
         </div>
       ) : (

@@ -1,247 +1,211 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
-import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
+import {
+  useEffect,
+  useState,
+} from "react";
 
-import { useTranslation } from "@/lib/i18n/useTranslation";
-import { supabase } from "@/lib/supabase";
+import { createClient } from "@supabase/supabase-js";
 
-const locales = [
-  { code: "en", label: "EN" },
-  { code: "th", label: "TH" },
-  { code: "ru", label: "RU" },
-  { code: "zh", label: "中文" },
-];
+const supabase = createClient(
+  process.env.NEXT_PUBLIC_SUPABASE_URL,
+  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+);
 
 export default function Navbar() {
+  const [scrolled, setScrolled] =
+    useState(false);
 
-  const pathname = usePathname();
+  const [user, setUser] =
+    useState(null);
 
-  const [scrolled, setScrolled] = useState(false);
-  const [user, setUser] = useState(null);
-  const [mobileOpen, setMobileOpen] = useState(false);
+  const [profile, setProfile] =
+    useState(null);
 
-  const {
-    locale,
-    setLocale,
-    t,
-  } = useTranslation();
+  const pathname =
+    usePathname();
 
   useEffect(() => {
-
     const handleScroll = () => {
-      setScrolled(window.scrollY > 10);
+      setScrolled(
+        window.scrollY > 40
+      );
     };
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener(
+      "scroll",
+      handleScroll
+    );
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-
+    return () =>
+      window.removeEventListener(
+        "scroll",
+        handleScroll
+      );
   }, []);
 
   useEffect(() => {
+    loadUser();
+  }, []);
 
-    async function loadUser() {
+  async function loadUser() {
+    const {
+      data: { user },
+    } = await supabase.auth.getUser();
 
-      try {
+    if (!user) return;
 
-        const {
-          data: { user },
-        } = await supabase.auth.getUser();
+    setUser(user);
 
-        setUser(user);
+    const {
+      data: profileData,
+    } = await supabase
+      .from("tenant_users")
+      .select("*")
+      .eq(
+        "auth_user_id",
+        user.id
+      )
+      .single();
 
-      } catch (err) {
-        console.error(err);
-      }
+    setProfile(profileData);
+  }
 
+  async function logout() {
+    await supabase.auth.signOut();
+
+    window.location.href = "/";
+  }
+
+  function getDashboardLink() {
+    if (!profile)
+      return "/platform";
+
+    if (
+      profile.role ===
+        "super_admin" ||
+      profile.role ===
+        "admin"
+    ) {
+      return "/admin/dashboard";
     }
 
-    loadUser();
+    if (
+      profile.role ===
+      "finance"
+    ) {
+      return "/admin/billing";
+    }
 
-  }, []);
+    if (
+      profile.role ===
+      "support"
+    ) {
+      return "/admin/tenants";
+    }
+
+    return "/platform";
+  }
 
   return (
     <header
-      className={`fixed top-0 z-50 w-full transition-all duration-500 ${
+      className={`fixed left-0 top-0 z-50 w-full transition-all duration-500 ${
         scrolled
-          ? "border-b border-white/10 bg-black/70 backdrop-blur-xl"
+          ? "border-b border-white/10 bg-[#02030A]/70 backdrop-blur-3xl"
           : "bg-transparent"
       }`}
     >
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
 
         <Link
           href="/"
-          className="flex items-center gap-5"
+          className="relative flex items-center"
         >
-
-          <Image
-            src="/avantiqo-logo.png"
+          <img
+            src="/brand/avantiqo-logo1.png"
             alt="Avantiqo"
-            width={120}
-            height={120}
-            priority
-            className="h-[72px] w-auto object-contain"
+            className="h-[42px] w-auto object-contain md:h-[70px]"
           />
-
-          <span className="text-xl font-light tracking-[0.28em] text-white">
-            AVANTIQO
-          </span>
-
         </Link>
 
-        <nav className="hidden items-center gap-10 lg:flex">
+        <div className="hidden items-center gap-10 lg:flex">
 
-          <Link
-            href="/platform"
-            className={`text-sm transition ${
-              pathname === "/platform"
-                ? "text-white"
-                : "text-white/70 hover:text-white"
-            }`}
-          >
-            {t.platform}
+          <Link href="/">
+            Home
           </Link>
 
-          <Link
-            href="/industries"
-            className={`text-sm transition ${
-              pathname === "/industries"
-                ? "text-white"
-                : "text-white/70 hover:text-white"
-            }`}
-          >
-            {t.industries}
+          <Link href="/platform">
+            Architecture
           </Link>
 
-          <Link
-            href="/ai"
-            className={`text-sm transition ${
-              pathname === "/ai"
-                ? "text-white"
-                : "text-white/70 hover:text-white"
-            }`}
-          >
-            {t.aiRuntime}
+          <Link href="/ai">
+            AI
           </Link>
 
-          <Link
-            href="/demo"
-            className={`text-sm transition ${
-              pathname === "/demo"
-                ? "text-white"
-                : "text-white/70 hover:text-white"
-            }`}
-          >
-            {t.demo}
+          <Link href="/enterprise">
+            Enterprise
           </Link>
 
-        </nav>
+          <Link href="/industries">
+            Industries
+          </Link>
 
-        <div className="flex items-center gap-6">
+          <Link href="/demo">
+            Demo
+          </Link>
 
-          <div className="hidden items-center gap-3 lg:flex">
+          <Link href="/contact">
+            Contact
+          </Link>
 
-            {locales.map((item) => (
+        </div>
+
+        <div className="flex items-center gap-3">
+
+          {!user ? (
+            <>
+              <Link
+                href="/login"
+                className="hidden rounded-2xl border border-white/10 bg-white/[0.03] px-5 py-2 text-sm text-white/60 backdrop-blur-xl transition duration-300 hover:border-[#8B5CF6]/30 hover:bg-[#8B5CF6]/10 hover:text-white md:block"
+              >
+                Login
+              </Link>
+
+              <Link
+                href="/start"
+                className="rounded-2xl bg-gradient-to-r from-[#D6A66A] via-[#B98B57] to-[#8B5CF6] px-5 py-2 text-sm font-medium text-white shadow-[0_0_60px_rgba(168,85,247,.22)] transition duration-300 hover:scale-[1.02]"
+              >
+                Start Setup
+              </Link>
+            </>
+          ) : (
+            <>
+              <div className="hidden rounded-2xl border border-white/10 bg-white/[0.03] px-5 py-2 text-sm text-white/80 backdrop-blur-xl md:block">
+                {profile?.full_name ||
+                  user.email}
+              </div>
+
+              <Link
+                href={getDashboardLink()}
+                className="rounded-2xl border border-white/10 bg-white/[0.03] px-5 py-2 text-sm text-white backdrop-blur-xl transition duration-300 hover:border-[#8B5CF6]/30 hover:bg-[#8B5CF6]/10"
+              >
+                Dashboard
+              </Link>
 
               <button
-                key={item.code}
-                onClick={() => setLocale(item.code)}
-                className={`text-sm transition ${
-                  locale === item.code
-                    ? "text-[#D6A66A]"
-                    : "text-white/40 hover:text-white"
-                }`}
+                onClick={logout}
+                className="rounded-2xl bg-gradient-to-r from-[#D6A66A] via-[#B98B57] to-[#8B5CF6] px-5 py-2 text-sm font-medium text-white shadow-[0_0_60px_rgba(168,85,247,.22)] transition duration-300 hover:scale-[1.02]"
               >
-                {item.label}
+                Logout
               </button>
-
-            ))}
-
-          </div>
-
-          {user ? (
-            <Link
-              href="/workspace"
-              className="rounded-[14px] border border-white/10 bg-white/[0.05] px-5 py-2 text-sm text-white/80"
-            >
-              {t.workspace}
-            </Link>
-          ) : (
-            <Link
-              href="/login"
-              className="rounded-[14px] border border-white/10 bg-white/[0.05] px-5 py-2 text-sm text-white/80"
-            >
-              {t.login}
-            </Link>
+            </>
           )}
-
-          <button
-            onClick={() => setMobileOpen(!mobileOpen)}
-            className="flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-white lg:hidden"
-          >
-            ☰
-          </button>
-
-          <Link
-            href="/demo"
-            className="hidden rounded-[14px] bg-gradient-to-r from-[#D6A66A] to-[#8B5CF6] px-5 py-2 text-sm font-medium text-white lg:flex"
-          >
-            {t.bookDemo}
-          </Link>
 
         </div>
 
       </div>
-    
-      {mobileOpen && (
-        <div className="border-t border-white/10 bg-black/95 px-6 py-8 lg:hidden">
-          <div className="flex flex-col gap-6 text-lg">
-
-            <Link href="/platform" onClick={() => setMobileOpen(false)}>
-              {t.platform}
-            </Link>
-
-            <Link href="/industries" onClick={() => setMobileOpen(false)}>
-              {t.industries}
-            </Link>
-
-            <Link href="/ai" onClick={() => setMobileOpen(false)}>
-              {t.aiRuntime}
-            </Link>
-
-            <Link href="/demo" onClick={() => setMobileOpen(false)}>
-              {t.demo}
-            </Link>
-
-            <div className="mt-4 flex gap-4">
-              {locales.map((item) => (
-                <button
-                  key={item.code}
-                  onClick={() => {
-                    setLocale(item.code);
-                    setMobileOpen(false);
-                  }}
-                  className={`text-sm ${
-                    locale === item.code
-                      ? "text-[#D6A66A]"
-                      : "text-white/50"
-                  }`}
-                >
-                  {item.label}
-                </button>
-              ))}
-            </div>
-
-          </div>
-        </div>
-      )}
-
-</header>
+    </header>
   );
 }

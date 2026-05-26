@@ -102,7 +102,7 @@ export default function MultiBusinessPlatform() {
                <Image
   src={item.image}
   alt={item.title}
-  fill sizes="(max-width: 768px) 100vw, 50vw"
+  fill
   className="object-cover transition duration-700 group-hover:scale-105"
 />
 
