@@ -423,3 +423,19 @@ img {
 
   color: white;
 }
+:root {
+  --font-body: var(--font-inter);
+  --font-display: var(--font-space);
+}
+
+body {
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+.display-font {
+  font-family: var(--font-display);
+  letter-spacing: -0.04em;
+}

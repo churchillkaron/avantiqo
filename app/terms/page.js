@@ -60,10 +60,10 @@ export default function TermsPage() {
       {/* TERMS CONTENT */}
       <section className="relative overflow-hidden px-6 pb-24 md:pb-36">
 
-        <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[280px_1fr]">
+        <div className="mx-auto grid max-w-7xl gap-6 md:gap-8 lg:grid-cols-[280px_1fr]">
 
           {/* SIDEBAR */}
-          <div className="h-fit rounded-[34px] border border-white/10 bg-white/[0.03] p-8 backdrop-blur-3xl lg:sticky lg:top-32">
+          <div className="h-fit rounded-[34px] border border-white/[0.06] bg-white/[0.03] p-8 backdrop-blur-3xl lg:sticky lg:top-32">
 
             <p className="mb-8 text-xs tracking-[0.35em] text-[#B58AF8]">
               TERMS INDEX
@@ -142,7 +142,7 @@ export default function TermsPage() {
             ].map((section) => (
               <div
                 key={section.title}
-                className="overflow-hidden rounded-[34px] border border-white/10 bg-white/[0.03] p-10 backdrop-blur-3xl"
+                className="overflow-hidden rounded-[34px] border border-white/[0.06] bg-white/[0.03] p-6 md:p-10 backdrop-blur-3xl"
               >
 
                 <div className="mb-8 h-[1px] w-20 bg-gradient-to-r from-[#8B5CF6] to-transparent" />

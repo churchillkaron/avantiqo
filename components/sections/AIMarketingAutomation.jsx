@@ -45,13 +45,13 @@ export default function AIMarketingAutomation() {
         </div>
 
         {/* IMAGE */}
-        <div className="overflow-hidden rounded-[28px] border border-white/10 bg-white/[0.03] p-4 backdrop-blur-3xl md:rounded-[42px] md:p-8">
+        <div className="overflow-hidden rounded-[28px] border border-white/[0.06] bg-white/[0.03] p-4 backdrop-blur-3xl md:rounded-[42px] md:p-8">
          <Image
   src="/showcase/ai-marketing-automation.png"
   alt="AI marketing automation system"
   width={1600}
   height={900}
-  className="w-full rounded-[22px] border border-white/10 shadow-[0_40px_120px_rgba(0,0,0,0.9)] md:rounded-[34px]"
+  className="w-full rounded-[22px] border border-white/[0.06] shadow-[0_40px_120px_rgba(0,0,0,0.9)] md:rounded-[34px]"
 />
         </div>
 
@@ -77,7 +77,7 @@ export default function AIMarketingAutomation() {
           ].map((item) => (
             <div
               key={item.title}
-              className="rounded-[26px] border border-white/10 bg-white/[0.03] p-6 backdrop-blur-3xl md:rounded-[30px] md:p-8"
+              className="rounded-[26px] border border-white/[0.06] bg-white/[0.03] p-6 backdrop-blur-3xl md:rounded-[30px] md:p-8"
             >
               <h4
                 className="text-2xl text-white md:text-[28px]"

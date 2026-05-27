@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="relative overflow-hidden border-t border-white/10 bg-[#02030A] px-6 pt-24 pb-14">
+    <footer className="relative overflow-hidden border-t border-white/[0.08] bg-[#02030A] px-6 pt-24 pb-14">
 
       {/* TOP LIGHT LINE */}
       <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[#8B5CF6]/30 to-transparent" />
@@ -20,7 +20,7 @@ export default function Footer() {
       <div className="relative mx-auto max-w-7xl">
 
         {/* TOP */}
-        <div className="grid items-start gap-20 border-b border-white/10 pb-20 md:grid-cols-2 xl:grid-cols-4">
+        <div className="grid items-start gap-20 border-b border-white/[0.08] pb-20 md:grid-cols-2 xl:grid-cols-4">
 
           {/* BRAND */}
           <div>
@@ -158,31 +158,31 @@ export default function Footer() {
         {/* BOTTOM */}
         <div className="pt-10">
 
-          <div className="flex flex-col items-center justify-between gap-8 text-sm text-white/30 md:flex-row">
+          <div className="flex flex-col items-center justify-between gap-6 md:gap-8 text-sm text-white/30 md:flex-row">
 
             <p>
               © 2026 Avantiqo. All rights reserved.
             </p>
 
-            <div className="flex items-center gap-8">
+            <div className="flex items-center gap-6 md:gap-8">
 
               <a
                 href="/privacy"
-                className="transition duration-300 hover:text-white/60"
+                className="transition duration-300 hover:text-white/65"
               >
                 Privacy
               </a>
 
               <a
                 href="/terms"
-                className="transition duration-300 hover:text-white/60"
+                className="transition duration-300 hover:text-white/65"
               >
                 Terms
               </a>
 
               <a
                 href="/security"
-                className="transition duration-300 hover:text-white/60"
+                className="transition duration-300 hover:text-white/65"
               >
                 Security
               </a>

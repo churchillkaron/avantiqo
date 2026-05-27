@@ -99,7 +99,7 @@ export default function HotelsIndustryPage() {
               HOSPITALITY OPERATIONS
             </p>
 
-            <h1 className="text-6xl font-light leading-[0.92] tracking-[-0.07em] md:text-[92px]">
+            <h1 className="text-6xl font-normal leading-[1.0] tracking-[-0.045em] md:text-[92px]">
 
               Run hospitality
               <br />
@@ -109,7 +109,7 @@ export default function HotelsIndustryPage() {
 
             </h1>
 
-            <p className="mt-8 max-w-[620px] text-lg leading-8 text-white/60">
+            <p className="mt-8 max-w-[620px] text-[17px] leading-[1.9] text-white/50">
 
               Reservations, operations, accounting,
               housekeeping, procurement, payroll,
@@ -122,14 +122,14 @@ export default function HotelsIndustryPage() {
 
               <Link
                 href="/demo"
-                className="rounded-[20px] bg-gradient-to-r from-[#D6A66A] to-[#8B5CF6] px-8 py-4 text-sm font-medium transition-all duration-500 hover:-translate-y-1"
+                className="rounded-[22px] bg-gradient-to-r from-[#C6A062] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4 text-sm font-normal transition-all duration-300 ease-out hover:-translate-y-[2px]"
               >
                 Book Hospitality Demo
               </Link>
 
               <Link
                 href="/contact"
-                className="rounded-[20px] border border-white/10 bg-white/[0.04] px-8 py-4 text-sm text-white/70 transition-all duration-500 hover:border-purple-500/30"
+                className="rounded-[22px] border border-white/[0.06] bg-white/[0.03] px-6 py-3 md:px-8 md:py-4 text-sm text-white/50 transition-all duration-300 ease-out hover:border-purple-500/30"
               >
                 Talk To Enterprise Team
               </Link>
@@ -138,7 +138,7 @@ export default function HotelsIndustryPage() {
 
           </div>
 
-          <div className="relative overflow-hidden rounded-[36px] border border-white/10 bg-[#070B16] shadow-[0_0_50px_rgba(120,80,255,0.08)]">
+          <div className="relative overflow-hidden rounded-[36px] border border-white/[0.06] bg-[#060816] shadow-[0_0_50px_rgba(120,80,255,0.08)]">
 
             <Image
               src="/images/hotel-hero.png"
@@ -147,7 +147,7 @@ export default function HotelsIndustryPage() {
               height={1000}
               quality={100}
               priority
-              className="h-full w-full object-cover"
+              className="h-full w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
             />
 
           </div>
@@ -167,13 +167,13 @@ export default function HotelsIndustryPage() {
               BEFORE VS AFTER
             </p>
 
-            <h2 className="max-w-5xl text-5xl font-light leading-[1.02] tracking-[-0.05em] md:text-7xl">
+            <h2 className="max-w-5xl text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
               Replace disconnected hospitality operations with live visibility.
             </h2>
 
           </div>
 
-          <div className="grid gap-8 lg:grid-cols-2">
+          <div className="grid gap-6 md:gap-8 lg:grid-cols-2">
 
             <div className="overflow-hidden rounded-[32px] border border-red-500/10 bg-[#0A0A12]">
 
@@ -183,20 +183,20 @@ export default function HotelsIndustryPage() {
                 width={1200}
                 height={800}
                 quality={100}
-                className="h-[520px] w-full object-cover"
+                className="h-[520px] w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
               />
 
-              <div className="p-10">
+              <div className="p-6 md:p-10">
 
                 <p className="mb-5 text-sm tracking-[0.3em] text-red-400">
                   BEFORE
                 </p>
 
-                <h3 className="text-4xl font-light">
+                <h3 className="text-4xl font-normal">
                   Operational chaos
                 </h3>
 
-                <ul className="mt-8 space-y-4 text-white/60">
+                <ul className="mt-8 space-y-4 text-white/50">
 
                   <li>• Disconnected booking systems</li>
                   <li>• Paper approvals and manual reporting</li>
@@ -219,20 +219,20 @@ export default function HotelsIndustryPage() {
                 width={1200}
                 height={800}
                 quality={100}
-                className="h-[520px] w-full object-cover"
+                className="h-[520px] w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
               />
 
-              <div className="p-10">
+              <div className="p-6 md:p-10">
 
                 <p className="mb-5 text-sm tracking-[0.3em] text-emerald-400">
                   AFTER
                 </p>
 
-                <h3 className="text-4xl font-light">
+                <h3 className="text-4xl font-normal">
                   Live hospitality control
                 </h3>
 
-                <ul className="mt-8 space-y-4 text-white/60">
+                <ul className="mt-8 space-y-4 text-white/50">
 
                   <li>• Connected booking channels</li>
                   <li>• Live occupancy and financial visibility</li>
@@ -264,7 +264,7 @@ export default function HotelsIndustryPage() {
               HOSPITALITY RUNTIME
             </p>
 
-            <h2 className="max-w-5xl text-5xl font-light leading-[1.02] tracking-[-0.05em] md:text-7xl">
+            <h2 className="max-w-5xl text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
               Everything connected.
               <br />
               Everything visible.
@@ -272,13 +272,13 @@ export default function HotelsIndustryPage() {
 
           </div>
 
-          <div className="grid gap-8 md:grid-cols-2">
+          <div className="grid gap-6 md:gap-8 md:grid-cols-2">
 
             {hotelFeatures.map((item) => (
 
               <div
                 key={item.title}
-                className="overflow-hidden rounded-[32px] border border-white/10 bg-[#070B16] shadow-[0_0_40px_rgba(120,80,255,0.05)]"
+                className="overflow-hidden rounded-[32px] border border-white/[0.06] bg-[#060816] shadow-[0_0_40px_rgba(120,80,255,0.05)]"
               >
 
                 <Image
@@ -287,16 +287,16 @@ export default function HotelsIndustryPage() {
                   width={1200}
                   height={800}
                   quality={100}
-                  className="h-[380px] w-full object-cover"
+                  className="h-[380px] w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
                 />
 
                 <div className="p-8">
 
-                  <h3 className="text-3xl font-light">
+                  <h3 className="text-3xl font-normal">
                     {item.title}
                   </h3>
 
-                  <p className="mt-5 text-sm leading-7 text-white/60">
+                  <p className="mt-5 text-sm leading-7 text-white/50">
                     {item.description}
                   </p>
 
@@ -323,7 +323,7 @@ export default function HotelsIndustryPage() {
               WHY HOTEL GROUPS CHOOSE AVANTIQO
             </p>
 
-            <h2 className="max-w-5xl text-5xl font-light leading-[1.02] tracking-[-0.05em] md:text-7xl">
+            <h2 className="max-w-5xl text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
               Hospitality should operate live —
               not through disconnected systems.
             </h2>
@@ -336,7 +336,7 @@ export default function HotelsIndustryPage() {
 
               <div
                 key={item.title}
-                className="rounded-[32px] border border-white/10 bg-[#070B16]/90 p-10 transition-all duration-500 hover:-translate-y-1 hover:border-purple-500/30"
+                className="rounded-[32px] border border-white/[0.06] bg-[#060816]/90 p-6 md:p-10 transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-purple-500/30"
               >
 
                 <div className="mb-6 flex items-center gap-3">
@@ -349,11 +349,11 @@ export default function HotelsIndustryPage() {
 
                 </div>
 
-                <h3 className="mb-5 text-3xl font-light leading-tight text-white">
+                <h3 className="mb-5 text-3xl font-normal leading-tight text-white">
                   {item.title}
                 </h3>
 
-                <p className="text-[16px] leading-8 text-white/60">
+                <p className="text-[16px] leading-8 text-white/50">
                   {item.description}
                 </p>
 
@@ -376,7 +376,7 @@ export default function HotelsIndustryPage() {
             LIVE HOSPITALITY CONTROL
           </p>
 
-          <h2 className="text-5xl font-light leading-[1.02] tracking-[-0.05em] md:text-7xl">
+          <h2 className="text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
 
             One runtime.
             <br />
@@ -386,7 +386,7 @@ export default function HotelsIndustryPage() {
 
           </h2>
 
-          <p className="mx-auto mt-8 max-w-[760px] text-lg leading-8 text-white/60">
+          <p className="mx-auto mt-8 max-w-[760px] text-[17px] leading-[1.9] text-white/50">
 
             Replace fragmented hotel operations with one connected operational runtime.
 
@@ -396,7 +396,7 @@ export default function HotelsIndustryPage() {
 
             <Link
               href="/demo"
-              className="rounded-[20px] bg-gradient-to-r from-[#D6A66A] to-[#8B5CF6] px-8 py-4 text-sm font-medium transition-all duration-500 hover:-translate-y-1"
+              className="rounded-[22px] bg-gradient-to-r from-[#C6A062] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4 text-sm font-normal transition-all duration-300 ease-out hover:-translate-y-[2px]"
             >
               Book Hospitality Demo
             </Link>

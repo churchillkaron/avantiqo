@@ -60,7 +60,7 @@ export default function EnterpriseIntelligence() {
         </div>
 
         {/* MAIN DASHBOARD */}
-        <div className="overflow-hidden rounded-[42px] border border-white/10 bg-white/[0.03] backdrop-blur-3xl">
+        <div className="overflow-hidden rounded-[42px] border border-white/[0.06] bg-white/[0.03] backdrop-blur-3xl">
 
           {/* TOP */}
           <div className="flex items-center justify-between border-b border-white/5 px-10 py-7">
@@ -94,7 +94,7 @@ export default function EnterpriseIntelligence() {
           {/* IMAGE */}
           <div className="p-8">
 
-            <div className="relative overflow-hidden rounded-[32px] border border-white/10">
+            <div className="relative overflow-hidden rounded-[32px] border border-white/[0.06]">
 
               <div className="absolute inset-0 bg-gradient-to-tr from-[#8B5CF6]/10 via-transparent to-[#D6A66A]/10" />
 
@@ -103,7 +103,7 @@ export default function EnterpriseIntelligence() {
   alt="Enterprise intelligence dashboard"
   width={1600}
   height={900}
-  className="relative z-10 w-full object-cover"
+  className="relative z-10 w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
 />
 
             </div>
@@ -135,7 +135,7 @@ export default function EnterpriseIntelligence() {
           ].map((item) => (
             <div
               key={item.title}
-              className="rounded-[30px] border border-white/10 bg-white/[0.03] p-8 backdrop-blur-3xl"
+              className="rounded-[30px] border border-white/[0.06] bg-white/[0.03] p-8 backdrop-blur-3xl"
             >
 
               <h4

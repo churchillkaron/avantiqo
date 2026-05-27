@@ -50,7 +50,7 @@ export default function EnterpriseAIWorkforce() {
         </div>
 
         {/* MAIN GRID */}
-        <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
+        <div className="grid gap-6 md:gap-8 lg:grid-cols-[0.9fr_1.1fr]">
           {/* LEFT SIDE */}
           <div className="space-y-5 md:space-y-6">
             {[
@@ -73,7 +73,7 @@ export default function EnterpriseAIWorkforce() {
             ].map((item) => (
               <div
                 key={item.title}
-                className="rounded-[26px] border border-white/10 bg-white/[0.03] p-6 backdrop-blur-3xl md:rounded-[32px] md:p-8"
+                className="rounded-[26px] border border-white/[0.06] bg-white/[0.03] p-6 backdrop-blur-3xl md:rounded-[32px] md:p-8"
               >
                 <h3
                   className="text-2xl text-white md:text-[32px]"
@@ -101,15 +101,15 @@ export default function EnterpriseAIWorkforce() {
           </div>
 
           {/* RIGHT SIDE */}
-          <div className="overflow-hidden rounded-[30px] border border-white/10 bg-white/[0.03] p-4 backdrop-blur-3xl md:rounded-[42px] md:p-8">
-            <div className="relative overflow-hidden rounded-[24px] border border-white/10 md:rounded-[32px]">
+          <div className="overflow-hidden rounded-[30px] border border-white/[0.06] bg-white/[0.03] p-4 backdrop-blur-3xl md:rounded-[42px] md:p-8">
+            <div className="relative overflow-hidden rounded-[24px] border border-white/[0.06] md:rounded-[32px]">
               <div className="absolute inset-0 bg-gradient-to-tr from-[#8B5CF6]/10 via-transparent to-[#D6A66A]/10" />
               <Image
   src="/showcase/ai-workforce-dashboard.png"
   alt="AI Workforce Dashboard"
   width={1600}
   height={900}
-  className="relative z-10 w-full object-cover"
+  className="relative z-10 w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
 />
             </div>
           </div>
@@ -137,7 +137,7 @@ export default function EnterpriseAIWorkforce() {
           ].map((item) => (
             <div
               key={item.title}
-              className="rounded-[26px] border border-white/10 bg-white/[0.03] p-6 backdrop-blur-3xl md:rounded-[30px] md:p-8"
+              className="rounded-[26px] border border-white/[0.06] bg-white/[0.03] p-6 backdrop-blur-3xl md:rounded-[30px] md:p-8"
             >
               <h4
                 className="text-4xl text-white md:text-[52px]"

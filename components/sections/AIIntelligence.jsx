@@ -104,7 +104,7 @@ export default function AIIntelligence() {
             ].map((item) => (
               <div
                 key={item.label}
-                className="rounded-[26px] border border-white/10 bg-white/[0.03] p-6 backdrop-blur-3xl md:rounded-[30px] md:p-8"
+                className="rounded-[26px] border border-white/[0.06] bg-white/[0.03] p-6 backdrop-blur-3xl md:rounded-[30px] md:p-8"
               >
                 <p className="text-xs tracking-[0.35em] text-[#B58AF8]">
                   {item.label}

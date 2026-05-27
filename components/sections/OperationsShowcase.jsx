@@ -48,8 +48,8 @@ export default function OperationsShowcase() {
         </div>
 
         {/* POS */}
-        <div className="mb-10 overflow-hidden rounded-[28px] border border-white/10 bg-white/[0.03] backdrop-blur-3xl md:mb-16 md:rounded-[40px]">
-          <div className="grid items-center gap-8 lg:grid-cols-[0.8fr_1.2fr] lg:gap-12">
+        <div className="mb-10 overflow-hidden rounded-[28px] border border-white/[0.06] bg-white/[0.03] backdrop-blur-3xl md:mb-16 md:rounded-[40px]">
+          <div className="grid items-center gap-6 md:gap-8 lg:grid-cols-[0.8fr_1.2fr] lg:gap-12">
             <div className="p-6 md:p-12">
               <p className="mb-5 text-xs tracking-[0.35em] text-[#B58AF8]">
                 POINT OF SALE
@@ -88,16 +88,16 @@ export default function OperationsShowcase() {
   alt="Avantiqo POS"
   width={1600}
   height={900}
-  className="w-full rounded-[32px] border border-white/10"
+  className="w-full rounded-[32px] border border-white/[0.06]"
 />
             </div>
           </div>
         </div>
 
         {/* GRID */}
-        <div className="grid gap-6 lg:grid-cols-2 lg:gap-10">
+        <div className="grid gap-6 lg:grid-cols-2 lg:gap-8 md:gap-6 md:p-10">
           {/* KITCHEN */}
-          <div className="overflow-hidden rounded-[28px] border border-white/10 bg-white/[0.03] backdrop-blur-3xl md:rounded-[36px]">
+          <div className="overflow-hidden rounded-[28px] border border-white/[0.06] bg-white/[0.03] backdrop-blur-3xl md:rounded-[36px]">
            <Image
   src="/showcase/avantiqo-kitchen.png"
   alt="Kitchen flow"
@@ -106,7 +106,7 @@ export default function OperationsShowcase() {
   className="w-full"
 />
 
-            <div className="p-6 md:p-10">
+            <div className="p-6 md:p-6 md:p-10">
               <p className="mb-4 text-xs tracking-[0.35em] text-[#B58AF8]">
                 KITCHEN FLOW
               </p>
@@ -140,7 +140,7 @@ export default function OperationsShowcase() {
           </div>
 
           {/* PRODUCTION */}
-          <div className="overflow-hidden rounded-[28px] border border-white/10 bg-white/[0.03] backdrop-blur-3xl md:rounded-[36px]">
+          <div className="overflow-hidden rounded-[28px] border border-white/[0.06] bg-white/[0.03] backdrop-blur-3xl md:rounded-[36px]">
             <Image
   src="/showcase/avantiqo-production.png"
   alt="Production intelligence"
@@ -149,7 +149,7 @@ export default function OperationsShowcase() {
   className="w-full"
 />
 
-            <div className="p-6 md:p-10">
+            <div className="p-6 md:p-6 md:p-10">
               <p className="mb-4 text-xs tracking-[0.35em] text-[#B58AF8]">
                 PRODUCTION ENGINE
               </p>
@@ -184,8 +184,8 @@ export default function OperationsShowcase() {
         </div>
 
         {/* SHIFT CLOSE */}
-        <div className="mt-10 overflow-hidden rounded-[28px] border border-white/10 bg-white/[0.03] backdrop-blur-3xl md:mt-16 md:rounded-[40px]">
-          <div className="grid items-center gap-8 lg:grid-cols-[1.2fr_0.8fr] lg:gap-12">
+        <div className="mt-10 overflow-hidden rounded-[28px] border border-white/[0.06] bg-white/[0.03] backdrop-blur-3xl md:mt-16 md:rounded-[40px]">
+          <div className="grid items-center gap-6 md:gap-8 lg:grid-cols-[1.2fr_0.8fr] lg:gap-12">
             <div className="p-4 md:p-8">
             <Image
   src="/showcase/avantiqo-closeshift.png"

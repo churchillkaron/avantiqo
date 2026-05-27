@@ -713,7 +713,7 @@ setShowSuccessModal(true);
       <div className="fixed inset-0 bg-[linear-gradient(120deg,rgba(255,255,255,0.06),transparent_25%,rgba(255,255,255,0.03))]" />
 
       <div className="relative z-10 grid min-h-screen grid-cols-1 lg:grid-cols-[420px_1fr]">
-        <aside className="hidden border-r border-white/10 bg-black/30 p-8 backdrop-blur-xl lg:flex lg:flex-col lg:justify-between">
+        <aside className="hidden border-r border-white/[0.08] bg-black/30 p-8 backdrop-blur-xl lg:flex lg:flex-col lg:justify-between">
           <div>
             <div className="mb-10">
               <div className="text-4xl font-black tracking-[0.22em] text-white">
@@ -724,7 +724,7 @@ setShowSuccessModal(true);
               </div>
             </div>
 
-            <div className="rounded-[2rem] border border-white/10 bg-white/[0.06] p-6 shadow-2xl">
+            <div className="rounded-[2rem] border border-white/[0.06] bg-white/[0.06] p-6 shadow-2xl">
               <div className="mb-4 text-sm uppercase tracking-[0.24em] text-zinc-400">
                 Infrastructure Preview
               </div>
@@ -746,7 +746,7 @@ setShowSuccessModal(true);
               </div>
             </div>
 
-            <div className="mt-6 rounded-[2rem] border border-white/10 bg-black/40 p-6">
+            <div className="mt-6 rounded-[2rem] border border-white/[0.06] bg-black/40 p-6">
               <div className="text-sm text-zinc-500">Organization</div>
               <div className="mt-2 text-xl font-semibold">
                 {operatingName || legalCompanyName || "Not set"}
@@ -777,7 +777,7 @@ setShowSuccessModal(true);
               </h1>
             </div>
 
-            <div className="rounded-3xl border border-white/10 bg-white/[0.06] px-6 py-4 backdrop-blur-xl">
+            <div className="rounded-3xl border border-white/[0.06] bg-white/[0.06] px-6 py-4 backdrop-blur-xl">
               <div className="text-xs text-zinc-400">Estimated Monthly</div>
               <div className="text-2xl font-bold">{formatMoney(finalMonthlyTotal)}</div>
               <div className="text-xs text-[#d7b66a]">
@@ -801,7 +801,7 @@ setShowSuccessModal(true);
                       ? "border-[#d7b66a] bg-[#d7b66a] text-black"
                       : done
                       ? "border-emerald-400/40 bg-emerald-400/10 text-white"
-                      : "border-white/10 bg-white/[0.04] text-zinc-400"
+                      : "border-white/[0.08] bg-white/[0.03] text-zinc-400"
                   }`}
                 >
                   <div className="font-bold">0{number}</div>
@@ -811,7 +811,7 @@ setShowSuccessModal(true);
             })}
           </div>
 
-          <div className="flex-1 rounded-[2rem] border border-white/10 bg-black/40 p-5 shadow-2xl backdrop-blur-xl md:p-8">
+          <div className="flex-1 rounded-[2rem] border border-white/[0.06] bg-black/40 p-5 shadow-2xl backdrop-blur-xl md:p-8">
             {step === 1 && (
   <StepBlock
     title="Business Verification"
@@ -978,7 +978,7 @@ setShowSuccessModal(true);
       </div>
     )}
 
-    <div className="mt-6 rounded-3xl border border-white/10 bg-black/40 p-6">
+    <div className="mt-6 rounded-3xl border border-white/[0.06] bg-black/40 p-6">
 
   <div className="mb-4">
     <div className="text-xl font-bold text-white">
@@ -1031,7 +1031,7 @@ setShowSuccessModal(true);
 
 </div>
 
-    <div className="mt-6 rounded-3xl border border-white/10 bg-black/40 p-6">
+    <div className="mt-6 rounded-3xl border border-white/[0.06] bg-black/40 p-6">
 
       <div className="mb-4">
         <div className="text-xl font-bold text-white">
@@ -1167,7 +1167,7 @@ setShowSuccessModal(true);
 
                 <div className="mt-6 grid grid-cols-2 gap-3 md:grid-cols-4">
                   {CORE_PLATFORM.map((item) => (
-                    <div key={item} className="rounded-2xl border border-white/10 bg-white/[0.04] p-4 text-sm text-zinc-300">
+                    <div key={item} className="rounded-2xl border border-white/[0.06] bg-white/[0.03] p-4 text-sm text-zinc-300">
                       {item}
                     </div>
                   ))}
@@ -1206,7 +1206,7 @@ setShowSuccessModal(true);
                 <div className="grid grid-cols-1 gap-5 xl:grid-cols-[220px_1fr]">
                   <div className="space-y-2">
                     {categories.map((category) => (
-                      <div key={category} className="rounded-2xl border border-white/10 bg-white/[0.04] px-4 py-3 text-sm">
+                      <div key={category} className="rounded-2xl border border-white/[0.06] bg-white/[0.03] px-4 py-3 text-sm">
                         {category}
                       </div>
                     ))}
@@ -1229,7 +1229,7 @@ setShowSuccessModal(true);
                                 className={`rounded-2xl border p-4 text-left transition ${
                                   active
                                     ? "border-[#d7b66a] bg-[#d7b66a] text-black"
-                                    : "border-white/10 bg-black/40 hover:border-[#d7b66a]/60"
+                                    : "border-white/[0.08] bg-black/40 hover:border-[#d7b66a]/60"
                                 }`}
                               >
                                 <div className="flex items-start justify-between gap-3">
@@ -1282,7 +1282,7 @@ setShowSuccessModal(true);
                   <InfoCard title="Yearly" value={formatMoney(finalYearlyTotal)} />
                 </div>
 
-                <div className="mt-6 rounded-3xl border border-white/10 bg-black/40 p-6">
+                <div className="mt-6 rounded-3xl border border-white/[0.06] bg-black/40 p-6">
                   <div className="mb-4 text-lg font-bold">Final Setup Summary</div>
                   <div className="grid grid-cols-1 gap-3 text-sm text-zinc-300 md:grid-cols-2">
                     <div>Legal Company: {legalCompanyName || "-"}</div>
@@ -1298,7 +1298,7 @@ setShowSuccessModal(true);
               </StepBlock>
             )}
 
-            <div className="mt-6 flex items-center justify-between border-t border-white/10 pt-5">
+            <div className="mt-6 flex items-center justify-between border-t border-white/[0.08] pt-5">
               <button onClick={previousStep} disabled={step === 1} className="secondaryButton">
                 Back
               </button>
@@ -1408,7 +1408,7 @@ function Field({ label, children }) {
 
 function InfoCard({ title, value }) {
   return (
-    <div className="rounded-2xl border border-white/10 bg-white/[0.04] p-5">
+    <div className="rounded-2xl border border-white/[0.06] bg-white/[0.03] p-5">
       <div className="mb-2 text-xs uppercase tracking-[0.18em] text-zinc-500">
         {title}
       </div>
@@ -1419,7 +1419,7 @@ function InfoCard({ title, value }) {
 
 function SummaryMini({ title, value }) {
   return (
-    <div className="rounded-2xl border border-white/10 bg-white/[0.04] p-3">
+    <div className="rounded-2xl border border-white/[0.06] bg-white/[0.03] p-3">
       <div className="text-xs text-zinc-500">{title}</div>
       <div className="mt-1 truncate text-sm font-semibold">{value}</div>
     </div>
@@ -1433,7 +1433,7 @@ function ToggleCard({ title, active, onClick }) {
       className={`rounded-2xl border p-5 text-left transition ${
         active
           ? "border-[#d7b66a] bg-[#d7b66a] text-black"
-          : "border-white/10 bg-white/[0.04] text-white"
+          : "border-white/[0.08] bg-white/[0.03] text-white"
       }`}
     >
       <div className="font-bold">{title}</div>

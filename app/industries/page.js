@@ -55,7 +55,7 @@ export default function IndustriesPage() {
               INDUSTRY OPERATING RUNTIMES
             </p>
 
-            <h1 className="text-6xl font-light leading-[0.92] tracking-[-0.07em] md:text-[92px]">
+            <h1 className="text-6xl font-normal leading-[1.0] tracking-[-0.045em] md:text-[92px]">
               One operational runtime.
               <br />
               Multiple industries.
@@ -63,7 +63,7 @@ export default function IndustriesPage() {
               Complete visibility.
             </h1>
 
-            <p className="mt-8 max-w-[760px] text-lg leading-8 text-white/60">
+            <p className="mt-8 max-w-[760px] text-[17px] leading-[1.9] text-white/50">
               Avantiqo connects operations, approvals, finance,
               documents, payroll, procurement, marketing and live
               business visibility into one connected enterprise runtime.
@@ -80,14 +80,14 @@ export default function IndustriesPage() {
 
         <div className="mx-auto max-w-7xl">
 
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
+          <div className="grid grid-cols-1 gap-6 md:gap-8 md:grid-cols-2">
 
             {industries.map((industry) => (
 
               <Link
                 key={industry.title}
                 href={industry.href}
-                className="group overflow-hidden rounded-[36px] border border-white/10 bg-[#070B16] transition-all duration-500 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_0_60px_rgba(120,80,255,0.12)]"
+                className="group overflow-hidden rounded-[36px] border border-white/[0.06] bg-[#060816] transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-purple-500/30 hover:shadow-[0_0_60px_rgba(120,80,255,0.12)]"
               >
 
                 <div className="relative overflow-hidden">
@@ -98,14 +98,14 @@ export default function IndustriesPage() {
                     width={1400}
                     height={900}
                     quality={100}
-                    className="h-[420px] w-full object-cover transition-all duration-700 group-hover:scale-[1.03]"
+                    className="h-[420px] w-full object-cover transition-transform duration-700 hover:scale-[1.02] transition-all duration-700 group-hover:scale-[1.03]"
                   />
 
                   <div className="absolute inset-0 bg-gradient-to-t from-[#04050B] via-transparent to-transparent" />
 
                 </div>
 
-                <div className="p-10">
+                <div className="p-6 md:p-10">
 
                   <div className="mb-5 flex items-center gap-3">
 
@@ -117,11 +117,11 @@ export default function IndustriesPage() {
 
                   </div>
 
-                  <h2 className="text-4xl font-light tracking-[-0.03em]">
+                  <h2 className="text-4xl font-normal tracking-[-0.02em]">
                     {industry.title}
                   </h2>
 
-                  <p className="mt-6 max-w-[580px] text-[16px] leading-8 text-white/60">
+                  <p className="mt-6 max-w-[580px] text-[16px] leading-8 text-white/50">
                     {industry.description}
                   </p>
 
@@ -156,7 +156,7 @@ export default function IndustriesPage() {
             ENTERPRISE OPERATIONS
           </p>
 
-          <h2 className="text-5xl font-light leading-[1.02] tracking-[-0.05em] md:text-7xl">
+          <h2 className="text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
             Everything connected.
             <br />
             Everything visible.
@@ -164,7 +164,7 @@ export default function IndustriesPage() {
             One runtime.
           </h2>
 
-          <p className="mx-auto mt-8 max-w-[760px] text-lg leading-8 text-white/60">
+          <p className="mx-auto mt-8 max-w-[760px] text-[17px] leading-[1.9] text-white/50">
             Replace fragmented software, disconnected teams and delayed reporting
             with one connected operational system built for modern businesses.
           </p>
@@ -173,14 +173,14 @@ export default function IndustriesPage() {
 
             <Link
               href="/demo"
-              className="rounded-[20px] bg-gradient-to-r from-[#D6A66A] to-[#8B5CF6] px-8 py-4 text-sm font-medium transition-all duration-500 hover:-translate-y-1"
+              className="rounded-[22px] bg-gradient-to-r from-[#C6A062] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4 text-sm font-normal transition-all duration-300 ease-out hover:-translate-y-[2px]"
             >
               Book Enterprise Demo
             </Link>
 
             <Link
               href="/platform"
-              className="rounded-[20px] border border-white/10 bg-white/[0.04] px-8 py-4 text-sm text-white/70 transition-all duration-500 hover:border-purple-500/30"
+              className="rounded-[22px] border border-white/[0.06] bg-white/[0.03] px-6 py-3 md:px-8 md:py-4 text-sm text-white/50 transition-all duration-300 ease-out hover:border-purple-500/30"
             >
               Explore Platform
             </Link>

@@ -63,7 +63,7 @@ export default function AIPage() {
               AVANTIQO AI RUNTIME
             </p>
 
-            <h1 className="text-6xl font-light leading-[0.92] tracking-[-0.07em] md:text-[92px]">
+            <h1 className="text-6xl font-normal leading-[1.0] tracking-[-0.045em] md:text-[92px]">
               AI that understands
               <br />
               how the business
@@ -71,7 +71,7 @@ export default function AIPage() {
               operates.
             </h1>
 
-            <p className="mt-8 max-w-[680px] text-lg leading-8 text-white/60">
+            <p className="mt-8 max-w-[680px] text-[17px] leading-[1.9] text-white/50">
               Avantiqo AI connects documents, operations, approvals,
               finance, procurement, payroll, marketing and live business
               visibility into one intelligent operational runtime.
@@ -81,14 +81,14 @@ export default function AIPage() {
 
               <Link
                 href="/demo"
-                className="rounded-[20px] bg-gradient-to-r from-[#D6A66A] to-[#8B5CF6] px-8 py-4 text-sm font-medium transition-all duration-500 hover:-translate-y-1"
+                className="rounded-[22px] bg-gradient-to-r from-[#C6A062] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4 text-sm font-normal transition-all duration-300 ease-out hover:-translate-y-[2px]"
               >
                 Book AI Demo
               </Link>
 
               <Link
                 href="/industries"
-                className="rounded-[20px] border border-white/10 bg-white/[0.04] px-8 py-4 text-sm text-white/70 transition-all duration-500 hover:border-purple-500/30"
+                className="rounded-[22px] border border-white/[0.06] bg-white/[0.03] px-6 py-3 md:px-8 md:py-4 text-sm text-white/50 transition-all duration-300 ease-out hover:border-purple-500/30"
               >
                 Explore Industries
               </Link>
@@ -97,7 +97,7 @@ export default function AIPage() {
 
           </div>
 
-          <div className="relative overflow-hidden rounded-[36px] border border-white/10 bg-[#070B16] shadow-[0_0_50px_rgba(120,80,255,0.08)]">
+          <div className="relative overflow-hidden rounded-[36px] border border-white/[0.06] bg-[#060816] shadow-[0_0_50px_rgba(120,80,255,0.08)]">
 
             <Image
               src="/images/ai-hero-runtime.png"
@@ -106,7 +106,7 @@ export default function AIPage() {
               height={1000}
               quality={100}
               priority
-              className="h-full w-full object-cover"
+              className="h-full w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
             />
 
           </div>
@@ -124,13 +124,13 @@ export default function AIPage() {
             AI OPERATIONAL INTELLIGENCE
           </p>
 
-          <h2 className="text-5xl font-light leading-[1.02] tracking-[-0.05em] md:text-7xl">
+          <h2 className="text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
             More than automation.
             <br />
             Operational intelligence.
           </h2>
 
-          <p className="mx-auto mt-10 max-w-[900px] text-lg leading-9 text-white/60">
+          <p className="mx-auto mt-10 max-w-[900px] text-lg leading-9 text-white/50">
             Avantiqo AI is not a chatbot layer. It is a live operational
             intelligence engine connected to documents, approvals,
             accounting, procurement, payroll, hospitality, construction,
@@ -146,13 +146,13 @@ export default function AIPage() {
 
         <div className="mx-auto max-w-7xl">
 
-          <div className="grid gap-8 md:grid-cols-2">
+          <div className="grid gap-6 md:gap-8 md:grid-cols-2">
 
             {aiSystems.map((item) => (
 
               <div
                 key={item.title}
-                className="overflow-hidden rounded-[36px] border border-white/10 bg-[#070B16] transition-all duration-500 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_0_60px_rgba(120,80,255,0.10)]"
+                className="overflow-hidden rounded-[36px] border border-white/[0.06] bg-[#060816] transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-purple-500/30 hover:shadow-[0_0_60px_rgba(120,80,255,0.10)]"
               >
 
                 <Image
@@ -161,10 +161,10 @@ export default function AIPage() {
                   width={1400}
                   height={900}
                   quality={100}
-                  className="h-[420px] w-full object-cover"
+                  className="h-[420px] w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
                 />
 
-                <div className="p-10">
+                <div className="p-6 md:p-10">
 
                   <div className="mb-5 flex items-center gap-3">
 
@@ -176,11 +176,11 @@ export default function AIPage() {
 
                   </div>
 
-                  <h3 className="text-4xl font-light tracking-[-0.03em]">
+                  <h3 className="text-4xl font-normal tracking-[-0.02em]">
                     {item.title}
                   </h3>
 
-                  <p className="mt-6 text-[16px] leading-8 text-white/60">
+                  <p className="mt-6 text-[16px] leading-8 text-white/50">
                     {item.description}
                   </p>
 
@@ -205,13 +205,13 @@ export default function AIPage() {
             HUMAN + AI OPERATIONS
           </p>
 
-          <h2 className="text-5xl font-light leading-[1.02] tracking-[-0.05em] md:text-7xl">
+          <h2 className="text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
             AI does not replace teams.
             <br />
             It removes operational overload.
           </h2>
 
-          <p className="mx-auto mt-10 max-w-[860px] text-lg leading-9 text-white/60">
+          <p className="mx-auto mt-10 max-w-[860px] text-lg leading-9 text-white/50">
             Avantiqo AI helps businesses reduce manual paperwork,
             disconnected systems, delayed approvals and operational chaos —
             while keeping people in control of decisions, approvals and
@@ -231,7 +231,7 @@ export default function AIPage() {
             CONNECTED AI OPERATIONS
           </p>
 
-          <h2 className="text-5xl font-light leading-[1.02] tracking-[-0.05em] md:text-7xl">
+          <h2 className="text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
             One intelligent runtime
             <br />
             connected to the
@@ -239,7 +239,7 @@ export default function AIPage() {
             entire business.
           </h2>
 
-          <p className="mx-auto mt-8 max-w-[760px] text-lg leading-8 text-white/60">
+          <p className="mx-auto mt-8 max-w-[760px] text-[17px] leading-[1.9] text-white/50">
             Replace disconnected tools and manual workflows with one AI-powered operational system built for modern businesses.
           </p>
 
@@ -247,7 +247,7 @@ export default function AIPage() {
 
             <Link
               href="/demo"
-              className="rounded-[20px] bg-gradient-to-r from-[#D6A66A] to-[#8B5CF6] px-8 py-4 text-sm font-medium transition-all duration-500 hover:-translate-y-1"
+              className="rounded-[22px] bg-gradient-to-r from-[#C6A062] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4 text-sm font-normal transition-all duration-300 ease-out hover:-translate-y-[2px]"
             >
               Book Enterprise Demo
             </Link>

@@ -111,9 +111,9 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed left-0 top-0 z-50 w-full transition-all duration-500 ${
+      className={`fixed left-0 top-0 z-50 w-full transition-all duration-300 ease-out ${
         scrolled
-          ? "border-b border-white/10 bg-[#02030A]/70 backdrop-blur-3xl"
+          ? "border-b border-white/[0.08] bg-[#02030A]/70 backdrop-blur-3xl"
           : "bg-transparent"
       }`}
     >
@@ -130,7 +130,7 @@ export default function Navbar() {
           />
         </Link>
 
-        <div className="hidden items-center gap-10 lg:flex">
+        <div className="hidden items-center gap-8 md:gap-6 md:p-10 lg:flex">
 
           <Link href="/">
             Home
@@ -168,35 +168,35 @@ export default function Navbar() {
             <>
               <Link
                 href="/login"
-                className="hidden rounded-2xl border border-white/10 bg-white/[0.03] px-5 py-2 text-sm text-white/60 backdrop-blur-xl transition duration-300 hover:border-[#8B5CF6]/30 hover:bg-[#8B5CF6]/10 hover:text-white md:block"
+                className="hidden rounded-2xl border border-white/[0.06] bg-white/[0.03] px-5 py-2 text-sm text-white/65 backdrop-blur-2xl transition duration-300 hover:border-[#8B5CF6]/30 hover:bg-[#8B5CF6]/10 hover:text-white md:block"
               >
                 Login
               </Link>
 
               <Link
                 href="/start"
-                className="rounded-2xl bg-gradient-to-r from-[#D6A66A] via-[#B98B57] to-[#8B5CF6] px-5 py-2 text-sm font-medium text-white shadow-[0_0_60px_rgba(168,85,247,.22)] transition duration-300 hover:scale-[1.02]"
+                className="rounded-2xl bg-gradient-to-r from-[#D6A66A] via-[#B98B57] to-[#8B5CF6] px-5 py-2 text-sm font-normal text-white shadow-[0_0_60px_rgba(168,85,247,.22)] transition duration-300 hover:scale-[1.02]"
               >
                 Start Setup
               </Link>
             </>
           ) : (
             <>
-              <div className="hidden rounded-2xl border border-white/10 bg-white/[0.03] px-5 py-2 text-sm text-white/80 backdrop-blur-xl md:block">
+              <div className="hidden rounded-2xl border border-white/[0.06] bg-white/[0.03] px-5 py-2 text-sm text-white/80 backdrop-blur-2xl md:block">
                 {profile?.full_name ||
                   user.email}
               </div>
 
               <Link
                 href={getDashboardLink()}
-                className="rounded-2xl border border-white/10 bg-white/[0.03] px-5 py-2 text-sm text-white backdrop-blur-xl transition duration-300 hover:border-[#8B5CF6]/30 hover:bg-[#8B5CF6]/10"
+                className="rounded-2xl border border-white/[0.06] bg-white/[0.03] px-5 py-2 text-sm text-white backdrop-blur-2xl transition duration-300 hover:border-[#8B5CF6]/30 hover:bg-[#8B5CF6]/10"
               >
                 Dashboard
               </Link>
 
               <button
                 onClick={logout}
-                className="rounded-2xl bg-gradient-to-r from-[#D6A66A] via-[#B98B57] to-[#8B5CF6] px-5 py-2 text-sm font-medium text-white shadow-[0_0_60px_rgba(168,85,247,.22)] transition duration-300 hover:scale-[1.02]"
+                className="rounded-2xl bg-gradient-to-r from-[#D6A66A] via-[#B98B57] to-[#8B5CF6] px-5 py-2 text-sm font-normal text-white shadow-[0_0_60px_rgba(168,85,247,.22)] transition duration-300 hover:scale-[1.02]"
               >
                 Logout
               </button>

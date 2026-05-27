@@ -79,7 +79,7 @@ export default function LeadsPage() {
             className={`rounded-2xl px-5 py-3 text-sm font-semibold transition ${
               filter === item
                 ? "bg-gradient-to-r from-[#d7b66a] to-[#7c3aed] text-black"
-                : "border border-white/10 bg-white/5 text-zinc-300 hover:bg-white/10"
+                : "border border-white/[0.06] bg-white/5 text-zinc-300 hover:bg-white/10"
             }`}
           >
             {item}
@@ -93,7 +93,7 @@ export default function LeadsPage() {
           Loading leads...
         </div>
       ) : filteredLeads.length === 0 ? (
-        <div className="rounded-3xl border border-white/10 bg-white/5 p-10 text-zinc-400">
+        <div className="rounded-3xl border border-white/[0.06] bg-white/5 p-6 md:p-10 text-zinc-400">
           No leads found.
         </div>
       ) : (
@@ -103,7 +103,7 @@ export default function LeadsPage() {
             (lead) => (
               <div
                 key={lead.id}
-                className="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-md"
+                className="rounded-3xl border border-white/[0.06] bg-white/5 p-6 backdrop-blur-md"
               >
 
                 <div className="flex items-start justify-between">

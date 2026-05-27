@@ -63,14 +63,14 @@ export default function EnterprisePage() {
 
               <div className="absolute inset-0 rounded-[40px] bg-gradient-to-tr from-[#8B5CF6]/20 via-transparent to-[#D6A66A]/20 blur-3xl" />
 
-              <div className="relative overflow-hidden rounded-[40px] border border-white/10 bg-white/[0.03] p-4 backdrop-blur-3xl">
+              <div className="relative overflow-hidden rounded-[40px] border border-white/[0.06] bg-white/[0.03] p-4 backdrop-blur-3xl">
 
                 <Image
                   src="/showcase/enterprise-office.png"
                   alt="Enterprise infrastructure"
                   width={1200}
                   height={900}
-                  className="w-full rounded-[28px] object-cover"
+                  className="w-full rounded-[28px] object-cover transition-transform duration-700 hover:scale-[1.02]"
                 />
 
               </div>
@@ -109,7 +109,7 @@ export default function EnterprisePage() {
 
           </div>
 
-          <div className="grid gap-8 lg:grid-cols-2">
+          <div className="grid gap-6 md:gap-8 lg:grid-cols-2">
 
             {[
               {
@@ -147,7 +147,7 @@ export default function EnterprisePage() {
             ].map((item) => (
               <div
                 key={item.title}
-                className="group relative overflow-hidden rounded-[34px] border border-white/10 bg-white/[0.03] p-10 backdrop-blur-3xl transition duration-500 hover:border-white/20 hover:bg-white/[0.05]"
+                className="group relative overflow-hidden rounded-[34px] border border-white/[0.06] bg-white/[0.03] p-6 md:p-10 backdrop-blur-3xl transition duration-500 hover:border-white/20 hover:bg-white/[0.05]"
               >
 
                 <div className="absolute inset-0 bg-gradient-to-br from-[#8B5CF6]/0 via-transparent to-[#D6A66A]/0 opacity-0 transition duration-500 group-hover:opacity-100 group-hover:from-[#8B5CF6]/5 group-hover:to-[#D6A66A]/5" />

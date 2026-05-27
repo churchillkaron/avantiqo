@@ -45,13 +45,13 @@ export default function MultiLocationCommand() {
         </div>
 
         {/* MAIN IMAGE */}
-        <div className="overflow-hidden rounded-[28px] border border-white/10 bg-white/[0.03] p-4 backdrop-blur-3xl md:rounded-[42px] md:p-8">
+        <div className="overflow-hidden rounded-[28px] border border-white/[0.06] bg-white/[0.03] p-4 backdrop-blur-3xl md:rounded-[42px] md:p-8">
           <Image
   src="/showcase/multi-location-command.png"
   alt="Multi location command center"
   width={1600}
   height={900}
-  className="w-full rounded-[24px] border border-white/10"
+  className="w-full rounded-[24px] border border-white/[0.06]"
  />
         </div>
 
@@ -77,7 +77,7 @@ export default function MultiLocationCommand() {
           ].map((item) => (
             <div
               key={item.title}
-              className="rounded-[26px] border border-white/10 bg-white/[0.03] p-6 backdrop-blur-3xl md:rounded-[30px] md:p-8"
+              className="rounded-[26px] border border-white/[0.06] bg-white/[0.03] p-6 backdrop-blur-3xl md:rounded-[30px] md:p-8"
             >
               <h4
                 className="text-2xl text-white md:text-[28px]"

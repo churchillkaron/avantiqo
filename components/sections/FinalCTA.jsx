@@ -16,7 +16,7 @@ export default function FinalCTA() {
           src="/showcase/final-cta-bg.png"
           alt="Avantiqo enterprise future"
           fill
-          className="object-cover opacity-20"
+          className="object-cover transition-transform duration-700 hover:scale-[1.02] opacity-20"
         />
 
         <div className="absolute inset-0 bg-[#02030A]/88" />
@@ -70,11 +70,11 @@ export default function FinalCTA() {
           {/* BUTTONS */}
           <div className="mt-12 flex flex-col items-center justify-center gap-4 sm:mt-16 sm:flex-row sm:gap-6">
 
-            <button className="w-full rounded-full bg-gradient-to-r from-[#D6A66A] to-[#8B5CF6] px-8 py-4 text-base font-medium text-white shadow-[0_20px_80px_rgba(139,92,246,0.35)] transition-all duration-300 hover:scale-[1.03] sm:w-auto sm:px-10 sm:py-5 sm:text-lg">
+            <button className="w-full rounded-full bg-gradient-to-r from-[#C6A062] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4 text-base font-normal text-white shadow-[0_20px_80px_rgba(139,92,246,0.35)] transition-all duration-300 hover:scale-[1.03] sm:w-auto sm:px-10 sm:py-5 sm:text-lg">
               Book Enterprise Demo
             </button>
 
-            <button className="w-full rounded-full border border-white/10 bg-white/[0.03] px-8 py-4 text-base font-medium text-white backdrop-blur-3xl transition-all duration-300 hover:bg-white/[0.06] sm:w-auto sm:px-10 sm:py-5 sm:text-lg">
+            <button className="w-full rounded-full border border-white/[0.06] bg-white/[0.03] px-6 py-3 md:px-8 md:py-4 text-base font-normal text-white backdrop-blur-3xl transition-all duration-300 hover:bg-white/[0.06] sm:w-auto sm:px-10 sm:py-5 sm:text-lg">
               Contact Sales
             </button>
 

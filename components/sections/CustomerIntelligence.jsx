@@ -51,14 +51,14 @@ export default function CustomerIntelligence() {
         </div>
 
         {/* IMAGE */}
-        <div className="overflow-hidden rounded-[42px] border border-white/10 bg-white/[0.03] p-8 backdrop-blur-3xl">
+        <div className="overflow-hidden rounded-[42px] border border-white/[0.06] bg-white/[0.03] p-8 backdrop-blur-3xl">
 
           <Image
   src="/showcase/customer-intelligence.png"
   alt="Customer intelligence"
   width={1600}
   height={900}
-  className="w-full rounded-[24px] border border-white/10 md:rounded-[34px]"
+  className="w-full rounded-[24px] border border-white/[0.06] md:rounded-[34px]"
 />
 
         </div>
@@ -86,7 +86,7 @@ export default function CustomerIntelligence() {
           ].map((item) => (
             <div
               key={item.title}
-              className="rounded-[30px] border border-white/10 bg-white/[0.03] p-8 backdrop-blur-3xl"
+              className="rounded-[30px] border border-white/[0.06] bg-white/[0.03] p-8 backdrop-blur-3xl"
             >
 
               <h4

@@ -39,7 +39,7 @@ export default function PlatformSidebar() {
     usePathname();
 
   return (
-    <aside className="fixed left-6 top-20 bottom-6 flex w-[260px] flex-col rounded-r-3xl border border-white/10 bg-black/40 px-6 py-8 backdrop-blur-xl">
+    <aside className="fixed left-6 top-20 bottom-6 flex w-[260px] flex-col rounded-r-3xl border border-white/[0.06] bg-black/40 px-6 py-8 backdrop-blur-2xl">
 
       <div className="mb-10">
 

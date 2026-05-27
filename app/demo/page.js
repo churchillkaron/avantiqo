@@ -52,11 +52,11 @@ export default function DemoPage() {
             {/* BUTTONS */}
             <div className="mt-14 flex flex-col gap-4 sm:flex-row">
 
-              <button className="rounded-full bg-gradient-to-r from-[#D6A66A] to-[#8B5CF6] px-10 py-5 text-lg font-medium text-white shadow-[0_20px_80px_rgba(139,92,246,0.35)] transition duration-300 hover:scale-[1.02]">
+              <button className="rounded-full bg-gradient-to-r from-[#C6A062] to-[#7C5CFA] px-10 py-5 text-lg font-normal text-white shadow-[0_20px_80px_rgba(139,92,246,0.35)] transition duration-300 hover:scale-[1.02]">
                 Book Enterprise Demo
               </button>
 
-              <button className="rounded-full border border-white/10 bg-white/[0.03] px-10 py-5 text-lg font-medium text-white backdrop-blur-3xl transition duration-300 hover:bg-white/[0.06]">
+              <button className="rounded-full border border-white/[0.06] bg-white/[0.03] px-10 py-5 text-lg font-normal text-white backdrop-blur-3xl transition duration-300 hover:bg-white/[0.06]">
                 Contact Sales
               </button>
 
@@ -100,7 +100,7 @@ export default function DemoPage() {
           </div>
 
           {/* GRID */}
-          <div className="grid gap-8 lg:grid-cols-2">
+          <div className="grid gap-6 md:gap-8 lg:grid-cols-2">
 
             {[
               {
@@ -126,7 +126,7 @@ export default function DemoPage() {
             ].map((item) => (
               <div
                 key={item.title}
-                className="group relative overflow-hidden rounded-[34px] border border-white/10 bg-white/[0.03] backdrop-blur-3xl"
+                className="group relative overflow-hidden rounded-[34px] border border-white/[0.06] bg-white/[0.03] backdrop-blur-3xl"
               >
 
                 {/* IMAGE */}
@@ -190,7 +190,7 @@ export default function DemoPage() {
       {/* WORKFLOW */}
       <section className="relative overflow-hidden px-6 pb-24 md:pb-36">
 
-        <div className="mx-auto max-w-7xl overflow-hidden rounded-[40px] border border-white/10 bg-white/[0.03] p-10 backdrop-blur-3xl md:p-16">
+        <div className="mx-auto max-w-7xl overflow-hidden rounded-[40px] border border-white/[0.06] bg-white/[0.03] p-6 md:p-10 backdrop-blur-3xl md:p-16">
 
           <div className="mb-14 max-w-4xl">
 
@@ -223,7 +223,7 @@ export default function DemoPage() {
             ].map((step, index) => (
               <div
                 key={step}
-                className="relative overflow-hidden rounded-[28px] border border-white/10 bg-[#02030A]/80 p-8"
+                className="relative overflow-hidden rounded-[28px] border border-white/[0.06] bg-[#02030A]/80 p-8"
               >
 
                 <div className="mb-8 text-sm text-[#B58AF8]">

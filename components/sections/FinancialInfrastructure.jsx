@@ -49,7 +49,7 @@ export default function FinancialInfrastructure() {
         </div>
 
         {/* PHONE SECTION */}
-        <div className="overflow-hidden rounded-[28px] border border-white/10 bg-white/[0.03] p-4 backdrop-blur-3xl md:rounded-[42px] md:p-12">
+        <div className="overflow-hidden rounded-[28px] border border-white/[0.06] bg-white/[0.03] p-4 backdrop-blur-3xl md:rounded-[42px] md:p-12">
           <div className="grid items-center gap-12 lg:gap-20 lg:grid-cols-[0.9fr_1.1fr]">
             {/* LEFT SIDE */}
             <div className="max-w-[560px]">
@@ -109,7 +109,7 @@ export default function FinancialInfrastructure() {
                 ].map((item) => (
                   <div
                     key={item.title}
-                    className="rounded-[24px] border border-white/10 bg-white/[0.03] p-5 backdrop-blur-xl md:rounded-[26px] md:p-7"
+                    className="rounded-[24px] border border-white/[0.06] bg-white/[0.03] p-5 backdrop-blur-2xl md:rounded-[26px] md:p-7"
                   >
                     <h4
                       className="text-2xl text-white md:text-[24px]"
@@ -191,7 +191,7 @@ export default function FinancialInfrastructure() {
           </div>
 
           {/* COMPUTER IMAGE */}
-          <div className="overflow-hidden rounded-[28px] border border-white/10 bg-white/[0.03] p-4 backdrop-blur-3xl md:rounded-[42px] md:p-8">
+          <div className="overflow-hidden rounded-[28px] border border-white/[0.06] bg-white/[0.03] p-4 backdrop-blur-3xl md:rounded-[42px] md:p-8">
             <Image
   src="/finance/invoice-approval.png"
   alt="Invoice approval"
@@ -223,7 +223,7 @@ export default function FinancialInfrastructure() {
             ].map((item) => (
               <div
                 key={item.title}
-                className="rounded-[26px] border border-white/10 bg-white/[0.03] p-6 backdrop-blur-xl md:rounded-[32px] md:p-10"
+                className="rounded-[26px] border border-white/[0.06] bg-white/[0.03] p-6 backdrop-blur-2xl md:rounded-[32px] md:p-6 md:p-10"
               >
                 <h4
                   className="text-2xl text-white md:text-[32px]"

@@ -156,7 +156,7 @@ export default function AccountingIndustryPage() {
               ACCOUNTING FIRMS
             </p>
 
-            <h1 className="text-6xl font-light leading-[0.92] tracking-[-0.07em] md:text-[92px]">
+            <h1 className="text-6xl font-normal leading-[1.0] tracking-[-0.045em] md:text-[92px]">
 
               From month-end paperwork
               <br />
@@ -164,7 +164,7 @@ export default function AccountingIndustryPage() {
 
             </h1>
 
-            <p className="mt-8 max-w-[620px] text-lg leading-8 text-white/60">
+            <p className="mt-8 max-w-[620px] text-[17px] leading-[1.9] text-white/50">
 
               Avantiqo gives accounting firms real-time visibility into operations,
               approvals, payroll, procurement and financial activity —
@@ -176,14 +176,14 @@ export default function AccountingIndustryPage() {
 
               <Link
                 href="/demo"
-                className="rounded-[20px] bg-gradient-to-r from-[#D6A66A] to-[#8B5CF6] px-8 py-4 text-sm font-medium transition-all duration-500 hover:-translate-y-1"
+                className="rounded-[22px] bg-gradient-to-r from-[#C6A062] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4 text-sm font-normal transition-all duration-300 ease-out hover:-translate-y-[2px]"
               >
                 Book Accounting Demo
               </Link>
 
               <Link
                 href="/contact"
-                className="rounded-[20px] border border-white/10 bg-white/[0.04] px-8 py-4 text-sm text-white/70 transition-all duration-500 hover:border-purple-500/30"
+                className="rounded-[22px] border border-white/[0.06] bg-white/[0.03] px-6 py-3 md:px-8 md:py-4 text-sm text-white/50 transition-all duration-300 ease-out hover:border-purple-500/30"
               >
                 Talk To Enterprise Team
               </Link>
@@ -192,7 +192,7 @@ export default function AccountingIndustryPage() {
 
           </div>
 
-          <div className="relative overflow-hidden rounded-[36px] border border-white/10 bg-[#070B16] shadow-[0_0_50px_rgba(120,80,255,0.08)]">
+          <div className="relative overflow-hidden rounded-[36px] border border-white/[0.06] bg-[#060816] shadow-[0_0_50px_rgba(120,80,255,0.08)]">
 
             <Image
               src="/images/accounting-enterprise-hero.png"
@@ -201,7 +201,7 @@ export default function AccountingIndustryPage() {
               height={1000}
               quality={100}
               priority
-              className="h-full w-full object-cover"
+              className="h-full w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
             />
 
           </div>
@@ -221,7 +221,7 @@ export default function AccountingIndustryPage() {
               BEFORE VS AFTER
             </p>
 
-            <h2 className="max-w-5xl text-5xl font-light leading-[1.02] tracking-[-0.05em] md:text-7xl">
+            <h2 className="max-w-5xl text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
 
               Stop rebuilding businesses
               from paperwork.
@@ -230,7 +230,7 @@ export default function AccountingIndustryPage() {
 
           </div>
 
-          <div className="grid gap-8 lg:grid-cols-2">
+          <div className="grid gap-6 md:gap-8 lg:grid-cols-2">
 
             <div className="overflow-hidden rounded-[32px] border border-red-500/10 bg-[#0A0A12]">
 
@@ -240,20 +240,20 @@ export default function AccountingIndustryPage() {
                 width={1200}
                 height={800}
                 quality={100}
-                className="h-[520px] w-full object-cover"
+                className="h-[520px] w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
               />
 
-              <div className="p-10">
+              <div className="p-6 md:p-10">
 
                 <p className="mb-5 text-sm tracking-[0.3em] text-red-400">
                   BEFORE
                 </p>
 
-                <h3 className="text-4xl font-light">
+                <h3 className="text-4xl font-normal">
                   Month-end chaos
                 </h3>
 
-                <ul className="mt-8 space-y-4 text-white/60">
+                <ul className="mt-8 space-y-4 text-white/50">
 
                   <li>• Missing invoices and receipts</li>
                   <li>• Manual data entry</li>
@@ -276,20 +276,20 @@ export default function AccountingIndustryPage() {
                 width={1200}
                 height={800}
                 quality={100}
-                className="h-[520px] w-full object-cover"
+                className="h-[520px] w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
               />
 
-              <div className="p-10">
+              <div className="p-6 md:p-10">
 
                 <p className="mb-5 text-sm tracking-[0.3em] text-emerald-400">
                   AFTER
                 </p>
 
-                <h3 className="text-4xl font-light">
+                <h3 className="text-4xl font-normal">
                   Live operational control
                 </h3>
 
-                <ul className="mt-8 space-y-4 text-white/60">
+                <ul className="mt-8 space-y-4 text-white/50">
 
                   <li>• AI invoice extraction</li>
                   <li>• Real-time operational visibility</li>
@@ -321,7 +321,7 @@ export default function AccountingIndustryPage() {
               ACCOUNTING RUNTIME
             </p>
 
-            <h2 className="max-w-5xl text-5xl font-light leading-[1.02] tracking-[-0.05em] md:text-7xl">
+            <h2 className="max-w-5xl text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
 
               Everything connected.
               <br />
@@ -331,13 +331,13 @@ export default function AccountingIndustryPage() {
 
           </div>
 
-          <div className="grid gap-8 md:grid-cols-2">
+          <div className="grid gap-6 md:gap-8 md:grid-cols-2">
 
             {features.map((item) => (
 
               <div
                 key={item.title}
-                className="overflow-hidden rounded-[32px] border border-white/10 bg-[#070B16] shadow-[0_0_40px_rgba(120,80,255,0.05)]"
+                className="overflow-hidden rounded-[32px] border border-white/[0.06] bg-[#060816] shadow-[0_0_40px_rgba(120,80,255,0.05)]"
               >
 
                 <Image
@@ -346,16 +346,16 @@ export default function AccountingIndustryPage() {
                   width={1200}
                   height={800}
                   quality={100}
-                  className="h-[380px] w-full object-cover"
+                  className="h-[380px] w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
                 />
 
                 <div className="p-8">
 
-                  <h3 className="text-3xl font-light">
+                  <h3 className="text-3xl font-normal">
                     {item.title}
                   </h3>
 
-                  <p className="mt-5 text-sm leading-7 text-white/60">
+                  <p className="mt-5 text-sm leading-7 text-white/50">
                     {item.description}
                   </p>
 
@@ -383,7 +383,7 @@ export default function AccountingIndustryPage() {
               ACCOUNTING FIRM BENEFITS
             </p>
 
-            <h2 className="max-w-5xl text-5xl font-light leading-[1.02] tracking-[-0.05em] md:text-7xl">
+            <h2 className="max-w-5xl text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
               Scale your accounting firm without scaling operational chaos.
             </h2>
 
@@ -395,18 +395,18 @@ export default function AccountingIndustryPage() {
 
               <div
                 key={card.title}
-                className="rounded-[32px] border border-white/10 bg-[#070B16]/90 p-10 transition-all duration-500 hover:-translate-y-1 hover:border-purple-500/30"
+                className="rounded-[32px] border border-white/[0.06] bg-[#060816]/90 p-6 md:p-10 transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-purple-500/30"
               >
 
                 <p className="mb-5 text-xs uppercase tracking-[0.25em] text-emerald-400">
                   {card.label}
                 </p>
 
-                <h3 className="mb-5 text-4xl font-light leading-tight text-white">
+                <h3 className="mb-5 text-4xl font-normal leading-tight text-white">
                   {card.title}
                 </h3>
 
-                <p className="mb-8 text-[17px] leading-8 text-white/60">
+                <p className="mb-8 text-[17px] leading-8 text-white/50">
                   {card.description}
                 </p>
 
@@ -451,11 +451,11 @@ export default function AccountingIndustryPage() {
               WHY ACCOUNTING FIRMS CHOOSE AVANTIQO
             </p>
 
-            <h2 className="max-w-5xl text-5xl font-light leading-[1.02] tracking-[-0.05em] md:text-7xl">
+            <h2 className="max-w-5xl text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
               Accounting should happen during operations — not weeks later.
             </h2>
 
-            <p className="mt-8 max-w-[760px] text-lg leading-8 text-white/60">
+            <p className="mt-8 max-w-[760px] text-[17px] leading-[1.9] text-white/50">
               Avantiqo helps accounting firms become live operational intelligence partners,
               not just month-end bookkeeping providers.
             </p>
@@ -468,18 +468,18 @@ export default function AccountingIndustryPage() {
 
               <div
                 key={card.title}
-                className="rounded-[32px] border border-white/10 bg-[#070B16]/90 p-10 transition-all duration-500 hover:-translate-y-1 hover:border-purple-500/30"
+                className="rounded-[32px] border border-white/[0.06] bg-[#060816]/90 p-6 md:p-10 transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-purple-500/30"
               >
 
                 <p className="mb-5 text-xs uppercase tracking-[0.25em] text-[#D6A66A]">
                   {card.label}
                 </p>
 
-                <h3 className="mb-5 text-3xl font-light leading-tight text-white">
+                <h3 className="mb-5 text-3xl font-normal leading-tight text-white">
                   {card.title}
                 </h3>
 
-                <p className="mb-8 text-[16px] leading-8 text-white/60">
+                <p className="mb-8 text-[16px] leading-8 text-white/50">
                   {card.description}
                 </p>
 
@@ -524,12 +524,12 @@ export default function AccountingIndustryPage() {
               ENTERPRISE CONTROL & COMPLIANCE
             </p>
 
-            <h2 className="max-w-5xl text-5xl font-light leading-[1.02] tracking-[-0.05em] md:text-7xl">
+            <h2 className="max-w-5xl text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
               Built for operational trust,
               accountability and visibility.
             </h2>
 
-            <p className="mt-8 max-w-[760px] text-lg leading-8 text-white/60">
+            <p className="mt-8 max-w-[760px] text-[17px] leading-[1.9] text-white/50">
               Avantiqo provides accounting firms with enterprise-grade operational
               visibility, permission control and audit accountability across all clients.
             </p>
@@ -542,7 +542,7 @@ export default function AccountingIndustryPage() {
 
               <div
                 key={card.title}
-                className="rounded-[32px] border border-white/10 bg-[#070B16]/90 p-10 transition-all duration-500 hover:-translate-y-1 hover:border-purple-500/30"
+                className="rounded-[32px] border border-white/[0.06] bg-[#060816]/90 p-6 md:p-10 transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-purple-500/30"
               >
 
                 <div className="mb-6 flex items-center gap-3">
@@ -555,11 +555,11 @@ export default function AccountingIndustryPage() {
 
                 </div>
 
-                <h3 className="mb-5 text-3xl font-light leading-tight text-white">
+                <h3 className="mb-5 text-3xl font-normal leading-tight text-white">
                   {card.title}
                 </h3>
 
-                <p className="text-[16px] leading-8 text-white/60">
+                <p className="text-[16px] leading-8 text-white/50">
                   {card.description}
                 </p>
 
@@ -582,7 +582,7 @@ export default function AccountingIndustryPage() {
             LIVE ACCOUNTING CONTROL
           </p>
 
-          <h2 className="text-5xl font-light leading-[1.02] tracking-[-0.05em] md:text-7xl">
+          <h2 className="text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
 
             Your accounting firm
             should not discover
@@ -590,7 +590,7 @@ export default function AccountingIndustryPage() {
 
           </h2>
 
-          <p className="mx-auto mt-8 max-w-[760px] text-lg leading-8 text-white/60">
+          <p className="mx-auto mt-8 max-w-[760px] text-[17px] leading-[1.9] text-white/50">
 
             Avantiqo transforms accounting firms into
             real-time operational intelligence partners.
@@ -601,7 +601,7 @@ export default function AccountingIndustryPage() {
 
             <Link
               href="/demo"
-              className="rounded-[20px] bg-gradient-to-r from-[#D6A66A] to-[#8B5CF6] px-8 py-4 text-sm font-medium transition-all duration-500 hover:-translate-y-1"
+              className="rounded-[22px] bg-gradient-to-r from-[#C6A062] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4 text-sm font-normal transition-all duration-300 ease-out hover:-translate-y-[2px]"
             >
               Book Enterprise Demo
             </Link>

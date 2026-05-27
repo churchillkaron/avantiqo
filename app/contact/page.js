@@ -60,10 +60,10 @@ export default function ContactPage() {
       {/* CONTACT GRID */}
       <section className="relative overflow-hidden px-6 pb-24 md:pb-36">
 
-        <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.85fr_1.15fr]">
+        <div className="mx-auto grid max-w-7xl gap-6 md:gap-8 lg:grid-cols-[0.85fr_1.15fr]">
 
           {/* LEFT */}
-          <div className="overflow-hidden rounded-[38px] border border-white/10 bg-white/[0.03] p-10 backdrop-blur-3xl">
+          <div className="overflow-hidden rounded-[38px] border border-white/[0.06] bg-white/[0.03] p-6 md:p-10 backdrop-blur-3xl">
 
             <p className="mb-8 text-xs tracking-[0.35em] text-[#B58AF8]">
               CONSULTATION AREAS
@@ -129,7 +129,7 @@ export default function ContactPage() {
           </div>
 
           {/* RIGHT */}
-          <div className="overflow-hidden rounded-[38px] border border-white/10 bg-white/[0.03] p-10 backdrop-blur-3xl">
+          <div className="overflow-hidden rounded-[38px] border border-white/[0.06] bg-white/[0.03] p-6 md:p-10 backdrop-blur-3xl">
 
             <p className="mb-10 text-xs tracking-[0.35em] text-[#B58AF8]">
               REQUEST CONSULTATION
@@ -140,22 +140,22 @@ export default function ContactPage() {
               <input
                 type="text"
                 placeholder="Full Name"
-                className="rounded-[22px] border border-white/10 bg-[#02030A]/80 px-6 py-5 text-white outline-none placeholder:text-white/30"
+                className="rounded-[22px] border border-white/[0.06] bg-[#02030A]/80 px-6 py-5 text-white outline-none placeholder:text-white/30"
               />
 
               <input
                 type="text"
                 placeholder="Company"
-                className="rounded-[22px] border border-white/10 bg-[#02030A]/80 px-6 py-5 text-white outline-none placeholder:text-white/30"
+                className="rounded-[22px] border border-white/[0.06] bg-[#02030A]/80 px-6 py-5 text-white outline-none placeholder:text-white/30"
               />
 
               <input
                 type="email"
                 placeholder="Email Address"
-                className="rounded-[22px] border border-white/10 bg-[#02030A]/80 px-6 py-5 text-white outline-none placeholder:text-white/30"
+                className="rounded-[22px] border border-white/[0.06] bg-[#02030A]/80 px-6 py-5 text-white outline-none placeholder:text-white/30"
               />
 
-              <select className="rounded-[22px] border border-white/10 bg-[#02030A]/80 px-6 py-5 text-white outline-none">
+              <select className="rounded-[22px] border border-white/[0.06] bg-[#02030A]/80 px-6 py-5 text-white outline-none">
 
                 <option>Organization Size</option>
                 <option>1 - 10 Employees</option>
@@ -165,7 +165,7 @@ export default function ContactPage() {
 
               </select>
 
-              <select className="rounded-[22px] border border-white/10 bg-[#02030A]/80 px-6 py-5 text-white outline-none">
+              <select className="rounded-[22px] border border-white/[0.06] bg-[#02030A]/80 px-6 py-5 text-white outline-none">
 
                 <option>Industry</option>
                 <option>Hospitality</option>
@@ -180,10 +180,10 @@ export default function ContactPage() {
               <textarea
                 rows={6}
                 placeholder="Describe your operational challenges or infrastructure requirements..."
-                className="rounded-[22px] border border-white/10 bg-[#02030A]/80 px-6 py-5 text-white outline-none placeholder:text-white/30"
+                className="rounded-[22px] border border-white/[0.06] bg-[#02030A]/80 px-6 py-5 text-white outline-none placeholder:text-white/30"
               />
 
-              <button className="mt-4 rounded-full bg-gradient-to-r from-[#D6A66A] to-[#8B5CF6] px-10 py-5 text-lg font-medium text-white shadow-[0_20px_80px_rgba(139,92,246,0.35)] transition duration-300 hover:scale-[1.02]">
+              <button className="mt-4 rounded-full bg-gradient-to-r from-[#C6A062] to-[#7C5CFA] px-10 py-5 text-lg font-normal text-white shadow-[0_20px_80px_rgba(139,92,246,0.35)] transition duration-300 hover:scale-[1.02]">
                 Request Enterprise Consultation
               </button>
 

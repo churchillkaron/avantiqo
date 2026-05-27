@@ -58,11 +58,11 @@ export default function LocalizationPage() {
           AI LOCALIZATION ENGINE
         </p>
 
-        <h1 className="text-4xl md:text-6xl font-light tracking-[-0.06em]">
+        <h1 className="text-4xl md:text-6xl font-normal tracking-[-0.06em]">
           Dynamic enterprise localization
         </h1>
 
-        <p className="mt-6 max-w-3xl text-lg leading-8 text-white/60">
+        <p className="mt-6 max-w-3xl text-[17px] leading-[1.9] text-white/50">
           AI rewrites operational content, terminology,
           examples, currencies and business positioning
           based on country and industry context.
@@ -75,7 +75,7 @@ export default function LocalizationPage() {
             className={`rounded-xl px-5 py-3 ${
               locale === "th"
                 ? "bg-[#D6A66A] text-black"
-                : "border border-white/10 bg-white/5"
+                : "border border-white/[0.06] bg-white/5"
             }`}
           >
             Thai
@@ -86,7 +86,7 @@ export default function LocalizationPage() {
             className={`rounded-xl px-5 py-3 ${
               locale === "ru"
                 ? "bg-[#D6A66A] text-black"
-                : "border border-white/10 bg-white/5"
+                : "border border-white/[0.06] bg-white/5"
             }`}
           >
             Russian
@@ -97,7 +97,7 @@ export default function LocalizationPage() {
             className={`rounded-xl px-5 py-3 ${
               locale === "zh"
                 ? "bg-[#D6A66A] text-black"
-                : "border border-white/10 bg-white/5"
+                : "border border-white/[0.06] bg-white/5"
             }`}
           >
             Chinese
@@ -109,16 +109,16 @@ export default function LocalizationPage() {
 
           <button
             onClick={handleGenerate}
-            className="rounded-2xl bg-gradient-to-r from-[#D6A66A] to-[#8B5CF6] px-8 py-4"
+            className="rounded-2xl bg-gradient-to-r from-[#C6A062] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4"
           >
             {loading ? "Generating..." : "Generate Localization"}
           </button>
 
         </div>
 
-        <div className="mt-14 rounded-[30px] border border-white/10 bg-white/[0.03] p-4 md:p-8">
+        <div className="mt-14 rounded-[30px] border border-white/[0.06] bg-white/[0.03] p-4 md:p-8">
 
-          <pre className="whitespace-pre-wrap text-sm leading-8 text-white/70">
+          <pre className="whitespace-pre-wrap text-sm leading-8 text-white/50">
             {result}
           </pre>
 

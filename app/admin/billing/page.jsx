@@ -37,7 +37,7 @@ export default function BillingPage() {
       {loading ? (
         <div className="text-zinc-500">Loading billing...</div>
       ) : subscriptions.length === 0 ? (
-        <div className="rounded-3xl border border-white/10 bg-white/5 p-8 text-zinc-400">
+        <div className="rounded-3xl border border-white/[0.06] bg-white/5 p-8 text-zinc-400">
           No subscriptions created yet.
         </div>
       ) : (
@@ -45,7 +45,7 @@ export default function BillingPage() {
           {subscriptions.map((item) => (
             <div
               key={item.id}
-              className="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-md"
+              className="rounded-3xl border border-white/[0.06] bg-white/5 p-6 backdrop-blur-md"
             >
               <div className="flex items-start justify-between gap-6">
                 <div>

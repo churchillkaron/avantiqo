@@ -93,7 +93,7 @@ export default function ConstructionIndustryPage() {
               CONSTRUCTION OPERATIONS
             </p>
 
-            <h1 className="text-6xl font-light leading-[0.92] tracking-[-0.07em] md:text-[92px]">
+            <h1 className="text-6xl font-normal leading-[1.0] tracking-[-0.045em] md:text-[92px]">
               Control every site
               <br />
               before delays
@@ -101,7 +101,7 @@ export default function ConstructionIndustryPage() {
               become losses.
             </h1>
 
-            <p className="mt-8 max-w-[620px] text-lg leading-8 text-white/60">
+            <p className="mt-8 max-w-[620px] text-[17px] leading-[1.9] text-white/50">
               Budgets, procurement, workforce, approvals, site reporting,
               documents and financial visibility connected in one construction
               operational runtime.
@@ -110,21 +110,21 @@ export default function ConstructionIndustryPage() {
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <Link
                 href="/demo"
-                className="rounded-[20px] bg-gradient-to-r from-[#D6A66A] to-[#8B5CF6] px-8 py-4 text-sm font-medium transition-all duration-500 hover:-translate-y-1"
+                className="rounded-[22px] bg-gradient-to-r from-[#C6A062] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4 text-sm font-normal transition-all duration-300 ease-out hover:-translate-y-[2px]"
               >
                 Book Construction Demo
               </Link>
 
               <Link
                 href="/contact"
-                className="rounded-[20px] border border-white/10 bg-white/[0.04] px-8 py-4 text-sm text-white/70 transition-all duration-500 hover:border-purple-500/30"
+                className="rounded-[22px] border border-white/[0.06] bg-white/[0.03] px-6 py-3 md:px-8 md:py-4 text-sm text-white/50 transition-all duration-300 ease-out hover:border-purple-500/30"
               >
                 Talk To Enterprise Team
               </Link>
             </div>
           </div>
 
-          <div className="relative overflow-hidden rounded-[36px] border border-white/10 bg-[#070B16] shadow-[0_0_50px_rgba(120,80,255,0.08)]">
+          <div className="relative overflow-hidden rounded-[36px] border border-white/[0.06] bg-[#060816] shadow-[0_0_50px_rgba(120,80,255,0.08)]">
             <Image
               src="/images/construction-hero.png"
               alt="Construction Runtime"
@@ -132,7 +132,7 @@ export default function ConstructionIndustryPage() {
               height={1000}
               quality={100}
               priority
-              className="h-full w-full object-cover"
+              className="h-full w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
             />
           </div>
         </div>
@@ -146,12 +146,12 @@ export default function ConstructionIndustryPage() {
               BEFORE VS AFTER
             </p>
 
-            <h2 className="max-w-5xl text-5xl font-light leading-[1.02] tracking-[-0.05em] md:text-7xl">
+            <h2 className="max-w-5xl text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
               Replace disconnected construction management with live project control.
             </h2>
           </div>
 
-          <div className="grid gap-8 lg:grid-cols-2">
+          <div className="grid gap-6 md:gap-8 lg:grid-cols-2">
             <div className="overflow-hidden rounded-[32px] border border-red-500/10 bg-[#0A0A12]">
               <Image
                 src="/images/construction-before-chaos.png"
@@ -159,19 +159,19 @@ export default function ConstructionIndustryPage() {
                 width={1200}
                 height={800}
                 quality={100}
-                className="h-[520px] w-full object-cover"
+                className="h-[520px] w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
               />
 
-              <div className="p-10">
+              <div className="p-6 md:p-10">
                 <p className="mb-5 text-sm tracking-[0.3em] text-red-400">
                   BEFORE
                 </p>
 
-                <h3 className="text-4xl font-light">
+                <h3 className="text-4xl font-normal">
                   Site and office chaos
                 </h3>
 
-                <ul className="mt-8 space-y-4 text-white/60">
+                <ul className="mt-8 space-y-4 text-white/50">
                   <li>• Paper site reports and manual updates</li>
                   <li>• Delayed approval workflows</li>
                   <li>• Budget overruns discovered too late</li>
@@ -189,19 +189,19 @@ export default function ConstructionIndustryPage() {
                 width={1200}
                 height={800}
                 quality={100}
-                className="h-[520px] w-full object-cover"
+                className="h-[520px] w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
               />
 
-              <div className="p-10">
+              <div className="p-6 md:p-10">
                 <p className="mb-5 text-sm tracking-[0.3em] text-emerald-400">
                   AFTER
                 </p>
 
-                <h3 className="text-4xl font-light">
+                <h3 className="text-4xl font-normal">
                   Live construction control
                 </h3>
 
-                <ul className="mt-8 space-y-4 text-white/60">
+                <ul className="mt-8 space-y-4 text-white/50">
                   <li>• Live progress and budget visibility</li>
                   <li>• Site reports uploaded instantly</li>
                   <li>• Procurement and materials connected</li>
@@ -223,18 +223,18 @@ export default function ConstructionIndustryPage() {
               CONSTRUCTION RUNTIME
             </p>
 
-            <h2 className="max-w-5xl text-5xl font-light leading-[1.02] tracking-[-0.05em] md:text-7xl">
+            <h2 className="max-w-5xl text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
               Site, office and finance —
               <br />
               connected live.
             </h2>
           </div>
 
-          <div className="grid gap-8 md:grid-cols-2">
+          <div className="grid gap-6 md:gap-8 md:grid-cols-2">
             {constructionFeatures.map((item) => (
               <div
                 key={item.title}
-                className="overflow-hidden rounded-[32px] border border-white/10 bg-[#070B16] shadow-[0_0_40px_rgba(120,80,255,0.05)]"
+                className="overflow-hidden rounded-[32px] border border-white/[0.06] bg-[#060816] shadow-[0_0_40px_rgba(120,80,255,0.05)]"
               >
                 <Image
                   src={item.image}
@@ -242,15 +242,15 @@ export default function ConstructionIndustryPage() {
                   width={1200}
                   height={800}
                   quality={100}
-                  className="h-[380px] w-full object-cover"
+                  className="h-[380px] w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
                 />
 
                 <div className="p-8">
-                  <h3 className="text-3xl font-light">
+                  <h3 className="text-3xl font-normal">
                     {item.title}
                   </h3>
 
-                  <p className="mt-5 text-sm leading-7 text-white/60">
+                  <p className="mt-5 text-sm leading-7 text-white/50">
                     {item.description}
                   </p>
                 </div>
@@ -268,7 +268,7 @@ export default function ConstructionIndustryPage() {
               WHY CONSTRUCTION COMPANIES CHOOSE AVANTIQO
             </p>
 
-            <h2 className="max-w-5xl text-5xl font-light leading-[1.02] tracking-[-0.05em] md:text-7xl">
+            <h2 className="max-w-5xl text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
               Construction problems become expensive when visibility arrives too late.
             </h2>
           </div>
@@ -277,7 +277,7 @@ export default function ConstructionIndustryPage() {
             {constructionBenefits.map((item) => (
               <div
                 key={item.title}
-                className="rounded-[32px] border border-white/10 bg-[#070B16]/90 p-10 transition-all duration-500 hover:-translate-y-1 hover:border-purple-500/30"
+                className="rounded-[32px] border border-white/[0.06] bg-[#060816]/90 p-6 md:p-10 transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-purple-500/30"
               >
                 <div className="mb-6 flex items-center gap-3">
                   <div className="h-2 w-2 rounded-full bg-gradient-to-r from-[#D6A66A] to-purple-500" />
@@ -287,11 +287,11 @@ export default function ConstructionIndustryPage() {
                   </div>
                 </div>
 
-                <h3 className="mb-5 text-3xl font-light leading-tight text-white">
+                <h3 className="mb-5 text-3xl font-normal leading-tight text-white">
                   {item.title}
                 </h3>
 
-                <p className="text-[16px] leading-8 text-white/60">
+                <p className="text-[16px] leading-8 text-white/50">
                   {item.description}
                 </p>
               </div>
@@ -307,7 +307,7 @@ export default function ConstructionIndustryPage() {
             LIVE CONSTRUCTION CONTROL
           </p>
 
-          <h2 className="text-5xl font-light leading-[1.02] tracking-[-0.05em] md:text-7xl">
+          <h2 className="text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
             One runtime.
             <br />
             Every project.
@@ -315,14 +315,14 @@ export default function ConstructionIndustryPage() {
             Real-time site visibility.
           </h2>
 
-          <p className="mx-auto mt-8 max-w-[760px] text-lg leading-8 text-white/60">
+          <p className="mx-auto mt-8 max-w-[760px] text-[17px] leading-[1.9] text-white/50">
             Replace delayed site reporting and disconnected workflows with one connected construction operating system.
           </p>
 
           <div className="mt-12">
             <Link
               href="/demo"
-              className="rounded-[20px] bg-gradient-to-r from-[#D6A66A] to-[#8B5CF6] px-8 py-4 text-sm font-medium transition-all duration-500 hover:-translate-y-1"
+              className="rounded-[22px] bg-gradient-to-r from-[#C6A062] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4 text-sm font-normal transition-all duration-300 ease-out hover:-translate-y-[2px]"
             >
               Book Construction Demo
             </Link>

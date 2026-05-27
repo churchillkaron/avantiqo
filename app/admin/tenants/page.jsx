@@ -56,7 +56,7 @@ export default function TenantsPage() {
           Loading tenants...
         </div>
       ) : tenants.length === 0 ? (
-        <div className="rounded-3xl border border-white/10 bg-white/5 p-10 text-zinc-400">
+        <div className="rounded-3xl border border-white/[0.06] bg-white/5 p-6 md:p-10 text-zinc-400">
           No tenants provisioned.
         </div>
       ) : (
@@ -65,7 +65,7 @@ export default function TenantsPage() {
           {tenants.map((tenant) => (
             <div
               key={tenant.id}
-              className="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-md"
+              className="rounded-3xl border border-white/[0.06] bg-white/5 p-6 backdrop-blur-md"
             >
 
               <div className="flex items-start justify-between">

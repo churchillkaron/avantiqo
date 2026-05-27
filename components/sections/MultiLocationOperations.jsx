@@ -46,7 +46,7 @@ export default function MultiLocationOperations() {
         </div>
 
         {/* MAIN IMAGE */}
-        <div className="overflow-hidden rounded-[28px] border border-white/10 bg-white/[0.03] p-4 backdrop-blur-3xl md:rounded-[42px] md:p-8">
+        <div className="overflow-hidden rounded-[28px] border border-white/[0.06] bg-white/[0.03] p-4 backdrop-blur-3xl md:rounded-[42px] md:p-8">
          <Image
   src="/showcase/multi-location-command-center.png"
   alt="Multi-location operations"
@@ -78,7 +78,7 @@ export default function MultiLocationOperations() {
           ].map((item) => (
             <div
               key={item.title}
-              className="rounded-[26px] border border-white/10 bg-white/[0.03] p-6 backdrop-blur-3xl md:rounded-[30px] md:p-8"
+              className="rounded-[26px] border border-white/[0.06] bg-white/[0.03] p-6 backdrop-blur-3xl md:rounded-[30px] md:p-8"
             >
               <h4
                 className="text-2xl text-white md:text-[28px]"
@@ -128,7 +128,7 @@ export default function MultiLocationOperations() {
           ].map((item) => (
             <div
               key={item.title}
-              className="rounded-[26px] border border-white/10 bg-white/[0.03] p-6 backdrop-blur-3xl md:rounded-[30px] md:p-8"
+              className="rounded-[26px] border border-white/[0.06] bg-white/[0.03] p-6 backdrop-blur-3xl md:rounded-[30px] md:p-8"
             >
               <h4
                 className="text-4xl text-white md:text-[52px]"
