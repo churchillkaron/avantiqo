@@ -23,34 +23,50 @@ const sections = [
   },
 
   {
-  title: "OPERATIONS",
-  items: [
-    {
-      label: "POS",
-      href: "/workspace/pos",
-    },
-    {
-      label: "Reservations",
-      href: "/workspace/reservations",
-    },
-    {
-      label: "Operations",
-      href: "/workspace/operations",
-    },
-    {
-      label: "Inventory",
-      href: "/workspace/inventory",
-    },
-    {
-      label: "Production",
-      href: "/workspace/production",
-    },
-    {
-      label: "Procurement",
-      href: "/workspace/procurement",
-    },
-  ],
-},
+    title: "OPERATIONS",
+    items: [
+      {
+        label: "Runtime Overview",
+        href: "/workspace",
+      },
+      {
+        label: "POS",
+        href: "/workspace/pos",
+      },
+      {
+        label: "Tables",
+        href: "/workspace/tables",
+      },
+      {
+        label: "Kitchen",
+        href: "/workspace/kitchen",
+      },
+      {
+        label: "Expo",
+        href: "/workspace/expo",
+      },
+      {
+        label: "Reservations",
+        href: "/workspace/reservations",
+      },
+      {
+        label: "Operations",
+        href: "/workspace/operations",
+      },
+      {
+        label: "Inventory",
+        href: "/workspace/inventory",
+      },
+      {
+        label: "Production",
+        href: "/workspace/production",
+      },
+      {
+        label: "Procurement",
+        href: "/workspace/procurement",
+      },
+    ],
+  },
 
   {
     title: "FINANCE",

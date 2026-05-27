@@ -612,9 +612,929 @@ export default function AccountingIndustryPage() {
 
       </section>
 
-      <Footer />
+      <section className="px-6 pb-24 md:pb-32">
 
-    </main>
+  <div className="mx-auto max-w-7xl">
+
+    <div className="enterprise-runtime-card p-8 md:p-12">
+
+      <div className="mb-10 flex items-center justify-between">
+
+        <div>
+
+          <p className="runtime-label mb-3">
+            ENTERPRISE ACCOUNTING RUNTIME
+          </p>
+
+          <h2 className="text-3xl md:text-5xl font-extralight tracking-[-0.05em]">
+            Live Financial Governance
+          </h2>
+
+        </div>
+
+        <div className="hidden md:flex items-center gap-3 rounded-full border border-white/[0.08] bg-white/[0.03] px-4 py-2">
+
+          <div className="h-2 w-2 rounded-full bg-green-400" />
+
+          <span className="text-sm text-white/60">
+            SYSTEM ACTIVE
+          </span>
+
+        </div>
+
+      </div>
+
+      <div className="mb-10 grid gap-4 md:grid-cols-4">
+
+        <div className="rounded-2xl border border-white/[0.06] bg-white/[0.03] p-5">
+          <p className="runtime-label mb-2">
+            Connected Entities
+          </p>
+          <p className="text-3xl font-extralight text-white">
+            12
+          </p>
+        </div>
+
+        <div className="rounded-2xl border border-white/[0.06] bg-white/[0.03] p-5">
+          <p className="runtime-label mb-2">
+            Journal Entries Today
+          </p>
+          <p className="text-3xl font-extralight text-white">
+            284
+          </p>
+        </div>
+
+        <div className="rounded-2xl border border-white/[0.06] bg-white/[0.03] p-5">
+          <p className="runtime-label mb-2">
+            Approval Flows
+          </p>
+          <p className="text-3xl font-extralight text-white">
+            18
+          </p>
+        </div>
+
+        <div className="rounded-2xl border border-white/[0.06] bg-white/[0.03] p-5">
+          <p className="runtime-label mb-2">
+            Governance Integrity
+          </p>
+          <p className="text-3xl font-extralight text-green-400">
+            94%
+          </p>
+        </div>
+
+      </div>
+
+      <div className="mb-10 rounded-3xl border border-white/[0.06] bg-white/[0.02] p-6">
+
+        <div className="mb-5 flex items-center justify-between">
+
+          <div>
+
+            <p className="runtime-label mb-2">
+              Month-End Close Runtime
+            </p>
+
+            <h3 className="text-2xl font-extralight text-white">
+              Financial Close Progress
+            </h3>
+
+          </div>
+
+          <div className="runtime-status-warning runtime-value">
+            72% COMPLETE
+          </div>
+
+        </div>
+
+        <div className="mb-4 h-2 overflow-hidden rounded-full bg-white/[0.05]">
+
+          <div className="h-full w-[72%] rounded-full bg-gradient-to-r from-[#8B5CF6] to-[#C084FC]" />
+
+        </div>
+
+        <div className="grid gap-4 md:grid-cols-3">
+
+          <div className="rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+            <p className="runtime-label mb-2">
+              Pending Approvals
+            </p>
+            <p className="text-xl font-light text-white">
+              2
+            </p>
+          </div>
+
+          <div className="rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+            <p className="runtime-label mb-2">
+              Reconciliation Exceptions
+            </p>
+            <p className="text-xl font-light text-amber-400">
+              3
+            </p>
+          </div>
+
+          <div className="rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+            <p className="runtime-label mb-2">
+              Payroll Variances
+            </p>
+            <p className="text-xl font-light text-red-400">
+              1
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div className="mb-10 flex flex-wrap items-center gap-3">
+
+        <div className="rounded-full border border-white/[0.06] bg-white/[0.03] px-4 py-2 text-sm text-white/70">
+          Procurement
+        </div>
+
+        <div className="text-white/20">
+          →
+        </div>
+
+        <div className="rounded-full border border-white/[0.06] bg-white/[0.03] px-4 py-2 text-sm text-white/70">
+          Approval
+        </div>
+
+        <div className="text-white/20">
+          →
+        </div>
+
+        <div className="rounded-full border border-white/[0.06] bg-white/[0.03] px-4 py-2 text-sm text-white/70">
+          Journal Engine
+        </div>
+
+        <div className="text-white/20">
+          →
+        </div>
+
+        <div className="rounded-full border border-white/[0.06] bg-white/[0.03] px-4 py-2 text-sm text-white/70">
+          Reconciliation
+        </div>
+
+        <div className="text-white/20">
+          →
+        </div>
+
+        <div className="rounded-full border border-white/[0.06] bg-white/[0.03] px-4 py-2 text-sm text-white/70">
+          Financial Close
+        </div>
+
+      </div>
+
+      <div className="mb-10 grid gap-6 md:grid-cols-2">
+
+        <div className="rounded-3xl border border-white/[0.06] bg-white/[0.02] p-6">
+
+          <div className="mb-6 flex items-center justify-between">
+
+            <div>
+
+              <p className="runtime-label mb-2">
+                Operational Risk Runtime
+              </p>
+
+              <h3 className="text-2xl font-extralight text-white">
+                Live Exception Monitoring
+              </h3>
+
+            </div>
+
+            <div className="runtime-status-warning runtime-value">
+              6 ACTIVE
+            </div>
+
+          </div>
+
+          <div className="space-y-4">
+
+            <div className="flex items-center justify-between rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+              <span className="text-white/70">
+                Missing Receipts
+              </span>
+              <span className="text-amber-400">
+                2
+              </span>
+            </div>
+
+            <div className="flex items-center justify-between rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+              <span className="text-white/70">
+                Payroll Approval Delayed
+              </span>
+              <span className="text-red-400">
+                1
+              </span>
+            </div>
+
+            <div className="flex items-center justify-between rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+              <span className="text-white/70">
+                Procurement Exceptions
+              </span>
+              <span className="text-amber-400">
+                3
+              </span>
+            </div>
+
+            <div className="flex items-center justify-between rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+              <span className="text-white/70">
+                Audit Violations
+              </span>
+              <span className="text-green-400">
+                0
+              </span>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div className="rounded-3xl border border-white/[0.06] bg-white/[0.02] p-6">
+
+          <div className="mb-6 flex items-center justify-between">
+
+            <div>
+
+              <p className="runtime-label mb-2">
+                AI Operational Intelligence
+              </p>
+
+              <h3 className="text-2xl font-extralight text-white">
+                Live Runtime Detection
+              </h3>
+
+            </div>
+
+            <div className="runtime-status-active runtime-value">
+              AI ACTIVE
+            </div>
+
+          </div>
+
+          <div className="space-y-4">
+
+            <div className="rounded-2xl border border-purple-500/20 bg-purple-500/5 p-4">
+
+              <p className="mb-2 text-sm text-purple-300">
+                AI DETECTED
+              </p>
+
+              <p className="text-white/80">
+                Procurement variance detected in hospitality operations.
+              </p>
+
+            </div>
+
+            <div className="rounded-2xl border border-indigo-500/20 bg-indigo-500/5 p-4">
+
+              <p className="mb-2 text-sm text-indigo-300">
+                AI ANALYSIS
+              </p>
+
+              <p className="text-white/80">
+                Payroll inconsistency identified before financial close.
+              </p>
+
+            </div>
+
+            <div className="rounded-2xl border border-green-500/20 bg-green-500/5 p-4">
+
+              <p className="mb-2 text-sm text-green-300">
+                AI RECOMMENDATION
+              </p>
+
+              <p className="text-white/80">
+                Reconciliation review recommended for procurement ledger.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div className="mb-10 rounded-3xl border border-white/[0.06] bg-white/[0.02] p-6">
+
+        <div className="mb-6 flex items-center justify-between">
+
+          <div>
+
+            <p className="runtime-label mb-2">
+              Governance Timeline
+            </p>
+
+            <h3 className="text-2xl font-extralight text-white">
+              Continuous Operational Flow
+            </h3>
+
+          </div>
+
+          <div className="runtime-status-active runtime-value">
+            LIVE
+          </div>
+
+        </div>
+
+        <div className="grid gap-4 md:grid-cols-4">
+
+          <div className="rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+            <p className="mb-2 text-xs text-white/40">
+              08:42
+            </p>
+            <p className="text-white/75">
+              Procurement Approved
+            </p>
+          </div>
+
+          <div className="rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+            <p className="mb-2 text-xs text-white/40">
+              09:14
+            </p>
+            <p className="text-white/75">
+              Journal Posted
+            </p>
+          </div>
+
+          <div className="rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+            <p className="mb-2 text-xs text-white/40">
+              09:16
+            </p>
+            <p className="text-white/75">
+              Reconciliation Updated
+            </p>
+          </div>
+
+          <div className="rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+            <p className="mb-2 text-xs text-white/40">
+              09:22
+            </p>
+            <p className="text-white/75">
+              Payroll Runtime Locked
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div className="mb-10 grid gap-6 md:grid-cols-2">
+
+        <div className="rounded-3xl border border-white/[0.06] bg-white/[0.02] p-6">
+
+          <div className="mb-6 flex items-center justify-between">
+
+            <div>
+
+              <p className="runtime-label mb-2">
+                Approval Accountability
+              </p>
+
+              <h3 className="text-2xl font-extralight text-white">
+                Human Governance Runtime
+              </h3>
+
+            </div>
+
+            <div className="runtime-status-active runtime-value">
+              VERIFIED
+            </div>
+
+          </div>
+
+          <div className="space-y-4">
+
+            <div className="rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+
+              <p className="mb-2 text-xs tracking-[0.14em] text-white/40 uppercase">
+                Approved By
+              </p>
+
+              <div className="flex items-center justify-between">
+
+                <p className="text-white/80">
+                  P. Vallgarda — CFO Runtime
+                </p>
+
+                <span className="text-green-400">
+                  ACTIVE
+                </span>
+
+              </div>
+
+            </div>
+
+            <div className="rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+
+              <p className="mb-2 text-xs tracking-[0.14em] text-white/40 uppercase">
+                Locked By
+              </p>
+
+              <div className="flex items-center justify-between">
+
+                <p className="text-white/80">
+                  Financial Governance Engine
+                </p>
+
+                <span className="text-indigo-400">
+                  ENFORCED
+                </span>
+
+              </div>
+
+            </div>
+
+            <div className="rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+
+              <p className="mb-2 text-xs tracking-[0.14em] text-white/40 uppercase">
+                Reviewed By
+              </p>
+
+              <div className="flex items-center justify-between">
+
+                <p className="text-white/80">
+                  Operations Control Runtime
+                </p>
+
+                <span className="text-purple-400">
+                  VERIFIED
+                </span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div className="rounded-3xl border border-white/[0.06] bg-white/[0.02] p-6">
+
+          <div className="mb-6 flex items-center justify-between">
+
+            <div>
+
+              <p className="runtime-label mb-2">
+                Multi-Entity Operational Runtime
+              </p>
+
+              <h3 className="text-2xl font-extralight text-white">
+                Cross-Company Oversight
+              </h3>
+
+            </div>
+
+            <div className="runtime-status-active runtime-value">
+              4 ENTITIES
+            </div>
+
+          </div>
+
+          <div className="space-y-4">
+
+            <div className="flex items-center justify-between rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+
+              <div className="flex items-center gap-3">
+
+                <div className="h-2 w-2 rounded-full bg-green-400" />
+
+                <p className="text-white/80">
+                  Churchill Phuket
+                </p>
+
+              </div>
+
+              <span className="text-green-400">
+                ACTIVE
+              </span>
+
+            </div>
+
+            <div className="flex items-center justify-between rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+
+              <div className="flex items-center gap-3">
+
+                <div className="h-2 w-2 rounded-full bg-amber-400" />
+
+                <p className="text-white/80">
+                  BEA Co., Ltd.
+                </p>
+
+              </div>
+
+              <span className="text-amber-400">
+                REVIEWING
+              </span>
+
+            </div>
+
+            <div className="flex items-center justify-between rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+
+              <div className="flex items-center gap-3">
+
+                <div className="h-2 w-2 rounded-full bg-green-400" />
+
+                <p className="text-white/80">
+                  PCS Phuket
+                </p>
+
+              </div>
+
+              <span className="text-green-400">
+                APPROVED
+              </span>
+
+            </div>
+
+            <div className="flex items-center justify-between rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+
+              <div className="flex items-center gap-3">
+
+                <div className="h-2 w-2 rounded-full bg-purple-400" />
+
+                <p className="text-white/80">
+                  Cole Ley Entertainment
+                </p>
+
+              </div>
+
+              <span className="text-purple-400">
+                PENDING CLOSE
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div className="mb-10 rounded-3xl border border-white/[0.06] bg-gradient-to-r from-[#0A0F1F] via-[#111827] to-[#0A0F1F] p-6">
+
+        <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+
+          <div>
+
+            <p className="runtime-label mb-3">
+              Immutable Audit Runtime
+            </p>
+
+            <h3 className="text-3xl font-extralight text-white">
+              Enterprise Audit Traceability
+            </h3>
+
+            <p className="mt-3 max-w-2xl text-white/55">
+              Every approval, edit, transaction and operational event is permanently tracked across the enterprise runtime architecture.
+            </p>
+
+          </div>
+
+          <div className="rounded-3xl border border-green-500/20 bg-green-500/10 px-8 py-6">
+
+            <p className="mb-2 text-xs tracking-[0.16em] text-green-300 uppercase">
+              AI Runtime Confidence
+            </p>
+
+            <p className="text-5xl font-extralight text-white">
+              97.2%
+            </p>
+
+            <p className="mt-2 text-sm text-white/50">
+              No critical anomalies detected.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div className="mb-10 rounded-3xl border border-white/[0.06] bg-white/[0.02] p-6 md:p-8">
+
+        <div className="mb-8 flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+
+          <div>
+
+            <p className="runtime-label mb-2">
+              Cross-System Synchronization
+            </p>
+
+            <h3 className="text-3xl font-extralight text-white">
+              Enterprise Operational Nervous System
+            </h3>
+
+          </div>
+
+          <div className="rounded-full border border-green-500/20 bg-green-500/10 px-5 py-2 text-sm text-green-300">
+            ALL SYSTEMS SYNCHRONIZED
+          </div>
+
+        </div>
+
+        <div className="grid gap-4 md:grid-cols-4">
+
+          <div className="rounded-2xl border border-white/[0.05] bg-black/20 p-5">
+
+            <p className="runtime-label mb-3">
+              Payroll Runtime
+            </p>
+
+            <p className="text-white/80">
+              Synced with Operations Control
+            </p>
+
+          </div>
+
+          <div className="rounded-2xl border border-white/[0.05] bg-black/20 p-5">
+
+            <p className="runtime-label mb-3">
+              Procurement Runtime
+            </p>
+
+            <p className="text-white/80">
+              Connected to Inventory Ledger
+            </p>
+
+          </div>
+
+          <div className="rounded-2xl border border-white/[0.05] bg-black/20 p-5">
+
+            <p className="runtime-label mb-3">
+              Financial Runtime
+            </p>
+
+            <p className="text-white/80">
+              Linked to Live Revenue Streams
+            </p>
+
+          </div>
+
+          <div className="rounded-2xl border border-white/[0.05] bg-black/20 p-5">
+
+            <p className="runtime-label mb-3">
+              AI Runtime
+            </p>
+
+            <p className="text-white/80">
+              Monitoring Operational Behavior
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div className="mb-10 grid gap-6 md:grid-cols-2">
+
+        <div className="rounded-3xl border border-white/[0.06] bg-gradient-to-br from-[#0A0F1F] to-[#111827] p-6">
+
+          <div className="mb-6 flex items-center justify-between">
+
+            <div>
+
+              <p className="runtime-label mb-2">
+                AI Runtime Decision Layer
+              </p>
+
+              <h3 className="text-2xl font-extralight text-white">
+                Predictive Operational Intelligence
+              </h3>
+
+            </div>
+
+            <div className="runtime-status-active runtime-value">
+              LEARNING
+            </div>
+
+          </div>
+
+          <div className="space-y-4">
+
+            <div className="rounded-2xl border border-purple-500/20 bg-purple-500/5 p-5">
+
+              <p className="mb-2 text-xs uppercase tracking-[0.14em] text-purple-300">
+                AI Recommendation
+              </p>
+
+              <p className="text-white/80">
+                Delay financial close until procurement reconciliation completes.
+              </p>
+
+            </div>
+
+            <div className="rounded-2xl border border-indigo-500/20 bg-indigo-500/5 p-5">
+
+              <p className="mb-2 text-xs uppercase tracking-[0.14em] text-indigo-300">
+                AI Prediction
+              </p>
+
+              <p className="text-white/80">
+                Procurement shortage risk predicted within 6 operational days.
+              </p>
+
+            </div>
+
+            <div className="rounded-2xl border border-amber-500/20 bg-amber-500/5 p-5">
+
+              <p className="mb-2 text-xs uppercase tracking-[0.14em] text-amber-300">
+                AI Detection
+              </p>
+
+              <p className="text-white/80">
+                Unusual approval behavior detected in hospitality runtime.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div className="rounded-3xl border border-white/[0.06] bg-white/[0.02] p-6">
+
+          <div className="mb-6 flex items-center justify-between">
+
+            <div>
+
+              <p className="runtime-label mb-2">
+                Live Runtime Event Stream
+              </p>
+
+              <h3 className="text-2xl font-extralight text-white">
+                Continuous Operational Flow
+              </h3>
+
+            </div>
+
+            <div className="runtime-status-active runtime-value">
+              LIVE
+            </div>
+
+          </div>
+
+          <div className="space-y-3">
+
+            <div className="flex items-center gap-4 rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+              <span className="text-xs text-white/35">
+                09:22
+              </span>
+              <span className="text-white/75">
+                Payroll runtime locked
+              </span>
+            </div>
+
+            <div className="flex items-center gap-4 rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+              <span className="text-xs text-white/35">
+                09:24
+              </span>
+              <span className="text-white/75">
+                Inventory ledger synchronized
+              </span>
+            </div>
+
+            <div className="flex items-center gap-4 rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+              <span className="text-xs text-white/35">
+                09:26
+              </span>
+              <span className="text-white/75">
+                AI variance detection triggered
+              </span>
+            </div>
+
+            <div className="flex items-center gap-4 rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+              <span className="text-xs text-white/35">
+                09:28
+              </span>
+              <span className="text-white/75">
+                Approval escalation initiated
+              </span>
+            </div>
+
+            <div className="flex items-center gap-4 rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+              <span className="text-xs text-white/35">
+                09:31
+              </span>
+              <span className="text-white/75">
+                Revenue synchronization completed
+              </span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div className="grid gap-0 md:grid-cols-2">
+
+        <div className="runtime-grid-line border-b md:border-b-0 md:border-r p-6">
+
+          <div className="space-y-6">
+
+            <div className="flex items-center justify-between">
+              <span className="runtime-label">
+                Canonical Journal Engine
+              </span>
+              <span className="runtime-status-active runtime-value">
+                ENABLED
+              </span>
+            </div>
+
+            <div className="flex items-center justify-between">
+              <span className="runtime-label">
+                3-Way Matching
+              </span>
+              <span className="runtime-status-active runtime-value">
+                ACTIVE
+              </span>
+            </div>
+
+            <div className="flex items-center justify-between">
+              <span className="runtime-label">
+                Audit Chain Integrity
+              </span>
+              <span className="runtime-status-active runtime-value">
+                VERIFIED
+              </span>
+            </div>
+
+            <div className="flex items-center justify-between">
+              <span className="runtime-label">
+                Procurement Governance
+              </span>
+              <span className="runtime-status-warning runtime-value">
+                HIGH
+              </span>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div className="p-6">
+
+          <div className="space-y-6">
+
+            <div className="flex items-center justify-between">
+              <span className="runtime-label">
+                Inventory Ledger
+              </span>
+              <span className="runtime-status-active runtime-value">
+                SYNCHRONIZED
+              </span>
+            </div>
+
+            <div className="flex items-center justify-between">
+              <span className="runtime-label">
+                Multi-Entity Consolidation
+              </span>
+              <span className="runtime-status-active runtime-value">
+                READY
+              </span>
+            </div>
+
+            <div className="flex items-center justify-between">
+              <span className="runtime-label">
+                Approval Runtime
+              </span>
+              <span className="runtime-status-active runtime-value">
+                OPERATIONAL
+              </span>
+            </div>
+
+            <div className="flex items-center justify-between">
+              <span className="runtime-label">
+                Period Locking
+              </span>
+              <span className="runtime-status-active runtime-value">
+                ENFORCED
+              </span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<Footer />
+
+    
+
+
+
+</main>
 
   );
 

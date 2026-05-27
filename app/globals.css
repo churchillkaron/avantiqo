@@ -439,3 +439,121 @@ h3,
   font-family: var(--font-display);
   letter-spacing: -0.04em;
 }
+
+.enterprise-runtime-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 32px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255,255,255,0.04) 0%,
+      rgba(255,255,255,0.02) 100%
+    );
+  backdrop-filter: blur(18px);
+  box-shadow:
+    0 20px 80px rgba(0,0,0,0.45);
+}
+
+.enterprise-runtime-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(
+      circle at top,
+      rgba(139,92,246,0.18),
+      transparent 60%
+    );
+  pointer-events: none;
+}
+
+.runtime-grid-line {
+  border-color: rgba(255,255,255,0.06);
+}
+
+.runtime-status-active {
+  color: #4ADE80;
+}
+
+.runtime-status-warning {
+  color: #F59E0B;
+}
+
+.runtime-status-critical {
+  color: #EF4444;
+}
+
+.runtime-label {
+  color: rgba(255,255,255,0.45);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.runtime-value {
+  color: rgba(255,255,255,0.92);
+  font-weight: 300;
+  font-size: 15px;
+}
+
+
+.enterprise-runtime-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 32px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255,255,255,0.04) 0%,
+      rgba(255,255,255,0.02) 100%
+    );
+  backdrop-filter: blur(18px);
+  box-shadow:
+    0 20px 80px rgba(0,0,0,0.45);
+}
+
+.enterprise-runtime-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(
+      circle at top,
+      rgba(139,92,246,0.18),
+      transparent 60%
+    );
+  pointer-events: none;
+}
+
+.runtime-grid-line {
+  border-color: rgba(255,255,255,0.06);
+}
+
+.runtime-status-active {
+  color: #4ADE80;
+}
+
+.runtime-status-warning {
+  color: #F59E0B;
+}
+
+.runtime-status-critical {
+  color: #EF4444;
+}
+
+.runtime-label {
+  color: rgba(255,255,255,0.45);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.runtime-value {
+  color: rgba(255,255,255,0.92);
+  font-weight: 300;
+  font-size: 15px;
+}
+
