@@ -148,7 +148,7 @@ export default function WorkspaceSidebar() {
     usePathname();
 
   return (
-    <aside className="fixed left-3 top-16 bottom-3 z-40 w-[84vw] max-w-[300px] xl:left-6 xl:top-20 xl:bottom-6 overflow-hidden rounded-[36px] border border-white/[0.05] bg-black/40 backdrop-blur-3xl">
+    <aside className="hidden xl:block fixed left-6 top-20 bottom-6 z-40 w-[300px] overflow-hidden rounded-[36px] border border-white/[0.05] bg-black/40 backdrop-blur-3xl">
 
       <div className="h-full overflow-y-auto p-3 xl:p-5">
 

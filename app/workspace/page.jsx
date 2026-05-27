@@ -1,5 +1,7 @@
 "use client";
 
+import MobileBottomNav from "@/components/workspace/MobileBottomNav";
+
 export default function WorkspacePage() {
   return (
     <main className="min-h-screen bg-[#02040A] p-5 xl:p-4 xl:p-8 text-white">
@@ -1207,6 +1209,7 @@ export default function WorkspacePage() {
 
       </div>
 
+      <MobileBottomNav />
     </main>
   );
 }
