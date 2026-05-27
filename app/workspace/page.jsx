@@ -4,7 +4,7 @@ import MobileBottomNav from "@/components/workspace/MobileBottomNav";
 
 export default function WorkspacePage() {
   return (
-    <main className="min-h-screen overflow-x-hidden bg-[#02040A] px-4 pb-24 pt-6 text-white xl:px-8 xl:pb-8">
+    <main className="min-h-screen w-full overflow-x-hidden bg-[#02040A] px-4 pb-24 pt-6 text-white xl:px-8 xl:pb-8">
 
       <div className="mx-auto max-w-7xl">
 
@@ -32,7 +32,7 @@ export default function WorkspacePage() {
                   ORDER RECEIVED
                 </p>
 
-                <h2 className="text-xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-5xl font-extralight">
+                <h2 className="text-xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-2xl leading-tight xl:text-5xl font-extralight">
                   Table T1
                 </h2>
 
@@ -84,7 +84,7 @@ export default function WorkspacePage() {
                   LIVE OPERATION TIMELINE
                 </p>
 
-                <h2 className="text-xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-5xl font-extralight">
+                <h2 className="text-xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-2xl leading-tight xl:text-5xl font-extralight">
                   Real-Time Coordination
                 </h2>
 
@@ -98,7 +98,7 @@ export default function WorkspacePage() {
 
             <div className="space-y-4">
 
-              <div className="flex gap-5 rounded-3xl border border-white/[0.05] bg-black/20 p-5">
+              <div className="flex flex-col gap-2 xl:flex-row xl:gap-5 rounded-3xl border border-white/[0.05] bg-black/20 p-4 xl:p-5">
 
                 <div className="text-sm text-white/35">
                   12:01
@@ -118,7 +118,7 @@ export default function WorkspacePage() {
 
               </div>
 
-              <div className="flex gap-5 rounded-3xl border border-white/[0.05] bg-black/20 p-5">
+              <div className="flex flex-col gap-2 xl:flex-row xl:gap-5 rounded-3xl border border-white/[0.05] bg-black/20 p-4 xl:p-5">
 
                 <div className="text-sm text-white/35">
                   12:01
@@ -138,7 +138,7 @@ export default function WorkspacePage() {
 
               </div>
 
-              <div className="flex gap-5 rounded-3xl border border-amber-500/20 bg-amber-500/10 p-5">
+              <div className="flex flex-col gap-2 xl:flex-row xl:gap-5 rounded-3xl border border-amber-500/20 bg-amber-500/10 p-5">
 
                 <div className="text-sm text-amber-300">
                   12:02
@@ -158,7 +158,7 @@ export default function WorkspacePage() {
 
               </div>
 
-              <div className="flex gap-5 rounded-3xl border border-purple-500/20 bg-purple-500/10 p-5">
+              <div className="flex flex-col gap-2 xl:flex-row xl:gap-5 rounded-3xl border border-purple-500/20 bg-purple-500/10 p-5">
 
                 <div className="text-sm text-purple-300">
                   12:03
@@ -178,7 +178,7 @@ export default function WorkspacePage() {
 
               </div>
 
-              <div className="flex gap-5 rounded-3xl border border-white/[0.05] bg-black/20 p-5">
+              <div className="flex flex-col gap-2 xl:flex-row xl:gap-5 rounded-3xl border border-white/[0.05] bg-black/20 p-4 xl:p-5">
 
                 <div className="text-sm text-white/35">
                   12:04
@@ -198,7 +198,7 @@ export default function WorkspacePage() {
 
               </div>
 
-              <div className="flex gap-5 rounded-3xl border border-red-500/20 bg-red-500/10 p-5">
+              <div className="flex flex-col gap-2 xl:flex-row xl:gap-5 rounded-3xl border border-red-500/20 bg-red-500/10 p-5">
 
                 <div className="text-sm text-red-300">
                   12:05
@@ -218,7 +218,7 @@ export default function WorkspacePage() {
 
               </div>
 
-              <div className="flex gap-5 rounded-3xl border border-green-500/20 bg-green-500/10 p-5">
+              <div className="flex flex-col gap-2 xl:flex-row xl:gap-5 rounded-3xl border border-green-500/20 bg-green-500/10 p-5">
 
                 <div className="text-sm text-green-300">
                   12:07
@@ -252,7 +252,7 @@ export default function WorkspacePage() {
                   LIVE FINANCIAL IMPACT
                 </p>
 
-                <h2 className="text-xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-5xl font-extralight">
+                <h2 className="text-xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-2xl leading-tight xl:text-5xl font-extralight">
                   Operational Profitability
                 </h2>
 
@@ -268,7 +268,7 @@ export default function WorkspacePage() {
 
               <div className="space-y-4">
 
-                <div className="flex items-center justify-between rounded-3xl border border-white/[0.05] bg-black/20 p-5">
+                <div className="flex items-center justify-between rounded-3xl border border-white/[0.05] bg-black/20 p-4 xl:p-5">
 
                   <span className="text-white/70">
                     Order Value
@@ -280,7 +280,7 @@ export default function WorkspacePage() {
 
                 </div>
 
-                <div className="flex items-center justify-between rounded-3xl border border-white/[0.05] bg-black/20 p-5">
+                <div className="flex items-center justify-between rounded-3xl border border-white/[0.05] bg-black/20 p-4 xl:p-5">
 
                   <span className="text-white/70">
                     Food Cost
@@ -292,7 +292,7 @@ export default function WorkspacePage() {
 
                 </div>
 
-                <div className="flex items-center justify-between rounded-3xl border border-white/[0.05] bg-black/20 p-5">
+                <div className="flex items-center justify-between rounded-3xl border border-white/[0.05] bg-black/20 p-4 xl:p-5">
 
                   <span className="text-white/70">
                     Gross Margin
@@ -304,7 +304,7 @@ export default function WorkspacePage() {
 
                 </div>
 
-                <div className="flex items-center justify-between rounded-3xl border border-white/[0.05] bg-black/20 p-5">
+                <div className="flex items-center justify-between rounded-3xl border border-white/[0.05] bg-black/20 p-4 xl:p-5">
 
                   <span className="text-white/70">
                     Service Charge
@@ -336,42 +336,42 @@ export default function WorkspacePage() {
 
                   <div className="space-y-3 text-white/70">
 
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
                       <span>Wagyu Patties</span>
                       <span>฿180</span>
                     </div>
 
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
                       <span>Fresh Ingredients</span>
                       <span>฿42</span>
                     </div>
 
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
                       <span>Fries</span>
                       <span>฿28</span>
                     </div>
 
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
                       <span>Wine</span>
                       <span>฿160</span>
                     </div>
 
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
                       <span>Kitchen Labor Allocation</span>
                       <span>฿42</span>
                     </div>
 
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
                       <span>Bar Labor Allocation</span>
                       <span>฿18</span>
                     </div>
 
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
                       <span>Service Labor</span>
                       <span>฿35</span>
                     </div>
 
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
                       <span>Energy Cost</span>
                       <span>฿12</span>
                     </div>
@@ -396,7 +396,7 @@ export default function WorkspacePage() {
 
                   <div className="space-y-4">
 
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
 
                       <span className="text-white/70">
                         Total Revenue
@@ -408,7 +408,7 @@ export default function WorkspacePage() {
 
                     </div>
 
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
 
                       <span className="text-white/70">
                         Total Operational Cost
@@ -422,7 +422,7 @@ export default function WorkspacePage() {
 
                     <div className="h-px bg-white/[0.06]" />
 
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
 
                       <span className="text-white">
                         Net Profit
@@ -434,7 +434,7 @@ export default function WorkspacePage() {
 
                     </div>
 
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
 
                       <span className="text-white/70">
                         Net Margin
@@ -484,7 +484,7 @@ export default function WorkspacePage() {
 
           </div>
 
-          <div className="grid gap-5 xl:grid-cols-2">
+          <div className="grid grid-cols-1 gap-4 xl:grid-cols-2 xl:gap-8">
 
             <div className="rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-8">
 
@@ -496,7 +496,7 @@ export default function WorkspacePage() {
                     KITCHEN
                   </p>
 
-                  <h2 className="text-xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-5xl font-extralight">
+                  <h2 className="text-xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-2xl leading-tight xl:text-5xl font-extralight">
                     Cooking
                   </h2>
 
@@ -518,7 +518,7 @@ export default function WorkspacePage() {
 
               <div className="rounded-3xl border border-amber-500/20 bg-amber-500/10 p-4 xl:p-6">
 
-                <div className="flex items-center justify-between">
+                <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
 
                   <div>
 
@@ -552,7 +552,7 @@ export default function WorkspacePage() {
                     BAR
                   </p>
 
-                  <h2 className="text-xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-5xl font-extralight">
+                  <h2 className="text-xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-2xl leading-tight xl:text-5xl font-extralight">
                     Preparing
                   </h2>
 
@@ -574,7 +574,7 @@ export default function WorkspacePage() {
 
               <div className="rounded-3xl border border-purple-500/20 bg-purple-500/10 p-4 xl:p-6">
 
-                <div className="flex items-center justify-between">
+                <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
 
                   <div>
 
@@ -600,7 +600,7 @@ export default function WorkspacePage() {
 
           </div>
 
-          <div className="grid gap-5 xl:grid-cols-2">
+          <div className="grid grid-cols-1 gap-4 xl:grid-cols-2 xl:gap-8">
 
             <div className="rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-8">
 
@@ -610,7 +610,7 @@ export default function WorkspacePage() {
                   PRODUCTION + INVENTORY IMPACT
                 </p>
 
-                <h2 className="text-xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-5xl font-extralight">
+                <h2 className="text-xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-2xl leading-tight xl:text-5xl font-extralight">
                   One Order Changes Everything
                 </h2>
 
@@ -658,17 +658,17 @@ export default function WorkspacePage() {
 
                           <div className="space-y-2 text-sm text-white/60">
 
-                            <div className="flex items-center justify-between">
+                            <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
                               <span>Raw Wagyu Beef</span>
                               <span>8kg → 4kg</span>
                             </div>
 
-                            <div className="flex items-center justify-between">
+                            <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
                               <span>Salt</span>
                               <span>400g → 360g</span>
                             </div>
 
-                            <div className="flex items-center justify-between">
+                            <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
                               <span>Pepper</span>
                               <span>250g → 230g</span>
                             </div>
@@ -701,17 +701,17 @@ export default function WorkspacePage() {
 
                           <div className="space-y-2 text-sm text-white/60">
 
-                            <div className="flex items-center justify-between">
+                            <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
                               <span>Flour</span>
                               <span>12kg → 8kg</span>
                             </div>
 
-                            <div className="flex items-center justify-between">
+                            <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
                               <span>Butter</span>
                               <span>3kg → 2.4kg</span>
                             </div>
 
-                            <div className="flex items-center justify-between">
+                            <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
                               <span>Yeast</span>
                               <span>900g → 820g</span>
                             </div>
@@ -800,28 +800,28 @@ export default function WorkspacePage() {
 
                   <div className="space-y-4">
 
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
                       <span className="text-white/70">Tomato</span>
                       <span className="text-green-400">
                         2400g → 2330g
                       </span>
                     </div>
 
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
                       <span className="text-white/70">Lettuce</span>
                       <span className="text-green-400">
                         1800g → 1760g
                       </span>
                     </div>
 
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
                       <span className="text-white/70">Ketchup</span>
                       <span className="text-green-400">
                         1200g → 1170g
                       </span>
                     </div>
 
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
                       <span className="text-white/70">Onion</span>
                       <span className="text-green-400">
                         900g → 880g
@@ -856,14 +856,14 @@ export default function WorkspacePage() {
 
                   <div className="space-y-4">
 
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
                       <span className="text-white/70">Potatoes</span>
                       <span className="text-amber-300">
                         12kg → 11.7kg
                       </span>
                     </div>
 
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
                       <span className="text-white/70">Fryer Oil Usage</span>
                       <span className="text-amber-300">
                         +0.2%
@@ -886,7 +886,7 @@ export default function WorkspacePage() {
                   AI + PROCUREMENT
                 </p>
 
-                <h2 className="text-xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-5xl font-extralight">
+                <h2 className="text-xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-2xl leading-tight xl:text-5xl font-extralight">
                   Operational Intelligence
                 </h2>
 
@@ -949,7 +949,7 @@ export default function WorkspacePage() {
           </div>
 
 
-          <div className="grid gap-5 xl:grid-cols-2">
+          <div className="grid grid-cols-1 gap-4 xl:grid-cols-2 xl:gap-8">
 
             <div className="rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-8">
 
@@ -961,7 +961,7 @@ export default function WorkspacePage() {
                     AI MANAGER DECISIONS
                   </p>
 
-                  <h2 className="text-xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-5xl font-extralight">
+                  <h2 className="text-xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-2xl leading-tight xl:text-5xl font-extralight">
                     Operational Command Center
                   </h2>
 
@@ -1049,17 +1049,17 @@ export default function WorkspacePage() {
 
                   <div className="space-y-3 text-white/70">
 
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
                       <span>Kitchen Chefs Active</span>
                       <span>2</span>
                     </div>
 
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
                       <span>Bar Staff Active</span>
                       <span>1</span>
                     </div>
 
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
                       <span>Service Runners Active</span>
                       <span>2</span>
                     </div>
@@ -1082,7 +1082,7 @@ export default function WorkspacePage() {
                     PROCUREMENT → ACCOUNTING FLOW
                   </p>
 
-                  <h2 className="text-xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-5xl font-extralight">
+                  <h2 className="text-xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-2xl leading-tight xl:text-5xl font-extralight">
                     Purchase Synchronization
                   </h2>
 
@@ -1124,17 +1124,17 @@ export default function WorkspacePage() {
 
                   <div className="space-y-3 text-white/70">
 
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
                       <span>Tomatoes</span>
                       <span>+16kg</span>
                     </div>
 
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
                       <span>Wagyu Beef</span>
                       <span>+20kg</span>
                     </div>
 
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
                       <span>Wine Bottles</span>
                       <span>+24</span>
                     </div>
@@ -1179,17 +1179,17 @@ export default function WorkspacePage() {
 
                   <div className="space-y-3 text-white/70">
 
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
                       <span>Accounts Payable</span>
                       <span>Created</span>
                     </div>
 
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
                       <span>VAT Registered</span>
                       <span>Updated</span>
                     </div>
 
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
                       <span>Inventory Ledger</span>
                       <span>Synchronized</span>
                     </div>
