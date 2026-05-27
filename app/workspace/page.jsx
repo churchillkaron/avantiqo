@@ -2,7 +2,7 @@
 
 export default function WorkspacePage() {
   return (
-    <main className="min-h-screen bg-[#02040A] p-5 xl:p-5 xl:p-8 text-white">
+    <main className="min-h-screen bg-[#02040A] p-5 xl:p-4 xl:p-8 text-white">
 
       <div className="mx-auto max-w-7xl">
 
@@ -18,9 +18,9 @@ export default function WorkspacePage() {
 
         </div>
 
-        <div className="space-y-5 xl:space-y-8">
+        <div className="space-y-4 xl:space-y-8">
 
-          <div className="rounded-[28px] xl:rounded-[28px] xl:rounded-[36px] border border-purple-500/10 bg-gradient-to-br from-[#12091F] to-[#050816] p-5 xl:p-5 xl:p-8">
+          <div className="rounded-[28px] xl:rounded-[28px] xl:rounded-[36px] border border-purple-500/10 bg-gradient-to-br from-[#12091F] to-[#050816] p-5 xl:p-4 xl:p-8">
 
             <div className="mb-8 flex items-center justify-between">
 
@@ -44,7 +44,7 @@ export default function WorkspacePage() {
 
             <div className="grid gap-4 md:grid-cols-2">
 
-              <div className="rounded-3xl border border-white/[0.05] bg-black/20 p-6">
+              <div className="rounded-3xl border border-white/[0.05] bg-black/20 p-4 xl:p-6">
 
                 <p className="text-xl xl:text-xl xl:text-2xl xl:text-xl xl:text-2xl xl:text-3xl font-extralight">
                   2 Wagyu Burger
@@ -56,7 +56,7 @@ export default function WorkspacePage() {
 
               </div>
 
-              <div className="rounded-3xl border border-white/[0.05] bg-black/20 p-6">
+              <div className="rounded-3xl border border-white/[0.05] bg-black/20 p-4 xl:p-6">
 
                 <p className="text-xl xl:text-xl xl:text-2xl xl:text-xl xl:text-2xl xl:text-3xl font-extralight">
                   1 Wine
@@ -72,7 +72,7 @@ export default function WorkspacePage() {
 
           </div>
 
-          <div className="rounded-[28px] xl:rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-5 xl:p-8">
+          <div className="rounded-[28px] xl:rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-4 xl:p-8">
 
             <div className="mb-8 flex items-center justify-between">
 
@@ -240,7 +240,7 @@ export default function WorkspacePage() {
 
           </div>
 
-          <div className="rounded-[28px] xl:rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-5 xl:p-8">
+          <div className="rounded-[28px] xl:rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-4 xl:p-8">
 
             <div className="mb-8 flex items-center justify-between">
 
@@ -262,7 +262,7 @@ export default function WorkspacePage() {
 
             </div>
 
-            <div className="grid grid-cols-1 gap-5 xl:grid-cols-2 xl:gap-6">
+            <div className="grid grid-cols-1 gap-5 xl:grid-cols-2 xl:gap-4 xl:p-6">
 
               <div className="space-y-4">
 
@@ -482,9 +482,9 @@ export default function WorkspacePage() {
 
           </div>
 
-          <div className="grid gap-5 xl:p-5 xl:p-8 xl:grid-cols-2">
+          <div className="grid gap-5 xl:p-4 xl:p-8 xl:grid-cols-2">
 
-            <div className="rounded-[28px] xl:rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-5 xl:p-8">
+            <div className="rounded-[28px] xl:rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-4 xl:p-8">
 
               <div className="mb-8 flex items-center justify-between">
 
@@ -514,7 +514,7 @@ export default function WorkspacePage() {
 
               </div>
 
-              <div className="rounded-3xl border border-amber-500/20 bg-amber-500/10 p-6">
+              <div className="rounded-3xl border border-amber-500/20 bg-amber-500/10 p-4 xl:p-6">
 
                 <div className="flex items-center justify-between">
 
@@ -540,7 +540,7 @@ export default function WorkspacePage() {
 
             </div>
 
-            <div className="rounded-[28px] xl:rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-5 xl:p-8">
+            <div className="rounded-[28px] xl:rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-4 xl:p-8">
 
               <div className="mb-8 flex items-center justify-between">
 
@@ -570,7 +570,7 @@ export default function WorkspacePage() {
 
               </div>
 
-              <div className="rounded-3xl border border-purple-500/20 bg-purple-500/10 p-6">
+              <div className="rounded-3xl border border-purple-500/20 bg-purple-500/10 p-4 xl:p-6">
 
                 <div className="flex items-center justify-between">
 
@@ -598,11 +598,11 @@ export default function WorkspacePage() {
 
           </div>
 
-          <div className="grid gap-5 xl:p-5 xl:p-8 xl:grid-cols-2">
+          <div className="grid gap-5 xl:p-4 xl:p-8 xl:grid-cols-2">
 
-            <div className="rounded-[28px] xl:rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-5 xl:p-8">
+            <div className="rounded-[28px] xl:rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-4 xl:p-8">
 
-              <div className="mb-5 xl:mb-8">
+              <div className="mb-4 xl:mb-8">
 
                 <p className="mb-3 text-xs tracking-[0.24em] text-[#D6A66A]">
                   PRODUCTION + INVENTORY IMPACT
@@ -616,7 +616,7 @@ export default function WorkspacePage() {
 
               <div className="space-y-4 xl:space-y-6">
 
-                <div className="rounded-3xl border border-purple-500/20 bg-purple-500/10 p-6">
+                <div className="rounded-3xl border border-purple-500/20 bg-purple-500/10 p-4 xl:p-6">
 
                   <div className="mb-5 flex items-center justify-between">
 
@@ -774,7 +774,7 @@ export default function WorkspacePage() {
 
                 </div>
 
-                <div className="rounded-3xl border border-white/[0.05] bg-black/20 p-6">
+                <div className="rounded-3xl border border-white/[0.05] bg-black/20 p-4 xl:p-6">
 
                   <div className="mb-5 flex items-center justify-between">
 
@@ -830,7 +830,7 @@ export default function WorkspacePage() {
 
                 </div>
 
-                <div className="rounded-3xl border border-amber-500/20 bg-amber-500/10 p-6">
+                <div className="rounded-3xl border border-amber-500/20 bg-amber-500/10 p-4 xl:p-6">
 
                   <div className="mb-5 flex items-center justify-between">
 
@@ -876,9 +876,9 @@ export default function WorkspacePage() {
 
             </div>
 
-            <div className="rounded-[28px] xl:rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-5 xl:p-8">
+            <div className="rounded-[28px] xl:rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-4 xl:p-8">
 
-              <div className="mb-5 xl:mb-8">
+              <div className="mb-4 xl:mb-8">
 
                 <p className="mb-3 text-xs tracking-[0.24em] text-[#D6A66A]">
                   AI + PROCUREMENT
@@ -892,7 +892,7 @@ export default function WorkspacePage() {
 
               <div className="space-y-4 xl:space-y-5">
 
-                <div className="rounded-3xl border border-purple-500/20 bg-purple-500/10 p-6">
+                <div className="rounded-3xl border border-purple-500/20 bg-purple-500/10 p-4 xl:p-6">
 
                   <p className="text-xl xl:text-xl xl:text-2xl font-extralight">
                     High Wagyu Demand
@@ -904,7 +904,7 @@ export default function WorkspacePage() {
 
                 </div>
 
-                <div className="rounded-3xl border border-amber-500/20 bg-amber-500/10 p-6">
+                <div className="rounded-3xl border border-amber-500/20 bg-amber-500/10 p-4 xl:p-6">
 
                   <p className="text-xl xl:text-xl xl:text-2xl font-extralight">
                     Tomato Usage Alert
@@ -916,7 +916,7 @@ export default function WorkspacePage() {
 
                 </div>
 
-                <div className="rounded-3xl border border-green-500/20 bg-green-500/10 p-6">
+                <div className="rounded-3xl border border-green-500/20 bg-green-500/10 p-4 xl:p-6">
 
                   <p className="text-xl xl:text-xl xl:text-2xl font-extralight">
                     Procurement Runtime
@@ -928,7 +928,7 @@ export default function WorkspacePage() {
 
                 </div>
 
-                <div className="rounded-3xl border border-white/[0.05] bg-black/20 p-6">
+                <div className="rounded-3xl border border-white/[0.05] bg-black/20 p-4 xl:p-6">
 
                   <p className="text-xl xl:text-xl xl:text-2xl font-extralight">
                     Production Forecast
@@ -947,9 +947,9 @@ export default function WorkspacePage() {
           </div>
 
 
-          <div className="grid gap-5 xl:p-5 xl:p-8 xl:grid-cols-2">
+          <div className="grid gap-5 xl:p-4 xl:p-8 xl:grid-cols-2">
 
-            <div className="rounded-[28px] xl:rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-5 xl:p-8">
+            <div className="rounded-[28px] xl:rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-4 xl:p-8">
 
               <div className="mb-8 flex items-center justify-between">
 
@@ -973,7 +973,7 @@ export default function WorkspacePage() {
 
               <div className="space-y-4 xl:space-y-5">
 
-                <div className="rounded-3xl border border-red-500/20 bg-red-500/10 p-6">
+                <div className="rounded-3xl border border-red-500/20 bg-red-500/10 p-4 xl:p-6">
 
                   <div className="mb-4 flex items-center justify-between">
 
@@ -1005,7 +1005,7 @@ export default function WorkspacePage() {
 
                 </div>
 
-                <div className="rounded-3xl border border-amber-500/20 bg-amber-500/10 p-6">
+                <div className="rounded-3xl border border-amber-500/20 bg-amber-500/10 p-4 xl:p-6">
 
                   <div className="mb-4 flex items-center justify-between">
 
@@ -1031,7 +1031,7 @@ export default function WorkspacePage() {
 
                 </div>
 
-                <div className="rounded-3xl border border-green-500/20 bg-green-500/10 p-6">
+                <div className="rounded-3xl border border-green-500/20 bg-green-500/10 p-4 xl:p-6">
 
                   <div className="mb-4 flex items-center justify-between">
 
@@ -1070,7 +1070,7 @@ export default function WorkspacePage() {
 
             </div>
 
-            <div className="rounded-[28px] xl:rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-5 xl:p-8">
+            <div className="rounded-[28px] xl:rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-4 xl:p-8">
 
               <div className="mb-8 flex items-center justify-between">
 
@@ -1094,7 +1094,7 @@ export default function WorkspacePage() {
 
               <div className="space-y-4 xl:space-y-5">
 
-                <div className="rounded-3xl border border-white/[0.05] bg-black/20 p-6">
+                <div className="rounded-3xl border border-white/[0.05] bg-black/20 p-4 xl:p-6">
 
                   <p className="text-xl xl:text-xl xl:text-2xl font-extralight">
                     Procurement Request Created
@@ -1106,7 +1106,7 @@ export default function WorkspacePage() {
 
                 </div>
 
-                <div className="rounded-3xl border border-purple-500/20 bg-purple-500/10 p-6">
+                <div className="rounded-3xl border border-purple-500/20 bg-purple-500/10 p-4 xl:p-6">
 
                   <div className="mb-4 flex items-center justify-between">
 
@@ -1141,7 +1141,7 @@ export default function WorkspacePage() {
 
                 </div>
 
-                <div className="rounded-3xl border border-amber-500/20 bg-amber-500/10 p-6">
+                <div className="rounded-3xl border border-amber-500/20 bg-amber-500/10 p-4 xl:p-6">
 
                   <div className="mb-4 flex items-center justify-between">
 
@@ -1161,7 +1161,7 @@ export default function WorkspacePage() {
 
                 </div>
 
-                <div className="rounded-3xl border border-green-500/20 bg-green-500/10 p-6">
+                <div className="rounded-3xl border border-green-500/20 bg-green-500/10 p-4 xl:p-6">
 
                   <div className="mb-4 flex items-center justify-between">
 

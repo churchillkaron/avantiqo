@@ -148,20 +148,20 @@ export default function WorkspaceSidebar() {
     usePathname();
 
   return (
-    <aside className="fixed left-6 top-20 bottom-6 z-40 w-[300px] overflow-hidden rounded-[36px] border border-white/[0.05] bg-black/40 backdrop-blur-3xl">
+    <aside className="fixed left-3 top-16 bottom-3 z-40 w-[84vw] max-w-[300px] xl:left-6 xl:top-20 xl:bottom-6 overflow-hidden rounded-[36px] border border-white/[0.05] bg-black/40 backdrop-blur-3xl">
 
-      <div className="h-full overflow-y-auto p-5">
+      <div className="h-full overflow-y-auto p-3 xl:p-5">
 
-        <div className="rounded-[28px] border border-white/[0.05] bg-white/[0.025] p-6">
+        <div className="rounded-[28px] border border-white/[0.05] bg-white/[0.025] p-4 xl:p-6">
 
-          <div className="mb-12">
+          <div className="mb-6 xl:mb-12">
 
             <div className="text-xs tracking-[0.28em] text-[#B58AF8]">
               ENTERPRISE
             </div>
 
             <div
-              className="mt-4 text-3xl"
+              className="mt-4 text-2xl xl:text-3xl"
               style={{
                 fontWeight: 250,
                 letterSpacing: "-0.05em",
@@ -181,7 +181,7 @@ export default function WorkspaceSidebar() {
                   {section.title}
                 </div>
 
-                <div className="flex flex-col gap-2">
+                <div className="flex flex-col gap-1 xl:gap-2">
 
                   {section.items.map(
                     (item) => {
@@ -193,7 +193,7 @@ export default function WorkspaceSidebar() {
                         <Link
                           key={item.href}
                           href={item.href}
-                          className={`rounded-2xl px-6 py-4 transition duration-300 ${
+                          className={`rounded-2xl px-4 py-3 xl:px-6 xl:py-4 transition duration-300 ${
                             active
                               ? "bg-gradient-to-r from-[#D6A66A] via-[#C084FC] to-[#7C5CFA] text-white shadow-[0_0_50px_rgba(139,92,246,0.35)]"
                               : "text-white/65 hover:bg-white/[0.025] hover:text-white"
