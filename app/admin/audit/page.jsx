@@ -56,7 +56,7 @@ export default function AuditPage() {
           Loading audit logs...
         </div>
       ) : logs.length === 0 ? (
-        <div className="rounded-3xl border border-white/[0.06] bg-white/5 p-6 md:p-10 text-zinc-400">
+        <div className="rounded-3xl border border-white/[0.05] bg-white/5 p-6 md:p-10 text-zinc-400">
           No audit events found.
         </div>
       ) : (
@@ -65,7 +65,7 @@ export default function AuditPage() {
           {logs.map((log) => (
             <div
               key={log.id}
-              className="rounded-2xl border border-white/[0.06] bg-white/5 p-5"
+              className="rounded-2xl border border-white/[0.05] bg-white/5 p-5"
             >
 
               <div className="flex items-start justify-between gap-6">

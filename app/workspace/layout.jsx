@@ -5,7 +5,7 @@ export default function WorkspaceLayout({
   children,
 }) {
   return (
-    <div className="min-h-screen bg-[#03030A] text-white">
+    <div className="min-h-screen bg-[#02040A] text-white">
 
       <WorkspaceSidebar />
 

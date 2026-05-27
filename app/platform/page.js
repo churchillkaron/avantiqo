@@ -63,7 +63,7 @@ export default function PlatformPage() {
               ENTERPRISE OPERATIONAL PLATFORM
             </p>
 
-            <h1 className="text-6xl font-normal leading-[1.0] tracking-[-0.045em] md:text-[92px]">
+            <h1 className="text-6xl font-extralight leading-[1.02] tracking-[-0.06em] md:text-[92px]">
               The connected
               <br />
               operating system
@@ -71,7 +71,7 @@ export default function PlatformPage() {
               for modern business.
             </h1>
 
-            <p className="mt-8 max-w-[760px] text-[17px] leading-[1.9] text-white/50">
+            <p className="mt-8 max-w-[820px] text-[17px] leading-[1.9] text-white/50">
               Avantiqo connects departments, workflows,
               approvals, operations, payroll, procurement,
               accounting, marketing and live business visibility
@@ -82,14 +82,14 @@ export default function PlatformPage() {
 
               <Link
                 href="/demo"
-                className="rounded-[22px] bg-gradient-to-r from-[#C6A062] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4 text-sm font-normal transition-all duration-300 ease-out hover:-translate-y-[2px]"
+                className="rounded-[22px] bg-gradient-to-r from-[#D6A66A] via-[#C084FC] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4 text-sm font-extralight transition-all duration-300 ease-out hover:-translate-y-[2px]"
               >
                 Book Platform Demo
               </Link>
 
               <Link
                 href="/industries"
-                className="rounded-[22px] border border-white/[0.06] bg-white/[0.03] px-6 py-3 md:px-8 md:py-4 text-sm text-white/50 transition-all duration-300 ease-out hover:border-purple-500/30"
+                className="rounded-[22px] border border-white/[0.05] bg-white/[0.025] px-6 py-3 md:px-8 md:py-4 text-sm text-white/50 transition-all duration-300 ease-out hover:border-purple-500/30"
               >
                 Explore Industries
               </Link>
@@ -98,14 +98,14 @@ export default function PlatformPage() {
 
           </div>
 
-          <div className="overflow-hidden rounded-[36px] border border-white/[0.06] bg-[#060816] shadow-[0_10px_60px_rgba(0,0,0,0.35)]">
+          <div className="overflow-hidden rounded-[36px] border border-white/[0.05] bg-[#050714] shadow-[0_20px_80px_rgba(0,0,0,0.45)]">
 
             <Image
               src="/images/platform-hero.png"
               alt="Platform Runtime"
               width={1600}
               height={1000}
-              quality={100}
+              quality={75}
               priority
               className="h-full w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
             />
@@ -125,7 +125,7 @@ export default function PlatformPage() {
             CONNECTED BUSINESS INFRASTRUCTURE
           </p>
 
-          <h2 className="text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
+          <h2 className="text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
             Replace disconnected
             <br />
             software and fragmented
@@ -155,7 +155,7 @@ export default function PlatformPage() {
 
               <div
                 key={section.title}
-                className="overflow-hidden rounded-[36px] border border-white/[0.06] bg-[#060816] transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-purple-500/30 hover:shadow-[0_0_60px_rgba(120,80,255,0.10)]"
+                className="overflow-hidden rounded-[36px] border border-white/[0.05] bg-[#050714] transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-purple-500/30 hover:shadow-[0_0_60px_rgba(120,80,255,0.10)]"
               >
 
                 <Image
@@ -163,7 +163,7 @@ export default function PlatformPage() {
                   alt={section.title}
                   width={1400}
                   height={900}
-                  quality={100}
+                  quality={75}
                   className="h-[420px] w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
                 />
 
@@ -179,7 +179,7 @@ export default function PlatformPage() {
 
                   </div>
 
-                  <h3 className="text-4xl font-normal tracking-[-0.02em]">
+                  <h3 className="text-4xl font-extralight tracking-[-0.02em]">
                     {section.title}
                   </h3>
 
@@ -210,7 +210,7 @@ export default function PlatformPage() {
               SECURITY & GOVERNANCE
             </p>
 
-            <h2 className="text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
+            <h2 className="text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
               Enterprise visibility
               <br />
               with controlled access.
@@ -236,7 +236,7 @@ export default function PlatformPage() {
 
                 <div
                   key={item}
-                  className="rounded-[22px] border border-white/[0.06] bg-white/[0.03] px-5 py-4 text-sm text-white/50"
+                  className="rounded-[22px] border border-white/[0.05] bg-white/[0.025] px-5 py-4 text-sm text-white/50"
                 >
                   {item}
                 </div>
@@ -247,14 +247,14 @@ export default function PlatformPage() {
 
           </div>
 
-          <div className="overflow-hidden rounded-[36px] border border-white/[0.06] bg-[#060816]">
+          <div className="overflow-hidden rounded-[36px] border border-white/[0.05] bg-[#050714]">
 
             <Image
               src="/images/platform-security.png"
               alt="Platform Security"
               width={1400}
               height={1000}
-              quality={100}
+              quality={75}
               className="h-full w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
             />
 
@@ -275,7 +275,7 @@ export default function PlatformPage() {
               CROSS-MODULE OPERATIONAL FLOW
             </p>
 
-            <h2 className="text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
+            <h2 className="text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
               Every action
               <br />
               connected across
@@ -297,14 +297,14 @@ export default function PlatformPage() {
 
               <div
                 key={step}
-                className="rounded-[30px] border border-white/[0.06] bg-[#060816] p-8"
+                className="rounded-[30px] border border-white/[0.05] bg-[#050714] p-8"
               >
 
                 <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-full border border-purple-500/30 bg-purple-500/10 text-lg">
                   {index + 1}
                 </div>
 
-                <h3 className="text-2xl font-normal">
+                <h3 className="text-2xl font-extralight">
                   {step}
                 </h3>
 
@@ -331,7 +331,7 @@ export default function PlatformPage() {
             ENTERPRISE OPERATIONAL PLATFORM
           </p>
 
-          <h2 className="text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
+          <h2 className="text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
             One platform.
             <br />
             One operational runtime.
@@ -339,7 +339,7 @@ export default function PlatformPage() {
             Total visibility.
           </h2>
 
-          <p className="mx-auto mt-8 max-w-[760px] text-[17px] leading-[1.9] text-white/50">
+          <p className="mx-auto mt-8 max-w-[820px] text-[17px] leading-[1.9] text-white/50">
             Connect departments, workflows, teams,
             approvals and operations into one intelligent
             enterprise operating system.
@@ -349,14 +349,14 @@ export default function PlatformPage() {
 
             <Link
               href="/demo"
-              className="rounded-[22px] bg-gradient-to-r from-[#C6A062] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4 text-sm font-normal transition-all duration-300 ease-out hover:-translate-y-[2px]"
+              className="rounded-[22px] bg-gradient-to-r from-[#D6A66A] via-[#C084FC] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4 text-sm font-extralight transition-all duration-300 ease-out hover:-translate-y-[2px]"
             >
               Book Enterprise Demo
             </Link>
 
             <Link
               href="/ai"
-              className="rounded-[22px] border border-white/[0.06] bg-white/[0.03] px-6 py-3 md:px-8 md:py-4 text-sm text-white/50 transition-all duration-300 ease-out hover:border-purple-500/30"
+              className="rounded-[22px] border border-white/[0.05] bg-white/[0.025] px-6 py-3 md:px-8 md:py-4 text-sm text-white/50 transition-all duration-300 ease-out hover:border-purple-500/30"
             >
               Explore AI Runtime
             </Link>

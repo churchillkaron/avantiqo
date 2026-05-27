@@ -55,7 +55,7 @@ export default function IndustriesPage() {
               INDUSTRY OPERATING RUNTIMES
             </p>
 
-            <h1 className="text-6xl font-normal leading-[1.0] tracking-[-0.045em] md:text-[92px]">
+            <h1 className="text-6xl font-extralight leading-[1.02] tracking-[-0.06em] md:text-[92px]">
               One operational runtime.
               <br />
               Multiple industries.
@@ -63,7 +63,7 @@ export default function IndustriesPage() {
               Complete visibility.
             </h1>
 
-            <p className="mt-8 max-w-[760px] text-[17px] leading-[1.9] text-white/50">
+            <p className="mt-8 max-w-[820px] text-[17px] leading-[1.9] text-white/50">
               Avantiqo connects operations, approvals, finance,
               documents, payroll, procurement, marketing and live
               business visibility into one connected enterprise runtime.
@@ -87,7 +87,7 @@ export default function IndustriesPage() {
               <Link
                 key={industry.title}
                 href={industry.href}
-                className="group overflow-hidden rounded-[36px] border border-white/[0.06] bg-[#060816] transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-purple-500/30 hover:shadow-[0_0_60px_rgba(120,80,255,0.12)]"
+                className="group overflow-hidden rounded-[36px] border border-white/[0.05] bg-[#050714] transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-purple-500/30 hover:shadow-[0_0_60px_rgba(120,80,255,0.12)]"
               >
 
                 <div className="relative overflow-hidden">
@@ -97,7 +97,7 @@ export default function IndustriesPage() {
                     alt={industry.title}
                     width={1400}
                     height={900}
-                    quality={100}
+                    quality={75}
                     className="h-[420px] w-full object-cover transition-transform duration-700 hover:scale-[1.02] transition-all duration-700 group-hover:scale-[1.03]"
                   />
 
@@ -117,7 +117,7 @@ export default function IndustriesPage() {
 
                   </div>
 
-                  <h2 className="text-4xl font-normal tracking-[-0.02em]">
+                  <h2 className="text-4xl font-extralight tracking-[-0.02em]">
                     {industry.title}
                   </h2>
 
@@ -156,7 +156,7 @@ export default function IndustriesPage() {
             ENTERPRISE OPERATIONS
           </p>
 
-          <h2 className="text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
+          <h2 className="text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
             Everything connected.
             <br />
             Everything visible.
@@ -164,7 +164,7 @@ export default function IndustriesPage() {
             One runtime.
           </h2>
 
-          <p className="mx-auto mt-8 max-w-[760px] text-[17px] leading-[1.9] text-white/50">
+          <p className="mx-auto mt-8 max-w-[820px] text-[17px] leading-[1.9] text-white/50">
             Replace fragmented software, disconnected teams and delayed reporting
             with one connected operational system built for modern businesses.
           </p>
@@ -173,14 +173,14 @@ export default function IndustriesPage() {
 
             <Link
               href="/demo"
-              className="rounded-[22px] bg-gradient-to-r from-[#C6A062] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4 text-sm font-normal transition-all duration-300 ease-out hover:-translate-y-[2px]"
+              className="rounded-[22px] bg-gradient-to-r from-[#D6A66A] via-[#C084FC] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4 text-sm font-extralight transition-all duration-300 ease-out hover:-translate-y-[2px]"
             >
               Book Enterprise Demo
             </Link>
 
             <Link
               href="/platform"
-              className="rounded-[22px] border border-white/[0.06] bg-white/[0.03] px-6 py-3 md:px-8 md:py-4 text-sm text-white/50 transition-all duration-300 ease-out hover:border-purple-500/30"
+              className="rounded-[22px] border border-white/[0.05] bg-white/[0.025] px-6 py-3 md:px-8 md:py-4 text-sm text-white/50 transition-all duration-300 ease-out hover:border-purple-500/30"
             >
               Explore Platform
             </Link>

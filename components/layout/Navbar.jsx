@@ -168,35 +168,35 @@ export default function Navbar() {
             <>
               <Link
                 href="/login"
-                className="hidden rounded-2xl border border-white/[0.06] bg-white/[0.03] px-5 py-2 text-sm text-white/65 backdrop-blur-2xl transition duration-300 hover:border-[#8B5CF6]/30 hover:bg-[#8B5CF6]/10 hover:text-white md:block"
+                className="hidden rounded-2xl border border-white/[0.05] bg-white/[0.025] px-6 py-2 text-[15px] text-white/65 backdrop-blur-lg transition duration-300 hover:border-[#8B5CF6]/30 hover:bg-[#8B5CF6]/10 hover:text-white md:block"
               >
                 Login
               </Link>
 
               <Link
                 href="/start"
-                className="rounded-2xl bg-gradient-to-r from-[#D6A66A] via-[#B98B57] to-[#8B5CF6] px-5 py-2 text-sm font-normal text-white shadow-[0_0_60px_rgba(168,85,247,.22)] transition duration-300 hover:scale-[1.02]"
+                className="rounded-2xl bg-gradient-to-r from-[#D6A66A] via-[#B98B57] to-[#8B5CF6] px-6 py-2 text-[15px] font-extralight text-white shadow-[0_0_60px_rgba(168,85,247,.22)] transition duration-300 hover:scale-[1.02]"
               >
                 Start Setup
               </Link>
             </>
           ) : (
             <>
-              <div className="hidden rounded-2xl border border-white/[0.06] bg-white/[0.03] px-5 py-2 text-sm text-white/80 backdrop-blur-2xl md:block">
+              <div className="hidden rounded-2xl border border-white/[0.05] bg-white/[0.025] px-6 py-2 text-[15px] text-white/80 backdrop-blur-lg md:block">
                 {profile?.full_name ||
                   user.email}
               </div>
 
               <Link
                 href={getDashboardLink()}
-                className="rounded-2xl border border-white/[0.06] bg-white/[0.03] px-5 py-2 text-sm text-white backdrop-blur-2xl transition duration-300 hover:border-[#8B5CF6]/30 hover:bg-[#8B5CF6]/10"
+                className="rounded-2xl border border-white/[0.05] bg-white/[0.025] px-6 py-2 text-[15px] text-white backdrop-blur-lg transition duration-300 hover:border-[#8B5CF6]/30 hover:bg-[#8B5CF6]/10"
               >
                 Dashboard
               </Link>
 
               <button
                 onClick={logout}
-                className="rounded-2xl bg-gradient-to-r from-[#D6A66A] via-[#B98B57] to-[#8B5CF6] px-5 py-2 text-sm font-normal text-white shadow-[0_0_60px_rgba(168,85,247,.22)] transition duration-300 hover:scale-[1.02]"
+                className="rounded-2xl bg-gradient-to-r from-[#D6A66A] via-[#B98B57] to-[#8B5CF6] px-6 py-2 text-[15px] font-extralight text-white shadow-[0_0_60px_rgba(168,85,247,.22)] transition duration-300 hover:scale-[1.02]"
               >
                 Logout
               </button>

@@ -1,6 +1,6 @@
 import "./globals.css";
 
-import { Inter, Space_Grotesk } from "next/font/google";
+import { Inter, Outfit } from "next/font/google";
 
 import Navbar from "@/components/layout/Navbar";
 
@@ -9,9 +9,10 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
-const spaceGrotesk = Space_Grotesk({
+const outfit = Outfit({
   subsets: ["latin"],
-  variable: "--font-space",
+  variable: "--font-outfit",
+  weight: ["300", "400", "500", "600"],
 });
 
 export const metadata = {
@@ -23,7 +24,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${spaceGrotesk.variable} bg-[#03030A] text-white`}
+        className={`${inter.variable} ${outfit.variable} bg-[#02040A] text-white`}
       >
         <ConditionalLayout>
           {children}

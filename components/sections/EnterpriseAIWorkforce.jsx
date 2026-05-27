@@ -9,7 +9,7 @@ export default function EnterpriseAIWorkforce() {
       <div className="relative mx-auto max-w-7xl px-6">
         {/* HEADER */}
         <div className="mb-16 max-w-5xl md:mb-24">
-          <p className="mb-6 text-xs tracking-[0.35em] text-[#B58AF8] md:mb-8">
+          <p className="mb-6 text-xs tracking-[0.28em] text-[#B58AF8] md:mb-8">
             ENTERPRISE AI WORKFORCE
           </p>
 
@@ -73,7 +73,7 @@ export default function EnterpriseAIWorkforce() {
             ].map((item) => (
               <div
                 key={item.title}
-                className="rounded-[26px] border border-white/[0.06] bg-white/[0.03] p-6 backdrop-blur-3xl md:rounded-[32px] md:p-8"
+                className="rounded-[26px] border border-white/[0.05] bg-white/[0.025] p-6 backdrop-blur-3xl md:rounded-[32px] md:p-8"
               >
                 <h3
                   className="text-2xl text-white md:text-[32px]"
@@ -101,8 +101,8 @@ export default function EnterpriseAIWorkforce() {
           </div>
 
           {/* RIGHT SIDE */}
-          <div className="overflow-hidden rounded-[30px] border border-white/[0.06] bg-white/[0.03] p-4 backdrop-blur-3xl md:rounded-[42px] md:p-8">
-            <div className="relative overflow-hidden rounded-[24px] border border-white/[0.06] md:rounded-[32px]">
+          <div className="overflow-hidden rounded-[30px] border border-white/[0.05] bg-white/[0.025] p-4 backdrop-blur-3xl md:rounded-[42px] md:p-8">
+            <div className="relative overflow-hidden rounded-[24px] border border-white/[0.05] md:rounded-[32px]">
               <div className="absolute inset-0 bg-gradient-to-tr from-[#8B5CF6]/10 via-transparent to-[#D6A66A]/10" />
               <Image
   src="/showcase/ai-workforce-dashboard.png"
@@ -137,7 +137,7 @@ export default function EnterpriseAIWorkforce() {
           ].map((item) => (
             <div
               key={item.title}
-              className="rounded-[26px] border border-white/[0.06] bg-white/[0.03] p-6 backdrop-blur-3xl md:rounded-[30px] md:p-8"
+              className="rounded-[26px] border border-white/[0.05] bg-white/[0.025] p-6 backdrop-blur-3xl md:rounded-[30px] md:p-8"
             >
               <h4
                 className="text-4xl text-white md:text-[52px]"

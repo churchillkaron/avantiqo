@@ -7,7 +7,7 @@ export default function SetupCompleteModal({
   return (
     <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/40 backdrop-blur-md p-6">
 
-      <div className="w-full max-w-2xl overflow-hidden rounded-[32px] border border-[#d7b66a]/20 bg-[#060816]/95 shadow-2xl shadow-black/60">
+      <div className="w-full max-w-2xl overflow-hidden rounded-[32px] border border-[#d7b66a]/20 bg-[#050714]/95 shadow-2xl shadow-black/60">
 
         <div className="relative p-6 md:p-10">
 
@@ -45,7 +45,7 @@ export default function SetupCompleteModal({
 
               <button
                 onClick={onClose}
-                className="rounded-2xl border border-white/[0.06] bg-white/5 px-6 py-4 text-white transition hover:bg-white/10"
+                className="rounded-2xl border border-white/[0.05] bg-white/5 px-6 py-4 text-white transition hover:bg-white/10"
               >
                 Continue Setup
               </button>

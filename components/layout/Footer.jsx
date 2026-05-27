@@ -40,7 +40,7 @@ export default function Footer() {
           {/* PLATFORM */}
           <div>
 
-            <p className="mb-6 text-xs tracking-[0.35em] text-[#B58AF8]">
+            <p className="mb-6 text-xs tracking-[0.28em] text-[#B58AF8]">
               PLATFORM
             </p>
 
@@ -81,7 +81,7 @@ export default function Footer() {
           {/* COMPLIANCE */}
           <div>
 
-            <p className="mb-6 text-xs tracking-[0.35em] text-[#B58AF8]">
+            <p className="mb-6 text-xs tracking-[0.28em] text-[#B58AF8]">
               COMPLIANCE
             </p>
 
@@ -122,7 +122,7 @@ export default function Footer() {
           {/* CONTACT */}
           <div>
 
-            <p className="mb-6 text-xs tracking-[0.35em] text-[#B58AF8]">
+            <p className="mb-6 text-xs tracking-[0.28em] text-[#B58AF8]">
               CONTACT
             </p>
 
@@ -158,7 +158,7 @@ export default function Footer() {
         {/* BOTTOM */}
         <div className="pt-10">
 
-          <div className="flex flex-col items-center justify-between gap-6 md:gap-8 text-sm text-white/30 md:flex-row">
+          <div className="flex flex-col items-center justify-between gap-6 md:gap-8 text-[15px] text-white/30 md:flex-row">
 
             <p>
               © 2026 Avantiqo. All rights reserved.

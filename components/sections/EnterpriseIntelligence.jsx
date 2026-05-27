@@ -17,7 +17,7 @@ export default function EnterpriseIntelligence() {
         {/* HEADER */}
         <div className="mb-24 max-w-5xl">
 
-          <p className="mb-8 text-xs tracking-[0.35em] text-[#B58AF8]">
+          <p className="mb-8 text-xs tracking-[0.28em] text-[#B58AF8]">
             ENTERPRISE INTELLIGENCE
           </p>
 
@@ -60,14 +60,14 @@ export default function EnterpriseIntelligence() {
         </div>
 
         {/* MAIN DASHBOARD */}
-        <div className="overflow-hidden rounded-[42px] border border-white/[0.06] bg-white/[0.03] backdrop-blur-3xl">
+        <div className="overflow-hidden rounded-[42px] border border-white/[0.05] bg-white/[0.025] backdrop-blur-3xl">
 
           {/* TOP */}
           <div className="flex items-center justify-between border-b border-white/5 px-10 py-7">
 
             <div>
 
-              <p className="text-xs tracking-[0.35em] text-[#B58AF8]">
+              <p className="text-xs tracking-[0.28em] text-[#B58AF8]">
                 LIVE ENTERPRISE CONTROL
               </p>
 
@@ -85,7 +85,7 @@ export default function EnterpriseIntelligence() {
 
             </div>
 
-            <div className="rounded-2xl border border-[#8B5CF6]/20 bg-[#8B5CF6]/10 px-5 py-3 text-sm text-[#DCCBFF]">
+            <div className="rounded-2xl border border-[#8B5CF6]/20 bg-[#8B5CF6]/10 px-6 py-3 text-[15px] text-[#DCCBFF]">
               LIVE AI
             </div>
 
@@ -94,7 +94,7 @@ export default function EnterpriseIntelligence() {
           {/* IMAGE */}
           <div className="p-8">
 
-            <div className="relative overflow-hidden rounded-[32px] border border-white/[0.06]">
+            <div className="relative overflow-hidden rounded-[32px] border border-white/[0.05]">
 
               <div className="absolute inset-0 bg-gradient-to-tr from-[#8B5CF6]/10 via-transparent to-[#D6A66A]/10" />
 
@@ -135,7 +135,7 @@ export default function EnterpriseIntelligence() {
           ].map((item) => (
             <div
               key={item.title}
-              className="rounded-[30px] border border-white/[0.06] bg-white/[0.03] p-8 backdrop-blur-3xl"
+              className="rounded-[30px] border border-white/[0.05] bg-white/[0.025] p-8 backdrop-blur-3xl"
             >
 
               <h4

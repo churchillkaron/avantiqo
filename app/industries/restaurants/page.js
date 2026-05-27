@@ -93,7 +93,7 @@ export default function RestaurantsIndustryPage() {
               RESTAURANT / BAR / NIGHTLIFE OPERATIONS
             </p>
 
-            <h1 className="text-6xl font-normal leading-[1.0] tracking-[-0.045em] md:text-[92px]">
+            <h1 className="text-6xl font-extralight leading-[1.02] tracking-[-0.06em] md:text-[92px]">
               Control the venue
               <br />
               while service
@@ -110,27 +110,27 @@ export default function RestaurantsIndustryPage() {
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <Link
                 href="/demo"
-                className="rounded-[22px] bg-gradient-to-r from-[#C6A062] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4 text-sm font-normal transition-all duration-300 ease-out hover:-translate-y-[2px]"
+                className="rounded-[22px] bg-gradient-to-r from-[#D6A66A] via-[#C084FC] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4 text-sm font-extralight transition-all duration-300 ease-out hover:-translate-y-[2px]"
               >
                 Book Venue Demo
               </Link>
 
               <Link
                 href="/contact"
-                className="rounded-[22px] border border-white/[0.06] bg-white/[0.03] px-6 py-3 md:px-8 md:py-4 text-sm text-white/50 transition-all duration-300 ease-out hover:border-purple-500/30"
+                className="rounded-[22px] border border-white/[0.05] bg-white/[0.025] px-6 py-3 md:px-8 md:py-4 text-sm text-white/50 transition-all duration-300 ease-out hover:border-purple-500/30"
               >
                 Talk To Enterprise Team
               </Link>
             </div>
           </div>
 
-          <div className="relative overflow-hidden rounded-[36px] border border-white/[0.06] bg-[#060816] shadow-[0_0_50px_rgba(120,80,255,0.08)]">
+          <div className="relative overflow-hidden rounded-[36px] border border-white/[0.05] bg-[#050714] shadow-[0_0_50px_rgba(120,80,255,0.08)]">
             <Image
               src="/images/restaurant-hero.png"
               alt="Restaurant Runtime"
               width={1600}
               height={1000}
-              quality={100}
+              quality={75}
               priority
               className="h-full w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
             />
@@ -146,7 +146,7 @@ export default function RestaurantsIndustryPage() {
               BEFORE VS AFTER
             </p>
 
-            <h2 className="max-w-5xl text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
+            <h2 className="max-w-5xl text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
               Replace restaurant chaos with live operational control.
             </h2>
           </div>
@@ -158,7 +158,7 @@ export default function RestaurantsIndustryPage() {
                 alt="Before"
                 width={1200}
                 height={800}
-                quality={100}
+                quality={75}
                 className="h-[520px] w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
               />
 
@@ -167,7 +167,7 @@ export default function RestaurantsIndustryPage() {
                   BEFORE
                 </p>
 
-                <h3 className="text-4xl font-normal">
+                <h3 className="text-4xl font-extralight">
                   Service-time chaos
                 </h3>
 
@@ -188,7 +188,7 @@ export default function RestaurantsIndustryPage() {
                 alt="After"
                 width={1200}
                 height={800}
-                quality={100}
+                quality={75}
                 className="h-[520px] w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
               />
 
@@ -197,7 +197,7 @@ export default function RestaurantsIndustryPage() {
                   AFTER
                 </p>
 
-                <h3 className="text-4xl font-normal">
+                <h3 className="text-4xl font-extralight">
                   Live venue control
                 </h3>
 
@@ -223,7 +223,7 @@ export default function RestaurantsIndustryPage() {
               HOSPITALITY VENUE RUNTIME
             </p>
 
-            <h2 className="max-w-5xl text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
+            <h2 className="max-w-5xl text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
               Front of house, back of house
               <br />
               and finance connected live.
@@ -234,19 +234,19 @@ export default function RestaurantsIndustryPage() {
             {restaurantFeatures.map((item) => (
               <div
                 key={item.title}
-                className="overflow-hidden rounded-[32px] border border-white/[0.06] bg-[#060816] shadow-[0_0_40px_rgba(120,80,255,0.05)]"
+                className="overflow-hidden rounded-[32px] border border-white/[0.05] bg-[#050714] shadow-[0_0_40px_rgba(120,80,255,0.05)]"
               >
                 <Image
                   src={item.image}
                   alt={item.title}
                   width={1200}
                   height={800}
-                  quality={100}
+                  quality={75}
                   className="h-[380px] w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
                 />
 
                 <div className="p-8">
-                  <h3 className="text-3xl font-normal">
+                  <h3 className="text-3xl font-extralight">
                     {item.title}
                   </h3>
 
@@ -268,7 +268,7 @@ export default function RestaurantsIndustryPage() {
               WHY RESTAURANTS, BARS & NIGHTLIFE CHOOSE AVANTIQO
             </p>
 
-            <h2 className="max-w-5xl text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
+            <h2 className="max-w-5xl text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
               Venue problems become expensive when control arrives too late.
             </h2>
           </div>
@@ -277,7 +277,7 @@ export default function RestaurantsIndustryPage() {
             {restaurantBenefits.map((item) => (
               <div
                 key={item.title}
-                className="rounded-[32px] border border-white/[0.06] bg-[#060816]/90 p-6 md:p-10 transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-purple-500/30"
+                className="rounded-[32px] border border-white/[0.05] bg-[#050714]/90 p-6 md:p-10 transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-purple-500/30"
               >
                 <div className="mb-6 flex items-center gap-3">
                   <div className="h-2 w-2 rounded-full bg-gradient-to-r from-[#D6A66A] to-purple-500" />
@@ -287,7 +287,7 @@ export default function RestaurantsIndustryPage() {
                   </div>
                 </div>
 
-                <h3 className="mb-5 text-3xl font-normal leading-tight text-white">
+                <h3 className="mb-5 text-3xl font-extralight leading-tight text-white">
                   {item.title}
                 </h3>
 
@@ -307,7 +307,7 @@ export default function RestaurantsIndustryPage() {
             LIVE VENUE CONTROL
           </p>
 
-          <h2 className="text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
+          <h2 className="text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
             One runtime.
             <br />
             Every table, order,
@@ -315,14 +315,14 @@ export default function RestaurantsIndustryPage() {
             staff member and cost.
           </h2>
 
-          <p className="mx-auto mt-8 max-w-[760px] text-[17px] leading-[1.9] text-white/50">
+          <p className="mx-auto mt-8 max-w-[820px] text-[17px] leading-[1.9] text-white/50">
             Replace disconnected venue operations with one connected restaurant, bar and nightlife operating system.
           </p>
 
           <div className="mt-12">
             <Link
               href="/demo"
-              className="rounded-[22px] bg-gradient-to-r from-[#C6A062] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4 text-sm font-normal transition-all duration-300 ease-out hover:-translate-y-[2px]"
+              className="rounded-[22px] bg-gradient-to-r from-[#D6A66A] via-[#C084FC] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4 text-sm font-extralight transition-all duration-300 ease-out hover:-translate-y-[2px]"
             >
               Book Venue Demo
             </Link>

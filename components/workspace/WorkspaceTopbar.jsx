@@ -4,7 +4,7 @@ export default function WorkspaceTopbar() {
   return (
    <header className="sticky top-25 z-50 mb-8">
 
-      <div className="relative overflow-hidden rounded-[34px] border border-white/[0.06] bg-white/[0.03] px-8 py-5 backdrop-blur-3xl">
+      <div className="relative overflow-hidden rounded-[34px] border border-white/[0.05] bg-white/[0.025] px-8 py-5 backdrop-blur-3xl">
 
         <div className="absolute inset-0 bg-gradient-to-r from-[#8B5CF6]/10 via-transparent to-[#D6A66A]/10" />
 
@@ -36,7 +36,7 @@ export default function WorkspaceTopbar() {
           {/* CENTER */}
           <div className="hidden flex-1 xl:flex justify-center px-10">
 
-            <div className="w-full max-w-2xl rounded-[24px] border border-white/[0.06] bg-black/30 px-6 py-4 backdrop-blur-3xl">
+            <div className="w-full max-w-2xl rounded-[24px] border border-white/[0.05] bg-black/30 px-6 py-4 backdrop-blur-3xl">
 
               <div className="text-white/35">
                 Search 
@@ -49,23 +49,23 @@ export default function WorkspaceTopbar() {
           {/* RIGHT */}
           <div className="flex items-center gap-4">
 
-            <button className="rounded-[22px] border border-white/[0.06] bg-white/[0.03] px-5 py-3 text-white/65 backdrop-blur-3xl transition hover:bg-white/[0.06]">
+            <button className="rounded-[22px] border border-white/[0.05] bg-white/[0.025] px-6 py-3 text-white/65 backdrop-blur-3xl transition hover:bg-white/[0.06]">
               AI Command
             </button>
 
-            <button className="rounded-[22px] border border-white/[0.06] bg-white/[0.03] px-5 py-3 text-white/65 backdrop-blur-3xl transition hover:bg-white/[0.06]">
+            <button className="rounded-[22px] border border-white/[0.05] bg-white/[0.025] px-6 py-3 text-white/65 backdrop-blur-3xl transition hover:bg-white/[0.06]">
               Notifications
             </button>
 
-            <div className="flex items-center gap-4 rounded-[24px] border border-white/[0.06] bg-black/30 px-5 py-3 backdrop-blur-3xl">
+            <div className="flex items-center gap-4 rounded-[24px] border border-white/[0.05] bg-black/30 px-6 py-3 backdrop-blur-3xl">
 
-              <div className="flex h-11 w-11 items-center justify-center rounded-full bg-gradient-to-r from-[#C6A062] to-[#7C5CFA] text-sm font-normal text-white">
+              <div className="flex h-11 w-11 items-center justify-center rounded-full bg-gradient-to-r from-[#D6A66A] via-[#C084FC] to-[#7C5CFA] text-[15px] font-extralight text-white">
                 PV
               </div>
 
               <div className="hidden xl:block">
 
-                <div className="text-sm text-white">
+                <div className="text-[15px] text-white">
                   Patric Vallgaarda
                 </div>
 

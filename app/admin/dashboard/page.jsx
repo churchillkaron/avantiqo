@@ -99,7 +99,7 @@ function Card({
   value,
 }) {
   return (
-    <div className="rounded-3xl border border-white/[0.06] bg-white/5 p-8 backdrop-blur-md">
+    <div className="rounded-3xl border border-white/[0.05] bg-white/5 p-8 backdrop-blur-md">
 
       <div className="text-sm uppercase tracking-[0.2em] text-zinc-500">
         {title}

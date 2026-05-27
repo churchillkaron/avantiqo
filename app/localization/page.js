@@ -58,7 +58,7 @@ export default function LocalizationPage() {
           AI LOCALIZATION ENGINE
         </p>
 
-        <h1 className="text-4xl md:text-6xl font-normal tracking-[-0.06em]">
+        <h1 className="text-4xl md:text-6xl font-extralight tracking-[-0.06em]">
           Dynamic enterprise localization
         </h1>
 
@@ -75,7 +75,7 @@ export default function LocalizationPage() {
             className={`rounded-xl px-5 py-3 ${
               locale === "th"
                 ? "bg-[#D6A66A] text-black"
-                : "border border-white/[0.06] bg-white/5"
+                : "border border-white/[0.05] bg-white/5"
             }`}
           >
             Thai
@@ -86,7 +86,7 @@ export default function LocalizationPage() {
             className={`rounded-xl px-5 py-3 ${
               locale === "ru"
                 ? "bg-[#D6A66A] text-black"
-                : "border border-white/[0.06] bg-white/5"
+                : "border border-white/[0.05] bg-white/5"
             }`}
           >
             Russian
@@ -97,7 +97,7 @@ export default function LocalizationPage() {
             className={`rounded-xl px-5 py-3 ${
               locale === "zh"
                 ? "bg-[#D6A66A] text-black"
-                : "border border-white/[0.06] bg-white/5"
+                : "border border-white/[0.05] bg-white/5"
             }`}
           >
             Chinese
@@ -109,14 +109,14 @@ export default function LocalizationPage() {
 
           <button
             onClick={handleGenerate}
-            className="rounded-2xl bg-gradient-to-r from-[#C6A062] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4"
+            className="rounded-2xl bg-gradient-to-r from-[#D6A66A] via-[#C084FC] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4"
           >
             {loading ? "Generating..." : "Generate Localization"}
           </button>
 
         </div>
 
-        <div className="mt-14 rounded-[30px] border border-white/[0.06] bg-white/[0.03] p-4 md:p-8">
+        <div className="mt-14 rounded-[30px] border border-white/[0.05] bg-white/[0.025] p-4 md:p-8">
 
           <pre className="whitespace-pre-wrap text-sm leading-8 text-white/50">
             {result}

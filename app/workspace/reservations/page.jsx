@@ -1,6 +1,6 @@
 export default function ReservationsPage() {
   return (
-    <main className="relative overflow-hidden rounded-[40px] border border-white/[0.06] bg-white/[0.03] p-6 md:p-10 backdrop-blur-3xl">
+    <main className="relative overflow-hidden rounded-[40px] border border-white/[0.05] bg-white/[0.025] p-6 md:p-10 backdrop-blur-3xl">
 
       <div className="absolute inset-0 bg-gradient-to-br from-[#8B5CF6]/10 via-transparent to-[#D6A66A]/10" />
 
@@ -52,7 +52,7 @@ export default function ReservationsPage() {
           ].map((item) => (
             <div
               key={item}
-              className="rounded-[30px] border border-white/[0.06] bg-black/30 p-8 backdrop-blur-3xl"
+              className="rounded-[30px] border border-white/[0.05] bg-black/30 p-8 backdrop-blur-3xl"
             >
 
               <div className="mb-8 h-[1px] w-16 bg-gradient-to-r from-[#8B5CF6] to-transparent" />

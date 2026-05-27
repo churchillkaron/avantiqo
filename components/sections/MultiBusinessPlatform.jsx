@@ -54,7 +54,7 @@ export default function MultiBusinessPlatform() {
       <div className="relative mx-auto max-w-7xl px-6">
         {/* HEADER */}
         <div className="mx-auto mb-16 max-w-5xl text-center md:mb-24">
-          <p className="mb-6 text-xs tracking-[0.35em] text-[#B58AF8]">
+          <p className="mb-6 text-xs tracking-[0.28em] text-[#B58AF8]">
             ONE PLATFORM. ANY BUSINESS.
           </p>
 
@@ -95,7 +95,7 @@ export default function MultiBusinessPlatform() {
           {industries.map((item) => (
             <div
               key={item.title}
-              className="group overflow-hidden rounded-[26px] border border-white/[0.06] bg-white/[0.03] backdrop-blur-3xl md:rounded-[34px]"
+              className="group overflow-hidden rounded-[26px] border border-white/[0.05] bg-white/[0.025] backdrop-blur-3xl md:rounded-[34px]"
             >
               {/* IMAGE */}
               <div className="relative h-[240px] overflow-hidden md:h-[260px]">
@@ -104,7 +104,7 @@ export default function MultiBusinessPlatform() {
   alt={item.title}
   fill
   className="object-cover transition-transform duration-700 hover:scale-[1.02] transition duration-700 group-hover:scale-105"
-/>
+sizes="(max-width: 768px) 100vw, 50vw" />
 
                 <div className="absolute inset-0 bg-gradient-to-t from-[#020617] via-[#020617]/20 to-transparent" />
               </div>
@@ -138,13 +138,13 @@ export default function MultiBusinessPlatform() {
         </div>
 
         {/* MAP */}
-        <div className="mt-10 overflow-hidden rounded-[28px] border border-white/[0.06] bg-white/[0.03] p-4 backdrop-blur-3xl md:mt-16 md:rounded-[42px] md:p-8">
+        <div className="mt-10 overflow-hidden rounded-[28px] border border-white/[0.05] bg-white/[0.025] p-4 backdrop-blur-3xl md:mt-16 md:rounded-[42px] md:p-8">
           <Image
   src="/showcase/global-enterprise.png"
   alt="Global infrastructure"
   width={1600}
   height={900}
-  className="w-full rounded-[24px] border border-white/[0.06] md:rounded-[34px]"
+  className="w-full rounded-[24px] border border-white/[0.05] md:rounded-[34px]"
 />
         </div>
       </div>

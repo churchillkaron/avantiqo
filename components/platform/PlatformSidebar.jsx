@@ -39,7 +39,7 @@ export default function PlatformSidebar() {
     usePathname();
 
   return (
-    <aside className="fixed left-6 top-20 bottom-6 flex w-[260px] flex-col rounded-r-3xl border border-white/[0.06] bg-black/40 px-6 py-8 backdrop-blur-2xl">
+    <aside className="fixed left-6 top-20 bottom-6 flex w-[260px] flex-col rounded-r-3xl border border-white/[0.05] bg-black/40 px-6 py-8 backdrop-blur-lg">
 
       <div className="mb-10">
 
@@ -47,7 +47,7 @@ export default function PlatformSidebar() {
           Avantiqo Admin
         </div>
 
-        <div className="mt-2 text-sm text-zinc-500">
+        <div className="mt-2 text-[15px] text-zinc-500">
           SaaS Operations
         </div>
 

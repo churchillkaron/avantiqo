@@ -55,7 +55,7 @@ export default function ModulesPage() {
           Loading modules...
         </div>
       ) : modules.length === 0 ? (
-        <div className="rounded-3xl border border-white/[0.06] bg-white/5 p-6 md:p-10 text-zinc-400">
+        <div className="rounded-3xl border border-white/[0.05] bg-white/5 p-6 md:p-10 text-zinc-400">
           No modules found.
         </div>
       ) : (
@@ -64,7 +64,7 @@ export default function ModulesPage() {
           {modules.map((module) => (
             <div
               key={module.id}
-              className="rounded-3xl border border-white/[0.06] bg-white/5 p-6 backdrop-blur-md"
+              className="rounded-3xl border border-white/[0.05] bg-white/5 p-6 backdrop-blur-md"
             >
 
               <div className="flex items-start justify-between">

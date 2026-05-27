@@ -12,7 +12,7 @@ export default function AIIntelligence() {
       <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-6 lg:grid-cols-2 lg:gap-20">
         {/* LEFT */}
         <div>
-          <p className="mb-6 text-xs tracking-[0.35em] text-[#B58AF8] md:mb-8">
+          <p className="mb-6 text-xs tracking-[0.28em] text-[#B58AF8] md:mb-8">
             AI INTELLIGENCE LAYER
           </p>
 
@@ -104,9 +104,9 @@ export default function AIIntelligence() {
             ].map((item) => (
               <div
                 key={item.label}
-                className="rounded-[26px] border border-white/[0.06] bg-white/[0.03] p-6 backdrop-blur-3xl md:rounded-[30px] md:p-8"
+                className="rounded-[26px] border border-white/[0.05] bg-white/[0.025] p-6 backdrop-blur-3xl md:rounded-[30px] md:p-8"
               >
-                <p className="text-xs tracking-[0.35em] text-[#B58AF8]">
+                <p className="text-xs tracking-[0.28em] text-[#B58AF8]">
                   {item.label}
                 </p>
 

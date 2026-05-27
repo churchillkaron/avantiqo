@@ -132,15 +132,15 @@ export default function WorkspaceSidebar() {
     usePathname();
 
   return (
-    <aside className="fixed left-6 top-20 bottom-6 z-40 w-[300px] overflow-hidden rounded-[36px] border border-white/[0.06] bg-black/40 backdrop-blur-3xl">
+    <aside className="fixed left-6 top-20 bottom-6 z-40 w-[300px] overflow-hidden rounded-[36px] border border-white/[0.05] bg-black/40 backdrop-blur-3xl">
 
       <div className="h-full overflow-y-auto p-5">
 
-        <div className="rounded-[28px] border border-white/[0.06] bg-white/[0.03] p-6">
+        <div className="rounded-[28px] border border-white/[0.05] bg-white/[0.025] p-6">
 
           <div className="mb-12">
 
-            <div className="text-xs tracking-[0.35em] text-[#B58AF8]">
+            <div className="text-xs tracking-[0.28em] text-[#B58AF8]">
               ENTERPRISE
             </div>
 
@@ -177,10 +177,10 @@ export default function WorkspaceSidebar() {
                         <Link
                           key={item.href}
                           href={item.href}
-                          className={`rounded-2xl px-5 py-4 transition duration-300 ${
+                          className={`rounded-2xl px-6 py-4 transition duration-300 ${
                             active
-                              ? "bg-gradient-to-r from-[#C6A062] to-[#7C5CFA] text-white shadow-[0_0_50px_rgba(139,92,246,0.35)]"
-                              : "text-white/65 hover:bg-white/[0.03] hover:text-white"
+                              ? "bg-gradient-to-r from-[#D6A66A] via-[#C084FC] to-[#7C5CFA] text-white shadow-[0_0_50px_rgba(139,92,246,0.35)]"
+                              : "text-white/65 hover:bg-white/[0.025] hover:text-white"
                           }`}
                         >
                           {item.label}

@@ -9,7 +9,7 @@ export default function FinancialInfrastructure() {
       <div className="relative mx-auto max-w-7xl px-6">
         {/* HEADER */}
         <div className="mb-16 max-w-5xl md:mb-28">
-          <p className="mb-6 text-xs tracking-[0.35em] text-[#B58AF8] md:mb-8">
+          <p className="mb-6 text-xs tracking-[0.28em] text-[#B58AF8] md:mb-8">
             AI FINANCIAL INFRASTRUCTURE
           </p>
 
@@ -49,11 +49,11 @@ export default function FinancialInfrastructure() {
         </div>
 
         {/* PHONE SECTION */}
-        <div className="overflow-hidden rounded-[28px] border border-white/[0.06] bg-white/[0.03] p-4 backdrop-blur-3xl md:rounded-[42px] md:p-12">
+        <div className="overflow-hidden rounded-[28px] border border-white/[0.05] bg-white/[0.025] p-4 backdrop-blur-3xl md:rounded-[42px] md:p-12">
           <div className="grid items-center gap-12 lg:gap-20 lg:grid-cols-[0.9fr_1.1fr]">
             {/* LEFT SIDE */}
             <div className="max-w-[560px]">
-              <p className="mb-6 text-xs uppercase tracking-[0.35em] text-[#B58AF8]">
+              <p className="mb-6 text-xs uppercase tracking-[0.28em] text-[#B58AF8]">
                 MOBILE FINANCE WORKFLOW
               </p>
 
@@ -109,7 +109,7 @@ export default function FinancialInfrastructure() {
                 ].map((item) => (
                   <div
                     key={item.title}
-                    className="rounded-[24px] border border-white/[0.06] bg-white/[0.03] p-5 backdrop-blur-2xl md:rounded-[26px] md:p-7"
+                    className="rounded-[24px] border border-white/[0.05] bg-white/[0.025] p-5 backdrop-blur-lg md:rounded-[26px] md:p-7"
                   >
                     <h4
                       className="text-2xl text-white md:text-[24px]"
@@ -155,7 +155,7 @@ export default function FinancialInfrastructure() {
         <section className="relative z-10 mt-28 md:mt-40">
           {/* HEADER */}
           <div className="mx-auto mb-16 max-w-5xl text-center md:mb-24">
-            <p className="mb-6 text-xs uppercase tracking-[0.35em] text-[#B58AF8]">
+            <p className="mb-6 text-xs uppercase tracking-[0.28em] text-[#B58AF8]">
               AI APPROVAL ENGINE
             </p>
 
@@ -191,7 +191,7 @@ export default function FinancialInfrastructure() {
           </div>
 
           {/* COMPUTER IMAGE */}
-          <div className="overflow-hidden rounded-[28px] border border-white/[0.06] bg-white/[0.03] p-4 backdrop-blur-3xl md:rounded-[42px] md:p-8">
+          <div className="overflow-hidden rounded-[28px] border border-white/[0.05] bg-white/[0.025] p-4 backdrop-blur-3xl md:rounded-[42px] md:p-8">
             <Image
   src="/finance/invoice-approval.png"
   alt="Invoice approval"
@@ -223,7 +223,7 @@ export default function FinancialInfrastructure() {
             ].map((item) => (
               <div
                 key={item.title}
-                className="rounded-[26px] border border-white/[0.06] bg-white/[0.03] p-6 backdrop-blur-2xl md:rounded-[32px] md:p-6 md:p-10"
+                className="rounded-[26px] border border-white/[0.05] bg-white/[0.025] p-6 backdrop-blur-lg md:rounded-[32px] md:p-6 md:p-10"
               >
                 <h4
                   className="text-2xl text-white md:text-[32px]"

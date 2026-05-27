@@ -76,7 +76,7 @@ export default function LoginPage() {
   return (
     <main className="flex min-h-screen items-center justify-center bg-[#050407] p-8 text-white">
 
-      <div className="w-full max-w-md rounded-[32px] border border-white/[0.06] bg-white/[0.03] p-8 backdrop-blur-xl">
+      <div className="w-full max-w-md rounded-[32px] border border-white/[0.05] bg-white/[0.025] p-8 backdrop-blur-lg">
 
         <div className="mb-8">
 
@@ -110,7 +110,7 @@ export default function LoginPage() {
                   e.target.value
                 )
               }
-              className="w-full rounded-2xl border border-white/[0.06] bg-black/30 px-4 py-4 outline-none transition focus:border-[#d7b66a]"
+              className="w-full rounded-2xl border border-white/[0.05] bg-black/30 px-4 py-4 outline-none transition focus:border-[#d7b66a]"
             />
 
           </div>
@@ -129,7 +129,7 @@ export default function LoginPage() {
                   e.target.value
                 )
               }
-              className="w-full rounded-2xl border border-white/[0.06] bg-black/30 px-4 py-4 outline-none transition focus:border-[#d7b66a]"
+              className="w-full rounded-2xl border border-white/[0.05] bg-black/30 px-4 py-4 outline-none transition focus:border-[#d7b66a]"
             />
 
           </div>

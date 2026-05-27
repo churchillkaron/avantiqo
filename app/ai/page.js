@@ -63,7 +63,7 @@ export default function AIPage() {
               AVANTIQO AI RUNTIME
             </p>
 
-            <h1 className="text-6xl font-normal leading-[1.0] tracking-[-0.045em] md:text-[92px]">
+            <h1 className="text-6xl font-extralight leading-[1.02] tracking-[-0.06em] md:text-[92px]">
               AI that understands
               <br />
               how the business
@@ -81,14 +81,14 @@ export default function AIPage() {
 
               <Link
                 href="/demo"
-                className="rounded-[22px] bg-gradient-to-r from-[#C6A062] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4 text-sm font-normal transition-all duration-300 ease-out hover:-translate-y-[2px]"
+                className="rounded-[22px] bg-gradient-to-r from-[#D6A66A] via-[#C084FC] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4 text-sm font-extralight transition-all duration-300 ease-out hover:-translate-y-[2px]"
               >
                 Book AI Demo
               </Link>
 
               <Link
                 href="/industries"
-                className="rounded-[22px] border border-white/[0.06] bg-white/[0.03] px-6 py-3 md:px-8 md:py-4 text-sm text-white/50 transition-all duration-300 ease-out hover:border-purple-500/30"
+                className="rounded-[22px] border border-white/[0.05] bg-white/[0.025] px-6 py-3 md:px-8 md:py-4 text-sm text-white/50 transition-all duration-300 ease-out hover:border-purple-500/30"
               >
                 Explore Industries
               </Link>
@@ -97,14 +97,14 @@ export default function AIPage() {
 
           </div>
 
-          <div className="relative overflow-hidden rounded-[36px] border border-white/[0.06] bg-[#060816] shadow-[0_0_50px_rgba(120,80,255,0.08)]">
+          <div className="relative overflow-hidden rounded-[36px] border border-white/[0.05] bg-[#050714] shadow-[0_0_50px_rgba(120,80,255,0.08)]">
 
             <Image
               src="/images/ai-hero-runtime.png"
               alt="AI Runtime"
               width={1600}
               height={1000}
-              quality={100}
+              quality={75}
               priority
               className="h-full w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
             />
@@ -124,7 +124,7 @@ export default function AIPage() {
             AI OPERATIONAL INTELLIGENCE
           </p>
 
-          <h2 className="text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
+          <h2 className="text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
             More than automation.
             <br />
             Operational intelligence.
@@ -152,7 +152,7 @@ export default function AIPage() {
 
               <div
                 key={item.title}
-                className="overflow-hidden rounded-[36px] border border-white/[0.06] bg-[#060816] transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-purple-500/30 hover:shadow-[0_0_60px_rgba(120,80,255,0.10)]"
+                className="overflow-hidden rounded-[36px] border border-white/[0.05] bg-[#050714] transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-purple-500/30 hover:shadow-[0_0_60px_rgba(120,80,255,0.10)]"
               >
 
                 <Image
@@ -160,7 +160,7 @@ export default function AIPage() {
                   alt={item.title}
                   width={1400}
                   height={900}
-                  quality={100}
+                  quality={75}
                   className="h-[420px] w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
                 />
 
@@ -176,7 +176,7 @@ export default function AIPage() {
 
                   </div>
 
-                  <h3 className="text-4xl font-normal tracking-[-0.02em]">
+                  <h3 className="text-4xl font-extralight tracking-[-0.02em]">
                     {item.title}
                   </h3>
 
@@ -205,7 +205,7 @@ export default function AIPage() {
             HUMAN + AI OPERATIONS
           </p>
 
-          <h2 className="text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
+          <h2 className="text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
             AI does not replace teams.
             <br />
             It removes operational overload.
@@ -231,7 +231,7 @@ export default function AIPage() {
             CONNECTED AI OPERATIONS
           </p>
 
-          <h2 className="text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
+          <h2 className="text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
             One intelligent runtime
             <br />
             connected to the
@@ -239,7 +239,7 @@ export default function AIPage() {
             entire business.
           </h2>
 
-          <p className="mx-auto mt-8 max-w-[760px] text-[17px] leading-[1.9] text-white/50">
+          <p className="mx-auto mt-8 max-w-[820px] text-[17px] leading-[1.9] text-white/50">
             Replace disconnected tools and manual workflows with one AI-powered operational system built for modern businesses.
           </p>
 
@@ -247,7 +247,7 @@ export default function AIPage() {
 
             <Link
               href="/demo"
-              className="rounded-[22px] bg-gradient-to-r from-[#C6A062] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4 text-sm font-normal transition-all duration-300 ease-out hover:-translate-y-[2px]"
+              className="rounded-[22px] bg-gradient-to-r from-[#D6A66A] via-[#C084FC] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4 text-sm font-extralight transition-all duration-300 ease-out hover:-translate-y-[2px]"
             >
               Book Enterprise Demo
             </Link>

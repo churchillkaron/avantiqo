@@ -86,7 +86,7 @@ export default function Home() {
               AVANTIQO ENTERPRISE OPERATING SYSTEM
             </p>
 
-            <h1 className="max-w-[760px] text-6xl font-normal leading-[1.0] tracking-[-0.045em] md:text-[100px]">
+            <h1 className="max-w-[820px] text-6xl font-extralight leading-[1.02] tracking-[-0.06em] md:text-[100px]">
 
               From operational chaos
               <br />
@@ -106,14 +106,14 @@ export default function Home() {
 
               <Link
                 href="/demo"
-                className="rounded-[22px] bg-gradient-to-r from-[#C6A062] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4 text-sm font-normal transition-all duration-300 ease-out hover:-translate-y-[2px]"
+                className="rounded-[22px] bg-gradient-to-r from-[#D6A66A] via-[#C084FC] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4 text-sm font-extralight transition-all duration-300 ease-out hover:-translate-y-[2px]"
               >
                 Book Enterprise Demo
               </Link>
 
               <Link
                 href="/start"
-                className="rounded-[22px] border border-white/[0.06] bg-white/[0.03] px-6 py-3 md:px-8 md:py-4 text-sm text-white/65 transition-all duration-300 ease-out hover:border-purple-500/30"
+                className="rounded-[22px] border border-white/[0.05] bg-white/[0.025] px-6 py-3 md:px-8 md:py-4 text-sm text-white/65 transition-all duration-300 ease-out hover:border-purple-500/30"
               >
                 Start Platform Setup
               </Link>
@@ -122,7 +122,7 @@ export default function Home() {
 
           </div>
 
-          <div className="relative overflow-hidden rounded-[32px] border border-white/[0.06] bg-[#060816] shadow-[0_0_40px_rgba(120,80,255,0.08)]">
+          <div className="relative overflow-hidden rounded-[32px] border border-white/[0.05] bg-[#050714] shadow-[0_0_40px_rgba(120,80,255,0.08)]">
 
             <div className="absolute inset-0 bg-purple-500/5 blur-3xl pointer-events-none" />
 
@@ -131,7 +131,7 @@ export default function Home() {
               alt="Chaos To Control"
               width={1600}
               height={1000}
-              quality={100}
+              quality={75}
               priority
               className="h-full w-full object-cover transition-transform duration-700 hover:scale-[1.02] scale-[1.02]"
             />
@@ -153,7 +153,7 @@ export default function Home() {
               ONE SYSTEM. EVERY DEPARTMENT.
             </p>
 
-            <h2 className="max-w-5xl text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
+            <h2 className="max-w-5xl text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
 
               Everything your business
               used to manage manually...
@@ -171,7 +171,7 @@ export default function Home() {
 
               <div
                 key={item.title}
-                className="group relative overflow-hidden rounded-[32px] border border-white/[0.06] bg-[#060816] min-h-[620px] transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-purple-500/30 shadow-[0_0_40px_rgba(120,80,255,0.08)]"
+                className="group relative overflow-hidden rounded-[32px] border border-white/[0.05] bg-[#050714] min-h-[620px] transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-purple-500/30 shadow-[0_0_40px_rgba(120,80,255,0.08)]"
               >
 
                 <div className="absolute inset-0 bg-purple-500/5 blur-3xl pointer-events-none" />
@@ -182,9 +182,9 @@ export default function Home() {
                     src={item.image}
                     alt={item.title}
                     fill
-                    quality={100}
+                    quality={75}
                     className="object-cover transition-transform duration-700 hover:scale-[1.02] transition duration-700 group-hover:scale-[1.03]"
-                  />
+                 sizes="(max-width: 768px) 100vw, 50vw" />
 
                 </div>
 
@@ -198,7 +198,7 @@ export default function Home() {
 
                   </div>
 
-                  <h3 className="text-3xl font-normal">
+                  <h3 className="text-3xl font-extralight">
                     {item.title}
                   </h3>
 
@@ -227,7 +227,7 @@ export default function Home() {
             LIVE OPERATIONAL RUNTIME
           </p>
 
-          <h2 className="text-5xl font-normal leading-[1.02] tracking-[-0.05em] md:text-7xl">
+          <h2 className="text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
 
             One system.
             <br />
@@ -249,7 +249,7 @@ export default function Home() {
 
             <Link
               href="/demo"
-              className="rounded-[22px] bg-gradient-to-r from-[#C6A062] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4 text-sm font-normal transition-all duration-300 ease-out hover:-translate-y-[2px]"
+              className="rounded-[22px] bg-gradient-to-r from-[#D6A66A] via-[#C084FC] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4 text-sm font-extralight transition-all duration-300 ease-out hover:-translate-y-[2px]"
             >
               Book Enterprise Demo
             </Link>

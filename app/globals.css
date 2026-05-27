@@ -425,7 +425,7 @@ img {
 }
 :root {
   --font-body: var(--font-inter);
-  --font-display: var(--font-space);
+  --font-display: var(--font-outfit);
 }
 
 body {
