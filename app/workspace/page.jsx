@@ -4,7 +4,7 @@ import MobileBottomNav from "@/components/workspace/MobileBottomNav";
 
 export default function WorkspacePage() {
   return (
-    <main className="min-h-screen bg-[#02040A] p-5 xl:p-4 xl:p-8 text-white">
+    <main className="min-h-screen overflow-x-hidden bg-[#02040A] px-4 pb-24 pt-6 text-white xl:px-8 xl:pb-8">
 
       <div className="mx-auto max-w-7xl">
 
@@ -14,7 +14,7 @@ export default function WorkspacePage() {
             LIVE RESTAURANT OPERATION
           </p>
 
-          <h1 className="max-w-5xl text-xl xl:text-xl xl:text-2xl xl:text-xl xl:text-2xl xl:text-4xl xl:text-xl xl:text-2xl xl:text-4xl xl:text-7xl font-extralight tracking-[-0.06em]">
+          <h1 className="max-w-5xl text-xl xl:text-4xl xl:text-xl xl:text-2xl xl:text-4xl xl:text-7xl font-extralight tracking-[-0.06em]">
             One order affects the entire operation in real time.
           </h1>
 
@@ -22,7 +22,7 @@ export default function WorkspacePage() {
 
         <div className="space-y-4 xl:space-y-8">
 
-          <div className="rounded-[28px] xl:rounded-[28px] xl:rounded-[36px] border border-purple-500/10 bg-gradient-to-br from-[#12091F] to-[#050816] p-5 xl:p-4 xl:p-8">
+          <div className="rounded-[28px] xl:rounded-[36px] border border-purple-500/10 bg-gradient-to-br from-[#12091F] to-[#050816] p-5 xl:p-8">
 
             <div className="mb-8 flex items-center justify-between">
 
@@ -32,7 +32,7 @@ export default function WorkspacePage() {
                   ORDER RECEIVED
                 </p>
 
-                <h2 className="text-xl xl:text-xl xl:text-2xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-5xl font-extralight">
+                <h2 className="text-xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-5xl font-extralight">
                   Table T1
                 </h2>
 
@@ -48,7 +48,7 @@ export default function WorkspacePage() {
 
               <div className="rounded-3xl border border-white/[0.05] bg-black/20 p-4 xl:p-6">
 
-                <p className="text-xl xl:text-xl xl:text-2xl xl:text-xl xl:text-2xl xl:text-3xl font-extralight">
+                <p className="text-xl xl:text-3xl font-extralight">
                   2 Wagyu Burger
                 </p>
 
@@ -60,7 +60,7 @@ export default function WorkspacePage() {
 
               <div className="rounded-3xl border border-white/[0.05] bg-black/20 p-4 xl:p-6">
 
-                <p className="text-xl xl:text-xl xl:text-2xl xl:text-xl xl:text-2xl xl:text-3xl font-extralight">
+                <p className="text-xl xl:text-3xl font-extralight">
                   1 Wine
                 </p>
 
@@ -74,7 +74,7 @@ export default function WorkspacePage() {
 
           </div>
 
-          <div className="rounded-[28px] xl:rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-4 xl:p-8">
+          <div className="rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-8">
 
             <div className="mb-8 flex items-center justify-between">
 
@@ -84,7 +84,7 @@ export default function WorkspacePage() {
                   LIVE OPERATION TIMELINE
                 </p>
 
-                <h2 className="text-xl xl:text-xl xl:text-2xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-5xl font-extralight">
+                <h2 className="text-xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-5xl font-extralight">
                   Real-Time Coordination
                 </h2>
 
@@ -242,7 +242,7 @@ export default function WorkspacePage() {
 
           </div>
 
-          <div className="rounded-[28px] xl:rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-4 xl:p-8">
+          <div className="rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-8">
 
             <div className="mb-8 flex items-center justify-between">
 
@@ -252,7 +252,7 @@ export default function WorkspacePage() {
                   LIVE FINANCIAL IMPACT
                 </p>
 
-                <h2 className="text-xl xl:text-xl xl:text-2xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-5xl font-extralight">
+                <h2 className="text-xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-5xl font-extralight">
                   Operational Profitability
                 </h2>
 
@@ -274,7 +274,7 @@ export default function WorkspacePage() {
                     Order Value
                   </span>
 
-                  <span className="text-xl xl:text-xl xl:text-2xl xl:text-xl xl:text-2xl xl:text-4xl font-extralight text-green-400">
+                  <span className="text-xl xl:text-4xl font-extralight text-green-400">
                     ฿1,130
                   </span>
 
@@ -286,7 +286,7 @@ export default function WorkspacePage() {
                     Food Cost
                   </span>
 
-                  <span className="text-xl xl:text-xl xl:text-2xl xl:text-xl xl:text-2xl xl:text-4xl font-extralight text-amber-300">
+                  <span className="text-xl xl:text-4xl font-extralight text-amber-300">
                     ฿312
                   </span>
 
@@ -298,7 +298,7 @@ export default function WorkspacePage() {
                     Gross Margin
                   </span>
 
-                  <span className="text-xl xl:text-xl xl:text-2xl xl:text-xl xl:text-2xl xl:text-4xl font-extralight text-purple-400">
+                  <span className="text-xl xl:text-4xl font-extralight text-purple-400">
                     72%
                   </span>
 
@@ -310,7 +310,7 @@ export default function WorkspacePage() {
                     Service Charge
                   </span>
 
-                  <span className="text-xl xl:text-xl xl:text-2xl xl:text-xl xl:text-2xl xl:text-4xl font-extralight text-green-400">
+                  <span className="text-xl xl:text-4xl font-extralight text-green-400">
                     +฿113
                   </span>
 
@@ -324,7 +324,7 @@ export default function WorkspacePage() {
 
                   <div className="mb-4 flex items-center justify-between">
 
-                    <p className="text-xl xl:text-xl xl:text-2xl font-extralight">
+                    <p className="text-xl xl:text-2xl font-extralight">
                       Operational Cost Breakdown
                     </p>
 
@@ -384,7 +384,7 @@ export default function WorkspacePage() {
 
                   <div className="mb-5 flex items-center justify-between">
 
-                    <p className="text-xl xl:text-xl xl:text-2xl font-extralight">
+                    <p className="text-xl xl:text-2xl font-extralight">
                       Net Profitability
                     </p>
 
@@ -402,7 +402,7 @@ export default function WorkspacePage() {
                         Total Revenue
                       </span>
 
-                      <span className="text-xl xl:text-xl xl:text-2xl font-extralight text-green-400">
+                      <span className="text-xl xl:text-2xl font-extralight text-green-400">
                         ฿1,130
                       </span>
 
@@ -414,7 +414,7 @@ export default function WorkspacePage() {
                         Total Operational Cost
                       </span>
 
-                      <span className="text-xl xl:text-xl xl:text-2xl font-extralight text-red-300">
+                      <span className="text-xl xl:text-2xl font-extralight text-red-300">
                         -฿419
                       </span>
 
@@ -428,7 +428,7 @@ export default function WorkspacePage() {
                         Net Profit
                       </span>
 
-                      <span className="text-xl xl:text-xl xl:text-2xl xl:text-xl xl:text-2xl xl:text-4xl font-extralight text-emerald-400">
+                      <span className="text-xl xl:text-4xl font-extralight text-emerald-400">
                         ฿711
                       </span>
 
@@ -440,7 +440,7 @@ export default function WorkspacePage() {
                         Net Margin
                       </span>
 
-                      <span className="text-xl xl:text-xl xl:text-2xl font-extralight text-emerald-300">
+                      <span className="text-xl xl:text-2xl font-extralight text-emerald-300">
                         62.9%
                       </span>
 
@@ -455,7 +455,7 @@ export default function WorkspacePage() {
 
                   <div className="mb-4 flex items-center justify-between">
 
-                    <p className="text-xl xl:text-xl xl:text-2xl font-extralight">
+                    <p className="text-xl xl:text-2xl font-extralight">
                       AI Profitability Intelligence
                     </p>
 
@@ -484,9 +484,9 @@ export default function WorkspacePage() {
 
           </div>
 
-          <div className="grid gap-5 xl:p-4 xl:p-8 xl:grid-cols-2">
+          <div className="grid gap-5 xl:grid-cols-2">
 
-            <div className="rounded-[28px] xl:rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-4 xl:p-8">
+            <div className="rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-8">
 
               <div className="mb-8 flex items-center justify-between">
 
@@ -496,7 +496,7 @@ export default function WorkspacePage() {
                     KITCHEN
                   </p>
 
-                  <h2 className="text-xl xl:text-xl xl:text-2xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-5xl font-extralight">
+                  <h2 className="text-xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-5xl font-extralight">
                     Cooking
                   </h2>
 
@@ -504,7 +504,7 @@ export default function WorkspacePage() {
 
                 <div className="text-right">
 
-                  <div className="text-xl xl:text-xl xl:text-2xl xl:text-xl xl:text-2xl xl:text-4xl font-extralight text-amber-400">
+                  <div className="text-xl xl:text-4xl font-extralight text-amber-400">
                     04:22
                   </div>
 
@@ -522,7 +522,7 @@ export default function WorkspacePage() {
 
                   <div>
 
-                    <p className="text-xl xl:text-xl xl:text-2xl xl:text-xl xl:text-2xl xl:text-3xl font-extralight">
+                    <p className="text-xl xl:text-3xl font-extralight">
                       2 Wagyu Burger
                     </p>
 
@@ -542,7 +542,7 @@ export default function WorkspacePage() {
 
             </div>
 
-            <div className="rounded-[28px] xl:rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-4 xl:p-8">
+            <div className="rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-8">
 
               <div className="mb-8 flex items-center justify-between">
 
@@ -552,7 +552,7 @@ export default function WorkspacePage() {
                     BAR
                   </p>
 
-                  <h2 className="text-xl xl:text-xl xl:text-2xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-5xl font-extralight">
+                  <h2 className="text-xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-5xl font-extralight">
                     Preparing
                   </h2>
 
@@ -560,7 +560,7 @@ export default function WorkspacePage() {
 
                 <div className="text-right">
 
-                  <div className="text-xl xl:text-xl xl:text-2xl xl:text-xl xl:text-2xl xl:text-4xl font-extralight text-purple-400">
+                  <div className="text-xl xl:text-4xl font-extralight text-purple-400">
                     01:14
                   </div>
 
@@ -578,7 +578,7 @@ export default function WorkspacePage() {
 
                   <div>
 
-                    <p className="text-xl xl:text-xl xl:text-2xl xl:text-xl xl:text-2xl xl:text-3xl font-extralight">
+                    <p className="text-xl xl:text-3xl font-extralight">
                       1 Wine
                     </p>
 
@@ -600,9 +600,9 @@ export default function WorkspacePage() {
 
           </div>
 
-          <div className="grid gap-5 xl:p-4 xl:p-8 xl:grid-cols-2">
+          <div className="grid gap-5 xl:grid-cols-2">
 
-            <div className="rounded-[28px] xl:rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-4 xl:p-8">
+            <div className="rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-8">
 
               <div className="mb-4 xl:mb-8">
 
@@ -610,7 +610,7 @@ export default function WorkspacePage() {
                   PRODUCTION + INVENTORY IMPACT
                 </p>
 
-                <h2 className="text-xl xl:text-xl xl:text-2xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-5xl font-extralight">
+                <h2 className="text-xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-5xl font-extralight">
                   One Order Changes Everything
                 </h2>
 
@@ -624,7 +624,7 @@ export default function WorkspacePage() {
 
                     <div>
 
-                      <p className="text-xl xl:text-xl xl:text-2xl font-extralight">
+                      <p className="text-xl xl:text-2xl font-extralight">
                         Batch Production
                       </p>
 
@@ -746,7 +746,7 @@ export default function WorkspacePage() {
 
                       </div>
 
-                      <div className="text-xl xl:text-xl xl:text-2xl xl:text-xl xl:text-2xl xl:text-3xl font-extralight text-green-400">
+                      <div className="text-xl xl:text-3xl font-extralight text-green-400">
                         20 → 18
                       </div>
 
@@ -766,7 +766,7 @@ export default function WorkspacePage() {
 
                       </div>
 
-                      <div className="text-xl xl:text-xl xl:text-2xl xl:text-xl xl:text-2xl xl:text-3xl font-extralight text-amber-400">
+                      <div className="text-xl xl:text-3xl font-extralight text-amber-400">
                         30 → 28
                       </div>
 
@@ -782,7 +782,7 @@ export default function WorkspacePage() {
 
                     <div>
 
-                      <p className="text-xl xl:text-xl xl:text-2xl font-extralight">
+                      <p className="text-xl xl:text-2xl font-extralight">
                         Fresh Ingredient Usage
                       </p>
 
@@ -838,7 +838,7 @@ export default function WorkspacePage() {
 
                     <div>
 
-                      <p className="text-xl xl:text-xl xl:text-2xl font-extralight">
+                      <p className="text-xl xl:text-2xl font-extralight">
                         Live Cooking Runtime
                       </p>
 
@@ -878,7 +878,7 @@ export default function WorkspacePage() {
 
             </div>
 
-            <div className="rounded-[28px] xl:rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-4 xl:p-8">
+            <div className="rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-8">
 
               <div className="mb-4 xl:mb-8">
 
@@ -886,7 +886,7 @@ export default function WorkspacePage() {
                   AI + PROCUREMENT
                 </p>
 
-                <h2 className="text-xl xl:text-xl xl:text-2xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-5xl font-extralight">
+                <h2 className="text-xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-5xl font-extralight">
                   Operational Intelligence
                 </h2>
 
@@ -896,7 +896,7 @@ export default function WorkspacePage() {
 
                 <div className="rounded-3xl border border-purple-500/20 bg-purple-500/10 p-4 xl:p-6">
 
-                  <p className="text-xl xl:text-xl xl:text-2xl font-extralight">
+                  <p className="text-xl xl:text-2xl font-extralight">
                     High Wagyu Demand
                   </p>
 
@@ -908,7 +908,7 @@ export default function WorkspacePage() {
 
                 <div className="rounded-3xl border border-amber-500/20 bg-amber-500/10 p-4 xl:p-6">
 
-                  <p className="text-xl xl:text-xl xl:text-2xl font-extralight">
+                  <p className="text-xl xl:text-2xl font-extralight">
                     Tomato Usage Alert
                   </p>
 
@@ -920,7 +920,7 @@ export default function WorkspacePage() {
 
                 <div className="rounded-3xl border border-green-500/20 bg-green-500/10 p-4 xl:p-6">
 
-                  <p className="text-xl xl:text-xl xl:text-2xl font-extralight">
+                  <p className="text-xl xl:text-2xl font-extralight">
                     Procurement Runtime
                   </p>
 
@@ -932,7 +932,7 @@ export default function WorkspacePage() {
 
                 <div className="rounded-3xl border border-white/[0.05] bg-black/20 p-4 xl:p-6">
 
-                  <p className="text-xl xl:text-xl xl:text-2xl font-extralight">
+                  <p className="text-xl xl:text-2xl font-extralight">
                     Production Forecast
                   </p>
 
@@ -949,9 +949,9 @@ export default function WorkspacePage() {
           </div>
 
 
-          <div className="grid gap-5 xl:p-4 xl:p-8 xl:grid-cols-2">
+          <div className="grid gap-5 xl:grid-cols-2">
 
-            <div className="rounded-[28px] xl:rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-4 xl:p-8">
+            <div className="rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-8">
 
               <div className="mb-8 flex items-center justify-between">
 
@@ -961,7 +961,7 @@ export default function WorkspacePage() {
                     AI MANAGER DECISIONS
                   </p>
 
-                  <h2 className="text-xl xl:text-xl xl:text-2xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-5xl font-extralight">
+                  <h2 className="text-xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-5xl font-extralight">
                     Operational Command Center
                   </h2>
 
@@ -979,7 +979,7 @@ export default function WorkspacePage() {
 
                   <div className="mb-4 flex items-center justify-between">
 
-                    <p className="text-xl xl:text-xl xl:text-2xl font-extralight">
+                    <p className="text-xl xl:text-2xl font-extralight">
                       Tomato Stock Alert
                     </p>
 
@@ -1011,7 +1011,7 @@ export default function WorkspacePage() {
 
                   <div className="mb-4 flex items-center justify-between">
 
-                    <p className="text-xl xl:text-xl xl:text-2xl font-extralight">
+                    <p className="text-xl xl:text-2xl font-extralight">
                       Kitchen Load Forecast
                     </p>
 
@@ -1037,7 +1037,7 @@ export default function WorkspacePage() {
 
                   <div className="mb-4 flex items-center justify-between">
 
-                    <p className="text-xl xl:text-xl xl:text-2xl font-extralight">
+                    <p className="text-xl xl:text-2xl font-extralight">
                       Staff Runtime
                     </p>
 
@@ -1072,7 +1072,7 @@ export default function WorkspacePage() {
 
             </div>
 
-            <div className="rounded-[28px] xl:rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-4 xl:p-8">
+            <div className="rounded-[28px] xl:rounded-[36px] border border-white/[0.05] bg-white/[0.03] p-5 xl:p-8">
 
               <div className="mb-8 flex items-center justify-between">
 
@@ -1082,7 +1082,7 @@ export default function WorkspacePage() {
                     PROCUREMENT → ACCOUNTING FLOW
                   </p>
 
-                  <h2 className="text-xl xl:text-xl xl:text-2xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-5xl font-extralight">
+                  <h2 className="text-xl xl:text-3xl xl:text-xl xl:text-2xl xl:text-3xl xl:text-5xl font-extralight">
                     Purchase Synchronization
                   </h2>
 
@@ -1098,7 +1098,7 @@ export default function WorkspacePage() {
 
                 <div className="rounded-3xl border border-white/[0.05] bg-black/20 p-4 xl:p-6">
 
-                  <p className="text-xl xl:text-xl xl:text-2xl font-extralight">
+                  <p className="text-xl xl:text-2xl font-extralight">
                     Procurement Request Created
                   </p>
 
@@ -1112,7 +1112,7 @@ export default function WorkspacePage() {
 
                   <div className="mb-4 flex items-center justify-between">
 
-                    <p className="text-xl xl:text-xl xl:text-2xl font-extralight">
+                    <p className="text-xl xl:text-2xl font-extralight">
                       Supplier Delivery Arrived
                     </p>
 
@@ -1147,7 +1147,7 @@ export default function WorkspacePage() {
 
                   <div className="mb-4 flex items-center justify-between">
 
-                    <p className="text-xl xl:text-xl xl:text-2xl font-extralight">
+                    <p className="text-xl xl:text-2xl font-extralight">
                       Invoice AI Processing
                     </p>
 
@@ -1167,7 +1167,7 @@ export default function WorkspacePage() {
 
                   <div className="mb-4 flex items-center justify-between">
 
-                    <p className="text-xl xl:text-xl xl:text-2xl font-extralight">
+                    <p className="text-xl xl:text-2xl font-extralight">
                       Accounting Updated
                     </p>
 
