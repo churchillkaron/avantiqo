@@ -1,207 +1,129 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
-import {
-  useEffect,
-  useState,
-} from "react";
-
+import Image from "next/image";
+import { useEffect, useState } from "react";
 import { createClient } from "@supabase/supabase-js";
 
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL,
-  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
-);
-
 export default function Navbar() {
-  const [scrolled, setScrolled] =
-    useState(false);
 
-  const [user, setUser] =
-    useState(null);
-
-  const [profile, setProfile] =
-    useState(null);
-
-  const pathname =
-    usePathname();
+  const [scrolled, setScrolled] = useState(false);
+  const [user, setUser] = useState(null);
 
   useEffect(() => {
+
     const handleScroll = () => {
-      setScrolled(
-        window.scrollY > 40
-      );
+      setScrolled(window.scrollY > 10);
     };
 
-    window.addEventListener(
-      "scroll",
-      handleScroll
-    );
+    window.addEventListener("scroll", handleScroll);
 
-    return () =>
-      window.removeEventListener(
-        "scroll",
-        handleScroll
-      );
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+
   }, []);
 
   useEffect(() => {
+
+    async function loadUser() {
+
+      try {
+
+        const supabase = createClient(
+          process.env.NEXT_PUBLIC_SUPABASE_URL,
+          process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+        );
+
+        const {
+          data: { user },
+        } = await supabase.auth.getUser();
+
+        setUser(user);
+
+      } catch (err) {
+        console.error(err);
+      }
+
+    }
+
     loadUser();
+
   }, []);
-
-  async function loadUser() {
-    const {
-      data: { user },
-    } = await supabase.auth.getUser();
-
-    if (!user) return;
-
-    setUser(user);
-
-    const {
-      data: profileData,
-    } = await supabase
-      .from("tenant_users")
-      .select("*")
-      .eq(
-        "auth_user_id",
-        user.id
-      )
-      .single();
-
-    setProfile(profileData);
-  }
-
-  async function logout() {
-    await supabase.auth.signOut();
-
-    window.location.href = "/";
-  }
-
-  function getDashboardLink() {
-    if (!profile)
-      return "/platform";
-
-    if (
-      profile.role ===
-        "super_admin" ||
-      profile.role ===
-        "admin"
-    ) {
-      return "/admin/dashboard";
-    }
-
-    if (
-      profile.role ===
-      "finance"
-    ) {
-      return "/admin/billing";
-    }
-
-    if (
-      profile.role ===
-      "support"
-    ) {
-      return "/admin/tenants";
-    }
-
-    return "/platform";
-  }
 
   return (
     <header
-      className={`fixed left-0 top-0 z-50 w-full transition-all duration-300 ease-out ${
+      className={`fixed top-0 z-50 w-full transition-all duration-500 ${
         scrolled
-          ? "border-b border-white/[0.08] bg-[#02030A]/70 backdrop-blur-3xl"
+          ? "border-b border-white/10 bg-black/70 backdrop-blur-xl"
           : "bg-transparent"
       }`}
     >
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
 
         <Link
           href="/"
-          className="relative flex items-center"
+          className="flex items-center gap-3"
         >
-          <img
-            src="/brand/avantiqo-logo1.png"
+
+          <Image
+            src="/avantiqo-logo.png"
             alt="Avantiqo"
-            className="h-[42px] w-auto object-contain md:h-[70px]"
+            width={42}
+            height={42}
+            priority
           />
+
+          <span className="text-lg font-light tracking-[0.25em] text-white">
+            AVANTIQO
+          </span>
+
         </Link>
 
-        <div className="hidden items-center gap-8 md:gap-6 md:p-10 lg:flex">
+        <nav className="hidden items-center gap-10 lg:flex">
 
-          <Link href="/">
-            Home
+          <Link href="/platform" className="text-sm text-white/70 hover:text-white">
+            Platform
           </Link>
 
-          <Link href="/platform">
-            Architecture
-          </Link>
-
-          <Link href="/ai">
-            AI
-          </Link>
-
-          <Link href="/enterprise">
-            Enterprise
-          </Link>
-
-          <Link href="/industries">
+          <Link href="/industries" className="text-sm text-white/70 hover:text-white">
             Industries
           </Link>
 
-          <Link href="/demo">
+          <Link href="/ai" className="text-sm text-white/70 hover:text-white">
+            AI Runtime
+          </Link>
+
+          <Link href="/demo" className="text-sm text-white/70 hover:text-white">
             Demo
           </Link>
 
-          <Link href="/contact">
-            Contact
-          </Link>
+        </nav>
 
-        </div>
+        <div className="flex items-center gap-4">
 
-        <div className="flex items-center gap-3">
-
-          {!user ? (
-            <>
-              <Link
-                href="/login"
-                className="hidden rounded-2xl border border-white/[0.05] bg-white/[0.025] px-6 py-2 text-[15px] text-white/65 backdrop-blur-lg transition duration-300 hover:border-[#8B5CF6]/30 hover:bg-[#8B5CF6]/10 hover:text-white md:block"
-              >
-                Login
-              </Link>
-
-              <Link
-                href="/start"
-                className="rounded-2xl bg-gradient-to-r from-[#D6A66A] via-[#B98B57] to-[#8B5CF6] px-6 py-2 text-[15px] font-extralight text-white shadow-[0_0_60px_rgba(168,85,247,.22)] transition duration-300 hover:scale-[1.02]"
-              >
-                Start Setup
-              </Link>
-            </>
+          {user ? (
+            <Link
+              href="/workspace"
+              className="rounded-[14px] border border-white/10 bg-white/[0.05] px-5 py-2 text-sm text-white/80"
+            >
+              Workspace
+            </Link>
           ) : (
-            <>
-              <div className="hidden rounded-2xl border border-white/[0.05] bg-white/[0.025] px-6 py-2 text-[15px] text-white/80 backdrop-blur-lg md:block">
-                {profile?.full_name ||
-                  user.email}
-              </div>
-
-              <Link
-                href={getDashboardLink()}
-                className="rounded-2xl border border-white/[0.05] bg-white/[0.025] px-6 py-2 text-[15px] text-white backdrop-blur-lg transition duration-300 hover:border-[#8B5CF6]/30 hover:bg-[#8B5CF6]/10"
-              >
-                Dashboard
-              </Link>
-
-              <button
-                onClick={logout}
-                className="rounded-2xl bg-gradient-to-r from-[#D6A66A] via-[#B98B57] to-[#8B5CF6] px-6 py-2 text-[15px] font-extralight text-white shadow-[0_0_60px_rgba(168,85,247,.22)] transition duration-300 hover:scale-[1.02]"
-              >
-                Logout
-              </button>
-            </>
+            <Link
+              href="/login"
+              className="rounded-[14px] border border-white/10 bg-white/[0.05] px-5 py-2 text-sm text-white/80"
+            >
+              Login
+            </Link>
           )}
+
+          <Link
+            href="/demo"
+            className="rounded-[14px] bg-gradient-to-r from-[#D6A66A] to-[#8B5CF6] px-5 py-2 text-sm font-medium text-white"
+          >
+            Book Demo
+          </Link>
 
         </div>
 
