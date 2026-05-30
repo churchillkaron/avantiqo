@@ -1,6 +1,7 @@
 "use client";
 
-import Navbar from "@/components/layout/Navbar";
+import SiteTopNav from "@/components/SiteTopNav";
+
 import Footer from "@/components/layout/Footer";
 
 const runtimeGroups = [
@@ -110,112 +111,113 @@ const runtimeGroups = [
 
 export default function ModulesPage() {
   return (
-    <main className="min-h-screen overflow-hidden bg-[#02040A] text-white">
+    <>
+      <SiteTopNav />
 
-      <Navbar />
+      <main className="min-h-screen overflow-hidden bg-[#02040A] text-white">
 
-      <section className="relative px-6 py-24 md:py-36">
 
-        <div className="absolute left-[-200px] top-[120px] h-[500px] w-[500px] rounded-full bg-purple-700/20 blur-[140px]" />
+        <section className="relative px-6 py-24 md:py-36">
 
-        <div className="absolute right-[-100px] top-[200px] h-[400px] w-[400px] rounded-full bg-indigo-500/10 blur-[120px]" />
+          <div className="absolute left-[-200px] top-[120px] h-[500px] w-[500px] rounded-full bg-purple-700/20 blur-[140px]" />
 
-        <div className="relative mx-auto max-w-7xl">
+          <div className="absolute right-[-100px] top-[200px] h-[400px] w-[400px] rounded-full bg-indigo-500/10 blur-[120px]" />
 
-          <p className="mb-6 text-xs tracking-[0.28em] text-[#D6A66A]">
-            ENTERPRISE OPERATIONAL ARCHITECTURE
-          </p>
+          <div className="relative mx-auto max-w-7xl">
 
-          <h1 className="max-w-[980px] text-[56px] leading-[1.02] tracking-[-0.06em] md:text-[110px] font-extralight">
-            The operational nervous system for modern enterprises.
-          </h1>
+            <p className="mb-6 text-xs tracking-[0.28em] text-[#D6A66A]">
+              ENTERPRISE OPERATIONAL ARCHITECTURE
+            </p>
 
-          <p className="mt-10 max-w-3xl text-[17px] leading-[1.9] text-white/55">
-            Avantiqo connects live operations, finance, hospitality,
-            construction, accounting, AI intelligence, marketing,
-            governance and executive visibility into one synchronized
-            enterprise runtime architecture.
-          </p>
+            <h1 className="max-w-[980px] text-[56px] leading-[1.02] tracking-[-0.06em] md:text-[110px] font-extralight">
+              The operational nervous system for modern enterprises.
+            </h1>
 
-        </div>
+            <p className="mt-10 max-w-3xl text-[17px] leading-[1.9] text-white/55">
+              Avantiqo connects live operations, finance, hospitality,
+              construction, accounting, AI intelligence, marketing,
+              governance and executive visibility into one synchronized
+              enterprise runtime architecture.
+            </p>
 
-      </section>
+          </div>
 
-      <section className="px-6 pb-24">
+        </section>
 
-        <div className="mx-auto grid max-w-7xl gap-8 md:grid-cols-2 xl:grid-cols-3">
+        <section className="px-6 pb-24">
 
-          {runtimeGroups.map((group) => (
+          <div className="mx-auto grid max-w-7xl gap-8 md:grid-cols-2 xl:grid-cols-3">
 
-            <RuntimeCard
-              key={group.title}
-              title={group.title}
-              description={group.description}
-              items={group.items}
-            />
+            {runtimeGroups.map((group) => (
+              <RuntimeCard
+                key={group.title}
+                title={group.title}
+                description={group.description}
+                items={group.items}
+              />
+            ))}
 
-          ))}
+          </div>
 
-        </div>
+        </section>
 
-      </section>
+        <section className="px-6 pb-24 md:pb-32">
 
-      <section className="px-6 pb-24 md:pb-32">
+          <div className="mx-auto max-w-7xl">
 
-        <div className="mx-auto max-w-7xl">
+            <div className="enterprise-runtime-card p-8 md:p-14">
 
-          <div className="enterprise-runtime-card p-8 md:p-14">
+              <div className="mb-10 flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
 
-            <div className="mb-10 flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+                <div>
 
-              <div>
+                  <p className="runtime-label mb-3">
+                    CONNECTED ENTERPRISE FLOW
+                  </p>
 
-                <p className="runtime-label mb-3">
-                  CONNECTED ENTERPRISE FLOW
-                </p>
+                  <h2 className="max-w-5xl text-4xl md:text-6xl font-extralight tracking-[-0.05em]">
+                    Live operational intelligence synchronized across every runtime.
+                  </h2>
 
-                <h2 className="max-w-5xl text-4xl md:text-6xl font-extralight tracking-[-0.05em]">
-                  Live operational intelligence synchronized across every runtime.
-                </h2>
+                </div>
+
+                <div className="runtime-status-active runtime-value">
+                  ALL SYSTEMS ACTIVE
+                </div>
 
               </div>
 
-              <div className="runtime-status-active runtime-value">
-                ALL SYSTEMS ACTIVE
+              <div className="flex flex-wrap items-center gap-4">
+
+                <FlowItem label="POS Runtime" />
+                <Arrow />
+
+                <FlowItem label="Kitchen Runtime" />
+                <Arrow />
+
+                <FlowItem label="Inventory Runtime" />
+                <Arrow />
+
+                <FlowItem label="Accounting Runtime" />
+                <Arrow />
+
+                <FlowItem label="AI Runtime" />
+                <Arrow />
+
+                <FlowItem label="Executive Visibility" />
+
               </div>
-
-            </div>
-
-            <div className="flex flex-wrap items-center gap-4">
-
-              <FlowItem label="POS Runtime" />
-              <Arrow />
-
-              <FlowItem label="Kitchen Runtime" />
-              <Arrow />
-
-              <FlowItem label="Inventory Runtime" />
-              <Arrow />
-
-              <FlowItem label="Accounting Runtime" />
-              <Arrow />
-
-              <FlowItem label="AI Runtime" />
-              <Arrow />
-
-              <FlowItem label="Executive Visibility" />
 
             </div>
 
           </div>
 
-        </div>
+        </section>
 
-      </section>
+        <Footer />
 
-      <Footer />
-
-    </main>
+      </main>
+    </>
   );
 }
 
@@ -242,14 +244,12 @@ function RuntimeCard({
       <div className="mt-8 grid gap-3">
 
         {items.map((item) => (
-
           <div
             key={item}
             className="rounded-2xl border border-white/[0.05] bg-black/20 px-4 py-3 text-white/75"
           >
             {item}
           </div>
-
         ))}
 
       </div>

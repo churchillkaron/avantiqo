@@ -1,9 +1,10 @@
 "use client";
 
+import SiteTopNav from "@/components/SiteTopNav";
+
 import Image from "next/image";
 import Link from "next/link";
 
-import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 
 const industries = [
@@ -39,8 +40,9 @@ const industries = [
 
 export default function IndustriesPage() {
   return (
-    <main className="min-h-screen overflow-hidden bg-[#04050B] text-white">
-      <Navbar />
+    <>
+<SiteTopNav />
+<main className="min-h-screen overflow-hidden bg-[#04050B] text-white">
 
       {/* HERO */}
       <section className="relative px-6 py-32">
@@ -175,7 +177,7 @@ export default function IndustriesPage() {
               href="/demo"
               className="rounded-[22px] bg-gradient-to-r from-[#D6A66A] via-[#C084FC] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4 text-sm font-extralight transition-all duration-300 ease-out hover:-translate-y-[2px]"
             >
-              Book Enterprise Demo
+              Book Enterprise Modules
             </Link>
 
             <Link
@@ -193,6 +195,8 @@ export default function IndustriesPage() {
 
       <Footer />
 
+   
     </main>
+    </>
   );
 }

@@ -1,0 +1,1376 @@
+{
+  "brand": {
+    "name": "AVANTIQO",
+    "tagline": "Enterprise AI Operating System"
+  },
+  "topnav": {
+    "platform": "Platform",
+    "industries": "Industries",
+    "modules": "Modules",
+    "aiRuntime": "AI Runtime",
+    "security": "Security",
+    "signIn": "Login",
+    "workspace": "Workspace",
+    "startSetup": "Start Setup"
+  },
+  "home": {
+    "hero": {
+      "badge": "AVANTIQO ENTERPRISE OPERATING SYSTEM",
+      "title1": "From operational chaos",
+      "title2": "to live business control.",
+      "description": "Operations, finance, accounting, staff, documents, inventory and AI — connected in one live operational runtime.",
+      "book_demo": "Book Enterprise Modules",
+      "start_setup": "Start Platform Setup"
+    },
+    "modules": {
+      "badge": "ONE SYSTEM. EVERY DEPARTMENT.",
+      "title1": "Everything your business",
+      "title2": "used to manage manually...",
+      "title3": "now visible, automated and controlled",
+      "title4": "in real time."
+    },
+    "cta": {
+      "badge": "LIVE OPERATIONAL RUNTIME",
+      "title1": "One system.",
+      "title2": "Every department.",
+      "title3": "Real-time control.",
+      "description": "Reduce operational stress, automate workflows and gain complete visibility across your business.",
+      "button": "Book Enterprise Modules"
+    },
+    "cards": {
+      "control": {
+        "title": "LIVE CONTROL CENTER",
+        "description": "See revenue, staff cost, occupancy, approvals and operations minute by minute.",
+        "status": "LIVE"
+      },
+      "finance": {
+        "title": "FINANCE & ACCOUNTING",
+        "description": "Replace paperwork chaos with real-time financial control and audit visibility.",
+        "status": "CONNECTED"
+      },
+      "staff": {
+        "title": "STAFF PORTAL",
+        "description": "Staff communication, shifts, payroll visibility and live operational updates.",
+        "status": "ACTIVE"
+      },
+      "projects": {
+        "title": "PROJECTS",
+        "description": "Track budgets, tasks, procurement and approvals directly from the site.",
+        "status": "REAL-TIME"
+      },
+      "documents": {
+        "title": "DOCUMENTS",
+        "description": "Take a picture, upload invoices and let AI organize financial records automatically.",
+        "status": "SYNCED"
+      },
+      "marketing": {
+        "title": "AI MARKETING",
+        "description": "Generate campaigns, video, composite content and social media instantly.",
+        "status": "LIVE"
+      },
+      "inventory": {
+        "title": "INVENTORY & PROCUREMENT",
+        "description": "Live stock visibility, supplier control and operational cost tracking.",
+        "status": "CONNECTED"
+      },
+      "enterprise": {
+        "title": "ENTERPRISE AI",
+        "description": "One intelligent runtime connecting operations, finance, documents and growth.",
+        "status": "ACTIVE"
+      }
+    }
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "operations": "Operations",
+    "inventory": "Inventory",
+    "production": "Production",
+    "finance": "Finance",
+    "marketing": "Marketing",
+    "settings": "Settings",
+    "pos": "POS",
+    "kitchen": "Kitchen",
+    "expo": "Expo",
+    "reservations": "Reservations",
+    "dishStock": "Dish Stock",
+    "ingredientStock": "Ingredient Stock",
+    "procurement": "Procurement",
+    "accounting": "Accounting",
+    "payroll": "Payroll",
+    "hr": "HR",
+    "projects": "Projects",
+    "crm": "CRM",
+    "customers": "Customers",
+    "designStudio": "Design Studio",
+    "documents": "Documents"
+  },
+  "workspace": {
+    "activeProvider": "Active Provider",
+    "runtime": "Churchill Runtime",
+    "start": "Start",
+    "login": "Login",
+    "modules": "Modules",
+    "designStudio": "Design Studio"
+  },
+  "accounting": {
+    "hero": {
+      "badge": "ACCOUNTING RUNTIME",
+      "title": "Financial Ledger Intelligence",
+      "description": "Procurement, revenue, payroll, inventory, and AI synchronize automatically into accounting runtime.",
+      "statusLabel": "ACCOUNTING STATUS",
+      "status": "BALANCED"
+    },
+    "metrics": {
+      "entries": {
+        "title": "Journal Entries",
+        "description": "Runtime synchronized"
+      },
+      "payables": {
+        "title": "Open Payables",
+        "description": "Supplier liabilities"
+      },
+      "cashflow": {
+        "title": "Cash Flow",
+        "description": "Financial health stable",
+        "value": "POSITIVE"
+      },
+      "audit": {
+        "title": "AI Audit Layer",
+        "description": "Runtime monitoring active",
+        "value": "LIVE"
+      }
+    },
+    "entries": {
+      "badge": "LIVE ACCOUNTING",
+      "title": "Financial Entries",
+      "items": {
+        "invoicePosted": {
+          "title": "Supplier Invoice Posted",
+          "account": "Accounts Payable"
+        },
+        "revenue": {
+          "title": "Restaurant Revenue",
+          "account": "Sales Revenue"
+        },
+        "payroll": {
+          "title": "Payroll Allocation",
+          "account": "Labor Expense"
+        }
+      }
+    },
+    "approvals": {
+      "badge": "APPROVAL RUNTIME",
+      "title": "AI Verification Flow",
+      "active": "AI ACTIVE",
+      "description": "Accounting synchronization runtime",
+      "items": {
+        "ocr": {
+          "title": "Invoice OCR Extraction"
+        },
+        "match": {
+          "title": "Procurement Match"
+        },
+        "journal": {
+          "title": "Accounting Journal"
+        }
+      }
+    },
+    "status": {
+      "posted": "POSTED",
+      "synced": "SYNCED",
+      "processing": "PROCESSING",
+      "approved": "APPROVED",
+      "matched": "MATCHED",
+      "ready": "READY"
+    }
+  },
+  "finance": {
+    "hero": {
+      "badge": "FINANCIAL RUNTIME",
+      "title": "Live Financial Intelligence",
+      "description": "Revenue, profitability, labor, inventory, procurement, and accounting synchronized in real time.",
+      "statusLabel": "FINANCE STATUS",
+      "status": "SYNCHRONIZED"
+    },
+    "cards": {
+      "runtime": "Runtime synchronized",
+      "revenue": {
+        "title": "Revenue Today"
+      },
+      "profit": {
+        "title": "Net Profit"
+      },
+      "labor": {
+        "title": "Labor Cost"
+      },
+      "food": {
+        "title": "Food Cost"
+      }
+    },
+    "transactions": {
+      "badge": "LIVE TRANSACTIONS",
+      "title": "Financial Runtime",
+      "description": "Financial synchronization active",
+      "sales": {
+        "title": "Wagyu Burger Sales"
+      },
+      "invoice": {
+        "title": "Supplier Invoice Processed"
+      },
+      "payroll": {
+        "title": "Payroll Allocation"
+      }
+    },
+    "ai": {
+      "badge": "AI FINANCIAL INTELLIGENCE",
+      "title": "Profitability Engine",
+      "active": "AI ACTIVE",
+      "insights": {
+        "margin": {
+          "title": "Wagyu Margin Increasing",
+          "description": "AI detected profitability increase from premium pairing sales."
+        },
+        "labor": {
+          "title": "Labor Cost Rising",
+          "description": "AI forecasting kitchen labor increase during dinner peak."
+        },
+        "procurement": {
+          "title": "Procurement Optimized",
+          "description": "Supplier synchronization reduced purchasing cost by 12%."
+        }
+      }
+    },
+    "status": {
+      "live": "LIVE",
+      "synced": "SYNCED",
+      "processing": "PROCESSING"
+    }
+  },
+  "inventory": {
+    "hero": {
+      "badge": "INVENTORY RUNTIME",
+      "title": "Live Stock Intelligence",
+      "description": "Batch stock and ingredient stock synchronized directly from POS, production, procurement, and operational flow.",
+      "statusLabel": "INVENTORY STATUS",
+      "status": "SYNCHRONIZED"
+    },
+    "cards": {
+      "ingredients": {
+        "title": "Ingredient Items",
+        "description": "Live stock tracked"
+      },
+      "batch": {
+        "title": "Batch Production",
+        "description": "Prepared stock active"
+      },
+      "risk": {
+        "title": "AI Risk Signals",
+        "description": "Inventory warnings active"
+      },
+      "procurement": {
+        "title": "Procurement Sync",
+        "description": "Invoice runtime connected"
+      }
+    },
+    "batch": {
+      "badge": "BATCH STOCK",
+      "title": "Prepared Production",
+      "type": "BATCH STOCK",
+      "wagyu": "Wagyu Patties",
+      "buns": "Burger Buns",
+      "sauce": "Tomato Sauce",
+      "fries": "Prepared Fries"
+    },
+    "ingredients": {
+      "badge": "INGREDIENT STOCK",
+      "title": "Raw Ingredient Runtime",
+      "usage": "Usage",
+      "tomatoes": "Tomatoes",
+      "lettuce": "Lettuce",
+      "potatoes": "Potatoes",
+      "cheese": "Cheddar Cheese"
+    },
+    "status": {
+      "live": "LIVE",
+      "good": "GOOD",
+      "stable": "STABLE",
+      "low": "LOW",
+      "warning": "WARNING"
+    }
+  },
+  "procurement": {
+    "hero": {
+      "badge": "PROCUREMENT RUNTIME",
+      "title": "Purchasing Intelligence",
+      "description": "Procurement synchronized directly into inventory, accounting, AI forecasting, and profitability systems.",
+      "statusLabel": "PROCUREMENT STATUS",
+      "status": "ACTIVE"
+    },
+    "cards": {
+      "orders": {
+        "title": "Open Purchase Orders",
+        "description": "Runtime synchronized"
+      },
+      "deliveries": {
+        "title": "Deliveries Today",
+        "description": "Inventory updated"
+      },
+      "invoice": {
+        "title": "Invoice Automation",
+        "description": "OCR processing active"
+      },
+      "suppliers": {
+        "title": "Supplier Sync",
+        "description": "AI demand forecasting"
+      }
+    },
+    "sections": {
+      "procurement": {
+        "badge": "LIVE PROCUREMENT",
+        "title": "Purchase Orders"
+      },
+      "invoice": {
+        "badge": "AI INVOICE FLOW",
+        "title": "Accounting Synchronization",
+        "active": "AI ACTIVE",
+        "description": "Procurement runtime synchronized"
+      }
+    },
+    "suppliers": {
+      "farm": "Phuket Fresh Farm",
+      "wagyu": "Premium Wagyu Co.",
+      "ocean": "Ocean Beverage"
+    },
+    "items": {
+      "tomatoes": "Tomatoes 40kg",
+      "wagyu": "Wagyu Patties",
+      "wine": "Wine Restock"
+    },
+    "flow": {
+      "upload": "Invoice Photo Uploaded",
+      "ocr": "AI OCR Extraction",
+      "inventory": "Inventory Synchronization",
+      "accounting": "Accounting Entry"
+    },
+    "status": {
+      "live": "LIVE",
+      "active": "ACTIVE",
+      "delivered": "DELIVERED",
+      "transit": "IN TRANSIT",
+      "approval": "APPROVAL",
+      "complete": "COMPLETE",
+      "processing": "PROCESSING"
+    }
+  },
+  "production": {
+    "hero": {
+      "badge": "PRODUCTION RUNTIME",
+      "title": "Batch + À La Minute",
+      "description": "Production runtime synchronizes prepared stock with live ingredient consumption during service.",
+      "statusLabel": "PRODUCTION STATUS",
+      "status": "RUNNING"
+    },
+    "sections": {
+      "batch": {
+        "badge": "BATCH PRODUCTION",
+        "title": "Prepared Runtime",
+        "produced": "Produced"
+      },
+      "consumption": {
+        "badge": "LIVE INGREDIENT CONSUMPTION",
+        "title": "À La Minute Runtime",
+        "deduction": "LIVE DEDUCTION"
+      }
+    },
+    "batch": {
+      "wagyu": "Wagyu Patties",
+      "buns": "Burger Buns",
+      "sauce": "Tomato Sauce"
+    },
+    "ingredients": {
+      "tomatoes": "Tomatoes",
+      "potatoes": "Potatoes",
+      "lettuce": "Lettuce"
+    },
+    "consumption": {
+      "burger": "1 Wagyu Burger",
+      "fries": "1 Fries Portion",
+      "assembly": "1 Burger Assembly"
+    },
+    "status": {
+      "live": "LIVE",
+      "active": "ACTIVE",
+      "good": "GOOD",
+      "low": "LOW"
+    }
+  },
+  "dashboard": {
+    "hero": {
+      "badge": "EXECUTIVE COMMAND CENTER",
+      "title": "Enterprise Runtime",
+      "description": "Real-time operational intelligence across finance, production, procurement, labor, and AI orchestration.",
+      "statusLabel": "SYSTEM STATUS",
+      "status": "Operational"
+    },
+    "cards": {
+      "revenue": {
+        "title": "Revenue Today",
+        "description": "+18.4% operational growth"
+      },
+      "profit": {
+        "title": "Net Profit",
+        "description": "Live operational profitability"
+      },
+      "kitchen": {
+        "title": "Kitchen Efficiency",
+        "description": "Runtime synchronization stable"
+      },
+      "forecast": {
+        "title": "AI Forecast",
+        "description": "Predicted dinner demand spike"
+      }
+    },
+    "locations": {
+      "badge": "LIVE LOCATIONS",
+      "title": "Multi-Location Runtime",
+      "today": "Today",
+      "churchill": "Restaurant Runtime Active",
+      "mongos": "Café Runtime Active",
+      "yona": "Beach Club Runtime Active"
+    },
+    "ai": {
+      "badge": "AI OPERATIONAL FEED",
+      "title": "Runtime Intelligence",
+      "active": "AI ACTIVE",
+      "tomato": {
+        "title": "Tomato Inventory Risk",
+        "description": "AI predicts inventory shortage within 5 hours."
+      },
+      "fryer": {
+        "title": "Fryer Congestion Forecast",
+        "description": "Kitchen runtime load expected to exceed 84%."
+      },
+      "profit": {
+        "title": "Profitability Increase",
+        "description": "Wagyu + wine pairing performing 18% above average."
+      },
+      "procurement": {
+        "title": "Procurement Synchronized",
+        "description": "Supplier invoice processed and inventory updated automatically."
+      }
+    },
+    "status": {
+      "live": "LIVE"
+    }
+  },
+  "hr": {
+    "hero": {
+      "badge": "HUMAN RUNTIME INTELLIGENCE",
+      "title1": "Workforce",
+      "title2": "Synchronization",
+      "description": "AI monitors operational stress, productivity, payroll efficiency, attendance, and labor balance."
+    },
+    "staff": {
+      "badge": "LIVE STAFF CONDITION",
+      "title": "Operational Pulse",
+      "mood": "Mood",
+      "energy": "Energy",
+      "risk": "Burnout Risk"
+    },
+    "ai": {
+      "badge": "AI LABOR SIGNALS",
+      "title": "Predictive HR",
+      "burnout": {
+        "title": "Burnout Risk Detected",
+        "description": "Service team overtime increasing during dinner peak."
+      },
+      "performance": {
+        "title": "Top Performer Identified",
+        "description": "Kitchen productivity outperforming historical average."
+      },
+      "training": {
+        "title": "Training Opportunity",
+        "description": "AI suggests cross-training additional expo runner."
+      }
+    },
+    "payroll": {
+      "badge": "PAYROLL SYNCHRONIZATION",
+      "description": "Attendance, performance, lateness, operational score, and service charge synchronize directly into payroll runtime."
+    },
+    "roles": {
+      "kitchen": "Kitchen Lead",
+      "floor": "Floor Supervisor",
+      "bar": "Bar Lead"
+    },
+    "moods": {
+      "focused": "FOCUSED",
+      "overloaded": "OVERLOADED",
+      "performance": "HIGH PERFORMANCE"
+    },
+    "risk": {
+      "low": "LOW",
+      "medium": "MEDIUM"
+    },
+    "status": {
+      "live": "LIVE"
+    }
+  },
+  "payroll": {
+    "hero": {
+      "badge": "PAYROLL RUNTIME",
+      "title": "Performance Payroll Engine",
+      "description": "Payroll synchronized directly from attendance, operational performance, service charge, and approvals.",
+      "statusLabel": "PAYROLL STATUS"
+    },
+    "cards": {
+      "staff": {
+        "title": "Staff Runtime",
+        "description": "Active payroll staff"
+      },
+      "service": {
+        "title": "Service Charge Pool",
+        "description": "Runtime allocation active"
+      },
+      "performance": {
+        "title": "Avg Performance",
+        "description": "AI performance scoring"
+      },
+      "approval": {
+        "title": "Payroll Approval",
+        "description": "Manager synchronization"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE PAYROLL"
+    },
+    "flowSection": {
+      "badge": "PAYROLL FLOW",
+      "title": "Runtime Synchronization",
+      "active": "AI ACTIVE",
+      "processing": "Payroll runtime processing"
+    },
+    "flow": {
+      "attendance": "Attendance synchronized",
+      "performance": "Performance score calculated",
+      "serviceCharge": "Service charge allocated",
+      "approval": "Manager approval active",
+      "accounting": "Accounting payout processing"
+    },
+    "roles": {
+      "kitchen": "Kitchen",
+      "service": "Service",
+      "bar": "Bar"
+    },
+    "status": {
+      "approved": "APPROVED",
+      "pending": "PENDING",
+      "processing": "PROCESSING",
+      "active": "ACTIVE",
+      "live": "LIVE"
+    }
+  },
+  "reservations": {
+    "hero": {
+      "badge": "RESERVATION RUNTIME",
+      "title": "Guest Coordination",
+      "description": "Reservation flow synchronized with tables, kitchen forecasting, staffing, and AI demand planning.",
+      "statusLabel": "RESERVATION STATUS"
+    },
+    "cards": {
+      "today": {
+        "title": "Reservations Today",
+        "description": "Runtime synchronized"
+      },
+      "guests": {
+        "title": "Expected Guests",
+        "description": "AI forecast active"
+      },
+      "spend": {
+        "title": "Avg Spend Forecast",
+        "description": "AI profitability prediction"
+      },
+      "waitlist": {
+        "title": "Waitlist Queue",
+        "description": "Table optimization active"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE RESERVATION",
+      "table": "Table",
+      "guests": "Guests",
+      "arrival": "Arrival",
+      "spend": "Spend Forecast",
+      "aiTitle": "AI Coordination Active",
+      "aiDescription": "Kitchen prep, staffing, and table flow synchronized automatically."
+    },
+    "actions": {
+      "checkin": "CHECK-IN",
+      "start": "Start Dining Flow",
+      "view": "VIEW TABLE",
+      "status": "Runtime Status"
+    },
+    "spending": {
+      "high": "HIGH VALUE",
+      "dinner": "DINNER",
+      "event": "EVENT"
+    },
+    "status": {
+      "live": "LIVE",
+      "arriving": "ARRIVING",
+      "confirmed": "CONFIRMED",
+      "waitlist": "WAITLIST"
+    }
+  },
+  "pos": {
+    "hero": {
+      "badge": "POINT OF SALE",
+      "title": "Live Ordering Runtime",
+      "description": "Orders route automatically into kitchen, bar, inventory, profitability, AI, and accounting systems.",
+      "statusLabel": "POS STATUS"
+    },
+    "tables": {
+      "badge": "TABLE SELECTION",
+      "title": "Active Tables",
+      "active": "14 ACTIVE",
+      "runtime": "Open Runtime"
+    },
+    "menu": {
+      "badge": "MENU RUNTIME",
+      "title": "Live Menu",
+      "aiPricing": "AI PRICING ACTIVE",
+      "runtime": "Runtime synchronized",
+      "add": "ADD TO ORDER"
+    },
+    "order": {
+      "badge": "CURRENT ORDER",
+      "kitchenRouting": "Kitchen Routing",
+      "barRouting": "Bar Routing",
+      "subtotal": "Subtotal",
+      "serviceCharge": "Service Charge",
+      "total": "Total",
+      "send": "SEND ORDER",
+      "routing": "Routes automatically to kitchen + bar + inventory"
+    },
+    "runtime": {
+      "badge": "LIVE RUNTIME",
+      "title": "Operational Sync",
+      "kitchenTitle": "Kitchen Runtime",
+      "kitchenDescription": "Wagyu Burger routed to grill station.",
+      "inventoryTitle": "Inventory Runtime",
+      "inventoryDescription": "Patties, buns, tomato, fries updated automatically.",
+      "profitTitle": "Profitability Runtime",
+      "profitDescription": "AI recalculating live operational margin."
+    },
+    "categories": {
+      "burgers": "Burgers",
+      "starters": "Starters",
+      "drinks": "Drinks",
+      "desserts": "Desserts"
+    },
+    "dishes": {
+      "wagyu": "Wagyu Burger",
+      "fries": "Truffle Fries",
+      "wine": "Red Wine",
+      "salad": "Caesar Salad"
+    },
+    "status": {
+      "live": "LIVE",
+      "active": "ACTIVE",
+      "highDemand": "HIGH DEMAND",
+      "liveCooking": "LIVE COOKING",
+      "barRouting": "BAR ROUTING",
+      "freshPrep": "FRESH PREP"
+    }
+  },
+  "kitchen": {
+    "hero": {
+      "badge": "KITCHEN DISPLAY SYSTEM",
+      "title": "Kitchen Runtime",
+      "description": "Orders synchronize directly from POS into production flow, inventory, timing, labor, and expo coordination.",
+      "statusLabel": "KITCHEN STATUS"
+    },
+    "cards": {
+      "new": {
+        "title": "New Orders",
+        "description": "Waiting production"
+      },
+      "cooking": {
+        "title": "Cooking",
+        "description": "Active kitchen runtime"
+      },
+      "ready": {
+        "title": "Ready For Expo",
+        "description": "Awaiting dispatch"
+      },
+      "ticket": {
+        "title": "Avg Ticket Time",
+        "description": "Runtime synchronized"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE ORDER",
+      "ticket": "Ticket Runtime"
+    },
+    "actions": {
+      "start": "START",
+      "begin": "Begin Cooking",
+      "hold": "HOLD",
+      "pause": "Pause Runtime",
+      "ready": "READY",
+      "expo": "Send To Expo",
+      "issue": "ISSUE",
+      "problem": "Runtime Problem",
+      "expoReady": "EXPO",
+      "await": "Await Pickup",
+      "complete": "COMPLETE",
+      "closed": "Runtime Closed"
+    },
+    "dishes": {
+      "wagyu": "Wagyu Burger",
+      "fries": "Truffle Fries",
+      "ribeye": "Ribeye Steak",
+      "salad": "Caesar Salad"
+    },
+    "status": {
+      "active": "ACTIVE",
+      "new": "NEW",
+      "cooking": "COOKING",
+      "ready": "READY"
+    }
+  },
+  "ai": {
+    "hero": {
+      "badge": "AI INTELLIGENCE LAYER",
+      "title": "Operational Intelligence",
+      "description": "AI continuously analyzes operations, production, profitability, procurement, labor, and customer behavior in real time.",
+      "statusLabel": "AI STATUS"
+    },
+    "cards": {
+      "predictions": {
+        "title": "Live Predictions",
+        "description": "Runtime decisions active"
+      },
+      "accuracy": {
+        "title": "AI Accuracy",
+        "description": "Operational forecasting precision"
+      },
+      "procurement": {
+        "title": "Procurement Savings",
+        "description": "AI supplier optimization"
+      },
+      "waste": {
+        "title": "Waste Reduction",
+        "description": "Production intelligence active"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE AI DECISIONS",
+      "title": "Runtime Recommendations"
+    },
+    "learning": {
+      "badge": "AI LEARNING ENGINE",
+      "title": "Continuous Optimization",
+      "customer": {
+        "title": "Customer Behavior",
+        "description": "AI analyzing order patterns"
+      },
+      "signals": {
+        "title": "Operational Signals",
+        "description": "Runtime synchronization events"
+      },
+      "forecast": {
+        "title": "AI Forecast Horizon",
+        "description": "Predictive operational window"
+      },
+      "autonomous": {
+        "title": "Autonomous Operational Layer",
+        "description": "AI coordinates procurement, labor allocation, production forecasting, and profitability optimization continuously across all locations."
+      }
+    },
+    "signals": {
+      "inventory": {
+        "title": "Tomato Inventory Risk",
+        "description": "AI predicts tomato shortage during evening peak service.",
+        "recommendation": "Recommended: Create procurement request immediately."
+      },
+      "fryer": {
+        "title": "Fryer Runtime Congestion",
+        "description": "Fryer utilization expected to exceed 87%.",
+        "recommendation": "Recommended: Open secondary fryer station."
+      },
+      "profit": {
+        "title": "High Profitability Opportunity",
+        "description": "Wagyu + wine combination performing 18% above forecast.",
+        "recommendation": "Recommended: Increase promotion priority."
+      }
+    },
+    "status": {
+      "learning": "LEARNING",
+      "live": "LIVE",
+      "priority": "PRIORITY",
+      "monitoring": "MONITORING",
+      "optimized": "OPTIMIZED"
+    },
+    "commands": {
+      "staffing": "Optimize staffing allocation",
+      "forecast": "Generate operational forecast",
+      "inventory": "Recalculate inventory demand",
+      "payroll": "Analyze payroll efficiency",
+      "marketing": "Increase campaign profitability"
+    },
+    "metrics": {
+      "predictions": "124",
+      "accuracy": "94%",
+      "procurement": "฿42K",
+      "waste": "-28%",
+      "behavior": "12.4M",
+      "forecast": "72H"
+    }
+  },
+  "operations": {
+    "hero": {
+      "badge": "FULL OPERATION RUNTIME",
+      "title": "Enterprise Coordination",
+      "description": "Entire restaurant operation synchronized in real time across ordering, production, inventory, labor, AI, procurement, accounting, and profitability.",
+      "statusLabel": "SYSTEM STATUS"
+    },
+    "cards": {
+      "orders": {
+        "title": "Active Orders",
+        "description": "Runtime active"
+      },
+      "kitchen": {
+        "title": "Kitchen Load",
+        "description": "Production synchronized"
+      },
+      "inventory": {
+        "title": "Inventory Health",
+        "description": "AI monitoring active"
+      },
+      "procurement": {
+        "title": "Procurement Runtime",
+        "description": "Invoice sync active"
+      },
+      "profit": {
+        "title": "Net Profit Today",
+        "description": "Live profitability runtime"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE OPERATION FLOW",
+      "title": "Runtime Synchronization"
+    },
+    "ai": {
+      "badge": "AI OPERATIONAL FEED",
+      "title": "Live Runtime Intelligence",
+      "description": "Runtime intelligence synchronized"
+    },
+    "sync": {
+      "badge": "ENTERPRISE SYNCHRONIZATION",
+      "title": "One Runtime Controls Everything"
+    },
+    "modules": {
+      "production": {
+        "title": "Production",
+        "description": "Batch + à la minute synchronization."
+      },
+      "inventory": {
+        "title": "Inventory",
+        "description": "Ingredient + stock movement tracking."
+      },
+      "procurement": {
+        "title": "Procurement",
+        "description": "Invoice AI + supplier synchronization."
+      },
+      "accounting": {
+        "title": "Accounting",
+        "description": "Live financial and profitability updates."
+      }
+    },
+    "flows": {
+      "posKitchen": {
+        "title": "POS → Kitchen",
+        "description": "Orders routed into live production runtime."
+      },
+      "kitchenExpo": {
+        "title": "Kitchen → Expo",
+        "description": "Production synchronized for dispatch."
+      },
+      "expoTables": {
+        "title": "Expo → Tables",
+        "description": "Service runners dispatch completed orders."
+      },
+      "tablesPayment": {
+        "title": "Tables → Payment",
+        "description": "Dining runtime linked to financial flow."
+      }
+    },
+    "alerts": {
+      "inventory": "Tomato inventory running low",
+      "wagyu": "Wagyu demand spike detected",
+      "fryer": "Kitchen fryer utilization high",
+      "invoice": "Supplier invoice processed automatically"
+    },
+    "status": {
+      "active": "ACTIVE",
+      "synced": "SYNCED",
+      "live": "LIVE",
+      "processing": "PROCESSING",
+      "synchronized": "SYNCHRONIZED",
+      "aiActive": "AI ACTIVE",
+      "connected": "FULLY CONNECTED"
+    }
+  },
+  "analytics": {
+    "hero": {
+      "badge": "ANALYTICS ENGINE",
+      "title": "Enterprise Analytics",
+      "description": "Real-time operational analytics across profitability, inventory, labor, customer behavior, and production flow.",
+      "statusLabel": "ANALYTICS STATUS"
+    },
+    "cards": {
+      "orders": {
+        "title": "Orders Processed",
+        "description": "Runtime operational events"
+      },
+      "profitability": {
+        "title": "Profitability Accuracy",
+        "description": "AI operational calculation precision"
+      },
+      "production": {
+        "title": "Production Efficiency",
+        "description": "Kitchen synchronization performance"
+      },
+      "signals": {
+        "title": "AI Runtime Signals",
+        "description": "Operational intelligence active"
+      }
+    },
+    "performance": {
+      "badge": "PERFORMANCE ANALYTICS",
+      "title": "Operational Intelligence",
+      "dish": {
+        "title": "Top Performing Dish",
+        "description": "Highest operational profitability"
+      },
+      "kitchen": {
+        "title": "Kitchen Runtime",
+        "description": "Average preparation flow",
+        "metric": "Avg ticket"
+      },
+      "procurement": {
+        "title": "Procurement Optimization",
+        "description": "AI supplier synchronization",
+        "metric": "Saved"
+      }
+    },
+    "feed": {
+      "badge": "LIVE ANALYTICS FEED",
+      "title": "Runtime Events",
+      "profit": {
+        "title": "Profitability Spike Detected",
+        "description": "Wagyu + wine combination exceeding forecast."
+      },
+      "inventory": {
+        "title": "Inventory Risk Signal",
+        "description": "Tomato inventory depletion accelerating."
+      },
+      "labor": {
+        "title": "Labor Runtime Stable",
+        "description": "Kitchen synchronization operating normally."
+      },
+      "ai": {
+        "title": "AI Learning Updated",
+        "description": "Customer behavior model retrained successfully."
+      }
+    },
+    "status": {
+      "processing": "Processing",
+      "live": "LIVE",
+      "streaming": "STREAMING",
+      "alert": "ALERT",
+      "stable": "STABLE",
+      "updated": "UPDATED"
+    }
+  },
+  "marketing": {
+    "hero": {
+      "badge": "AI MARKETING OPERATING SYSTEM",
+      "title1": "Marketing",
+      "title2": "Runtime Engine",
+      "description": "AI-generated campaigns synchronized directly into Meta publishing, customer intelligence, revenue forecasting, and engagement analytics."
+    },
+    "performance": {
+      "badge": "AI PERFORMANCE",
+      "description": "Average engagement increase from AI campaign optimization."
+    },
+    "cards": {
+      "campaigns": {
+        "title": "Active Campaigns",
+        "description": "AI synchronized"
+      },
+      "queue": {
+        "title": "Publishing Queue",
+        "description": "Meta runtime active"
+      },
+      "assets": {
+        "title": "AI Generated Assets",
+        "description": "Images + video runtime"
+      },
+      "engagement": {
+        "title": "Engagement Runtime",
+        "description": "AI optimization active"
+      }
+    },
+    "sections": {
+      "campaigns": {
+        "badge": "LIVE CAMPAIGNS",
+        "title": "Meta Runtime"
+      },
+      "queue": {
+        "badge": "PUBLISH QUEUE",
+        "title": "Meta Scheduler"
+      },
+      "optimization": {
+        "badge": "AI OPTIMIZATION",
+        "description": "AI continuously optimizes posting time, audience targeting, visuals, captions, and engagement strategy."
+      }
+    },
+    "campaigns": {
+      "wagyu": {
+        "name": "Wagyu Friday Campaign",
+        "platform": "Instagram + Facebook"
+      },
+      "vip": {
+        "name": "VIP Sunset Dinner",
+        "platform": "Instagram Reels"
+      },
+      "beach": {
+        "name": "Beach Club Event",
+        "platform": "Meta Ads"
+      }
+    },
+    "queue": {
+      "cocktail": "Cocktail Reel",
+      "wagyu": "Wagyu Promotion",
+      "dj": "DJ Event Story"
+    },
+    "labels": {
+      "reach": "Reach",
+      "scheduled": "Scheduled"
+    },
+    "status": {
+      "live": "LIVE",
+      "active": "ACTIVE",
+      "queued": "QUEUED",
+      "published": "PUBLISHED",
+      "optimizing": "AI OPTIMIZING",
+      "ready": "READY",
+      "processing": "PROCESSING",
+      "scheduled": "SCHEDULED"
+    }
+  },
+  "crm": {
+    "hero": {
+      "badge": "CUSTOMER RELATIONSHIP INTELLIGENCE",
+      "title1": "Revenue",
+      "title2": "Relationship Engine",
+      "description": "AI-powered customer intelligence synchronized with reservations, POS, marketing, and profitability runtime."
+    },
+    "value": {
+      "badge": "RELATIONSHIP VALUE",
+      "description": "Predicted customer lifetime value"
+    },
+    "pipeline": {
+      "leads": "New Leads",
+      "vip": "VIP Guests",
+      "events": "Event Clients",
+      "returning": "Returning Guests",
+      "description": "AI runtime tracking active"
+    },
+    "runtime": {
+      "badge": "LIVE CRM INTELLIGENCE",
+      "title": "Revenue Interactions"
+    },
+    "interactions": {
+      "vipReservation": "VIP reservation booked",
+      "loyaltyOffer": "AI loyalty offer triggered",
+      "eventProposal": "Private event proposal sent"
+    },
+    "status": {
+      "live": "LIVE"
+    }
+  },
+  "customers": {
+    "hero": {
+      "badge": "CUSTOMER INTELLIGENCE",
+      "title1": "Guest",
+      "title2": "Behavior Runtime",
+      "description": "AI continuously learns customer preferences, spending patterns, reservation behavior, and profitability signals across locations."
+    },
+    "labels": {
+      "favorite": "Favorite",
+      "visits": "Visits",
+      "spend": "Spend"
+    },
+    "favorites": {
+      "wagyuWine": "Wagyu + Wine",
+      "cocktails": "Cocktails",
+      "privateEvents": "Private Events"
+    },
+    "insights": {
+      "wineDemand": "VIP guests increasing premium wine demand",
+      "tastingMenus": "Returning customers respond strongly to tasting menus",
+      "personalization": "High-spend guests prefer reservation personalization",
+      "multilocation": "Beach club events driving multi-location traffic"
+    },
+    "signals": {
+      "badge": "AI CUSTOMER SIGNALS",
+      "title": "Behavioral Intelligence",
+      "description": "AI synchronization runtime active"
+    }
+  },
+  "tables": {
+    "hero": {
+      "badge": "TABLE RUNTIME",
+      "title": "Dining Floor Live",
+      "description": "Real-time synchronization between tables, kitchen, bar, expo, service, and payment flow."
+    },
+    "floor": {
+      "badge": "FLOOR STATUS",
+      "active": "ACTIVE"
+    },
+    "cards": {
+      "activeTables": {
+        "title": "Active Tables",
+        "description": "Runtime synchronized"
+      },
+      "guests": {
+        "title": "Guests Dining",
+        "description": "Live floor occupancy"
+      },
+      "avgTicket": {
+        "title": "Avg Ticket",
+        "description": "Operational average"
+      },
+      "paymentQueue": {
+        "title": "Payment Queue",
+        "description": "Awaiting settlement"
+      }
+    },
+    "table": {
+      "badge": "LIVE TABLE",
+      "guests": "Guests",
+      "total": "Current Total",
+      "runtime": "Runtime synchronized",
+      "live": "LIVE"
+    },
+    "actions": {
+      "viewFlow": "VIEW FLOW",
+      "kitchenBar": "Kitchen + Bar",
+      "payment": "PAYMENT",
+      "settle": "Settle Runtime"
+    },
+    "status": {
+      "dining": "DINING",
+      "waitingFood": "WAITING FOOD",
+      "payment": "PAYMENT",
+      "highValue": "HIGH VALUE"
+    }
+  },
+  "expo": {
+    "hero": {
+      "badge": "EXPO COORDINATION",
+      "title": "Service Synchronization",
+      "description": "Kitchen and bar orders synchronize through expo before service dispatch to tables and payment runtime."
+    },
+    "runtime": {
+      "badge": "EXPO STATUS",
+      "active": "ACTIVE"
+    },
+    "cards": {
+      "waiting": {
+        "title": "Waiting Expo",
+        "description": "Awaiting synchronization"
+      },
+      "ready": {
+        "title": "Ready To Serve",
+        "description": "Dispatch available"
+      },
+      "runners": {
+        "title": "Active Runners",
+        "description": "Runtime synchronized"
+      },
+      "dispatch": {
+        "title": "Avg Dispatch Time",
+        "description": "Service runtime stable"
+      }
+    },
+    "order": {
+      "badge": "EXPO ORDER",
+      "ready": "Ready for synchronization",
+      "runner": "Assigned Runner",
+      "runtime": "Runtime",
+      "sync": "Operational synchronization active"
+    },
+    "actions": {
+      "callRunner": "CALL RUNNER",
+      "dispatch": "Dispatch Service",
+      "served": "SERVED",
+      "close": "Close Expo Flow"
+    },
+    "sources": {
+      "kitchen": "KITCHEN",
+      "bar": "BAR",
+      "kitchenBar": "KITCHEN + BAR"
+    },
+    "status": {
+      "readyForService": "READY FOR SERVICE",
+      "waitingRunner": "WAITING RUNNER",
+      "serving": "SERVING"
+    }
+  },
+  "projects": {
+    "hero": {
+      "badge": "MULTI-LOCATION DEPLOYMENT",
+      "title1": "Enterprise",
+      "title2": "Rollout Engine",
+      "description": "Live operational deployment across restaurants, beach clubs, cafés, and hospitality runtime environments."
+    },
+    "global": {
+      "badge": "GLOBAL STATUS",
+      "description": "Live runtime deployments active"
+    },
+    "labels": {
+      "progress": "Progress"
+    },
+    "stack": {
+      "badge": "DEPLOYMENT STACK",
+      "title": "Runtime Layers",
+      "description": "Enterprise synchronization layer"
+    },
+    "phases": {
+      "operationalDeployment": "Operational Deployment",
+      "aiSynchronization": "AI Synchronization",
+      "inventoryArchitecture": "Inventory Architecture"
+    },
+    "status": {
+      "liveBuild": "LIVE BUILD",
+      "integration": "INTEGRATION",
+      "planning": "PLANNING"
+    },
+    "layers": {
+      "pos": "POS Runtime",
+      "kitchen": "Kitchen Synchronization",
+      "inventory": "Inventory Intelligence",
+      "payroll": "Payroll Engine",
+      "ai": "AI Forecasting",
+      "accounting": "Accounting Runtime"
+    }
+  },
+  "documents": {
+    "hero": {
+      "badge": "DOCUMENT INTELLIGENCE",
+      "title1": "Enterprise",
+      "title2": "Documents",
+      "description": "AI-synchronized contracts, invoices, reports, payroll approvals, procurement documents, and operational records."
+    },
+    "storage": {
+      "badge": "STORAGE STATUS",
+      "live": "LIVE",
+      "description": "Cloud synchronization active"
+    },
+    "actions": {
+      "open": "Open",
+      "download": "Download",
+      "analyze": "AI Analyze"
+    },
+    "types": {
+      "procurement": "PROCUREMENT",
+      "hr": "HR",
+      "operations": "OPERATIONS",
+      "marketing": "MARKETING"
+    },
+    "status": {
+      "synced": "SYNCED",
+      "pending": "PENDING",
+      "approved": "APPROVED",
+      "archived": "ARCHIVED"
+    }
+  },
+  "settings": {
+    "hero": {
+      "badge": "SYSTEM CONFIGURATION",
+      "title1": "Runtime",
+      "title2": "Settings",
+      "description": "Configure enterprise runtime, AI systems, integrations, organizations, permissions, and operational intelligence."
+    },
+    "status": {
+      "badge": "SYSTEM STATUS",
+      "stable": "STABLE",
+      "description": "All runtime systems operational"
+    },
+    "actions": {
+      "configure": "Configure",
+      "aiAssisted": "AI Assisted"
+    },
+    "items": {
+      "organization": {
+        "title": "Organization Runtime",
+        "desc": "Tenant structure, organizations, and locations"
+      },
+      "ai": {
+        "title": "AI Engine Configuration",
+        "desc": "Marketing, operations, and intelligence engines"
+      },
+      "meta": {
+        "title": "Meta Integrations",
+        "desc": "Facebook, Instagram, publishing runtime"
+      },
+      "security": {
+        "title": "Security & Permissions",
+        "desc": "Roles, approvals, and enterprise access"
+      }
+    }
+  },
+  "designStudio": {
+    "hero": {
+      "badge": "AI CREATIVE OPERATING SYSTEM",
+      "title1": "Design",
+      "title2": "Studio",
+      "description": "Multi-engine AI content generation for luxury hospitality, nightlife, restaurants, and premium branding."
+    },
+    "labels": {
+      "engine": "ENGINE"
+    },
+    "preview": {
+      "badge": "REEL PREVIEW"
+    },
+    "reel": {
+      "badge": "PHUKET BEACH CLUB",
+      "title1": "Sunset",
+      "title2": "DJ Reel",
+      "description": "Vertical luxury reel format for Meta, TikTok, and Instagram Stories.",
+      "story": "9:16 Story",
+      "videoEngine": "Video Engine"
+    },
+    "engines": {
+      "fullAi": {
+        "name": "FULL AI",
+        "description": "Complete AI campaign generation"
+      },
+      "enhance": {
+        "name": "ENHANCE",
+        "description": "Luxury upscale + lighting"
+      },
+      "composite": {
+        "name": "COMPOSITE",
+        "description": "Scene + product merging"
+      },
+      "video": {
+        "name": "VIDEO",
+        "description": "Motion + cinematic reels"
+      }
+    }
+  }
+}

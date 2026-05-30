@@ -1,8 +1,11 @@
 "use client";
 
 import MobileBottomNav from "@/components/workspace/MobileBottomNav";
+import { useTranslation } from "@/app/providers/I18nProvider";
 
 export default function WorkspacePage() {
+
+  const { t } = useTranslation();
   return (
     <main className="min-h-screen w-full overflow-x-hidden bg-[#02040A] px-4 pb-24 pt-6 text-white xl:px-8 xl:pb-8">
 
@@ -11,11 +14,11 @@ export default function WorkspacePage() {
         <div className="mb-8 xl:mb-12">
 
           <p className="mb-4 text-xs tracking-[0.3em] text-[#D6A66A]">
-            LIVE RESTAURANT OPERATION
+            {t("workspace.hero.badge")}
           </p>
 
           <h1 className="max-w-5xl text-xl xl:text-4xl xl:text-xl xl:text-2xl xl:text-4xl xl:text-7xl font-extralight tracking-[-0.06em]">
-            One order affects the entire operation in real time.
+            {t("workspace.hero.title")}
           </h1>
 
         </div>

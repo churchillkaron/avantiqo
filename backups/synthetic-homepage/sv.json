@@ -1,0 +1,1199 @@
+{
+  "brand": {
+    "name": "AVANTIQO",
+    "tagline": "Enterprise AI Operativsystem"
+  },
+  "topnav": {
+    "platform": "Plattform",
+    "industries": "Branscher",
+    "modules": "Moduler",
+    "aiRuntime": "AI System",
+    "security": "Säkerhet",
+    "signIn": "Logga In",
+    "workspace": "Arbetsyta",
+    "startSetup": "Starta Setup"
+  },
+  "home": {
+    "hero": {
+      "badge": "ENTERPRISE AI OPERATIVSYSTEM",
+      "title1": "Från operativt kaos",
+      "title2": "till affärskontroll i realtid.",
+      "description": "Drift, ekonomi, redovisning, personal, dokument, lager och AI — sammankopplat i ett system.",
+      "book_demo": "Boka Enterprise-moduler",
+      "start_setup": "Starta Setup"
+    },
+    "modules": {
+      "badge": "ETT SYSTEM. VARJE AVDELNING.",
+      "title1": "Allt ditt företag",
+      "title2": "tidigare hanterade manuellt...",
+      "title3": "är nu synligt, automatiserat och kontrollerat",
+      "title4": "i realtid."
+    },
+    "cta": {
+      "badge": "LIVE OPERATIVT SYSTEM",
+      "title1": "Ett system.",
+      "title2": "Varje avdelning.",
+      "title3": "Kontroll i realtid.",
+      "description": "Minska operativ stress, automatisera arbetsflöden och få full kontroll över verksamheten.",
+      "button": "Boka Enterprise-moduler"
+    },
+    "cards": {
+      "control": {
+        "title": "LIVE KONTROLLCENTER",
+        "description": "Se intäkter, personal och drift i realtid.",
+        "status": "LIVE"
+      },
+      "finance": {
+        "title": "EKONOMI & BOKFÖRING",
+        "description": "Ekonomisk kontroll och insyn i realtid.",
+        "status": "ANSLUTEN"
+      },
+      "staff": {
+        "title": "PERSONALPORTAL",
+        "description": "Kommunikation, scheman och löner live.",
+        "status": "AKTIV"
+      },
+      "projects": {
+        "title": "PROJEKT",
+        "description": "Hantera budgetar, uppgifter och inköp.",
+        "status": "REALTID"
+      },
+      "documents": {
+        "title": "DOKUMENT",
+        "description": "AI organiserar fakturor och dokument automatiskt.",
+        "status": "SYNKAD"
+      },
+      "marketing": {
+        "title": "AI MARKNADSFÖRING",
+        "description": "Skapa kampanjer och socialt innehåll direkt.",
+        "status": "LIVE"
+      },
+      "inventory": {
+        "title": "LAGER & INKÖP",
+        "description": "Live lagerstatus och leverantörskontroll.",
+        "status": "ANSLUTEN"
+      },
+      "enterprise": {
+        "title": "ENTERPRISE AI",
+        "description": "AI-system som kopplar samman drift och tillväxt.",
+        "status": "AKTIV"
+      }
+    }
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "operations": "Operationer",
+    "inventory": "Lager",
+    "production": "Produktion",
+    "finance": "Ekonomi",
+    "marketing": "Marknadsföring",
+    "settings": "Inställningar",
+    "pos": "POS",
+    "kitchen": "Kök",
+    "expo": "Expo",
+    "reservations": "Reservationer",
+    "dishStock": "Maträtter Lager",
+    "ingredientStock": "Ingredienslager",
+    "procurement": "Inköp",
+    "accounting": "Bokföring",
+    "payroll": "Löner",
+    "hr": "HR",
+    "projects": "Projekt",
+    "crm": "CRM",
+    "customers": "Kunder",
+    "designStudio": "Designstudio",
+    "documents": "Dokument"
+  },
+  "workspace": {
+    "activeProvider": "Aktiv Leverantör",
+    "runtime": "Churchill Runtime",
+    "start": "Start",
+    "login": "Logga In",
+    "modules": "Moduler",
+    "designStudio": "Designstudio"
+  },
+  "accounting": {
+    "hero": {
+      "badge": "REDOVISNINGSSYSTEM",
+      "title": "Finansiell Intelligens",
+      "description": "Inköp, intäkter, löner, lager och AI synkroniseras automatiskt till redovisningssystemet.",
+      "statusLabel": "REDOVISNINGSSTATUS",
+      "status": "BALANSERAD"
+    },
+    "metrics": {
+      "entries": {
+        "title": "Bokföringsposter",
+        "description": "System synkroniserat"
+      },
+      "payables": {
+        "title": "Leverantörsskulder",
+        "description": "Leverantörsansvar"
+      },
+      "cashflow": {
+        "title": "Kassaflöde",
+        "description": "Finansiell stabilitet",
+        "value": "POSITIV"
+      },
+      "audit": {
+        "title": "AI Revisionslager",
+        "description": "Övervakning aktiv",
+        "value": "LIVE"
+      }
+    },
+    "entries": {
+      "badge": "LIVE REDOVISNING",
+      "title": "Finansiella Poster",
+      "items": {
+        "invoicePosted": {
+          "title": "Leverantörsfaktura Bokförd",
+          "account": "Leverantörsskulder"
+        },
+        "revenue": {
+          "title": "Restaurangintäkter",
+          "account": "Försäljningsintäkter"
+        },
+        "payroll": {
+          "title": "Löneallokering",
+          "account": "Personalkostnad"
+        }
+      }
+    },
+    "approvals": {
+      "badge": "GODKÄNNANDESYSTEM",
+      "title": "AI Verifiering",
+      "active": "AI AKTIV",
+      "description": "Redovisningssynkronisering",
+      "items": {
+        "ocr": {
+          "title": "OCR Fakturaextraktion"
+        },
+        "match": {
+          "title": "Inköpsmatchning"
+        },
+        "journal": {
+          "title": "Bokföringsjournal"
+        }
+      }
+    },
+    "status": {
+      "posted": "BOKFÖRD",
+      "synced": "SYNKRONISERAD",
+      "processing": "BEHANDLAS",
+      "approved": "GODKÄND",
+      "matched": "MATCHAD",
+      "ready": "KLAR"
+    }
+  },
+  "finance": {
+    "hero": {
+      "badge": "FINANSSYSTEM",
+      "title": "Live Finansiell Intelligens",
+      "description": "Intäkter, lönsamhet, personal, lager, inköp och bokföring synkroniseras i realtid.",
+      "statusLabel": "FINANSSTATUS",
+      "status": "SYNKRONISERAD"
+    },
+    "cards": {
+      "runtime": "System synkroniserat",
+      "revenue": {
+        "title": "Dagens Intäkter"
+      },
+      "profit": {
+        "title": "Nettoresultat"
+      },
+      "labor": {
+        "title": "Personalkostnad"
+      },
+      "food": {
+        "title": "Matkostnad"
+      }
+    },
+    "transactions": {
+      "badge": "LIVE TRANSAKTIONER",
+      "title": "Finansiellt System",
+      "description": "Finansiell synkronisering aktiv",
+      "sales": {
+        "title": "Wagyu Burger Försäljning"
+      },
+      "invoice": {
+        "title": "Leverantörsfaktura Behandlad"
+      },
+      "payroll": {
+        "title": "Löneallokering"
+      }
+    },
+    "ai": {
+      "badge": "AI FINANS",
+      "title": "Lönsamhetsmotor",
+      "active": "AI AKTIV",
+      "insights": {
+        "margin": {
+          "title": "Wagyu Marginal Ökar",
+          "description": "AI upptäckte ökad lönsamhet från premiumförsäljning."
+        },
+        "labor": {
+          "title": "Personalkostnad Ökar",
+          "description": "AI prognostiserar ökade kökskostnader under middagstoppen."
+        },
+        "procurement": {
+          "title": "Inköp Optimerade",
+          "description": "Leverantörssynkronisering minskade kostnader med 12%."
+        }
+      }
+    },
+    "status": {
+      "live": "LIVE",
+      "synced": "SYNKRONISERAD",
+      "processing": "BEHANDLAS"
+    }
+  },
+  "inventory": {
+    "hero": {
+      "badge": "LAGERSYSTEM",
+      "title": "Live Lagerintelligens",
+      "description": "Batchlager och ingredienslager synkroniseras med POS, produktion och inköp.",
+      "statusLabel": "LAGERSTATUS",
+      "status": "SYNKRONISERAD"
+    },
+    "cards": {
+      "ingredients": {
+        "title": "Ingredienser",
+        "description": "Live lagerövervakning"
+      },
+      "batch": {
+        "title": "Batchproduktion",
+        "description": "Förberett lager aktivt"
+      },
+      "risk": {
+        "title": "AI Risksignaler",
+        "description": "Lagervarningar aktiva"
+      },
+      "procurement": {
+        "title": "Inköpssynk",
+        "description": "Fakturasystem anslutet"
+      }
+    },
+    "batch": {
+      "badge": "BATCHLAGER",
+      "title": "Förberedd Produktion",
+      "type": "BATCHLAGER",
+      "wagyu": "Wagyu Burgare",
+      "buns": "Burgerbröd",
+      "sauce": "Tomatsås",
+      "fries": "Pommes Frites"
+    },
+    "ingredients": {
+      "badge": "INGREDIENSLAGER",
+      "title": "Ingredienssystem",
+      "usage": "Användning",
+      "tomatoes": "Tomater",
+      "lettuce": "Sallad",
+      "potatoes": "Potatis",
+      "cheese": "Cheddarost"
+    },
+    "status": {
+      "live": "LIVE",
+      "good": "BRA",
+      "stable": "STABIL",
+      "low": "LÅG",
+      "warning": "VARNING"
+    }
+  },
+  "procurement": {
+    "hero": {
+      "badge": "INKÖPSSYSTEM",
+      "title": "Inköpsintelligens",
+      "description": "Inköp synkroniserat med lager, bokföring och AI-prognoser.",
+      "statusLabel": "INKÖPSSTATUS",
+      "status": "ACTIVE"
+    },
+    "cards": {
+      "orders": {
+        "title": "Öppna Beställningar",
+        "description": "System synkroniserat"
+      },
+      "deliveries": {
+        "title": "Leveranser Idag",
+        "description": "Lager uppdaterat"
+      },
+      "invoice": {
+        "title": "Fakturaautomation",
+        "description": "OCR aktiv"
+      },
+      "suppliers": {
+        "title": "Leverantörssynk",
+        "description": "AI prognoser"
+      }
+    },
+    "sections": {
+      "procurement": {
+        "badge": "LIVE INKÖP",
+        "title": "Inköpsorder"
+      },
+      "invoice": {
+        "badge": "AI FAKTURAFLÖDE",
+        "title": "Bokföringssynk",
+        "active": "AI ACTIVE",
+        "description": "Inköpssystem synkroniserat"
+      }
+    },
+    "suppliers": {
+      "farm": "Phuket Fresh Farm",
+      "wagyu": "Premium Wagyu Co.",
+      "ocean": "Ocean Beverage"
+    },
+    "items": {
+      "tomatoes": "Tomater 40kg",
+      "wagyu": "Wagyu Burgare",
+      "wine": "Vinpåfyllning"
+    },
+    "flow": {
+      "upload": "Fakturabild Uppladdad",
+      "ocr": "AI OCR Extraktion",
+      "inventory": "Lagersynkronisering",
+      "accounting": "Bokföringspost"
+    },
+    "status": {
+      "live": "LIVE",
+      "active": "ACTIVE",
+      "delivered": "LEVERERAD",
+      "transit": "UNDER TRANSPORT",
+      "approval": "GODKÄNNANDE",
+      "complete": "KLAR",
+      "processing": "BEHANDLAS"
+    }
+  },
+  "production": {
+    "hero": {
+      "badge": "PRODUKTIONSSYSTEM",
+      "title": "Batch + À La Minute",
+      "description": "Produktionssystemet synkroniserar förberett lager med live ingrediensförbrukning.",
+      "statusLabel": "PRODUKTIONSSTATUS",
+      "status": "AKTIV"
+    },
+    "sections": {
+      "batch": {
+        "badge": "BATCHPRODUKTION",
+        "title": "Förberedd Runtime",
+        "produced": "Producerat"
+      },
+      "consumption": {
+        "badge": "LIVE INGREDIENSFÖRBRUKNING",
+        "title": "À La Minute Runtime",
+        "deduction": "LIVE AVDRAG"
+      }
+    },
+    "batch": {
+      "wagyu": "Wagyu Burgare",
+      "buns": "Burgerbröd",
+      "sauce": "Tomatsås"
+    },
+    "ingredients": {
+      "tomatoes": "Tomater",
+      "potatoes": "Potatis",
+      "lettuce": "Sallad"
+    },
+    "consumption": {
+      "burger": "1 Wagyu Burger",
+      "fries": "1 Portion Pommes",
+      "assembly": "1 Burger Montering"
+    },
+    "status": {
+      "live": "LIVE",
+      "active": "ACTIVE",
+      "good": "BRA",
+      "low": "LÅG"
+    }
+  },
+  "dashboard": {
+    "hero": {
+      "badge": "KOMMANDOCENTER",
+      "title": "Enterprise Runtime",
+      "description": "Live operativ intelligens för finans, produktion och inköp.",
+      "statusLabel": "SYSTEMSTATUS",
+      "status": "Operational"
+    },
+    "cards": {
+      "revenue": {
+        "title": "Dagens Intäkter",
+        "description": "+18.4% operativ tillväxt"
+      },
+      "profit": {
+        "title": "Nettoresultat",
+        "description": "Live lönsamhet"
+      },
+      "kitchen": {
+        "title": "Kökseffektivitet",
+        "description": "Synkronisering stabil"
+      },
+      "forecast": {
+        "title": "AI Forecast",
+        "description": "Ökad middagsefterfrågan förväntas"
+      }
+    },
+    "locations": {
+      "badge": "LIVE PLATSER",
+      "title": "Multi-Location Runtime",
+      "today": "Idag",
+      "churchill": "Restaurant Runtime Active",
+      "mongos": "Café Runtime Active",
+      "yona": "Beach Club Runtime Active"
+    },
+    "ai": {
+      "badge": "AI OPERATIVT FLÖDE",
+      "title": "Runtime Intelligence",
+      "active": "AI ACTIVE",
+      "tomato": {
+        "title": "Tomatlager Risk",
+        "description": "AI förutspår brist inom 5 timmar."
+      },
+      "fryer": {
+        "title": "Fritösbelastning Prognos",
+        "description": "Köksbelastning väntas överstiga 84%."
+      },
+      "profit": {
+        "title": "Ökad Lönsamhet",
+        "description": "Wagyu + wine pairing över genomsnitt med 18%."
+      },
+      "procurement": {
+        "title": "Inköp Synkroniserat",
+        "description": "Leverantörsfaktura behandlad automatiskt."
+      }
+    },
+    "status": {
+      "live": "LIVE"
+    }
+  },
+  "hr": {
+    "hero": {
+      "badge": "HR INTELLIGENS",
+      "title1": "Workforce",
+      "title2": "Synchronization",
+      "description": "AI övervakar stress, produktivitet, närvaro och löneeffektivitet."
+    },
+    "staff": {
+      "badge": "LIVE PERSONALSTATUS",
+      "title": "Operational Pulse",
+      "mood": "Humör",
+      "energy": "Energi",
+      "risk": "Burnout Risk"
+    },
+    "ai": {
+      "badge": "AI HR SIGNALER",
+      "title": "Predictive HR",
+      "burnout": {
+        "title": "Burnout Risk Upptäckt",
+        "description": "Övertid ökar under middagstoppen."
+      },
+      "performance": {
+        "title": "Top Performer Identifierad",
+        "description": "Köksproduktivitet över historiskt genomsnitt."
+      },
+      "training": {
+        "title": "Träningsmöjlighet",
+        "description": "AI rekommenderar mer expo runner träning."
+      }
+    },
+    "payroll": {
+      "badge": "PAYROLL SYNKRONISERING",
+      "description": "Närvaro, prestation och service charge synkroniseras med payroll runtime."
+    },
+    "roles": {
+      "kitchen": "Kökschef",
+      "floor": "Golvsupervisor",
+      "bar": "Barchef"
+    },
+    "moods": {
+      "focused": "FOKUSERAD",
+      "overloaded": "ÖVERBELASTAD",
+      "performance": "HÖG PRESTATION"
+    },
+    "risk": {
+      "low": "LÅG",
+      "medium": "MEDEL"
+    },
+    "status": {
+      "live": "LIVE"
+    }
+  },
+  "payroll": {
+    "hero": {
+      "badge": "PAYROLL SYSTEM",
+      "title": "Performance Payroll Engine",
+      "description": "Payroll synkroniseras med attendance, performance och service charge.",
+      "statusLabel": "PAYROLL STATUS"
+    },
+    "cards": {
+      "staff": {
+        "title": "Payroll Personal",
+        "description": "Aktiv payroll staff"
+      },
+      "service": {
+        "title": "Service Charge Pool",
+        "description": "Allokering aktiv"
+      },
+      "performance": {
+        "title": "Genomsnittlig Performance",
+        "description": "AI performance scoring"
+      },
+      "approval": {
+        "title": "Payroll Approval",
+        "description": "Manager synchronization"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE PAYROLL"
+    },
+    "flowSection": {
+      "badge": "PAYROLL FLOW",
+      "title": "Runtime Synchronization",
+      "active": "AI ACTIVE",
+      "processing": "Payroll runtime processing"
+    },
+    "flow": {
+      "attendance": "Attendance synchronized",
+      "performance": "Performance score calculated",
+      "serviceCharge": "Service charge allocated",
+      "approval": "Manager approval active",
+      "accounting": "Accounting payout processing"
+    },
+    "roles": {
+      "kitchen": "Kök",
+      "service": "Service",
+      "bar": "Bar"
+    },
+    "status": {
+      "approved": "GODKÄND",
+      "pending": "VÄNTAR",
+      "processing": "BEHANDLAS",
+      "active": "ACTIVE",
+      "live": "LIVE"
+    }
+  },
+  "reservations": {
+    "hero": {
+      "badge": "BOKNINGSSYSTEM",
+      "title": "Guest Coordination",
+      "description": "Bokningar synkroniseras med bord, kök och AI demand planning.",
+      "statusLabel": "BOKNINGSSTATUS"
+    },
+    "cards": {
+      "today": {
+        "title": "Bokningar Idag",
+        "description": "Runtime synchronized"
+      },
+      "guests": {
+        "title": "Förväntade Gäster",
+        "description": "AI forecast active"
+      },
+      "spend": {
+        "title": "Utgiftsprognos",
+        "description": "AI profitability prediction"
+      },
+      "waitlist": {
+        "title": "Waitlist Kö",
+        "description": "Table optimization active"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE RESERVATION",
+      "table": "Bord",
+      "guests": "Gäster",
+      "arrival": "Ankomst",
+      "spend": "Utgiftsprognos",
+      "aiTitle": "AI Coordination Active",
+      "aiDescription": "Kök, personal och bordsflöde synkroniseras automatiskt."
+    },
+    "actions": {
+      "checkin": "CHECK-IN",
+      "start": "Starta Dining Flow",
+      "view": "VISA BORD",
+      "status": "Runtime Status"
+    },
+    "spending": {
+      "high": "HIGH VALUE",
+      "dinner": "DINNER",
+      "event": "EVENT"
+    },
+    "status": {
+      "live": "LIVE",
+      "arriving": "ANKOMMER",
+      "confirmed": "BEKRÄFTAD",
+      "waitlist": "WAITLIST"
+    }
+  },
+  "pos": {
+    "hero": {
+      "badge": "POINT OF SALE",
+      "title": "Live Ordering Runtime",
+      "description": "Ordrar synkroniseras med kök, bar, inventory och accounting.",
+      "statusLabel": "POS STATUS"
+    },
+    "tables": {
+      "badge": "BORDSVAL",
+      "title": "Aktiva Bord",
+      "active": "14 ACTIVE",
+      "runtime": "Open Runtime"
+    },
+    "menu": {
+      "badge": "MENU RUNTIME",
+      "title": "Live Menu",
+      "aiPricing": "AI PRICING ACTIVE",
+      "runtime": "Runtime synchronized",
+      "add": "LÄGG TILL"
+    },
+    "order": {
+      "badge": "CURRENT ORDER",
+      "kitchenRouting": "Kitchen Routing",
+      "barRouting": "Bar Routing",
+      "subtotal": "Subtotal",
+      "serviceCharge": "Service Charge",
+      "total": "Total",
+      "send": "SEND ORDER",
+      "routing": "Routes automatically to kitchen + bar + inventory"
+    },
+    "runtime": {
+      "badge": "LIVE RUNTIME",
+      "title": "Operational Sync",
+      "kitchenTitle": "Kitchen Runtime",
+      "kitchenDescription": "Wagyu Burger skickad till grill station.",
+      "inventoryTitle": "Inventory Runtime",
+      "inventoryDescription": "Patties buns tomato fries uppdaterades automatiskt.",
+      "profitTitle": "Profitability Runtime",
+      "profitDescription": "AI räknar om operational margin live."
+    },
+    "categories": {
+      "burgers": "Burgare",
+      "starters": "Förrätter",
+      "drinks": "Drycker",
+      "desserts": "Desserter"
+    },
+    "dishes": {
+      "wagyu": "Wagyu Burger",
+      "fries": "Truffle Fries",
+      "wine": "Red Wine",
+      "salad": "Caesar Salad"
+    },
+    "status": {
+      "live": "LIVE",
+      "active": "ACTIVE",
+      "highDemand": "HIGH DEMAND",
+      "liveCooking": "LIVE COOKING",
+      "barRouting": "BAR ROUTING",
+      "freshPrep": "FRESH PREP"
+    }
+  },
+  "kitchen": {
+    "hero": {
+      "badge": "KITCHEN DISPLAY SYSTEM",
+      "title": "Kitchen Runtime",
+      "description": "Ordrar synkroniseras från POS till production flow, inventory och expo coordination.",
+      "statusLabel": "KÖKSSTATUS"
+    },
+    "cards": {
+      "new": {
+        "title": "Nya Ordrar",
+        "description": "Väntar produktion"
+      },
+      "cooking": {
+        "title": "Matlagning",
+        "description": "Active kitchen runtime"
+      },
+      "ready": {
+        "title": "Redo För Expo",
+        "description": "Väntar dispatch"
+      },
+      "ticket": {
+        "title": "Genomsnittlig Ticket Tid",
+        "description": "Runtime synchronized"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE ORDER",
+      "ticket": "Ticket Runtime"
+    },
+    "actions": {
+      "start": "START",
+      "begin": "Starta Matlagning",
+      "hold": "HOLD",
+      "pause": "Pausa Runtime",
+      "ready": "READY",
+      "expo": "Skicka Till Expo",
+      "issue": "ISSUE",
+      "problem": "Runtime Problem",
+      "expoReady": "EXPO",
+      "await": "Väntar Pickup",
+      "complete": "COMPLETE",
+      "closed": "Runtime Closed"
+    },
+    "dishes": {
+      "wagyu": "Wagyu Burger",
+      "fries": "Truffle Fries",
+      "ribeye": "Ribeye Steak",
+      "salad": "Caesar Salad"
+    },
+    "status": {
+      "active": "ACTIVE",
+      "new": "NEW",
+      "cooking": "COOKING",
+      "ready": "READY"
+    }
+  },
+  "ai": {
+    "hero": {
+      "badge": "AI INTELLIGENCE LAYER",
+      "title": "Operational Intelligence",
+      "description": "AI analyserar operations, production, profitability, procurement och customer behavior i realtid.",
+      "statusLabel": "AI STATUS"
+    },
+    "cards": {
+      "predictions": {
+        "title": "Live Predictions",
+        "description": "Runtime decisions active"
+      },
+      "accuracy": {
+        "title": "AI Accuracy",
+        "description": "Operational forecasting precision"
+      },
+      "procurement": {
+        "title": "Procurement Savings",
+        "description": "AI supplier optimization"
+      },
+      "waste": {
+        "title": "Waste Reduction",
+        "description": "Production intelligence active"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE AI DECISIONS",
+      "title": "Runtime Recommendations"
+    },
+    "learning": {
+      "badge": "AI LEARNING ENGINE",
+      "title": "Continuous Optimization",
+      "customer": {
+        "title": "Customer Behavior",
+        "description": "AI analyserar order patterns"
+      },
+      "signals": {
+        "title": "Operational Signals",
+        "description": "Runtime synchronization events"
+      },
+      "forecast": {
+        "title": "AI Forecast Horizon",
+        "description": "Predictive operational window"
+      },
+      "autonomous": {
+        "title": "Autonomous Operational Layer",
+        "description": "AI koordinerar procurement, labor allocation och profitability optimization."
+      }
+    },
+    "signals": {
+      "inventory": {
+        "title": "Tomato Inventory Risk",
+        "description": "AI förutser tomato shortage under evening peak.",
+        "recommendation": "Recommended: Create procurement request immediately."
+      },
+      "fryer": {
+        "title": "Fryer Runtime Congestion",
+        "description": "Fryer utilization förväntas överstiga 87%.",
+        "recommendation": "Recommended: Open secondary fryer station."
+      },
+      "profit": {
+        "title": "High Profitability Opportunity",
+        "description": "Wagyu + wine överträffar forecast med 18%.",
+        "recommendation": "Recommended: Increase promotion priority."
+      }
+    },
+    "status": {
+      "learning": "LEARNING",
+      "live": "LIVE",
+      "priority": "PRIORITY",
+      "monitoring": "MONITORING",
+      "optimized": "OPTIMIZED"
+    },
+    "commands": {
+      "staffing": "Optimize staffing allocation",
+      "forecast": "Generate operational forecast",
+      "inventory": "Recalculate inventory demand",
+      "payroll": "Analyze payroll efficiency",
+      "marketing": "Increase campaign profitability"
+    },
+    "metrics": {
+      "predictions": "124",
+      "accuracy": "94%",
+      "procurement": "฿42K",
+      "waste": "-28%",
+      "behavior": "12.4M",
+      "forecast": "72H"
+    }
+  },
+  "operations": {
+    "hero": {
+      "badge": "FULL OPERATION RUNTIME",
+      "title": "Enterprise Coordination",
+      "description": "Hela restaurangoperationen synkroniserad mellan ordering, production, inventory, labor, AI, procurement och accounting.",
+      "statusLabel": "SYSTEMSTATUS"
+    },
+    "cards": {
+      "orders": {
+        "title": "Aktiva Ordrar",
+        "description": "Runtime active"
+      },
+      "kitchen": {
+        "title": "Köksbelastning",
+        "description": "Production synchronized"
+      },
+      "inventory": {
+        "title": "Inventory Status",
+        "description": "AI monitoring active"
+      },
+      "procurement": {
+        "title": "Procurement Runtime",
+        "description": "Invoice sync active"
+      },
+      "profit": {
+        "title": "Nettoresultat Idag",
+        "description": "Live profitability runtime"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE OPERATION FLOW",
+      "title": "Runtime Synchronization"
+    },
+    "ai": {
+      "badge": "AI OPERATIONAL FEED",
+      "title": "Live Runtime Intelligence",
+      "description": "Runtime intelligence synchronized"
+    },
+    "sync": {
+      "badge": "ENTERPRISE SYNCHRONIZATION",
+      "title": "One Runtime Controls Everything"
+    },
+    "modules": {
+      "production": {
+        "title": "Production",
+        "description": "Batch + à la minute synchronization."
+      },
+      "inventory": {
+        "title": "Inventory",
+        "description": "Ingredient + stock movement tracking."
+      },
+      "procurement": {
+        "title": "Procurement",
+        "description": "Invoice AI + supplier synchronization."
+      },
+      "accounting": {
+        "title": "Accounting",
+        "description": "Live financial and profitability updates."
+      }
+    },
+    "flows": {
+      "posKitchen": {
+        "title": "POS → Kitchen",
+        "description": "Orders routed into live production runtime."
+      },
+      "kitchenExpo": {
+        "title": "Kitchen → Expo",
+        "description": "Production synchronized for dispatch."
+      },
+      "expoTables": {
+        "title": "Expo → Tables",
+        "description": "Service runners dispatch completed orders."
+      },
+      "tablesPayment": {
+        "title": "Tables → Payment",
+        "description": "Dining runtime linked to financial flow."
+      }
+    },
+    "alerts": {
+      "inventory": "Tomato inventory running low",
+      "wagyu": "Wagyu demand spike detected",
+      "fryer": "Kitchen fryer utilization high",
+      "invoice": "Supplier invoice processed automatically"
+    },
+    "status": {
+      "active": "ACTIVE",
+      "synced": "SYNCED",
+      "live": "LIVE",
+      "processing": "PROCESSING",
+      "synchronized": "SYNCHRONIZED",
+      "aiActive": "AI ACTIVE",
+      "connected": "FULLY CONNECTED"
+    }
+  },
+  "marketing": {
+    "hero": {
+      "badge": "AI MARKETING OPERATING SYSTEM",
+      "title1": "Marketing",
+      "title2": "Runtime Engine",
+      "description": "AI-kampanjer synkroniserade med Meta publishing, customer intelligence, revenue forecasting och engagement analytics."
+    },
+    "performance": {
+      "badge": "AI PERFORMANCE",
+      "description": "Genomsnittlig engagement-ökning från AI-optimering."
+    },
+    "cards": {
+      "campaigns": {
+        "title": "Aktiva Kampanjer",
+        "description": "AI synchronized"
+      },
+      "queue": {
+        "title": "Publishing Queue",
+        "description": "Meta runtime active"
+      },
+      "assets": {
+        "title": "AI Generated Assets",
+        "description": "Images + video runtime"
+      },
+      "engagement": {
+        "title": "Engagement Runtime",
+        "description": "AI optimization active"
+      }
+    },
+    "sections": {
+      "campaigns": {
+        "badge": "LIVE CAMPAIGNS",
+        "title": "Meta Runtime"
+      },
+      "queue": {
+        "badge": "PUBLISH QUEUE",
+        "title": "Meta Scheduler"
+      },
+      "optimization": {
+        "badge": "AI OPTIMIZATION",
+        "description": "AI optimerar kontinuerligt postningstid, målgrupp, visuellt material, captions och engagement-strategi."
+      }
+    },
+    "campaigns": {
+      "wagyu": {
+        "name": "Wagyu Friday Campaign",
+        "platform": "Instagram + Facebook"
+      },
+      "vip": {
+        "name": "VIP Sunset Dinner",
+        "platform": "Instagram Reels"
+      },
+      "beach": {
+        "name": "Beach Club Event",
+        "platform": "Meta Ads"
+      }
+    },
+    "queue": {
+      "cocktail": "Cocktail Reel",
+      "wagyu": "Wagyu Promotion",
+      "dj": "DJ Event Story"
+    },
+    "labels": {
+      "reach": "Reach",
+      "scheduled": "Scheduled"
+    },
+    "status": {
+      "live": "LIVE",
+      "active": "ACTIVE",
+      "queued": "QUEUED",
+      "published": "PUBLISHED",
+      "optimizing": "AI OPTIMIZING",
+      "ready": "READY",
+      "processing": "PROCESSING",
+      "scheduled": "SCHEDULED"
+    }
+  },
+  "crm": {
+    "hero": {
+      "badge": "CUSTOMER RELATIONSHIP INTELLIGENCE",
+      "title1": "Revenue",
+      "title2": "Relationship Engine",
+      "description": "AI customer intelligence synkroniserad med reservations, POS, marketing och profitability runtime."
+    },
+    "value": {
+      "badge": "RELATIONSHIP VALUE",
+      "description": "Förväntat kundlivstidsvärde"
+    },
+    "pipeline": {
+      "leads": "Nya Leads",
+      "vip": "VIP Gäster",
+      "events": "Eventkunder",
+      "returning": "Återkommande Gäster",
+      "description": "AI runtime tracking active"
+    },
+    "runtime": {
+      "badge": "LIVE CRM INTELLIGENCE",
+      "title": "Revenue Interactions"
+    },
+    "interactions": {
+      "vipReservation": "VIP reservation booked",
+      "loyaltyOffer": "AI loyalty offer triggered",
+      "eventProposal": "Private event proposal sent"
+    },
+    "status": {
+      "live": "LIVE"
+    }
+  },
+  "customers": {
+    "hero": {
+      "badge": "CUSTOMER INTELLIGENCE",
+      "title1": "Guest",
+      "title2": "Behavior Runtime",
+      "description": "AI lär sig kontinuerligt kundpreferenser, köpmönster, bokningsbeteenden och lönsamhetssignaler."
+    },
+    "labels": {
+      "favorite": "Favorit",
+      "visits": "Besök",
+      "spend": "Utgifter"
+    },
+    "favorites": {
+      "wagyuWine": "Wagyu + Vin",
+      "cocktails": "Cocktails",
+      "privateEvents": "Privata Event"
+    },
+    "insights": {
+      "wineDemand": "VIP guests increasing premium wine demand",
+      "tastingMenus": "Returning customers respond strongly to tasting menus",
+      "personalization": "High-spend guests prefer reservation personalization",
+      "multilocation": "Beach club events driving multi-location traffic"
+    },
+    "signals": {
+      "badge": "AI CUSTOMER SIGNALS",
+      "title": "Behavioral Intelligence",
+      "description": "AI synchronization runtime active"
+    }
+  },
+  "tables": {
+    "hero": {
+      "badge": "TABLE RUNTIME",
+      "title": "Dining Floor Live",
+      "description": "Realtidssynkronisering mellan bord, kök, bar, expo, service och betalning."
+    },
+    "floor": {
+      "badge": "FLOOR STATUS",
+      "active": "ACTIVE"
+    },
+    "cards": {
+      "activeTables": {
+        "title": "Aktiva Bord",
+        "description": "Runtime synchronized"
+      },
+      "guests": {
+        "title": "Middagsgäster",
+        "description": "Live floor occupancy"
+      },
+      "avgTicket": {
+        "title": "Snittnota",
+        "description": "Operational average"
+      },
+      "paymentQueue": {
+        "title": "Betalningskö",
+        "description": "Awaiting settlement"
+      }
+    },
+    "table": {
+      "badge": "LIVE TABLE",
+      "guests": "Gäster",
+      "total": "Nuvarande Total",
+      "runtime": "Runtime synchronized",
+      "live": "LIVE"
+    },
+    "actions": {
+      "viewFlow": "VIEW FLOW",
+      "kitchenBar": "Kitchen + Bar",
+      "payment": "PAYMENT",
+      "settle": "Settle Runtime"
+    },
+    "status": {
+      "dining": "SERVERING",
+      "waitingFood": "VÄNTAR MAT",
+      "payment": "BETALNING",
+      "highValue": "VIP"
+    }
+  },
+  "expo": {
+    "hero": {
+      "badge": "EXPO COORDINATION",
+      "title": "Service Synchronization",
+      "description": "Köks- och barbeställningar synkroniseras via Expo före servering."
+    },
+    "runtime": {
+      "badge": "EXPO STATUS",
+      "active": "ACTIVE"
+    },
+    "cards": {
+      "waiting": {
+        "title": "Väntar Expo",
+        "description": "Väntar på synkronisering"
+      },
+      "ready": {
+        "title": "Redo att Servera",
+        "description": "Redo för utskick"
+      },
+      "runners": {
+        "title": "Aktiva Runners",
+        "description": "Runtime synchronized"
+      },
+      "dispatch": {
+        "title": "Genomsnittlig Tid",
+        "description": "Service runtime stable"
+      }
+    },
+    "order": {
+      "badge": "EXPO ORDER",
+      "ready": "Ready for synchronization",
+      "runner": "Assigned Runner",
+      "runtime": "Runtime",
+      "sync": "Operational synchronization active"
+    },
+    "actions": {
+      "callRunner": "CALL RUNNER",
+      "dispatch": "Dispatch Service",
+      "served": "SERVED",
+      "close": "Close Expo Flow"
+    },
+    "sources": {
+      "kitchen": "KÖK",
+      "bar": "BAR",
+      "kitchenBar": "KÖK + BAR"
+    },
+    "status": {
+      "readyForService": "REDO ATT SERVERA",
+      "waitingRunner": "VÄNTAR",
+      "serving": "SERVERING"
+    }
+  },
+  "projects": {
+    "hero": {
+      "badge": "MULTI-LOCATION DEPLOYMENT",
+      "title1": "Enterprise",
+      "title2": "Rollout Engine",
+      "description": "Operativ utrullning för restauranger, beach clubs, caféer och hospitality-verksamheter."
+    },
+    "global": {
+      "badge": "GLOBAL STATUS",
+      "description": "Aktiva utrullningar"
+    },
+    "labels": {
+      "progress": "Framsteg"
+    },
+    "stack": {
+      "badge": "DEPLOYMENT STACK",
+      "title": "Runtime Layers",
+      "description": "Enterprise synchronization layer"
+    },
+    "phases": {
+      "operationalDeployment": "Operativ Utrullning",
+      "aiSynchronization": "AI Synkronisering",
+      "inventoryArchitecture": "Inventariearkitektur"
+    },
+    "status": {
+      "liveBuild": "AKTIV",
+      "integration": "INTEGRATION",
+      "planning": "PLANERING"
+    },
+    "layers": {
+      "pos": "POS Runtime",
+      "kitchen": "Kitchen Synchronization",
+      "inventory": "Inventory Intelligence",
+      "payroll": "Payroll Engine",
+      "ai": "AI Forecasting",
+      "accounting": "Accounting Runtime"
+    }
+  }
+}

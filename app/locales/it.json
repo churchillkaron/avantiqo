@@ -1,0 +1,1187 @@
+{
+  "brand": {
+    "name": "AVANTIQO",
+    "tagline": "Sistema operativo di intelligenza sintetica"
+  },
+  "topnav": {
+    "platform": "Piattaforma",
+    "industries": "Industrie",
+    "modules": "Moduli",
+    "aiRuntime": "Sistema AI",
+    "security": "Sicurezza",
+    "signIn": "Accesso",
+    "workspace": "Workspace",
+    "startSetup": "Avvia Configurazione"
+  },
+  "home": {
+    "hero": {
+      "badge": "SISTEMA OPERATIVO DI INTELLIGENZA SINTETICA",
+      "title1": "Dove La Realtà Aziendale",
+      "title2": "Diventa Intelligenza Finanziaria.",
+      "description": "Avantiqo collega le operazioni aziendali direttamente a contabilità, finanza, documenti, paghe, approvazioni ed esecuzione attraverso un unico livello di Intelligenza Sintetica. Ogni evento operativo diventa intelligenza finanziaria in tempo reale.",
+      "book_demo": "Scopri Avantiqo",
+      "start_setup": "Per Studi Contabili",
+      "trust": "Creato per studi contabili, imprenditori, gruppi multi-entità e aziende pronte a superare software frammentati.",
+      "image_caption": "DALLA REALTÀ AZIENDALE ALL'INTELLIGENZA FINANZIARIA"
+    },
+    "accounting": {
+      "badge": "LA FINE DEL DIVARIO TRA BUSINESS E CONTABILITÀ",
+      "title1": "La Contabilità Non Dovrebbe Iniziare",
+      "title2": "Dopo La Fine Del Mese.",
+      "description": "Per decenni, le aziende hanno operato in un mondo mentre i commercialisti lavoravano in un altro. Avantiqo elimina questo divario trasformando operazioni, fatture, paghe, acquisti, documenti e approvazioni in intelligenza finanziaria viva."
+    },
+    "pillars": {
+      "operations": {
+        "badge": "01",
+        "title": "Realtà Aziendale",
+        "description": "Ricavi, costi, personale, inventario, progetti, documenti e approvazioni vengono acquisiti mentre l'azienda opera."
+      },
+      "accounting": {
+        "badge": "02",
+        "title": "Intelligenza Finanziaria",
+        "description": "L'attività operativa diventa intelligenza pronta per la contabilità invece di documenti in ritardo, fogli di calcolo e riconciliazioni manuali."
+      },
+      "firms": {
+        "badge": "03",
+        "title": "Studi Contabili",
+        "description": "Gli studi possono monitorare i clienti continuamente, rilevare rischi prima e passare dalla contabilità alla consulenza ad alto valore."
+      },
+      "execution": {
+        "badge": "04",
+        "title": "Esecuzione Enterprise",
+        "description": "Il sistema non si ferma ai report. Coordina approvazioni, governance, workflow e responsabilità operativa."
+      }
+    },
+    "synthetic": {
+      "badge": "PERCHÉ INTELLIGENZA SINTETICA",
+      "title1": "L'Intelligenza Artificiale Risponde.",
+      "title2": "L'Intelligenza Sintetica Opera.",
+      "description": "L'AI può generare testi, immagini e report. L'Intelligenza Sintetica comprende come funziona davvero l'azienda. Collega persone, denaro, documenti, clienti, fornitori, workflow, decisioni e contabilità in un livello operativo vivo.",
+      "formulaBadge": "LA FORMULA AVANTIQO",
+      "formula": "Operazioni + Intelligenza Contabile + Memoria Aziendale + Esecuzione = Intelligenza Sintetica."
+    },
+    "cta": {
+      "badge": "DOMINA IL FUTURO DELLA CONTABILITÀ",
+      "title1": "Dalla Contabilità",
+      "title2": "Alla Business Intelligence.",
+      "title3": "Alimentata Dall'Intelligenza Sintetica.",
+      "description": "Gli studi contabili che si collegano direttamente alle operazioni dei clienti non si limiteranno a riportare il passato. Capiranno il presente, prevederanno i rischi, guideranno decisioni e aiuteranno le aziende a operare meglio."
+    }
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "operations": "Operazioni",
+    "inventory": "Inventario",
+    "production": "Produzione",
+    "finance": "Finanza",
+    "marketing": "Marketing",
+    "settings": "Impostazioni",
+    "pos": "POS",
+    "kitchen": "Cucina",
+    "expo": "Expo",
+    "reservations": "Prenotazioni",
+    "dishStock": "Stock Piatti",
+    "ingredientStock": "Stock Ingredienti",
+    "procurement": "Approvvigionamento",
+    "accounting": "Contabilità",
+    "payroll": "Buste Paga",
+    "hr": "HR",
+    "projects": "Progetti",
+    "crm": "CRM",
+    "customers": "Clienti",
+    "designStudio": "Studio Design",
+    "documents": "Documenti"
+  },
+  "workspace": {
+    "activeProvider": "Provider Attivo",
+    "runtime": "Churchill Runtime",
+    "start": "Avvia",
+    "login": "Login",
+    "modules": "Moduli",
+    "designStudio": "Studio Design"
+  },
+  "accounting": {
+    "hero": {
+      "badge": "SISTEMA CONTABILE",
+      "title": "Intelligenza Finanziaria",
+      "description": "Acquisti, ricavi, stipendi, inventario e AI sincronizzati automaticamente nella contabilità.",
+      "statusLabel": "STATO CONTABILE",
+      "status": "BILANCIATO"
+    },
+    "metrics": {
+      "entries": {
+        "title": "Scritture Contabili",
+        "description": "Sistema sincronizzato"
+      },
+      "payables": {
+        "title": "Debiti Fornitori",
+        "description": "Passività fornitori"
+      },
+      "cashflow": {
+        "title": "Flusso di Cassa",
+        "description": "Salute finanziaria stabile",
+        "value": "POSITIVO"
+      },
+      "audit": {
+        "title": "Layer Audit AI",
+        "description": "Monitoraggio attivo",
+        "value": "LIVE"
+      }
+    },
+    "entries": {
+      "badge": "CONTABILITÀ LIVE",
+      "title": "Movimenti Finanziari",
+      "items": {
+        "invoicePosted": {
+          "title": "Fattura Fornitore Registrata",
+          "account": "Debiti Commerciali"
+        },
+        "revenue": {
+          "title": "Ricavi Ristorante",
+          "account": "Ricavi Vendite"
+        },
+        "payroll": {
+          "title": "Allocazione Stipendi",
+          "account": "Costo del Lavoro"
+        }
+      }
+    },
+    "approvals": {
+      "badge": "SISTEMA APPROVAZIONE",
+      "title": "Verifica AI",
+      "active": "AI ATTIVA",
+      "description": "Sincronizzazione contabile",
+      "items": {
+        "ocr": {
+          "title": "Estrazione OCR Fattura"
+        },
+        "match": {
+          "title": "Controllo Acquisti"
+        },
+        "journal": {
+          "title": "Giornale Contabile"
+        }
+      }
+    },
+    "status": {
+      "posted": "REGISTRATO",
+      "synced": "SINCRONIZZATO",
+      "processing": "ELABORAZIONE",
+      "approved": "APPROVATO",
+      "matched": "ABBINATO",
+      "ready": "PRONTO"
+    }
+  },
+  "finance": {
+    "hero": {
+      "badge": "SISTEMA FINANZIARIO",
+      "title": "Intelligenza Finanziaria Live",
+      "description": "Ricavi, profitti, personale, inventario, acquisti e contabilità sincronizzati in tempo reale.",
+      "statusLabel": "STATO FINANZIARIO",
+      "status": "SINCRONIZZATO"
+    },
+    "cards": {
+      "runtime": "Sistema sincronizzato",
+      "revenue": {
+        "title": "Ricavi Oggi"
+      },
+      "profit": {
+        "title": "Profitto Netto"
+      },
+      "labor": {
+        "title": "Costo del Lavoro"
+      },
+      "food": {
+        "title": "Costo Alimentare"
+      }
+    },
+    "transactions": {
+      "badge": "TRANSAZIONI LIVE",
+      "title": "Sistema Finanziario",
+      "description": "Sincronizzazione finanziaria attiva",
+      "sales": {
+        "title": "Vendite Wagyu Burger"
+      },
+      "invoice": {
+        "title": "Fattura Fornitore Elaborata"
+      },
+      "payroll": {
+        "title": "Allocazione Stipendi"
+      }
+    },
+    "ai": {
+      "badge": "AI FINANZIARIA",
+      "title": "Motore Redditività",
+      "active": "AI ATTIVA",
+      "insights": {
+        "margin": {
+          "title": "Margine Wagyu in Crescita",
+          "description": "L'AI ha rilevato un aumento di redditività dalle vendite premium."
+        },
+        "labor": {
+          "title": "Costo del Lavoro in Aumento",
+          "description": "L'AI prevede aumento costi cucina durante la cena."
+        },
+        "procurement": {
+          "title": "Acquisti Ottimizzati",
+          "description": "La sincronizzazione fornitori ha ridotto i costi del 12%."
+        }
+      }
+    },
+    "status": {
+      "live": "LIVE",
+      "synced": "SINCRONIZZATO",
+      "processing": "ELABORAZIONE"
+    }
+  },
+  "inventory": {
+    "hero": {
+      "badge": "SISTEMA INVENTARIO",
+      "title": "Intelligenza Stock Live",
+      "description": "Stock batch e ingredienti sincronizzati con POS, produzione e acquisti.",
+      "statusLabel": "STATO INVENTARIO",
+      "status": "SINCRONIZZATO"
+    },
+    "cards": {
+      "ingredients": {
+        "title": "Ingredienti",
+        "description": "Stock live monitorato"
+      },
+      "batch": {
+        "title": "Produzione Batch",
+        "description": "Stock preparato attivo"
+      },
+      "risk": {
+        "title": "Segnali Rischio AI",
+        "description": "Avvisi inventario attivi"
+      },
+      "procurement": {
+        "title": "Sincronizzazione Acquisti",
+        "description": "Sistema fatture collegato"
+      }
+    },
+    "batch": {
+      "badge": "STOCK BATCH",
+      "title": "Produzione Preparata",
+      "type": "STOCK BATCH",
+      "wagyu": "Burger Wagyu",
+      "buns": "Pane Burger",
+      "sauce": "Salsa Pomodoro",
+      "fries": "Patatine"
+    },
+    "ingredients": {
+      "badge": "STOCK INGREDIENTI",
+      "title": "Sistema Ingredienti",
+      "usage": "Utilizzo",
+      "tomatoes": "Pomodori",
+      "lettuce": "Lattuga",
+      "potatoes": "Patate",
+      "cheese": "Formaggio Cheddar"
+    },
+    "status": {
+      "live": "LIVE",
+      "good": "BUONO",
+      "stable": "STABILE",
+      "low": "BASSO",
+      "warning": "ATTENZIONE"
+    }
+  },
+  "procurement": {
+    "hero": {
+      "badge": "SISTEMA ACQUISTI",
+      "title": "Intelligenza Acquisti",
+      "description": "Acquisti sincronizzati con inventario, contabilità e AI forecasting.",
+      "statusLabel": "STATO ACQUISTI",
+      "status": "ACTIVE"
+    },
+    "cards": {
+      "orders": {
+        "title": "Ordini Aperti",
+        "description": "Sistema sincronizzato"
+      },
+      "deliveries": {
+        "title": "Consegne Oggi",
+        "description": "Inventario aggiornato"
+      },
+      "invoice": {
+        "title": "Automazione Fatture",
+        "description": "OCR attivo"
+      },
+      "suppliers": {
+        "title": "Sincronizzazione Fornitori",
+        "description": "Previsioni AI"
+      }
+    },
+    "sections": {
+      "procurement": {
+        "badge": "ACQUISTI LIVE",
+        "title": "Ordini Acquisto"
+      },
+      "invoice": {
+        "badge": "FLUSSO FATTURE AI",
+        "title": "Sincronizzazione Contabile",
+        "active": "AI ACTIVE",
+        "description": "Sistema acquisti sincronizzato"
+      }
+    },
+    "suppliers": {
+      "farm": "Phuket Fresh Farm",
+      "wagyu": "Premium Wagyu Co.",
+      "ocean": "Ocean Beverage"
+    },
+    "items": {
+      "tomatoes": "Pomodori 40kg",
+      "wagyu": "Burger Wagyu",
+      "wine": "Rifornimento Vino"
+    },
+    "flow": {
+      "upload": "Foto Fattura Caricata",
+      "ocr": "Estrazione OCR AI",
+      "inventory": "Sincronizzazione Inventario",
+      "accounting": "Registrazione Contabile"
+    },
+    "status": {
+      "live": "LIVE",
+      "active": "ACTIVE",
+      "delivered": "CONSEGNATO",
+      "transit": "IN TRANSITO",
+      "approval": "APPROVAZIONE",
+      "complete": "COMPLETO",
+      "processing": "ELABORAZIONE"
+    }
+  },
+  "production": {
+    "hero": {
+      "badge": "SISTEMA PRODUZIONE",
+      "title": "Batch + À La Minute",
+      "description": "Il sistema produzione sincronizza stock preparato e consumo ingredienti live.",
+      "statusLabel": "STATO PRODUZIONE",
+      "status": "ATTIVO"
+    },
+    "sections": {
+      "batch": {
+        "badge": "PRODUZIONE BATCH",
+        "title": "Runtime Preparato",
+        "produced": "Prodotto"
+      },
+      "consumption": {
+        "badge": "CONSUMO LIVE",
+        "title": "Runtime À La Minute",
+        "deduction": "DEDUZIONE LIVE"
+      }
+    },
+    "batch": {
+      "wagyu": "Burger Wagyu",
+      "buns": "Pane Burger",
+      "sauce": "Salsa Pomodoro"
+    },
+    "ingredients": {
+      "tomatoes": "Pomodori",
+      "potatoes": "Patate",
+      "lettuce": "Lattuga"
+    },
+    "consumption": {
+      "burger": "1 Wagyu Burger",
+      "fries": "1 Porzione Patatine",
+      "assembly": "1 Assemblaggio Burger"
+    },
+    "status": {
+      "live": "LIVE",
+      "active": "ACTIVE",
+      "good": "BUONO",
+      "low": "BASSO"
+    }
+  },
+  "dashboard": {
+    "hero": {
+      "badge": "CENTRO COMANDO",
+      "title": "Enterprise Runtime",
+      "description": "Intelligenza operativa live per finanza, produzione e acquisti.",
+      "statusLabel": "STATO SISTEMA",
+      "status": "Operational"
+    },
+    "cards": {
+      "revenue": {
+        "title": "Ricavi Oggi",
+        "description": "+18.4% crescita operativa"
+      },
+      "profit": {
+        "title": "Profitto Netto",
+        "description": "Redditività live"
+      },
+      "kitchen": {
+        "title": "Efficienza Cucina",
+        "description": "Sincronizzazione stabile"
+      },
+      "forecast": {
+        "title": "AI Forecast",
+        "description": "Previsto aumento domanda cena"
+      }
+    },
+    "locations": {
+      "badge": "LOCATION LIVE",
+      "title": "Runtime Multi-Location",
+      "today": "Oggi",
+      "churchill": "Restaurant Runtime Active",
+      "mongos": "Café Runtime Active",
+      "yona": "Beach Club Runtime Active"
+    },
+    "ai": {
+      "badge": "FEED OPERATIVO AI",
+      "title": "Runtime Intelligence",
+      "active": "AI ACTIVE",
+      "tomato": {
+        "title": "Rischio Stock Pomodori",
+        "description": "AI prevede carenza entro 5 ore."
+      },
+      "fryer": {
+        "title": "Previsione Congestione Friggitrice",
+        "description": "Carico cucina previsto oltre 84%."
+      },
+      "profit": {
+        "title": "Aumento Redditività",
+        "description": "Wagyu + wine pairing sopra media del 18%."
+      },
+      "procurement": {
+        "title": "Acquisti Sincronizzati",
+        "description": "Fattura fornitore elaborata automaticamente."
+      }
+    },
+    "status": {
+      "live": "LIVE"
+    }
+  },
+  "hr": {
+    "hero": {
+      "badge": "INTELLIGENZA HR",
+      "title1": "Workforce",
+      "title2": "Synchronization",
+      "description": "AI monitora stress, produttività, presenza ed efficienza payroll."
+    },
+    "staff": {
+      "badge": "STATO LIVE STAFF",
+      "title": "Operational Pulse",
+      "mood": "Mood",
+      "energy": "Energia",
+      "risk": "Rischio Burnout"
+    },
+    "ai": {
+      "badge": "SEGNALI HR AI",
+      "title": "Predictive HR",
+      "burnout": {
+        "title": "Rischio Burnout Rilevato",
+        "description": "Straordinari del team servizio in aumento."
+      },
+      "performance": {
+        "title": "Top Performer Identificato",
+        "description": "Produttività cucina sopra la media."
+      },
+      "training": {
+        "title": "Opportunità Formazione",
+        "description": "AI suggerisce formazione expo runner."
+      }
+    },
+    "payroll": {
+      "badge": "SINCRONIZZAZIONE PAYROLL",
+      "description": "Presenza, performance e service charge sincronizzati con payroll runtime."
+    },
+    "roles": {
+      "kitchen": "Responsabile Cucina",
+      "floor": "Supervisore Sala",
+      "bar": "Responsabile Bar"
+    },
+    "moods": {
+      "focused": "FOCALIZZATO",
+      "overloaded": "SOVRACCARICO",
+      "performance": "ALTA PERFORMANCE"
+    },
+    "risk": {
+      "low": "BASSO",
+      "medium": "MEDIO"
+    },
+    "status": {
+      "live": "LIVE"
+    }
+  },
+  "payroll": {
+    "hero": {
+      "badge": "SISTEMA PAYROLL",
+      "title": "Performance Payroll Engine",
+      "description": "Payroll sincronizzato con attendance, performance e service charge.",
+      "statusLabel": "STATO PAYROLL"
+    },
+    "cards": {
+      "staff": {
+        "title": "Staff Payroll",
+        "description": "Payroll attivo"
+      },
+      "service": {
+        "title": "Service Charge Pool",
+        "description": "Allocazione attiva"
+      },
+      "performance": {
+        "title": "Performance Media",
+        "description": "AI performance scoring"
+      },
+      "approval": {
+        "title": "Payroll Approval",
+        "description": "Manager synchronization"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE PAYROLL"
+    },
+    "flowSection": {
+      "badge": "PAYROLL FLOW",
+      "title": "Runtime Synchronization",
+      "active": "AI ACTIVE",
+      "processing": "Payroll runtime processing"
+    },
+    "flow": {
+      "attendance": "Attendance synchronized",
+      "performance": "Performance score calculated",
+      "serviceCharge": "Service charge allocated",
+      "approval": "Manager approval active",
+      "accounting": "Accounting payout processing"
+    },
+    "roles": {
+      "kitchen": "Cucina",
+      "service": "Servizio",
+      "bar": "Bar"
+    },
+    "status": {
+      "approved": "APPROVATO",
+      "pending": "IN ATTESA",
+      "processing": "ELABORAZIONE",
+      "active": "ACTIVE",
+      "live": "LIVE"
+    }
+  },
+  "reservations": {
+    "hero": {
+      "badge": "SISTEMA PRENOTAZIONI",
+      "title": "Guest Coordination",
+      "description": "Prenotazioni sincronizzate con tavoli, cucina e AI demand planning.",
+      "statusLabel": "STATO PRENOTAZIONE"
+    },
+    "cards": {
+      "today": {
+        "title": "Prenotazioni Oggi",
+        "description": "Runtime synchronized"
+      },
+      "guests": {
+        "title": "Ospiti Previsti",
+        "description": "AI forecast active"
+      },
+      "spend": {
+        "title": "Previsione Spesa",
+        "description": "AI profitability prediction"
+      },
+      "waitlist": {
+        "title": "Coda Waitlist",
+        "description": "Table optimization active"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE RESERVATION",
+      "table": "Tavolo",
+      "guests": "Ospiti",
+      "arrival": "Arrivo",
+      "spend": "Previsione Spesa",
+      "aiTitle": "AI Coordination Active",
+      "aiDescription": "Cucina, staff e flusso tavoli sincronizzati automaticamente."
+    },
+    "actions": {
+      "checkin": "CHECK-IN",
+      "start": "Avvia Dining Flow",
+      "view": "VEDI TAVOLO",
+      "status": "Runtime Status"
+    },
+    "spending": {
+      "high": "HIGH VALUE",
+      "dinner": "DINNER",
+      "event": "EVENT"
+    },
+    "status": {
+      "live": "LIVE",
+      "arriving": "IN ARRIVO",
+      "confirmed": "CONFERMATO",
+      "waitlist": "WAITLIST"
+    }
+  },
+  "pos": {
+    "hero": {
+      "badge": "POINT OF SALE",
+      "title": "Live Ordering Runtime",
+      "description": "Gli ordini sincronizzano cucina, bar, inventory e accounting.",
+      "statusLabel": "STATO POS"
+    },
+    "tables": {
+      "badge": "SELEZIONE TAVOLI",
+      "title": "Tavoli Attivi",
+      "active": "14 ACTIVE",
+      "runtime": "Open Runtime"
+    },
+    "menu": {
+      "badge": "MENU RUNTIME",
+      "title": "Menu Live",
+      "aiPricing": "AI PRICING ACTIVE",
+      "runtime": "Runtime synchronized",
+      "add": "AGGIUNGI"
+    },
+    "order": {
+      "badge": "CURRENT ORDER",
+      "kitchenRouting": "Kitchen Routing",
+      "barRouting": "Bar Routing",
+      "subtotal": "Subtotal",
+      "serviceCharge": "Service Charge",
+      "total": "Total",
+      "send": "SEND ORDER",
+      "routing": "Routes automatically to kitchen + bar + inventory"
+    },
+    "runtime": {
+      "badge": "LIVE RUNTIME",
+      "title": "Operational Sync",
+      "kitchenTitle": "Kitchen Runtime",
+      "kitchenDescription": "Wagyu Burger inviato al grill station.",
+      "inventoryTitle": "Inventory Runtime",
+      "inventoryDescription": "Patties buns tomato fries aggiornati automaticamente.",
+      "profitTitle": "Profitability Runtime",
+      "profitDescription": "AI ricalcola il margine operativo."
+    },
+    "categories": {
+      "burgers": "Burger",
+      "starters": "Antipasti",
+      "drinks": "Drink",
+      "desserts": "Dessert"
+    },
+    "dishes": {
+      "wagyu": "Wagyu Burger",
+      "fries": "Truffle Fries",
+      "wine": "Red Wine",
+      "salad": "Caesar Salad"
+    },
+    "status": {
+      "live": "LIVE",
+      "active": "ACTIVE",
+      "highDemand": "HIGH DEMAND",
+      "liveCooking": "LIVE COOKING",
+      "barRouting": "BAR ROUTING",
+      "freshPrep": "FRESH PREP"
+    }
+  },
+  "kitchen": {
+    "hero": {
+      "badge": "KITCHEN DISPLAY SYSTEM",
+      "title": "Kitchen Runtime",
+      "description": "Gli ordini sincronizzano POS, production flow, inventory ed expo coordination.",
+      "statusLabel": "STATO CUCINA"
+    },
+    "cards": {
+      "new": {
+        "title": "Nuovi Ordini",
+        "description": "In attesa produzione"
+      },
+      "cooking": {
+        "title": "In Cucina",
+        "description": "Active kitchen runtime"
+      },
+      "ready": {
+        "title": "Pronto Per Expo",
+        "description": "In attesa invio"
+      },
+      "ticket": {
+        "title": "Tempo Medio Ticket",
+        "description": "Runtime synchronized"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE ORDER",
+      "ticket": "Ticket Runtime"
+    },
+    "actions": {
+      "start": "START",
+      "begin": "Inizia Cucina",
+      "hold": "HOLD",
+      "pause": "Pausa Runtime",
+      "ready": "READY",
+      "expo": "Invia Expo",
+      "issue": "ISSUE",
+      "problem": "Runtime Problem",
+      "expoReady": "EXPO",
+      "await": "Attendi Pickup",
+      "complete": "COMPLETE",
+      "closed": "Runtime Closed"
+    },
+    "dishes": {
+      "wagyu": "Wagyu Burger",
+      "fries": "Truffle Fries",
+      "ribeye": "Ribeye Steak",
+      "salad": "Caesar Salad"
+    },
+    "status": {
+      "active": "ACTIVE",
+      "new": "NEW",
+      "cooking": "COOKING",
+      "ready": "READY"
+    }
+  },
+  "ai": {
+    "hero": {
+      "badge": "AI INTELLIGENCE LAYER",
+      "title": "Operational Intelligence",
+      "description": "AI analizza operations, production, profitability, procurement e customer behavior in tempo reale.",
+      "statusLabel": "STATO AI"
+    },
+    "cards": {
+      "predictions": {
+        "title": "Live Predictions",
+        "description": "Runtime decisions active"
+      },
+      "accuracy": {
+        "title": "AI Accuracy",
+        "description": "Operational forecasting precision"
+      },
+      "procurement": {
+        "title": "Procurement Savings",
+        "description": "AI supplier optimization"
+      },
+      "waste": {
+        "title": "Waste Reduction",
+        "description": "Production intelligence active"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE AI DECISIONS",
+      "title": "Runtime Recommendations"
+    },
+    "learning": {
+      "badge": "AI LEARNING ENGINE",
+      "title": "Continuous Optimization",
+      "customer": {
+        "title": "Customer Behavior",
+        "description": "AI analizza order patterns"
+      },
+      "signals": {
+        "title": "Operational Signals",
+        "description": "Runtime synchronization events"
+      },
+      "forecast": {
+        "title": "AI Forecast Horizon",
+        "description": "Predictive operational window"
+      },
+      "autonomous": {
+        "title": "Autonomous Operational Layer",
+        "description": "AI coordina procurement, labor allocation e profitability optimization."
+      }
+    },
+    "signals": {
+      "inventory": {
+        "title": "Tomato Inventory Risk",
+        "description": "AI prevede tomato shortage durante evening peak.",
+        "recommendation": "Recommended: Create procurement request immediately."
+      },
+      "fryer": {
+        "title": "Fryer Runtime Congestion",
+        "description": "Fryer utilization supererà 87%.",
+        "recommendation": "Recommended: Open secondary fryer station."
+      },
+      "profit": {
+        "title": "High Profitability Opportunity",
+        "description": "Wagyu + wine sopra forecast del 18%.",
+        "recommendation": "Recommended: Increase promotion priority."
+      }
+    },
+    "status": {
+      "learning": "LEARNING",
+      "live": "LIVE",
+      "priority": "PRIORITY",
+      "monitoring": "MONITORING",
+      "optimized": "OPTIMIZED"
+    },
+    "commands": {
+      "staffing": "Optimize staffing allocation",
+      "forecast": "Generate operational forecast",
+      "inventory": "Recalculate inventory demand",
+      "payroll": "Analyze payroll efficiency",
+      "marketing": "Increase campaign profitability"
+    },
+    "metrics": {
+      "predictions": "124",
+      "accuracy": "94%",
+      "procurement": "฿42K",
+      "waste": "-28%",
+      "behavior": "12.4M",
+      "forecast": "72H"
+    }
+  },
+  "operations": {
+    "hero": {
+      "badge": "FULL OPERATION RUNTIME",
+      "title": "Enterprise Coordination",
+      "description": "Intera operazione ristorante sincronizzata tra ordering, production, inventory, labor, AI, procurement e accounting.",
+      "statusLabel": "STATO SISTEMA"
+    },
+    "cards": {
+      "orders": {
+        "title": "Ordini Attivi",
+        "description": "Runtime active"
+      },
+      "kitchen": {
+        "title": "Carico Cucina",
+        "description": "Production synchronized"
+      },
+      "inventory": {
+        "title": "Stato Inventory",
+        "description": "AI monitoring active"
+      },
+      "procurement": {
+        "title": "Procurement Runtime",
+        "description": "Invoice sync active"
+      },
+      "profit": {
+        "title": "Profitto Netto Oggi",
+        "description": "Live profitability runtime"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE OPERATION FLOW",
+      "title": "Runtime Synchronization"
+    },
+    "ai": {
+      "badge": "AI OPERATIONAL FEED",
+      "title": "Live Runtime Intelligence",
+      "description": "Runtime intelligence synchronized"
+    },
+    "sync": {
+      "badge": "ENTERPRISE SYNCHRONIZATION",
+      "title": "One Runtime Controls Everything"
+    },
+    "modules": {
+      "production": {
+        "title": "Production",
+        "description": "Batch + à la minute synchronization."
+      },
+      "inventory": {
+        "title": "Inventory",
+        "description": "Ingredient + stock movement tracking."
+      },
+      "procurement": {
+        "title": "Procurement",
+        "description": "Invoice AI + supplier synchronization."
+      },
+      "accounting": {
+        "title": "Accounting",
+        "description": "Live financial and profitability updates."
+      }
+    },
+    "flows": {
+      "posKitchen": {
+        "title": "POS → Kitchen",
+        "description": "Orders routed into live production runtime."
+      },
+      "kitchenExpo": {
+        "title": "Kitchen → Expo",
+        "description": "Production synchronized for dispatch."
+      },
+      "expoTables": {
+        "title": "Expo → Tables",
+        "description": "Service runners dispatch completed orders."
+      },
+      "tablesPayment": {
+        "title": "Tables → Payment",
+        "description": "Dining runtime linked to financial flow."
+      }
+    },
+    "alerts": {
+      "inventory": "Tomato inventory running low",
+      "wagyu": "Wagyu demand spike detected",
+      "fryer": "Kitchen fryer utilization high",
+      "invoice": "Supplier invoice processed automatically"
+    },
+    "status": {
+      "active": "ACTIVE",
+      "synced": "SYNCED",
+      "live": "LIVE",
+      "processing": "PROCESSING",
+      "synchronized": "SYNCHRONIZED",
+      "aiActive": "AI ACTIVE",
+      "connected": "FULLY CONNECTED"
+    }
+  },
+  "marketing": {
+    "hero": {
+      "badge": "AI MARKETING OPERATING SYSTEM",
+      "title1": "Marketing",
+      "title2": "Runtime Engine",
+      "description": "Campagne AI sincronizzate con Meta publishing, customer intelligence, revenue forecasting ed engagement analytics."
+    },
+    "performance": {
+      "badge": "AI PERFORMANCE",
+      "description": "Aumento medio dell'engagement grazie all'ottimizzazione AI."
+    },
+    "cards": {
+      "campaigns": {
+        "title": "Campagne Attive",
+        "description": "AI synchronized"
+      },
+      "queue": {
+        "title": "Publishing Queue",
+        "description": "Meta runtime active"
+      },
+      "assets": {
+        "title": "AI Generated Assets",
+        "description": "Images + video runtime"
+      },
+      "engagement": {
+        "title": "Engagement Runtime",
+        "description": "AI optimization active"
+      }
+    },
+    "sections": {
+      "campaigns": {
+        "badge": "LIVE CAMPAIGNS",
+        "title": "Meta Runtime"
+      },
+      "queue": {
+        "badge": "PUBLISH QUEUE",
+        "title": "Meta Scheduler"
+      },
+      "optimization": {
+        "badge": "AI OPTIMIZATION",
+        "description": "AI ottimizza continuamente orari, target, visual, caption e strategia engagement."
+      }
+    },
+    "campaigns": {
+      "wagyu": {
+        "name": "Wagyu Friday Campaign",
+        "platform": "Instagram + Facebook"
+      },
+      "vip": {
+        "name": "VIP Sunset Dinner",
+        "platform": "Instagram Reels"
+      },
+      "beach": {
+        "name": "Beach Club Event",
+        "platform": "Meta Ads"
+      }
+    },
+    "queue": {
+      "cocktail": "Cocktail Reel",
+      "wagyu": "Wagyu Promotion",
+      "dj": "DJ Event Story"
+    },
+    "labels": {
+      "reach": "Reach",
+      "scheduled": "Scheduled"
+    },
+    "status": {
+      "live": "LIVE",
+      "active": "ACTIVE",
+      "queued": "QUEUED",
+      "published": "PUBLISHED",
+      "optimizing": "AI OPTIMIZING",
+      "ready": "READY",
+      "processing": "PROCESSING",
+      "scheduled": "SCHEDULED"
+    }
+  },
+  "crm": {
+    "hero": {
+      "badge": "CUSTOMER RELATIONSHIP INTELLIGENCE",
+      "title1": "Revenue",
+      "title2": "Relationship Engine",
+      "description": "Customer intelligence AI sincronizzata con reservations, POS, marketing e profitability runtime."
+    },
+    "value": {
+      "badge": "RELATIONSHIP VALUE",
+      "description": "Valore cliente previsto nel tempo"
+    },
+    "pipeline": {
+      "leads": "Nuovi Lead",
+      "vip": "Clienti VIP",
+      "events": "Clienti Eventi",
+      "returning": "Clienti Fedeli",
+      "description": "AI runtime tracking active"
+    },
+    "runtime": {
+      "badge": "LIVE CRM INTELLIGENCE",
+      "title": "Revenue Interactions"
+    },
+    "interactions": {
+      "vipReservation": "VIP reservation booked",
+      "loyaltyOffer": "AI loyalty offer triggered",
+      "eventProposal": "Private event proposal sent"
+    },
+    "status": {
+      "live": "LIVE"
+    }
+  },
+  "customers": {
+    "hero": {
+      "badge": "CUSTOMER INTELLIGENCE",
+      "title1": "Guest",
+      "title2": "Behavior Runtime",
+      "description": "AI apprende continuamente preferenze clienti, modelli di spesa, comportamento delle prenotazioni e segnali di redditività."
+    },
+    "labels": {
+      "favorite": "Preferito",
+      "visits": "Visite",
+      "spend": "Spesa"
+    },
+    "favorites": {
+      "wagyuWine": "Wagyu + Vino",
+      "cocktails": "Cocktail",
+      "privateEvents": "Eventi Privati"
+    },
+    "insights": {
+      "wineDemand": "VIP guests increasing premium wine demand",
+      "tastingMenus": "Returning customers respond strongly to tasting menus",
+      "personalization": "High-spend guests prefer reservation personalization",
+      "multilocation": "Beach club events driving multi-location traffic"
+    },
+    "signals": {
+      "badge": "AI CUSTOMER SIGNALS",
+      "title": "Behavioral Intelligence",
+      "description": "AI synchronization runtime active"
+    }
+  },
+  "tables": {
+    "hero": {
+      "badge": "TABLE RUNTIME",
+      "title": "Dining Floor Live",
+      "description": "Sincronizzazione in tempo reale tra tavoli, cucina, bar, expo, servizio e pagamenti."
+    },
+    "floor": {
+      "badge": "FLOOR STATUS",
+      "active": "ACTIVE"
+    },
+    "cards": {
+      "activeTables": {
+        "title": "Tavoli Attivi",
+        "description": "Runtime synchronized"
+      },
+      "guests": {
+        "title": "Clienti Presenti",
+        "description": "Live floor occupancy"
+      },
+      "avgTicket": {
+        "title": "Scontrino Medio",
+        "description": "Operational average"
+      },
+      "paymentQueue": {
+        "title": "Coda Pagamenti",
+        "description": "Awaiting settlement"
+      }
+    },
+    "table": {
+      "badge": "LIVE TABLE",
+      "guests": "Clienti",
+      "total": "Totale Attuale",
+      "runtime": "Runtime synchronized",
+      "live": "LIVE"
+    },
+    "actions": {
+      "viewFlow": "VIEW FLOW",
+      "kitchenBar": "Kitchen + Bar",
+      "payment": "PAYMENT",
+      "settle": "Settle Runtime"
+    },
+    "status": {
+      "dining": "SERVIZIO",
+      "waitingFood": "ATTESA CIBO",
+      "payment": "PAGAMENTO",
+      "highValue": "VIP"
+    }
+  },
+  "expo": {
+    "hero": {
+      "badge": "EXPO COORDINATION",
+      "title": "Service Synchronization",
+      "description": "Gli ordini di cucina e bar vengono sincronizzati tramite Expo prima del servizio."
+    },
+    "runtime": {
+      "badge": "EXPO STATUS",
+      "active": "ACTIVE"
+    },
+    "cards": {
+      "waiting": {
+        "title": "In Attesa Expo",
+        "description": "In attesa di sincronizzazione"
+      },
+      "ready": {
+        "title": "Pronto da Servire",
+        "description": "Pronto per invio"
+      },
+      "runners": {
+        "title": "Runner Attivi",
+        "description": "Runtime synchronized"
+      },
+      "dispatch": {
+        "title": "Tempo Medio",
+        "description": "Service runtime stable"
+      }
+    },
+    "order": {
+      "badge": "EXPO ORDER",
+      "ready": "Ready for synchronization",
+      "runner": "Assigned Runner",
+      "runtime": "Runtime",
+      "sync": "Operational synchronization active"
+    },
+    "actions": {
+      "callRunner": "CALL RUNNER",
+      "dispatch": "Dispatch Service",
+      "served": "SERVED",
+      "close": "Close Expo Flow"
+    },
+    "sources": {
+      "kitchen": "CUCINA",
+      "bar": "BAR",
+      "kitchenBar": "CUCINA + BAR"
+    },
+    "status": {
+      "readyForService": "PRONTO DA SERVIRE",
+      "waitingRunner": "IN ATTESA",
+      "serving": "SERVIZIO"
+    }
+  },
+  "projects": {
+    "hero": {
+      "badge": "MULTI-LOCATION DEPLOYMENT",
+      "title1": "Enterprise",
+      "title2": "Rollout Engine",
+      "description": "Distribuzione operativa per ristoranti, beach club, caffè e strutture hospitality."
+    },
+    "global": {
+      "badge": "GLOBAL STATUS",
+      "description": "Distribuzioni attive"
+    },
+    "labels": {
+      "progress": "Progresso"
+    },
+    "stack": {
+      "badge": "DEPLOYMENT STACK",
+      "title": "Runtime Layers",
+      "description": "Enterprise synchronization layer"
+    },
+    "phases": {
+      "operationalDeployment": "Distribuzione Operativa",
+      "aiSynchronization": "Sincronizzazione AI",
+      "inventoryArchitecture": "Architettura Inventario"
+    },
+    "status": {
+      "liveBuild": "ATTIVO",
+      "integration": "INTEGRAZIONE",
+      "planning": "PIANIFICAZIONE"
+    },
+    "layers": {
+      "pos": "POS Runtime",
+      "kitchen": "Kitchen Synchronization",
+      "inventory": "Inventory Intelligence",
+      "payroll": "Payroll Engine",
+      "ai": "AI Forecasting",
+      "accounting": "Accounting Runtime"
+    }
+  }
+}

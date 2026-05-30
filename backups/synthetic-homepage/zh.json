@@ -1,0 +1,1177 @@
+{
+  "brand": {
+    "name": "AVANTIQO",
+    "tagline": "企业 AI 运行系统"
+  },
+  "topnav": {
+    "platform": "平台",
+    "industries": "行业",
+    "modules": "模块",
+    "aiRuntime": "AI 系统",
+    "security": "安全",
+    "signIn": "登录",
+    "workspace": "工作区",
+    "startSetup": "开始设置"
+  },
+  "home": {
+    "hero": {
+      "badge": "企业 AI 运行系统",
+      "title1": "从运营混乱",
+      "title2": "到实时业务控制。",
+      "description": "运营、财务、会计、员工、文档、库存和 AI 全部连接在一个系统中。",
+      "book_demo": "预约企业模块演示",
+      "start_setup": "开始设置"
+    },
+    "modules": {
+      "badge": "一个系统。所有部门。",
+      "title1": "您的企业过去",
+      "title2": "手动管理的一切...",
+      "title3": "现在全部可见、自动化并受到控制",
+      "title4": "实时运行。"
+    },
+    "cta": {
+      "badge": "实时运营系统",
+      "title1": "一个系统。",
+      "title2": "所有部门。",
+      "title3": "实时控制。",
+      "description": "减少运营压力，实现自动化流程，并全面掌控您的业务。",
+      "button": "预约企业模块演示"
+    },
+    "cards": {
+      "control": {
+        "title": "实时控制中心",
+        "description": "实时查看收入、员工和运营。",
+        "status": "实时"
+      },
+      "finance": {
+        "title": "财务与会计",
+        "description": "实时财务控制与分析。",
+        "status": "已连接"
+      },
+      "staff": {
+        "title": "员工门户",
+        "description": "员工沟通、排班和工资系统。",
+        "status": "活跃"
+      },
+      "projects": {
+        "title": "项目管理",
+        "description": "预算、任务与采购管理。",
+        "status": "实时"
+      },
+      "documents": {
+        "title": "文档系统",
+        "description": "AI 自动处理文档与发票。",
+        "status": "同步"
+      },
+      "marketing": {
+        "title": "AI 营销",
+        "description": "即时生成营销活动与内容。",
+        "status": "实时"
+      },
+      "inventory": {
+        "title": "库存与采购",
+        "description": "实时库存与供应商控制。",
+        "status": "已连接"
+      },
+      "enterprise": {
+        "title": "企业 AI",
+        "description": "智能企业 AI 运营系统。",
+        "status": "活跃"
+      }
+    }
+  },
+  "navigation": {
+    "dashboard": "仪表板",
+    "operations": "运营",
+    "inventory": "库存",
+    "production": "生产",
+    "finance": "财务",
+    "marketing": "营销",
+    "settings": "设置",
+    "pos": "POS",
+    "kitchen": "厨房",
+    "expo": "Expo",
+    "reservations": "预订",
+    "dishStock": "菜品库存",
+    "ingredientStock": "原料库存",
+    "procurement": "采购",
+    "accounting": "会计",
+    "payroll": "工资",
+    "hr": "HR",
+    "projects": "项目",
+    "crm": "CRM",
+    "customers": "客户",
+    "designStudio": "设计工作室",
+    "documents": "文档"
+  },
+  "workspace": {
+    "activeProvider": "当前运行环境",
+    "runtime": "Churchill Runtime",
+    "start": "开始",
+    "login": "登录",
+    "modules": "模块",
+    "designStudio": "设计工作室"
+  },
+  "accounting": {
+    "hero": {
+      "badge": "会计系统",
+      "title": "财务账本智能系统",
+      "description": "采购、收入、工资、库存和 AI 自动同步到会计系统。",
+      "statusLabel": "会计状态",
+      "status": "已平衡"
+    },
+    "metrics": {
+      "entries": {
+        "title": "会计分录",
+        "description": "系统已同步"
+      },
+      "payables": {
+        "title": "应付账款",
+        "description": "供应商负债"
+      },
+      "cashflow": {
+        "title": "现金流",
+        "description": "财务状况稳定",
+        "value": "正向"
+      },
+      "audit": {
+        "title": "AI 审计层",
+        "description": "实时监控运行中",
+        "value": "LIVE"
+      }
+    },
+    "entries": {
+      "badge": "实时会计",
+      "title": "财务记录",
+      "items": {
+        "invoicePosted": {
+          "title": "供应商发票已入账",
+          "account": "应付账款"
+        },
+        "revenue": {
+          "title": "餐厅收入",
+          "account": "销售收入"
+        },
+        "payroll": {
+          "title": "工资分配",
+          "account": "人工成本"
+        }
+      }
+    },
+    "approvals": {
+      "badge": "审批系统",
+      "title": "AI 验证流程",
+      "active": "AI 运行中",
+      "description": "会计同步运行",
+      "items": {
+        "ocr": {
+          "title": "发票 OCR 提取"
+        },
+        "match": {
+          "title": "采购匹配"
+        },
+        "journal": {
+          "title": "会计日记账"
+        }
+      }
+    },
+    "status": {
+      "posted": "已入账",
+      "synced": "已同步",
+      "processing": "处理中",
+      "approved": "已批准",
+      "matched": "已匹配",
+      "ready": "准备完成"
+    }
+  },
+  "finance": {
+    "hero": {
+      "badge": "财务系统",
+      "title": "实时财务智能",
+      "description": "收入、利润、人工、库存、采购与会计实时同步。",
+      "statusLabel": "财务状态",
+      "status": "已同步"
+    },
+    "cards": {
+      "runtime": "系统已同步",
+      "revenue": {
+        "title": "今日收入"
+      },
+      "profit": {
+        "title": "净利润"
+      },
+      "labor": {
+        "title": "人工成本"
+      },
+      "food": {
+        "title": "食品成本"
+      }
+    },
+    "transactions": {
+      "badge": "实时交易",
+      "title": "财务系统",
+      "description": "财务同步运行中",
+      "sales": {
+        "title": "和牛汉堡销售"
+      },
+      "invoice": {
+        "title": "供应商发票已处理"
+      },
+      "payroll": {
+        "title": "工资分配"
+      }
+    },
+    "ai": {
+      "badge": "AI 财务智能",
+      "title": "盈利分析引擎",
+      "active": "AI 运行中",
+      "insights": {
+        "margin": {
+          "title": "和牛利润增长",
+          "description": "AI 检测到高端套餐销售带来的利润提升。"
+        },
+        "labor": {
+          "title": "人工成本上升",
+          "description": "AI 预测晚餐高峰期间厨房人工增加。"
+        },
+        "procurement": {
+          "title": "采购已优化",
+          "description": "供应商同步使采购成本降低了 12%。"
+        }
+      }
+    },
+    "status": {
+      "live": "LIVE",
+      "synced": "已同步",
+      "processing": "处理中"
+    }
+  },
+  "inventory": {
+    "hero": {
+      "badge": "库存系统",
+      "title": "实时库存智能",
+      "description": "批量库存与原料库存实时连接 POS、生产与采购系统。",
+      "statusLabel": "库存状态",
+      "status": "已同步"
+    },
+    "cards": {
+      "ingredients": {
+        "title": "原料项目",
+        "description": "实时库存追踪"
+      },
+      "batch": {
+        "title": "批量生产",
+        "description": "预制库存运行中"
+      },
+      "risk": {
+        "title": "AI 风险信号",
+        "description": "库存警告激活"
+      },
+      "procurement": {
+        "title": "采购同步",
+        "description": "发票系统已连接"
+      }
+    },
+    "batch": {
+      "badge": "批量库存",
+      "title": "预制生产",
+      "type": "批量库存",
+      "wagyu": "和牛肉饼",
+      "buns": "汉堡面包",
+      "sauce": "番茄酱",
+      "fries": "薯条"
+    },
+    "ingredients": {
+      "badge": "原料库存",
+      "title": "原料运行系统",
+      "usage": "使用量",
+      "tomatoes": "番茄",
+      "lettuce": "生菜",
+      "potatoes": "土豆",
+      "cheese": "切达奶酪"
+    },
+    "status": {
+      "live": "LIVE",
+      "good": "正常",
+      "stable": "稳定",
+      "low": "低",
+      "warning": "警告"
+    }
+  },
+  "procurement": {
+    "hero": {
+      "badge": "采购系统",
+      "title": "采购智能",
+      "description": "采购系统实时同步库存、会计、AI 预测与盈利系统。",
+      "statusLabel": "采购状态",
+      "status": "ACTIVE"
+    },
+    "cards": {
+      "orders": {
+        "title": "采购订单",
+        "description": "系统已同步"
+      },
+      "deliveries": {
+        "title": "今日交付",
+        "description": "库存已更新"
+      },
+      "invoice": {
+        "title": "发票自动化",
+        "description": "OCR 处理中"
+      },
+      "suppliers": {
+        "title": "供应商同步",
+        "description": "AI 需求预测"
+      }
+    },
+    "sections": {
+      "procurement": {
+        "badge": "实时采购",
+        "title": "采购订单"
+      },
+      "invoice": {
+        "badge": "AI 发票流程",
+        "title": "会计同步",
+        "active": "AI ACTIVE",
+        "description": "采购系统已同步"
+      }
+    },
+    "suppliers": {
+      "farm": "Phuket Fresh Farm",
+      "wagyu": "Premium Wagyu Co.",
+      "ocean": "Ocean Beverage"
+    },
+    "items": {
+      "tomatoes": "番茄 40kg",
+      "wagyu": "和牛肉饼",
+      "wine": "葡萄酒补货"
+    },
+    "flow": {
+      "upload": "发票照片已上传",
+      "ocr": "AI OCR 提取",
+      "inventory": "库存同步",
+      "accounting": "会计分录"
+    },
+    "status": {
+      "live": "LIVE",
+      "active": "ACTIVE",
+      "delivered": "已交付",
+      "transit": "运输中",
+      "approval": "审批中",
+      "complete": "完成",
+      "processing": "处理中"
+    }
+  },
+  "production": {
+    "hero": {
+      "badge": "生产系统",
+      "title": "Batch + À La Minute",
+      "description": "生产系统实时同步预制库存与服务期间的原料消耗。",
+      "statusLabel": "生产状态",
+      "status": "运行中"
+    },
+    "sections": {
+      "batch": {
+        "badge": "批量生产",
+        "title": "预制运行系统",
+        "produced": "已生产"
+      },
+      "consumption": {
+        "badge": "实时原料消耗",
+        "title": "À La Minute 系统",
+        "deduction": "实时扣减"
+      }
+    },
+    "batch": {
+      "wagyu": "和牛肉饼",
+      "buns": "汉堡面包",
+      "sauce": "番茄酱"
+    },
+    "ingredients": {
+      "tomatoes": "番茄",
+      "potatoes": "土豆",
+      "lettuce": "生菜"
+    },
+    "consumption": {
+      "burger": "1 Wagyu Burger",
+      "fries": "1 份薯条",
+      "assembly": "1 份汉堡组装"
+    },
+    "status": {
+      "live": "LIVE",
+      "active": "ACTIVE",
+      "good": "正常",
+      "low": "低"
+    }
+  },
+  "dashboard": {
+    "hero": {
+      "badge": "企业控制中心",
+      "title": "Enterprise Runtime",
+      "description": "实时运营智能覆盖财务、生产、采购、劳动力与 AI orchestration。",
+      "statusLabel": "系统状态",
+      "status": "Operational"
+    },
+    "cards": {
+      "revenue": {
+        "title": "今日收入",
+        "description": "+18.4% 运营增长"
+      },
+      "profit": {
+        "title": "净利润",
+        "description": "实时盈利能力"
+      },
+      "kitchen": {
+        "title": "厨房效率",
+        "description": "系统同步稳定"
+      },
+      "forecast": {
+        "title": "AI Forecast",
+        "description": "预计晚餐需求上升"
+      }
+    },
+    "locations": {
+      "badge": "实时门店",
+      "title": "多门店 Runtime",
+      "today": "今天",
+      "churchill": "Restaurant Runtime Active",
+      "mongos": "Café Runtime Active",
+      "yona": "Beach Club Runtime Active"
+    },
+    "ai": {
+      "badge": "AI 运营动态",
+      "title": "Runtime Intelligence",
+      "active": "AI ACTIVE",
+      "tomato": {
+        "title": "番茄库存风险",
+        "description": "AI 预测 5 小时内库存不足。"
+      },
+      "fryer": {
+        "title": "炸锅拥堵预测",
+        "description": "厨房负载预计超过 84%。"
+      },
+      "profit": {
+        "title": "盈利增长",
+        "description": "Wagyu + wine pairing 高于平均值 18%。"
+      },
+      "procurement": {
+        "title": "采购已同步",
+        "description": "供应商发票与库存已自动更新。"
+      }
+    },
+    "status": {
+      "live": "LIVE"
+    }
+  },
+  "payroll": {
+    "hero": {
+      "badge": "PAYROLL 系统",
+      "title": "Performance Payroll Engine",
+      "description": "Payroll 实时同步 attendance、performance 与 service charge。",
+      "statusLabel": "PAYROLL 状态"
+    },
+    "cards": {
+      "staff": {
+        "title": "Payroll 员工",
+        "description": "活跃 payroll staff"
+      },
+      "service": {
+        "title": "Service Charge Pool",
+        "description": "分配系统运行中"
+      },
+      "performance": {
+        "title": "平均绩效",
+        "description": "AI performance scoring"
+      },
+      "approval": {
+        "title": "Payroll Approval",
+        "description": "Manager synchronization"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE PAYROLL"
+    },
+    "flowSection": {
+      "badge": "PAYROLL FLOW",
+      "title": "Runtime Synchronization",
+      "active": "AI ACTIVE",
+      "processing": "Payroll runtime processing"
+    },
+    "flow": {
+      "attendance": "Attendance synchronized",
+      "performance": "Performance score calculated",
+      "serviceCharge": "Service charge allocated",
+      "approval": "Manager approval active",
+      "accounting": "Accounting payout processing"
+    },
+    "roles": {
+      "kitchen": "厨房",
+      "service": "服务",
+      "bar": "酒吧"
+    },
+    "status": {
+      "approved": "已批准",
+      "pending": "等待中",
+      "processing": "处理中",
+      "active": "ACTIVE",
+      "live": "LIVE"
+    }
+  },
+  "reservations": {
+    "hero": {
+      "badge": "预订系统",
+      "title": "Guest Coordination",
+      "description": "预订系统同步桌位、厨房与 AI demand planning。",
+      "statusLabel": "预订状态"
+    },
+    "cards": {
+      "today": {
+        "title": "今日预订",
+        "description": "Runtime synchronized"
+      },
+      "guests": {
+        "title": "预计客人",
+        "description": "AI forecast active"
+      },
+      "spend": {
+        "title": "消费预测",
+        "description": "AI profitability prediction"
+      },
+      "waitlist": {
+        "title": "Waitlist Queue",
+        "description": "Table optimization active"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE RESERVATION",
+      "table": "桌位",
+      "guests": "客人",
+      "arrival": "到达时间",
+      "spend": "消费预测",
+      "aiTitle": "AI Coordination Active",
+      "aiDescription": "厨房、员工与桌位流程自动同步。"
+    },
+    "actions": {
+      "checkin": "CHECK-IN",
+      "start": "开始 Dining Flow",
+      "view": "查看桌位",
+      "status": "Runtime Status"
+    },
+    "spending": {
+      "high": "HIGH VALUE",
+      "dinner": "DINNER",
+      "event": "EVENT"
+    },
+    "status": {
+      "live": "LIVE",
+      "arriving": "即将到达",
+      "confirmed": "已确认",
+      "waitlist": "WAITLIST"
+    }
+  },
+  "pos": {
+    "hero": {
+      "badge": "POINT OF SALE",
+      "title": "Live Ordering Runtime",
+      "description": "订单自动同步厨房、酒吧、inventory 与 accounting。",
+      "statusLabel": "POS 状态"
+    },
+    "tables": {
+      "badge": "桌位选择",
+      "title": "活跃桌位",
+      "active": "14 ACTIVE",
+      "runtime": "Open Runtime"
+    },
+    "menu": {
+      "badge": "MENU RUNTIME",
+      "title": "实时菜单",
+      "aiPricing": "AI PRICING ACTIVE",
+      "runtime": "Runtime synchronized",
+      "add": "加入订单"
+    },
+    "order": {
+      "badge": "CURRENT ORDER",
+      "kitchenRouting": "Kitchen Routing",
+      "barRouting": "Bar Routing",
+      "subtotal": "Subtotal",
+      "serviceCharge": "Service Charge",
+      "total": "Total",
+      "send": "SEND ORDER",
+      "routing": "Routes automatically to kitchen + bar + inventory"
+    },
+    "runtime": {
+      "badge": "LIVE RUNTIME",
+      "title": "Operational Sync",
+      "kitchenTitle": "Kitchen Runtime",
+      "kitchenDescription": "Wagyu Burger 已发送至 grill station",
+      "inventoryTitle": "Inventory Runtime",
+      "inventoryDescription": "Patties buns tomato fries 自动更新",
+      "profitTitle": "Profitability Runtime",
+      "profitDescription": "AI 正在重新计算 operational margin"
+    },
+    "categories": {
+      "burgers": "汉堡",
+      "starters": "前菜",
+      "drinks": "饮品",
+      "desserts": "甜点"
+    },
+    "dishes": {
+      "wagyu": "Wagyu Burger",
+      "fries": "Truffle Fries",
+      "wine": "Red Wine",
+      "salad": "Caesar Salad"
+    },
+    "status": {
+      "live": "LIVE",
+      "active": "ACTIVE",
+      "highDemand": "HIGH DEMAND",
+      "liveCooking": "LIVE COOKING",
+      "barRouting": "BAR ROUTING",
+      "freshPrep": "FRESH PREP"
+    }
+  },
+  "kitchen": {
+    "hero": {
+      "badge": "KITCHEN DISPLAY SYSTEM",
+      "title": "Kitchen Runtime",
+      "description": "订单从 POS 同步至 production flow、inventory 与 expo coordination。",
+      "statusLabel": "厨房状态"
+    },
+    "cards": {
+      "new": {
+        "title": "新订单",
+        "description": "等待制作"
+      },
+      "cooking": {
+        "title": "制作中",
+        "description": "Active kitchen runtime"
+      },
+      "ready": {
+        "title": "准备 Expo",
+        "description": "等待发送"
+      },
+      "ticket": {
+        "title": "平均 Ticket 时间",
+        "description": "Runtime synchronized"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE ORDER",
+      "ticket": "Ticket Runtime"
+    },
+    "actions": {
+      "start": "开始",
+      "begin": "开始制作",
+      "hold": "暂停",
+      "pause": "暂停 runtime",
+      "ready": "完成",
+      "expo": "发送至 Expo",
+      "issue": "问题",
+      "problem": "Runtime Problem",
+      "expoReady": "EXPO",
+      "await": "等待取餐",
+      "complete": "完成",
+      "closed": "Runtime Closed"
+    },
+    "dishes": {
+      "wagyu": "Wagyu Burger",
+      "fries": "Truffle Fries",
+      "ribeye": "Ribeye Steak",
+      "salad": "Caesar Salad"
+    },
+    "status": {
+      "active": "ACTIVE",
+      "new": "NEW",
+      "cooking": "COOKING",
+      "ready": "READY"
+    }
+  },
+  "ai": {
+    "hero": {
+      "badge": "AI INTELLIGENCE LAYER",
+      "title": "Operational Intelligence",
+      "description": "AI 实时分析 operations、production、profitability、procurement 与 customer behavior。",
+      "statusLabel": "AI 状态"
+    },
+    "cards": {
+      "predictions": {
+        "title": "Live Predictions",
+        "description": "Runtime decisions active"
+      },
+      "accuracy": {
+        "title": "AI Accuracy",
+        "description": "Operational forecasting precision"
+      },
+      "procurement": {
+        "title": "Procurement Savings",
+        "description": "AI supplier optimization"
+      },
+      "waste": {
+        "title": "Waste Reduction",
+        "description": "Production intelligence active"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE AI DECISIONS",
+      "title": "Runtime Recommendations"
+    },
+    "learning": {
+      "badge": "AI LEARNING ENGINE",
+      "title": "Continuous Optimization",
+      "customer": {
+        "title": "Customer Behavior",
+        "description": "AI 分析订单行为"
+      },
+      "signals": {
+        "title": "Operational Signals",
+        "description": "Runtime synchronization events"
+      },
+      "forecast": {
+        "title": "AI Forecast Horizon",
+        "description": "Predictive operational window"
+      },
+      "autonomous": {
+        "title": "Autonomous Operational Layer",
+        "description": "AI 自动协调 procurement、labor allocation 与 profitability optimization。"
+      }
+    },
+    "signals": {
+      "inventory": {
+        "title": "Tomato Inventory Risk",
+        "description": "AI 预测晚高峰 tomato shortage。",
+        "recommendation": "Recommended: Create procurement request immediately."
+      },
+      "fryer": {
+        "title": "Fryer Runtime Congestion",
+        "description": "Fryer utilization 将超过 87%。",
+        "recommendation": "Recommended: Open secondary fryer station."
+      },
+      "profit": {
+        "title": "High Profitability Opportunity",
+        "description": "Wagyu + wine 表现超预测 18%。",
+        "recommendation": "Recommended: Increase promotion priority."
+      }
+    },
+    "status": {
+      "learning": "LEARNING",
+      "live": "LIVE",
+      "priority": "PRIORITY",
+      "monitoring": "MONITORING",
+      "optimized": "OPTIMIZED"
+    },
+    "commands": {
+      "staffing": "Optimize staffing allocation",
+      "forecast": "Generate operational forecast",
+      "inventory": "Recalculate inventory demand",
+      "payroll": "Analyze payroll efficiency",
+      "marketing": "Increase campaign profitability"
+    },
+    "metrics": {
+      "predictions": "124",
+      "accuracy": "94%",
+      "procurement": "฿42K",
+      "waste": "-28%",
+      "behavior": "12.4M",
+      "forecast": "72H"
+    }
+  },
+  "operations": {
+    "hero": {
+      "badge": "FULL OPERATION RUNTIME",
+      "title": "Enterprise Coordination",
+      "description": "整个餐厅运营在 ordering、production、inventory、labor、AI、procurement 与 accounting 之间实时同步。",
+      "statusLabel": "系统状态"
+    },
+    "cards": {
+      "orders": {
+        "title": "活跃订单",
+        "description": "Runtime active"
+      },
+      "kitchen": {
+        "title": "厨房负载",
+        "description": "Production synchronized"
+      },
+      "inventory": {
+        "title": "Inventory 状态",
+        "description": "AI monitoring active"
+      },
+      "procurement": {
+        "title": "Procurement Runtime",
+        "description": "Invoice sync active"
+      },
+      "profit": {
+        "title": "今日净利润",
+        "description": "Live profitability runtime"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE OPERATION FLOW",
+      "title": "Runtime Synchronization"
+    },
+    "ai": {
+      "badge": "AI OPERATIONAL FEED",
+      "title": "Live Runtime Intelligence",
+      "description": "Runtime intelligence synchronized"
+    },
+    "sync": {
+      "badge": "ENTERPRISE SYNCHRONIZATION",
+      "title": "One Runtime Controls Everything"
+    },
+    "modules": {
+      "production": {
+        "title": "Production",
+        "description": "Batch + à la minute synchronization."
+      },
+      "inventory": {
+        "title": "Inventory",
+        "description": "Ingredient + stock movement tracking."
+      },
+      "procurement": {
+        "title": "Procurement",
+        "description": "Invoice AI + supplier synchronization."
+      },
+      "accounting": {
+        "title": "Accounting",
+        "description": "Live financial and profitability updates."
+      }
+    },
+    "flows": {
+      "posKitchen": {
+        "title": "POS → Kitchen",
+        "description": "Orders routed into live production runtime."
+      },
+      "kitchenExpo": {
+        "title": "Kitchen → Expo",
+        "description": "Production synchronized for dispatch."
+      },
+      "expoTables": {
+        "title": "Expo → Tables",
+        "description": "Service runners dispatch completed orders."
+      },
+      "tablesPayment": {
+        "title": "Tables → Payment",
+        "description": "Dining runtime linked to financial flow."
+      }
+    },
+    "alerts": {
+      "inventory": "Tomato inventory 库存不足",
+      "wagyu": "检测到 Wagyu demand spike",
+      "fryer": "Kitchen fryer utilization high",
+      "invoice": "Supplier invoice processed automatically"
+    },
+    "status": {
+      "active": "ACTIVE",
+      "synced": "SYNCED",
+      "live": "LIVE",
+      "processing": "PROCESSING",
+      "synchronized": "SYNCHRONIZED",
+      "aiActive": "AI ACTIVE",
+      "connected": "FULLY CONNECTED"
+    }
+  },
+  "marketing": {
+    "hero": {
+      "badge": "AI MARKETING OPERATING SYSTEM",
+      "title1": "Marketing",
+      "title2": "Runtime Engine",
+      "description": "AI campaigns synchronized with Meta publishing, customer intelligence, revenue forecasting and engagement analytics."
+    },
+    "performance": {
+      "badge": "AI PERFORMANCE",
+      "description": "Average engagement increase from AI campaign optimization."
+    },
+    "cards": {
+      "campaigns": {
+        "title": "活跃活动",
+        "description": "AI synchronized"
+      },
+      "queue": {
+        "title": "Publishing Queue",
+        "description": "Meta runtime active"
+      },
+      "assets": {
+        "title": "AI Generated Assets",
+        "description": "Images + video runtime"
+      },
+      "engagement": {
+        "title": "Engagement Runtime",
+        "description": "AI optimization active"
+      }
+    },
+    "sections": {
+      "campaigns": {
+        "badge": "LIVE CAMPAIGNS",
+        "title": "Meta Runtime"
+      },
+      "queue": {
+        "badge": "PUBLISH QUEUE",
+        "title": "Meta Scheduler"
+      },
+      "optimization": {
+        "badge": "AI OPTIMIZATION",
+        "description": "AI continuously optimizes posting time, audience targeting, visuals, captions, and engagement strategy."
+      }
+    },
+    "campaigns": {
+      "wagyu": {
+        "name": "Wagyu Friday Campaign",
+        "platform": "Instagram + Facebook"
+      },
+      "vip": {
+        "name": "VIP Sunset Dinner",
+        "platform": "Instagram Reels"
+      },
+      "beach": {
+        "name": "Beach Club Event",
+        "platform": "Meta Ads"
+      }
+    },
+    "queue": {
+      "cocktail": "Cocktail Reel",
+      "wagyu": "Wagyu Promotion",
+      "dj": "DJ Event Story"
+    },
+    "labels": {
+      "reach": "Reach",
+      "scheduled": "Scheduled"
+    },
+    "status": {
+      "live": "LIVE",
+      "active": "ACTIVE",
+      "queued": "QUEUED",
+      "published": "PUBLISHED",
+      "optimizing": "AI OPTIMIZING",
+      "ready": "READY",
+      "processing": "PROCESSING",
+      "scheduled": "SCHEDULED"
+    }
+  },
+  "crm": {
+    "hero": {
+      "badge": "CUSTOMER RELATIONSHIP INTELLIGENCE",
+      "title1": "Revenue",
+      "title2": "Relationship Engine",
+      "description": "AI customer intelligence synchronized with reservations, POS, marketing and profitability runtime."
+    },
+    "value": {
+      "badge": "RELATIONSHIP VALUE",
+      "description": "Predicted customer lifetime value"
+    },
+    "pipeline": {
+      "leads": "新客户",
+      "vip": "VIP 客户",
+      "events": "活动客户",
+      "returning": "回头客",
+      "description": "AI runtime tracking active"
+    },
+    "runtime": {
+      "badge": "LIVE CRM INTELLIGENCE",
+      "title": "Revenue Interactions"
+    },
+    "interactions": {
+      "vipReservation": "VIP reservation booked",
+      "loyaltyOffer": "AI loyalty offer triggered",
+      "eventProposal": "Private event proposal sent"
+    },
+    "status": {
+      "live": "LIVE"
+    }
+  },
+  "customers": {
+    "hero": {
+      "badge": "CUSTOMER INTELLIGENCE",
+      "title1": "Guest",
+      "title2": "Behavior Runtime",
+      "description": "AI continuously learns customer preferences, spending patterns, reservation behavior, and profitability signals across locations."
+    },
+    "labels": {
+      "favorite": "最喜爱",
+      "visits": "到访次数",
+      "spend": "消费"
+    },
+    "favorites": {
+      "wagyuWine": "和牛 + 红酒",
+      "cocktails": "鸡尾酒",
+      "privateEvents": "私人活动"
+    },
+    "insights": {
+      "wineDemand": "VIP guests increasing premium wine demand",
+      "tastingMenus": "Returning customers respond strongly to tasting menus",
+      "personalization": "High-spend guests prefer reservation personalization",
+      "multilocation": "Beach club events driving multi-location traffic"
+    },
+    "signals": {
+      "badge": "AI CUSTOMER SIGNALS",
+      "title": "Behavioral Intelligence",
+      "description": "AI synchronization runtime active"
+    }
+  },
+  "tables": {
+    "hero": {
+      "badge": "TABLE RUNTIME",
+      "title": "Dining Floor Live",
+      "description": "餐桌、厨房、酒吧、Expo、服务和支付流程实时同步。"
+    },
+    "floor": {
+      "badge": "FLOOR STATUS",
+      "active": "ACTIVE"
+    },
+    "cards": {
+      "activeTables": {
+        "title": "活跃餐桌",
+        "description": "Runtime synchronized"
+      },
+      "guests": {
+        "title": "用餐客人",
+        "description": "Live floor occupancy"
+      },
+      "avgTicket": {
+        "title": "平均消费",
+        "description": "Operational average"
+      },
+      "paymentQueue": {
+        "title": "支付队列",
+        "description": "Awaiting settlement"
+      }
+    },
+    "table": {
+      "badge": "LIVE TABLE",
+      "guests": "客人",
+      "total": "当前总额",
+      "runtime": "Runtime synchronized",
+      "live": "LIVE"
+    },
+    "actions": {
+      "viewFlow": "VIEW FLOW",
+      "kitchenBar": "Kitchen + Bar",
+      "payment": "PAYMENT",
+      "settle": "Settle Runtime"
+    },
+    "status": {
+      "dining": "用餐中",
+      "waitingFood": "等待上菜",
+      "payment": "待付款",
+      "highValue": "高价值客户"
+    }
+  },
+  "expo": {
+    "hero": {
+      "badge": "EXPO COORDINATION",
+      "title": "Service Synchronization",
+      "description": "厨房和酒吧订单通过 Expo 同步后再发送至餐桌和支付流程。"
+    },
+    "runtime": {
+      "badge": "EXPO STATUS",
+      "active": "ACTIVE"
+    },
+    "cards": {
+      "waiting": {
+        "title": "等待 Expo",
+        "description": "等待同步"
+      },
+      "ready": {
+        "title": "准备上菜",
+        "description": "可派送"
+      },
+      "runners": {
+        "title": "活跃传菜员",
+        "description": "Runtime synchronized"
+      },
+      "dispatch": {
+        "title": "平均派送时间",
+        "description": "Service runtime stable"
+      }
+    },
+    "order": {
+      "badge": "EXPO ORDER",
+      "ready": "Ready for synchronization",
+      "runner": "Assigned Runner",
+      "runtime": "Runtime",
+      "sync": "Operational synchronization active"
+    },
+    "actions": {
+      "callRunner": "CALL RUNNER",
+      "dispatch": "Dispatch Service",
+      "served": "SERVED",
+      "close": "Close Expo Flow"
+    },
+    "sources": {
+      "kitchen": "厨房",
+      "bar": "酒吧",
+      "kitchenBar": "厨房 + 酒吧"
+    },
+    "status": {
+      "readyForService": "准备上菜",
+      "waitingRunner": "等待传菜员",
+      "serving": "服务中"
+    }
+  },
+  "projects": {
+    "hero": {
+      "badge": "MULTI-LOCATION DEPLOYMENT",
+      "title1": "Enterprise",
+      "title2": "Rollout Engine",
+      "description": "面向餐厅、海滩俱乐部、咖啡馆和酒店行业的运营系统部署。"
+    },
+    "global": {
+      "badge": "GLOBAL STATUS",
+      "description": "正在运行的部署"
+    },
+    "labels": {
+      "progress": "进度"
+    },
+    "stack": {
+      "badge": "DEPLOYMENT STACK",
+      "title": "Runtime Layers",
+      "description": "Enterprise synchronization layer"
+    },
+    "phases": {
+      "operationalDeployment": "运营部署",
+      "aiSynchronization": "AI 同步",
+      "inventoryArchitecture": "库存架构"
+    },
+    "status": {
+      "liveBuild": "运行中",
+      "integration": "集成中",
+      "planning": "规划中"
+    },
+    "layers": {
+      "pos": "POS Runtime",
+      "kitchen": "Kitchen Synchronization",
+      "inventory": "Inventory Intelligence",
+      "payroll": "Payroll Engine",
+      "ai": "AI Forecasting",
+      "accounting": "Accounting Runtime"
+    }
+  },
+  "documents": {
+    "hero": {
+      "badge": "DOCUMENT INTELLIGENCE",
+      "title1": "Enterprise",
+      "title2": "Documents",
+      "description": "AI同步的合同、发票、报告、薪资审批、采购文件和运营记录。"
+    },
+    "storage": {
+      "badge": "STORAGE STATUS",
+      "live": "LIVE",
+      "description": "云同步已启用"
+    },
+    "actions": {
+      "open": "打开",
+      "download": "下载",
+      "analyze": "AI 分析"
+    },
+    "types": {
+      "procurement": "采购",
+      "hr": "人力资源",
+      "operations": "运营",
+      "marketing": "市场营销"
+    },
+    "status": {
+      "synced": "已同步",
+      "pending": "待处理",
+      "approved": "已批准",
+      "archived": "已归档"
+    }
+  }
+}

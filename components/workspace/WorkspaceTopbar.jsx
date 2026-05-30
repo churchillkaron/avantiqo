@@ -1,8 +1,14 @@
 "use client";
 
+import LanguageSwitcher from "@/app/components/LanguageSwitcher";
+import { useTranslation } from "@/app/providers/I18nProvider";
+
 export default function WorkspaceTopbar() {
+
+  const { t } = useTranslation();
+
   return (
-   <header className="sticky top-25 z-50 mb-8">
+    <header className="sticky top-25 z-50 mb-8">
 
       <div className="relative overflow-hidden rounded-[34px] border border-white/[0.05] bg-white/[0.025] px-8 py-5 backdrop-blur-3xl">
 
@@ -16,7 +22,7 @@ export default function WorkspaceTopbar() {
             <div>
 
               <div className="text-xs tracking-[0.3em] text-[#B58AF8]">
-                ACTIVE ORGANIZATION
+                {t("workspace.activeOrganization")}
               </div>
 
               <div
@@ -26,7 +32,7 @@ export default function WorkspaceTopbar() {
                   letterSpacing: "-0.04em",
                 }}
               >
-                Avantiqo Enterprise
+                {t("workspace.enterprise")}
               </div>
 
             </div>
@@ -39,7 +45,7 @@ export default function WorkspaceTopbar() {
             <div className="w-full max-w-2xl rounded-[24px] border border-white/[0.05] bg-black/30 px-6 py-4 backdrop-blur-3xl">
 
               <div className="text-white/35">
-                Search 
+                {t("workspace.search")}
               </div>
 
             </div>
@@ -49,12 +55,14 @@ export default function WorkspaceTopbar() {
           {/* RIGHT */}
           <div className="flex items-center gap-4">
 
+            <LanguageSwitcher />
+
             <button className="rounded-[22px] border border-white/[0.05] bg-white/[0.025] px-6 py-3 text-white/65 backdrop-blur-3xl transition hover:bg-white/[0.06]">
-              AI Command
+              {t("workspace.aiCommand")}
             </button>
 
             <button className="rounded-[22px] border border-white/[0.05] bg-white/[0.025] px-6 py-3 text-white/65 backdrop-blur-3xl transition hover:bg-white/[0.06]">
-              Notifications
+              {t("workspace.notifications")}
             </button>
 
             <div className="flex items-center gap-4 rounded-[24px] border border-white/[0.05] bg-black/30 px-6 py-3 backdrop-blur-3xl">
@@ -70,7 +78,7 @@ export default function WorkspaceTopbar() {
                 </div>
 
                 <div className="text-xs text-white/40">
-                  Super Admin
+                  {t("workspace.superAdmin")}
                 </div>
 
               </div>

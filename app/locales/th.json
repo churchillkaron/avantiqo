@@ -1,0 +1,1364 @@
+{
+  "brand": {
+    "name": "AVANTIQO",
+    "tagline": "ระบบปฏิบัติการปัญญาสังเคราะห์"
+  },
+  "topnav": {
+    "platform": "แพลตฟอร์ม",
+    "industries": "อุตสาหกรรม",
+    "modules": "โมดูล",
+    "aiRuntime": "ระบบ AI",
+    "security": "ความปลอดภัย",
+    "signIn": "เข้าสู่ระบบ",
+    "workspace": "เวิร์กสเปซ",
+    "startSetup": "เริ่มต้นระบบ"
+  },
+  "home": {
+    "hero": {
+      "badge": "ระบบปฏิบัติการปัญญาสังเคราะห์",
+      "title1": "จุดที่การดำเนินธุรกิจ",
+      "title2": "กลายเป็นปัญญาทางการเงิน",
+      "description": "Avantiqo เชื่อมโยงการดำเนินงานของธุรกิจเข้ากับบัญชี การเงิน เอกสาร เงินเดือน การอนุมัติ และการปฏิบัติจริง ผ่านชั้นปัญญาสังเคราะห์เดียว ทุกเหตุการณ์ทางธุรกิจกลายเป็นปัญญาทางการเงินแบบเรียลไทม์",
+      "book_demo": "สัมผัส Avantiqo",
+      "start_setup": "สำหรับสำนักงานบัญชี",
+      "trust": "สร้างขึ้นสำหรับสำนักงานบัญชี เจ้าของธุรกิจ กลุ่มบริษัทหลายนิติบุคคล และองค์กรที่พร้อมก้าวข้ามซอฟต์แวร์ที่แยกจากกัน",
+      "image_caption": "จากความจริงของธุรกิจสู่ปัญญาทางการเงิน"
+    },
+    "accounting": {
+      "badge": "จุดจบของช่องว่างระหว่างธุรกิจและบัญชี",
+      "title1": "บัญชีไม่ควรเริ่มต้น",
+      "title2": "หลังจากสิ้นเดือน",
+      "description": "ธุรกิจทำงานอยู่โลกหนึ่ง ส่วนสำนักงานบัญชีทำงานอยู่อีกโลกหนึ่งมานานหลายสิบปี Avantiqo ปิดช่องว่างนี้ด้วยการเปลี่ยนการดำเนินงาน ใบแจ้งหนี้ เงินเดือน การจัดซื้อ เอกสาร และการอนุมัติ ให้เป็นปัญญาทางการเงินแบบสด"
+    },
+    "pillars": {
+      "operations": {
+        "badge": "01",
+        "title": "ความจริงของธุรกิจ",
+        "description": "รายได้ ต้นทุน พนักงาน สต็อก โปรเจกต์ เอกสาร และการอนุมัติ ถูกบันทึกในขณะที่ธุรกิจกำลังดำเนินอยู่"
+      },
+      "accounting": {
+        "badge": "02",
+        "title": "ปัญญาทางการเงิน",
+        "description": "กิจกรรมทางธุรกิจกลายเป็นข้อมูลพร้อมสำหรับบัญชี แทนที่จะเป็นเอกสารล่าช้า สเปรดชีต และการกระทบยอดด้วยมือ"
+      },
+      "firms": {
+        "badge": "03",
+        "title": "สำนักงานบัญชี",
+        "description": "สำนักงานบัญชีสามารถติดตามลูกค้าได้ต่อเนื่อง ตรวจพบความเสี่ยงเร็วขึ้น และเปลี่ยนจากงานบันทึกบัญชีไปสู่บริการที่ปรึกษามูลค่าสูง"
+      },
+      "execution": {
+        "badge": "04",
+        "title": "การดำเนินงานระดับองค์กร",
+        "description": "ระบบไม่หยุดแค่รายงาน แต่ประสานการอนุมัติ การกำกับดูแล เวิร์กโฟลว์ และความรับผิดชอบในการดำเนินงาน"
+      }
+    },
+    "synthetic": {
+      "badge": "ทำไมต้องปัญญาสังเคราะห์",
+      "title1": "ปัญญาประดิษฐ์ตอบคำถาม",
+      "title2": "ปัญญาสังเคราะห์ดำเนินธุรกิจ",
+      "description": "AI สามารถสร้างข้อความ รูปภาพ และรายงานได้ แต่ปัญญาสังเคราะห์เข้าใจว่าธุรกิจทำงานอย่างไรจริง ๆ มันเชื่อมผู้คน เงิน เอกสาร ลูกค้า ซัพพลายเออร์ เวิร์กโฟลว์ การตัดสินใจ และบัญชี เข้ากับชั้นปฏิบัติการเดียวที่มีชีวิต",
+      "formulaBadge": "สูตรของ AVANTIQO",
+      "formula": "การดำเนินธุรกิจ + ปัญญาบัญชี + ความทรงจำองค์กร + การลงมือทำ = ปัญญาสังเคราะห์"
+    },
+    "cta": {
+      "badge": "ครอบครองอนาคตของบัญชี",
+      "title1": "จากการทำบัญชี",
+      "title2": "สู่ปัญญาธุรกิจ",
+      "title3": "ขับเคลื่อนด้วยปัญญาสังเคราะห์",
+      "description": "สำนักงานบัญชีที่เชื่อมต่อโดยตรงกับการดำเนินงานของลูกค้า จะไม่เพียงรายงานอดีต แต่จะเข้าใจปัจจุบัน คาดการณ์ความเสี่ยง ช่วยตัดสินใจ และทำให้ธุรกิจทำงานได้ดีขึ้น"
+    }
+  },
+  "navigation": {
+    "dashboard": "แดชบอร์ด",
+    "operations": "การดำเนินงาน",
+    "inventory": "สต็อก",
+    "production": "การผลิต",
+    "finance": "การเงิน",
+    "marketing": "การตลาด",
+    "settings": "ตั้งค่า",
+    "pos": "POS",
+    "kitchen": "ครัว",
+    "expo": "เอ็กซ์โป",
+    "reservations": "การจอง",
+    "dishStock": "สต็อกอาหาร",
+    "ingredientStock": "สต็อกวัตถุดิบ",
+    "procurement": "จัดซื้อ",
+    "accounting": "บัญชี",
+    "payroll": "เงินเดือน",
+    "hr": "HR",
+    "projects": "โปรเจกต์",
+    "crm": "CRM",
+    "customers": "ลูกค้า",
+    "designStudio": "ดีไซน์สตูดิโอ",
+    "documents": "เอกสาร"
+  },
+  "workspace": {
+    "activeProvider": "ผู้ให้บริการที่ใช้งาน",
+    "runtime": "Churchill Runtime",
+    "start": "เริ่มต้น",
+    "login": "เข้าสู่ระบบ",
+    "modules": "โมดูล",
+    "designStudio": "ดีไซน์สตูดิโอ"
+  },
+  "accounting": {
+    "hero": {
+      "badge": "ระบบบัญชี",
+      "title": "ระบบบัญชีอัจฉริยะ",
+      "description": "จัดซื้อ รายได้ เงินเดือน สต็อก และ AI เชื่อมต่อเข้าสู่ระบบบัญชีอัตโนมัติ",
+      "statusLabel": "สถานะบัญชี",
+      "status": "สมดุล"
+    },
+    "metrics": {
+      "entries": {
+        "title": "รายการบัญชี",
+        "description": "ซิงค์ระบบแล้ว"
+      },
+      "payables": {
+        "title": "เจ้าหนี้ค้างชำระ",
+        "description": "ภาระหนี้ซัพพลายเออร์"
+      },
+      "cashflow": {
+        "title": "กระแสเงินสด",
+        "description": "สถานะการเงินมั่นคง",
+        "value": "เป็นบวก"
+      },
+      "audit": {
+        "title": "AI ตรวจสอบบัญชี",
+        "description": "ระบบตรวจสอบกำลังทำงาน",
+        "value": "LIVE"
+      }
+    },
+    "entries": {
+      "badge": "บัญชีเรียลไทม์",
+      "title": "รายการการเงิน",
+      "items": {
+        "invoicePosted": {
+          "title": "ลงบัญชีใบแจ้งหนี้แล้ว",
+          "account": "เจ้าหนี้การค้า"
+        },
+        "revenue": {
+          "title": "รายได้ร้านอาหาร",
+          "account": "รายได้จากการขาย"
+        },
+        "payroll": {
+          "title": "จัดสรรเงินเดือน",
+          "account": "ค่าแรง"
+        }
+      }
+    },
+    "approvals": {
+      "badge": "ระบบอนุมัติ",
+      "title": "AI ตรวจสอบข้อมูล",
+      "active": "AI ทำงาน",
+      "description": "ระบบซิงค์บัญชีอัตโนมัติ",
+      "items": {
+        "ocr": {
+          "title": "AI อ่านใบแจ้งหนี้"
+        },
+        "match": {
+          "title": "ตรวจสอบการจัดซื้อ"
+        },
+        "journal": {
+          "title": "สมุดบัญชี"
+        }
+      }
+    },
+    "status": {
+      "posted": "บันทึกแล้ว",
+      "synced": "ซิงค์แล้ว",
+      "processing": "กำลังประมวลผล",
+      "approved": "อนุมัติแล้ว",
+      "matched": "ตรงกัน",
+      "ready": "พร้อม"
+    }
+  },
+  "finance": {
+    "hero": {
+      "badge": "ระบบการเงิน",
+      "title": "ระบบการเงินอัจฉริยะ",
+      "description": "รายได้ กำไร ต้นทุนแรงงาน สต็อก จัดซื้อ และบัญชี ซิงค์แบบเรียลไทม์",
+      "statusLabel": "สถานะการเงิน",
+      "status": "ซิงค์แล้ว"
+    },
+    "cards": {
+      "runtime": "ซิงค์ระบบแล้ว",
+      "revenue": {
+        "title": "รายได้วันนี้"
+      },
+      "profit": {
+        "title": "กำไรสุทธิ"
+      },
+      "labor": {
+        "title": "ต้นทุนแรงงาน"
+      },
+      "food": {
+        "title": "ต้นทุนอาหาร"
+      }
+    },
+    "transactions": {
+      "badge": "ธุรกรรมเรียลไทม์",
+      "title": "ระบบการเงิน",
+      "description": "ระบบการเงินกำลังซิงค์",
+      "sales": {
+        "title": "ยอดขาย Wagyu Burger"
+      },
+      "invoice": {
+        "title": "ประมวลผลใบแจ้งหนี้แล้ว"
+      },
+      "payroll": {
+        "title": "จัดสรรเงินเดือน"
+      }
+    },
+    "ai": {
+      "badge": "AI การเงิน",
+      "title": "ระบบวิเคราะห์กำไร",
+      "active": "AI ทำงาน",
+      "insights": {
+        "margin": {
+          "title": "กำไร Wagyu เพิ่มขึ้น",
+          "description": "AI ตรวจพบกำไรเพิ่มจากการขายเมนูพรีเมียม"
+        },
+        "labor": {
+          "title": "ต้นทุนแรงงานเพิ่มขึ้น",
+          "description": "AI คาดการณ์ต้นทุนครัวช่วงดินเนอร์เพิ่มขึ้น"
+        },
+        "procurement": {
+          "title": "การจัดซื้อมีประสิทธิภาพ",
+          "description": "ระบบซัพพลายเออร์ช่วยลดต้นทุนจัดซื้อ 12%"
+        }
+      }
+    },
+    "status": {
+      "live": "LIVE",
+      "synced": "ซิงค์แล้ว",
+      "processing": "กำลังประมวลผล"
+    }
+  },
+  "inventory": {
+    "hero": {
+      "badge": "ระบบสต็อก",
+      "title": "ระบบสต็อกอัจฉริยะ",
+      "description": "สต็อกวัตถุดิบและสต็อกการผลิตเชื่อมต่อจาก POS การผลิต การจัดซื้อ และระบบปฏิบัติการแบบเรียลไทม์",
+      "statusLabel": "สถานะสต็อก",
+      "status": "ซิงค์แล้ว"
+    },
+    "cards": {
+      "ingredients": {
+        "title": "รายการวัตถุดิบ",
+        "description": "ติดตามสต็อกแบบเรียลไทม์"
+      },
+      "batch": {
+        "title": "การผลิตแบบ Batch",
+        "description": "สต็อกเตรียมพร้อมใช้งาน"
+      },
+      "risk": {
+        "title": "สัญญาณความเสี่ยง AI",
+        "description": "มีการแจ้งเตือนสต็อก"
+      },
+      "procurement": {
+        "title": "ซิงค์การจัดซื้อ",
+        "description": "เชื่อมต่อระบบใบแจ้งหนี้"
+      }
+    },
+    "batch": {
+      "badge": "สต็อกการผลิต",
+      "title": "การผลิตที่เตรียมไว้",
+      "type": "สต็อกการผลิต",
+      "wagyu": "เนื้อ Wagyu",
+      "buns": "ขนมปังเบอร์เกอร์",
+      "sauce": "ซอสมะเขือเทศ",
+      "fries": "เฟรนช์ฟรายส์"
+    },
+    "ingredients": {
+      "badge": "สต็อกวัตถุดิบ",
+      "title": "ระบบวัตถุดิบ",
+      "usage": "การใช้",
+      "tomatoes": "มะเขือเทศ",
+      "lettuce": "ผักกาด",
+      "potatoes": "มันฝรั่ง",
+      "cheese": "ชีสเชดดาร์"
+    },
+    "status": {
+      "live": "LIVE",
+      "good": "ปกติ",
+      "stable": "เสถียร",
+      "low": "ต่ำ",
+      "warning": "เตือน"
+    }
+  },
+  "procurement": {
+    "hero": {
+      "badge": "ระบบจัดซื้อ",
+      "title": "ระบบจัดซื้ออัจฉริยะ",
+      "description": "การจัดซื้อเชื่อมต่อกับสต็อก บัญชี AI พยากรณ์ และระบบกำไรแบบเรียลไทม์",
+      "statusLabel": "สถานะจัดซื้อ",
+      "status": "ACTIVE"
+    },
+    "cards": {
+      "orders": {
+        "title": "ใบสั่งซื้อเปิดอยู่",
+        "description": "ซิงค์ระบบแล้ว"
+      },
+      "deliveries": {
+        "title": "การจัดส่งวันนี้",
+        "description": "อัปเดตสต็อกแล้ว"
+      },
+      "invoice": {
+        "title": "ระบบใบแจ้งหนี้อัตโนมัติ",
+        "description": "OCR กำลังทำงาน"
+      },
+      "suppliers": {
+        "title": "ซิงค์ซัพพลายเออร์",
+        "description": "AI พยากรณ์ความต้องการ"
+      }
+    },
+    "sections": {
+      "procurement": {
+        "badge": "จัดซื้อเรียลไทม์",
+        "title": "ใบสั่งซื้อ"
+      },
+      "invoice": {
+        "badge": "AI FLOW ใบแจ้งหนี้",
+        "title": "ซิงค์ระบบบัญชี",
+        "active": "AI ACTIVE",
+        "description": "ระบบจัดซื้อซิงค์แล้ว"
+      }
+    },
+    "suppliers": {
+      "farm": "Phuket Fresh Farm",
+      "wagyu": "Premium Wagyu Co.",
+      "ocean": "Ocean Beverage"
+    },
+    "items": {
+      "tomatoes": "มะเขือเทศ 40kg",
+      "wagyu": "เนื้อ Wagyu",
+      "wine": "เติมสต็อกไวน์"
+    },
+    "flow": {
+      "upload": "อัปโหลดรูปใบแจ้งหนี้",
+      "ocr": "AI OCR อ่านข้อมูล",
+      "inventory": "ซิงค์สต็อก",
+      "accounting": "ลงบัญชี"
+    },
+    "status": {
+      "live": "LIVE",
+      "active": "ACTIVE",
+      "delivered": "จัดส่งแล้ว",
+      "transit": "กำลังขนส่ง",
+      "approval": "รออนุมัติ",
+      "complete": "เสร็จสมบูรณ์",
+      "processing": "กำลังประมวลผล"
+    }
+  },
+  "production": {
+    "hero": {
+      "badge": "ระบบการผลิต",
+      "title": "Batch + À La Minute",
+      "description": "ระบบการผลิตซิงค์สต็อกที่เตรียมไว้กับการใช้วัตถุดิบแบบเรียลไทม์ระหว่างการบริการ",
+      "statusLabel": "สถานะการผลิต",
+      "status": "กำลังทำงาน"
+    },
+    "sections": {
+      "batch": {
+        "badge": "การผลิตแบบ Batch",
+        "title": "ระบบสต็อกที่เตรียมไว้",
+        "produced": "ผลิตแล้ว"
+      },
+      "consumption": {
+        "badge": "การใช้วัตถุดิบแบบเรียลไทม์",
+        "title": "ระบบ À La Minute",
+        "deduction": "ตัดสต็อกสด"
+      }
+    },
+    "batch": {
+      "wagyu": "เนื้อ Wagyu",
+      "buns": "ขนมปังเบอร์เกอร์",
+      "sauce": "ซอสมะเขือเทศ"
+    },
+    "ingredients": {
+      "tomatoes": "มะเขือเทศ",
+      "potatoes": "มันฝรั่ง",
+      "lettuce": "ผักกาด"
+    },
+    "consumption": {
+      "burger": "1 Wagyu Burger",
+      "fries": "เฟรนช์ฟรายส์ 1 ที่",
+      "assembly": "ประกอบเบอร์เกอร์ 1 ชุด"
+    },
+    "status": {
+      "live": "LIVE",
+      "active": "ACTIVE",
+      "good": "ปกติ",
+      "low": "ต่ำ"
+    }
+  },
+  "dashboard": {
+    "hero": {
+      "badge": "ศูนย์ควบคุมผู้บริหาร",
+      "title": "ระบบ Enterprise Runtime",
+      "description": "ระบบวิเคราะห์ปฏิบัติการแบบเรียลไทม์ ครอบคลุมการเงิน การผลิต การจัดซื้อ แรงงาน และ AI orchestration",
+      "statusLabel": "สถานะระบบ",
+      "status": "Operational"
+    },
+    "cards": {
+      "revenue": {
+        "title": "รายได้วันนี้",
+        "description": "+18.4% การเติบโตของระบบ"
+      },
+      "profit": {
+        "title": "กำไรสุทธิ",
+        "description": "กำไรระบบแบบเรียลไทม์"
+      },
+      "kitchen": {
+        "title": "ประสิทธิภาพครัว",
+        "description": "การซิงค์ระบบเสถียร"
+      },
+      "forecast": {
+        "title": "AI Forecast",
+        "description": "คาดการณ์ยอดดินเนอร์พุ่งสูง"
+      }
+    },
+    "locations": {
+      "badge": "สาขาแบบเรียลไทม์",
+      "title": "ระบบหลายสาขา",
+      "today": "วันนี้",
+      "churchill": "Restaurant Runtime Active",
+      "mongos": "Café Runtime Active",
+      "yona": "Beach Club Runtime Active"
+    },
+    "ai": {
+      "badge": "AI OPERATIONAL FEED",
+      "title": "ระบบวิเคราะห์ Runtime",
+      "active": "AI ACTIVE",
+      "tomato": {
+        "title": "ความเสี่ยงสต็อกมะเขือเทศ",
+        "description": "AI คาดการณ์ว่าสต็อกจะหมดภายใน 5 ชั่วโมง"
+      },
+      "fryer": {
+        "title": "คาดการณ์ความแออัดของ Fryer",
+        "description": "โหลดครัวอาจเกิน 84%"
+      },
+      "profit": {
+        "title": "กำไรเพิ่มขึ้น",
+        "description": "Wagyu + wine pairing ทำผลงานสูงกว่าค่าเฉลี่ย 18%"
+      },
+      "procurement": {
+        "title": "ระบบจัดซื้อซิงค์แล้ว",
+        "description": "ใบแจ้งหนี้ซัพพลายเออร์และสต็อกอัปเดตอัตโนมัติ"
+      }
+    },
+    "status": {
+      "live": "LIVE"
+    }
+  },
+  "hr": {
+    "hero": {
+      "badge": "ระบบวิเคราะห์บุคลากร",
+      "title1": "Workforce",
+      "title2": "Synchronization",
+      "description": "AI ตรวจสอบความเครียด ประสิทธิภาพ เงินเดือน การเข้างาน และสมดุลแรงงาน"
+    },
+    "staff": {
+      "badge": "สภาพพนักงานแบบเรียลไทม์",
+      "title": "Operational Pulse",
+      "mood": "อารมณ์",
+      "energy": "พลังงาน",
+      "risk": "ความเสี่ยง Burnout"
+    },
+    "ai": {
+      "badge": "AI LABOR SIGNALS",
+      "title": "Predictive HR",
+      "burnout": {
+        "title": "ตรวจพบความเสี่ยง Burnout",
+        "description": "ชั่วโมง OT ของทีมบริการเพิ่มขึ้นช่วงดินเนอร์"
+      },
+      "performance": {
+        "title": "พบพนักงานผลงานสูง",
+        "description": "ประสิทธิภาพครัวสูงกว่าค่าเฉลี่ยเดิม"
+      },
+      "training": {
+        "title": "โอกาสในการฝึกอบรม",
+        "description": "AI แนะนำให้ฝึก Expo Runner เพิ่ม"
+      }
+    },
+    "payroll": {
+      "badge": "PAYROLL SYNCHRONIZATION",
+      "description": "การเข้างาน ประสิทธิภาพ ความสาย operational score และ service charge เชื่อมต่อเข้าสู่ payroll runtime โดยตรง"
+    },
+    "roles": {
+      "kitchen": "หัวหน้าครัว",
+      "floor": "หัวหน้าฟลอร์",
+      "bar": "หัวหน้าบาร์"
+    },
+    "moods": {
+      "focused": "โฟกัสสูง",
+      "overloaded": "งานหนักเกินไป",
+      "performance": "ผลงานสูง"
+    },
+    "risk": {
+      "low": "ต่ำ",
+      "medium": "กลาง"
+    },
+    "status": {
+      "live": "LIVE"
+    }
+  },
+  "payroll": {
+    "hero": {
+      "badge": "ระบบ PAYROLL",
+      "title": "Performance Payroll Engine",
+      "description": "Payroll เชื่อมต่อโดยตรงจาก attendance, performance, service charge และ approvals",
+      "statusLabel": "สถานะ PAYROLL"
+    },
+    "cards": {
+      "staff": {
+        "title": "พนักงาน Payroll",
+        "description": "พนักงานในระบบ payroll"
+      },
+      "service": {
+        "title": "Service Charge Pool",
+        "description": "กำลังกระจายผลตอบแทน"
+      },
+      "performance": {
+        "title": "ค่าเฉลี่ย Performance",
+        "description": "AI performance scoring"
+      },
+      "approval": {
+        "title": "อนุมัติ Payroll",
+        "description": "Manager synchronization"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE PAYROLL"
+    },
+    "flowSection": {
+      "badge": "PAYROLL FLOW",
+      "title": "Runtime Synchronization",
+      "active": "AI ACTIVE",
+      "processing": "กำลังประมวลผล payroll runtime"
+    },
+    "flow": {
+      "attendance": "ซิงค์การเข้างานแล้ว",
+      "performance": "คำนวณ performance score แล้ว",
+      "serviceCharge": "จัดสรร service charge แล้ว",
+      "approval": "Manager approval active",
+      "accounting": "Accounting payout processing"
+    },
+    "roles": {
+      "kitchen": "ครัว",
+      "service": "บริการ",
+      "bar": "บาร์"
+    },
+    "status": {
+      "approved": "อนุมัติแล้ว",
+      "pending": "รอดำเนินการ",
+      "processing": "กำลังประมวลผล",
+      "active": "ACTIVE",
+      "live": "LIVE"
+    }
+  },
+  "reservations": {
+    "hero": {
+      "badge": "ระบบจองโต๊ะ",
+      "title": "Guest Coordination",
+      "description": "ระบบจองโต๊ะเชื่อมต่อกับโต๊ะ ครัว การจัดพนักงาน และ AI demand planning",
+      "statusLabel": "สถานะการจอง"
+    },
+    "cards": {
+      "today": {
+        "title": "การจองวันนี้",
+        "description": "Runtime synchronized"
+      },
+      "guests": {
+        "title": "จำนวนลูกค้าที่คาดการณ์",
+        "description": "AI forecast active"
+      },
+      "spend": {
+        "title": "คาดการณ์ยอดใช้จ่าย",
+        "description": "AI profitability prediction"
+      },
+      "waitlist": {
+        "title": "Waitlist Queue",
+        "description": "Table optimization active"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE RESERVATION",
+      "table": "โต๊ะ",
+      "guests": "ลูกค้า",
+      "arrival": "เวลาเข้า",
+      "spend": "คาดการณ์ยอดใช้จ่าย",
+      "aiTitle": "AI Coordination Active",
+      "aiDescription": "ครัว พนักงาน และ flow โต๊ะ ซิงค์อัตโนมัติ"
+    },
+    "actions": {
+      "checkin": "CHECK-IN",
+      "start": "เริ่ม Dining Flow",
+      "view": "ดูโต๊ะ",
+      "status": "Runtime Status"
+    },
+    "spending": {
+      "high": "HIGH VALUE",
+      "dinner": "DINNER",
+      "event": "EVENT"
+    },
+    "status": {
+      "live": "LIVE",
+      "arriving": "กำลังมา",
+      "confirmed": "ยืนยันแล้ว",
+      "waitlist": "WAITLIST"
+    }
+  },
+  "pos": {
+    "hero": {
+      "badge": "POINT OF SALE",
+      "title": "Live Ordering Runtime",
+      "description": "ออเดอร์เชื่อมต่ออัตโนมัติไปยังครัว บาร์ inventory profitability AI และ accounting",
+      "statusLabel": "สถานะ POS"
+    },
+    "tables": {
+      "badge": "เลือกโต๊ะ",
+      "title": "โต๊ะที่ใช้งาน",
+      "active": "14 ACTIVE",
+      "runtime": "Open Runtime"
+    },
+    "menu": {
+      "badge": "MENU RUNTIME",
+      "title": "เมนูแบบเรียลไทม์",
+      "aiPricing": "AI PRICING ACTIVE",
+      "runtime": "Runtime synchronized",
+      "add": "เพิ่มเข้าออเดอร์"
+    },
+    "order": {
+      "badge": "CURRENT ORDER",
+      "kitchenRouting": "Kitchen Routing",
+      "barRouting": "Bar Routing",
+      "subtotal": "ยอดรวม",
+      "serviceCharge": "Service Charge",
+      "total": "รวมทั้งหมด",
+      "send": "ส่งออเดอร์",
+      "routing": "ส่งอัตโนมัติไปยัง kitchen + bar + inventory"
+    },
+    "runtime": {
+      "badge": "LIVE RUNTIME",
+      "title": "Operational Sync",
+      "kitchenTitle": "Kitchen Runtime",
+      "kitchenDescription": "Wagyu Burger ถูกส่งไปยัง grill station",
+      "inventoryTitle": "Inventory Runtime",
+      "inventoryDescription": "Patties buns tomato fries ถูกอัปเดตอัตโนมัติ",
+      "profitTitle": "Profitability Runtime",
+      "profitDescription": "AI กำลังคำนวณ operational margin"
+    },
+    "categories": {
+      "burgers": "เบอร์เกอร์",
+      "starters": "ของทานเล่น",
+      "drinks": "เครื่องดื่ม",
+      "desserts": "ของหวาน"
+    },
+    "dishes": {
+      "wagyu": "Wagyu Burger",
+      "fries": "Truffle Fries",
+      "wine": "Red Wine",
+      "salad": "Caesar Salad"
+    },
+    "status": {
+      "live": "LIVE",
+      "active": "ACTIVE",
+      "highDemand": "HIGH DEMAND",
+      "liveCooking": "LIVE COOKING",
+      "barRouting": "BAR ROUTING",
+      "freshPrep": "FRESH PREP"
+    }
+  },
+  "kitchen": {
+    "hero": {
+      "badge": "KITCHEN DISPLAY SYSTEM",
+      "title": "Kitchen Runtime",
+      "description": "ออเดอร์เชื่อมต่อจาก POS ไปยัง production flow, inventory, timing, labor และ expo coordination",
+      "statusLabel": "สถานะครัว"
+    },
+    "cards": {
+      "new": {
+        "title": "ออเดอร์ใหม่",
+        "description": "รอการผลิต"
+      },
+      "cooking": {
+        "title": "กำลังทำอาหาร",
+        "description": "Active kitchen runtime"
+      },
+      "ready": {
+        "title": "พร้อมส่ง Expo",
+        "description": "รอการส่งออก"
+      },
+      "ticket": {
+        "title": "เวลาเฉลี่ยต่อ Ticket",
+        "description": "Runtime synchronized"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE ORDER",
+      "ticket": "Ticket Runtime"
+    },
+    "actions": {
+      "start": "เริ่ม",
+      "begin": "เริ่มทำอาหาร",
+      "hold": "พัก",
+      "pause": "หยุด runtime",
+      "ready": "พร้อม",
+      "expo": "ส่งไป Expo",
+      "issue": "ปัญหา",
+      "problem": "Runtime Problem",
+      "expoReady": "EXPO",
+      "await": "รอรับ",
+      "complete": "เสร็จสิ้น",
+      "closed": "Runtime Closed"
+    },
+    "dishes": {
+      "wagyu": "Wagyu Burger",
+      "fries": "Truffle Fries",
+      "ribeye": "Ribeye Steak",
+      "salad": "Caesar Salad"
+    },
+    "status": {
+      "active": "ACTIVE",
+      "new": "NEW",
+      "cooking": "COOKING",
+      "ready": "READY"
+    }
+  },
+  "ai": {
+    "hero": {
+      "badge": "AI INTELLIGENCE LAYER",
+      "title": "Operational Intelligence",
+      "description": "AI วิเคราะห์ operations, production, profitability, procurement, labor และ customer behavior แบบเรียลไทม์",
+      "statusLabel": "สถานะ AI"
+    },
+    "cards": {
+      "predictions": {
+        "title": "Live Predictions",
+        "description": "Runtime decisions active"
+      },
+      "accuracy": {
+        "title": "AI Accuracy",
+        "description": "Operational forecasting precision"
+      },
+      "procurement": {
+        "title": "Procurement Savings",
+        "description": "AI supplier optimization"
+      },
+      "waste": {
+        "title": "Waste Reduction",
+        "description": "Production intelligence active"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE AI DECISIONS",
+      "title": "Runtime Recommendations"
+    },
+    "learning": {
+      "badge": "AI LEARNING ENGINE",
+      "title": "Continuous Optimization",
+      "customer": {
+        "title": "Customer Behavior",
+        "description": "AI วิเคราะห์พฤติกรรมการสั่งซื้อ"
+      },
+      "signals": {
+        "title": "Operational Signals",
+        "description": "Runtime synchronization events"
+      },
+      "forecast": {
+        "title": "AI Forecast Horizon",
+        "description": "Predictive operational window"
+      },
+      "autonomous": {
+        "title": "Autonomous Operational Layer",
+        "description": "AI ประสาน procurement, labor allocation, production forecasting และ profitability optimization ทุกสาขาแบบต่อเนื่อง"
+      }
+    },
+    "signals": {
+      "inventory": {
+        "title": "ความเสี่ยง Tomato Inventory",
+        "description": "AI คาดการณ์ tomato shortage ช่วง evening peak",
+        "recommendation": "แนะนำ: สร้าง procurement request ทันที"
+      },
+      "fryer": {
+        "title": "Fryer Runtime Congestion",
+        "description": "คาดว่า fryer utilization จะเกิน 87%",
+        "recommendation": "แนะนำ: เปิด fryer station เพิ่ม"
+      },
+      "profit": {
+        "title": "High Profitability Opportunity",
+        "description": "Wagyu + wine ทำผลงานสูงกว่าคาดการณ์ 18%",
+        "recommendation": "แนะนำ: เพิ่ม promotion priority"
+      }
+    },
+    "status": {
+      "learning": "LEARNING",
+      "live": "LIVE",
+      "priority": "PRIORITY",
+      "monitoring": "MONITORING",
+      "optimized": "OPTIMIZED"
+    },
+    "commands": {
+      "staffing": "Optimize staffing allocation",
+      "forecast": "Generate operational forecast",
+      "inventory": "Recalculate inventory demand",
+      "payroll": "Analyze payroll efficiency",
+      "marketing": "Increase campaign profitability"
+    },
+    "metrics": {
+      "predictions": "124",
+      "accuracy": "94%",
+      "procurement": "฿42K",
+      "waste": "-28%",
+      "behavior": "12.4M",
+      "forecast": "72H"
+    }
+  },
+  "operations": {
+    "hero": {
+      "badge": "FULL OPERATION RUNTIME",
+      "title": "Enterprise Coordination",
+      "description": "ระบบร้านอาหารทั้งหมดเชื่อมต่อแบบเรียลไทม์ระหว่าง ordering, production, inventory, labor, AI, procurement, accounting และ profitability",
+      "statusLabel": "สถานะระบบ"
+    },
+    "cards": {
+      "orders": {
+        "title": "ออเดอร์ที่ใช้งาน",
+        "description": "Runtime active"
+      },
+      "kitchen": {
+        "title": "ภาระงานครัว",
+        "description": "Production synchronized"
+      },
+      "inventory": {
+        "title": "สถานะ Inventory",
+        "description": "AI monitoring active"
+      },
+      "procurement": {
+        "title": "Procurement Runtime",
+        "description": "Invoice sync active"
+      },
+      "profit": {
+        "title": "กำไรสุทธิวันนี้",
+        "description": "Live profitability runtime"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE OPERATION FLOW",
+      "title": "Runtime Synchronization"
+    },
+    "ai": {
+      "badge": "AI OPERATIONAL FEED",
+      "title": "Live Runtime Intelligence",
+      "description": "Runtime intelligence synchronized"
+    },
+    "sync": {
+      "badge": "ENTERPRISE SYNCHRONIZATION",
+      "title": "One Runtime Controls Everything"
+    },
+    "modules": {
+      "production": {
+        "title": "Production",
+        "description": "Batch + à la minute synchronization."
+      },
+      "inventory": {
+        "title": "Inventory",
+        "description": "Ingredient + stock movement tracking."
+      },
+      "procurement": {
+        "title": "Procurement",
+        "description": "Invoice AI + supplier synchronization."
+      },
+      "accounting": {
+        "title": "Accounting",
+        "description": "Live financial and profitability updates."
+      }
+    },
+    "flows": {
+      "posKitchen": {
+        "title": "POS → Kitchen",
+        "description": "Orders routed into live production runtime."
+      },
+      "kitchenExpo": {
+        "title": "Kitchen → Expo",
+        "description": "Production synchronized for dispatch."
+      },
+      "expoTables": {
+        "title": "Expo → Tables",
+        "description": "Service runners dispatch completed orders."
+      },
+      "tablesPayment": {
+        "title": "Tables → Payment",
+        "description": "Dining runtime linked to financial flow."
+      }
+    },
+    "alerts": {
+      "inventory": "Tomato inventory ใกล้หมด",
+      "wagyu": "ตรวจพบ Wagyu demand spike",
+      "fryer": "Kitchen fryer utilization สูง",
+      "invoice": "Supplier invoice processed automatically"
+    },
+    "status": {
+      "active": "ACTIVE",
+      "synced": "SYNCED",
+      "live": "LIVE",
+      "processing": "PROCESSING",
+      "synchronized": "SYNCHRONIZED",
+      "aiActive": "AI ACTIVE",
+      "connected": "FULLY CONNECTED"
+    }
+  },
+  "analytics": {
+    "hero": {
+      "badge": "ANALYTICS ENGINE",
+      "title": "Enterprise Analytics",
+      "description": "วิเคราะห์ operations แบบเรียลไทม์ด้าน profitability, inventory, labor, customer behavior และ production flow",
+      "statusLabel": "สถานะ Analytics"
+    },
+    "cards": {
+      "orders": {
+        "title": "Orders Processed",
+        "description": "Runtime operational events"
+      },
+      "profitability": {
+        "title": "Profitability Accuracy",
+        "description": "AI operational calculation precision"
+      },
+      "production": {
+        "title": "Production Efficiency",
+        "description": "Kitchen synchronization performance"
+      },
+      "signals": {
+        "title": "AI Runtime Signals",
+        "description": "Operational intelligence active"
+      }
+    },
+    "performance": {
+      "badge": "PERFORMANCE ANALYTICS",
+      "title": "Operational Intelligence",
+      "dish": {
+        "title": "Top Performing Dish",
+        "description": "Highest operational profitability"
+      },
+      "kitchen": {
+        "title": "Kitchen Runtime",
+        "description": "Average preparation flow",
+        "metric": "Avg ticket"
+      },
+      "procurement": {
+        "title": "Procurement Optimization",
+        "description": "AI supplier synchronization",
+        "metric": "Saved"
+      }
+    },
+    "feed": {
+      "badge": "LIVE ANALYTICS FEED",
+      "title": "Runtime Events",
+      "profit": {
+        "title": "Profitability Spike Detected",
+        "description": "Wagyu + wine combination exceeding forecast."
+      },
+      "inventory": {
+        "title": "Inventory Risk Signal",
+        "description": "Tomato inventory depletion accelerating."
+      },
+      "labor": {
+        "title": "Labor Runtime Stable",
+        "description": "Kitchen synchronization operating normally."
+      },
+      "ai": {
+        "title": "AI Learning Updated",
+        "description": "Customer behavior model retrained successfully."
+      }
+    },
+    "status": {
+      "processing": "Processing",
+      "live": "LIVE",
+      "streaming": "STREAMING",
+      "alert": "ALERT",
+      "stable": "STABLE",
+      "updated": "UPDATED"
+    }
+  },
+  "marketing": {
+    "hero": {
+      "badge": "AI MARKETING OPERATING SYSTEM",
+      "title1": "Marketing",
+      "title2": "Runtime Engine",
+      "description": "แคมเปญที่สร้างโดย AI เชื่อมต่อกับ Meta publishing, customer intelligence, revenue forecasting และ engagement analytics"
+    },
+    "performance": {
+      "badge": "AI PERFORMANCE",
+      "description": "ค่าเฉลี่ย engagement เพิ่มขึ้นจาก AI campaign optimization"
+    },
+    "cards": {
+      "campaigns": {
+        "title": "แคมเปญที่กำลังทำงาน",
+        "description": "AI synchronized"
+      },
+      "queue": {
+        "title": "Publishing Queue",
+        "description": "Meta runtime active"
+      },
+      "assets": {
+        "title": "AI Generated Assets",
+        "description": "Images + video runtime"
+      },
+      "engagement": {
+        "title": "Engagement Runtime",
+        "description": "AI optimization active"
+      }
+    },
+    "sections": {
+      "campaigns": {
+        "badge": "LIVE CAMPAIGNS",
+        "title": "Meta Runtime"
+      },
+      "queue": {
+        "badge": "PUBLISH QUEUE",
+        "title": "Meta Scheduler"
+      },
+      "optimization": {
+        "badge": "AI OPTIMIZATION",
+        "description": "AI ปรับเวลาโพสต์ กลุ่มเป้าหมาย รูปภาพ แคปชัน และกลยุทธ์ engagement อย่างต่อเนื่อง"
+      }
+    },
+    "campaigns": {
+      "wagyu": {
+        "name": "Wagyu Friday Campaign",
+        "platform": "Instagram + Facebook"
+      },
+      "vip": {
+        "name": "VIP Sunset Dinner",
+        "platform": "Instagram Reels"
+      },
+      "beach": {
+        "name": "Beach Club Event",
+        "platform": "Meta Ads"
+      }
+    },
+    "queue": {
+      "cocktail": "Cocktail Reel",
+      "wagyu": "Wagyu Promotion",
+      "dj": "DJ Event Story"
+    },
+    "labels": {
+      "reach": "Reach",
+      "scheduled": "Scheduled"
+    },
+    "status": {
+      "live": "LIVE",
+      "active": "ACTIVE",
+      "queued": "QUEUED",
+      "published": "PUBLISHED",
+      "optimizing": "AI OPTIMIZING",
+      "ready": "READY",
+      "processing": "PROCESSING",
+      "scheduled": "SCHEDULED"
+    }
+  },
+  "crm": {
+    "hero": {
+      "badge": "CUSTOMER RELATIONSHIP INTELLIGENCE",
+      "title1": "Revenue",
+      "title2": "Relationship Engine",
+      "description": "ระบบ AI Customer Intelligence เชื่อมต่อกับ Reservations, POS, Marketing และ Profitability Runtime"
+    },
+    "value": {
+      "badge": "RELATIONSHIP VALUE",
+      "description": "มูลค่าลูกค้าตลอดอายุการใช้งานที่คาดการณ์ไว้"
+    },
+    "pipeline": {
+      "leads": "ลูกค้าใหม่",
+      "vip": "ลูกค้า VIP",
+      "events": "ลูกค้าอีเวนต์",
+      "returning": "ลูกค้ากลับมาใช้บริการ",
+      "description": "AI runtime tracking active"
+    },
+    "runtime": {
+      "badge": "LIVE CRM INTELLIGENCE",
+      "title": "Revenue Interactions"
+    },
+    "interactions": {
+      "vipReservation": "จองโต๊ะ VIP สำเร็จ",
+      "loyaltyOffer": "AI Loyalty Offer ถูกส่ง",
+      "eventProposal": "ส่งข้อเสนอ Private Event แล้ว"
+    },
+    "status": {
+      "live": "LIVE"
+    }
+  },
+  "customers": {
+    "hero": {
+      "badge": "CUSTOMER INTELLIGENCE",
+      "title1": "Guest",
+      "title2": "Behavior Runtime",
+      "description": "AI เรียนรู้พฤติกรรมลูกค้า ความชอบ รูปแบบการใช้จ่าย การจอง และสัญญาณความสามารถในการทำกำไรอย่างต่อเนื่อง"
+    },
+    "labels": {
+      "favorite": "เมนูโปรด",
+      "visits": "จำนวนครั้ง",
+      "spend": "ยอดใช้จ่าย"
+    },
+    "favorites": {
+      "wagyuWine": "วากิว + ไวน์",
+      "cocktails": "ค็อกเทล",
+      "privateEvents": "งานอีเวนต์ส่วนตัว"
+    },
+    "insights": {
+      "wineDemand": "ลูกค้า VIP มีความต้องการไวน์ระดับพรีเมียมเพิ่มขึ้น",
+      "tastingMenus": "ลูกค้าประจำตอบสนองต่อ Tasting Menu ได้ดี",
+      "personalization": "ลูกค้ากลุ่มใช้จ่ายสูงชอบการจองแบบเฉพาะบุคคล",
+      "multilocation": "กิจกรรม Beach Club สร้างการเข้าชมหลายสาขา"
+    },
+    "signals": {
+      "badge": "AI CUSTOMER SIGNALS",
+      "title": "Behavioral Intelligence",
+      "description": "AI synchronization runtime active"
+    }
+  },
+  "tables": {
+    "hero": {
+      "badge": "TABLE RUNTIME",
+      "title": "Dining Floor Live",
+      "description": "การซิงโครไนซ์แบบเรียลไทม์ระหว่างโต๊ะ ครัว บาร์ Expo การบริการ และการชำระเงิน"
+    },
+    "floor": {
+      "badge": "FLOOR STATUS",
+      "active": "ACTIVE"
+    },
+    "cards": {
+      "activeTables": {
+        "title": "โต๊ะที่กำลังใช้งาน",
+        "description": "Runtime synchronized"
+      },
+      "guests": {
+        "title": "ลูกค้าที่กำลังรับประทาน",
+        "description": "Live floor occupancy"
+      },
+      "avgTicket": {
+        "title": "ยอดเฉลี่ยต่อโต๊ะ",
+        "description": "Operational average"
+      },
+      "paymentQueue": {
+        "title": "คิวชำระเงิน",
+        "description": "Awaiting settlement"
+      }
+    },
+    "table": {
+      "badge": "LIVE TABLE",
+      "guests": "จำนวนลูกค้า",
+      "total": "ยอดรวมปัจจุบัน",
+      "runtime": "Runtime synchronized",
+      "live": "LIVE"
+    },
+    "actions": {
+      "viewFlow": "VIEW FLOW",
+      "kitchenBar": "Kitchen + Bar",
+      "payment": "PAYMENT",
+      "settle": "Settle Runtime"
+    },
+    "status": {
+      "dining": "กำลังรับประทาน",
+      "waitingFood": "รออาหาร",
+      "payment": "รอชำระเงิน",
+      "highValue": "ลูกค้ามูลค่าสูง"
+    }
+  },
+  "expo": {
+    "hero": {
+      "badge": "EXPO COORDINATION",
+      "title": "Service Synchronization",
+      "description": "คำสั่งซื้อจากครัวและบาร์ถูกซิงโครไนซ์ผ่าน Expo ก่อนส่งเสิร์ฟไปยังโต๊ะและระบบชำระเงิน"
+    },
+    "runtime": {
+      "badge": "EXPO STATUS",
+      "active": "ACTIVE"
+    },
+    "cards": {
+      "waiting": {
+        "title": "รอ Expo",
+        "description": "รอการซิงโครไนซ์"
+      },
+      "ready": {
+        "title": "พร้อมเสิร์ฟ",
+        "description": "พร้อมส่งออก"
+      },
+      "runners": {
+        "title": "พนักงานส่งอาหาร",
+        "description": "Runtime synchronized"
+      },
+      "dispatch": {
+        "title": "เวลาเฉลี่ยส่งออก",
+        "description": "Service runtime stable"
+      }
+    },
+    "order": {
+      "badge": "EXPO ORDER",
+      "ready": "พร้อมสำหรับการซิงโครไนซ์",
+      "runner": "พนักงานรับผิดชอบ",
+      "runtime": "Runtime",
+      "sync": "Operational synchronization active"
+    },
+    "actions": {
+      "callRunner": "CALL RUNNER",
+      "dispatch": "Dispatch Service",
+      "served": "SERVED",
+      "close": "Close Expo Flow"
+    },
+    "sources": {
+      "kitchen": "ครัว",
+      "bar": "บาร์",
+      "kitchenBar": "ครัว + บาร์"
+    },
+    "status": {
+      "readyForService": "พร้อมเสิร์ฟ",
+      "waitingRunner": "รอพนักงานส่ง",
+      "serving": "กำลังเสิร์ฟ"
+    }
+  },
+  "projects": {
+    "hero": {
+      "badge": "MULTI-LOCATION DEPLOYMENT",
+      "title1": "Enterprise",
+      "title2": "Rollout Engine",
+      "description": "การติดตั้งระบบปฏิบัติการจริงในร้านอาหาร บีชคลับ คาเฟ่ และธุรกิจ Hospitality หลายแห่ง"
+    },
+    "global": {
+      "badge": "GLOBAL STATUS",
+      "description": "Live runtime deployments active"
+    },
+    "labels": {
+      "progress": "ความคืบหน้า"
+    },
+    "stack": {
+      "badge": "DEPLOYMENT STACK",
+      "title": "Runtime Layers",
+      "description": "Enterprise synchronization layer"
+    },
+    "phases": {
+      "operationalDeployment": "ติดตั้งระบบปฏิบัติการ",
+      "aiSynchronization": "เชื่อมต่อ AI",
+      "inventoryArchitecture": "สถาปัตยกรรมคลังสินค้า"
+    },
+    "status": {
+      "liveBuild": "กำลังใช้งาน",
+      "integration": "กำลังเชื่อมต่อ",
+      "planning": "วางแผน"
+    },
+    "layers": {
+      "pos": "POS Runtime",
+      "kitchen": "Kitchen Synchronization",
+      "inventory": "Inventory Intelligence",
+      "payroll": "Payroll Engine",
+      "ai": "AI Forecasting",
+      "accounting": "Accounting Runtime"
+    }
+  },
+  "documents": {
+    "hero": {
+      "badge": "DOCUMENT INTELLIGENCE",
+      "title1": "Enterprise",
+      "title2": "Documents",
+      "description": "สัญญา ใบแจ้งหนี้ รายงาน การอนุมัติเงินเดือน เอกสารจัดซื้อ และเอกสารปฏิบัติการที่ซิงโครไนซ์ด้วย AI"
+    },
+    "storage": {
+      "badge": "STORAGE STATUS",
+      "live": "LIVE",
+      "description": "ระบบซิงโครไนซ์คลาวด์กำลังทำงาน"
+    },
+    "actions": {
+      "open": "เปิด",
+      "download": "ดาวน์โหลด",
+      "analyze": "วิเคราะห์ด้วย AI"
+    },
+    "types": {
+      "procurement": "จัดซื้อ",
+      "hr": "ทรัพยากรบุคคล",
+      "operations": "ปฏิบัติการ",
+      "marketing": "การตลาด"
+    },
+    "status": {
+      "synced": "ซิงโครไนซ์แล้ว",
+      "pending": "รออนุมัติ",
+      "approved": "อนุมัติแล้ว",
+      "archived": "เก็บถาวร"
+    }
+  },
+  "settings": {
+    "hero": {
+      "badge": "SYSTEM CONFIGURATION",
+      "title1": "Runtime",
+      "title2": "Settings",
+      "description": "กำหนดค่าระบบองค์กร AI การเชื่อมต่อ องค์กร สิทธิ์การเข้าถึง และระบบอัจฉริยะในการดำเนินงาน"
+    },
+    "status": {
+      "badge": "SYSTEM STATUS",
+      "stable": "เสถียร",
+      "description": "ระบบทั้งหมดทำงานปกติ"
+    },
+    "actions": {
+      "configure": "กำหนดค่า",
+      "aiAssisted": "AI ช่วยเหลือ"
+    },
+    "items": {
+      "organization": {
+        "title": "โครงสร้างองค์กร",
+        "desc": "ผู้เช่า องค์กร และสาขา"
+      },
+      "ai": {
+        "title": "การตั้งค่า AI",
+        "desc": "ระบบการตลาด ปฏิบัติการ และระบบอัจฉริยะ"
+      },
+      "meta": {
+        "title": "การเชื่อมต่อ Meta",
+        "desc": "Facebook, Instagram และระบบเผยแพร่"
+      },
+      "security": {
+        "title": "ความปลอดภัยและสิทธิ์",
+        "desc": "บทบาท การอนุมัติ และสิทธิ์ระดับองค์กร"
+      }
+    }
+  },
+  "designStudio": {
+    "hero": {
+      "badge": "AI CREATIVE OPERATING SYSTEM",
+      "title1": "Design",
+      "title2": "Studio",
+      "description": "ระบบสร้างคอนเทนต์ AI หลายเอนจินสำหรับธุรกิจ Hospitality ร้านอาหาร ไนต์ไลฟ์ และแบรนด์ระดับพรีเมียม"
+    },
+    "labels": {
+      "engine": "ENGINE"
+    },
+    "preview": {
+      "badge": "REEL PREVIEW"
+    },
+    "reel": {
+      "badge": "PHUKET BEACH CLUB",
+      "title1": "Sunset",
+      "title2": "DJ Reel",
+      "description": "รูปแบบวิดีโอแนวตั้งสำหรับ Meta, TikTok และ Instagram Stories",
+      "story": "9:16 Story",
+      "videoEngine": "Video Engine"
+    },
+    "engines": {
+      "fullAi": {
+        "name": "AI เต็มรูปแบบ",
+        "description": "สร้างแคมเปญด้วย AI อัตโนมัติ"
+      },
+      "enhance": {
+        "name": "ปรับปรุงภาพ",
+        "description": "เพิ่มความหรูหราและแสง"
+      },
+      "composite": {
+        "name": "ผสานภาพ",
+        "description": "รวมฉากและสินค้า"
+      },
+      "video": {
+        "name": "วิดีโอ",
+        "description": "วิดีโอเคลื่อนไหวและงานภาพยนตร์"
+      }
+    }
+  }
+}

@@ -1,8 +1,12 @@
 "use client";
 
+import SiteTopNav from "@/components/SiteTopNav";
+
 export default function SecurityPage() {
   return (
-    <main className="min-h-screen bg-[#02030A] text-white">
+    <>
+<SiteTopNav />
+<main className="min-h-screen bg-[#02030A] text-white">
 
       {/* HERO */}
       <section className="relative overflow-hidden px-6 pb-24 pt-40 md:pb-32 md:pt-52">
@@ -180,5 +184,6 @@ export default function SecurityPage() {
       </section>
 
     </main>
+    </>
   );
 }
