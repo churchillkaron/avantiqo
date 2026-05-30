@@ -30,7 +30,7 @@ export default function SiteTopNav() {
         <nav className="hidden items-center gap-10 xl:flex">
 
           <Link
-            href="/platform"
+            href="/what-is-synthetic-intelligence"
             className="text-[14px] text-zinc-400 transition hover:text-white"
           >
             Platform
@@ -51,7 +51,7 @@ export default function SiteTopNav() {
           </Link>
 
           <Link
-            href="/ai"
+            href="/what-is-synthetic-intelligence"
             className="text-[14px] text-zinc-400 transition hover:text-white"
           >
             AI Runtime

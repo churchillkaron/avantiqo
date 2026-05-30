@@ -183,7 +183,7 @@ export default function ContactPage() {
                 className="rounded-[22px] border border-white/[0.05] bg-[#02030A]/80 px-6 py-5 text-white outline-none placeholder:text-white/30"
               />
 
-              <button className="mt-4 rounded-full bg-gradient-to-r from-[#D6A66A] via-[#C084FC] to-[#7C5CFA] px-10 py-5 text-lg font-extralight text-white shadow-[0_20px_80px_rgba(139,92,246,0.35)] transition duration-300 hover:scale-[1.02]">
+              <button className="mt-4 rounded-full bg-gradient-to-r from-[#D6A66A] to-[#14364D] px-10 py-5 text-lg font-extralight text-white shadow-[0_20px_80px_rgba(139,92,246,0.35)] transition duration-300 hover:scale-[1.02]">
                 Request Enterprise Consultation
               </button>
 

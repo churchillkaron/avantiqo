@@ -47,21 +47,21 @@ export default function Footer() {
             <div className="grid gap-5 text-[15px]">
 
               <a
-                href="/platform"
+                href="/what-is-synthetic-intelligence"
                 className="text-white/45 transition duration-300 hover:text-white"
               >
                 Platform
               </a>
 
               <a
-                href="/ai"
+                href="/what-is-synthetic-intelligence"
                 className="text-white/45 transition duration-300 hover:text-white"
               >
                 AI Infrastructure
               </a>
 
               <a
-                href="/enterprise"
+                href="/what-is-synthetic-intelligence"
                 className="text-white/45 transition duration-300 hover:text-white"
               >
                 Enterprise

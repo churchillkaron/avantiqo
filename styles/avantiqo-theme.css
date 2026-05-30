@@ -1,0 +1,17 @@
+:root {
+  --av-bg: #02030A;
+  --av-surface: #050714;
+  --av-surface-2: #08111D;
+  --av-surface-3: #0B1626;
+
+  --av-gold: #D6A66A;
+  --av-gold-soft: #C79B63;
+
+  --av-intelligence: #14364D;
+  --av-intelligence-soft: #1B4D6B;
+
+  --av-text: rgba(255,255,255,0.92);
+  --av-text-soft: rgba(255,255,255,0.55);
+
+  --av-border: rgba(255,255,255,0.05);
+}

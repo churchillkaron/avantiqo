@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 import { useTranslation } from "@/app/providers/I18nProvider";
 import LanguageSwitcher from "@/app/components/LanguageSwitcher";
@@ -9,8 +7,12 @@ export default function SiteTopNav() {
 
   const navItems = [
     {
-      label: t("topnav.platform"),
-      href: "/platform",
+      label: "Synthetic Intelligence",
+      href: "/what-is-synthetic-intelligence",
+    },
+    {
+      label: "Accounting Firms",
+      href: "/industries/accounting-firms",
     },
     {
       label: t("topnav.industries"),
@@ -21,16 +23,12 @@ export default function SiteTopNav() {
       href: "/modules",
     },
     {
-      label: t("topnav.aiRuntime"),
-      href: "/ai",
-    },
-    {
-      label: t("topnav.security"),
-      href: "/security",
-    },
-    {
       label: t("topnav.workspace"),
       href: "/workspace/dashboard",
+    },
+    {
+      label: "Demo",
+      href: "/demo",
     },
   ];
 
@@ -47,11 +45,9 @@ export default function SiteTopNav() {
           />
 
           <div className="flex flex-col justify-center">
-
             <div className="text-[11px] font-medium tracking-[0.52em] text-[#D6A66A]/90 uppercase">
-              {t("brand.tagline")}
+              Synthetic Intelligence Operating System
             </div>
-
           </div>
 
         </Link>

@@ -52,7 +52,7 @@ export default function DemoPage() {
             {/* BUTTONS */}
             <div className="mt-14 flex flex-col gap-4 sm:flex-row">
 
-              <button className="rounded-full bg-gradient-to-r from-[#D6A66A] via-[#C084FC] to-[#7C5CFA] px-10 py-5 text-lg font-extralight text-white shadow-[0_20px_80px_rgba(139,92,246,0.35)] transition duration-300 hover:scale-[1.02]">
+              <button className="rounded-full bg-gradient-to-r from-[#D6A66A] to-[#14364D] px-10 py-5 text-lg font-extralight text-white shadow-[0_20px_80px_rgba(139,92,246,0.35)] transition duration-300 hover:scale-[1.02]">
                 Book Enterprise Demo
               </button>
 

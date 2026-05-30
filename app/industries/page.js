@@ -89,7 +89,7 @@ export default function IndustriesPage() {
               <Link
                 key={industry.title}
                 href={industry.href}
-                className="group overflow-hidden rounded-[36px] border border-white/[0.05] bg-[#050714] transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-purple-500/30 hover:shadow-[0_0_60px_rgba(120,80,255,0.12)]"
+                className="group overflow-hidden rounded-[36px] border border-white/[0.05] bg-[#050714] transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-[#D6A66A]/20 hover:shadow-[0_0_60px_rgba(120,80,255,0.12)]"
               >
 
                 <div className="relative overflow-hidden">
@@ -111,7 +111,7 @@ export default function IndustriesPage() {
 
                   <div className="mb-5 flex items-center gap-3">
 
-                    <div className="h-2 w-2 rounded-full bg-gradient-to-r from-[#D6A66A] to-purple-500" />
+                    <div className="h-2 w-2 rounded-full bg-gradient-to-r from-[#D6A66A] to-[#14364D]" />
 
                     <div className="text-xs uppercase tracking-[0.3em] text-white/40">
                       Operational Runtime
@@ -175,14 +175,14 @@ export default function IndustriesPage() {
 
             <Link
               href="/demo"
-              className="rounded-[22px] bg-gradient-to-r from-[#D6A66A] via-[#C084FC] to-[#7C5CFA] px-6 py-3 md:px-8 md:py-4 text-sm font-extralight transition-all duration-300 ease-out hover:-translate-y-[2px]"
+              className="rounded-[22px] bg-gradient-to-r from-[#D6A66A] to-[#14364D] px-6 py-3 md:px-8 md:py-4 text-sm font-extralight transition-all duration-300 ease-out hover:-translate-y-[2px]"
             >
               Book Enterprise Modules
             </Link>
 
             <Link
-              href="/platform"
-              className="rounded-[22px] border border-white/[0.05] bg-white/[0.025] px-6 py-3 md:px-8 md:py-4 text-sm text-white/50 transition-all duration-300 ease-out hover:border-purple-500/30"
+              href="/what-is-synthetic-intelligence"
+              className="rounded-[22px] border border-white/[0.05] bg-white/[0.025] px-6 py-3 md:px-8 md:py-4 text-sm text-white/50 transition-all duration-300 ease-out hover:border-[#D6A66A]/20"
             >
               Explore Platform
             </Link>

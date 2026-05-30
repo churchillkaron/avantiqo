@@ -28,7 +28,7 @@ export default function Home() {
               <h1 className="max-w-[900px] text-6xl font-extralight leading-[1.02] tracking-[-0.06em] md:text-[92px]">
                 {t("home.hero.title1")}
                 <br />
-                <span className="bg-gradient-to-r from-[#D6A66A] via-[#C084FC] to-[#7C5CFA] bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-[#D6A66A] to-[#14364D] bg-clip-text text-transparent">
                   {t("home.hero.title2")}
                 </span>
               </h1>
@@ -38,11 +38,11 @@ export default function Home() {
               </p>
 
               <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-                <Link href="/demo" className="rounded-[22px] bg-gradient-to-r from-[#D6A66A] via-[#C084FC] to-[#7C5CFA] px-6 py-3 text-sm font-extralight transition-all duration-300 ease-out hover:-translate-y-[2px] md:px-8 md:py-4">
+                <Link href="/demo" className="rounded-[22px] bg-gradient-to-r from-[#D6A66A] to-[#14364D] px-6 py-3 text-sm font-extralight transition-all duration-300 ease-out hover:-translate-y-[2px] md:px-8 md:py-4">
                   {t("home.hero.book_demo")}
                 </Link>
 
-                <Link href="/industries/accounting-firms" className="rounded-[22px] border border-white/[0.07] bg-white/[0.025] px-6 py-3 text-sm text-white/65 transition-all duration-300 ease-out hover:border-purple-500/30 md:px-8 md:py-4">
+                <Link href="/industries/accounting-firms" className="rounded-[22px] border border-white/[0.07] bg-white/[0.025] px-6 py-3 text-sm text-white/65 transition-all duration-300 ease-out hover:border-[#D6A66A]/20 md:px-8 md:py-4">
                   {t("home.hero.start_setup")}
                 </Link>
               </div>
@@ -74,7 +74,7 @@ export default function Home() {
 
         <section className="px-6 py-28">
           <div className="mx-auto max-w-7xl">
-            <p className="mb-6 text-xs tracking-[0.35em] text-[#B58AF8]">
+            <p className="mb-6 text-xs tracking-[0.35em] text-[#D6A66A]">
               {t("home.accounting.badge")}
             </p>
 
@@ -125,8 +125,8 @@ export default function Home() {
                 {t("home.synthetic.description")}
               </p>
 
-              <div className="mt-10 rounded-[28px] border border-purple-400/10 bg-purple-500/[0.04] p-7">
-                <p className="text-xs tracking-[0.28em] text-[#B58AF8]">
+              <div className="mt-10 rounded-[28px] border border-[#14364D]/20 bg-[#14364D]/10 p-7">
+                <p className="text-xs tracking-[0.28em] text-[#D6A66A]">
                   {t("home.synthetic.formulaBadge")}
                 </p>
                 <p className="mt-5 text-2xl font-extralight leading-snug text-white/80">
@@ -148,7 +148,7 @@ export default function Home() {
               <br />
               {t("home.cta.title2")}
               <br />
-              <span className="bg-gradient-to-r from-[#D6A66A] via-[#C084FC] to-[#7C5CFA] bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-[#D6A66A] to-[#14364D] bg-clip-text text-transparent">
                 {t("home.cta.title3")}
               </span>
             </h2>
@@ -158,7 +158,7 @@ export default function Home() {
             </p>
 
             <div className="mt-12">
-              <Link href="/demo" className="rounded-[22px] bg-gradient-to-r from-[#D6A66A] via-[#C084FC] to-[#7C5CFA] px-6 py-3 text-sm font-extralight transition-all duration-300 ease-out hover:-translate-y-[2px] md:px-8 md:py-4">
+              <Link href="/demo" className="rounded-[22px] bg-gradient-to-r from-[#D6A66A] to-[#14364D] px-6 py-3 text-sm font-extralight transition-all duration-300 ease-out hover:-translate-y-[2px] md:px-8 md:py-4">
                 {t("home.hero.book_demo")}
               </Link>
             </div>
