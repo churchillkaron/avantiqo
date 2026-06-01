@@ -1,6 +1,6 @@
 "use client";
 
-import SiteTopNav from "@/components/SiteTopNav";
+import SiteTopNav from "@/app/components/SiteTopNav";
 
 export default function SecurityPage() {
   return (

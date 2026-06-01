@@ -11,7 +11,9 @@
     "security": "Безопасность",
     "signIn": "Войти",
     "workspace": "Рабочая область",
-    "startSetup": "Начать настройку"
+    "startSetup": "Начать настройку",
+    "accountingFirms": "Бухгалтерские фирмы",
+    "demo": "Демо"
   },
   "home": {
     "hero": {
@@ -66,6 +68,386 @@
       "title2": "К Бизнес-Интеллекту.",
       "title3": "На Базе Синтетического Интеллекта.",
       "description": "Бухгалтерские фирмы, подключенные напрямую к операциям клиентов, будут не просто сообщать о прошлом. Они будут понимать настоящее, прогнозировать риски, направлять решения и помогать бизнесу работать лучше."
+    },
+    "comparison": {
+      "software": {
+        "title": "ТРАДИЦИОННОЕ ПО",
+        "items": [
+          "Хранит данные",
+          "Ручная работа",
+          "Учёт позже"
+        ]
+      },
+      "ai": {
+        "title": "ТРАДИЦИОННЫЙ AI",
+        "items": [
+          "Генерирует ответы",
+          "Больше ручной работы",
+          "Нет финансового контекста"
+        ]
+      },
+      "avantiqo": {
+        "title": "AVANTIQO",
+        "items": [
+          "Наблюдает",
+          "Решает",
+          "Исполняет",
+          "Учитывает"
+        ]
+      }
+    },
+    "workspace": {
+      "badge": "AVANTIQO В ДЕЙСТВИИ",
+      "title1": "Единый Workspace",
+      "title2": "Для всех бизнес-функций",
+      "description": "Операции, финансы, бухгалтерия, документы, согласования, маркетинг и AI Runtime объединены в единой операционной среде.",
+      "cards": {
+        "clientManagement": {
+          "title": "Управление клиентами",
+          "description": "Управляйте всеми клиентами из одного Workspace."
+        },
+        "accountantAssignment": {
+          "title": "Назначение бухгалтеров",
+          "description": "Распределяйте бухгалтеров и балансируйте нагрузку."
+        },
+        "complianceControl": {
+          "title": "Контроль соответствия",
+          "description": "Отслеживайте сроки, согласования и обязательства."
+        },
+        "aiRuntime": {
+          "title": "AI Accounting Runtime",
+          "description": "AI-поддержка операционных и бухгалтерских процессов."
+        }
+      },
+      "modules": [
+        "Операции",
+        "Финансы",
+        "Бухгалтерия",
+        "Документы",
+        "Согласования",
+        "ИИ Runtime"
+      ]
+    },
+    "flow": {
+      "businessReality": [
+        "Операции",
+        "Продажи",
+        "Запасы",
+        "Закупки",
+        "Проекты",
+        "Персонал",
+        "Документы"
+      ],
+      "financialIntelligence": [
+        "Бухгалтерия",
+        "Управление",
+        "Прогнозирование",
+        "Денежный поток",
+        "Эффективность",
+        "Контроль владельца"
+      ],
+      "businessRealityTitle": "ОПЕРАЦИОННАЯ РЕАЛЬНОСТЬ",
+      "financialIntelligenceTitle": "ФИНАНСОВАЯ АНАЛИТИКА",
+      "centerTitle": "Синтетический интеллект"
+    },
+    "industries": {
+      "badge": "ОТРАСЛЕВЫЕ РЕШЕНИЯ",
+      "title1": "Создано для вашей отрасли",
+      "title2": "Настроено для вашего бизнеса",
+      "description": "Каждая отрасль работает по-разному. Рестораны, отели, бухгалтерские фирмы, розничные сети, строительные компании и корпоративные группы требуют различных процессов, контролей и интеллектуальных систем. Avantiqo адаптируется к вашему бизнесу, объединяя клиентов, маркетинг, операции, финансы и интеллект на одной платформе.",
+      "groups": {
+        "professionalServices": {
+          "title": "Профессиональные Услуги",
+          "description": "Бухгалтерские фирмы, юридические компании, консультанты, агентства и сервисные организации."
+        },
+        "hospitality": {
+          "title": "Гостиничный Бизнес",
+          "description": "Рестораны, отели, курорты, пляжные клубы и заведения ночной жизни."
+        },
+        "retail": {
+          "title": "Розница и Торговля",
+          "description": "Розничные магазины, торговые центры, франчайзинговые сети и электронная коммерция."
+        },
+        "construction": {
+          "title": "Строительство и Недвижимость",
+          "description": "Строительство, недвижимость, управление объектами и девелопмент."
+        },
+        "distribution": {
+          "title": "Дистрибуция и Производство",
+          "description": "Складирование, логистика, закупки и производство."
+        },
+        "enterprise": {
+          "title": "Предприятие",
+          "description": "Многопрофильные группы компаний, холдинги, семейные офисы и корпоративные организации."
+        }
+      },
+      "pillars": {
+        "badge": "PLATFORM FOUNDATION",
+        "title1": "Every Operating System",
+        "title2": "Includes",
+        "revenue": {
+          "title": "Revenue",
+          "items": [
+            "CRM",
+            "Customer Experience",
+            "Marketing",
+            "Reviews",
+            "Sales",
+            "Loyalty",
+            "Design Studio"
+          ]
+        },
+        "operations": {
+          "title": "ОПЕРАЦИИ",
+          "items": [
+            "Projects",
+            "Inventory",
+            "Procurement",
+            "Production",
+            "Scheduling",
+            "Документы",
+            "Workflow Engine"
+          ]
+        },
+        "finance": {
+          "title": "ФИНАНСЫ",
+          "items": [
+            "Бухгалтерия",
+            "Payroll",
+            "Treasury",
+            "Tax",
+            "Accounts Payable",
+            "Accounts Receivable",
+            "Reporting"
+          ]
+        },
+        "intelligence": {
+          "title": "Synthetic Intelligence",
+          "items": [
+            "AI Runtime",
+            "Recommendations",
+            "Compliance",
+            "Optimization",
+            "Knowledge Memory",
+            "Executive Intelligence"
+          ]
+        }
+      },
+      "intelligence": {
+        "badge": "SYNTHETIC INTELLIGENCE",
+        "title1": "Every Industry.",
+        "title2": "One Intelligence Layer.",
+        "description": "Avantiqo adapts to your industry while keeping Revenue, Operations, Finance and Intelligence connected through one operating platform."
+      },
+      "runtimeLabel": "Отраслевая операционная система",
+      "exploreIndustry": "Изучить решение",
+      "cta": {
+        "badge": "ЕДИНАЯ ПЛАТФОРМА",
+        "title1": "Создано для вашей отрасли.",
+        "title2": "Настроено под ваш бизнес.",
+        "title3": "Работает на едином уровне интеллекта.",
+        "description": "Независимо от того, управляете ли вы рестораном, бухгалтерской фирмой, отелем, строительной компанией, розничной сетью или группой компаний, Avantiqo настраивает операционную систему под вашу отрасль, сохраняя связь между доходами, операциями, финансами и интеллектом.",
+        "primary": "Изучить отраслевые решения",
+        "secondary": "Просмотреть архитектуру платформы"
+      },
+      "businessFunctions": {
+        "badge": "БИЗНЕС-ФУНКЦИИ",
+        "title1": "Каждая Бизнес-Функция.",
+        "title2": "Единая Платформа.",
+        "description": "От привлечения клиентов до финансовой отчетности — все функции работают на одной основе.",
+        "cards": [
+          {
+            "title": "МАРКЕТИНГ",
+            "items": [
+              "Кампании",
+              "Дизайн-Студия",
+              "Социальные Сети",
+              "ИИ Контент"
+            ]
+          },
+          {
+            "title": "КЛИЕНТЫ",
+            "items": [
+              "CRM",
+              "Лояльность",
+              "Отзывы",
+              "Продажи"
+            ]
+          },
+          {
+            "title": "ОПЕРАЦИИ",
+            "items": [
+              "Проекты",
+              "Планирование",
+              "Персонал",
+              "Согласования"
+            ]
+          },
+          {
+            "title": "ФИНАНСЫ",
+            "items": [
+              "Бухгалтерия",
+              "Доходы",
+              "Казначейство",
+              "Соответствие"
+            ]
+          },
+          {
+            "title": "ДОКУМЕНТЫ",
+            "items": [
+              "Контракты",
+              "Политики",
+              "Управление",
+              "Записи"
+            ]
+          },
+          {
+            "title": "ИНТЕЛЛЕКТ",
+            "items": [
+              "Аналитика",
+              "Рекомендации",
+              "Автоматизация",
+              "Исполнение"
+            ]
+          }
+        ]
+      },
+      "intelligenceLayer": {
+        "badge": "ИНТЕЛЛЕКТУАЛЬНЫЙ СЛОЙ",
+        "title1": "Единый Интеллектуальный Слой.",
+        "title2": "Для Любой Отрасли.",
+        "description": "Avantiqo наблюдает за деятельностью компании, понимает связи между данными, рекомендует действия и постепенно автоматизирует выполнение.",
+        "steps": [
+          {
+            "title": "НАБЛЮДАТЬ",
+            "desc": "Собирает данные о клиентах, операциях, финансах и персонале."
+          },
+          {
+            "title": "ПОНИМАТЬ",
+            "desc": "Связывает людей, данные, процессы и результаты."
+          },
+          {
+            "title": "РЕКОМЕНДОВАТЬ",
+            "desc": "Выявляет возможности, риски и действия."
+          },
+          {
+            "title": "ИСПОЛНЯТЬ",
+            "desc": "Автоматизирует процессы, согласования и решения."
+          }
+        ]
+      },
+      "dataFoundation": {
+        "badge": "ЕДИНАЯ БАЗА ДАННЫХ",
+        "title1": "Единые Бизнес-Данные.",
+        "title2": "Для Каждого Подразделения.",
+        "description": "Никаких изолированных систем. Никаких дубликатов. Никакой ручной сверки.",
+        "entities": [
+          {
+            "title": "Клиент",
+            "desc": "Продажи, CRM, лояльность и маркетинг"
+          },
+          {
+            "title": "Сотрудник",
+            "desc": "Персонал, зарплата и эффективность"
+          },
+          {
+            "title": "Поставщик",
+            "desc": "Закупки и управление поставщиками"
+          },
+          {
+            "title": "Транзакция",
+            "desc": "Операции, финансы и отчетность"
+          },
+          {
+            "title": "Единая Запись",
+            "desc": "Общая основа для всей платформы"
+          }
+        ]
+      }
+    },
+    "hospitality": {
+      "hero": {
+        "badge": "HOSPITALITY OPERATING SYSTEM",
+        "title1": "One Runtime For Hospitality.",
+        "title2": "From Guest Experience To Accounting.",
+        "description": "Reservations, operations, staff, accounting, marketing, reviews and AI operating together in one connected system.",
+        "primary": "Book Demo",
+        "secondary": "Explore Platform"
+      },
+      "reality": {
+        "badge": "HOSPITALITY REALITY",
+        "title1": "Every Guest Action.",
+        "title2": "Connected To The Business.",
+        "flow": [
+          "Guest",
+          "Reservation",
+          "Arrival",
+          "Table",
+          "Order",
+          "Kitchen / Bar",
+          "Expo",
+          "Service",
+          "Payment",
+          "Accounting",
+          "Profitability"
+        ]
+      },
+      "staff": {
+        "badge": "STAFF OPERATING SYSTEM",
+        "title": "One Workforce Runtime",
+        "items": [
+          "Attendance",
+          "Scheduling",
+          "Tasks",
+          "Invoice Uploads",
+          "Photo Uploads",
+          "Performance",
+          "Payroll"
+        ]
+      },
+      "production": {
+        "badge": "INVENTORY & PRODUCTION",
+        "title": "Control Cost In Real Time"
+      },
+      "accounting": {
+        "badge": "ACCOUNTING RUNTIME",
+        "title": "Every Transaction Connected"
+      },
+      "designStudio": {
+        "badge": "DESIGN STUDIO",
+        "title": "Create Hospitality Campaigns"
+      },
+      "marketing": {
+        "badge": "MARKETING AUTOMATION",
+        "title": "Turn Guests Into Returning Customers"
+      },
+      "reviews": {
+        "badge": "REVIEWS & REPUTATION",
+        "title": "AI Powered Review Management"
+      },
+      "ai": {
+        "badge": "AI HOSPITALITY RUNTIME",
+        "title": "Observe. Understand. Recommend. Execute."
+      },
+      "owner": {
+        "badge": "OWNER CONTROL CENTER",
+        "title": "Everything Connected",
+        "description": "Бронирования, операции, загрузки персонала, бухгалтерия, маркетинг, отзывы и AI-интеллект работают вместе в едином центре управления hospitality.",
+        "modules": [
+          "Бронирования",
+          "Операции",
+          "Персонал",
+          "Бухгалтерия",
+          "Маркетинг",
+          "Отзывы",
+          "AI Runtime",
+          "Интеллект Владельца"
+        ]
+      },
+      "cta": {
+        "badge": "ONE HOSPITALITY PLATFORM",
+        "title": "Run Hospitality On One Operating System"
+      }
     }
   },
   "navigation": {
@@ -871,7 +1253,7 @@
         "description": "Invoice AI + supplier synchronization."
       },
       "accounting": {
-        "title": "Accounting",
+        "title": "Бухгалтерия",
         "description": "Live financial and profitability updates."
       }
     },
@@ -1188,7 +1570,7 @@
     "hero": {
       "badge": "DOCUMENT INTELLIGENCE",
       "title1": "Enterprise",
-      "title2": "Documents",
+      "title2": "Документы",
       "description": "Контракты, счета, отчёты, согласования зарплат и операционные документы, синхронизированные AI."
     },
     "storage": {

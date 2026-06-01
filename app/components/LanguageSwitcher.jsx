@@ -16,6 +16,9 @@ export default function LanguageSwitcher() {
   const { locale, setLocale } =
     useTranslation();
 
+  console.log("LANGUAGE_SWITCHER_LOCALE", locale);
+
+
   return (
     <select
       value={locale}

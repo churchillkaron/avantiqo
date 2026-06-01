@@ -11,7 +11,9 @@
     "security": "安全",
     "signIn": "登录",
     "workspace": "工作区",
-    "startSetup": "开始设置"
+    "startSetup": "开始设置",
+    "accountingFirms": "会计事务所",
+    "demo": "演示"
   },
   "home": {
     "hero": {
@@ -66,6 +68,386 @@
       "title2": "到商业智能。",
       "title3": "由合成智能驱动。",
       "description": "直接连接客户运营的会计事务所，将不再只是报告过去。他们将理解现在、预测风险、指导决策，并帮助企业更好地运营。"
+    },
+    "comparison": {
+      "software": {
+        "title": "传统软件",
+        "items": [
+          "存储数据",
+          "人工处理",
+          "事后记账"
+        ]
+      },
+      "ai": {
+        "title": "传统 AI",
+        "items": [
+          "生成答案",
+          "更多人工工作",
+          "缺乏财务背景"
+        ]
+      },
+      "avantiqo": {
+        "title": "AVANTIQO",
+        "items": [
+          "观察",
+          "决策",
+          "执行",
+          "自动记账"
+        ]
+      }
+    },
+    "workspace": {
+      "badge": "体验 AVANTIQO",
+      "title1": "统一 Workspace",
+      "title2": "覆盖每一个业务职能",
+      "description": "运营、财务、会计、文档、审批、营销、AI Runtime 与企业控制通过统一运营层连接。",
+      "cards": {
+        "clientManagement": {
+          "title": "客户管理",
+          "description": "在一个 Workspace 中管理所有客户。"
+        },
+        "accountantAssignment": {
+          "title": "会计师分配",
+          "description": "分配会计师并平衡工作负载。"
+        },
+        "complianceControl": {
+          "title": "合规控制",
+          "description": "跟踪截止日期、审批和义务。"
+        },
+        "aiRuntime": {
+          "title": "AI 会计运行时",
+          "description": "AI 辅助运营与会计流程。"
+        }
+      },
+      "modules": [
+        "运营",
+        "财务",
+        "会计",
+        "文档",
+        "审批",
+        "AI 运行时"
+      ]
+    },
+    "flow": {
+      "businessReality": [
+        "运营",
+        "销售",
+        "库存",
+        "采购",
+        "项目",
+        "人员",
+        "文档"
+      ],
+      "financialIntelligence": [
+        "会计",
+        "治理",
+        "预测",
+        "现金流",
+        "绩效",
+        "业主控制"
+      ],
+      "businessRealityTitle": "业务运营现实",
+      "financialIntelligenceTitle": "财务智能",
+      "centerTitle": "合成智能"
+    },
+    "industries": {
+      "badge": "行业解决方案",
+      "title1": "专为您的行业打造",
+      "title2": "根据您的业务配置",
+      "description": "每个行业都有不同的运营方式。餐厅、酒店、会计事务所、零售商、建筑公司和企业集团都需要不同的流程、控制和智能系统。Avantiqo 根据您的业务进行适配，同时将客户、营销、运营、财务和智能连接在同一个平台上。",
+      "groups": {
+        "professionalServices": {
+          "title": "专业服务",
+          "description": "会计事务所、律师事务所、顾问、代理机构和服务型企业。"
+        },
+        "hospitality": {
+          "title": "酒店与餐饮",
+          "description": "餐厅、酒店、度假村、海滩俱乐部和夜生活场所。"
+        },
+        "retail": {
+          "title": "零售与商业",
+          "description": "零售店、购物中心、连锁加盟和电子商务。"
+        },
+        "construction": {
+          "title": "建筑与地产",
+          "description": "建筑、房地产、物业管理和开发。"
+        },
+        "distribution": {
+          "title": "分销与制造",
+          "description": "仓储、物流、采购和生产。"
+        },
+        "enterprise": {
+          "title": "企业集团",
+          "description": "多公司集团、控股公司、家族办公室和企业组织。"
+        }
+      },
+      "pillars": {
+        "badge": "PLATFORM FOUNDATION",
+        "title1": "Every Operating System",
+        "title2": "Includes",
+        "revenue": {
+          "title": "Revenue",
+          "items": [
+            "CRM",
+            "Customer Experience",
+            "Marketing",
+            "Reviews",
+            "Sales",
+            "Loyalty",
+            "Design Studio"
+          ]
+        },
+        "operations": {
+          "title": "运营",
+          "items": [
+            "Projects",
+            "Inventory",
+            "Procurement",
+            "Production",
+            "Scheduling",
+            "文档",
+            "Workflow Engine"
+          ]
+        },
+        "finance": {
+          "title": "财务",
+          "items": [
+            "会计",
+            "Payroll",
+            "Treasury",
+            "Tax",
+            "Accounts Payable",
+            "Accounts Receivable",
+            "Reporting"
+          ]
+        },
+        "intelligence": {
+          "title": "Synthetic Intelligence",
+          "items": [
+            "AI 运行时",
+            "Recommendations",
+            "Compliance",
+            "Optimization",
+            "Knowledge Memory",
+            "Executive Intelligence"
+          ]
+        }
+      },
+      "intelligence": {
+        "badge": "SYNTHETIC INTELLIGENCE",
+        "title1": "Every Industry.",
+        "title2": "One Intelligence Layer.",
+        "description": "Avantiqo adapts to your industry while keeping Revenue, Operations, Finance and Intelligence connected through one operating platform."
+      },
+      "runtimeLabel": "行业操作系统",
+      "exploreIndustry": "探索方案",
+      "cta": {
+        "badge": "统一平台",
+        "title1": "专为您的行业打造。",
+        "title2": "根据您的运营配置。",
+        "title3": "由统一智能层驱动。",
+        "description": "无论您经营餐厅、会计事务所、酒店、建筑公司、零售连锁或企业集团，Avantiqo 都能根据您的行业配置操作系统，同时保持收入、运营、财务和智能连接。",
+        "primary": "探索行业解决方案",
+        "secondary": "查看平台架构"
+      },
+      "businessFunctions": {
+        "badge": "业务职能",
+        "title1": "每一个业务职能",
+        "title2": "统一平台",
+        "description": "从客户获取到财务报告，所有业务职能都运行在同一基础之上。",
+        "cards": [
+          {
+            "title": "营销",
+            "items": [
+              "活动",
+              "设计工作室",
+              "社交媒体",
+              "内容智能"
+            ]
+          },
+          {
+            "title": "客户",
+            "items": [
+              "CRM",
+              "忠诚度",
+              "评价",
+              "销售"
+            ]
+          },
+          {
+            "title": "运营",
+            "items": [
+              "项目",
+              "排班",
+              "人员管理",
+              "审批"
+            ]
+          },
+          {
+            "title": "财务",
+            "items": [
+              "会计",
+              "收入",
+              "资金管理",
+              "合规"
+            ]
+          },
+          {
+            "title": "文档",
+            "items": [
+              "合同",
+              "政策",
+              "治理",
+              "记录"
+            ]
+          },
+          {
+            "title": "智能",
+            "items": [
+              "洞察",
+              "建议",
+              "自动化",
+              "执行"
+            ]
+          }
+        ]
+      },
+      "intelligenceLayer": {
+        "badge": "智能层",
+        "title1": "统一智能层",
+        "title2": "覆盖所有行业",
+        "description": "Avantiqo 观察每个部门的活动，理解数据之间的关系，提出建议，并逐步实现自动化执行。",
+        "steps": [
+          {
+            "title": "观察",
+            "desc": "收集客户、运营、财务和人员相关活动。"
+          },
+          {
+            "title": "理解",
+            "desc": "建立人员、数据、流程和结果之间的关系。"
+          },
+          {
+            "title": "建议",
+            "desc": "识别机会、风险和行动。"
+          },
+          {
+            "title": "执行",
+            "desc": "自动化工作流、审批和决策。"
+          }
+        ]
+      },
+      "dataFoundation": {
+        "badge": "统一数据基础",
+        "title1": "统一业务数据",
+        "title2": "覆盖所有部门",
+        "description": "没有孤立系统，没有重复记录，没有手工对账。每个模块、部门和行业运行时都基于同一数据基础。",
+        "entities": [
+          {
+            "title": "客户",
+            "desc": "销售、CRM、忠诚度和营销"
+          },
+          {
+            "title": "员工",
+            "desc": "人员管理、薪资和绩效"
+          },
+          {
+            "title": "供应商",
+            "desc": "采购和供应商管理"
+          },
+          {
+            "title": "交易",
+            "desc": "运营、财务和报告"
+          },
+          {
+            "title": "统一记录",
+            "desc": "整个平台的统一基础"
+          }
+        ]
+      }
+    },
+    "hospitality": {
+      "hero": {
+        "badge": "HOSPITALITY OPERATING SYSTEM",
+        "title1": "One Runtime For Hospitality.",
+        "title2": "From Guest Experience To Accounting.",
+        "description": "Reservations, operations, staff, accounting, marketing, reviews and AI operating together in one connected system.",
+        "primary": "Book Demo",
+        "secondary": "Explore Platform"
+      },
+      "reality": {
+        "badge": "HOSPITALITY REALITY",
+        "title1": "Every Guest Action.",
+        "title2": "Connected To The Business.",
+        "flow": [
+          "Guest",
+          "Reservation",
+          "Arrival",
+          "Table",
+          "Order",
+          "Kitchen / Bar",
+          "Expo",
+          "Service",
+          "Payment",
+          "Accounting",
+          "Profitability"
+        ]
+      },
+      "staff": {
+        "badge": "STAFF OPERATING SYSTEM",
+        "title": "One Workforce Runtime",
+        "items": [
+          "Attendance",
+          "Scheduling",
+          "Tasks",
+          "Invoice Uploads",
+          "Photo Uploads",
+          "Performance",
+          "Payroll"
+        ]
+      },
+      "production": {
+        "badge": "INVENTORY & PRODUCTION",
+        "title": "Control Cost In Real Time"
+      },
+      "accounting": {
+        "badge": "ACCOUNTING RUNTIME",
+        "title": "Every Transaction Connected"
+      },
+      "designStudio": {
+        "badge": "DESIGN STUDIO",
+        "title": "Create Hospitality Campaigns"
+      },
+      "marketing": {
+        "badge": "MARKETING AUTOMATION",
+        "title": "Turn Guests Into Returning Customers"
+      },
+      "reviews": {
+        "badge": "REVIEWS & REPUTATION",
+        "title": "AI Powered Review Management"
+      },
+      "ai": {
+        "badge": "AI HOSPITALITY RUNTIME",
+        "title": "Observe. Understand. Recommend. Execute."
+      },
+      "owner": {
+        "badge": "OWNER CONTROL CENTER",
+        "title": "Everything Connected",
+        "description": "预订、运营、员工上传、会计、营销、评论和 AI 智能在一个酒店业控制中心协同运行。",
+        "modules": [
+          "预订",
+          "运营",
+          "员工",
+          "会计",
+          "营销",
+          "评论",
+          "AI Runtime",
+          "业主智能"
+        ]
+      },
+      "cta": {
+        "badge": "ONE HOSPITALITY PLATFORM",
+        "title": "Run Hospitality On One Operating System"
+      }
     }
   },
   "navigation": {
@@ -819,7 +1201,7 @@
         "description": "Invoice AI + supplier synchronization."
       },
       "accounting": {
-        "title": "Accounting",
+        "title": "会计",
         "description": "Live financial and profitability updates."
       }
     },
@@ -1136,7 +1518,7 @@
     "hero": {
       "badge": "DOCUMENT INTELLIGENCE",
       "title1": "Enterprise",
-      "title2": "Documents",
+      "title2": "文档",
       "description": "AI同步的合同、发票、报告、薪资审批、采购文件和运营记录。"
     },
     "storage": {

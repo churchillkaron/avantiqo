@@ -11,7 +11,9 @@
     "security": "ความปลอดภัย",
     "signIn": "เข้าสู่ระบบ",
     "workspace": "เวิร์กสเปซ",
-    "startSetup": "เริ่มต้นระบบ"
+    "startSetup": "เริ่มต้นระบบ",
+    "accountingFirms": "สำนักงานบัญชี",
+    "demo": "เดโม"
   },
   "home": {
     "hero": {
@@ -66,6 +68,386 @@
       "title2": "สู่ปัญญาธุรกิจ",
       "title3": "ขับเคลื่อนด้วยปัญญาสังเคราะห์",
       "description": "สำนักงานบัญชีที่เชื่อมต่อโดยตรงกับการดำเนินงานของลูกค้า จะไม่เพียงรายงานอดีต แต่จะเข้าใจปัจจุบัน คาดการณ์ความเสี่ยง ช่วยตัดสินใจ และทำให้ธุรกิจทำงานได้ดีขึ้น"
+    },
+    "workspace": {
+      "badge": "ดู Avantiqo ในการทำงานจริง",
+      "title1": "หนึ่ง Workspace",
+      "title2": "ทุกฟังก์ชันของธุรกิจ",
+      "description": "Operations, Finance, Accounting, Documents, Approvals, Marketing, AI Runtime และ Enterprise Control เชื่อมต่อกันผ่าน operating layer เดียว",
+      "cards": {
+        "clientManagement": {
+          "title": "จัดการลูกค้า",
+          "description": "บริหารลูกค้าทั้งหมดจาก Workspace เดียว"
+        },
+        "accountantAssignment": {
+          "title": "มอบหมายผู้ทำบัญชี",
+          "description": "กำหนดผู้รับผิดชอบและกระจายภาระงาน"
+        },
+        "complianceControl": {
+          "title": "ควบคุม Compliance",
+          "description": "ติดตามกำหนดเวลา การอนุมัติ และข้อกำหนดต่าง ๆ"
+        },
+        "aiRuntime": {
+          "title": "AI Accounting Runtime",
+          "description": "ระบบ AI ช่วยดำเนินงานและกระบวนการทางบัญชี"
+        }
+      },
+      "modules": [
+        "การดำเนินงาน",
+        "การเงิน",
+        "บัญชี",
+        "เอกสาร",
+        "การอนุมัติ",
+        "AI Runtime"
+      ]
+    },
+    "comparison": {
+      "software": {
+        "title": "ซอฟต์แวร์แบบเดิม",
+        "items": [
+          "เก็บข้อมูล",
+          "ทำงานด้วยคน",
+          "ลงบัญชีภายหลัง"
+        ]
+      },
+      "ai": {
+        "title": "AI แบบเดิม",
+        "items": [
+          "ตอบคำถาม",
+          "ยังต้องทำงานเอง",
+          "ไม่มีบริบททางการเงิน"
+        ]
+      },
+      "avantiqo": {
+        "title": "AVANTIQO",
+        "items": [
+          "สังเกต",
+          "ตัดสินใจ",
+          "ดำเนินการ",
+          "บันทึกบัญชี"
+        ]
+      }
+    },
+    "flow": {
+      "businessReality": [
+        "การดำเนินงาน",
+        "ยอดขาย",
+        "สต็อก",
+        "จัดซื้อ",
+        "โครงการ",
+        "บุคลากร",
+        "เอกสาร"
+      ],
+      "financialIntelligence": [
+        "บัญชี",
+        "การกำกับดูแล",
+        "การคาดการณ์",
+        "กระแสเงินสด",
+        "ประสิทธิภาพ",
+        "การควบคุมเจ้าของ"
+      ],
+      "businessRealityTitle": "ความเป็นจริงทางธุรกิจ",
+      "financialIntelligenceTitle": "ข้อมูลเชิงลึกทางการเงิน",
+      "centerTitle": "ปัญญาสังเคราะห์"
+    },
+    "industries": {
+      "badge": "โซลูชันตามอุตสาหกรรม",
+      "title1": "สร้างมาเพื่ออุตสาหกรรมของคุณ",
+      "title2": "ปรับให้เหมาะกับธุรกิจของคุณ",
+      "description": "แต่ละอุตสาหกรรมมีรูปแบบการดำเนินงานแตกต่างกัน ร้านอาหาร โรงแรม สำนักงานบัญชี ค้าปลีก ธุรกิจก่อสร้าง และกลุ่มบริษัทต้องการกระบวนการ การควบคุม และระบบอัจฉริยะที่แตกต่างกัน Avantiqo ปรับให้เข้ากับธุรกิจของคุณ พร้อมเชื่อมโยงลูกค้า การตลาด การดำเนินงาน การเงิน และระบบอัจฉริยะไว้บนแพลตฟอร์มเดียว",
+      "groups": {
+        "professionalServices": {
+          "title": "บริการวิชาชีพ",
+          "description": "สำนักงานบัญชี สำนักงานกฎหมาย ที่ปรึกษา เอเจนซี่ และธุรกิจบริการ"
+        },
+        "hospitality": {
+          "title": "โรงแรมและการบริการ",
+          "description": "ร้านอาหาร โรงแรม รีสอร์ท บีชคลับ และสถานบันเทิงยามค่ำคืน"
+        },
+        "retail": {
+          "title": "ค้าปลีกและการค้า",
+          "description": "ร้านค้าปลีก ศูนย์การค้า ธุรกิจแฟรนไชส์ และอีคอมเมิร์ซ"
+        },
+        "construction": {
+          "title": "ก่อสร้างและอสังหาริมทรัพย์",
+          "description": "งานก่อสร้าง อสังหาริมทรัพย์ การบริหารทรัพย์สิน และการพัฒนาโครงการ"
+        },
+        "distribution": {
+          "title": "กระจายสินค้าและการผลิต",
+          "description": "คลังสินค้า โลจิสติกส์ การจัดซื้อ และการผลิต"
+        },
+        "enterprise": {
+          "title": "องค์กร",
+          "description": "กลุ่มบริษัท โฮลดิ้ง แฟมิลี่ออฟฟิศ และองค์กรธุรกิจ"
+        }
+      },
+      "pillars": {
+        "badge": "PLATFORM FOUNDATION",
+        "title1": "Every Operating System",
+        "title2": "Includes",
+        "revenue": {
+          "title": "Revenue",
+          "items": [
+            "CRM",
+            "Customer Experience",
+            "Marketing",
+            "Reviews",
+            "Sales",
+            "Loyalty",
+            "Design Studio"
+          ]
+        },
+        "operations": {
+          "title": "การดำเนินงาน",
+          "items": [
+            "Projects",
+            "Inventory",
+            "Procurement",
+            "Production",
+            "Scheduling",
+            "เอกสาร",
+            "Workflow Engine"
+          ]
+        },
+        "finance": {
+          "title": "การเงิน",
+          "items": [
+            "บัญชี",
+            "Payroll",
+            "Treasury",
+            "Tax",
+            "Accounts Payable",
+            "Accounts Receivable",
+            "Reporting"
+          ]
+        },
+        "intelligence": {
+          "title": "Synthetic Intelligence",
+          "items": [
+            "AI Runtime",
+            "Recommendations",
+            "Compliance",
+            "Optimization",
+            "Knowledge Memory",
+            "Executive Intelligence"
+          ]
+        }
+      },
+      "intelligence": {
+        "badge": "SYNTHETIC INTELLIGENCE",
+        "title1": "Every Industry.",
+        "title2": "One Intelligence Layer.",
+        "description": "Avantiqo adapts to your industry while keeping Revenue, Operations, Finance and Intelligence connected through one operating platform."
+      },
+      "runtimeLabel": "ระบบปฏิบัติการสำหรับอุตสาหกรรม",
+      "exploreIndustry": "ดูโซลูชัน",
+      "cta": {
+        "badge": "แพลตฟอร์มแบบรวมศูนย์",
+        "title1": "สร้างขึ้นสำหรับอุตสาหกรรมของคุณ",
+        "title2": "กำหนดค่าตามธุรกิจของคุณ",
+        "title3": "ขับเคลื่อนด้วยชั้นอัจฉริยะแบบรวมศูนย์",
+        "description": "ไม่ว่าคุณจะดำเนินธุรกิจร้านอาหาร สำนักงานบัญชี โรงแรม บริษัทก่อสร้าง เครือข่ายค้าปลีก หรือกลุ่มบริษัท Avantiqo จะปรับระบบให้เหมาะกับอุตสาหกรรมของคุณ พร้อมเชื่อมรายได้ การดำเนินงาน การเงิน และระบบอัจฉริยะเข้าด้วยกัน",
+        "primary": "สำรวจโซลูชันอุตสาหกรรม",
+        "secondary": "ดูสถาปัตยกรรมแพลตฟอร์ม"
+      },
+      "businessFunctions": {
+        "badge": "ฟังก์ชันธุรกิจ",
+        "title1": "ทุกฟังก์ชันของธุรกิจ",
+        "title2": "บนแพลตฟอร์มเดียว",
+        "description": "ตั้งแต่การหาลูกค้าไปจนถึงการรายงานทางการเงิน ทุกฟังก์ชันทำงานบนรากฐานเดียวกัน",
+        "cards": [
+          {
+            "title": "การตลาด",
+            "items": [
+              "แคมเปญ",
+              "สตูดิโอออกแบบ",
+              "โซเชียลมีเดีย",
+              "คอนเทนต์ AI"
+            ]
+          },
+          {
+            "title": "ลูกค้า",
+            "items": [
+              "CRM",
+              "สมาชิก",
+              "รีวิว",
+              "ยอดขาย"
+            ]
+          },
+          {
+            "title": "ปฏิบัติการ",
+            "items": [
+              "โครงการ",
+              "ตารางงาน",
+              "บุคลากร",
+              "การอนุมัติ"
+            ]
+          },
+          {
+            "title": "การเงิน",
+            "items": [
+              "บัญชี",
+              "รายได้",
+              "บริหารเงิน",
+              "การปฏิบัติตามข้อกำหนด"
+            ]
+          },
+          {
+            "title": "เอกสาร",
+            "items": [
+              "สัญญา",
+              "นโยบาย",
+              "ธรรมาภิบาล",
+              "บันทึก"
+            ]
+          },
+          {
+            "title": "อัจฉริยะ",
+            "items": [
+              "ข้อมูลเชิงลึก",
+              "คำแนะนำ",
+              "ระบบอัตโนมัติ",
+              "การดำเนินการ"
+            ]
+          }
+        ]
+      },
+      "intelligenceLayer": {
+        "badge": "ชั้นปัญญาอัจฉริยะ",
+        "title1": "หนึ่งชั้นปัญญาอัจฉริยะ",
+        "title2": "สำหรับทุกอุตสาหกรรม",
+        "description": "Avantiqo สังเกตกิจกรรมทั้งหมด เชื่อมโยงข้อมูล แนะนำการดำเนินการ และค่อย ๆ ทำงานอัตโนมัติ",
+        "steps": [
+          {
+            "title": "สังเกต",
+            "desc": "รวบรวมกิจกรรมจากลูกค้า การดำเนินงาน การเงิน และพนักงาน"
+          },
+          {
+            "title": "เข้าใจ",
+            "desc": "เชื่อมโยงผู้คน ข้อมูล กระบวนการ และผลลัพธ์"
+          },
+          {
+            "title": "แนะนำ",
+            "desc": "ระบุโอกาส ความเสี่ยง และแนวทางดำเนินการ"
+          },
+          {
+            "title": "ดำเนินการ",
+            "desc": "ทำงานอัตโนมัติ การอนุมัติ และการตัดสินใจ"
+          }
+        ]
+      },
+      "dataFoundation": {
+        "badge": "ฐานข้อมูลเดียว",
+        "title1": "ข้อมูลธุรกิจแบบรวมศูนย์",
+        "title2": "สำหรับทุกแผนก",
+        "description": "ไม่มีระบบแยก ไม่มีข้อมูลซ้ำ ไม่มีการกระทบยอดด้วยมือ",
+        "entities": [
+          {
+            "title": "ลูกค้า",
+            "desc": "ยอดขาย CRM สมาชิก และการตลาด"
+          },
+          {
+            "title": "พนักงาน",
+            "desc": "บุคลากร เงินเดือน และประสิทธิภาพ"
+          },
+          {
+            "title": "ซัพพลายเออร์",
+            "desc": "การจัดซื้อและการบริหารผู้ขาย"
+          },
+          {
+            "title": "ธุรกรรม",
+            "desc": "การดำเนินงาน การเงิน และรายงาน"
+          },
+          {
+            "title": "ข้อมูลกลาง",
+            "desc": "รากฐานเดียวสำหรับทั้งแพลตฟอร์ม"
+          }
+        ]
+      }
+    },
+    "hospitality": {
+      "hero": {
+        "badge": "HOSPITALITY OPERATING SYSTEM",
+        "title1": "One Runtime For Hospitality.",
+        "title2": "From Guest Experience To Accounting.",
+        "description": "Reservations, operations, staff, accounting, marketing, reviews and AI operating together in one connected system.",
+        "primary": "Book Demo",
+        "secondary": "Explore Platform"
+      },
+      "reality": {
+        "badge": "HOSPITALITY REALITY",
+        "title1": "Every Guest Action.",
+        "title2": "Connected To The Business.",
+        "flow": [
+          "Guest",
+          "Reservation",
+          "Arrival",
+          "Table",
+          "Order",
+          "Kitchen / Bar",
+          "Expo",
+          "Service",
+          "Payment",
+          "Accounting",
+          "Profitability"
+        ]
+      },
+      "staff": {
+        "badge": "STAFF OPERATING SYSTEM",
+        "title": "One Workforce Runtime",
+        "items": [
+          "Attendance",
+          "Scheduling",
+          "Tasks",
+          "Invoice Uploads",
+          "Photo Uploads",
+          "Performance",
+          "Payroll"
+        ]
+      },
+      "production": {
+        "badge": "INVENTORY & PRODUCTION",
+        "title": "Control Cost In Real Time"
+      },
+      "accounting": {
+        "badge": "ACCOUNTING RUNTIME",
+        "title": "Every Transaction Connected"
+      },
+      "designStudio": {
+        "badge": "DESIGN STUDIO",
+        "title": "Create Hospitality Campaigns"
+      },
+      "marketing": {
+        "badge": "MARKETING AUTOMATION",
+        "title": "Turn Guests Into Returning Customers"
+      },
+      "reviews": {
+        "badge": "REVIEWS & REPUTATION",
+        "title": "AI Powered Review Management"
+      },
+      "ai": {
+        "badge": "AI HOSPITALITY RUNTIME",
+        "title": "Observe. Understand. Recommend. Execute."
+      },
+      "owner": {
+        "badge": "OWNER CONTROL CENTER",
+        "title": "Everything Connected",
+        "description": "การจอง การดำเนินงาน การอัปโหลดของพนักงาน บัญชี การตลาด รีวิว และ AI ทำงานร่วมกันในศูนย์ควบคุม hospitality เดียว",
+        "modules": [
+          "การจอง",
+          "การดำเนินงาน",
+          "พนักงาน",
+          "บัญชี",
+          "การตลาด",
+          "รีวิว",
+          "AI Runtime",
+          "ข้อมูลอัจฉริยะสำหรับเจ้าของ"
+        ]
+      },
+      "cta": {
+        "badge": "ONE HOSPITALITY PLATFORM",
+        "title": "Run Hospitality On One Operating System"
+      }
     }
   },
   "navigation": {

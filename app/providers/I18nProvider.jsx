@@ -58,6 +58,7 @@ export function I18nProvider({ children }) {
       locale,
       setLocale,
       t,
+      translations: translations?.[locale] || {},
     };
   }, [locale]);
 

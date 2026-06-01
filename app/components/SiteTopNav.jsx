@@ -5,13 +5,8 @@ import LanguageSwitcher from "@/app/components/LanguageSwitcher";
 export default function SiteTopNav() {
   const { t } = useTranslation();
 
-  const navItems = [
-    {
-      label: "Synthetic Intelligence",
-      href: "/what-is-synthetic-intelligence",
-    },
-    {
-      label: "Accounting Firms",
+  const navItems = [    {
+      label: t("topnav.accountingFirms"),
       href: "/industries/accounting-firms",
     },
     {
@@ -27,7 +22,7 @@ export default function SiteTopNav() {
       href: "/workspace/dashboard",
     },
     {
-      label: "Demo",
+      label: t("topnav.demo"),
       href: "/demo",
     },
   ];
@@ -46,7 +41,7 @@ export default function SiteTopNav() {
 
           <div className="flex flex-col justify-center">
             <div className="text-[11px] font-medium tracking-[0.52em] text-[#D6A66A]/90 uppercase">
-              Synthetic Intelligence Operating System
+              OPERATE • CONTROL • GROW
             </div>
           </div>
 

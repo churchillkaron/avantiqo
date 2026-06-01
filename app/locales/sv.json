@@ -11,7 +11,9 @@
     "security": "Säkerhet",
     "signIn": "Logga In",
     "workspace": "Arbetsyta",
-    "startSetup": "Starta Setup"
+    "startSetup": "Starta Setup",
+    "accountingFirms": "Redovisningsbyråer",
+    "demo": "Demo"
   },
   "home": {
     "hero": {
@@ -66,6 +68,386 @@
       "title2": "Till Affärsintelligens.",
       "title3": "Driven Av Syntetisk Intelligens.",
       "description": "Redovisningsbyråer som kopplar direkt till klienternas verksamhet kommer inte bara rapportera det förflutna. De kommer förstå nuet, förutse risker, vägleda beslut och hjälpa företag prestera bättre."
+    },
+    "comparison": {
+      "software": {
+        "title": "TRADITIONELL PROGRAMVARA",
+        "items": [
+          "Lagrar data",
+          "Manuellt arbete",
+          "Redovisning senare"
+        ]
+      },
+      "ai": {
+        "title": "TRADITIONELL AI",
+        "items": [
+          "Genererar svar",
+          "Mer manuellt arbete",
+          "Ingen finansiell kontext"
+        ]
+      },
+      "avantiqo": {
+        "title": "AVANTIQO",
+        "items": [
+          "Observerar",
+          "Beslutar",
+          "Utför",
+          "Bokför"
+        ]
+      }
+    },
+    "workspace": {
+      "badge": "SE AVANTIQO I PRAKTIKEN",
+      "title1": "Ett Workspace",
+      "title2": "För varje affärsfunktion",
+      "description": "Drift, finans, redovisning, dokument, godkännanden, marknadsföring, AI Runtime och företagskontroll kopplas samman i ett operativt lager.",
+      "cards": {
+        "clientManagement": {
+          "title": "KUNDHANTERING",
+          "description": "Hantera alla kunder från ett enda Workspace."
+        },
+        "accountantAssignment": {
+          "title": "REDOVISNINGSANSVAR",
+          "description": "Tilldela redovisningsansvariga och balansera arbetsbelastning."
+        },
+        "complianceControl": {
+          "title": "COMPLIANCE-KONTROLL",
+          "description": "Följ deadlines, godkännanden och skyldigheter."
+        },
+        "aiRuntime": {
+          "title": "AI ACCOUNTING RUNTIME",
+          "description": "AI-stödda operativa och redovisningsflöden."
+        }
+      },
+      "modules": [
+        "Drift",
+        "Finans",
+        "Redovisning",
+        "Dokument",
+        "Godkännanden",
+        "AI Driftmiljö"
+      ]
+    },
+    "flow": {
+      "businessReality": [
+        "Drift",
+        "Försäljning",
+        "Lager",
+        "Inköp",
+        "Projekt",
+        "Personal",
+        "Dokument"
+      ],
+      "financialIntelligence": [
+        "Redovisning",
+        "Styrning",
+        "Prognoser",
+        "Cash Flow",
+        "Prestanda",
+        "Ägarkontroll"
+      ],
+      "businessRealityTitle": "VERKSAMHETSREALITET",
+      "financialIntelligenceTitle": "FINANSIELL INTELLIGENS",
+      "centerTitle": "Syntetisk intelligens"
+    },
+    "industries": {
+      "badge": "BRANSCHLÖSNINGAR",
+      "title1": "Byggd för din bransch",
+      "title2": "Konfigurerad för ditt företag",
+      "description": "Varje bransch fungerar olika. Restauranger, hotell, redovisningsbyråer, detaljhandel, byggföretag och företagsgrupper kräver olika processer, kontroller och intelligenssystem. Avantiqo anpassar sig till verksamheten samtidigt som kunder, marknadsföring, verksamhet, ekonomi och intelligens hålls samman på en plattform.",
+      "groups": {
+        "professionalServices": {
+          "title": "Professionella Tjänster",
+          "description": "Redovisningsbyråer, advokatbyråer, konsulter, byråer och tjänsteföretag."
+        },
+        "hospitality": {
+          "title": "Hotell & Restaurang",
+          "description": "Restauranger, hotell, resorter, beach clubs och nattlivsverksamheter."
+        },
+        "retail": {
+          "title": "Handel & Detaljhandel",
+          "description": "Butiker, köpcentrum, butikskedjor och e-handel."
+        },
+        "construction": {
+          "title": "Bygg & Fastighet",
+          "description": "Byggnation, fastigheter, fastighetsförvaltning och utveckling."
+        },
+        "distribution": {
+          "title": "Distribution & Tillverkning",
+          "description": "Lager, logistik, inköp och produktion."
+        },
+        "enterprise": {
+          "title": "Företag",
+          "description": "Företagsgrupper, holdingbolag, family offices och företagsorganisationer."
+        }
+      },
+      "pillars": {
+        "badge": "PLATFORM FOUNDATION",
+        "title1": "Every Operating System",
+        "title2": "Includes",
+        "revenue": {
+          "title": "Revenue",
+          "items": [
+            "CRM",
+            "Customer Experience",
+            "Marketing",
+            "Reviews",
+            "Sales",
+            "Loyalty",
+            "Design Studio"
+          ]
+        },
+        "operations": {
+          "title": "VERKSAMHET",
+          "items": [
+            "Projects",
+            "Inventory",
+            "Procurement",
+            "Production",
+            "Scheduling",
+            "Dokument",
+            "Workflow Engine"
+          ]
+        },
+        "finance": {
+          "title": "EKONOMI",
+          "items": [
+            "Redovisning",
+            "Payroll",
+            "Treasury",
+            "Tax",
+            "Accounts Payable",
+            "Accounts Receivable",
+            "Reporting"
+          ]
+        },
+        "intelligence": {
+          "title": "Synthetic Intelligence",
+          "items": [
+            "AI Runtime",
+            "Recommendations",
+            "Compliance",
+            "Optimization",
+            "Knowledge Memory",
+            "Executive Intelligence"
+          ]
+        }
+      },
+      "intelligence": {
+        "badge": "SYNTHETIC INTELLIGENCE",
+        "title1": "Every Industry.",
+        "title2": "One Intelligence Layer.",
+        "description": "Avantiqo adapts to your industry while keeping Revenue, Operations, Finance and Intelligence connected through one operating platform."
+      },
+      "runtimeLabel": "Branschspecifikt Affärssystem",
+      "exploreIndustry": "Utforska lösningen",
+      "cta": {
+        "badge": "EN GEMENSAM PLATTFORM",
+        "title1": "Byggt för din bransch.",
+        "title2": "Konfigurerad för din verksamhet.",
+        "title3": "Drivs av ett enhetligt intelligenslager.",
+        "description": "Oavsett om du driver restaurang, redovisningsbyrå, hotell, byggföretag, detaljhandelskedja eller företagsgrupp anpassar Avantiqo operativsystemet efter din bransch samtidigt som intäkter, verksamhet, ekonomi och intelligens hålls samman.",
+        "primary": "Utforska branschlösningar",
+        "secondary": "Visa plattformsarkitektur"
+      },
+      "businessFunctions": {
+        "badge": "AFFÄRSFUNKTIONER",
+        "title1": "Varje Affärsfunktion.",
+        "title2": "En Sammanlänkad Plattform.",
+        "description": "Från kundanskaffning till finansiell rapportering arbetar alla funktioner på samma grund.",
+        "cards": [
+          {
+            "title": "MARKNADSFÖRING",
+            "items": [
+              "Kampanjer",
+              "Designstudio",
+              "Sociala Medier",
+              "AI-Innehåll"
+            ]
+          },
+          {
+            "title": "KUNDER",
+            "items": [
+              "CRM",
+              "Lojalitet",
+              "Recensioner",
+              "Försäljning"
+            ]
+          },
+          {
+            "title": "VERKSAMHET",
+            "items": [
+              "Projekt",
+              "Schemaläggning",
+              "Personal",
+              "Godkännanden"
+            ]
+          },
+          {
+            "title": "EKONOMI",
+            "items": [
+              "Bokföring",
+              "Intäkter",
+              "Treasury",
+              "Efterlevnad"
+            ]
+          },
+          {
+            "title": "DOKUMENT",
+            "items": [
+              "Avtal",
+              "Policyer",
+              "Styrning",
+              "Register"
+            ]
+          },
+          {
+            "title": "INTELLIGENS",
+            "items": [
+              "Insikter",
+              "Rekommendationer",
+              "Automatisering",
+              "Utförande"
+            ]
+          }
+        ]
+      },
+      "intelligenceLayer": {
+        "badge": "INTELLIGENSLAGER",
+        "title1": "Ett Intelligenslager.",
+        "title2": "För Alla Branscher.",
+        "description": "Avantiqo observerar verksamheten, förstår relationer mellan data, rekommenderar åtgärder och automatiserar utförande.",
+        "steps": [
+          {
+            "title": "OBSERVERA",
+            "desc": "Samlar aktivitet från kunder, verksamhet, ekonomi och personal."
+          },
+          {
+            "title": "FÖRSTÅ",
+            "desc": "Kopplar samman människor, data, processer och resultat."
+          },
+          {
+            "title": "REKOMMENDERA",
+            "desc": "Identifierar möjligheter, risker och åtgärder."
+          },
+          {
+            "title": "UTFÖR",
+            "desc": "Automatiserar arbetsflöden, godkännanden och beslut."
+          }
+        ]
+      },
+      "dataFoundation": {
+        "badge": "EN GEMENSAM DATAFUNDAMENT",
+        "title1": "Enhetlig Affärsdata.",
+        "title2": "För Varje Avdelning.",
+        "description": "Inga separata system. Inga dubbla poster. Ingen manuell avstämning.",
+        "entities": [
+          {
+            "title": "Kund",
+            "desc": "Försäljning, CRM, lojalitet och marknadsföring"
+          },
+          {
+            "title": "Anställd",
+            "desc": "Personal, löner och prestation"
+          },
+          {
+            "title": "Leverantör",
+            "desc": "Inköp och leverantörshantering"
+          },
+          {
+            "title": "Transaktion",
+            "desc": "Verksamhet, ekonomi och rapportering"
+          },
+          {
+            "title": "Gemensam Post",
+            "desc": "En gemensam grund för hela plattformen"
+          }
+        ]
+      }
+    },
+    "hospitality": {
+      "hero": {
+        "badge": "HOSPITALITY OPERATING SYSTEM",
+        "title1": "One Runtime For Hospitality.",
+        "title2": "From Guest Experience To Accounting.",
+        "description": "Reservations, operations, staff, accounting, marketing, reviews and AI operating together in one connected system.",
+        "primary": "Book Demo",
+        "secondary": "Explore Platform"
+      },
+      "reality": {
+        "badge": "HOSPITALITY REALITY",
+        "title1": "Every Guest Action.",
+        "title2": "Connected To The Business.",
+        "flow": [
+          "Guest",
+          "Reservation",
+          "Arrival",
+          "Table",
+          "Order",
+          "Kitchen / Bar",
+          "Expo",
+          "Service",
+          "Payment",
+          "Accounting",
+          "Profitability"
+        ]
+      },
+      "staff": {
+        "badge": "STAFF OPERATING SYSTEM",
+        "title": "One Workforce Runtime",
+        "items": [
+          "Attendance",
+          "Scheduling",
+          "Tasks",
+          "Invoice Uploads",
+          "Photo Uploads",
+          "Performance",
+          "Payroll"
+        ]
+      },
+      "production": {
+        "badge": "INVENTORY & PRODUCTION",
+        "title": "Control Cost In Real Time"
+      },
+      "accounting": {
+        "badge": "ACCOUNTING RUNTIME",
+        "title": "Every Transaction Connected"
+      },
+      "designStudio": {
+        "badge": "DESIGN STUDIO",
+        "title": "Create Hospitality Campaigns"
+      },
+      "marketing": {
+        "badge": "MARKETING AUTOMATION",
+        "title": "Turn Guests Into Returning Customers"
+      },
+      "reviews": {
+        "badge": "REVIEWS & REPUTATION",
+        "title": "AI Powered Review Management"
+      },
+      "ai": {
+        "badge": "AI HOSPITALITY RUNTIME",
+        "title": "Observe. Understand. Recommend. Execute."
+      },
+      "owner": {
+        "badge": "OWNER CONTROL CENTER",
+        "title": "Everything Connected",
+        "description": "Bokningar, drift, personaluppladdningar, redovisning, marknadsföring, recensioner och AI-intelligens arbetar tillsammans i ett kontrollcenter för hospitality.",
+        "modules": [
+          "Bokningar",
+          "Drift",
+          "Personal",
+          "Redovisning",
+          "Marknadsföring",
+          "Recensioner",
+          "AI Runtime",
+          "Ägarintelligens"
+        ]
+      },
+      "cta": {
+        "badge": "ONE HOSPITALITY PLATFORM",
+        "title": "Run Hospitality On One Operating System"
+      }
     }
   },
   "navigation": {
@@ -871,7 +1253,7 @@
         "description": "Invoice AI + supplier synchronization."
       },
       "accounting": {
-        "title": "Accounting",
+        "title": "Redovisning",
         "description": "Live financial and profitability updates."
       }
     },

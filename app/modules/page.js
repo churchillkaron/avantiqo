@@ -1,6 +1,6 @@
 "use client";
 
-import SiteTopNav from "@/components/SiteTopNav";
+import SiteTopNav from "@/app/components/SiteTopNav";
 
 import Footer from "@/components/layout/Footer";
 

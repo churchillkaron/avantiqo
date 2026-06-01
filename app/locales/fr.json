@@ -11,7 +11,9 @@
     "security": "Sécurité",
     "signIn": "Connexion",
     "workspace": "Espace de travail",
-    "startSetup": "Commencer"
+    "startSetup": "Commencer",
+    "accountingFirms": "Cabinets comptables",
+    "demo": "Démo"
   },
   "home": {
     "hero": {
@@ -66,6 +68,386 @@
       "title2": "À L'Intelligence Business.",
       "title3": "Propulsée Par L'Intelligence Synthétique.",
       "description": "Les cabinets comptables connectés directement aux opérations de leurs clients ne feront pas que reporter le passé. Ils comprendront le présent, anticiperont les risques, guideront les décisions et aideront les entreprises à mieux fonctionner."
+    },
+    "comparison": {
+      "software": {
+        "title": "LOGICIELS TRADITIONNELS",
+        "items": [
+          "Stocke les données",
+          "Travail manuel",
+          "Comptabilité après coup"
+        ]
+      },
+      "ai": {
+        "title": "AI TRADITIONNELLE",
+        "items": [
+          "Génère des réponses",
+          "Plus de travail manuel",
+          "Aucun contexte financier"
+        ]
+      },
+      "avantiqo": {
+        "title": "AVANTIQO",
+        "items": [
+          "Observe",
+          "Décide",
+          "Exécute",
+          "Comptabilise"
+        ]
+      }
+    },
+    "workspace": {
+      "badge": "DÉCOUVREZ AVANTIQO EN ACTION",
+      "title1": "Un Workspace unique",
+      "title2": "Pour chaque fonction métier",
+      "description": "Opérations, finance, comptabilité, documents, validations, marketing, AI Runtime et contrôle d’entreprise connectés dans une seule couche opérationnelle.",
+      "cards": {
+        "clientManagement": {
+          "title": "GESTION CLIENTS",
+          "description": "Gérez tous vos clients depuis un seul Workspace."
+        },
+        "accountantAssignment": {
+          "title": "AFFECTATION COMPTABLE",
+          "description": "Affectez les comptables et équilibrez la charge de travail."
+        },
+        "complianceControl": {
+          "title": "CONTRÔLE COMPLIANCE",
+          "description": "Suivez les échéances, validations et obligations."
+        },
+        "aiRuntime": {
+          "title": "AI ACCOUNTING RUNTIME",
+          "description": "Workflows opérationnels et comptables assistés par AI."
+        }
+      },
+      "modules": [
+        "Opérations",
+        "Finance",
+        "Comptabilité",
+        "Documents",
+        "Validations",
+        "Runtime IA"
+      ]
+    },
+    "flow": {
+      "businessReality": [
+        "Opérations",
+        "Ventes",
+        "Inventaire",
+        "Achats",
+        "Projets",
+        "Équipe",
+        "Documents"
+      ],
+      "financialIntelligence": [
+        "Comptabilité",
+        "Gouvernance",
+        "Prévision",
+        "Cash Flow",
+        "Performance",
+        "Contrôle dirigeant"
+      ],
+      "businessRealityTitle": "RÉALITÉ OPÉRATIONNELLE",
+      "financialIntelligenceTitle": "INTELLIGENCE FINANCIÈRE",
+      "centerTitle": "Intelligence synthétique"
+    },
+    "industries": {
+      "badge": "SOLUTIONS SECTORIELLES",
+      "title1": "Conçu pour votre secteur",
+      "title2": "Configuré pour votre entreprise",
+      "description": "Chaque secteur fonctionne différemment. Les restaurants, hôtels, cabinets comptables, commerces, entreprises de construction et groupes d'entreprises nécessitent des processus, contrôles et systèmes d'intelligence différents. Avantiqo s'adapte à votre activité tout en connectant clients, marketing, opérations, finance et intelligence sur une seule plateforme.",
+      "groups": {
+        "professionalServices": {
+          "title": "Services Professionnels",
+          "description": "Cabinets comptables, cabinets d'avocats, consultants, agences et entreprises de services."
+        },
+        "hospitality": {
+          "title": "Hôtellerie & Restauration",
+          "description": "Restaurants, hôtels, resorts, beach clubs et établissements de vie nocturne."
+        },
+        "retail": {
+          "title": "Commerce & Distribution",
+          "description": "Commerce de détail, centres commerciaux, franchises et e-commerce."
+        },
+        "construction": {
+          "title": "Construction & Immobilier",
+          "description": "Construction, immobilier, gestion et développement de propriétés."
+        },
+        "distribution": {
+          "title": "Distribution & Fabrication",
+          "description": "Entreposage, logistique, approvisionnement et fabrication."
+        },
+        "enterprise": {
+          "title": "Entreprise",
+          "description": "Groupes multi-entreprises, holdings, family offices et organisations d'entreprise."
+        }
+      },
+      "pillars": {
+        "badge": "PLATFORM FOUNDATION",
+        "title1": "Every Operating System",
+        "title2": "Includes",
+        "revenue": {
+          "title": "Revenue",
+          "items": [
+            "CRM",
+            "Customer Experience",
+            "Marketing",
+            "Reviews",
+            "Sales",
+            "Loyalty",
+            "Design Studio"
+          ]
+        },
+        "operations": {
+          "title": "OPÉRATIONS",
+          "items": [
+            "Projets",
+            "Inventaire",
+            "Approvisionnement",
+            "Production",
+            "Planification",
+            "Documents",
+            "Moteur de Workflow"
+          ]
+        },
+        "finance": {
+          "title": "FINANCE",
+          "items": [
+            "Comptabilité",
+            "Paie",
+            "Trésorerie",
+            "Fiscalité",
+            "Comptes Fournisseurs",
+            "Comptes Clients",
+            "Reporting"
+          ]
+        },
+        "intelligence": {
+          "title": "Synthetic Intelligence",
+          "items": [
+            "Runtime IA",
+            "Recommandations",
+            "Conformité",
+            "Optimisation",
+            "Mémoire d'Entreprise",
+            "Intelligence Exécutive"
+          ]
+        }
+      },
+      "intelligence": {
+        "badge": "SYNTHETIC INTELLIGENCE",
+        "title1": "Every Industry.",
+        "title2": "One Intelligence Layer.",
+        "description": "Avantiqo adapts to your industry while keeping Revenue, Operations, Finance and Intelligence connected through one operating platform."
+      },
+      "runtimeLabel": "Système d'exploitation sectoriel",
+      "exploreIndustry": "Explorer la solution",
+      "cta": {
+        "badge": "PLATEFORME UNIFIÉE",
+        "title1": "Conçu pour votre secteur.",
+        "title2": "Configuré pour votre activité.",
+        "title3": "Alimenté par une couche d'intelligence unifiée.",
+        "description": "Que vous dirigiez un restaurant, un cabinet comptable, un hôtel, une entreprise de construction, une chaîne de magasins ou un groupe d'entreprises, Avantiqo configure le système d'exploitation selon votre secteur tout en gardant revenus, opérations, finance et intelligence connectés.",
+        "primary": "Explorer les solutions sectorielles",
+        "secondary": "Voir l'architecture de la plateforme"
+      },
+      "businessFunctions": {
+        "badge": "FONCTIONS MÉTIER",
+        "title1": "Chaque Fonction Métier.",
+        "title2": "Une Plateforme Connectée.",
+        "description": "De l'acquisition client au reporting financier, chaque fonction repose sur la même base.",
+        "cards": [
+          {
+            "title": "MARKETING",
+            "items": [
+              "Campagnes",
+              "Studio Design",
+              "Réseaux Sociaux",
+              "Contenu IA"
+            ]
+          },
+          {
+            "title": "CLIENTS",
+            "items": [
+              "CRM",
+              "Fidélité",
+              "Avis",
+              "Ventes"
+            ]
+          },
+          {
+            "title": "OPÉRATIONS",
+            "items": [
+              "Projets",
+              "Planification",
+              "Personnel",
+              "Approbations"
+            ]
+          },
+          {
+            "title": "FINANCE",
+            "items": [
+              "Comptabilité",
+              "Revenus",
+              "Trésorerie",
+              "Conformité"
+            ]
+          },
+          {
+            "title": "DOCUMENTS",
+            "items": [
+              "Contrats",
+              "Politiques",
+              "Gouvernance",
+              "Dossiers"
+            ]
+          },
+          {
+            "title": "INTELLIGENCE",
+            "items": [
+              "Analyses",
+              "Recommandations",
+              "Automatisation",
+              "Exécution"
+            ]
+          }
+        ]
+      },
+      "intelligenceLayer": {
+        "badge": "COUCHE D'INTELLIGENCE",
+        "title1": "Une Couche d'Intelligence.",
+        "title2": "Pour Tous Les Secteurs.",
+        "description": "Avantiqo observe l'activité, comprend les relations entre les données, recommande des actions et automatise progressivement l'exécution.",
+        "steps": [
+          {
+            "title": "OBSERVER",
+            "desc": "Collecte l'activité des clients, opérations, finances et équipes."
+          },
+          {
+            "title": "COMPRENDRE",
+            "desc": "Relie les personnes, les données, les processus et les résultats."
+          },
+          {
+            "title": "RECOMMANDER",
+            "desc": "Identifie opportunités, risques et actions."
+          },
+          {
+            "title": "EXÉCUTER",
+            "desc": "Automatise workflows, approbations et décisions."
+          }
+        ]
+      },
+      "dataFoundation": {
+        "badge": "UNE BASE DE DONNÉES UNIQUE",
+        "title1": "Données Unifiées.",
+        "title2": "Pour Chaque Département.",
+        "description": "Aucun système isolé. Aucun doublon. Aucune réconciliation manuelle.",
+        "entities": [
+          {
+            "title": "Client",
+            "desc": "Ventes, CRM, fidélité et marketing"
+          },
+          {
+            "title": "Employé",
+            "desc": "Personnel, paie et performance"
+          },
+          {
+            "title": "Fournisseur",
+            "desc": "Achats et gestion fournisseurs"
+          },
+          {
+            "title": "Transaction",
+            "desc": "Opérations, finance et reporting"
+          },
+          {
+            "title": "Enregistrement Unique",
+            "desc": "Une base commune pour toute la plateforme"
+          }
+        ]
+      }
+    },
+    "hospitality": {
+      "hero": {
+        "badge": "HOSPITALITY OPERATING SYSTEM",
+        "title1": "One Runtime For Hospitality.",
+        "title2": "From Guest Experience To Accounting.",
+        "description": "Reservations, operations, staff, accounting, marketing, reviews and AI operating together in one connected system.",
+        "primary": "Book Demo",
+        "secondary": "Explore Platform"
+      },
+      "reality": {
+        "badge": "HOSPITALITY REALITY",
+        "title1": "Every Guest Action.",
+        "title2": "Connected To The Business.",
+        "flow": [
+          "Guest",
+          "Reservation",
+          "Arrival",
+          "Table",
+          "Order",
+          "Kitchen / Bar",
+          "Expo",
+          "Service",
+          "Payment",
+          "Accounting",
+          "Profitability"
+        ]
+      },
+      "staff": {
+        "badge": "STAFF OPERATING SYSTEM",
+        "title": "One Workforce Runtime",
+        "items": [
+          "Attendance",
+          "Scheduling",
+          "Tasks",
+          "Invoice Uploads",
+          "Photo Uploads",
+          "Performance",
+          "Payroll"
+        ]
+      },
+      "production": {
+        "badge": "INVENTORY & PRODUCTION",
+        "title": "Control Cost In Real Time"
+      },
+      "accounting": {
+        "badge": "ACCOUNTING RUNTIME",
+        "title": "Every Transaction Connected"
+      },
+      "designStudio": {
+        "badge": "DESIGN STUDIO",
+        "title": "Create Hospitality Campaigns"
+      },
+      "marketing": {
+        "badge": "MARKETING AUTOMATION",
+        "title": "Turn Guests Into Returning Customers"
+      },
+      "reviews": {
+        "badge": "REVIEWS & REPUTATION",
+        "title": "AI Powered Review Management"
+      },
+      "ai": {
+        "badge": "AI HOSPITALITY RUNTIME",
+        "title": "Observe. Understand. Recommend. Execute."
+      },
+      "owner": {
+        "badge": "OWNER CONTROL CENTER",
+        "title": "Everything Connected",
+        "description": "Réservations, opérations, uploads du personnel, comptabilité, marketing, avis et intelligence IA fonctionnent ensemble dans un seul centre de contrôle hôtelier.",
+        "modules": [
+          "Réservations",
+          "Opérations",
+          "Personnel",
+          "Comptabilité",
+          "Marketing",
+          "Avis",
+          "Runtime IA",
+          "Intelligence Propriétaire"
+        ]
+      },
+      "cta": {
+        "badge": "ONE HOSPITALITY PLATFORM",
+        "title": "Run Hospitality On One Operating System"
+      }
     }
   },
   "navigation": {
@@ -73,7 +455,7 @@
     "operations": "Opérations",
     "inventory": "Stock",
     "production": "Production",
-    "finance": "Finance",
+    "finance": "Finances",
     "marketing": "Marketing",
     "settings": "Paramètres",
     "pos": "POS",
@@ -871,7 +1253,7 @@
         "description": "Invoice AI + supplier synchronization."
       },
       "accounting": {
-        "title": "Accounting",
+        "title": "Comptabilité",
         "description": "Live financial and profitability updates."
       }
     },
