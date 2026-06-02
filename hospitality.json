@@ -1,0 +1,58 @@
+{
+  "hero": {
+    "badge": "HOSPITALITY INTELLIGENCE PLATFORM",
+    "title1": "See The Entire Business.",
+    "title2": "Know What Happens Next.",
+    "description": "Reservations, operations, workforce, finance, marketing and guest experience connected through one synthetic intelligence layer.",
+    "primary": "Book Demo",
+    "secondary": "Explore Platform"
+  },
+
+  "problem": {
+    "badge": "THE HOSPITALITY PROBLEM",
+    "title1": "Most Hospitality Businesses",
+    "title2": "Operate Blind.",
+    "description": "Reservations, operations, accounting, marketing and reviews operate in disconnected systems that create delayed decisions and hidden risks."
+  },
+
+  "intelligence": {
+    "badge": "SYNTHETIC INTELLIGENCE",
+    "title1": "From Data.",
+    "title2": "To Decisions.",
+    "description": "Traditional software stores information. Avantiqo transforms operational signals into recommendations, opportunities and actions."
+  },
+
+  "executive": {
+    "badge": "EXECUTIVE VISIBILITY",
+    "title1": "One View Across",
+    "title2": "The Entire Business.",
+    "description": "Revenue, payroll, procurement, guest satisfaction, marketing performance and operational activity visible from one executive control center."
+  },
+
+  "connected": {
+    "badge": "EVERYTHING CONNECTED",
+    "title1": "One Platform.",
+    "title2": "Every Department.",
+    "modules": [
+      "Reservations Runtime",
+      "Operations Runtime",
+      "Workforce Runtime",
+      "Finance Runtime",
+      "Marketing Runtime",
+      "Reputation Runtime"
+    ]
+  },
+
+  "why": {
+    "badge": "WHY AVANTIQO",
+    "title1": "Traditional Software",
+    "title2": "Stores Data.",
+    "title3": "Avantiqo",
+    "title4": "Understands Business."
+  },
+
+  "cta": {
+    "badge": "HOSPITALITY INTELLIGENCE PLATFORM",
+    "title": "From Operational Data To Executive Decisions."
+  }
+}

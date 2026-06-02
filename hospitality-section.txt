@@ -1,0 +1,211 @@
+        </h2>
+
+        <div className="mt-12 grid gap-6 md:grid-cols-4">
+          {h.staff.items.map((item) => (
+            <div
+              key={item}
+              className="rounded-3xl border border-white/10 bg-white/[0.03] p-8"
+            >
+              {item}
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-7xl px-6 py-20">
+
+        <div className="mb-4 text-xs tracking-[0.3em] uppercase text-[#D6A66A]">
+          HOSPITALITY RUNTIME
+        </div>
+
+        <h2 className="max-w-6xl text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
+          One Connected
+          <br />
+          <span className="text-white/50">
+            Hospitality Operation.
+          </span>
+        </h2>
+
+        <div className="mt-20 rounded-[42px] border border-white/[0.06] bg-[#050714] p-12">
+
+          <div className="grid gap-6 md:grid-cols-7">
+
+            <div className="text-center">Reservations</div>
+            <div className="text-center text-[#D6A66A]">→</div>
+
+            <div className="text-center">Tables</div>
+            <div className="text-center text-[#D6A66A]">→</div>
+
+            <div className="text-center">POS</div>
+            <div className="text-center text-[#D6A66A]">→</div>
+
+            <div className="text-center">Kitchen</div>
+
+          </div>
+
+          <div className="my-10 text-center text-6xl text-[#D6A66A]">
+            ↓
+          </div>
+
+          <div className="grid gap-6 md:grid-cols-5">
+
+            <div className="text-center">Inventory</div>
+            <div className="text-center">Procurement</div>
+            <div className="text-center">Accounting</div>
+            <div className="text-center">Marketing</div>
+            <div className="text-center">Owner</div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <section className="mx-auto max-w-7xl px-6 py-20">
+
+        <div className="mb-4 text-xs tracking-[0.3em] uppercase text-[#D6A66A]">
+          SYNTHETIC INTELLIGENCE
+        </div>
+
+        <h2 className="max-w-5xl text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
+          One Intelligence Layer.
+          <br />
+          <span className="text-white/50">
+            Across The Entire Hospitality Runtime.
+          </span>
+        </h2>
+
+        <p className="mt-8 max-w-4xl text-lg leading-9 text-white/60">
+          Reservations, operations, workforce, accounting,
+          marketing and guest reputation continuously feed a
+          unified intelligence layer that identifies risks,
+          opportunities, trends and recommendations for the
+          owner.
+        </p>
+
+        <div className="mt-20 rounded-[42px] border border-white/[0.06] bg-[#050714] p-12">
+
+          <div className="grid items-center gap-8 md:grid-cols-7">
+
+            <div className="text-center">
+              <div className="text-xs tracking-[0.3em] uppercase text-[#D6A66A]">
+                Source
+              </div>
+              <div className="mt-3 text-xl font-extralight">
+                Reservations
+              </div>
+            </div>
+
+            <div className="text-center text-5xl text-[#D6A66A]">
+              →
+            </div>
+
+            <div className="text-center">
+              <div className="text-xl font-extralight">
+                Operations
+              </div>
+            </div>
+
+            <div className="text-center text-5xl text-[#D6A66A]">
+              →
+            </div>
+
+            <div className="text-center">
+              <div className="text-xl font-extralight">
+                Accounting
+              </div>
+            </div>
+
+            <div className="text-center text-5xl text-[#D6A66A]">
+              →
+            </div>
+
+            <div className="text-center">
+              <div className="text-xl font-extralight">
+                Intelligence
+              </div>
+            </div>
+
+          </div>
+
+          <div className="mt-12 rounded-[32px] border border-[#D6A66A]/20 bg-[#D6A66A]/5 p-10 text-center">
+
+            <div className="mb-4 text-xs tracking-[0.35em] uppercase text-[#D6A66A]">
+              Executive Output
+            </div>
+
+            <div className="text-4xl font-extralight">
+              Risks · Trends · Opportunities · Recommendations
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <section className="mx-auto max-w-7xl px-6 py-20">
+
+        <div className="mb-4 text-xs tracking-[0.35em] uppercase text-amber-400/70">
+          {h.owner.badge}
+        </div>
+
+        <h2 className="max-w-5xl text-5xl font-extralight leading-tight md:text-7xl">
+          {h.owner.title}
+        </h2>
+
+        <p className="mt-8 max-w-3xl text-lg text-white/60">
+          {h.owner.description}
+        </p>
+
+
+        <div className="mt-12 rounded-[42px] border border-white/[0.06] bg-[#050714] p-10">
+
+          <div className="grid gap-6 md:grid-cols-4">
+
+            <div className="rounded-3xl border border-[#D6A66A]/20 bg-white/[0.02] p-8">
+              <div className="text-xs uppercase tracking-[0.3em] text-[#D6A66A]">
+                Revenue
+              </div>
+              <div className="mt-4 text-4xl font-extralight">
+                $248k
+              </div>
+            </div>
+
+            <div className="rounded-3xl border border-white/10 bg-white/[0.02] p-8">
+              <div className="text-xs uppercase tracking-[0.3em] text-[#D6A66A]">
+                Labor
+              </div>
+              <div className="mt-4 text-4xl font-extralight">
+                24%
+              </div>
+            </div>
+
+            <div className="rounded-3xl border border-white/10 bg-white/[0.02] p-8">
+              <div className="text-xs uppercase tracking-[0.3em] text-[#D6A66A]">
+                Guest Score
+              </div>
+              <div className="mt-4 text-4xl font-extralight">
+                4.8
+              </div>
+            </div>
+
+            <div className="rounded-3xl border border-white/10 bg-white/[0.02] p-8">
+              <div className="text-xs uppercase tracking-[0.3em] text-[#D6A66A]">
+                Profitability
+              </div>
+              <div className="mt-4 text-4xl font-extralight">
+                31%
+              </div>
+            </div>
+
+          </div>
+
+          <div className="mt-10 rounded-[32px] border border-white/10 bg-white/[0.02] p-10">
+
+            <div className="text-xs uppercase tracking-[0.3em] text-[#D6A66A]">
+              Executive Intelligence
+            </div>
+
