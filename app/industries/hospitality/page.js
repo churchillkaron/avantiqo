@@ -39,20 +39,19 @@ export default function HospitalityPage() {
 
         <div className="relative z-10 mx-auto flex min-h-[92vh] max-w-7xl flex-col justify-center px-6 pt-20">
           <div className="mb-8 w-fit rounded-full border border-[#D6A66A]/30 bg-[#D6A66A]/10 px-6 py-2 text-xs font-medium uppercase tracking-[0.45em] text-[#D6A66A]">
-            Synthetic Intelligence For Hospitality
+            {h.hero?.badge}
           </div>
 
           <h1 className="max-w-5xl text-[64px] font-light leading-[0.92] tracking-[-0.06em] text-white md:text-[100px]">
-            See The Entire Business.
+            {h.hero?.title1}
             <br />
             <span className="bg-gradient-to-r from-[#D6A66A] to-[#24495C] bg-clip-text text-transparent">
-              Know What Happens Next.
+              {h.hero?.title2}
             </span>
           </h1>
 
           <p className="mt-10 max-w-3xl text-xl leading-9 text-white/85">
-            Reservations, operations, workforce, finance, marketing and guest
-            experience connected through one synthetic intelligence layer.
+            {h.hero?.description}
           </p>
 
           <div className="mt-12 flex flex-wrap gap-4">
@@ -60,14 +59,14 @@ export default function HospitalityPage() {
               href="/demo"
               className="rounded-2xl bg-[#D6A66A] px-9 py-5 text-sm font-semibold text-black transition hover:bg-[#E8BE83]"
             >
-              Book Demo
+              {h.hero?.primary}
             </Link>
 
             <Link
               href="/modules"
               className="rounded-2xl border border-white/10 bg-white/[0.06] px-9 py-5 text-sm font-semibold text-white/80 transition hover:bg-white/[0.1]"
             >
-              Explore Platform
+              {h.hero?.secondary}
             </Link>
           </div>
         </div>
@@ -75,13 +74,13 @@ export default function HospitalityPage() {
 
       <section className="mx-auto max-w-6xl px-6 py-24">
         <p className="mb-8 text-sm uppercase tracking-[0.45em] text-[#D6A66A]">
-          Hospitality Reality
+          {h.reality?.badge}
         </p>
 
         <h2 className="max-w-5xl text-5xl font-light leading-tight tracking-[-0.05em] md:text-7xl">
-          Hospitality today is connected everywhere.
+          {h.reality?.title1}
           <br />
-          <span className="text-white/45">But understood nowhere.</span>
+          <span className="text-white/45">{h.reality?.title2}</span>
         </h2>
 
         <div className="mt-14 max-w-5xl space-y-8 text-xl leading-9 text-white/60">
@@ -110,13 +109,13 @@ export default function HospitalityPage() {
       <section className="border-y border-white/10 bg-white/[0.02]">
         <div className="mx-auto max-w-6xl px-6 py-24">
           <p className="mb-8 text-sm uppercase tracking-[0.45em] text-[#D6A66A]">
-            One Hospitality Runtime
+            {h.runtime?.badge}
           </p>
 
           <h2 className="max-w-5xl text-5xl font-light leading-tight tracking-[-0.05em] md:text-7xl">
-            Guests. Operations. Finance. Ownership.
+            {h.runtime?.title1}
             <br />
-            <span className="text-white/45">One connected runtime.</span>
+            <span className="text-white/45">{h.runtime?.title2}</span>
           </h2>
 
           <div className="mt-20 grid gap-6 md:grid-cols-2">
@@ -148,14 +147,14 @@ export default function HospitalityPage() {
 
       <section className="mx-auto max-w-6xl px-6 py-24">
         <p className="mb-8 text-sm uppercase tracking-[0.45em] text-[#D6A66A]">
-          From Activity To Intelligence
+          {h.relationships?.badge}
         </p>
 
         <h2 className="max-w-5xl text-5xl font-light leading-tight tracking-[-0.05em] md:text-7xl">
-          Most systems store events.
+          {h.relationships?.title1}
           <br />
           <span className="text-white/45">
-            Avantiqo understands relationships.
+            {h.relationships?.title2}
           </span>
         </h2>
 
@@ -175,13 +174,13 @@ export default function HospitalityPage() {
 
       <section className="mx-auto max-w-6xl px-6 py-32">
         <div className="mb-8 text-xs uppercase tracking-[0.45em] text-[#D6A66A]">
-          Real Hospitality Intelligence
+          {h.intelligence?.badge}
         </div>
 
         <h2 className="max-w-5xl text-5xl font-light leading-[1.05] tracking-[-0.05em] text-white md:text-7xl">
-          One reservation.
+          {h.intelligence?.title1}
           <br />
-          One chain reaction.
+          {h.intelligence?.title2}
         </h2>
 
         <p className="mt-8 max-w-3xl text-xl leading-relaxed text-white/60">
@@ -266,15 +265,15 @@ export default function HospitalityPage() {
       <section className="border-y border-white/10 bg-white/[0.02]">
         <div className="mx-auto max-w-6xl px-6 py-24">
           <p className="mb-8 text-sm uppercase tracking-[0.45em] text-[#D6A66A]">
-            Synthetic Intelligence Layer
+            {h.synthetic?.badge}
           </p>
 
           <h2 className="max-w-5xl text-5xl font-light leading-tight tracking-[-0.05em] md:text-7xl">
-            Observe.
+            {h.synthetic?.title1}
             <br />
-            Understand.
+            {h.synthetic?.title2}
             <br />
-            Recommend.
+            {h.synthetic?.title3}
             <br />
             <span className="text-[#D6A66A]">Execute.</span>
           </h2>
@@ -301,13 +300,13 @@ export default function HospitalityPage() {
 
       <section className="mx-auto max-w-6xl px-6 py-24">
         <p className="mb-8 text-sm uppercase tracking-[0.45em] text-[#D6A66A]">
-          Ownership Layer
+          {h.ownership?.badge}
         </p>
 
         <h2 className="max-w-5xl text-5xl font-light leading-tight tracking-[-0.05em] md:text-7xl">
-          Ownership sees everything.
+          {h.ownership?.title1}
           <br />
-          <span className="text-white/45">One operational reality.</span>
+          <span className="text-white/45">{h.ownership?.title2}</span>
         </h2>
 
         <div className="mt-14 max-w-5xl space-y-8 text-xl leading-9 text-white/60">
@@ -343,21 +342,19 @@ export default function HospitalityPage() {
       <section className="border-t border-white/10 bg-gradient-to-b from-[#03050B] to-[#0B0D16]">
         <div className="mx-auto max-w-6xl px-6 py-24 text-center">
           <p className="mb-8 text-sm uppercase tracking-[0.45em] text-[#D6A66A]">
-            Hospitality Operating System
+            {h.cta?.badge}
           </p>
 
           <h2 className="mx-auto max-w-5xl text-5xl font-light leading-tight tracking-[-0.05em] md:text-7xl">
-            Hospitality was built around operations.
+            {h.cta?.title1}
             <br />
             <span className="text-[#D6A66A]">
-              The future will be built around intelligence.
+              {h.cta?.title2}
             </span>
           </h2>
 
           <p className="mx-auto mt-12 max-w-3xl text-xl leading-9 text-white/60">
-            Avantiqo connects operations, finance, workforce, marketing and
-            guest experience through one Synthetic Intelligence Operating
-            System.
+            {h.cta?.description}
           </p>
 
           <div className="mt-12">
@@ -365,7 +362,7 @@ export default function HospitalityPage() {
               href="/demo"
               className="inline-flex rounded-2xl bg-[#D6A66A] px-10 py-5 text-sm font-semibold text-black transition hover:bg-[#E8BE83]"
             >
-              Book Demo
+              {h.cta?.primary}
             </Link>
           </div>
         </div>

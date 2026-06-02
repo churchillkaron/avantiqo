@@ -3,145 +3,36 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import Navbar from "@/components/layout/Navbar";
+import SiteTopNav from "@/app/components/SiteTopNav";
 import Footer from "@/components/layout/Footer";
+import { useTranslation } from "@/app/providers/I18nProvider";
 
 
 
 
-const enterpriseCards = [
-  {
-    title: "Role-Based Permissions",
-    description:
-      "Every accountant only sees assigned companies, approvals and operational areas.",
-  },
-  {
-    title: "Full Audit Trail",
-    description:
-      "Every approval, document upload and operational action tracked automatically.",
-  },
-  {
-    title: "Approval Accountability",
-    description:
-      "Know exactly who approved what, when and from which operational workflow.",
-  },
-  {
-    title: "Multi-Company Runtime",
-    description:
-      "Manage multiple companies, branches and operational entities from one connected system.",
-  },
-  {
-    title: "Searchable Operational History",
-    description:
-      "Find invoices, approvals, payroll activity and operational changes instantly.",
-  },
-  {
-    title: "Live Operational Monitoring",
-    description:
-      "Identify financial and operational issues before they become month-end surprises.",
-  },
-];
 
-const advisorCards = [
-  {
-    label: "Advisory",
-    title: "Become a Live Business Advisor",
-    description:
-      "Move from reactive bookkeeping to proactive operational guidance with live client revenue, payroll, procurement and approval visibility.",
-    items: [
-      "Spot revenue drops early",
-      "Monitor payroll pressure",
-      "Track procurement issues",
-      "Advise clients before month-end",
-    ],
-  },
-  {
-    label: "Trust",
-    title: "Increase Owner Confidence",
-    description:
-      "Give business owners transparent access to approvals, documents, expenses and financial activity so trust increases between client and accountant.",
-    items: [
-      "Live owner visibility",
-      "Connected approvals",
-      "Searchable documents",
-      "Clear responsibility tracking",
-    ],
-  },
-  {
-    label: "Risk",
-    title: "Reduce Leakage & Mistakes",
-    description:
-      "See unusual activity, missing invoices, delayed approvals and operational cost problems before they become month-end surprises.",
-    items: [
-      "Expense visibility",
-      "Audit history",
-      "Approval controls",
-      "Operational anomaly alerts",
-    ],
-  },
-];
-
-const roiCards = [
-  {
-    label: "Growth",
-    title: "Handle More Clients",
-    description:
-      "Reduce manual accounting workload by connecting invoices, payroll, procurement, approvals and operational activity into one live runtime.",
-    items: [
-      "AI-assisted invoice extraction",
-      "Faster month-end closing",
-      "Less manual bookkeeping",
-      "More clients without more paperwork",
-    ],
-  },
-  {
-    label: "Visibility",
-    title: "Discover Problems Earlier",
-    description:
-      "Monitor client operations in real time instead of waiting for documents and reports at the end of the month.",
-    items: [
-      "Live revenue visibility",
-      "Payroll and procurement tracking",
-      "Approval monitoring",
-      "Full operational audit trail",
-    ],
-  },
-];
-
-const features = [
-  {
-    title: "LIVE FINANCIAL VISIBILITY",
-    description:
-      "Monitor revenue, payroll, procurement, approvals and operational costs in real time across all clients.",
-    image: "/images/accounting-live-control.png",
-  },
-  {
-    title: "AI DOCUMENT EXTRACTION",
-    description:
-      "Invoices, receipts and paperwork automatically extracted and organized into the financial workflow.",
-    image: "/images/documents-flow.png",
-  },
-  {
-    title: "MULTI-COMPANY CONTROL",
-    description:
-      "Accounting firms manage multiple businesses from one connected operational runtime.",
-    image: "/images/accounting-multi-company.png",
-  },
-  {
-    title: "LIVE APPROVALS & AUDIT",
-    description:
-      "Every approval, document and operational change tracked with full audit visibility.",
-    image: "/images/accounting-approval-runtime.png",
-  },
-];
 
 export default function AccountingIndustryPage() {
+  const { translations } = useTranslation();
+  const a = translations.home?.accountingFirms || {};
+
+  const enterpriseCardsData =
+    a.enterpriseCards || [];
+
+  const advisorCardsData =
+    a.advisorCards || [];
+
+  const roiCardsData =
+    a.roiCards || [];
+
+  const featuresData =
+    a.features || [];
 
   return (
 
     <main className="min-h-screen bg-[#04050B] text-white overflow-hidden">
 
-      <Navbar />
+      <SiteTopNav />
 
       {/* HERO */}
       <section className="relative px-6 py-32">
@@ -153,22 +44,25 @@ export default function AccountingIndustryPage() {
           <div>
 
             <p className="mb-6 text-xs tracking-[0.35em] text-[#D6A66A]">
-              ACCOUNTING FIRMS
+              {a.hero?.badge}
             </p>
 
             <h1 className="text-6xl font-extralight leading-[1.02] tracking-[-0.06em] md:text-[92px]">
 
-              From month-end paperwork
+              {a.hero?.title1}
               <br />
-              to live operational accounting.
+              {a.hero?.title2}
+              <br />
+              <br />
+              {a.hero?.title3}
+              <br />
+              {a.hero?.title4}
 
             </h1>
 
             <p className="mt-8 max-w-[620px] text-[17px] leading-[1.9] text-white/50">
 
-              Avantiqo gives accounting firms real-time visibility into operations,
-              approvals, payroll, procurement and financial activity —
-              instead of waiting for paperwork 30 days later.
+              {a.hero?.description}
 
             </p>
 
@@ -178,14 +72,14 @@ export default function AccountingIndustryPage() {
                 href="/demo"
                 className="rounded-[22px] bg-gradient-to-r from-[#D6A66A] to-[#14364D] px-6 py-3 md:px-8 md:py-4 text-sm font-extralight transition-all duration-300 ease-out hover:-translate-y-[2px]"
               >
-                Book Accounting Demo
+                {a.hero?.primary}
               </Link>
 
               <Link
                 href="/contact"
                 className="rounded-[22px] border border-white/[0.05] bg-white/[0.025] px-6 py-3 md:px-8 md:py-4 text-sm text-white/50 transition-all duration-300 ease-out hover:border-[#D6A66A]/20"
               >
-                Talk To Enterprise Team
+                {a.hero?.secondary}
               </Link>
 
             </div>
@@ -217,14 +111,14 @@ export default function AccountingIndustryPage() {
 
           <div className="mb-16">
 
-            <p className="mb-6 text-xs tracking-[0.35em] text-[#B58AF8]">
-              BEFORE VS AFTER
+            <p className="mb-6 text-xs tracking-[0.35em] text-[#D6A66A]">
+              {a.beforeAfter?.badge}
             </p>
 
             <h2 className="max-w-5xl text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
 
-              Stop rebuilding businesses
-              from paperwork.
+              {a.beforeAfter?.title1}
+              {a.beforeAfter?.title2}
 
             </h2>
 
@@ -310,6 +204,154 @@ export default function AccountingIndustryPage() {
 
       </section>
 
+
+
+
+      <section className="px-6 py-24">
+
+        <div className="mx-auto max-w-7xl">
+
+        <div className="mb-8">
+
+          <p className="mb-4 text-xs tracking-[0.35em] text-[#D6A66A] uppercase">
+            {a.switch?.badge}
+          </p>
+
+          <h2 className="max-w-5xl text-6xl font-extralight leading-tight text-white">
+            {a.switch?.title1}
+            <br />
+            {a.switch?.title2}
+          </h2>
+
+        </div>
+
+        <div className="grid gap-6 md:grid-cols-2">
+
+          <div className="rounded-3xl border border-white/[0.06] bg-white/[0.02] p-8">
+
+            <h3 className="mb-4 text-3xl font-extralight text-white">
+              Traditional Accounting Software
+            </h3>
+
+            <ul className="space-y-4 text-white/60">
+              <li>• Reports after the month ends</li>
+              <li>• No operational visibility</li>
+              <li>• Manual document collection</li>
+              <li>• Problems discovered too late</li>
+              <li>• No approval intelligence</li>
+              <li>• No operational accountability</li>
+              <li>• No live client monitoring</li>
+            </ul>
+
+          </div>
+
+          <div className="rounded-3xl border border-green-500/20 bg-green-500/[0.05] p-8">
+
+            <h3 className="mb-4 text-3xl font-extralight text-white">
+              Avantiqo Runtime
+            </h3>
+
+            <ul className="space-y-4 text-white/80">
+              <li>• Live operational visibility</li>
+              <li>• AI document extraction</li>
+              <li>• Multi-company control</li>
+              <li>• Approval accountability</li>
+              <li>• Operational anomaly detection</li>
+              <li>• Continuous audit trail</li>
+              <li>• Synthetic Intelligence recommendations</li>
+            </ul>
+
+          </div>
+
+        </div>
+
+        </div>
+
+      </section>
+
+      <section className="px-6 py-24">
+
+        <div className="mx-auto max-w-7xl">
+
+        <div className="mb-10">
+
+          <p className="runtime-label mb-4">
+            SYNTHETIC INTELLIGENCE
+          </p>
+
+          <h2 className="max-w-5xl text-6xl font-extralight leading-tight text-white">
+            Artificial Intelligence answers questions.
+            <br />
+            Synthetic Intelligence understands businesses.
+          </h2>
+
+        </div>
+
+        <div className="rounded-[40px] border border-purple-500/20 bg-gradient-to-br from-[#0B1020] to-[#070A12] p-12">
+
+          <div className="grid gap-10 md:grid-cols-2">
+
+            <div>
+
+              <h3 className="mb-4 text-3xl font-extralight text-white">
+                AI
+              </h3>
+
+              <p className="leading-relaxed text-white/60">
+                Generates content.
+                Answers questions.
+                Creates reports.
+                Responds to prompts.
+              </p>
+
+            </div>
+
+            <div>
+
+              <h3 className="mb-4 text-3xl font-extralight text-green-300">
+                Synthetic Intelligence
+              </h3>
+
+              <p className="leading-relaxed text-white/80">
+                Understands relationships between payroll,
+                procurement, approvals, documents,
+                accounting, inventory and operations.
+                Detects risks.
+                Predicts outcomes.
+                Recommends actions.
+                Creates operational intelligence.
+              </p>
+
+            </div>
+
+          </div>
+
+          <div className="mt-12 rounded-3xl border border-white/[0.05] bg-black/20 p-8">
+
+            <p className="text-2xl font-extralight text-white">
+              A missing receipt is not a receipt problem.
+            </p>
+
+            <p className="mt-3 text-white/60">
+              It affects approvals, accounting,
+              procurement reconciliation,
+              financial close,
+              audit confidence,
+              and management visibility.
+            </p>
+
+            <p className="mt-6 text-green-300">
+              Synthetic Intelligence understands the entire chain reaction.
+            </p>
+
+          </div>
+
+        </div>
+
+        </div>
+
+      </section>
+
       {/* FEATURES */}
       <section className="px-6 py-28">
 
@@ -318,14 +360,14 @@ export default function AccountingIndustryPage() {
           <div className="mb-16">
 
             <p className="mb-6 text-xs tracking-[0.35em] text-[#D6A66A]">
-              ACCOUNTING RUNTIME
+              {a.runtime?.badge}
             </p>
 
             <h2 className="max-w-5xl text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
 
-              Everything connected.
+              {a.runtime?.title1}
               <br />
-              Everything visible.
+              {a.runtime?.title2}
 
             </h2>
 
@@ -333,7 +375,7 @@ export default function AccountingIndustryPage() {
 
           <div className="grid gap-6 md:gap-8 md:grid-cols-2">
 
-            {features.map((item) => (
+            {featuresData.map((item) => (
 
               <div
                 key={item.title}
@@ -380,18 +422,18 @@ export default function AccountingIndustryPage() {
           <div className="mb-20">
 
             <p className="mb-6 text-xs tracking-[0.35em] text-[#D6A66A]">
-              ACCOUNTING FIRM BENEFITS
+              {a.benefits?.badge}
             </p>
 
             <h2 className="max-w-5xl text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
-              Scale your accounting firm without scaling operational chaos.
+              {a.benefits?.title1}
             </h2>
 
           </div>
 
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
 
-            {roiCards.map((card) => (
+            {roiCardsData.map((card) => (
 
               <div
                 key={card.title}
@@ -447,24 +489,23 @@ export default function AccountingIndustryPage() {
 
           <div className="mb-20">
 
-            <p className="mb-6 text-xs tracking-[0.35em] text-[#B58AF8]">
-              WHY ACCOUNTING FIRMS CHOOSE AVANTIQO
+            <p className="mb-6 text-xs tracking-[0.35em] text-[#D6A66A] uppercase">
+              {a.advisory?.badge}
             </p>
 
             <h2 className="max-w-5xl text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
-              Accounting should happen during operations — not weeks later.
+              {a.advisory?.title1}
             </h2>
 
             <p className="mt-8 max-w-[820px] text-[17px] leading-[1.9] text-white/50">
-              Avantiqo helps accounting firms become live operational intelligence partners,
-              not just month-end bookkeeping providers.
+              {a.advisory?.description}
             </p>
 
           </div>
 
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
 
-            {advisorCards.map((card) => (
+            {advisorCardsData.map((card) => (
 
               <div
                 key={card.title}
@@ -521,24 +562,23 @@ export default function AccountingIndustryPage() {
           <div className="mb-20">
 
             <p className="mb-6 text-xs tracking-[0.35em] text-[#D6A66A]">
-              ENTERPRISE CONTROL & COMPLIANCE
+              {a.enterprise?.badge}
             </p>
 
             <h2 className="max-w-5xl text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
-              Built for operational trust,
-              accountability and visibility.
+              {a.enterprise?.title1}
+              {a.enterprise?.title2}
             </h2>
 
             <p className="mt-8 max-w-[820px] text-[17px] leading-[1.9] text-white/50">
-              Avantiqo provides accounting firms with enterprise-grade operational
-              visibility, permission control and audit accountability across all clients.
+              {a.enterprise?.description}
             </p>
 
           </div>
 
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
 
-            {enterpriseCards.map((card) => (
+            {enterpriseCardsData.map((card) => (
 
               <div
                 key={card.title}
@@ -579,21 +619,20 @@ export default function AccountingIndustryPage() {
         <div className="mx-auto max-w-5xl text-center">
 
           <p className="mb-6 text-xs tracking-[0.35em] text-[#D6A66A]">
-            LIVE ACCOUNTING CONTROL
+            {a.cta?.badge}
           </p>
 
           <h2 className="text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
 
-            Your accounting firm
-            should not discover
-            problems 30 days later.
+            {a.cta?.title1}
+            {a.cta?.title2}
+            {a.cta?.title3}
 
           </h2>
 
           <p className="mx-auto mt-8 max-w-[820px] text-[17px] leading-[1.9] text-white/50">
 
-            Avantiqo transforms accounting firms into
-            real-time operational intelligence partners.
+            {a.cta?.description}
 
           </p>
 
@@ -603,7 +642,7 @@ export default function AccountingIndustryPage() {
               href="/demo"
               className="rounded-[22px] bg-gradient-to-r from-[#D6A66A] to-[#14364D] px-6 py-3 md:px-8 md:py-4 text-sm font-extralight transition-all duration-300 ease-out hover:-translate-y-[2px]"
             >
-              Book Enterprise Demo
+              {a.cta?.primary}
             </Link>
 
           </div>
@@ -877,7 +916,7 @@ export default function AccountingIndustryPage() {
 
             <div className="rounded-2xl border border-purple-500/20 bg-purple-500/5 p-4">
 
-              <p className="mb-2 text-sm text-purple-300">
+              <p className="mb-2 text-sm text-[#D6A66A]">
                 AI DETECTED
               </p>
 
@@ -1317,7 +1356,7 @@ export default function AccountingIndustryPage() {
 
             <div className="rounded-2xl border border-purple-500/20 bg-purple-500/5 p-5">
 
-              <p className="mb-2 text-xs uppercase tracking-[0.14em] text-purple-300">
+              <p className="mb-2 text-xs uppercase tracking-[0.14em] text-[#D6A66A]">
                 AI Recommendation
               </p>
 
