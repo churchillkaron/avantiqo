@@ -568,7 +568,147 @@
           "description": "Every approval, document and operational change tracked with full audit visibility.",
           "image": "/images/accounting-approval-runtime.png"
         }
-      ]
+      ],
+      "beforeAfterCards": [
+        {
+          "label": "item1",
+          "name": "Missing invoices and receipts",
+          "status": "Pending"
+        },
+        {
+          "label": "item2",
+          "name": "Manual data entry",
+          "status": "Pending"
+        },
+        {
+          "label": "item3",
+          "name": "Line messages and paperwork",
+          "status": "Pending"
+        },
+        {
+          "label": "item4",
+          "name": "No real-time visibility",
+          "status": "Pending"
+        },
+        {
+          "label": "item5",
+          "name": "Delayed financial oversight",
+          "status": "Pending"
+        },
+        {
+          "label": "item6",
+          "name": "Operational problems discovered too late",
+          "status": "Pending"
+        }
+      ],
+      "runtimeEvents": {
+        "title": "Live Runtime Event Stream",
+        "subtitle": "Continuous Operational Flow",
+        "status": "LIVE",
+        "events": [
+          {
+            "time": "09:22",
+            "title": "Payroll runtime locked"
+          },
+          {
+            "time": "09:24",
+            "title": "Inventory ledger synchronized"
+          },
+          {
+            "time": "09:26",
+            "title": "Variance detection triggered"
+          },
+          {
+            "time": "09:28",
+            "title": "Approval escalation initiated"
+          },
+          {
+            "time": "09:31",
+            "title": "Revenue synchronization completed"
+          }
+        ]
+      },
+      "governanceTimeline": {
+        "label": "Governance Timeline",
+        "title": "Continuous Operational Flow",
+        "status": "LIVE",
+        "events": [
+          {
+            "time": "08:42",
+            "title": "Procurement Approved"
+          },
+          {
+            "time": "09:14",
+            "title": "Journal Posted"
+          },
+          {
+            "time": "09:16",
+            "title": "Reconciliation Updated"
+          },
+          {
+            "time": "09:22",
+            "title": "Payroll Runtime Locked"
+          }
+        ]
+      },
+      "multiEntity": {
+        "label": "Multi-Entity Operational Runtime",
+        "title": "Cross-Company Oversight",
+        "status": "4 ENTITIES",
+        "entities": [
+          {
+            "name": "Churchill Phuket",
+            "status": "ACTIVE"
+          },
+          {
+            "name": "BEA Co., Ltd.",
+            "status": "REVIEWING"
+          },
+          {
+            "name": "PCS Phuket",
+            "status": "APPROVED"
+          },
+          {
+            "name": "Cole Ley Entertainment",
+            "status": "PENDING CLOSE"
+          }
+        ]
+      },
+      "accountability": {
+        "label": "Approval Accountability",
+        "title": "Human Governance Runtime",
+        "status": "VERIFIED",
+        "items": [
+          {
+            "label": "Approved By",
+            "name": "P. Vallgarda — CFO Runtime",
+            "status": "ACTIVE"
+          },
+          {
+            "label": "Locked By",
+            "name": "Financial Governance Engine",
+            "status": "ENFORCED"
+          },
+          {
+            "label": "Reviewed By",
+            "name": "Operations Control Runtime",
+            "status": "VERIFIED"
+          }
+        ]
+      },
+      "syntheticDecisionLayer": {
+        "title": "Predictive Operational Intelligence",
+        "status": "LEARNING",
+        "recommendationLabel": "AI Recommendation",
+        "recommendationText": "Delay financial close until procurement reconciliation completes.",
+        "predictionLabel": "AI Prediction",
+        "predictionText": "Procurement shortage risk predicted within 6 operational days.",
+        "detectionLabel": "AI Detection",
+        "detectionText": "Unusual approval behavior detected in hospitality runtime."
+      },
+      "financialGovernance": {
+        "title": "Live Financial Governance"
+      }
     }
   },
   "navigation": {

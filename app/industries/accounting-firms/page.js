@@ -666,7 +666,7 @@ export default function AccountingIndustryPage() {
           </p>
 
           <h2 className="text-3xl md:text-5xl font-extralight tracking-[-0.05em]">
-            Live Financial Governance
+            {a.financialGovernance?.title}
           </h2>
 
         </div>
@@ -945,7 +945,7 @@ export default function AccountingIndustryPage() {
               </p>
 
               <p className="text-white/80">
-                Reconciliation review recommended for procurement ledger.
+                {a.syntheticDecisionLayer?.recommendationText}
               </p>
 
             </div>
@@ -963,7 +963,7 @@ export default function AccountingIndustryPage() {
           <div>
 
             <p className="runtime-label mb-2">
-              Governance Timeline
+              {a.governanceTimeline?.label}
             </p>
 
             <h3 className="text-2xl font-extralight text-white">
@@ -985,7 +985,7 @@ export default function AccountingIndustryPage() {
               08:42
             </p>
             <p className="text-white/75">
-              Procurement Approved
+              {a.governanceTimeline?.events[0]?.title}
             </p>
           </div>
 
@@ -994,7 +994,7 @@ export default function AccountingIndustryPage() {
               09:14
             </p>
             <p className="text-white/75">
-              Journal Posted
+              {a.governanceTimeline?.events[1]?.title}
             </p>
           </div>
 
@@ -1003,7 +1003,7 @@ export default function AccountingIndustryPage() {
               09:16
             </p>
             <p className="text-white/75">
-              Reconciliation Updated
+              {a.governanceTimeline?.events[2]?.title}
             </p>
           </div>
 
@@ -1012,7 +1012,7 @@ export default function AccountingIndustryPage() {
               09:22
             </p>
             <p className="text-white/75">
-              Payroll Runtime Locked
+              {a.governanceTimeline?.events[3]?.title}
             </p>
           </div>
 
@@ -1033,7 +1033,7 @@ export default function AccountingIndustryPage() {
               </p>
 
               <h3 className="text-2xl font-extralight text-white">
-                Human Governance Runtime
+                {a.accountability?.title}
               </h3>
 
             </div>
@@ -1055,7 +1055,7 @@ export default function AccountingIndustryPage() {
               <div className="flex items-center justify-between">
 
                 <p className="text-white/80">
-                  P. Vallgarda — CFO Runtime
+                  {a.accountability?.items[0]?.name}
                 </p>
 
                 <span className="text-green-400">
@@ -1075,7 +1075,7 @@ export default function AccountingIndustryPage() {
               <div className="flex items-center justify-between">
 
                 <p className="text-white/80">
-                  Financial Governance Engine
+                  {a.accountability?.items[1]?.name}
                 </p>
 
                 <span className="text-indigo-400">
@@ -1095,7 +1095,7 @@ export default function AccountingIndustryPage() {
               <div className="flex items-center justify-between">
 
                 <p className="text-white/80">
-                  Operations Control Runtime
+                  {a.accountability?.items[2]?.name}
                 </p>
 
                 <span className="text-purple-400">
@@ -1121,7 +1121,7 @@ export default function AccountingIndustryPage() {
               </p>
 
               <h3 className="text-2xl font-extralight text-white">
-                Cross-Company Oversight
+                {a.multiEntity?.title}
               </h3>
 
             </div>
@@ -1141,7 +1141,7 @@ export default function AccountingIndustryPage() {
                 <div className="h-2 w-2 rounded-full bg-green-400" />
 
                 <p className="text-white/80">
-                  Churchill Phuket
+                  {a.multiEntity?.entities[0]?.name}
                 </p>
 
               </div>
@@ -1159,7 +1159,7 @@ export default function AccountingIndustryPage() {
                 <div className="h-2 w-2 rounded-full bg-amber-400" />
 
                 <p className="text-white/80">
-                  BEA Co., Ltd.
+                  {a.multiEntity?.entities[1]?.name}
                 </p>
 
               </div>
@@ -1177,7 +1177,7 @@ export default function AccountingIndustryPage() {
                 <div className="h-2 w-2 rounded-full bg-green-400" />
 
                 <p className="text-white/80">
-                  PCS Phuket
+                  {a.multiEntity?.entities[2]?.name}
                 </p>
 
               </div>
@@ -1195,7 +1195,7 @@ export default function AccountingIndustryPage() {
                 <div className="h-2 w-2 rounded-full bg-purple-400" />
 
                 <p className="text-white/80">
-                  Cole Ley Entertainment
+                  {a.multiEntity?.entities[3]?.name}
                 </p>
 
               </div>
@@ -1341,7 +1341,7 @@ export default function AccountingIndustryPage() {
               </p>
 
               <h3 className="text-2xl font-extralight text-white">
-                Predictive Operational Intelligence
+                {a.syntheticDecisionLayer?.title}
               </h3>
 
             </div>
@@ -1373,7 +1373,7 @@ export default function AccountingIndustryPage() {
               </p>
 
               <p className="text-white/80">
-                Procurement shortage risk predicted within 6 operational days.
+                {a.syntheticDecisionLayer?.predictionText}
               </p>
 
             </div>
@@ -1385,7 +1385,7 @@ export default function AccountingIndustryPage() {
               </p>
 
               <p className="text-white/80">
-                Unusual approval behavior detected in hospitality runtime.
+                {a.syntheticDecisionLayer?.detectionText}
               </p>
 
             </div>
@@ -1401,7 +1401,7 @@ export default function AccountingIndustryPage() {
             <div>
 
               <p className="runtime-label mb-2">
-                Live Runtime Event Stream
+                {a.runtimeEvents?.title}
               </p>
 
               <h3 className="text-2xl font-extralight text-white">
@@ -1423,7 +1423,7 @@ export default function AccountingIndustryPage() {
                 09:22
               </span>
               <span className="text-white/75">
-                Payroll runtime locked
+                {a.runtimeEvents?.events[0]?.title}
               </span>
             </div>
 
@@ -1432,7 +1432,7 @@ export default function AccountingIndustryPage() {
                 09:24
               </span>
               <span className="text-white/75">
-                Inventory ledger synchronized
+                {a.runtimeEvents?.events[1]?.title}
               </span>
             </div>
 
@@ -1450,7 +1450,7 @@ export default function AccountingIndustryPage() {
                 09:28
               </span>
               <span className="text-white/75">
-                Approval escalation initiated
+                {a.runtimeEvents?.events[3]?.title}
               </span>
             </div>
 
@@ -1459,7 +1459,7 @@ export default function AccountingIndustryPage() {
                 09:31
               </span>
               <span className="text-white/75">
-                Revenue synchronization completed
+                {a.runtimeEvents?.events[4]?.title}
               </span>
             </div>
 
