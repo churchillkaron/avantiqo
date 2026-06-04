@@ -100,7 +100,7 @@
       "badge": "AVANTIQO В ДЕЙСТВИИ",
       "title1": "Единый Workspace",
       "title2": "Для всех бизнес-функций",
-      "description": "Операции, финансы, бухгалтерия, документы, согласования, маркетинг и AI Runtime объединены в единой операционной среде.",
+      "description": "Операции, финансы, бухгалтерия, документы, согласования, маркетинг и Runtime IA объединены в единой операционной среде.",
       "cards": {
         "clientManagement": {
           "title": "Управление клиентами",
@@ -222,7 +222,7 @@
           ]
         },
         "intelligence": {
-          "title": "Synthetic Intelligence",
+          "title": "Intelligenza Sintetica",
           "items": [
             "AI Runtime",
             "Recommendations",
@@ -367,32 +367,32 @@
     },
     "hospitality": {
       "hero": {
-        "badge": "HOSPITALITY INTELLIGENCE PLATFORM",
-        "title1": "See The Entire Business.",
-        "title2": "Know What Happens Next.",
-        "description": "Reservations, operations, workforce, finance, marketing and guest experience connected through one synthetic intelligence layer.",
-        "primary": "Book Demo",
-        "secondary": "Explore Platform"
+        "badge": "ПЛАТФОРМА ИНТЕЛЛЕКТА ГОСТЕПРИИМСТВА",
+        "title1": "Видеть весь бизнес",
+        "title2": "Знать, что произойдет дальше",
+        "description": "Бронирование, операции, персонал, финансы, маркетинг и опыт гостей объединены через Avantiqo в режиме реального времени.",
+        "primary": "Записаться на демонстрацию",
+        "secondary": "Изучить платформу"
       },
       "reality": {
-        "badge": "HOSPITALITY REALITY",
-        "title1": "Hospitality today is connected everywhere.",
-        "title2": "But understood nowhere."
+        "badge": "РЕАЛЬНОСТЬ ГОСТЕПРИИМСТВА",
+        "title1": "Сегодня всё связано.",
+        "title2": "Но почти ничего не понимается."
       },
       "runtime": {
-        "badge": "ONE HOSPITALITY RUNTIME",
-        "title1": "Guests. Operations. Finance. Ownership.",
-        "title2": "One connected runtime."
+        "badge": "ЕДИНАЯ СИСТЕМА ГОСТЕПРИИМСТВА",
+        "title1": "Гости. Операции. Финансы. Владельцы.",
+        "title2": "Одна связанная система."
       },
       "relationships": {
-        "badge": "FROM ACTIVITY TO INTELLIGENCE",
-        "title1": "Most systems store events.",
-        "title2": "Avantiqo understands relationships."
+        "badge": "ОТ СОБЫТИЙ К ИНТЕЛЛЕКТУ",
+        "title1": "Большинство систем хранят события.",
+        "title2": "Avantiqo понимает взаимосвязи."
       },
       "intelligence": {
-        "badge": "REAL HOSPITALITY INTELLIGENCE",
-        "title1": "One reservation.",
-        "title2": "One chain reaction."
+        "badge": "НАСТОЯЩИЙ ИНТЕЛЛЕКТ ГОСТЕПРИИМСТВА",
+        "title1": "Одно бронирование.",
+        "title2": "Одна цепочка последствий."
       },
       "synthetic": {
         "badge": "SYNTHETIC INTELLIGENCE LAYER",
@@ -401,313 +401,493 @@
         "title3": "Recommend."
       },
       "ownership": {
-        "badge": "OWNERSHIP LAYER",
-        "title1": "Ownership sees everything.",
-        "title2": "Before it happens."
+        "badge": "УРОВЕНЬ СОБСТВЕННИКА",
+        "title1": "Владелец видит всё.",
+        "title2": "До того, как это произойдет."
       },
       "cta": {
-        "badge": "HOSPITALITY OPERATING SYSTEM",
-        "title1": "Hospitality was built around operations.",
-        "title2": "The future will be built around intelligence.",
-        "description": "Avantiqo connects operations, finance, workforce, marketing and guest experience through one Synthetic Intelligence Operating System.",
-        "primary": "Book Demo"
-      }
+        "badge": "ОПЕРАЦИОННАЯ СИСТЕМА ГОСТЕПРИИМСТВА",
+        "title1": "Гостеприимство строилось вокруг операций.",
+        "title2": "Будущее будет строиться вокруг интеллекта.",
+        "description": "Avantiqo объединяет операции, финансы, персонал, маркетинг и опыт гостей в одной системе синтетического интеллекта.",
+        "primary": "Записаться на демонстрацию"
+      },
+      "flow": [
+        "Прибытие гостя",
+        "Бронирование",
+        "Обслуживание",
+        "Запасы",
+        "Зарплата",
+        "Бухгалтерия",
+        "Прибыльность",
+        "Владелец"
+      ],
+      "realityContent": [
+        "Большинство гостиничных и ресторанных компаний работают через разрозненные системы. Бронирования находятся в одной платформе, операции в другой, а финансы видят бизнес спустя недели.",
+        "Проблема не в отсутствии данных. Проблема в отсутствии понимания.",
+        "Индустрии гостеприимства не нужно больше программ. Ей нужна одна операционная система."
+      ],
+      "runtimeContent": "Не отдельные отделы. Не отдельные программы. Одна единая основа, где каждое действие становится частью общей истории бизнеса.",
+      "relationshipsItems": [
+        "Бронирование — это не просто бронирование. Это спрос.",
+        "Смена — это не просто смена. Это стоимость труда.",
+        "Заказ — это не просто заказ. Это выручка.",
+        "Отзыв — это не просто отзыв. Это будущий рост."
+      ],
+      "relationshipsDescription": "В этом разница между программным обеспечением и синтетическим интеллектом. Avantiqo связывает операционную активность с бизнес-смыслом.",
+      "intelligenceDescription": "Гостеприимство — это не набор отдельных событий. Каждое действие создает последствия по всей компании. Avantiqo автоматически отслеживает эти последствия.",
+      "intelligenceChain": {
+        "eventLabel": "Событие",
+        "eventTitle": "Спрос на бронирования на следующие выходные увеличивается",
+        "cards": [
+          {
+            "label": "Операции",
+            "title": "Увеличивается потребность в обслуживании"
+          },
+          {
+            "label": "Персонал",
+            "title": "Потребность в сотрудниках корректируется автоматически"
+          },
+          {
+            "label": "Запасы",
+            "title": "Обновляются прогнозы закупок"
+          },
+          {
+            "label": "Финансы",
+            "title": "Пересчитываются прогнозы выручки и затрат на персонал"
+          }
+        ],
+        "ownershipLabel": "Владелец",
+        "ownershipTitle": "Владелец видит последствия до того, как они наступят."
+      },
+      "syntheticContent": [
+        "Большинство платформ ограничиваются отчетностью. Avantiqo переходит к действиям.",
+        "Система непрерывно наблюдает за гостями, сотрудниками, операциями, финансами и владельцами. Она выявляет закономерности, прогнозирует результаты и рекомендует действия.",
+        "Это не чат-бот. Это уровень операционного интеллекта, встроенный в сам бизнес."
+      ],
+      "syntheticExecute": "Выполнить",
+      "ownershipTypes": [
+        "Ресторан",
+        "Отель",
+        "Пляжный клуб",
+        "Сеть заведений",
+        "Корпоративная гостиничная группа"
+      ],
+      "ownershipNotice": "For the first time, ownership can see the complete business. Not isolated reports. Not disconnected dashboards.",
+      "operationalReality": "One operational reality. One financial reality. One intelligence layer."
     },
     "accountingFirms": {
       "hero": {
-        "badge": "SYNTHETIC INTELLIGENCE FOR ACCOUNTING FIRMS",
-        "title1": "Stop Reporting",
-        "title2": "The Past.",
-        "title3": "Start Managing",
-        "title4": "The Future.",
-        "description": "Avantiqo gives accounting firms real-time visibility into operations, approvals, payroll, procurement and financial activity instead of waiting for paperwork 30 days later.",
-        "primary": "Build The Next Generation Accounting Firm",
-        "secondary": "Talk To Enterprise Team"
+        "badge": "ИНТЕЛЛЕКТУАЛЬНАЯ ПЛАТФОРМА ДЛЯ БУХГАЛТЕРСКИХ ФИРМ",
+        "title1": "Перестаньте анализировать",
+        "title2": "прошлое.",
+        "title3": "Начните управлять",
+        "title4": "будущим.",
+        "description": "Бронирования, операции, персонал, финансы, маркетинг и клиентский опыт объединены через один слой синтетического интеллекта.",
+        "primary": "Запросить демонстрацию",
+        "secondary": "Изучить платформу"
       },
       "beforeAfter": {
-        "badge": "BEFORE VS AFTER",
-        "title1": "Stop rebuilding businesses",
-        "title2": "from paperwork."
+        "badge": "ДО И ПОСЛЕ",
+        "title1": "Перестаньте перестраивать бизнес",
+        "title2": "из бумажной работы"
       },
       "switch": {
-        "badge": "WHY ACCOUNTING FIRMS SWITCH",
-        "title1": "Other software stores transactions.",
-        "title2": "Avantiqo understands businesses."
+        "badge": "ПОЧЕМУ БУХГАЛТЕРСКИЕ ФИРМЫ ВЫБИРАЮТ AVANTIQO",
+        "title1": "Традиционные системы хранят только транзакции",
+        "title2": "Avantiqo понимает весь бизнес"
       },
       "runtime": {
-        "badge": "ACCOUNTING RUNTIME",
-        "title1": "Everything connected.",
-        "title2": "Everything visible."
+        "badge": "БУХГАЛТЕРСКАЯ ОПЕРАЦИОННАЯ СИСТЕМА",
+        "title1": "Все взаимосвязано",
+        "title2": "Все видно"
       },
       "benefits": {
-        "badge": "ACCOUNTING FIRM BENEFITS",
-        "title1": "Scale your accounting firm without scaling operational chaos."
+        "badge": "ПРЕИМУЩЕСТВА ДЛЯ ФИРМ",
+        "title1": "Масштабируйте фирму без операционного хаоса"
       },
       "advisory": {
-        "badge": "WHY SYNTHETIC INTELLIGENCE FOR ACCOUNTING FIRMS CHOOSE AVANTIQO",
-        "title1": "Turn accounting from bookkeeping into operational intelligence.",
-        "description": "Avantiqo helps accounting firms become live operational intelligence partners, not just month-end bookkeeping providers."
+        "badge": "ПОЧЕМУ ФИРМЫ ВЫБИРАЮТ AVANTIQO",
+        "title1": "Превратите бухгалтерию в операционную аналитику",
+        "description": "Avantiqo превращает бухгалтеров в консультантов по операционной эффективности в реальном времени."
       },
       "enterprise": {
-        "badge": "ENTERPRISE CONTROL & COMPLIANCE",
-        "title1": "Built for operational trust,",
-        "title2": "accountability and visibility.",
-        "description": "Avantiqo provides accounting firms with enterprise-grade operational visibility, permission control and audit accountability across all clients."
+        "badge": "КОРПОРАТИВНЫЙ КОНТРОЛЬ И СООТВЕТСТВИЕ",
+        "title1": "Создано для доверия",
+        "title2": "ответственности и прозрачности",
+        "description": "Контроль, прозрачность и управление для всех клиентских компаний."
       },
       "cta": {
-        "badge": "LIVE ACCOUNTING CONTROL",
-        "title1": "Your accounting firm",
-        "title2": "should not discover",
-        "title3": "problems 30 days later.",
-        "description": "Avantiqo transforms accounting firms into real-time operational intelligence partners.",
-        "primary": "Book Enterprise Demo"
+        "badge": "БУХГАЛТЕРСКИЙ КОНТРОЛЬ В РЕАЛЬНОМ ВРЕМЕНИ",
+        "title1": "Ваша фирма",
+        "title2": "не должна узнавать",
+        "title3": "о проблемах через 30 дней",
+        "description": "Avantiqo превращает бухгалтерию в интеллектуальную систему управления бизнесом.",
+        "primary": "Запросить демонстрацию"
       },
       "enterpriseCards": [
         {
-          "title": "Role-Based Permissions",
-          "description": "Every accountant only sees assigned companies, approvals and operational areas."
+          "title": "Ролевые разрешения",
+          "description": "Каждый бухгалтер видит только назначенные компании, согласования и операционные области."
         },
         {
-          "title": "Full Audit Trail",
-          "description": "Every approval, document upload and operational action tracked automatically."
+          "title": "Полный журнал аудита",
+          "description": "Каждое согласование, загрузка документа и операционное действие автоматически фиксируется."
         },
         {
-          "title": "Approval Accountability",
-          "description": "Know exactly who approved what, when and from which operational workflow."
+          "title": "Ответственность за согласования",
+          "description": "Точно видно кто, что и когда утвердил и из какого операционного процесса."
         },
         {
-          "title": "Multi-Company Runtime",
-          "description": "Manage multiple companies, branches and operational entities from one connected system."
+          "title": "Многокомпанентная операционная среда",
+          "description": "Управляйте несколькими компаниями, филиалами и операционными структурами из одной системы."
         },
         {
-          "title": "Searchable Operational History",
-          "description": "Find invoices, approvals, payroll activity and operational changes instantly."
+          "title": "Поиск по операционной истории",
+          "description": "Мгновенно находите счета, согласования, начисления зарплаты и операционные изменения."
         },
         {
-          "title": "Live Operational Monitoring",
-          "description": "Identify financial and operational issues before they become month-end surprises."
+          "title": "Мониторинг операций в реальном времени",
+          "description": "Выявляйте финансовые и операционные проблемы до конца отчётного периода."
         }
       ],
       "advisorCards": [
         {
-          "label": "Advisory",
-          "title": "Become a Live Business Advisor",
-          "description": "Move from reactive bookkeeping to proactive operational guidance with live client revenue, payroll, procurement and approval visibility.",
+          "label": "Консалтинг",
+          "title": "Станьте консультантом по бизнесу в реальном времени",
+          "description": "Переходите от реактивного учёта к проактивному операционному консультированию благодаря данным о выручке, зарплатах, закупках и согласованиях.",
           "items": [
-            "Spot revenue drops early",
-            "Monitor payroll pressure",
-            "Track procurement issues",
-            "Advise clients before month-end"
+            "Раннее обнаружение падения выручки",
+            "Контроль нагрузки на фонд оплаты труда",
+            "Отслеживание проблем закупок",
+            "Консультирование клиентов до конца периода"
           ]
         },
         {
-          "label": "Trust",
-          "title": "Increase Owner Confidence",
-          "description": "Give business owners transparent access to approvals, documents, expenses and financial activity so trust increases between client and accountant.",
+          "label": "Доверие",
+          "title": "Повышайте доверие владельцев",
+          "description": "Предоставьте владельцам прозрачный доступ к согласованиям, документам, расходам и финансовой активности.",
           "items": [
-            "Live owner visibility",
-            "Connected approvals",
-            "Searchable documents",
-            "Clear responsibility tracking"
+            "Видимость для владельца",
+            "Связанные согласования",
+            "Поиск по документам",
+            "Чёткое распределение ответственности"
           ]
         },
         {
-          "label": "Risk",
-          "title": "Reduce Leakage & Mistakes",
-          "description": "See unusual activity, missing invoices, delayed approvals and operational cost problems before they become month-end surprises.",
+          "label": "Риски",
+          "title": "Снижайте потери и ошибки",
+          "description": "Выявляйте необычную активность, отсутствующие счета, задержанные согласования и проблемы затрат до конца месяца.",
           "items": [
-            "Expense visibility",
-            "Audit history",
-            "Approval controls",
-            "Operational anomaly alerts"
+            "Контроль расходов",
+            "История аудита",
+            "Контроль согласований",
+            "Оповещения об операционных отклонениях"
           ]
         }
       ],
       "roiCards": [
         {
-          "label": "Growth",
-          "title": "Handle More Clients",
-          "description": "Reduce manual accounting workload by connecting invoices, payroll, procurement, approvals and operational activity into one live runtime.",
+          "label": "Рост",
+          "title": "Обслуживайте больше клиентов",
+          "description": "Сократите ручную бухгалтерскую работу, объединив счета, зарплаты, закупки, согласования и операции в единую систему.",
           "items": [
-            "AI-assisted invoice extraction",
-            "Faster month-end closing",
-            "Less manual bookkeeping",
-            "More clients without more paperwork"
+            "Извлечение счетов с помощью ИИ",
+            "Более быстрое закрытие периода",
+            "Меньше ручного учёта",
+            "Больше клиентов без роста бумажной работы"
           ]
         },
         {
-          "label": "Visibility",
-          "title": "Discover Problems Earlier",
-          "description": "Monitor client operations in real time instead of waiting for documents and reports at the end of the month.",
+          "label": "Видимость",
+          "title": "Выявляйте проблемы раньше",
+          "description": "Следите за операциями клиентов в реальном времени вместо ожидания документов и отчётов в конце месяца.",
           "items": [
-            "Live revenue visibility",
-            "Payroll and procurement tracking",
-            "Approval monitoring",
-            "Full operational audit trail"
+            "Видимость выручки в реальном времени",
+            "Контроль зарплат и закупок",
+            "Мониторинг согласований",
+            "Полный операционный аудит"
           ]
         }
       ],
       "features": [
         {
-          "title": "LIVE FINANCIAL VISIBILITY",
-          "description": "Monitor revenue, payroll, procurement, approvals and operational costs in real time across all clients.",
+          "title": "ФИНАНСОВАЯ ВИДИМОСТЬ В РЕАЛЬНОМ ВРЕМЕНИ",
+          "description": "Контролируйте выручку, зарплаты, закупки, согласования и операционные затраты по всем клиентам в реальном времени.",
           "image": "/images/accounting-live-control.png"
         },
         {
-          "title": "AI DOCUMENT EXTRACTION",
-          "description": "Invoices, receipts and paperwork automatically extracted and organized into the financial workflow.",
+          "title": "ИЗВЛЕЧЕНИЕ ДОКУМЕНТОВ С ПОМОЩЬЮ ИИ",
+          "description": "Счета, чеки и документы автоматически извлекаются и организуются в финансовом процессе.",
           "image": "/images/documents-flow.png"
         },
         {
-          "title": "MULTI-COMPANY CONTROL",
-          "description": "Accounting firms manage multiple businesses from one connected operational runtime.",
+          "title": "УПРАВЛЕНИЕ НЕСКОЛЬКИМИ КОМПАНИЯМИ",
+          "description": "Бухгалтерские фирмы управляют несколькими предприятиями через единую операционную платформу.",
           "image": "/images/accounting-multi-company.png"
         },
         {
-          "title": "LIVE APPROVALS & AUDIT",
-          "description": "Every approval, document and operational change tracked with full audit visibility.",
+          "title": "СОГЛАСОВАНИЯ И АУДИТ В РЕАЛЬНОМ ВРЕМЕНИ",
+          "description": "Каждое согласование, документ и операционное изменение отслеживается с полной прозрачностью аудита.",
           "image": "/images/accounting-approval-runtime.png"
         }
       ],
       "beforeAfterCards": [
         {
           "label": "item1",
-          "name": "Missing invoices and receipts",
-          "status": "Pending"
+          "name": "Отсутствующие счета и чеки",
+          "status": "В ожидании"
         },
         {
           "label": "item2",
-          "name": "Manual data entry",
-          "status": "Pending"
+          "name": "Ручной ввод данных",
+          "status": "В ожидании"
         },
         {
           "label": "item3",
-          "name": "Line messages and paperwork",
-          "status": "Pending"
+          "name": "Сообщения и документы",
+          "status": "В ожидании"
         },
         {
           "label": "item4",
-          "name": "No real-time visibility",
-          "status": "Pending"
+          "name": "Нет видимости в реальном времени",
+          "status": "В ожидании"
         },
         {
           "label": "item5",
-          "name": "Delayed financial oversight",
-          "status": "Pending"
+          "name": "Запоздалый финансовый контроль",
+          "status": "В ожидании"
         },
         {
           "label": "item6",
-          "name": "Operational problems discovered too late",
-          "status": "Pending"
+          "name": "Проблемы обнаруживаются слишком поздно",
+          "status": "В ожидании"
         }
       ],
       "runtimeEvents": {
-        "title": "Live Runtime Event Stream",
-        "subtitle": "Continuous Operational Flow",
-        "status": "LIVE",
+        "title": "Поток Событий в Реальном Времени",
+        "subtitle": "Непрерывный Операционный Поток",
+        "status": "АКТИВНО",
         "events": [
           {
             "time": "09:22",
-            "title": "Payroll runtime locked"
+            "title": "Обработка зарплаты заблокирована"
           },
           {
             "time": "09:24",
-            "title": "Inventory ledger synchronized"
+            "title": "Складской реестр синхронизирован"
           },
           {
             "time": "09:26",
-            "title": "Variance detection triggered"
+            "title": "Обнаружено отклонение"
           },
           {
             "time": "09:28",
-            "title": "Approval escalation initiated"
+            "title": "Запущена эскалация согласования"
           },
           {
             "time": "09:31",
-            "title": "Revenue synchronization completed"
+            "title": "Синхронизация выручки завершена"
           }
         ]
       },
       "governanceTimeline": {
-        "label": "Governance Timeline",
-        "title": "Continuous Operational Flow",
-        "status": "LIVE",
+        "label": "Хронология Управления",
+        "title": "Непрерывный Операционный Поток",
+        "status": "АКТИВНО",
         "events": [
           {
             "time": "08:42",
-            "title": "Procurement Approved"
+            "title": "Закупка одобрена"
           },
           {
             "time": "09:14",
-            "title": "Journal Posted"
+            "title": "Бухгалтерская запись проведена"
           },
           {
             "time": "09:16",
-            "title": "Reconciliation Updated"
+            "title": "Сверка обновлена"
           },
           {
             "time": "09:22",
-            "title": "Payroll Runtime Locked"
+            "title": "Обработка зарплаты заблокирована"
           }
         ]
       },
       "multiEntity": {
-        "label": "Multi-Entity Operational Runtime",
-        "title": "Cross-Company Oversight",
-        "status": "4 ENTITIES",
+        "label": "Мультикомпанийная Среда",
+        "title": "Контроль Нескольких Компаний",
+        "status": "4 КОМПАНИИ",
         "entities": [
           {
             "name": "Churchill Phuket",
-            "status": "ACTIVE"
+            "status": "АКТИВНА"
           },
           {
             "name": "BEA Co., Ltd.",
-            "status": "REVIEWING"
+            "status": "НА ПРОВЕРКЕ"
           },
           {
             "name": "PCS Phuket",
-            "status": "APPROVED"
+            "status": "ОДОБРЕНА"
           },
           {
             "name": "Cole Ley Entertainment",
-            "status": "PENDING CLOSE"
+            "status": "ЗАКРЫТИЕ В ПРОЦЕССЕ"
           }
         ]
       },
       "accountability": {
-        "label": "Approval Accountability",
-        "title": "Human Governance Runtime",
-        "status": "VERIFIED",
+        "label": "Ответственность за Согласования",
+        "title": "Человеческое Управление",
+        "status": "ПОДТВЕРЖДЕНО",
         "items": [
           {
-            "label": "Approved By",
-            "name": "P. Vallgarda — CFO Runtime",
-            "status": "ACTIVE"
+            "label": "Одобрено",
+            "name": "P. Vallgarda — Финансовый Директор",
+            "status": "АКТИВНО"
           },
           {
-            "label": "Locked By",
-            "name": "Financial Governance Engine",
-            "status": "ENFORCED"
+            "label": "Заблокировано",
+            "name": "Финансовый Контрольный Движок",
+            "status": "ПРИМЕНЕНО"
           },
           {
-            "label": "Reviewed By",
-            "name": "Operations Control Runtime",
-            "status": "VERIFIED"
+            "label": "Проверено",
+            "name": "Операционный Контроль",
+            "status": "ПОДТВЕРЖДЕНО"
           }
         ]
       },
       "syntheticDecisionLayer": {
-        "title": "Predictive Operational Intelligence",
-        "status": "LEARNING",
-        "recommendationLabel": "AI Recommendation",
+        "title": "Прогнозная Операционная Интеллектуальная Система",
+        "status": "ИЗУЧЕНИЕ",
+        "recommendationLabel": "Рекомендация AI",
         "recommendationText": "Delay financial close until procurement reconciliation completes.",
-        "predictionLabel": "AI Prediction",
-        "predictionText": "Procurement shortage risk predicted within 6 operational days.",
-        "detectionLabel": "AI Detection",
-        "detectionText": "Unusual approval behavior detected in hospitality runtime."
+        "predictionLabel": "Прогноз AI",
+        "predictionText": "Риск нехватки закупок прогнозируется в течение следующих 6 операционных дней.",
+        "detectionLabel": "Обнаружение AI",
+        "detectionText": "Обнаружено необычное поведение при согласовании в операционной системе."
       },
       "financialGovernance": {
-        "title": "Live Financial Governance"
+        "title": "Реальное Финансовое Управление"
+      },
+      "runtimeDashboard": {
+        "title": "Система предприятия",
+        "connectedEntities": "Подключенные сущности",
+        "journalEntries": "Записи журнала сегодня",
+        "approvalFlows": "Согласования",
+        "governanceIntegrity": "Целостность управления"
+      },
+      "riskRuntime": {
+        "monthEndClose": "Закрытие месяца",
+        "operationalRisk": "Операционные риски",
+        "auditViolations": "Нарушения аудита",
+        "liveDetection": "Live Runtime Detection"
+      },
+      "beforeAfterLists": {
+        "before": [
+          "Отсутствующие счета и чеки",
+          "Ручной ввод данных",
+          "Сообщения и документы разбросаны",
+          "Нет видимости в реальном времени",
+          "Запоздалый финансовый контроль",
+          "Проблемы обнаруживаются слишком поздно"
+        ],
+        "after": [
+          "Извлечение счетов с помощью ИИ",
+          "Операционная видимость в реальном времени",
+          "Отслеживание зарплат и закупок в реальном времени",
+          "Связанные согласования и аудит",
+          "Контроль нескольких компаний",
+          "Бухгалтерские фирмы обслуживают больше клиентов"
+        ]
+      },
+      "switchLists": {
+        "traditional": [
+          "Отчеты после окончания месяца",
+          "Нет операционной прозрачности",
+          "Ручной сбор документов",
+          "Проблемы обнаруживаются слишком поздно",
+          "Нет интеллектуальных согласований",
+          "Нет операционной ответственности",
+          "Нет мониторинга клиентов в реальном времени"
+        ],
+        "avantiqo": [
+          "Операционная видимость в реальном времени",
+          "Извлечение документов с помощью ИИ",
+          "Контроль нескольких компаний",
+          "Ответственность за согласования",
+          "Обнаружение операционных аномалий",
+          "Непрерывный аудит",
+          "Рекомендации синтетического интеллекта"
+        ]
+      },
+      "syntheticSection": {
+        "badge": "СИНТЕТИЧЕСКИЙ ИНТЕЛЛЕКТ",
+        "headline1": "Искусственный интеллект отвечает на вопросы.",
+        "headline2": "Синтетический интеллект понимает бизнес.",
+        "aiTitle": "ИИ",
+        "aiText": "Создает контент. Отвечает на вопросы. Формирует отчеты. Реагирует на запросы.",
+        "syntheticTitle": "Синтетический интеллект",
+        "syntheticText": "Понимает взаимосвязи между зарплатой, закупками, согласованиями, документами, бухгалтерией, запасами и операциями. Обнаруживает риски. Прогнозирует результаты. Рекомендует действия.",
+        "receiptText": "Это влияет на согласования, бухгалтерию, сверку закупок, финансовое закрытие, аудит и управленческую прозрачность.",
+        "receiptFooter": "Синтетический интеллект понимает всю цепочку последствий."
+      },
+      "riskRuntimeLists": {
+        "missingReceipts": "Отсутствующие чеки",
+        "payrollApproval": "Задержка утверждения зарплаты",
+        "procurementExceptions": "Исключения в закупках",
+        "continuousFlow": "Непрерывный операционный поток",
+        "enterpriseNervousSystem": "Операционная нервная система предприятия",
+        "monitoringBehavior": "Мониторинг операционного поведения",
+        "aiVariance": "Обнаружено отклонение в закупках",
+        "aiPayroll": "Обнаружено несоответствие зарплаты до закрытия периода",
+        "aiConfidence": "Уверенность ИИ Runtime",
+        "aiPercentage": "97.2%",
+        "aiStatus": "Критических аномалий не обнаружено"
+      },
+      "statusLabels": {
+        "aiActive": "ИИ АКТИВЕН",
+        "systemActive": "СИСТЕМА АКТИВНА",
+        "detected": "ИИ ОБНАРУЖИЛ",
+        "analysis": "АНАЛИЗ ИИ",
+        "recommendation": "РЕКОМЕНДАЦИЯ ИИ",
+        "live": "В РЕАЛЬНОМ ВРЕМЕНИ",
+        "verified": "ПОДТВЕРЖДЕНО",
+        "active": "АКТИВНО",
+        "reviewing": "НА ПРОВЕРКЕ",
+        "approved": "ОДОБРЕНО",
+        "pendingClose": "ОЖИДАЕТ ЗАКРЫТИЯ",
+        "enforced": "ПРИМЕНЕНО",
+        "enabled": "ВКЛЮЧЕНО",
+        "ready": "ГОТОВО",
+        "synchronized": "СИНХРОНИЗИРОВАНО",
+        "operational": "В РАБОТЕ"
+      },
+      "enterpriseRuntime": {
+        "auditTraceability": "Полная отслеживаемость аудита",
+        "auditDescription": "Каждое согласование, изменение, транзакция и операционное событие отслеживается в системе предприятия.",
+        "noAnomalies": "Критических аномалий не обнаружено.",
+        "allSystems": "ВСЕ СИСТЕМЫ СИНХРОНИЗИРОВАНЫ",
+        "payrollRuntime": "Система зарплат",
+        "payrollDesc": "Синхронизировано с управлением операциями",
+        "procurementRuntime": "Система закупок",
+        "procurementDesc": "Подключено к учету запасов",
+        "financialRuntime": "Система финансов",
+        "financialDesc": "Подключено к потокам дохода в реальном времени",
+        "aiRuntime": "ИИ Система",
+        "journalEngine": "Главная бухгалтерская система",
+        "threeWay": "Тройное согласование",
+        "auditChain": "Целостность цепочки аудита",
+        "procurementGovernance": "Контроль закупок",
+        "inventoryLedger": "Учёт запасов",
+        "multiEntity": "Консолидация нескольких организаций",
+        "approvalRuntime": "Система согласования",
+        "periodLocking": "Блокировка периода",
+        "high": "ВЫСОКО",
+        "learning": "ИЗУЧЕНИЕ",
+        "varianceTriggered": "Обнаружено отклонение ИИ"
       }
     }
   },

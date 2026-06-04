@@ -100,7 +100,7 @@
       "badge": "体验 AVANTIQO",
       "title1": "统一 Workspace",
       "title2": "覆盖每一个业务职能",
-      "description": "运营、财务、会计、文档、审批、营销、AI Runtime 与企业控制通过统一运营层连接。",
+      "description": "运营、财务、会计、文档、审批、营销、AI 运行系统 与企业控制通过统一运营层连接。",
       "cards": {
         "clientManagement": {
           "title": "客户管理",
@@ -222,7 +222,7 @@
           ]
         },
         "intelligence": {
-          "title": "Synthetic Intelligence",
+          "title": "合成智能",
           "items": [
             "AI 运行时",
             "Recommendations",
@@ -367,32 +367,32 @@
     },
     "hospitality": {
       "hero": {
-        "badge": "HOSPITALITY INTELLIGENCE PLATFORM",
-        "title1": "See The Entire Business.",
-        "title2": "Know What Happens Next.",
-        "description": "Reservations, operations, workforce, finance, marketing and guest experience connected through one synthetic intelligence layer.",
-        "primary": "Book Demo",
-        "secondary": "Explore Platform"
+        "badge": "酒店智能平台",
+        "title1": "看见整个业务",
+        "title2": "知道下一步会发生什么",
+        "description": "预订、运营、员工、财务、营销和客户体验通过 Avantiqo 实时连接。",
+        "primary": "预约演示",
+        "secondary": "探索平台"
       },
       "reality": {
-        "badge": "HOSPITALITY REALITY",
-        "title1": "Hospitality today is connected everywhere.",
-        "title2": "But understood nowhere."
+        "badge": "酒店现实",
+        "title1": "今天一切都互联",
+        "title2": "但无人真正理解"
       },
       "runtime": {
         "badge": "ONE HOSPITALITY RUNTIME",
-        "title1": "Guests. Operations. Finance. Ownership.",
-        "title2": "One connected runtime."
+        "title1": "客户. 运营. 财务. 所有权.",
+        "title2": "一个互联的运行时"
       },
       "relationships": {
-        "badge": "FROM ACTIVITY TO INTELLIGENCE",
-        "title1": "Most systems store events.",
-        "title2": "Avantiqo understands relationships."
+        "badge": "从活动到智能",
+        "title1": "大多数系统存储事件",
+        "title2": "Avantiqo 理解关系"
       },
       "intelligence": {
-        "badge": "REAL HOSPITALITY INTELLIGENCE",
-        "title1": "One reservation.",
-        "title2": "One chain reaction."
+        "badge": "真实酒店智能",
+        "title1": "一次预订",
+        "title2": "一次连锁反应"
       },
       "synthetic": {
         "badge": "SYNTHETIC INTELLIGENCE LAYER",
@@ -401,313 +401,493 @@
         "title3": "Recommend."
       },
       "ownership": {
-        "badge": "OWNERSHIP LAYER",
-        "title1": "Ownership sees everything.",
-        "title2": "Before it happens."
+        "badge": "所有权层",
+        "title1": "所有者看到一切",
+        "title2": "在发生之前"
       },
       "cta": {
         "badge": "HOSPITALITY OPERATING SYSTEM",
-        "title1": "Hospitality was built around operations.",
-        "title2": "The future will be built around intelligence.",
-        "description": "Avantiqo connects operations, finance, workforce, marketing and guest experience through one Synthetic Intelligence Operating System.",
-        "primary": "Book Demo"
-      }
+        "title1": "酒店围绕运营构建",
+        "title2": "未来将围绕智能构建",
+        "description": "Avantiqo 将运营、财务、员工、营销和客户体验通过合成智能操作系统连接在一起。",
+        "primary": "预约演示"
+      },
+      "flow": [
+        "客户到达",
+        "预订",
+        "服务",
+        "库存",
+        "薪资",
+        "会计",
+        "盈利能力",
+        "所有权"
+      ],
+      "realityContent": [
+        "大多数酒店业务通过分离系统运作。预订在一个平台，运营在另一个平台，财务滞后几周才看到业务情况，营销依赖假设，管理层被动应对。",
+        "问题不在于数据缺失，而在于缺乏理解。",
+        "酒店业务不需要更多软件，它们需要一个统一的操作系统。"
+      ],
+      "runtimeContent": "不是独立部门，也不是独立软件。每个动作都是同一业务故事的一部分。",
+      "relationshipsItems": [
+        "预订不仅仅是预订，这是需求。",
+        "班次不仅仅是班次，这是劳动力成本。",
+        "订单不仅仅是订单，这是收入。",
+        "评论不仅仅是评论，这是未来增长。"
+      ],
+      "relationshipsDescription": "这就是软件与合成智能的区别。Avantiqo 将操作活动直接与业务意义连接。",
+      "intelligenceDescription": "酒店业务不是孤立事件的集合。每个动作都会在整个业务中产生连锁影响。Avantiqo 会自动跟踪这些影响。",
+      "intelligenceChain": {
+        "eventLabel": "事件",
+        "eventTitle": "下周末的预订需求增加",
+        "cards": [
+          {
+            "label": "运营",
+            "title": "服务需求增加"
+          },
+          {
+            "label": "员工",
+            "title": "人员需求自动调整"
+          },
+          {
+            "label": "库存",
+            "title": "采购预测更新"
+          },
+          {
+            "label": "财务",
+            "title": "收入与劳动力成本预测重新计算"
+          }
+        ],
+        "ownershipLabel": "所有者",
+        "ownershipTitle": "所有者在发生前看到影响"
+      },
+      "syntheticContent": [
+        "大多数平台停留在报告阶段。Avantiqo 进入实际操作。",
+        "系统持续观察客户、员工、运营、财务和所有者。它识别模式、预测结果、推荐操作。",
+        "这不是聊天机器人，而是内置于业务中的操作智能层。"
+      ],
+      "syntheticExecute": "执行",
+      "ownershipTypes": [
+        "餐厅",
+        "酒店",
+        "海滩俱乐部",
+        "多场地集团",
+        "企业级酒店组织"
+      ],
+      "ownershipNotice": "For the first time, ownership can see the complete business. Not isolated reports. Not disconnected dashboards.",
+      "operationalReality": "One operational reality. One financial reality. One intelligence layer."
     },
     "accountingFirms": {
       "hero": {
-        "badge": "SYNTHETIC INTELLIGENCE FOR ACCOUNTING FIRMS",
-        "title1": "Stop Reporting",
-        "title2": "The Past.",
-        "title3": "Start Managing",
-        "title4": "The Future.",
-        "description": "Avantiqo gives accounting firms real-time visibility into operations, approvals, payroll, procurement and financial activity instead of waiting for paperwork 30 days later.",
-        "primary": "Build The Next Generation Accounting Firm",
-        "secondary": "Talk To Enterprise Team"
+        "badge": "会计",
+        "title1": "停止重建企业",
+        "title2": "从纸质工作",
+        "title3": "开始",
+        "title4": "",
+        "description": "使用 Avantiqo 实时控制您的财务、运营和工作流。",
+        "primary": "预约演示",
+        "secondary": "探索平台"
       },
       "beforeAfter": {
-        "badge": "BEFORE VS AFTER",
-        "title1": "Stop rebuilding businesses",
-        "title2": "from paperwork."
+        "badge": "前与后",
+        "title1": "停止重建业务",
+        "title2": "从文件工作中"
       },
       "switch": {
-        "badge": "WHY ACCOUNTING FIRMS SWITCH",
-        "title1": "Other software stores transactions.",
-        "title2": "Avantiqo understands businesses."
+        "badge": "为什么会计师事务所选择 Avantiqo",
+        "title1": "传统软件只保存交易",
+        "title2": "Avantiqo 了解整个业务"
       },
       "runtime": {
-        "badge": "ACCOUNTING RUNTIME",
-        "title1": "Everything connected.",
-        "title2": "Everything visible."
+        "badge": "会计运行时系统",
+        "title1": "所有事务互联",
+        "title2": "全程可视"
       },
       "benefits": {
-        "badge": "ACCOUNTING FIRM BENEFITS",
-        "title1": "Scale your accounting firm without scaling operational chaos."
+        "badge": "对会计师事务所的益处",
+        "title1": "扩大业务而不增加运营混乱"
       },
       "advisory": {
-        "badge": "WHY SYNTHETIC INTELLIGENCE FOR ACCOUNTING FIRMS CHOOSE AVANTIQO",
-        "title1": "Turn accounting from bookkeeping into operational intelligence.",
-        "description": "Avantiqo helps accounting firms become live operational intelligence partners, not just month-end bookkeeping providers."
+        "badge": "会计师事务所选择 Avantiqo 的理由",
+        "title1": "将会计工作从被动转为实时智能建议",
+        "description": "Avantiqo 让会计师成为实时业务智能合作伙伴，而不仅是月末会计员"
       },
       "enterprise": {
-        "badge": "ENTERPRISE CONTROL & COMPLIANCE",
-        "title1": "Built for operational trust,",
-        "title2": "accountability and visibility.",
-        "description": "Avantiqo provides accounting firms with enterprise-grade operational visibility, permission control and audit accountability across all clients."
+        "badge": "企业级控制与治理",
+        "title1": "为操作可靠性而设计",
+        "title2": "责任和透明度",
+        "description": "Avantiqo 提供企业级可视化、权限控制和责任追踪"
       },
       "cta": {
-        "badge": "LIVE ACCOUNTING CONTROL",
-        "title1": "Your accounting firm",
-        "title2": "should not discover",
-        "title3": "problems 30 days later.",
-        "description": "Avantiqo transforms accounting firms into real-time operational intelligence partners.",
-        "primary": "Book Enterprise Demo"
+        "badge": "实时会计控制",
+        "title1": "您的会计系统",
+        "title2": "不再延迟",
+        "title3": "实时问题预警",
+        "description": "Avantiqo 将会计师转变为实时业务智能伙伴",
+        "primary": "预订企业演示"
       },
       "enterpriseCards": [
         {
-          "title": "Role-Based Permissions",
-          "description": "Every accountant only sees assigned companies, approvals and operational areas."
+          "title": "按角色权限",
+          "description": "每位会计只看到其被分配的公司、审批和操作区域"
         },
         {
-          "title": "Full Audit Trail",
-          "description": "Every approval, document upload and operational action tracked automatically."
+          "title": "完整审计历史",
+          "description": "所有审批、文档上传及操作均自动记录"
         },
         {
-          "title": "Approval Accountability",
-          "description": "Know exactly who approved what, when and from which operational workflow."
+          "title": "审批责任",
+          "description": "即时知道谁审批了什么，何时，以及来自哪个流程"
         },
         {
-          "title": "Multi-Company Runtime",
-          "description": "Manage multiple companies, branches and operational entities from one connected system."
+          "title": "多公司系统",
+          "description": "从一个系统管理多家公司、多分支和多部门"
         },
         {
-          "title": "Searchable Operational History",
-          "description": "Find invoices, approvals, payroll activity and operational changes instantly."
+          "title": "可搜索的操作历史",
+          "description": "实时查找发票、审批、工资及变更"
         },
         {
-          "title": "Live Operational Monitoring",
-          "description": "Identify financial and operational issues before they become month-end surprises."
+          "title": "实时操作监控",
+          "description": "在月末问题出现之前发现财务和运营问题"
         }
       ],
       "advisorCards": [
         {
-          "label": "Advisory",
-          "title": "Become a Live Business Advisor",
-          "description": "Move from reactive bookkeeping to proactive operational guidance with live client revenue, payroll, procurement and approval visibility.",
+          "label": "顾问",
+          "title": "实时业务顾问",
+          "description": "将会计师工作从被动转换为主动实时建议",
           "items": [
-            "Spot revenue drops early",
-            "Monitor payroll pressure",
-            "Track procurement issues",
-            "Advise clients before month-end"
+            "提前发现收入下降",
+            "追踪工资压力",
+            "检查采购问题",
+            "在月末前提供客户建议"
           ]
         },
         {
-          "label": "Trust",
-          "title": "Increase Owner Confidence",
-          "description": "Give business owners transparent access to approvals, documents, expenses and financial activity so trust increases between client and accountant.",
+          "label": "信任",
+          "title": "提升业主信心",
+          "description": "让业主实时看到审批、文档、费用和财务活动",
           "items": [
-            "Live owner visibility",
-            "Connected approvals",
-            "Searchable documents",
-            "Clear responsibility tracking"
+            "业主实时可见",
+            "审批连贯",
+            "文档可搜索",
+            "责任清晰"
           ]
         },
         {
-          "label": "Risk",
-          "title": "Reduce Leakage & Mistakes",
-          "description": "See unusual activity, missing invoices, delayed approvals and operational cost problems before they become month-end surprises.",
+          "label": "风险",
+          "title": "降低漏洞和错误",
+          "description": "监控异常活动、丢失发票、延迟审批和成本问题",
           "items": [
-            "Expense visibility",
-            "Audit history",
-            "Approval controls",
-            "Operational anomaly alerts"
+            "查看支出",
+            "完整审计历史",
+            "审批控制",
+            "异常提醒"
           ]
         }
       ],
       "roiCards": [
         {
-          "label": "Growth",
-          "title": "Handle More Clients",
-          "description": "Reduce manual accounting workload by connecting invoices, payroll, procurement, approvals and operational activity into one live runtime.",
+          "label": "增长",
+          "title": "获得更多客户",
+          "description": "通过系统化处理发票、工资、采购、审批和操作减少会计工作",
           "items": [
-            "AI-assisted invoice extraction",
-            "Faster month-end closing",
-            "Less manual bookkeeping",
-            "More clients without more paperwork"
+            "AI 帮助抓取发票数据",
+            "加快月末结账",
+            "减少手工会计工作",
+            "增加客户而不增加文档"
           ]
         },
         {
-          "label": "Visibility",
-          "title": "Discover Problems Earlier",
-          "description": "Monitor client operations in real time instead of waiting for documents and reports at the end of the month.",
+          "label": "可见性",
+          "title": "更快发现问题",
+          "description": "实时追踪客户操作，替代月末文档等待",
           "items": [
-            "Live revenue visibility",
-            "Payroll and procurement tracking",
-            "Approval monitoring",
-            "Full operational audit trail"
+            "实时查看收入",
+            "追踪工资和采购",
+            "审批追踪",
+            "完整审计历史"
           ]
         }
       ],
       "features": [
         {
-          "title": "LIVE FINANCIAL VISIBILITY",
-          "description": "Monitor revenue, payroll, procurement, approvals and operational costs in real time across all clients.",
+          "title": "实时财务可视化",
+          "description": "实时监控客户收入、工资、采购、审批及成本",
           "image": "/images/accounting-live-control.png"
         },
         {
-          "title": "AI DOCUMENT EXTRACTION",
-          "description": "Invoices, receipts and paperwork automatically extracted and organized into the financial workflow.",
+          "title": "AI 数据抓取",
+          "description": "发票、收据及文档自动抓取并归档",
           "image": "/images/documents-flow.png"
         },
         {
-          "title": "MULTI-COMPANY CONTROL",
-          "description": "Accounting firms manage multiple businesses from one connected operational runtime.",
+          "title": "多公司控制",
+          "description": "会计师通过统一系统管理多家业务",
           "image": "/images/accounting-multi-company.png"
         },
         {
-          "title": "LIVE APPROVALS & AUDIT",
-          "description": "Every approval, document and operational change tracked with full audit visibility.",
+          "title": "实时审批与审计",
+          "description": "所有审批、文档及变更都有完整审计视图",
           "image": "/images/accounting-approval-runtime.png"
         }
       ],
       "beforeAfterCards": [
         {
-          "label": "item1",
-          "name": "Missing invoices and receipts",
-          "status": "Pending"
+          "label": "项目 1",
+          "name": "缺少发票和收据",
+          "status": "待处理"
         },
         {
-          "label": "item2",
-          "name": "Manual data entry",
-          "status": "Pending"
+          "label": "项目 2",
+          "name": "手工录入数据",
+          "status": "待处理"
         },
         {
-          "label": "item3",
-          "name": "Line messages and paperwork",
-          "status": "Pending"
+          "label": "项目 3",
+          "name": "分散消息与文件",
+          "status": "待处理"
         },
         {
-          "label": "item4",
-          "name": "No real-time visibility",
-          "status": "Pending"
+          "label": "项目 4",
+          "name": "无实时可视性",
+          "status": "待处理"
         },
         {
-          "label": "item5",
-          "name": "Delayed financial oversight",
-          "status": "Pending"
+          "label": "项目 5",
+          "name": "财务监管延迟",
+          "status": "待处理"
         },
         {
-          "label": "item6",
-          "name": "Operational problems discovered too late",
-          "status": "Pending"
+          "label": "项目 6",
+          "name": "运营问题发现过晚",
+          "status": "待处理"
         }
       ],
       "runtimeEvents": {
-        "title": "Live Runtime Event Stream",
-        "subtitle": "Continuous Operational Flow",
-        "status": "LIVE",
+        "title": "实时事件流",
+        "subtitle": "持续的运营流程",
+        "status": "运行中",
         "events": [
           {
             "time": "09:22",
-            "title": "Payroll runtime locked"
+            "title": "工资运行锁定"
           },
           {
             "time": "09:24",
-            "title": "Inventory ledger synchronized"
+            "title": "库存分类账同步"
           },
           {
             "time": "09:26",
-            "title": "Variance detection triggered"
+            "title": "差异检测触发"
           },
           {
             "time": "09:28",
-            "title": "Approval escalation initiated"
+            "title": "审批升级已启动"
           },
           {
             "time": "09:31",
-            "title": "Revenue synchronization completed"
+            "title": "收入同步完成"
           }
         ]
       },
       "governanceTimeline": {
-        "label": "Governance Timeline",
-        "title": "Continuous Operational Flow",
-        "status": "LIVE",
+        "label": "治理时间线",
+        "title": "持续的运营流程",
+        "status": "运行中",
         "events": [
           {
             "time": "08:42",
-            "title": "Procurement Approved"
+            "title": "采购已批准"
           },
           {
             "time": "09:14",
-            "title": "Journal Posted"
+            "title": "账目已发布"
           },
           {
             "time": "09:16",
-            "title": "Reconciliation Updated"
+            "title": "对账已更新"
           },
           {
             "time": "09:22",
-            "title": "Payroll Runtime Locked"
+            "title": "工资运行锁定"
           }
         ]
       },
       "multiEntity": {
-        "label": "Multi-Entity Operational Runtime",
-        "title": "Cross-Company Oversight",
-        "status": "4 ENTITIES",
+        "label": "多单位运行系统",
+        "title": "跨公司监管",
+        "status": "4 个单位",
         "entities": [
           {
             "name": "Churchill Phuket",
-            "status": "ACTIVE"
+            "status": "活跃"
           },
           {
             "name": "BEA Co., Ltd.",
-            "status": "REVIEWING"
+            "status": "审核中"
           },
           {
             "name": "PCS Phuket",
-            "status": "APPROVED"
+            "status": "已批准"
           },
           {
             "name": "Cole Ley Entertainment",
-            "status": "PENDING CLOSE"
+            "status": "待关闭"
           }
         ]
       },
       "accountability": {
-        "label": "Approval Accountability",
-        "title": "Human Governance Runtime",
-        "status": "VERIFIED",
+        "label": "审批责任",
+        "title": "人工治理运行",
+        "status": "已验证",
         "items": [
           {
-            "label": "Approved By",
-            "name": "P. Vallgarda — CFO Runtime",
-            "status": "ACTIVE"
+            "label": "批准人",
+            "name": "P. Vallgarda — CFO 系统",
+            "status": "活跃"
           },
           {
-            "label": "Locked By",
-            "name": "Financial Governance Engine",
-            "status": "ENFORCED"
+            "label": "锁定人",
+            "name": "财务治理引擎",
+            "status": "已强制"
           },
           {
-            "label": "Reviewed By",
-            "name": "Operations Control Runtime",
-            "status": "VERIFIED"
+            "label": "审核人",
+            "name": "运营控制系统",
+            "status": "已验证"
           }
         ]
       },
       "syntheticDecisionLayer": {
-        "title": "Predictive Operational Intelligence",
-        "status": "LEARNING",
-        "recommendationLabel": "AI Recommendation",
-        "recommendationText": "Delay financial close until procurement reconciliation completes.",
-        "predictionLabel": "AI Prediction",
-        "predictionText": "Procurement shortage risk predicted within 6 operational days.",
-        "detectionLabel": "AI Detection",
-        "detectionText": "Unusual approval behavior detected in hospitality runtime."
+        "title": "预测运营智能",
+        "status": "学习中",
+        "recommendationLabel": "AI 建议",
+        "recommendationText": "延迟财务结算，直到采购对账完成。",
+        "predictionLabel": "AI 预测",
+        "predictionText": "预计在 6 个工作日内可能出现采购短缺风险。",
+        "detectionLabel": "AI 检测",
+        "detectionText": "在运营系统中检测到异常审批行为。"
       },
       "financialGovernance": {
-        "title": "Live Financial Governance"
+        "title": "实时财务治理"
+      },
+      "runtimeDashboard": {
+        "title": "Enterprise Runtime",
+        "connectedEntities": "Connected Entities",
+        "journalEntries": "Journal Entries Today",
+        "approvalFlows": "Approval Flows",
+        "governanceIntegrity": "Governance Integrity"
+      },
+      "riskRuntime": {
+        "monthEndClose": "Month-End Close Runtime",
+        "operationalRisk": "Operational Risk Runtime",
+        "auditViolations": "Audit Violations",
+        "liveDetection": "Live Runtime Detection"
+      },
+      "beforeAfterLists": {
+        "before": [
+          "缺失发票和收据",
+          "手动数据录入",
+          "聊天记录和文件分散",
+          "缺乏实时可视化",
+          "财务监督滞后",
+          "运营问题发现过晚"
+        ],
+        "after": [
+          "AI 发票提取",
+          "实时运营可视化",
+          "实时工资与采购追踪",
+          "审批与审计全程关联",
+          "多公司统一控制",
+          "会计师事务所更高效管理更多客户"
+        ]
+      },
+      "switchLists": {
+        "traditional": [
+          "月末之后才生成报表",
+          "缺乏运营可视化",
+          "手动收集文件",
+          "问题发现过晚",
+          "缺乏审批智能",
+          "缺乏运营责任追踪",
+          "无法实时监控客户"
+        ],
+        "avantiqo": [
+          "实时运营可视化",
+          "AI 文档提取",
+          "多公司控制",
+          "审批责任追踪",
+          "运营异常检测",
+          "持续审计追踪",
+          "合成智能建议"
+        ]
+      },
+      "syntheticSection": {
+        "badge": "合成智能",
+        "headline1": "人工智能回答问题。",
+        "headline2": "合成智能理解企业。",
+        "aiTitle": "AI",
+        "aiText": "生成内容。回答问题。创建报告。响应指令。",
+        "syntheticTitle": "合成智能",
+        "syntheticText": "理解工资、采购、审批、文档、会计、库存与运营之间的关系。识别风险、预测结果并提供建议。",
+        "receiptText": "它会影响审批、会计、采购对账、财务结账、审计可信度和管理层可视化。",
+        "receiptFooter": "合成智能理解整个连锁反应。"
+      },
+      "riskRuntimeLists": {
+        "missingReceipts": "缺失收据",
+        "payrollApproval": "工资审批延迟",
+        "procurementExceptions": "采购异常",
+        "continuousFlow": "持续运营流程",
+        "enterpriseNervousSystem": "企业运营神经系统",
+        "monitoringBehavior": "监控运营行为",
+        "aiVariance": "检测到酒店运营中的采购偏差。",
+        "aiPayroll": "在财务结账前发现工资异常。",
+        "aiConfidence": "AI 运行系统 可信度",
+        "aiPercentage": "97.2%",
+        "aiStatus": "未发现关键异常。"
+      },
+      "statusLabels": {
+        "aiActive": "AI 运行中",
+        "systemActive": "系统运行中",
+        "detected": "AI 已检测",
+        "analysis": "AI 分析",
+        "recommendation": "AI 建议",
+        "live": "实时",
+        "verified": "已验证",
+        "active": "活跃",
+        "reviewing": "审核中",
+        "approved": "已批准",
+        "pendingClose": "待结账",
+        "enforced": "已执行",
+        "enabled": "已启用",
+        "ready": "已准备",
+        "synchronized": "已同步",
+        "operational": "运行中"
+      },
+      "enterpriseRuntime": {
+        "auditTraceability": "企业级审计追踪",
+        "auditDescription": "所有审批、修改、交易和运营事件都会被永久记录。",
+        "noAnomalies": "未发现关键异常。",
+        "allSystems": "所有系统已同步",
+        "payrollRuntime": "工资 Runtime",
+        "payrollDesc": "已与运营控制同步",
+        "procurementRuntime": "采购 Runtime",
+        "procurementDesc": "已连接库存台账",
+        "financialRuntime": "财务 Runtime",
+        "financialDesc": "已连接实时收入流",
+        "aiRuntime": "AI 运行系统",
+        "journalEngine": "标准会计引擎",
+        "threeWay": "三方匹配",
+        "auditChain": "审计链完整性",
+        "procurementGovernance": "采购治理",
+        "inventoryLedger": "库存台账",
+        "multiEntity": "多实体合并",
+        "approvalRuntime": "审批 Runtime",
+        "periodLocking": "期间锁定",
+        "high": "高",
+        "learning": "学习中",
+        "varianceTriggered": "AI 偏差检测已触发"
       }
     }
   },

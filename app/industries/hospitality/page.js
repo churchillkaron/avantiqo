@@ -5,20 +5,11 @@ import SiteTopNav from "@/app/components/SiteTopNav";
 import Footer from "@/components/layout/Footer";
 import { useTranslation } from "@/app/providers/I18nProvider";
 
-const flow = [
-  "Guest arrives",
-  "Reservation",
-  "Service",
-  "Inventory",
-  "Payroll",
-  "Accounting",
-  "Profitability",
-  "Ownership",
-];
 
 export default function HospitalityPage() {
   const { translations } = useTranslation();
   const h = translations.home?.hospitality || {};
+  const flow = h.flow || [];
 
   return (
     <>
@@ -84,22 +75,18 @@ export default function HospitalityPage() {
         </h2>
 
         <div className="mt-14 max-w-5xl space-y-8 text-xl leading-9 text-white/60">
-          <p>
-            Most hospitality businesses operate through disconnected systems.
-            Reservations live in one platform. Operations live in another.
-            Finance sees the business weeks later. Marketing works from
-            assumptions. Management reacts instead of leading.
-          </p>
-
-          <p>
-            The problem is not a lack of data. The problem is a lack of
-            understanding.
-          </p>
-
-          <p className="text-white">
-            Hospitality businesses do not need more software. They need one
-            operating system.
-          </p>
+          {(h.realityContent || []).map((item, index) => (
+            <p
+              key={item}
+              className={
+                index === (h.realityContent?.length || 0) - 1
+                  ? "text-white"
+                  : ""
+              }
+            >
+              {item}
+            </p>
+          ))}
         </div>
       </section>
 
@@ -121,9 +108,7 @@ export default function HospitalityPage() {
           <div className="mt-20 grid gap-6 md:grid-cols-2">
             <div className="rounded-[36px] border border-white/10 bg-[#070A12] p-10">
               <p className="text-xl leading-9 text-white/65">
-                Not separate departments. Not separate software. One connected
-                foundation where every action becomes part of the same business
-                story.
+                {h.runtimeContent}
               </p>
             </div>
 
@@ -159,15 +144,13 @@ export default function HospitalityPage() {
         </h2>
 
         <div className="mt-16 space-y-10 text-3xl font-light leading-tight tracking-[-0.04em] text-white/80 md:text-5xl">
-          <p>A reservation is not a reservation. It is demand.</p>
-          <p>A shift is not a shift. It is labour cost.</p>
-          <p>An order is not an order. It is revenue.</p>
-          <p>A review is not a review. It is future growth.</p>
+          {(h.relationshipsItems || []).map((item) => (
+            <p key={item}>{item}</p>
+          ))}
         </div>
 
         <p className="mt-16 max-w-5xl text-xl leading-9 text-white/60">
-          That is the difference between software and Synthetic Intelligence.
-          Avantiqo connects operational activity directly to business meaning.
+          {h.relationshipsDescription}
         </p>
       </section>
 
@@ -184,19 +167,17 @@ export default function HospitalityPage() {
         </h2>
 
         <p className="mt-8 max-w-3xl text-xl leading-relaxed text-white/60">
-          Hospitality is not a collection of separate events. Every action
-          creates consequences throughout the business. Avantiqo follows those
-          consequences automatically.
+          {h.intelligenceDescription}
         </p>
 
         <div className="mt-20">
           <div className="rounded-[32px] border border-white/10 bg-white/[0.02] p-8">
             <div className="text-center text-sm uppercase tracking-[0.35em] text-[#D6A66A]">
-              Event
+              {h.intelligenceChain?.eventLabel}
             </div>
 
             <div className="mt-4 text-center text-4xl font-light text-white">
-              Reservation demand increases for next weekend
+              {h.intelligenceChain?.eventTitle}
             </div>
           </div>
 
@@ -205,45 +186,20 @@ export default function HospitalityPage() {
           </div>
 
           <div className="grid gap-6 md:grid-cols-2">
-            <div className="rounded-[28px] border border-white/10 bg-white/[0.02] p-7">
-              <div className="text-sm uppercase tracking-[0.3em] text-[#D6A66A]">
-                Operations
-              </div>
+            {(h.intelligenceChain?.cards || []).map((card) => (
+              <div
+                key={card.label}
+                className="rounded-[28px] border border-white/10 bg-white/[0.02] p-7"
+              >
+                <div className="text-sm uppercase tracking-[0.3em] text-[#D6A66A]">
+                  {card.label}
+                </div>
 
-              <div className="mt-4 text-center text-2xl font-light text-white">
-                Service demand increases
+                <div className="mt-4 text-center text-2xl font-light text-white">
+                  {card.title}
+                </div>
               </div>
-            </div>
-
-            <div className="rounded-[28px] border border-white/10 bg-white/[0.02] p-7">
-              <div className="text-sm uppercase tracking-[0.3em] text-[#D6A66A]">
-                Workforce
-              </div>
-
-              <div className="mt-4 text-center text-2xl font-light text-white">
-                Staffing requirements adjust automatically
-              </div>
-            </div>
-
-            <div className="rounded-[28px] border border-white/10 bg-white/[0.02] p-7">
-              <div className="text-sm uppercase tracking-[0.3em] text-[#D6A66A]">
-                Inventory
-              </div>
-
-              <div className="mt-4 text-center text-2xl font-light text-white">
-                Purchasing forecasts update
-              </div>
-            </div>
-
-            <div className="rounded-[28px] border border-white/10 bg-white/[0.02] p-7">
-              <div className="text-sm uppercase tracking-[0.3em] text-[#D6A66A]">
-                Finance
-              </div>
-
-              <div className="mt-4 text-center text-2xl font-light text-white">
-                Revenue and labour projections recalculate
-              </div>
-            </div>
+            ))}
           </div>
 
           <div className="py-10 text-center text-5xl text-[#D6A66A]">
@@ -252,11 +208,11 @@ export default function HospitalityPage() {
 
           <div className="rounded-[32px] border border-[#D6A66A]/20 bg-[#D6A66A]/5 p-12 text-center">
             <div className="text-center text-sm uppercase tracking-[0.35em] text-[#D6A66A]">
-              Ownership
+              {h.intelligenceChain?.ownershipLabel}
             </div>
 
             <div className="mt-6 text-4xl font-light text-white md:text-5xl">
-              Ownership sees the impact before it happens.
+              {h.intelligenceChain?.ownershipTitle}
             </div>
           </div>
         </div>
@@ -275,25 +231,22 @@ export default function HospitalityPage() {
             <br />
             {h.synthetic?.title3}
             <br />
-            <span className="text-[#D6A66A]">Execute.</span>
+            <span className="text-[#D6A66A]">{h.syntheticExecute}</span>
           </h2>
 
           <div className="mt-16 max-w-5xl space-y-8 text-xl leading-9 text-white/60">
-            <p>
-              Most platforms stop at reporting. Avantiqo continues into action.
-            </p>
-
-            <p>
-              The system continuously observes activity across guests, staff,
-              operations, finance and ownership. It identifies patterns,
-              predicts outcomes, recommends actions and executes approved
-              workflows automatically.
-            </p>
-
-            <p className="text-white">
-              This is not a chatbot. This is an operational intelligence layer
-              built into the business itself.
-            </p>
+            {(h.syntheticContent || []).map((item, index) => (
+              <p
+                key={item}
+                className={
+                  index === (h.syntheticContent?.length || 0) - 1
+                    ? "text-white"
+                    : ""
+                }
+              >
+                {item}
+              </p>
+            ))}
           </div>
         </div>
       </section>
@@ -311,24 +264,16 @@ export default function HospitalityPage() {
 
         <div className="mt-14 max-w-5xl space-y-8 text-xl leading-9 text-white/60">
           <p>
-            For the first time, ownership can see the complete business. Not
-            isolated reports. Not disconnected dashboards.
+            {h.ownershipDescription}
           </p>
 
           <p>
-            One operational reality. One financial reality. One intelligence
-            layer.
+            {h.ownershipReality}
           </p>
         </div>
 
         <div className="mt-20 grid gap-4 md:grid-cols-5">
-          {[
-            "Restaurant",
-            "Hotel",
-            "Beach Club",
-            "Multi Venue Group",
-            "Enterprise Hospitality Organization",
-          ].map((item) => (
+          {(h.ownershipTypes || []).map((item) => (
             <div
               key={item}
               className="rounded-3xl border border-white/10 bg-white/[0.04] p-6 text-center text-white/85"
