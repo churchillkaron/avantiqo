@@ -2309,5 +2309,12 @@
         "description": "Motion + cinematic reels"
       }
     }
+  },
+  "nav": {
+    "industries": "Branscher",
+    "synthetic_intelligence": "Syntetisk Intelligens (SI)",
+    "security": "Säkerhet",
+    "login": "Logga In",
+    "start_setup": "Kom Igång"
   }
 }

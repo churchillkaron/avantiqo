@@ -3,9 +3,11 @@
 import { useState } from "react";
 import Link from "next/link";
 import LanguageSwitcher from "@/app/components/LanguageSwitcher";
+import { useTranslation } from "@/app/providers/I18nProvider";
 
 export default function SiteTopNav() {
   const [open, setOpen] = useState(false);
+  const { t } = useTranslation();
 
   return (
     <header className="fixed left-0 right-0 top-0 z-50 border-b border-white/[0.05] bg-black/60 backdrop-blur-2xl">
@@ -23,7 +25,7 @@ export default function SiteTopNav() {
           <div className="hidden md:flex flex-col justify-center">
 
             <div className="text-[11px] font-medium tracking-[0.52em] text-[#D6A66A]/90 uppercase">
-              Enterprise AI Operating System
+            Synthetic Intelligence OS
             </div>
 
             <div className="mt-2 h-[1px] w-44 bg-gradient-to-r from-[#D6A66A] via-white/40 to-transparent" />
@@ -34,20 +36,18 @@ export default function SiteTopNav() {
 
         <nav className="hidden xl:flex items-center gap-10">
 
-          <Link href="/what-is-synthetic-intelligence" className="text-[14px] text-zinc-400 hover:text-white">
-            Platform
-          </Link>
+         
 
           <Link href="/industries" className="text-[14px] text-zinc-400 hover:text-white">
-            Industries
+            {t("nav.industries")}
           </Link>
 
           <Link href="/what-is-synthetic-intelligence" className="text-[14px] text-zinc-400 hover:text-white">
-            AI Runtime
+            {t("nav.synthetic_intelligence")}
           </Link>
 
           <Link href="/security" className="text-[14px] text-zinc-400 hover:text-white">
-            Security
+            {t("nav.security")}
           </Link>
 
         </nav>
@@ -60,14 +60,14 @@ export default function SiteTopNav() {
             href="/login"
             className="rounded-2xl border border-white/[0.08] bg-white/[0.03] px-5 py-3 text-sm text-white"
           >
-            Login
+            {t("nav.login")}
           </Link>
 
           <Link
             href="/start"
             className="rounded-2xl bg-gradient-to-r from-[#f7e7b0] via-[#d7b66a] to-[#9d6b2f] px-6 py-3 text-sm font-bold tracking-[0.08em] text-black"
           >
-            START SETUP
+            {t("nav.start_setup")}
           </Link>
 
         </div>
@@ -87,8 +87,8 @@ export default function SiteTopNav() {
           <div className="flex flex-col p-6 space-y-5">
 
             <Link href="/what-is-synthetic-intelligence">Platform</Link>
-            <Link href="/industries">Industries</Link>
-            <Link href="/security">Security</Link>
+            <Link href="/industries">{t("nav.industries")}</Link>
+            <Link href="/security">{t("nav.security")}</Link>
             <Link href="/privacy">Privacy</Link>
             <Link href="/governance">Governance</Link>
             <Link href="/compliance">Compliance</Link>
@@ -98,8 +98,8 @@ export default function SiteTopNav() {
               <LanguageSwitcher />
             </div>
 
-            <Link href="/login">Login</Link>
-            <Link href="/start">Start Setup</Link>
+            <Link href="/login">{t("nav.login")}</Link>
+            <Link href="/start">{t("nav.start_setup")}</Link>
 
           </div>
 

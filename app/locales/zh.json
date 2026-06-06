@@ -2111,5 +2111,12 @@
       "approved": "已批准",
       "archived": "已归档"
     }
+  },
+  "nav": {
+    "industries": "行业",
+    "synthetic_intelligence": "合成智能 (SI)",
+    "security": "安全",
+    "login": "登录",
+    "start_setup": "开始设置"
   }
 }

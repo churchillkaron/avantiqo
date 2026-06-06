@@ -2308,5 +2308,12 @@
         "description": "Motion + cinematic reels"
       }
     }
+  },
+  "nav": {
+    "industries": "Industrias",
+    "synthetic_intelligence": "Inteligencia Sintética (SI)",
+    "security": "Seguridad",
+    "login": "Iniciar Sesión",
+    "start_setup": "Comenzar"
   }
 }

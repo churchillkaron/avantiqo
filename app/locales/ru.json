@@ -2163,5 +2163,12 @@
       "approved": "ОДОБРЕНО",
       "archived": "АРХИВ"
     }
+  },
+  "nav": {
+    "industries": "Отрасли",
+    "synthetic_intelligence": "Синтетический Интеллект (SI)",
+    "security": "Безопасность",
+    "login": "Вход",
+    "start_setup": "Начать"
   }
 }
