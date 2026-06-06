@@ -1,189 +1,277 @@
 "use client";
 
+import Link from "next/link";
 import SiteTopNav from "@/app/components/SiteTopNav";
+import Footer from "@/components/layout/Footer";
 
 export default function SecurityPage() {
+  const pillars = [
+    {
+      title: "Organization-Level Access Control",
+      text: "Avantiqo is built around organization-based access. Users only see the companies, departments, workspaces and records they are permitted to access. This prevents staff, managers, clients or external users from seeing information outside their responsibility.",
+    },
+    {
+      title: "Role-Based Permissions",
+      text: "Every user role can be restricted by function. Owners, managers, accounting teams, staff, customers and external collaborators can receive different levels of access. Sensitive actions such as approvals, payments, payroll, finance, customer records and reporting can be protected behind permission layers.",
+    },
+    {
+      title: "Multi-Tenant Data Separation",
+      text: "Avantiqo is designed for multi-company and multi-client use. Each organization operates inside its own controlled environment. This is especially important for accounting firms, hospitality groups, healthcare groups and enterprise companies managing multiple clients, branches or subsidiaries.",
+    },
+    {
+      title: "Approval Governance",
+      text: "Important actions should not happen silently. Avantiqo supports approval flows for invoices, payroll, accounting actions, customer requests, operational changes and management decisions. This creates accountability and reduces the risk of unauthorized or accidental actions.",
+    },
+    {
+      title: "Audit Trail And Activity Visibility",
+      text: "A secure system must show who did what, when it happened and why it matters. Avantiqo is designed to support audit trails across approvals, records, submissions, changes and operational events so leadership can investigate actions instead of guessing.",
+    },
+    {
+      title: "Customer And Staff Portal Separation",
+      text: "Customer portals and staff portals should never expose internal business controls. Avantiqo separates external customer visibility from internal operational access, allowing customers to see what is relevant to them while protecting internal data, financial logic and management decisions.",
+    },
+  ];
+
+  const layers = [
+    "Authentication and controlled login access",
+    "Role-based authorization",
+    "Organization and workspace separation",
+    "Approval-based sensitive actions",
+    "Audit logs and traceable activity",
+    "Controlled customer portal visibility",
+    "Controlled staff portal visibility",
+    "Finance and payroll protection",
+    "Document and asset access control",
+    "Future-ready compliance structure",
+  ];
+
   return (
-    <>
-<SiteTopNav />
-<main className="min-h-screen bg-[#02030A] text-white">
+    <main className="min-h-screen overflow-hidden bg-[#02030A] text-white">
+      <SiteTopNav />
 
-      {/* HERO */}
-      <section className="relative overflow-hidden px-6 pb-24 pt-40 md:pb-32 md:pt-52">
-
-        {/* GLOW */}
-        <div className="absolute left-1/2 top-1/2 h-[1000px] w-[1000px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#8B5CF6]/10 blur-[220px]" />
+      <section className="relative px-6 py-28">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,#1B1230_0%,#070B16_42%,#02030A_100%)]" />
 
         <div className="relative mx-auto max-w-7xl">
-
-          <div className="max-w-5xl">
-
-            <p className="mb-8 text-xs tracking-[0.35em] text-[#B58AF8]">
-              ENTERPRISE SECURITY
+          <div className="rounded-[46px] border border-white/10 bg-white/[0.035] p-8 shadow-[0_35px_140px_rgba(0,0,0,0.6)] backdrop-blur-3xl md:p-14">
+            <p className="mb-6 text-xs uppercase tracking-[0.45em] text-[#D6A66A]">
+              SECURITY & TRUST
             </p>
 
-            <h1
-              className="text-5xl text-white sm:text-6xl md:text-[96px]"
-              style={{
-                lineHeight: 0.95,
-                fontWeight: 300,
-                letterSpacing: "-0.06em",
-              }}
-            >
-              Enterprise infrastructure
+            <h1 className="max-w-5xl text-6xl font-extralight leading-tight tracking-[-0.06em] md:text-8xl">
+              Security Is Not A Feature.
               <br />
-
-              <span className="bg-gradient-to-r from-[#E7C38A] via-white to-[#8B5CF6] bg-clip-text text-transparent">
-                security and operational protection.
+              <span className="bg-gradient-to-r from-[#D6A66A] via-[#E7C78A] to-[#8C6BFF] bg-clip-text text-transparent">
+                It Is The Foundation.
               </span>
-
             </h1>
 
-            <p
-              className="mt-10 max-w-3xl text-white/55"
-              style={{
-                fontSize: "22px",
-                lineHeight: 1.9,
-                fontWeight: 400,
-                letterSpacing: "-0.01em",
-              }}
-            >
-              Avantiqo is designed with enterprise-grade
-              security architecture, operational governance,
-              organizational access controls and infrastructure
-              protection systems for scalable operational environments.
+            <p className="mt-8 max-w-4xl text-xl leading-10 text-white/66">
+              Avantiqo is designed for businesses that manage sensitive operational, financial,
+              customer, staff and organizational data. Security must exist across every layer:
+              access, approvals, visibility, audit trails, portals, integrations and data separation.
             </p>
 
+            <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+              <Link href="/demo" className="rounded-2xl bg-gradient-to-r from-[#D6A66A] via-[#E7C78A] to-[#C9974D] px-9 py-4 text-center text-sm font-semibold text-black shadow-[0_0_45px_rgba(214,166,106,0.42)]">
+                Request Security Briefing
+              </Link>
+
+              <Link href="/industries" className="rounded-2xl border border-white/15 bg-white/[0.04] px-9 py-4 text-center text-sm font-semibold text-white/80">
+                Explore Platform
+              </Link>
+            </div>
           </div>
-
         </div>
-
       </section>
 
-      {/* SECURITY CONTENT */}
-      <section className="relative overflow-hidden px-6 pb-24 md:pb-36">
+      <section className="px-6 py-28">
+        <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[0.85fr_1.15fr]">
+          <div>
+            <p className="mb-6 text-xs uppercase tracking-[0.42em] text-[#D6A66A]">
+              SECURITY MODEL
+            </p>
+            <h2 className="text-5xl font-extralight leading-tight tracking-[-0.06em] md:text-7xl">
+              Protect The Business.
+              <br />
+              Protect The Data.
+              <br />
+              Protect The Decisions.
+            </h2>
+          </div>
 
-        <div className="mx-auto grid max-w-7xl gap-6 md:gap-8 lg:grid-cols-[280px_1fr]">
-
-          {/* SIDEBAR */}
-          <div className="h-fit rounded-[34px] border border-white/[0.05] bg-white/[0.025] p-8 backdrop-blur-3xl lg:sticky lg:top-32">
-
-            <p className="mb-8 text-xs tracking-[0.35em] text-[#B58AF8]">
-              SECURITY INDEX
+          <div className="space-y-7 text-xl leading-10 text-white/64">
+            <p>
+              Avantiqo is not built as a simple website or single-purpose application.
+              It is an operating system for organizations. That means security must protect
+              more than login access.
             </p>
 
-            <div className="space-y-5 text-white/50">
+            <p>
+              It must protect financial decisions, payroll records, client visibility,
+              customer information, approval flows, staff actions, accounting records,
+              marketing assets, operational reports and executive intelligence.
+            </p>
 
-              {[
-                "Infrastructure Security",
-                "Authentication Systems",
-                "Role Permissions",
-                "Organizational Isolation",
-                "Encryption",
-                "Audit Logging",
-                "AI Infrastructure Security",
-                "Operational Monitoring",
-                "Incident Response",
-                "Security Governance",
-              ].map((item) => (
+            <p>
+              The security model is designed around one principle: every user should only
+              access the information and actions required for their role, organization and responsibility.
+            </p>
+
+            <p className="text-white/86">
+              The result is controlled visibility, stronger accountability and safer business execution.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="px-6 py-28 bg-white/[0.018]">
+        <div className="mx-auto grid max-w-7xl gap-8 md:grid-cols-2 xl:grid-cols-3">
+          {pillars.map((pillar) => (
+            <div
+              key={pillar.title}
+              className="rounded-[34px] border border-white/10 bg-white/[0.035] p-8 shadow-[0_30px_110px_rgba(0,0,0,0.35)] backdrop-blur-2xl"
+            >
+              <div className="mb-5 h-1 w-14 rounded-full bg-gradient-to-r from-[#D6A66A] to-[#8C6BFF]" />
+              <h3 className="mb-5 text-2xl font-light text-white">
+                {pillar.title}
+              </h3>
+              <p className="text-lg leading-8 text-white/62">
+                {pillar.text}
+              </p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="px-6 py-28">
+        <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[1fr_1fr]">
+          <div className="rounded-[46px] border border-[#D6A66A]/20 bg-gradient-to-br from-[#D6A66A]/10 via-white/[0.03] to-transparent p-10 shadow-[0_35px_140px_rgba(214,166,106,0.12)] backdrop-blur-3xl">
+            <p className="mb-6 text-xs uppercase tracking-[0.42em] text-[#D6A66A]">
+              WHY IT MATTERS
+            </p>
+
+            <h2 className="mb-8 text-5xl font-extralight leading-tight tracking-[-0.06em]">
+              Security Creates Trust.
+              <br />
+              Trust Creates Adoption.
+            </h2>
+
+            <div className="space-y-6 text-lg leading-9 text-white/66">
+              <p>
+                Businesses cannot move operations, finance, customers, staff and leadership
+                intelligence into one platform unless the platform is designed to protect access
+                and responsibility.
+              </p>
+
+              <p>
+                Accounting firms need confidence that one client cannot see another client.
+                Hospitality groups need confidence that staff cannot access financial controls.
+                Healthcare organizations need controlled visibility across sensitive operations.
+                Enterprise teams need approval governance before important actions are executed.
+              </p>
+
+              <p>
+                Avantiqo is designed so growth does not create uncontrolled access.
+                As organizations expand, permissions, approvals and visibility can scale with them.
+              </p>
+            </div>
+          </div>
+
+          <div className="rounded-[46px] border border-white/10 bg-white/[0.035] p-10 shadow-[0_35px_140px_rgba(0,0,0,0.45)] backdrop-blur-3xl">
+            <p className="mb-6 text-xs uppercase tracking-[0.42em] text-[#D6A66A]">
+              SECURITY LAYERS
+            </p>
+
+            <div className="grid gap-4">
+              {layers.map((item) => (
                 <div
                   key={item}
-                  className="cursor-pointer transition duration-300 hover:text-white"
+                  className="rounded-2xl border border-white/10 bg-black/25 p-5 text-white/72"
                 >
                   {item}
                 </div>
               ))}
-
             </div>
-
           </div>
-
-          {/* CONTENT */}
-          <div className="space-y-8">
-
-            {[
-              {
-                title: "Infrastructure Security",
-                text: "Avantiqo infrastructure is designed with enterprise-grade operational security architecture intended to support scalable business environments, organizational governance and infrastructure protection. Platform systems operate within secured cloud infrastructure environments with controlled access management, infrastructure monitoring and operational protection procedures.",
-              },
-              {
-                title: "Authentication Systems",
-                text: "Access to platform infrastructure is controlled through authenticated access systems, organizational authorization structures and role-based operational permissions. Authentication procedures are designed to restrict unauthorized infrastructure access and maintain operational accountability across connected enterprise environments.",
-              },
-              {
-                title: "Role Permissions",
-                text: "Platform access visibility is managed through organizational role permissions and operational governance systems. Organizations may define infrastructure visibility, approval access, financial permissions, workforce access and operational management layers according to internal governance structures and operational responsibilities.",
-              },
-              {
-                title: "Organizational Isolation",
-                text: "Organizational environments are logically separated within platform infrastructure to support operational privacy, enterprise governance and infrastructure isolation. Access to organizational systems, operational workflows and enterprise information is restricted according to authenticated permissions and authorized infrastructure visibility.",
-              },
-              {
-                title: "Encryption",
-                text: "Avantiqo utilizes encrypted communication layers and secured infrastructure channels designed to support enterprise operational protection standards. Sensitive platform communications and infrastructure interactions are transmitted through secured network environments intended to reduce unauthorized visibility and infrastructure interception risks.",
-              },
-              {
-                title: "Audit Logging",
-                text: "Operational actions, approvals, infrastructure events and enterprise workflow activity may be recorded within platform audit systems to support organizational governance, operational visibility and infrastructure accountability. Audit functionality is intended to assist organizations in monitoring enterprise operational activity and workflow integrity.",
-              },
-              {
-                title: "AI Infrastructure Security",
-                text: "AI systems operate within controlled infrastructure environments designed to support enterprise governance, operational accountability and organizational oversight. AI-generated recommendations, forecasting systems and automation functionality remain connected to platform permissions, operational visibility and infrastructure governance layers.",
-              },
-              {
-                title: "Operational Monitoring",
-                text: "Platform infrastructure may utilize operational monitoring systems, infrastructure visibility processes and anomaly detection functionality intended to support platform reliability, operational continuity and infrastructure protection standards. Monitoring procedures are designed to assist with infrastructure stability and operational integrity.",
-              },
-              {
-                title: "Incident Response",
-                text: "Avantiqo maintains operational procedures intended to respond to infrastructure incidents, security events, operational disruptions or unauthorized activity affecting platform environments. Response procedures may include access restrictions, infrastructure review, operational mitigation measures and organizational communication where appropriate.",
-              },
-              {
-                title: "Security Governance",
-                text: "Organizations utilizing Avantiqo infrastructure remain responsible for maintaining appropriate internal security procedures, access management practices and organizational governance standards within their operational environments. Platform security functionality is designed to support enterprise operational protection and organizational infrastructure governance.",
-              },
-            ].map((section) => (
-              <div
-                key={section.title}
-                className="overflow-hidden rounded-[34px] border border-white/[0.05] bg-white/[0.025] p-6 md:p-10 backdrop-blur-3xl"
-              >
-
-                <div className="mb-8 h-[1px] w-20 bg-gradient-to-r from-[#8B5CF6] to-transparent" />
-
-                <h2
-                  className="text-white"
-                  style={{
-                    fontSize: "42px",
-                    lineHeight: 1.05,
-                    fontWeight: 300,
-                    letterSpacing: "-0.04em",
-                  }}
-                >
-                  {section.title}
-                </h2>
-
-                <p
-                  className="mt-8 max-w-4xl text-white/50"
-                  style={{
-                    fontSize: "18px",
-                    lineHeight: 2,
-                    fontWeight: 400,
-                    letterSpacing: "-0.01em",
-                  }}
-                >
-                  {section.text}
-                </p>
-
-              </div>
-            ))}
-
-          </div>
-
         </div>
-
       </section>
 
+      <section className="px-6 py-28 bg-white/[0.018]">
+        <div className="mx-auto max-w-7xl rounded-[46px] border border-white/10 bg-gradient-to-br from-white/[0.06] to-white/[0.02] p-10 shadow-[0_35px_140px_rgba(0,0,0,0.45)] backdrop-blur-3xl md:p-14">
+          <p className="mb-6 text-xs uppercase tracking-[0.42em] text-[#D6A66A]">
+            DATA RESPONSIBILITY
+          </p>
+
+          <h2 className="mb-10 max-w-5xl text-5xl font-extralight leading-tight tracking-[-0.06em] md:text-7xl">
+            A Platform That Understands Sensitive Business Data.
+          </h2>
+
+          <div className="grid gap-8 lg:grid-cols-2">
+            <div className="space-y-6 text-lg leading-9 text-white/66">
+              <p>
+                Avantiqo connects many parts of a company: operations, finance,
+                customers, payroll, documents, staff, marketing, approvals and intelligence.
+                Because these areas are connected, security must be designed into the structure
+                of the platform instead of being added later.
+              </p>
+
+              <p>
+                Access should be intentional. A customer should see their project and documents,
+                but not internal finance logic. A staff member should see their tasks and payroll,
+                but not executive reporting. A manager should approve work, but not necessarily control
+                platform-wide settings.
+              </p>
+            </div>
+
+            <div className="space-y-6 text-lg leading-9 text-white/66">
+              <p>
+                This separation of responsibility allows organizations to use Avantiqo across
+                departments without exposing unnecessary information.
+              </p>
+
+              <p>
+                The goal is simple: every person receives the visibility they need,
+                and nothing more.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="px-6 py-32">
+        <div className="mx-auto max-w-7xl rounded-[46px] border border-[#D6A66A]/20 bg-gradient-to-br from-[#120E08] via-[#060713] to-[#120A1E] p-8 text-center shadow-[0_35px_140px_rgba(214,166,106,0.12)] backdrop-blur-3xl md:p-14">
+          <p className="mb-8 text-xs uppercase tracking-[0.42em] text-[#D6A66A]">
+            BUILT FOR CONTROLLED GROWTH
+          </p>
+
+          <h2 className="mx-auto max-w-5xl text-5xl font-extralight leading-tight tracking-[-0.06em] md:text-7xl">
+            Security That Supports
+            <br />
+            <span className="bg-gradient-to-r from-[#D6A66A] via-[#E7C78A] to-[#8C6BFF] bg-clip-text text-transparent">
+              Scale, Trust And Control.
+            </span>
+          </h2>
+
+          <p className="mx-auto mt-8 max-w-3xl text-xl leading-10 text-white/64">
+            Avantiqo is designed for organizations that need operational power without losing control.
+            The platform brings people, customers, finance, approvals and intelligence together while
+            maintaining the separation, accountability and visibility required by serious businesses.
+          </p>
+
+          <div className="mt-12 flex flex-col justify-center gap-4 sm:flex-row">
+            <Link href="/demo" className="rounded-2xl bg-gradient-to-r from-[#D6A66A] via-[#E7C78A] to-[#C9974D] px-10 py-5 text-sm font-semibold text-black shadow-[0_0_45px_rgba(214,166,106,0.42)]">
+              Request Demo
+            </Link>
+
+            <Link href="/what-is-synthetic-intelligence" className="rounded-2xl border border-white/15 bg-white/[0.05] px-10 py-5 text-sm font-semibold text-white/80">
+              Explore Intelligence Runtime
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <Footer />
     </main>
-    </>
   );
 }

@@ -1,0 +1,2115 @@
+{
+  "brand": {
+    "name": "AVANTIQO",
+    "tagline": "合成智能操作系统"
+  },
+  "topnav": {
+    "platform": "平台",
+    "industries": "行业",
+    "modules": "模块",
+    "aiRuntime": "AI 系统",
+    "security": "安全",
+    "signIn": "登录",
+    "workspace": "工作区",
+    "startSetup": "开始设置",
+    "accountingFirms": "会计事务所",
+    "demo": "演示"
+  },
+  "home": {
+    "hero": {
+      "badge": "合成智能操作系统",
+      "title1": "让业务现实",
+      "title2": "成为财务智能。",
+      "description": "Avantiqo 通过一个合成智能层，将业务运营直接连接到会计、财务、文件、薪资、审批和执行。每一个运营事件都会实时转化为财务智能。",
+      "book_demo": "体验 Avantiqo",
+      "start_setup": "面向会计事务所",
+      "trust": "为会计事务所、企业主、多实体集团，以及准备摆脱割裂软件的企业打造。",
+      "image_caption": "从业务现实到财务智能"
+    },
+    "accounting": {
+      "badge": "终结业务与会计之间的鸿沟",
+      "title1": "会计不应该从",
+      "title2": "月底之后才开始。",
+      "description": "几十年来，企业在一个世界里运营，会计在另一个世界里工作。Avantiqo 通过把运营、发票、薪资、采购、文件和审批转化为实时财务智能，消除这个鸿沟。"
+    },
+    "pillars": {
+      "operations": {
+        "badge": "01",
+        "title": "业务现实",
+        "description": "收入、成本、员工、库存、项目、文件和审批，在业务运行的同时被捕捉。"
+      },
+      "accounting": {
+        "badge": "02",
+        "title": "财务智能",
+        "description": "运营活动转化为可用于会计的智能信息，而不是滞后的文件、表格和人工对账。"
+      },
+      "firms": {
+        "badge": "03",
+        "title": "会计事务所",
+        "description": "事务所可以持续监控客户，更早发现风险，并从记账服务升级为高价值顾问服务。"
+      },
+      "execution": {
+        "badge": "04",
+        "title": "企业执行",
+        "description": "系统不止于报表。它协调审批、治理、工作流和运营责任。"
+      }
+    },
+    "synthetic": {
+      "badge": "为什么是合成智能",
+      "title1": "人工智能回答问题。",
+      "title2": "合成智能运营企业。",
+      "description": "AI 可以生成文本、图像和报告。合成智能理解企业真正如何运作。它把人员、资金、文件、客户、供应商、流程、决策和会计连接成一个有生命的运营层。",
+      "formulaBadge": "AVANTIQO 公式",
+      "formula": "业务运营 + 会计智能 + 企业记忆 + 执行 = 合成智能。"
+    },
+    "cta": {
+      "badge": "掌握会计的未来",
+      "title1": "从记账",
+      "title2": "到商业智能。",
+      "title3": "由合成智能驱动。",
+      "description": "直接连接客户运营的会计事务所，将不再只是报告过去。他们将理解现在、预测风险、指导决策，并帮助企业更好地运营。"
+    },
+    "comparison": {
+      "software": {
+        "title": "传统软件",
+        "items": [
+          "存储数据",
+          "人工处理",
+          "事后记账"
+        ]
+      },
+      "ai": {
+        "title": "传统 AI",
+        "items": [
+          "生成答案",
+          "更多人工工作",
+          "缺乏财务背景"
+        ]
+      },
+      "avantiqo": {
+        "title": "AVANTIQO",
+        "items": [
+          "观察",
+          "决策",
+          "执行",
+          "自动记账"
+        ]
+      }
+    },
+    "workspace": {
+      "badge": "体验 AVANTIQO",
+      "title1": "统一 Workspace",
+      "title2": "覆盖每一个业务职能",
+      "description": "运营、财务、会计、文档、审批、营销、AI 运行系统 与企业控制通过统一运营层连接。",
+      "cards": {
+        "clientManagement": {
+          "title": "客户管理",
+          "description": "在一个 Workspace 中管理所有客户。"
+        },
+        "accountantAssignment": {
+          "title": "会计师分配",
+          "description": "分配会计师并平衡工作负载。"
+        },
+        "complianceControl": {
+          "title": "合规控制",
+          "description": "跟踪截止日期、审批和义务。"
+        },
+        "aiRuntime": {
+          "title": "AI 会计运行时",
+          "description": "AI 辅助运营与会计流程。"
+        }
+      },
+      "modules": [
+        "运营",
+        "财务",
+        "会计",
+        "文档",
+        "审批",
+        "AI 运行时"
+      ]
+    },
+    "flow": {
+      "businessReality": [
+        "运营",
+        "销售",
+        "库存",
+        "采购",
+        "项目",
+        "人员",
+        "文档"
+      ],
+      "financialIntelligence": [
+        "会计",
+        "治理",
+        "预测",
+        "现金流",
+        "绩效",
+        "业主控制"
+      ],
+      "businessRealityTitle": "业务运营现实",
+      "financialIntelligenceTitle": "财务智能",
+      "centerTitle": "合成智能"
+    },
+    "industries": {
+      "badge": "行业解决方案",
+      "title1": "专为您的行业打造",
+      "title2": "根据您的业务配置",
+      "description": "每个行业都有不同的运营方式。餐厅、酒店、会计事务所、零售商、建筑公司和企业集团都需要不同的流程、控制和智能系统。Avantiqo 根据您的业务进行适配，同时将客户、营销、运营、财务和智能连接在同一个平台上。",
+      "groups": {
+        "professionalServices": {
+          "title": "专业服务",
+          "description": "会计事务所、律师事务所、顾问、代理机构和服务型企业。"
+        },
+        "hospitality": {
+          "title": "酒店与餐饮",
+          "description": "餐厅、酒店、度假村、海滩俱乐部和夜生活场所。"
+        },
+        "retail": {
+          "title": "零售与商业",
+          "description": "零售店、购物中心、连锁加盟和电子商务。"
+        },
+        "construction": {
+          "title": "建筑与地产",
+          "description": "建筑、房地产、物业管理和开发。"
+        },
+        "distribution": {
+          "title": "分销与制造",
+          "description": "仓储、物流、采购和生产。"
+        },
+        "enterprise": {
+          "title": "企业集团",
+          "description": "多公司集团、控股公司、家族办公室和企业组织。"
+        }
+      },
+      "pillars": {
+        "badge": "PLATFORM FOUNDATION",
+        "title1": "Every Operating System",
+        "title2": "Includes",
+        "revenue": {
+          "title": "Revenue",
+          "items": [
+            "CRM",
+            "Customer Experience",
+            "Marketing",
+            "Reviews",
+            "Sales",
+            "Loyalty",
+            "Design Studio"
+          ]
+        },
+        "operations": {
+          "title": "运营",
+          "items": [
+            "Projects",
+            "Inventory",
+            "Procurement",
+            "Production",
+            "Scheduling",
+            "文档",
+            "Workflow Engine"
+          ]
+        },
+        "finance": {
+          "title": "财务",
+          "items": [
+            "会计",
+            "Payroll",
+            "Treasury",
+            "Tax",
+            "Accounts Payable",
+            "Accounts Receivable",
+            "Reporting"
+          ]
+        },
+        "intelligence": {
+          "title": "合成智能",
+          "items": [
+            "AI 运行时",
+            "Recommendations",
+            "Compliance",
+            "Optimization",
+            "Knowledge Memory",
+            "Executive Intelligence"
+          ]
+        }
+      },
+      "intelligence": {
+        "badge": "SYNTHETIC INTELLIGENCE",
+        "title1": "Every Industry.",
+        "title2": "One Intelligence Layer.",
+        "description": "Avantiqo adapts to your industry while keeping Revenue, Operations, Finance and Intelligence connected through one operating platform."
+      },
+      "runtimeLabel": "行业操作系统",
+      "exploreIndustry": "探索方案",
+      "cta": {
+        "badge": "统一平台",
+        "title1": "专为您的行业打造。",
+        "title2": "根据您的运营配置。",
+        "title3": "由统一智能层驱动。",
+        "description": "无论您经营餐厅、会计事务所、酒店、建筑公司、零售连锁或企业集团，Avantiqo 都能根据您的行业配置操作系统，同时保持收入、运营、财务和智能连接。",
+        "primary": "探索行业解决方案",
+        "secondary": "查看平台架构"
+      },
+      "businessFunctions": {
+        "badge": "业务职能",
+        "title1": "每一个业务职能",
+        "title2": "统一平台",
+        "description": "从客户获取到财务报告，所有业务职能都运行在同一基础之上。",
+        "cards": [
+          {
+            "title": "营销",
+            "items": [
+              "活动",
+              "设计工作室",
+              "社交媒体",
+              "内容智能"
+            ]
+          },
+          {
+            "title": "客户",
+            "items": [
+              "CRM",
+              "忠诚度",
+              "评价",
+              "销售"
+            ]
+          },
+          {
+            "title": "运营",
+            "items": [
+              "项目",
+              "排班",
+              "人员管理",
+              "审批"
+            ]
+          },
+          {
+            "title": "财务",
+            "items": [
+              "会计",
+              "收入",
+              "资金管理",
+              "合规"
+            ]
+          },
+          {
+            "title": "文档",
+            "items": [
+              "合同",
+              "政策",
+              "治理",
+              "记录"
+            ]
+          },
+          {
+            "title": "智能",
+            "items": [
+              "洞察",
+              "建议",
+              "自动化",
+              "执行"
+            ]
+          }
+        ]
+      },
+      "intelligenceLayer": {
+        "badge": "智能层",
+        "title1": "统一智能层",
+        "title2": "覆盖所有行业",
+        "description": "Avantiqo 观察每个部门的活动，理解数据之间的关系，提出建议，并逐步实现自动化执行。",
+        "steps": [
+          {
+            "title": "观察",
+            "desc": "收集客户、运营、财务和人员相关活动。"
+          },
+          {
+            "title": "理解",
+            "desc": "建立人员、数据、流程和结果之间的关系。"
+          },
+          {
+            "title": "建议",
+            "desc": "识别机会、风险和行动。"
+          },
+          {
+            "title": "执行",
+            "desc": "自动化工作流、审批和决策。"
+          }
+        ]
+      },
+      "dataFoundation": {
+        "badge": "统一数据基础",
+        "title1": "统一业务数据",
+        "title2": "覆盖所有部门",
+        "description": "没有孤立系统，没有重复记录，没有手工对账。每个模块、部门和行业运行时都基于同一数据基础。",
+        "entities": [
+          {
+            "title": "客户",
+            "desc": "销售、CRM、忠诚度和营销"
+          },
+          {
+            "title": "员工",
+            "desc": "人员管理、薪资和绩效"
+          },
+          {
+            "title": "供应商",
+            "desc": "采购和供应商管理"
+          },
+          {
+            "title": "交易",
+            "desc": "运营、财务和报告"
+          },
+          {
+            "title": "统一记录",
+            "desc": "整个平台的统一基础"
+          }
+        ]
+      }
+    },
+    "hospitality": {
+      "hero": {
+        "badge": "酒店智能平台",
+        "title1": "看见整个业务",
+        "title2": "知道下一步会发生什么",
+        "description": "预订、运营、员工、财务、营销和客户体验通过 Avantiqo 实时连接。",
+        "primary": "预约演示",
+        "secondary": "探索平台"
+      },
+      "reality": {
+        "badge": "酒店现实",
+        "title1": "今天一切都互联",
+        "title2": "但无人真正理解"
+      },
+      "runtime": {
+        "badge": "ONE HOSPITALITY RUNTIME",
+        "title1": "客户. 运营. 财务. 所有权.",
+        "title2": "一个互联的运行时"
+      },
+      "relationships": {
+        "badge": "从活动到智能",
+        "title1": "大多数系统存储事件",
+        "title2": "Avantiqo 理解关系"
+      },
+      "intelligence": {
+        "badge": "真实酒店智能",
+        "title1": "一次预订",
+        "title2": "一次连锁反应"
+      },
+      "synthetic": {
+        "badge": "SYNTHETIC INTELLIGENCE LAYER",
+        "title1": "Observe.",
+        "title2": "Understand.",
+        "title3": "Recommend."
+      },
+      "ownership": {
+        "badge": "所有权层",
+        "title1": "所有者看到一切",
+        "title2": "在发生之前"
+      },
+      "cta": {
+        "badge": "HOSPITALITY OPERATING SYSTEM",
+        "title1": "酒店围绕运营构建",
+        "title2": "未来将围绕智能构建",
+        "description": "Avantiqo 将运营、财务、员工、营销和客户体验通过合成智能操作系统连接在一起。",
+        "primary": "预约演示"
+      },
+      "flow": [
+        "客户到达",
+        "预订",
+        "服务",
+        "库存",
+        "薪资",
+        "会计",
+        "盈利能力",
+        "所有权"
+      ],
+      "realityContent": [
+        "大多数酒店业务通过分离系统运作。预订在一个平台，运营在另一个平台，财务滞后几周才看到业务情况，营销依赖假设，管理层被动应对。",
+        "问题不在于数据缺失，而在于缺乏理解。",
+        "酒店业务不需要更多软件，它们需要一个统一的操作系统。"
+      ],
+      "runtimeContent": "不是独立部门，也不是独立软件。每个动作都是同一业务故事的一部分。",
+      "relationshipsItems": [
+        "预订不仅仅是预订，这是需求。",
+        "班次不仅仅是班次，这是劳动力成本。",
+        "订单不仅仅是订单，这是收入。",
+        "评论不仅仅是评论，这是未来增长。"
+      ],
+      "relationshipsDescription": "这就是软件与合成智能的区别。Avantiqo 将操作活动直接与业务意义连接。",
+      "intelligenceDescription": "酒店业务不是孤立事件的集合。每个动作都会在整个业务中产生连锁影响。Avantiqo 会自动跟踪这些影响。",
+      "intelligenceChain": {
+        "eventLabel": "事件",
+        "eventTitle": "下周末的预订需求增加",
+        "cards": [
+          {
+            "label": "运营",
+            "title": "服务需求增加"
+          },
+          {
+            "label": "员工",
+            "title": "人员需求自动调整"
+          },
+          {
+            "label": "库存",
+            "title": "采购预测更新"
+          },
+          {
+            "label": "财务",
+            "title": "收入与劳动力成本预测重新计算"
+          }
+        ],
+        "ownershipLabel": "所有者",
+        "ownershipTitle": "所有者在发生前看到影响"
+      },
+      "syntheticContent": [
+        "大多数平台停留在报告阶段。Avantiqo 进入实际操作。",
+        "系统持续观察客户、员工、运营、财务和所有者。它识别模式、预测结果、推荐操作。",
+        "这不是聊天机器人，而是内置于业务中的操作智能层。"
+      ],
+      "syntheticExecute": "执行",
+      "ownershipTypes": [
+        "餐厅",
+        "酒店",
+        "海滩俱乐部",
+        "多场地集团",
+        "企业级酒店组织"
+      ],
+      "ownershipNotice": "For the first time, ownership can see the complete business. Not isolated reports. Not disconnected dashboards.",
+      "operationalReality": "One operational reality. One financial reality. One intelligence layer."
+    },
+    "accountingFirms": {
+      "hero": {
+        "badge": "会计",
+        "title1": "停止重建企业",
+        "title2": "从纸质工作",
+        "title3": "开始",
+        "title4": "",
+        "description": "使用 Avantiqo 实时控制您的财务、运营和工作流。",
+        "primary": "预约演示",
+        "secondary": "探索平台"
+      },
+      "beforeAfter": {
+        "badge": "前与后",
+        "title1": "停止重建业务",
+        "title2": "从文件工作中"
+      },
+      "switch": {
+        "badge": "为什么会计师事务所选择 Avantiqo",
+        "title1": "传统软件只保存交易",
+        "title2": "Avantiqo 了解整个业务"
+      },
+      "runtime": {
+        "badge": "会计运行时系统",
+        "title1": "所有事务互联",
+        "title2": "全程可视"
+      },
+      "benefits": {
+        "badge": "对会计师事务所的益处",
+        "title1": "扩大业务而不增加运营混乱"
+      },
+      "advisory": {
+        "badge": "会计师事务所选择 Avantiqo 的理由",
+        "title1": "将会计工作从被动转为实时智能建议",
+        "description": "Avantiqo 让会计师成为实时业务智能合作伙伴，而不仅是月末会计员"
+      },
+      "enterprise": {
+        "badge": "企业级控制与治理",
+        "title1": "为操作可靠性而设计",
+        "title2": "责任和透明度",
+        "description": "Avantiqo 提供企业级可视化、权限控制和责任追踪"
+      },
+      "cta": {
+        "badge": "实时会计控制",
+        "title1": "您的会计系统",
+        "title2": "不再延迟",
+        "title3": "实时问题预警",
+        "description": "Avantiqo 将会计师转变为实时业务智能伙伴",
+        "primary": "预订企业演示"
+      },
+      "enterpriseCards": [
+        {
+          "title": "按角色权限",
+          "description": "每位会计只看到其被分配的公司、审批和操作区域"
+        },
+        {
+          "title": "完整审计历史",
+          "description": "所有审批、文档上传及操作均自动记录"
+        },
+        {
+          "title": "审批责任",
+          "description": "即时知道谁审批了什么，何时，以及来自哪个流程"
+        },
+        {
+          "title": "多公司系统",
+          "description": "从一个系统管理多家公司、多分支和多部门"
+        },
+        {
+          "title": "可搜索的操作历史",
+          "description": "实时查找发票、审批、工资及变更"
+        },
+        {
+          "title": "实时操作监控",
+          "description": "在月末问题出现之前发现财务和运营问题"
+        }
+      ],
+      "advisorCards": [
+        {
+          "label": "顾问",
+          "title": "实时业务顾问",
+          "description": "将会计师工作从被动转换为主动实时建议",
+          "items": [
+            "提前发现收入下降",
+            "追踪工资压力",
+            "检查采购问题",
+            "在月末前提供客户建议"
+          ]
+        },
+        {
+          "label": "信任",
+          "title": "提升业主信心",
+          "description": "让业主实时看到审批、文档、费用和财务活动",
+          "items": [
+            "业主实时可见",
+            "审批连贯",
+            "文档可搜索",
+            "责任清晰"
+          ]
+        },
+        {
+          "label": "风险",
+          "title": "降低漏洞和错误",
+          "description": "监控异常活动、丢失发票、延迟审批和成本问题",
+          "items": [
+            "查看支出",
+            "完整审计历史",
+            "审批控制",
+            "异常提醒"
+          ]
+        }
+      ],
+      "roiCards": [
+        {
+          "label": "增长",
+          "title": "获得更多客户",
+          "description": "通过系统化处理发票、工资、采购、审批和操作减少会计工作",
+          "items": [
+            "AI 帮助抓取发票数据",
+            "加快月末结账",
+            "减少手工会计工作",
+            "增加客户而不增加文档"
+          ]
+        },
+        {
+          "label": "可见性",
+          "title": "更快发现问题",
+          "description": "实时追踪客户操作，替代月末文档等待",
+          "items": [
+            "实时查看收入",
+            "追踪工资和采购",
+            "审批追踪",
+            "完整审计历史"
+          ]
+        }
+      ],
+      "features": [
+        {
+          "title": "实时财务可视化",
+          "description": "实时监控客户收入、工资、采购、审批及成本",
+          "image": "/images/accounting-live-control.png"
+        },
+        {
+          "title": "AI 数据抓取",
+          "description": "发票、收据及文档自动抓取并归档",
+          "image": "/images/documents-flow.png"
+        },
+        {
+          "title": "多公司控制",
+          "description": "会计师通过统一系统管理多家业务",
+          "image": "/images/accounting-multi-company.png"
+        },
+        {
+          "title": "实时审批与审计",
+          "description": "所有审批、文档及变更都有完整审计视图",
+          "image": "/images/accounting-approval-runtime.png"
+        }
+      ],
+      "beforeAfterCards": [
+        {
+          "label": "项目 1",
+          "name": "缺少发票和收据",
+          "status": "待处理"
+        },
+        {
+          "label": "项目 2",
+          "name": "手工录入数据",
+          "status": "待处理"
+        },
+        {
+          "label": "项目 3",
+          "name": "分散消息与文件",
+          "status": "待处理"
+        },
+        {
+          "label": "项目 4",
+          "name": "无实时可视性",
+          "status": "待处理"
+        },
+        {
+          "label": "项目 5",
+          "name": "财务监管延迟",
+          "status": "待处理"
+        },
+        {
+          "label": "项目 6",
+          "name": "运营问题发现过晚",
+          "status": "待处理"
+        }
+      ],
+      "runtimeEvents": {
+        "title": "实时事件流",
+        "subtitle": "持续的运营流程",
+        "status": "运行中",
+        "events": [
+          {
+            "time": "09:22",
+            "title": "工资运行锁定"
+          },
+          {
+            "time": "09:24",
+            "title": "库存分类账同步"
+          },
+          {
+            "time": "09:26",
+            "title": "差异检测触发"
+          },
+          {
+            "time": "09:28",
+            "title": "审批升级已启动"
+          },
+          {
+            "time": "09:31",
+            "title": "收入同步完成"
+          }
+        ]
+      },
+      "governanceTimeline": {
+        "label": "治理时间线",
+        "title": "持续的运营流程",
+        "status": "运行中",
+        "events": [
+          {
+            "time": "08:42",
+            "title": "采购已批准"
+          },
+          {
+            "time": "09:14",
+            "title": "账目已发布"
+          },
+          {
+            "time": "09:16",
+            "title": "对账已更新"
+          },
+          {
+            "time": "09:22",
+            "title": "工资运行锁定"
+          }
+        ]
+      },
+      "multiEntity": {
+        "label": "多单位运行系统",
+        "title": "跨公司监管",
+        "status": "4 个单位",
+        "entities": [
+          {
+            "name": "Churchill Phuket",
+            "status": "活跃"
+          },
+          {
+            "name": "BEA Co., Ltd.",
+            "status": "审核中"
+          },
+          {
+            "name": "PCS Phuket",
+            "status": "已批准"
+          },
+          {
+            "name": "Cole Ley Entertainment",
+            "status": "待关闭"
+          }
+        ]
+      },
+      "accountability": {
+        "label": "审批责任",
+        "title": "人工治理运行",
+        "status": "已验证",
+        "items": [
+          {
+            "label": "批准人",
+            "name": "P. Vallgarda — CFO 系统",
+            "status": "活跃"
+          },
+          {
+            "label": "锁定人",
+            "name": "财务治理引擎",
+            "status": "已强制"
+          },
+          {
+            "label": "审核人",
+            "name": "运营控制系统",
+            "status": "已验证"
+          }
+        ]
+      },
+      "syntheticDecisionLayer": {
+        "title": "预测运营智能",
+        "status": "学习中",
+        "recommendationLabel": "AI 建议",
+        "recommendationText": "延迟财务结算，直到采购对账完成。",
+        "predictionLabel": "AI 预测",
+        "predictionText": "预计在 6 个工作日内可能出现采购短缺风险。",
+        "detectionLabel": "AI 检测",
+        "detectionText": "在运营系统中检测到异常审批行为。"
+      },
+      "financialGovernance": {
+        "title": "实时财务治理"
+      },
+      "runtimeDashboard": {
+        "title": "Enterprise Runtime",
+        "connectedEntities": "Connected Entities",
+        "journalEntries": "Journal Entries Today",
+        "approvalFlows": "Approval Flows",
+        "governanceIntegrity": "Governance Integrity"
+      },
+      "riskRuntime": {
+        "monthEndClose": "Month-End Close Runtime",
+        "operationalRisk": "Operational Risk Runtime",
+        "auditViolations": "Audit Violations",
+        "liveDetection": "Live Runtime Detection"
+      },
+      "beforeAfterLists": {
+        "before": [
+          "缺失发票和收据",
+          "手动数据录入",
+          "聊天记录和文件分散",
+          "缺乏实时可视化",
+          "财务监督滞后",
+          "运营问题发现过晚"
+        ],
+        "after": [
+          "AI 发票提取",
+          "实时运营可视化",
+          "实时工资与采购追踪",
+          "审批与审计全程关联",
+          "多公司统一控制",
+          "会计师事务所更高效管理更多客户"
+        ]
+      },
+      "switchLists": {
+        "traditional": [
+          "月末之后才生成报表",
+          "缺乏运营可视化",
+          "手动收集文件",
+          "问题发现过晚",
+          "缺乏审批智能",
+          "缺乏运营责任追踪",
+          "无法实时监控客户"
+        ],
+        "avantiqo": [
+          "实时运营可视化",
+          "AI 文档提取",
+          "多公司控制",
+          "审批责任追踪",
+          "运营异常检测",
+          "持续审计追踪",
+          "合成智能建议"
+        ]
+      },
+      "syntheticSection": {
+        "badge": "合成智能",
+        "headline1": "人工智能回答问题。",
+        "headline2": "合成智能理解企业。",
+        "aiTitle": "AI",
+        "aiText": "生成内容。回答问题。创建报告。响应指令。",
+        "syntheticTitle": "合成智能",
+        "syntheticText": "理解工资、采购、审批、文档、会计、库存与运营之间的关系。识别风险、预测结果并提供建议。",
+        "receiptText": "它会影响审批、会计、采购对账、财务结账、审计可信度和管理层可视化。",
+        "receiptFooter": "合成智能理解整个连锁反应。"
+      },
+      "riskRuntimeLists": {
+        "missingReceipts": "缺失收据",
+        "payrollApproval": "工资审批延迟",
+        "procurementExceptions": "采购异常",
+        "continuousFlow": "持续运营流程",
+        "enterpriseNervousSystem": "企业运营神经系统",
+        "monitoringBehavior": "监控运营行为",
+        "aiVariance": "检测到酒店运营中的采购偏差。",
+        "aiPayroll": "在财务结账前发现工资异常。",
+        "aiConfidence": "AI 运行系统 可信度",
+        "aiPercentage": "97.2%",
+        "aiStatus": "未发现关键异常。"
+      },
+      "statusLabels": {
+        "aiActive": "AI 运行中",
+        "systemActive": "系统运行中",
+        "detected": "AI 已检测",
+        "analysis": "AI 分析",
+        "recommendation": "AI 建议",
+        "live": "实时",
+        "verified": "已验证",
+        "active": "活跃",
+        "reviewing": "审核中",
+        "approved": "已批准",
+        "pendingClose": "待结账",
+        "enforced": "已执行",
+        "enabled": "已启用",
+        "ready": "已准备",
+        "synchronized": "已同步",
+        "operational": "运行中"
+      },
+      "enterpriseRuntime": {
+        "auditTraceability": "企业级审计追踪",
+        "auditDescription": "所有审批、修改、交易和运营事件都会被永久记录。",
+        "noAnomalies": "未发现关键异常。",
+        "allSystems": "所有系统已同步",
+        "payrollRuntime": "工资 Runtime",
+        "payrollDesc": "已与运营控制同步",
+        "procurementRuntime": "采购 Runtime",
+        "procurementDesc": "已连接库存台账",
+        "financialRuntime": "财务 Runtime",
+        "financialDesc": "已连接实时收入流",
+        "aiRuntime": "AI 运行系统",
+        "journalEngine": "标准会计引擎",
+        "threeWay": "三方匹配",
+        "auditChain": "审计链完整性",
+        "procurementGovernance": "采购治理",
+        "inventoryLedger": "库存台账",
+        "multiEntity": "多实体合并",
+        "approvalRuntime": "审批 Runtime",
+        "periodLocking": "期间锁定",
+        "high": "高",
+        "learning": "学习中",
+        "varianceTriggered": "AI 偏差检测已触发"
+      }
+    },
+    "healthcare": {
+      "hero": {
+        "badge": "医疗智能平台",
+        "title1": "看见整个医疗系统。",
+        "title2": "在问题发生之前。",
+        "description": "患者、临床、运营、财务、合规与管理层通过统一的合成智能层连接在一起。",
+        "primary": "申请管理层简报"
+      },
+      "reality": {
+        "badge": "医疗现实",
+        "title1": "医疗系统无处不在地连接",
+        "title2": "但没人能完全理解"
+      },
+      "runtime": {
+        "badge": "统一医疗运行平台",
+        "title1": "患者需求。临床工作量。床位容量。",
+        "title2": "人员可用性。财务风险。合规风险。"
+      },
+      "synthetic": {
+        "badge": "合成智能层",
+        "title1": "传统系统告诉你",
+        "title2": "发生了什么。",
+        "title3": "Avantiqo 告诉你",
+        "title4": "接下来会发生什么。"
+      },
+      "ownership": {
+        "badge": "领导层",
+        "title1": "领导层看到一切。",
+        "title2": "在事件发生之前。"
+      },
+      "cta": {
+        "badge": "医疗运营系统",
+        "title1": "医疗系统围绕治疗构建。",
+        "title2": "未来将围绕智能构建。",
+        "description": "Avantiqo 通过合成智能操作系统连接患者、临床、运营、财务、合规和领导层。",
+        "primary": "请求高管简报"
+      },
+      "healthcare_hero": "全景医疗系统",
+      "patient_systems": "患者系统",
+      "clinical_systems": "临床系统",
+      "billing_systems": "账单系统",
+      "compliance_systems": "合规系统",
+      "patient_waiting_time": "患者等待时间",
+      "staff_utilization": "人员使用率",
+      "revenue_leakage": "收入流失",
+      "capacity_planning": "容量规划",
+      "compliance_exposure": "合规风险暴露",
+      "executive_blind_spots": "管理盲点",
+      "patient_demand": "患者需求",
+      "clinical_workload": "临床工作量",
+      "bed_capacity": "床位容量",
+      "staff_availability": "人员可用性",
+      "financial_exposure": "财务风险",
+      "compliance_risk": "合规风险",
+      "what_is_happening": "正在发生什么",
+      "what_happens_next": "接下来会发生什么",
+      "what_to_do_about_it": "应该怎么做",
+      "patient_surge_risk__87": "患者激增风险 · 87%",
+      "staff_shortage_risk__73": "人员短缺风险 · 73%",
+      "up_capacity_utilization": "↑ 容量使用率",
+      "up_revenue_capture": "↑ 收入捕获",
+      "up_leadership_visibility": "↑ 领导可见性",
+      "down_waiting_time": "↓ 等待时间",
+      "down_staffing_cost": "↓ 人员成本",
+      "operational_bottlenecks_create_delays_long_before_management_becomes_aware_of_them": "运营瓶颈会在管理层察觉之前造成延迟",
+      "overstaffing_and_understaffing_often_happen_at_the_same_time_across_different_departments": "在不同部门中，人员过多和不足往往同时发生",
+      "disconnected_systems_create_missed_billing_opportunities_and_hidden_operational_costs": "分离的系统造成错失的账单机会和隐藏的运营成本",
+      "beds_rooms_equipment_and_staff_capacity_are_rarely_viewed_as_one_connected_reality": "床位、房间、设备和人员很少被视为一个整体连接的现实",
+      "risk_grows_when_operational_events_and_compliance_obligations_are_disconnected": "当运营事件和合规义务分离时，风险增加",
+      "leadership_receives_reports_after_events_occur_instead_of_understanding_risks_before_they_happen": "领导在事件发生后收到报告，而不是事先理解风险",
+      "live_operational_visibility_across_patients_clinicians_capacity_finance_and_compliance": "患者、临床、容量、财务和合规的实时运营可见性",
+      "predictive_intelligence_identifies_pressure_risk_and_bottlenecks_before_escalation": "预测性智能在升级前识别压力、风险和瓶颈",
+      "recommended_actions_help_leadership_intervene_before_operational_failure_occurs": "推荐的措施帮助领导在运营故障发生前干预",
+      "reality_content_1": "患者入院会影响人员配置。人员配置会影响排班。排班会影响容量。容量会影响治疗时间。",
+      "reality_content_2": "治疗会影响结果。结果会影响报销。报销会影响财务表现。",
+      "reality_content_3": "大多数医疗机构将这些视为独立事件。Avantiqo 将其理解为一个相互连接的运营链。",
+      "reality_content_4": "问题不在于数据。问题在于没有人能看到数据如何在整个组织中流动。",
+      "runtime_content_1": "患者需求。临床工作量。床位利用率。手术室容量。",
+      "runtime_content_2": "实验室处理能力。人员可用性。财务绩效。合规风险。",
+      "runtime_content_3": "通过统一运营运行时连接，使管理层能够在压力演变为问题之前采取行动。",
+      "ownership_content_1": "大多数高管在事件发生后才收到报告。Avantiqo 能在运营压力成为问题之前识别它。",
+      "ownership_content_2": "在排班失败之前发现人员短缺。在患者延误增加之前发现容量限制。",
+      "ownership_content_3": "在预算受到影响之前发现财务风险。在审计发现之前识别合规风险。",
+      "outcomes_content_1": "可衡量的运营改进。",
+      "healthcare_connects": "医疗系统无处不在地互联。",
+      "healthcare_misunderstood": "但却无人真正理解。",
+      "outcomes_badge": "OUTCOMES"
+    },
+    "construction": {
+      "construction_hero_badge": "建筑运营",
+      "construction_hero_title1": "在延误造成损失前掌控每个工地。",
+      "construction_hero_title2": "施工运行",
+      "construction_hero_description": "预算、采购、劳动力、审批、现场报告、文档和财务透明度汇聚于一个施工运营系统。",
+      "construction_cta_primary": "预订演示",
+      "construction_cta_secondary": "联系团队",
+      "before_after_badge": "前与后",
+      "before_after_title": "用实时项目控制替换断开的施工管理。",
+      "features_badge": "施工运行",
+      "features_title": "工地、办公室和财务 — 实时互联。",
+      "feature_1_title": "实时项目控制",
+      "feature_1_text": "实时跟踪进度、预算、审批、延误、人员和工地绩效。",
+      "feature_2_title": "现场报告",
+      "feature_2_text": "监督员即时上传照片、日报、问题和进度更新。",
+      "feature_3_title": "采购与材料",
+      "feature_3_text": "控制采购请求、供应商订单、材料交付及库存可视化。",
+      "feature_4_title": "劳动力与工资",
+      "feature_4_text": "监控考勤、分包商、人工成本、工资审批和工作活动。",
+      "feature_5_title": "多项目管理",
+      "feature_5_text": "从一个操作系统管理多个建筑工地、预算和项目团队。",
+      "feature_6_title": "业主可视化",
+      "feature_6_text": "项目业主和管理人员随时查看实时进度、成本、审批和风险。",
+      "hero_primary": "[ZH] hero_primary",
+      "hero_secondary": "[ZH] hero_secondary",
+      "reduce_project_delays": "[ZH] Reduce Project Delays",
+      "reduce_project_delays_description": "[ZH] Identify site issues, approval bottlenecks and procurement delays before they impact delivery.",
+      "control_budget_overruns": "[ZH] Control Budget Overruns",
+      "control_budget_overruns_description": "[ZH] Track committed costs, supplier spend, labor cost and project financial exposure live.",
+      "connect_site_office": "[ZH] Connect Site & Office",
+      "connect_site_office_description": "[ZH] Bring field updates, project management, approvals and finance into one connected workflow.",
+      "improve_contractor_accountability": "[ZH] Improve Contractor Accountability",
+      "improve_contractor_accountability_description": "[ZH] Track subcontractor activity, site progress, attendance and task completion with evidence.",
+      "faster_approvals": "[ZH] Faster Approvals",
+      "faster_approvals_description": "[ZH] Move purchase requests, change orders, invoices and project approvals through structured workflows.",
+      "real_time_owner_reporting": "[ZH] Real-Time Owner Reporting",
+      "real_time_owner_reporting_description": "[ZH] Replace delayed manual reports with live visibility into progress, risks, budget and execution.",
+      "construction_problems_become_expensive_when_visibility_arrives_too_late": ""
+    }
+  },
+  "navigation": {
+    "dashboard": "仪表板",
+    "operations": "运营",
+    "inventory": "库存",
+    "production": "生产",
+    "finance": "财务",
+    "marketing": "营销",
+    "settings": "设置",
+    "pos": "POS",
+    "kitchen": "厨房",
+    "expo": "Expo",
+    "reservations": "预订",
+    "dishStock": "菜品库存",
+    "ingredientStock": "原料库存",
+    "procurement": "采购",
+    "accounting": "会计",
+    "payroll": "工资",
+    "hr": "HR",
+    "projects": "项目",
+    "crm": "CRM",
+    "customers": "客户",
+    "designStudio": "设计工作室",
+    "documents": "文档"
+  },
+  "workspace": {
+    "activeProvider": "当前运行环境",
+    "runtime": "Churchill Runtime",
+    "start": "开始",
+    "login": "登录",
+    "modules": "模块",
+    "designStudio": "设计工作室"
+  },
+  "accounting": {
+    "hero": {
+      "badge": "会计系统",
+      "title": "财务账本智能系统",
+      "description": "采购、收入、工资、库存和 AI 自动同步到会计系统。",
+      "statusLabel": "会计状态",
+      "status": "已平衡"
+    },
+    "metrics": {
+      "entries": {
+        "title": "会计分录",
+        "description": "系统已同步"
+      },
+      "payables": {
+        "title": "应付账款",
+        "description": "供应商负债"
+      },
+      "cashflow": {
+        "title": "现金流",
+        "description": "财务状况稳定",
+        "value": "正向"
+      },
+      "audit": {
+        "title": "AI 审计层",
+        "description": "实时监控运行中",
+        "value": "LIVE"
+      }
+    },
+    "entries": {
+      "badge": "实时会计",
+      "title": "财务记录",
+      "items": {
+        "invoicePosted": {
+          "title": "供应商发票已入账",
+          "account": "应付账款"
+        },
+        "revenue": {
+          "title": "餐厅收入",
+          "account": "销售收入"
+        },
+        "payroll": {
+          "title": "工资分配",
+          "account": "人工成本"
+        }
+      }
+    },
+    "approvals": {
+      "badge": "审批系统",
+      "title": "AI 验证流程",
+      "active": "AI 运行中",
+      "description": "会计同步运行",
+      "items": {
+        "ocr": {
+          "title": "发票 OCR 提取"
+        },
+        "match": {
+          "title": "采购匹配"
+        },
+        "journal": {
+          "title": "会计日记账"
+        }
+      }
+    },
+    "status": {
+      "posted": "已入账",
+      "synced": "已同步",
+      "processing": "处理中",
+      "approved": "已批准",
+      "matched": "已匹配",
+      "ready": "准备完成"
+    }
+  },
+  "finance": {
+    "hero": {
+      "badge": "财务系统",
+      "title": "实时财务智能",
+      "description": "收入、利润、人工、库存、采购与会计实时同步。",
+      "statusLabel": "财务状态",
+      "status": "已同步"
+    },
+    "cards": {
+      "runtime": "系统已同步",
+      "revenue": {
+        "title": "今日收入"
+      },
+      "profit": {
+        "title": "净利润"
+      },
+      "labor": {
+        "title": "人工成本"
+      },
+      "food": {
+        "title": "食品成本"
+      }
+    },
+    "transactions": {
+      "badge": "实时交易",
+      "title": "财务系统",
+      "description": "财务同步运行中",
+      "sales": {
+        "title": "和牛汉堡销售"
+      },
+      "invoice": {
+        "title": "供应商发票已处理"
+      },
+      "payroll": {
+        "title": "工资分配"
+      }
+    },
+    "ai": {
+      "badge": "AI 财务智能",
+      "title": "盈利分析引擎",
+      "active": "AI 运行中",
+      "insights": {
+        "margin": {
+          "title": "和牛利润增长",
+          "description": "AI 检测到高端套餐销售带来的利润提升。"
+        },
+        "labor": {
+          "title": "人工成本上升",
+          "description": "AI 预测晚餐高峰期间厨房人工增加。"
+        },
+        "procurement": {
+          "title": "采购已优化",
+          "description": "供应商同步使采购成本降低了 12%。"
+        }
+      }
+    },
+    "status": {
+      "live": "LIVE",
+      "synced": "已同步",
+      "processing": "处理中"
+    }
+  },
+  "inventory": {
+    "hero": {
+      "badge": "库存系统",
+      "title": "实时库存智能",
+      "description": "批量库存与原料库存实时连接 POS、生产与采购系统。",
+      "statusLabel": "库存状态",
+      "status": "已同步"
+    },
+    "cards": {
+      "ingredients": {
+        "title": "原料项目",
+        "description": "实时库存追踪"
+      },
+      "batch": {
+        "title": "批量生产",
+        "description": "预制库存运行中"
+      },
+      "risk": {
+        "title": "AI 风险信号",
+        "description": "库存警告激活"
+      },
+      "procurement": {
+        "title": "采购同步",
+        "description": "发票系统已连接"
+      }
+    },
+    "batch": {
+      "badge": "批量库存",
+      "title": "预制生产",
+      "type": "批量库存",
+      "wagyu": "和牛肉饼",
+      "buns": "汉堡面包",
+      "sauce": "番茄酱",
+      "fries": "薯条"
+    },
+    "ingredients": {
+      "badge": "原料库存",
+      "title": "原料运行系统",
+      "usage": "使用量",
+      "tomatoes": "番茄",
+      "lettuce": "生菜",
+      "potatoes": "土豆",
+      "cheese": "切达奶酪"
+    },
+    "status": {
+      "live": "LIVE",
+      "good": "正常",
+      "stable": "稳定",
+      "low": "低",
+      "warning": "警告"
+    }
+  },
+  "procurement": {
+    "hero": {
+      "badge": "采购系统",
+      "title": "采购智能",
+      "description": "采购系统实时同步库存、会计、AI 预测与盈利系统。",
+      "statusLabel": "采购状态",
+      "status": "ACTIVE"
+    },
+    "cards": {
+      "orders": {
+        "title": "采购订单",
+        "description": "系统已同步"
+      },
+      "deliveries": {
+        "title": "今日交付",
+        "description": "库存已更新"
+      },
+      "invoice": {
+        "title": "发票自动化",
+        "description": "OCR 处理中"
+      },
+      "suppliers": {
+        "title": "供应商同步",
+        "description": "AI 需求预测"
+      }
+    },
+    "sections": {
+      "procurement": {
+        "badge": "实时采购",
+        "title": "采购订单"
+      },
+      "invoice": {
+        "badge": "AI 发票流程",
+        "title": "会计同步",
+        "active": "AI ACTIVE",
+        "description": "采购系统已同步"
+      }
+    },
+    "suppliers": {
+      "farm": "Phuket Fresh Farm",
+      "wagyu": "Premium Wagyu Co.",
+      "ocean": "Ocean Beverage"
+    },
+    "items": {
+      "tomatoes": "番茄 40kg",
+      "wagyu": "和牛肉饼",
+      "wine": "葡萄酒补货"
+    },
+    "flow": {
+      "upload": "发票照片已上传",
+      "ocr": "AI OCR 提取",
+      "inventory": "库存同步",
+      "accounting": "会计分录"
+    },
+    "status": {
+      "live": "LIVE",
+      "active": "ACTIVE",
+      "delivered": "已交付",
+      "transit": "运输中",
+      "approval": "审批中",
+      "complete": "完成",
+      "processing": "处理中"
+    }
+  },
+  "production": {
+    "hero": {
+      "badge": "生产系统",
+      "title": "Batch + À La Minute",
+      "description": "生产系统实时同步预制库存与服务期间的原料消耗。",
+      "statusLabel": "生产状态",
+      "status": "运行中"
+    },
+    "sections": {
+      "batch": {
+        "badge": "批量生产",
+        "title": "预制运行系统",
+        "produced": "已生产"
+      },
+      "consumption": {
+        "badge": "实时原料消耗",
+        "title": "À La Minute 系统",
+        "deduction": "实时扣减"
+      }
+    },
+    "batch": {
+      "wagyu": "和牛肉饼",
+      "buns": "汉堡面包",
+      "sauce": "番茄酱"
+    },
+    "ingredients": {
+      "tomatoes": "番茄",
+      "potatoes": "土豆",
+      "lettuce": "生菜"
+    },
+    "consumption": {
+      "burger": "1 Wagyu Burger",
+      "fries": "1 份薯条",
+      "assembly": "1 份汉堡组装"
+    },
+    "status": {
+      "live": "LIVE",
+      "active": "ACTIVE",
+      "good": "正常",
+      "low": "低"
+    }
+  },
+  "dashboard": {
+    "hero": {
+      "badge": "企业控制中心",
+      "title": "Enterprise Runtime",
+      "description": "实时运营智能覆盖财务、生产、采购、劳动力与 AI orchestration。",
+      "statusLabel": "系统状态",
+      "status": "Operational"
+    },
+    "cards": {
+      "revenue": {
+        "title": "今日收入",
+        "description": "+18.4% 运营增长"
+      },
+      "profit": {
+        "title": "净利润",
+        "description": "实时盈利能力"
+      },
+      "kitchen": {
+        "title": "厨房效率",
+        "description": "系统同步稳定"
+      },
+      "forecast": {
+        "title": "AI Forecast",
+        "description": "预计晚餐需求上升"
+      }
+    },
+    "locations": {
+      "badge": "实时门店",
+      "title": "多门店 Runtime",
+      "today": "今天",
+      "churchill": "Restaurant Runtime Active",
+      "mongos": "Café Runtime Active",
+      "yona": "Beach Club Runtime Active"
+    },
+    "ai": {
+      "badge": "AI 运营动态",
+      "title": "Runtime Intelligence",
+      "active": "AI ACTIVE",
+      "tomato": {
+        "title": "番茄库存风险",
+        "description": "AI 预测 5 小时内库存不足。"
+      },
+      "fryer": {
+        "title": "炸锅拥堵预测",
+        "description": "厨房负载预计超过 84%。"
+      },
+      "profit": {
+        "title": "盈利增长",
+        "description": "Wagyu + wine pairing 高于平均值 18%。"
+      },
+      "procurement": {
+        "title": "采购已同步",
+        "description": "供应商发票与库存已自动更新。"
+      }
+    },
+    "status": {
+      "live": "LIVE"
+    }
+  },
+  "payroll": {
+    "hero": {
+      "badge": "PAYROLL 系统",
+      "title": "Performance Payroll Engine",
+      "description": "Payroll 实时同步 attendance、performance 与 service charge。",
+      "statusLabel": "PAYROLL 状态"
+    },
+    "cards": {
+      "staff": {
+        "title": "Payroll 员工",
+        "description": "活跃 payroll staff"
+      },
+      "service": {
+        "title": "Service Charge Pool",
+        "description": "分配系统运行中"
+      },
+      "performance": {
+        "title": "平均绩效",
+        "description": "AI performance scoring"
+      },
+      "approval": {
+        "title": "Payroll Approval",
+        "description": "Manager synchronization"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE PAYROLL"
+    },
+    "flowSection": {
+      "badge": "PAYROLL FLOW",
+      "title": "Runtime Synchronization",
+      "active": "AI ACTIVE",
+      "processing": "Payroll runtime processing"
+    },
+    "flow": {
+      "attendance": "Attendance synchronized",
+      "performance": "Performance score calculated",
+      "serviceCharge": "Service charge allocated",
+      "approval": "Manager approval active",
+      "accounting": "Accounting payout processing"
+    },
+    "roles": {
+      "kitchen": "厨房",
+      "service": "服务",
+      "bar": "酒吧"
+    },
+    "status": {
+      "approved": "已批准",
+      "pending": "等待中",
+      "processing": "处理中",
+      "active": "ACTIVE",
+      "live": "LIVE"
+    }
+  },
+  "reservations": {
+    "hero": {
+      "badge": "预订系统",
+      "title": "Guest Coordination",
+      "description": "预订系统同步桌位、厨房与 AI demand planning。",
+      "statusLabel": "预订状态"
+    },
+    "cards": {
+      "today": {
+        "title": "今日预订",
+        "description": "Runtime synchronized"
+      },
+      "guests": {
+        "title": "预计客人",
+        "description": "AI forecast active"
+      },
+      "spend": {
+        "title": "消费预测",
+        "description": "AI profitability prediction"
+      },
+      "waitlist": {
+        "title": "Waitlist Queue",
+        "description": "Table optimization active"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE RESERVATION",
+      "table": "桌位",
+      "guests": "客人",
+      "arrival": "到达时间",
+      "spend": "消费预测",
+      "aiTitle": "AI Coordination Active",
+      "aiDescription": "厨房、员工与桌位流程自动同步。"
+    },
+    "actions": {
+      "checkin": "CHECK-IN",
+      "start": "开始 Dining Flow",
+      "view": "查看桌位",
+      "status": "Runtime Status"
+    },
+    "spending": {
+      "high": "HIGH VALUE",
+      "dinner": "DINNER",
+      "event": "EVENT"
+    },
+    "status": {
+      "live": "LIVE",
+      "arriving": "即将到达",
+      "confirmed": "已确认",
+      "waitlist": "WAITLIST"
+    }
+  },
+  "pos": {
+    "hero": {
+      "badge": "POINT OF SALE",
+      "title": "Live Ordering Runtime",
+      "description": "订单自动同步厨房、酒吧、inventory 与 accounting。",
+      "statusLabel": "POS 状态"
+    },
+    "tables": {
+      "badge": "桌位选择",
+      "title": "活跃桌位",
+      "active": "14 ACTIVE",
+      "runtime": "Open Runtime"
+    },
+    "menu": {
+      "badge": "MENU RUNTIME",
+      "title": "实时菜单",
+      "aiPricing": "AI PRICING ACTIVE",
+      "runtime": "Runtime synchronized",
+      "add": "加入订单"
+    },
+    "order": {
+      "badge": "CURRENT ORDER",
+      "kitchenRouting": "Kitchen Routing",
+      "barRouting": "Bar Routing",
+      "subtotal": "Subtotal",
+      "serviceCharge": "Service Charge",
+      "total": "Total",
+      "send": "SEND ORDER",
+      "routing": "Routes automatically to kitchen + bar + inventory"
+    },
+    "runtime": {
+      "badge": "LIVE RUNTIME",
+      "title": "Operational Sync",
+      "kitchenTitle": "Kitchen Runtime",
+      "kitchenDescription": "Wagyu Burger 已发送至 grill station",
+      "inventoryTitle": "Inventory Runtime",
+      "inventoryDescription": "Patties buns tomato fries 自动更新",
+      "profitTitle": "Profitability Runtime",
+      "profitDescription": "AI 正在重新计算 operational margin"
+    },
+    "categories": {
+      "burgers": "汉堡",
+      "starters": "前菜",
+      "drinks": "饮品",
+      "desserts": "甜点"
+    },
+    "dishes": {
+      "wagyu": "Wagyu Burger",
+      "fries": "Truffle Fries",
+      "wine": "Red Wine",
+      "salad": "Caesar Salad"
+    },
+    "status": {
+      "live": "LIVE",
+      "active": "ACTIVE",
+      "highDemand": "HIGH DEMAND",
+      "liveCooking": "LIVE COOKING",
+      "barRouting": "BAR ROUTING",
+      "freshPrep": "FRESH PREP"
+    }
+  },
+  "kitchen": {
+    "hero": {
+      "badge": "KITCHEN DISPLAY SYSTEM",
+      "title": "Kitchen Runtime",
+      "description": "订单从 POS 同步至 production flow、inventory 与 expo coordination。",
+      "statusLabel": "厨房状态"
+    },
+    "cards": {
+      "new": {
+        "title": "新订单",
+        "description": "等待制作"
+      },
+      "cooking": {
+        "title": "制作中",
+        "description": "Active kitchen runtime"
+      },
+      "ready": {
+        "title": "准备 Expo",
+        "description": "等待发送"
+      },
+      "ticket": {
+        "title": "平均 Ticket 时间",
+        "description": "Runtime synchronized"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE ORDER",
+      "ticket": "Ticket Runtime"
+    },
+    "actions": {
+      "start": "开始",
+      "begin": "开始制作",
+      "hold": "暂停",
+      "pause": "暂停 runtime",
+      "ready": "完成",
+      "expo": "发送至 Expo",
+      "issue": "问题",
+      "problem": "Runtime Problem",
+      "expoReady": "EXPO",
+      "await": "等待取餐",
+      "complete": "完成",
+      "closed": "Runtime Closed"
+    },
+    "dishes": {
+      "wagyu": "Wagyu Burger",
+      "fries": "Truffle Fries",
+      "ribeye": "Ribeye Steak",
+      "salad": "Caesar Salad"
+    },
+    "status": {
+      "active": "ACTIVE",
+      "new": "NEW",
+      "cooking": "COOKING",
+      "ready": "READY"
+    }
+  },
+  "ai": {
+    "hero": {
+      "badge": "AI INTELLIGENCE LAYER",
+      "title": "Operational Intelligence",
+      "description": "AI 实时分析 operations、production、profitability、procurement 与 customer behavior。",
+      "statusLabel": "AI 状态"
+    },
+    "cards": {
+      "predictions": {
+        "title": "Live Predictions",
+        "description": "Runtime decisions active"
+      },
+      "accuracy": {
+        "title": "AI Accuracy",
+        "description": "Operational forecasting precision"
+      },
+      "procurement": {
+        "title": "Procurement Savings",
+        "description": "AI supplier optimization"
+      },
+      "waste": {
+        "title": "Waste Reduction",
+        "description": "Production intelligence active"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE AI DECISIONS",
+      "title": "Runtime Recommendations"
+    },
+    "learning": {
+      "badge": "AI LEARNING ENGINE",
+      "title": "Continuous Optimization",
+      "customer": {
+        "title": "Customer Behavior",
+        "description": "AI 分析订单行为"
+      },
+      "signals": {
+        "title": "Operational Signals",
+        "description": "Runtime synchronization events"
+      },
+      "forecast": {
+        "title": "AI Forecast Horizon",
+        "description": "Predictive operational window"
+      },
+      "autonomous": {
+        "title": "Autonomous Operational Layer",
+        "description": "AI 自动协调 procurement、labor allocation 与 profitability optimization。"
+      }
+    },
+    "signals": {
+      "inventory": {
+        "title": "Tomato Inventory Risk",
+        "description": "AI 预测晚高峰 tomato shortage。",
+        "recommendation": "Recommended: Create procurement request immediately."
+      },
+      "fryer": {
+        "title": "Fryer Runtime Congestion",
+        "description": "Fryer utilization 将超过 87%。",
+        "recommendation": "Recommended: Open secondary fryer station."
+      },
+      "profit": {
+        "title": "High Profitability Opportunity",
+        "description": "Wagyu + wine 表现超预测 18%。",
+        "recommendation": "Recommended: Increase promotion priority."
+      }
+    },
+    "status": {
+      "learning": "LEARNING",
+      "live": "LIVE",
+      "priority": "PRIORITY",
+      "monitoring": "MONITORING",
+      "optimized": "OPTIMIZED"
+    },
+    "commands": {
+      "staffing": "Optimize staffing allocation",
+      "forecast": "Generate operational forecast",
+      "inventory": "Recalculate inventory demand",
+      "payroll": "Analyze payroll efficiency",
+      "marketing": "Increase campaign profitability"
+    },
+    "metrics": {
+      "predictions": "124",
+      "accuracy": "94%",
+      "procurement": "฿42K",
+      "waste": "-28%",
+      "behavior": "12.4M",
+      "forecast": "72H"
+    }
+  },
+  "operations": {
+    "hero": {
+      "badge": "FULL OPERATION RUNTIME",
+      "title": "Enterprise Coordination",
+      "description": "整个餐厅运营在 ordering、production、inventory、labor、AI、procurement 与 accounting 之间实时同步。",
+      "statusLabel": "系统状态"
+    },
+    "cards": {
+      "orders": {
+        "title": "活跃订单",
+        "description": "Runtime active"
+      },
+      "kitchen": {
+        "title": "厨房负载",
+        "description": "Production synchronized"
+      },
+      "inventory": {
+        "title": "Inventory 状态",
+        "description": "AI monitoring active"
+      },
+      "procurement": {
+        "title": "Procurement Runtime",
+        "description": "Invoice sync active"
+      },
+      "profit": {
+        "title": "今日净利润",
+        "description": "Live profitability runtime"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE OPERATION FLOW",
+      "title": "Runtime Synchronization"
+    },
+    "ai": {
+      "badge": "AI OPERATIONAL FEED",
+      "title": "Live Runtime Intelligence",
+      "description": "Runtime intelligence synchronized"
+    },
+    "sync": {
+      "badge": "ENTERPRISE SYNCHRONIZATION",
+      "title": "One Runtime Controls Everything"
+    },
+    "modules": {
+      "production": {
+        "title": "Production",
+        "description": "Batch + à la minute synchronization."
+      },
+      "inventory": {
+        "title": "Inventory",
+        "description": "Ingredient + stock movement tracking."
+      },
+      "procurement": {
+        "title": "Procurement",
+        "description": "Invoice AI + supplier synchronization."
+      },
+      "accounting": {
+        "title": "会计",
+        "description": "Live financial and profitability updates."
+      }
+    },
+    "flows": {
+      "posKitchen": {
+        "title": "POS → Kitchen",
+        "description": "Orders routed into live production runtime."
+      },
+      "kitchenExpo": {
+        "title": "Kitchen → Expo",
+        "description": "Production synchronized for dispatch."
+      },
+      "expoTables": {
+        "title": "Expo → Tables",
+        "description": "Service runners dispatch completed orders."
+      },
+      "tablesPayment": {
+        "title": "Tables → Payment",
+        "description": "Dining runtime linked to financial flow."
+      }
+    },
+    "alerts": {
+      "inventory": "Tomato inventory 库存不足",
+      "wagyu": "检测到 Wagyu demand spike",
+      "fryer": "Kitchen fryer utilization high",
+      "invoice": "Supplier invoice processed automatically"
+    },
+    "status": {
+      "active": "ACTIVE",
+      "synced": "SYNCED",
+      "live": "LIVE",
+      "processing": "PROCESSING",
+      "synchronized": "SYNCHRONIZED",
+      "aiActive": "AI ACTIVE",
+      "connected": "FULLY CONNECTED"
+    }
+  },
+  "marketing": {
+    "hero": {
+      "badge": "AI MARKETING OPERATING SYSTEM",
+      "title1": "Marketing",
+      "title2": "Runtime Engine",
+      "description": "AI campaigns synchronized with Meta publishing, customer intelligence, revenue forecasting and engagement analytics."
+    },
+    "performance": {
+      "badge": "AI PERFORMANCE",
+      "description": "Average engagement increase from AI campaign optimization."
+    },
+    "cards": {
+      "campaigns": {
+        "title": "活跃活动",
+        "description": "AI synchronized"
+      },
+      "queue": {
+        "title": "Publishing Queue",
+        "description": "Meta runtime active"
+      },
+      "assets": {
+        "title": "AI Generated Assets",
+        "description": "Images + video runtime"
+      },
+      "engagement": {
+        "title": "Engagement Runtime",
+        "description": "AI optimization active"
+      }
+    },
+    "sections": {
+      "campaigns": {
+        "badge": "LIVE CAMPAIGNS",
+        "title": "Meta Runtime"
+      },
+      "queue": {
+        "badge": "PUBLISH QUEUE",
+        "title": "Meta Scheduler"
+      },
+      "optimization": {
+        "badge": "AI OPTIMIZATION",
+        "description": "AI continuously optimizes posting time, audience targeting, visuals, captions, and engagement strategy."
+      }
+    },
+    "campaigns": {
+      "wagyu": {
+        "name": "Wagyu Friday Campaign",
+        "platform": "Instagram + Facebook"
+      },
+      "vip": {
+        "name": "VIP Sunset Dinner",
+        "platform": "Instagram Reels"
+      },
+      "beach": {
+        "name": "Beach Club Event",
+        "platform": "Meta Ads"
+      }
+    },
+    "queue": {
+      "cocktail": "Cocktail Reel",
+      "wagyu": "Wagyu Promotion",
+      "dj": "DJ Event Story"
+    },
+    "labels": {
+      "reach": "Reach",
+      "scheduled": "Scheduled"
+    },
+    "status": {
+      "live": "LIVE",
+      "active": "ACTIVE",
+      "queued": "QUEUED",
+      "published": "PUBLISHED",
+      "optimizing": "AI OPTIMIZING",
+      "ready": "READY",
+      "processing": "PROCESSING",
+      "scheduled": "SCHEDULED"
+    }
+  },
+  "crm": {
+    "hero": {
+      "badge": "CUSTOMER RELATIONSHIP INTELLIGENCE",
+      "title1": "Revenue",
+      "title2": "Relationship Engine",
+      "description": "AI customer intelligence synchronized with reservations, POS, marketing and profitability runtime."
+    },
+    "value": {
+      "badge": "RELATIONSHIP VALUE",
+      "description": "Predicted customer lifetime value"
+    },
+    "pipeline": {
+      "leads": "新客户",
+      "vip": "VIP 客户",
+      "events": "活动客户",
+      "returning": "回头客",
+      "description": "AI runtime tracking active"
+    },
+    "runtime": {
+      "badge": "LIVE CRM INTELLIGENCE",
+      "title": "Revenue Interactions"
+    },
+    "interactions": {
+      "vipReservation": "VIP reservation booked",
+      "loyaltyOffer": "AI loyalty offer triggered",
+      "eventProposal": "Private event proposal sent"
+    },
+    "status": {
+      "live": "LIVE"
+    }
+  },
+  "customers": {
+    "hero": {
+      "badge": "CUSTOMER INTELLIGENCE",
+      "title1": "Guest",
+      "title2": "Behavior Runtime",
+      "description": "AI continuously learns customer preferences, spending patterns, reservation behavior, and profitability signals across locations."
+    },
+    "labels": {
+      "favorite": "最喜爱",
+      "visits": "到访次数",
+      "spend": "消费"
+    },
+    "favorites": {
+      "wagyuWine": "和牛 + 红酒",
+      "cocktails": "鸡尾酒",
+      "privateEvents": "私人活动"
+    },
+    "insights": {
+      "wineDemand": "VIP guests increasing premium wine demand",
+      "tastingMenus": "Returning customers respond strongly to tasting menus",
+      "personalization": "High-spend guests prefer reservation personalization",
+      "multilocation": "Beach club events driving multi-location traffic"
+    },
+    "signals": {
+      "badge": "AI CUSTOMER SIGNALS",
+      "title": "Behavioral Intelligence",
+      "description": "AI synchronization runtime active"
+    }
+  },
+  "tables": {
+    "hero": {
+      "badge": "TABLE RUNTIME",
+      "title": "Dining Floor Live",
+      "description": "餐桌、厨房、酒吧、Expo、服务和支付流程实时同步。"
+    },
+    "floor": {
+      "badge": "FLOOR STATUS",
+      "active": "ACTIVE"
+    },
+    "cards": {
+      "activeTables": {
+        "title": "活跃餐桌",
+        "description": "Runtime synchronized"
+      },
+      "guests": {
+        "title": "用餐客人",
+        "description": "Live floor occupancy"
+      },
+      "avgTicket": {
+        "title": "平均消费",
+        "description": "Operational average"
+      },
+      "paymentQueue": {
+        "title": "支付队列",
+        "description": "Awaiting settlement"
+      }
+    },
+    "table": {
+      "badge": "LIVE TABLE",
+      "guests": "客人",
+      "total": "当前总额",
+      "runtime": "Runtime synchronized",
+      "live": "LIVE"
+    },
+    "actions": {
+      "viewFlow": "VIEW FLOW",
+      "kitchenBar": "Kitchen + Bar",
+      "payment": "PAYMENT",
+      "settle": "Settle Runtime"
+    },
+    "status": {
+      "dining": "用餐中",
+      "waitingFood": "等待上菜",
+      "payment": "待付款",
+      "highValue": "高价值客户"
+    }
+  },
+  "expo": {
+    "hero": {
+      "badge": "EXPO COORDINATION",
+      "title": "Service Synchronization",
+      "description": "厨房和酒吧订单通过 Expo 同步后再发送至餐桌和支付流程。"
+    },
+    "runtime": {
+      "badge": "EXPO STATUS",
+      "active": "ACTIVE"
+    },
+    "cards": {
+      "waiting": {
+        "title": "等待 Expo",
+        "description": "等待同步"
+      },
+      "ready": {
+        "title": "准备上菜",
+        "description": "可派送"
+      },
+      "runners": {
+        "title": "活跃传菜员",
+        "description": "Runtime synchronized"
+      },
+      "dispatch": {
+        "title": "平均派送时间",
+        "description": "Service runtime stable"
+      }
+    },
+    "order": {
+      "badge": "EXPO ORDER",
+      "ready": "Ready for synchronization",
+      "runner": "Assigned Runner",
+      "runtime": "Runtime",
+      "sync": "Operational synchronization active"
+    },
+    "actions": {
+      "callRunner": "CALL RUNNER",
+      "dispatch": "Dispatch Service",
+      "served": "SERVED",
+      "close": "Close Expo Flow"
+    },
+    "sources": {
+      "kitchen": "厨房",
+      "bar": "酒吧",
+      "kitchenBar": "厨房 + 酒吧"
+    },
+    "status": {
+      "readyForService": "准备上菜",
+      "waitingRunner": "等待传菜员",
+      "serving": "服务中"
+    }
+  },
+  "projects": {
+    "hero": {
+      "badge": "MULTI-LOCATION DEPLOYMENT",
+      "title1": "Enterprise",
+      "title2": "Rollout Engine",
+      "description": "面向餐厅、海滩俱乐部、咖啡馆和酒店行业的运营系统部署。"
+    },
+    "global": {
+      "badge": "GLOBAL STATUS",
+      "description": "正在运行的部署"
+    },
+    "labels": {
+      "progress": "进度"
+    },
+    "stack": {
+      "badge": "DEPLOYMENT STACK",
+      "title": "Runtime Layers",
+      "description": "Enterprise synchronization layer"
+    },
+    "phases": {
+      "operationalDeployment": "运营部署",
+      "aiSynchronization": "AI 同步",
+      "inventoryArchitecture": "库存架构"
+    },
+    "status": {
+      "liveBuild": "运行中",
+      "integration": "集成中",
+      "planning": "规划中"
+    },
+    "layers": {
+      "pos": "POS Runtime",
+      "kitchen": "Kitchen Synchronization",
+      "inventory": "Inventory Intelligence",
+      "payroll": "Payroll Engine",
+      "ai": "AI Forecasting",
+      "accounting": "Accounting Runtime"
+    }
+  },
+  "documents": {
+    "hero": {
+      "badge": "DOCUMENT INTELLIGENCE",
+      "title1": "Enterprise",
+      "title2": "文档",
+      "description": "AI同步的合同、发票、报告、薪资审批、采购文件和运营记录。"
+    },
+    "storage": {
+      "badge": "STORAGE STATUS",
+      "live": "LIVE",
+      "description": "云同步已启用"
+    },
+    "actions": {
+      "open": "打开",
+      "download": "下载",
+      "analyze": "AI 分析"
+    },
+    "types": {
+      "procurement": "采购",
+      "hr": "人力资源",
+      "operations": "运营",
+      "marketing": "市场营销"
+    },
+    "status": {
+      "synced": "已同步",
+      "pending": "待处理",
+      "approved": "已批准",
+      "archived": "已归档"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+"use client";
+
+import Image from "next/image";
+
+export default function HealthcarePage() {
+  return (
+    <>
+      <main className="relative w-full h-screen overflow-hidden">
+        <div className="absolute inset-0 -z-10">
+          <Image
+            src="/images/healthcare-hero.png"
+            alt="Healthcare Hero"
+            fill
+            style={{ objectFit: "cover" }}
+            priority
+          />
+          <div className="absolute inset-0 bg-black/40" />
+        </div>
+
+        <div className="relative flex flex-col items-center justify-center h-full px-6 text-center text-white">
+          <h1 className="text-5xl md:text-7xl font-extralight mb-6">
+            Healthcare Intelligence Platform
+          </h1>
+          <p className="max-w-3xl text-xl md:text-2xl leading-relaxed">
+            Advanced operational insights for hospitals, clinics, and healthcare providers.
+          </p>
+        </div>
+      </main>
+    </>
+  );
+}

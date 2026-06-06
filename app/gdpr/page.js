@@ -1,185 +1,260 @@
 "use client";
 
+import SiteTopNav from "@/app/components/SiteTopNav";
+import Footer from "@/components/layout/Footer";
+
 export default function GDPRPage() {
+  const sections = [
+    {
+      title: "GDPR Is Not A Checkbox",
+      text: `The General Data Protection Regulation (GDPR) is not a one-time compliance exercise.
+
+It is an ongoing responsibility.
+
+Organizations are expected to understand what information they collect, why it is collected, how it is used, who can access it and how it is protected.
+
+GDPR requires visibility, accountability and operational discipline.
+
+These principles are closely aligned with the design philosophy of the Avantiqo platform.`,
+    },
+
+    {
+      title: "What Information Is Stored",
+      text: `Organizations using Avantiqo may choose to store operational, financial, customer, employee and organizational information within the platform.
+
+Examples may include:
+
+• Customer records
+
+• Employee information
+
+• Operational activities
+
+• Financial transactions
+
+• Documents
+
+• Approvals
+
+• Workflow activity
+
+• Organizational intelligence
+
+Organizations remain responsible for determining what information is entered into the platform.
+
+Data ownership remains with the organization.`,
+    },
+
+    {
+      title: "Where Information Is Stored",
+      text: `Information is stored within professionally managed cloud infrastructure designed for reliability, availability and security.
+
+Storage environments are designed to support modern enterprise operational requirements while maintaining separation between organizations.
+
+Infrastructure, security controls and operational procedures are continuously evaluated to support privacy, security and compliance objectives.
+
+The objective is protecting confidentiality, integrity and availability of organizational information.`,
+    },
+
+    {
+      title: "Who Owns The Data",
+      text: `Organizations own their data.
+
+Always.
+
+Avantiqo does not claim ownership of customer information, employee information, operational information, financial records or organizational intelligence.
+
+The platform exists to help organizations manage and understand information.
+
+Ownership remains with the organization that creates it.`,
+    },
+
+    {
+      title: "Who Can Access Information",
+      text: `Access is controlled through role-based permissions and organizational boundaries.
+
+Not every user should have access to every piece of information.
+
+Organizations can define visibility based on:
+
+• Role
+
+• Department
+
+• Responsibility
+
+• Authority level
+
+• Workflow participation
+
+The objective is ensuring information is available to authorized individuals while maintaining privacy and accountability.`,
+    },
+
+    {
+      title: "Right Of Access",
+      text: `GDPR provides individuals with the right to request access to personal information.
+
+Organizations should be able to identify relevant information, review stored records and respond appropriately to legitimate requests.
+
+Visibility and traceability support this process.`,
+    },
+
+    {
+      title: "Right To Rectification",
+      text: `Individuals may request correction of inaccurate information.
+
+Organizations should maintain processes that support data quality, accountability and appropriate record management throughout the lifecycle of information.`,
+    },
+
+    {
+      title: "Right To Erasure",
+      text: `Individuals may request deletion of personal information under certain circumstances.
+
+Organizations should establish appropriate retention, deletion and lifecycle management processes to support applicable obligations and legal requirements.
+
+Privacy includes understanding when information should no longer exist.`,
+    },
+
+    {
+      title: "Data Portability",
+      text: `GDPR includes rights related to data portability.
+
+Organizations should maintain visibility into stored information and understand how information can be exported, reviewed and managed when required.`,
+    },
+
+    {
+      title: "Artificial Intelligence And GDPR",
+      text: `Customer information is not used to train public artificial intelligence models.
+
+Synthetic Intelligence focuses on organizational understanding rather than public model training.
+
+Its purpose is to understand workflows, operational relationships, accountability structures and organizational performance.
+
+The objective is organizational awareness.
+
+Not personal profiling.`,
+    },
+
+    {
+      title: "Auditability And Accountability",
+      text: `Strong GDPR compliance depends upon visibility.
+
+Organizations should understand:
+
+Who accessed information.
+
+When access occurred.
+
+Why access occurred.
+
+What actions were performed.
+
+Auditability supports accountability and strengthens trust throughout the organization.`,
+    },
+
+    {
+      title: "Privacy, Governance And Compliance",
+      text: `GDPR does not operate independently.
+
+Privacy.
+
+Governance.
+
+Security.
+
+Compliance.
+
+Accountability.
+
+These capabilities work together.
+
+Organizations that build strong operational controls often find GDPR obligations easier to manage because visibility and accountability already exist throughout daily operations.`,
+    },
+
+    {
+      title: "The Future Of Data Protection",
+      text: `The future of privacy is not secrecy.
+
+The future of privacy is responsible visibility.
+
+Organizations should understand what information exists, who can access it and why it is being used.
+
+Trust is built when visibility, accountability and privacy operate together.
+
+That is the approach Avantiqo is designed to support.`,
+    },
+  ];
+
   return (
-    <main className="min-h-screen bg-[#02030A] text-white">
+    <main className="min-h-screen overflow-hidden bg-[#02030A] text-white">
+      <SiteTopNav />
 
-      {/* HERO */}
-      <section className="relative overflow-hidden px-6 pb-24 pt-40 md:pb-32 md:pt-52">
-
-        {/* GLOW */}
-        <div className="absolute left-1/2 top-1/2 h-[1000px] w-[1000px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#8B5CF6]/10 blur-[220px]" />
+      <section className="relative px-6 py-28">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,#4A2C12_0%,#15110A_30%,#02030A_100%)]" />
 
         <div className="relative mx-auto max-w-7xl">
+          <div className="rounded-[46px] border border-[#D6A66A]/20 bg-white/[0.03] p-12 backdrop-blur-3xl md:p-16">
 
-          <div className="max-w-5xl">
-
-            <p className="mb-8 text-xs tracking-[0.35em] text-[#B58AF8]">
-              GDPR COMPLIANCE
-            </p>
-
-            <h1
-              className="text-5xl text-white sm:text-6xl md:text-[96px]"
-              style={{
-                lineHeight: 0.95,
-                fontWeight: 300,
-                letterSpacing: "-0.06em",
-              }}
-            >
-              Enterprise data
-              <br />
-
-              <span className="bg-gradient-to-r from-[#E7C38A] via-white to-[#8B5CF6] bg-clip-text text-transparent">
-                privacy and information governance.
-              </span>
-
-            </h1>
-
-            <p
-              className="mt-10 max-w-3xl text-white/55"
-              style={{
-                fontSize: "22px",
-                lineHeight: 1.9,
-                fontWeight: 400,
-                letterSpacing: "-0.01em",
-              }}
-            >
-              Avantiqo is designed with enterprise-grade
-              data handling, organizational privacy controls,
-              infrastructure governance and operational
-              access management aligned with modern
-              GDPR principles and compliance practices.
-            </p>
-
-          </div>
-
-        </div>
-
-      </section>
-
-      {/* GDPR CONTENT */}
-      <section className="relative overflow-hidden px-6 pb-24 md:pb-36">
-
-        <div className="mx-auto grid max-w-7xl gap-6 md:gap-8 lg:grid-cols-[280px_1fr]">
-
-          {/* SIDEBAR */}
-          <div className="h-fit rounded-[34px] border border-white/[0.05] bg-white/[0.025] p-8 backdrop-blur-3xl lg:sticky lg:top-32">
-
-            <p className="mb-8 text-xs tracking-[0.35em] text-[#B58AF8]">
-              GDPR INDEX
-            </p>
-
-            <div className="space-y-5 text-white/50">
-
-              {[
-                "Data Collection",
-                "Infrastructure Storage",
-                "Access Controls",
-                "Organizational Visibility",
-                "AI Processing",
-                "Data Retention",
-                "User Rights",
-                "Security Measures",
-                "Third-Party Services",
-                "Compliance Governance",
-              ].map((item) => (
-                <div
-                  key={item}
-                  className="cursor-pointer transition duration-300 hover:text-white"
-                >
-                  {item}
-                </div>
-              ))}
-
+            <div className="mb-6 text-xs uppercase tracking-[0.45em] text-[#D6A66A]">
+              GDPR & DATA RIGHTS
             </div>
 
+            <h1 className="max-w-5xl text-6xl font-extralight leading-tight tracking-[-0.06em] md:text-8xl">
+              GDPR Is Not
+              <br />
+              <span className="bg-gradient-to-r from-[#D6A66A] via-[#E7C78A] to-[#F7E7B0] bg-clip-text text-transparent">
+                A Checkbox.
+              </span>
+            </h1>
+
+            <p className="mt-8 max-w-4xl text-xl leading-10 text-white/65">
+              GDPR is a continuous responsibility built on visibility,
+              accountability, governance, privacy and trust.
+            </p>
+
           </div>
+        </div>
+      </section>
 
-          {/* CONTENT */}
-          <div className="space-y-8">
+      <section className="px-6 pb-24">
+        <div className="mx-auto max-w-7xl space-y-10">
 
-            {[
-              {
-                title: "Data Collection",
-                text: "Avantiqo collects and processes organizational, operational and infrastructure-related information necessary for enterprise workflows, platform functionality, AI systems and connected operational services. This may include user account information, workforce records, operational workflows, financial activity, inventory information, organizational structures and platform interaction data required to operate enterprise infrastructure environments.",
-              },
-              {
-                title: "Infrastructure Storage",
-                text: "Organizational information is stored within secured cloud infrastructure environments utilizing enterprise-grade database architecture, access isolation and operational security controls. Data is stored within controlled infrastructure systems designed to restrict unauthorized access, maintain operational integrity and support organizational governance requirements. Access to infrastructure environments is limited to authorized systems, authenticated organizational users and approved administrative processes.",
-              },
-              {
-                title: "Access Controls",
-                text: "Platform visibility is managed through role-based authorization systems, organizational permissions and operational governance layers. Organizations control user access according to operational responsibilities, approval structures and internal governance procedures. Access to financial systems, workforce infrastructure, operational workflows and enterprise intelligence environments may be restricted according to organizational role structures.",
-              },
-              {
-                title: "Organizational Visibility",
-                text: "Operational information remains visible only within authorized organizational environments and infrastructure permissions. Multi-location organizations may configure visibility structures, reporting access, management permissions and operational oversight layers according to internal governance requirements and organizational responsibilities.",
-              },
-              {
-                title: "AI Processing",
-                text: "AI systems within Avantiqo may process operational data for forecasting, optimization, automation, recommendation generation and infrastructure intelligence functionality. AI processing is designed to operate within controlled organizational environments and enterprise governance structures. AI-generated outputs are intended to support operational workflows and enterprise decision-making processes.",
-              },
-              {
-                title: "Data Retention",
-                text: "Organizational information is retained only for operational functionality, infrastructure continuity, enterprise reporting, compliance requirements and authorized workflow execution. Organizations may request modification or deletion of certain information where legally and operationally appropriate. Some infrastructure records, audit logs or financial records may require retention for compliance, governance or operational accountability purposes.",
-              },
-              {
-                title: "User Rights",
-                text: "Organizations and authorized users may request access to applicable information associated with their operational environments, subject to organizational permissions, governance procedures and applicable legal requirements. Users may request corrections to inaccurate information or request deletion of eligible personal data in accordance with operational obligations and compliance standards.",
-              },
-              {
-                title: "Security Measures",
-                text: "Avantiqo maintains infrastructure security measures including encrypted communication layers, authentication systems, organizational isolation controls, role permissions, operational logging and infrastructure monitoring processes designed to support enterprise-grade security environments and operational protection standards.",
-              },
-              {
-                title: "Third-Party Services",
-                text: "Certain platform functionality may rely on approved third-party infrastructure providers, cloud systems, communication services or operational integrations necessary for enterprise functionality. Third-party services are selected according to infrastructure reliability, operational security and enterprise platform requirements.",
-              },
-              {
-                title: "Compliance Governance",
-                text: "Avantiqo infrastructure is designed to support organizational governance, operational accountability and modern data handling practices aligned with GDPR principles and enterprise compliance environments. Organizations remain responsible for implementing internal compliance procedures appropriate for their jurisdictions, workforce structures and operational environments.",
-              },
-            ].map((section) => (
-              <div
-                key={section.title}
-                className="overflow-hidden rounded-[34px] border border-white/[0.05] bg-white/[0.025] p-6 md:p-10 backdrop-blur-3xl"
-              >
+          {sections.map((section) => (
+            <div
+              key={section.title}
+              className="rounded-[38px] border border-white/10 bg-white/[0.03] p-10 backdrop-blur-2xl"
+            >
+              <h2 className="mb-6 text-4xl font-extralight">
+                {section.title}
+              </h2>
 
-                <div className="mb-8 h-[1px] w-20 bg-gradient-to-r from-[#8B5CF6] to-transparent" />
+              <p className="whitespace-pre-line text-lg leading-9 text-white/65">
+                {section.text}
+              </p>
+            </div>
+          ))}
 
-                <h2
-                  className="text-white"
-                  style={{
-                    fontSize: "42px",
-                    lineHeight: 1.05,
-                    fontWeight: 300,
-                    letterSpacing: "-0.04em",
-                  }}
-                >
-                  {section.title}
-                </h2>
+          <div className="rounded-[42px] border border-[#D6A66A]/20 bg-gradient-to-br from-[#D6A66A]/10 via-transparent to-transparent p-14 text-center backdrop-blur-3xl">
 
-                <p
-                  className="mt-8 max-w-4xl text-white/50"
-                  style={{
-                    fontSize: "18px",
-                    lineHeight: 2,
-                    fontWeight: 400,
-                    letterSpacing: "-0.01em",
-                  }}
-                >
-                  {section.text}
-                </p>
+            <h2 className="text-5xl font-extralight leading-tight">
+              Privacy Creates Trust.
+              <br />
+              Governance Creates Accountability.
+              <br />
+              GDPR Protects Rights.
+            </h2>
 
-              </div>
-            ))}
+            <p className="mx-auto mt-8 max-w-4xl text-xl leading-10 text-white/70">
+              Data protection is not a compliance exercise.
+              It is a responsibility that exists throughout the lifecycle of information.
+            </p>
 
           </div>
 
         </div>
-
       </section>
 
+      <Footer />
     </main>
   );
 }

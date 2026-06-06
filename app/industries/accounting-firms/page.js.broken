@@ -1,0 +1,1463 @@
+"use client";
+
+import Image from "next/image";
+import Link from "next/link";
+
+import SiteTopNav from "@/app/components/SiteTopNav";
+import Footer from "@/components/layout/Footer";
+import { useTranslation } from "@/app/providers/I18nProvider";
+
+
+
+
+
+
+export default function AccountingIndustryPage() {
+const { translations } = useTranslation();
+const a = translations.home?.accountingFirms || {};
+
+const enterpriseCardsData =
+a.enterpriseCards || [];
+
+const advisorCardsData =
+a.advisorCards || [];
+
+const roiCardsData =
+a.roiCards || [];
+
+const featuresData =
+a.features || [];
+
+return (
+
+<main className="min-h-screen bg-[#04050B] text-white overflow-hidden">
+
+<SiteTopNav />
+
+{/* HERO */}
+<section className="relative px-6 py-32">
+
+<div className="absolute inset-0 bg-[radial-gradient(circle_at_top,#241237_0%,#070B16_40%,#02030A_100%)]" />
+
+<div className="relative mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[0.9fr_1.1fr]">
+
+<div>
+
+<p className="mb-6 text-xs tracking-[0.35em] text-[#D6A66A]">
+{a.hero?.badge}
+</p>
+
+<h1 className="text-6xl font-extralight leading-[1.02] tracking-[-0.06em] md:text-[92px]">
+
+{a.hero?.title1}
+<br />
+{a.hero?.title2}
+<br />
+<br />
+{a.hero?.title3}
+<br />
+{a.hero?.title4}
+
+</h1>
+
+<p className="mt-8 max-w-[620px] text-[17px] leading-[1.9] text-white/50">
+
+{a.hero?.description}
+
+</p>
+
+<div className="mt-10 flex flex-col gap-4 sm:flex-row">
+
+<Link
+href="/demo"
+className="rounded-[22px] bg-gradient-to-r from-[#D6A66A] to-[#14364D] px-6 py-3 md:px-8 md:py-4 text-sm font-extralight transition-all duration-300 ease-out hover:-translate-y-[2px]"
+>
+{a.hero?.primary}
+</Link>
+
+<Link
+href="/contact"
+className="rounded-[22px] border border-white/[0.05] bg-white/[0.025] px-6 py-3 md:px-8 md:py-4 text-sm text-white/50 transition-all duration-300 ease-out hover:border-[#D6A66A]/20"
+>
+{a.hero?.secondary}
+</Link>
+
+</div>
+
+</div>
+
+<div className="relative overflow-hidden rounded-[36px] border border-white/[0.05] bg-[#050714] shadow-[0_0_50px_rgba(120,80,255,0.08)]">
+
+<Image
+src="/images/accounting-enterprise-hero.png"
+alt="Accounting Runtime"
+width={1600}
+height={1000}
+quality={75}
+priority
+className="h-full w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
+/>
+
+</div>
+
+</div>
+
+</section>
+
+{/* BEFORE / AFTER */}
+<section className="px-6 py-28">
+
+<div className="mx-auto max-w-7xl">
+
+<div className="mb-16">
+
+<p className="mb-6 text-xs tracking-[0.35em] text-[#D6A66A]">
+{a.beforeAfter?.badge}
+</p>
+
+<h2 className="max-w-5xl text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
+
+{a.beforeAfter?.title1}
+{a.beforeAfter?.title2}
+
+</h2>
+
+</div>
+
+<div className="grid gap-6 md:gap-8 lg:grid-cols-2">
+
+<div className="overflow-hidden rounded-[32px] border border-red-500/10 bg-[#0A0A12]">
+
+<Image
+src="/images/accounting-before-chaos.png"
+alt="Before"
+width={1200}
+height={800}
+quality={75}
+className="h-[520px] w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
+/>
+
+<div className="p-6 md:p-10">
+
+<p className="mb-5 text-sm tracking-[0.3em] text-red-400">
+BEFORE
+</p>
+
+<h3 className="text-4xl font-extralight">
+Month-end chaos
+</h3>
+
+<ul className="mt-8 space-y-4 text-white/50">
+
+<li>• Missing invoices and receipts</li>
+<li>• Manual data entry</li>
+<li>• Line messages and paperwork</li>
+<li>• No real-time visibility</li>
+<li>• Delayed financial oversight</li>
+<li>• Operational problems discovered too late</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<div className="overflow-hidden rounded-[32px] border border-emerald-500/10 bg-[#0A0A12]">
+
+<Image
+src="/images/accounting-after-control.png"
+alt="After"
+width={1200}
+height={800}
+quality={75}
+className="h-[520px] w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
+/>
+
+<div className="p-6 md:p-10">
+
+<p className="mb-5 text-sm tracking-[0.3em] text-emerald-400">
+AFTER
+</p>
+
+<h3 className="text-4xl font-extralight">
+Live operational control
+</h3>
+
+<ul className="mt-8 space-y-4 text-white/50">
+
+<li>• AI invoice extraction</li>
+<li>• Real-time operational visibility</li>
+<li>• Live payroll and procurement tracking</li>
+<li>• Connected approvals and audit trails</li>
+<li>• Multi-company dashboard control</li>
+<li>• Accounting firms handle more clients efficiently</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+<section className="px-6 py-24">
+
+<div className="mx-auto max-w-7xl">
+
+<div className="mb-8">
+
+<p className="mb-4 text-xs tracking-[0.35em] text-[#D6A66A] uppercase">
+{a.switch?.badge}
+</p>
+
+<h2 className="max-w-5xl text-6xl font-extralight leading-tight text-white">
+{a.switch?.title1}
+<br />
+{a.switch?.title2}
+</h2>
+
+</div>
+
+<div className="grid gap-6 md:grid-cols-2">
+
+<div className="rounded-3xl border border-white/[0.06] bg-white/[0.02] p-8">
+
+<h3 className="mb-4 text-3xl font-extralight text-white">
+{a.runtimeComparison?.leftTitle}
+</h3>
+
+<ul className="space-y-4 text-white/60">
+{(a.runtimeComparison?.leftItems || []).map((item) => (
+<li key={item}>• {item}</li>
+))}
+</ul>
+
+</div>
+
+<div className="rounded-3xl border border-green-500/20 bg-green-500/[0.05] p-8">
+
+<h3 className="mb-4 text-3xl font-extralight text-white">
+{a.runtimeComparison?.rightTitle}
+</h3>
+
+<ul className="space-y-4 text-white/80">
+{(a.runtimeComparison?.rightItems || []).map((item) => (
+<li key={item}>• {item}</li>
+))}
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section className="px-6 py-24">
+
+<div className="mx-auto max-w-7xl">
+
+<div className="mb-10">
+
+<p className="runtime-label mb-4">
+{a.synthetic?.badge}
+</p>
+
+<h2 className="max-w-5xl text-6xl font-extralight leading-tight text-white">
+{a.synthetic?.title1}
+<br />
+{a.synthetic?.title2}
+</h2>
+
+</div>
+
+<div className="rounded-[40px] border border-purple-500/20 bg-gradient-to-br from-[#0B1020] to-[#070A12] p-12">
+
+<div className="grid gap-10 md:grid-cols-2">
+
+<div>
+
+<h3 className="mb-4 text-3xl font-extralight text-white">
+{a.synthetic?.leftTitle}
+</h3>
+
+<p className="leading-relaxed text-white/60">
+{a.synthetic?.leftDescription}
+</p>
+
+</div>
+
+<div>
+
+<h3 className="mb-4 text-3xl font-extralight text-green-300">
+{a.synthetic?.rightTitle}
+</h3>
+
+<p className="leading-relaxed text-white/80">
+{a.synthetic?.rightDescription}
+</p>
+
+</div>
+
+</div>
+
+<div className="mt-12 rounded-3xl border border-white/[0.05] bg-black/20 p-8">
+
+<p className="text-2xl font-extralight text-white">
+{a.synthetic?.exampleTitle}
+</p>
+
+<p className="mt-3 text-white/60">
+{a.synthetic?.exampleDescription}
+</p>
+
+<p className="mt-6 text-green-300">
+{a.synthetic?.exampleResult}
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+{/* FEATURES */}
+<section className="px-6 py-28">
+
+<div className="mx-auto max-w-7xl">
+
+<div className="mb-16">
+
+<p className="mb-6 text-xs tracking-[0.35em] text-[#D6A66A]">
+{a.runtime?.badge}
+</p>
+
+<h2 className="max-w-5xl text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
+
+{a.runtime?.title1}
+<br />
+{a.runtime?.title2}
+
+</h2>
+
+</div>
+
+<div className="grid gap-6 md:gap-8 md:grid-cols-2">
+
+{featuresData.map((item) => (
+
+<div
+key={item.title}
+className="overflow-hidden rounded-[32px] border border-white/[0.05] bg-[#050714] shadow-[0_0_40px_rgba(120,80,255,0.05)]"
+>
+
+<Image
+src={item.image}
+alt={item.title}
+width={1200}
+height={800}
+quality={75}
+className="h-[380px] w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
+/>
+
+<div className="p-8">
+
+<h3 className="text-3xl font-extralight">
+{item.title}
+</h3>
+
+<p className="mt-5 text-sm leading-7 text-white/50">
+{item.description}
+</p>
+
+</div>
+
+</div>
+
+))}
+
+</div>
+
+</div>
+
+</section>
+
+
+{/* ACCOUNTING FIRM BENEFITS */}
+<section className="px-6 py-32 border-t border-white/5">
+
+<div className="mx-auto max-w-7xl">
+
+<div className="mb-20">
+
+<p className="mb-6 text-xs tracking-[0.35em] text-[#D6A66A]">
+{a.benefits?.badge}
+</p>
+
+<h2 className="max-w-5xl text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
+{a.benefits?.title1}
+</h2>
+
+</div>
+
+<div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
+
+{roiCardsData.map((card) => (
+
+<div
+key={card.title}
+className="rounded-[32px] border border-white/[0.05] bg-[#050714]/90 p-6 md:p-10 transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-[#D6A66A]/20"
+>
+
+<p className="mb-5 text-xs uppercase tracking-[0.25em] text-emerald-400">
+{card.label}
+</p>
+
+<h3 className="mb-5 text-4xl font-extralight leading-tight text-white">
+{card.title}
+</h3>
+
+<p className="mb-8 text-[17px] leading-8 text-white/50">
+{card.description}
+</p>
+
+<div className="flex flex-col gap-4">
+
+{card.items.map((item) => (
+
+<div
+key={item}
+className="flex items-center gap-3 text-sm text-white/80"
+>
+
+<div className="h-2 w-2 rounded-full bg-gradient-to-r from-emerald-400 to-[#14364D]" />
+
+{item}
+
+</div>
+
+))}
+
+</div>
+
+</div>
+
+))}
+
+</div>
+
+</div>
+
+</section>
+
+
+{/* ACCOUNTING ADVISORY VALUE */}
+<section className="px-6 py-32 border-t border-white/5">
+
+<div className="mx-auto max-w-7xl">
+
+<div className="mb-20">
+
+<p className="mb-6 text-xs tracking-[0.35em] text-[#D6A66A] uppercase">
+{a.advisory?.badge}
+</p>
+
+<h2 className="max-w-5xl text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
+{a.advisory?.title1}
+</h2>
+
+<p className="mt-8 max-w-[820px] text-[17px] leading-[1.9] text-white/50">
+{a.advisory?.description}
+</p>
+
+</div>
+
+<div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
+
+{advisorCardsData.map((card) => (
+
+<div
+key={card.title}
+className="rounded-[32px] border border-white/[0.05] bg-[#050714]/90 p-6 md:p-10 transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-[#D6A66A]/20"
+>
+
+<p className="mb-5 text-xs uppercase tracking-[0.25em] text-[#D6A66A]">
+{card.label}
+</p>
+
+<h3 className="mb-5 text-3xl font-extralight leading-tight text-white">
+{card.title}
+</h3>
+
+<p className="mb-8 text-[16px] leading-8 text-white/50">
+{card.description}
+</p>
+
+<div className="flex flex-col gap-4">
+
+{card.items.map((item) => (
+
+<div
+key={item}
+className="flex items-center gap-3 text-sm text-white/80"
+>
+
+<div className="h-2 w-2 rounded-full bg-gradient-to-r from-[#D6A66A] to-[#14364D]" />
+
+{item}
+
+</div>
+
+))}
+
+</div>
+
+</div>
+
+))}
+
+</div>
+
+</div>
+
+</section>
+
+
+{/* ENTERPRISE CONTROL */}
+<section className="px-6 py-32 border-t border-white/5">
+
+<div className="mx-auto max-w-7xl">
+
+<div className="mb-20">
+
+<p className="mb-6 text-xs tracking-[0.35em] text-[#D6A66A]">
+{a.enterprise?.badge}
+</p>
+
+<h2 className="max-w-5xl text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
+{a.enterprise?.title1}
+{a.enterprise?.title2}
+</h2>
+
+<p className="mt-8 max-w-[820px] text-[17px] leading-[1.9] text-white/50">
+{a.enterprise?.description}
+</p>
+
+</div>
+
+<div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+
+{enterpriseCardsData.map((card) => (
+
+<div
+key={card.title}
+className="rounded-[32px] border border-white/[0.05] bg-[#050714]/90 p-6 md:p-10 transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-[#D6A66A]/20"
+>
+
+<div className="mb-6 flex items-center gap-3">
+
+<div className="h-2 w-2 rounded-full bg-gradient-to-r from-[#D6A66A] to-[#14364D]" />
+
+<div className="text-xs uppercase tracking-[0.3em] text-white/40">
+Enterprise Runtime
+</div>
+
+</div>
+
+<h3 className="mb-5 text-3xl font-extralight leading-tight text-white">
+{card.title}
+</h3>
+
+<p className="text-[16px] leading-8 text-white/50">
+{card.description}
+</p>
+
+</div>
+
+))}
+
+</div>
+
+</div>
+
+</section>
+
+{/* CTA */}
+<section className="px-6 py-32">
+
+<div className="mx-auto max-w-5xl text-center">
+
+<p className="mb-6 text-xs tracking-[0.35em] text-[#D6A66A]">
+{a.cta?.badge}
+</p>
+
+<h2 className="text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
+
+{a.cta?.title1}
+{a.cta?.title2}
+{a.cta?.title3}
+
+</h2>
+
+<p className="mx-auto mt-8 max-w-[820px] text-[17px] leading-[1.9] text-white/50">
+
+{a.cta?.description}
+
+</p>
+
+<div className="mt-12">
+
+<Link
+href="/demo"
+className="rounded-[22px] bg-gradient-to-r from-[#D6A66A] to-[#14364D] px-6 py-3 md:px-8 md:py-4 text-sm font-extralight transition-all duration-300 ease-out hover:-translate-y-[2px]"
+>
+{a.cta?.primary}
+</Link>
+
+</div>
+
+</div>
+
+</section>
+
+<section className="px-6 pb-24 md:pb-32">
+
+<div className="mx-auto max-w-7xl">
+
+<div className="enterprise-runtime-card p-8 md:p-12">
+
+<div className="mb-10 flex items-center justify-between">
+
+<div>
+
+<p className="runtime-label mb-3">
+ENTERPRISE ACCOUNTING RUNTIME
+</p>
+
+<h2 className="text-3xl md:text-5xl font-extralight tracking-[-0.05em]">
+Live Financial Governance
+</h2>
+
+</div>
+
+<div className="hidden md:flex items-center gap-3 rounded-full border border-white/[0.08] bg-white/[0.03] px-4 py-2">
+
+<div className="h-2 w-2 rounded-full bg-green-400" />
+
+<span className="text-sm text-white/60">
+SYSTEM ACTIVE
+</span>
+
+</div>
+
+</div>
+
+<div className="mb-10 grid gap-4 md:grid-cols-4">
+
+<div className="rounded-2xl border border-white/[0.06] bg-white/[0.03] p-5">
+<p className="runtime-label mb-2">
+Connected Entities
+</p>
+<p className="text-3xl font-extralight text-white">
+12
+</p>
+</div>
+
+<div className="rounded-2xl border border-white/[0.06] bg-white/[0.03] p-5">
+<p className="runtime-label mb-2">
+Journal Entries Today
+</p>
+<p className="text-3xl font-extralight text-white">
+284
+</p>
+</div>
+
+<div className="rounded-2xl border border-white/[0.06] bg-white/[0.03] p-5">
+<p className="runtime-label mb-2">
+Approval Flows
+</p>
+<p className="text-3xl font-extralight text-white">
+18
+</p>
+</div>
+
+<div className="rounded-2xl border border-white/[0.06] bg-white/[0.03] p-5">
+<p className="runtime-label mb-2">
+Governance Integrity
+</p>
+<p className="text-3xl font-extralight text-green-400">
+94%
+</p>
+</div>
+
+</div>
+
+<div className="mb-10 rounded-3xl border border-white/[0.06] bg-white/[0.02] p-6">
+
+<div className="mb-5 flex items-center justify-between">
+
+<div>
+
+<p className="runtime-label mb-2">
+Month-End Close Runtime
+</p>
+
+<h3 className="text-2xl font-extralight text-white">
+Financial Close Progress
+</h3>
+
+</div>
+
+<div className="runtime-status-warning runtime-value">
+72% COMPLETE
+</div>
+
+</div>
+
+<div className="mb-4 h-2 overflow-hidden rounded-full bg-white/[0.05]">
+
+<div className="h-full w-[72%] rounded-full bg-gradient-to-r from-[#8B5CF6] to-[#C084FC]" />
+
+</div>
+
+<div className="grid gap-4 md:grid-cols-3">
+
+<div className="rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+<p className="runtime-label mb-2">
+Pending Approvals
+</p>
+<p className="text-xl font-light text-white">
+2
+</p>
+</div>
+
+<div className="rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+<p className="runtime-label mb-2">
+Reconciliation Exceptions
+</p>
+<p className="text-xl font-light text-amber-400">
+3
+</p>
+</div>
+
+<div className="rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+<p className="runtime-label mb-2">
+Payroll Variances
+</p>
+<p className="text-xl font-light text-red-400">
+1
+</p>
+</div>
+
+</div>
+
+</div>
+
+<div className="mb-10 flex flex-wrap items-center gap-3">
+
+<div className="rounded-full border border-white/[0.06] bg-white/[0.03] px-4 py-2 text-sm text-white/70">
+Procurement
+</div>
+
+<div className="text-white/20">
+→
+</div>
+
+<div className="rounded-full border border-white/[0.06] bg-white/[0.03] px-4 py-2 text-sm text-white/70">
+Approval
+</div>
+
+<div className="text-white/20">
+→
+</div>
+
+<div className="rounded-full border border-white/[0.06] bg-white/[0.03] px-4 py-2 text-sm text-white/70">
+Journal Engine
+</div>
+
+<div className="text-white/20">
+→
+</div>
+
+<div className="rounded-full border border-white/[0.06] bg-white/[0.03] px-4 py-2 text-sm text-white/70">
+Reconciliation
+</div>
+
+<div className="text-white/20">
+→
+</div>
+
+<div className="rounded-full border border-white/[0.06] bg-white/[0.03] px-4 py-2 text-sm text-white/70">
+Financial Close
+</div>
+
+</div>
+
+<div className="mb-10 grid gap-6 md:grid-cols-2">
+
+<div className="rounded-3xl border border-white/[0.06] bg-white/[0.02] p-6">
+
+<div className="mb-6 flex items-center justify-between">
+
+<div>
+
+<p className="runtime-label mb-2">
+Operational Risk Runtime
+</p>
+
+<h3 className="text-2xl font-extralight text-white">
+Live Exception Monitoring
+</h3>
+
+</div>
+
+<div className="runtime-status-warning runtime-value">
+6 ACTIVE
+</div>
+
+</div>
+
+<div className="space-y-4">
+
+<div className="flex items-center justify-between rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+<span className="text-white/70">
+Missing Receipts
+</span>
+<span className="text-amber-400">
+2
+</span>
+</div>
+
+<div className="flex items-center justify-between rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+<span className="text-white/70">
+Payroll Approval Delayed
+</span>
+<span className="text-red-400">
+1
+</span>
+</div>
+
+<div className="flex items-center justify-between rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+<span className="text-white/70">
+Procurement Exceptions
+</span>
+<span className="text-amber-400">
+3
+</span>
+</div>
+
+<div className="flex items-center justify-between rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+<span className="text-white/70">
+Audit Violations
+</span>
+<span className="text-green-400">
+0
+</span>
+</div>
+
+</div>
+
+</div>
+
+<div className="rounded-3xl border border-white/[0.06] bg-white/[0.02] p-6">
+
+<div className="mb-6 flex items-center justify-between">
+
+<div>
+
+<p className="runtime-label mb-2">
+{a.synthetic?.leftTitle} Operational Intelligence
+</p>
+
+<h3 className="text-2xl font-extralight text-white">
+{a.syntheticRuntime?.title}
+</h3>
+
+</div>
+
+<div className="runtime-status-active runtime-value">
+{a.syntheticRuntime?.status}
+</div>
+
+</div>
+
+<div className="space-y-4">
+
+<div className="rounded-2xl border border-purple-500/20 bg-purple-500/5 p-4">
+
+<p className="mb-2 text-sm text-[#D6A66A]">
+{a.synthetic?.leftTitle} {a.syntheticRuntime?.detectedLabel}
+</p>
+
+<p className="text-white/80">
+{a.syntheticRuntime?.detectedText}
+</p>
+
+</div>
+
+<div className="rounded-2xl border border-indigo-500/20 bg-indigo-500/5 p-4">
+
+<p className="mb-2 text-sm text-indigo-300">
+{a.synthetic?.leftTitle} {a.syntheticRuntime?.analysisLabel}
+</p>
+
+<p className="text-white/80">
+{a.syntheticRuntime?.analysisText}
+</p>
+
+</div>
+
+<div className="rounded-2xl border border-green-500/20 bg-green-500/5 p-4">
+
+<p className="mb-2 text-sm text-green-300">
+{a.synthetic?.leftTitle} {a.syntheticRuntime?.recommendationLabel}
+</p>
+
+<p className="text-white/80">
+{a.syntheticRuntime?.recommendationText}
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div className="mb-10 rounded-3xl border border-white/[0.06] bg-white/[0.02] p-6">
+
+<div className="mb-6 flex items-center justify-between">
+
+<div>
+
+<p className="runtime-label mb-2">
+{a.governanceTimeline?.label}
+</p>
+
+<h3 className="text-2xl font-extralight text-white">
+{a.runtimeEvents?.subtitle}
+</h3>
+
+</div>
+
+<div className="runtime-status-active runtime-value">
+{a.runtimeEvents?.status}
+</div>
+
+</div>
+
+<div className="grid gap-4 md:grid-cols-4">
+{(a.governanceTimeline?.events || []).map((event) => (
+<div
+key={event.time}
+className="rounded-2xl border border-white/[0.05] bg-black/20 p-4"
+>
+<p className="mb-2 text-xs text-white/40">
+{event.time}
+</p>
+
+<p className="text-white/75">
+{event.title}
+</p>
+</div>
+))}
+</div>
+
+</div>
+
+<div className="mb-10 grid gap-6 md:grid-cols-2">
+
+<div className="rounded-3xl border border-white/[0.06] bg-white/[0.02] p-6">
+
+<div className="mb-6 flex items-center justify-between">
+
+<div>
+
+<p className="runtime-label mb-2">
+{a.accountability?.label}
+</p>
+
+<h3 className="text-2xl font-extralight text-white">
+{a.accountability?.title}
+</h3>
+
+</div>
+
+<div className="runtime-status-active runtime-value">
+{a.accountability?.status}
+</div>
+
+</div>
+
+<div className="space-y-4">
+
+{(a.accountability?.items || []).map((item) => (
+
+<div
+key={item.label}
+className="rounded-2xl border border-white/[0.05] bg-black/20 p-4"
+>
+
+<p className="mb-2 text-xs tracking-[0.14em] text-white/40 uppercase">
+{item.label}
+</p>
+
+<div className="flex items-center justify-between">
+
+<p className="text-white/80">
+{item.name}
+</p>
+
+<span>
+{item.status}
+</span>
+
+</div>
+
+</div>
+
+))}
+
+</div></div>
+
+</div>
+
+<div className="rounded-3xl border border-white/[0.06] bg-white/[0.02] p-6">
+
+<div className="mb-6 flex items-center justify-between">
+
+<div>
+
+<p className="runtime-label mb-2">
+{a.multiEntity?.label}
+</p>
+
+<h3 className="text-2xl font-extralight text-white">
+{a.multiEntity?.title}
+</h3>
+
+</div>
+
+<div className="runtime-status-active runtime-value">
+{a.multiEntity?.status}
+</div>
+
+</div>
+
+<div className="space-y-4">
+
+{(a.multiEntity?.entities || []).map((entity, index) => (
+
+<div
+key={entity.name}
+className="flex items-center justify-between rounded-2xl border border-white/[0.05] bg-black/20 p-4"
+>
+
+<div className="flex items-center gap-3">
+
+<div className="h-2 w-2 rounded-full bg-green-400" />
+
+<p className="text-white/80">
+{entity.name}
+</p>
+
+</div>
+
+<span>
+{entity.status}
+</span>
+
+</div>
+
+))}
+
+</div></div>
+
+</div>
+
+</div>
+
+<div className="mb-10 rounded-3xl border border-white/[0.06] bg-gradient-to-r from-[#0A0F1F] via-[#111827] to-[#0A0F1F] p-6">
+
+<div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+
+<div>
+
+<p className="runtime-label mb-3">
+Immutable Audit Runtime
+</p>
+
+<h3 className="text-3xl font-extralight text-white">
+Enterprise Audit Traceability
+</h3>
+
+<p className="mt-3 max-w-2xl text-white/55">
+Every approval, edit, transaction and operational event is permanently tracked across the enterprise runtime architecture.
+</p>
+
+</div>
+
+<div className="rounded-3xl border border-green-500/20 bg-green-500/10 px-8 py-6">
+
+<p className="mb-2 text-xs tracking-[0.16em] text-green-300 uppercase">
+AI Runtime Confidence
+</p>
+
+<p className="text-5xl font-extralight text-white">
+97.2%
+</p>
+
+<p className="mt-2 text-sm text-white/50">
+No critical anomalies detected.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div className="mb-10 rounded-3xl border border-white/[0.06] bg-white/[0.02] p-6 md:p-8">
+
+<div className="mb-8 flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+
+<div>
+
+<p className="runtime-label mb-2">
+Cross-System Synchronization
+</p>
+
+<h3 className="text-3xl font-extralight text-white">
+Enterprise Operational Nervous System
+</h3>
+
+</div>
+
+<div className="rounded-full border border-green-500/20 bg-green-500/10 px-5 py-2 text-sm text-green-300">
+ALL SYSTEMS SYNCHRONIZED
+</div>
+
+</div>
+
+<div className="grid gap-4 md:grid-cols-4">
+
+<div className="rounded-2xl border border-white/[0.05] bg-black/20 p-5">
+
+<p className="runtime-label mb-3">
+Payroll Runtime
+</p>
+
+<p className="text-white/80">
+Synced with Operations Control
+</p>
+
+</div>
+
+<div className="rounded-2xl border border-white/[0.05] bg-black/20 p-5">
+
+<p className="runtime-label mb-3">
+Procurement Runtime
+</p>
+
+<p className="text-white/80">
+Connected to Inventory Ledger
+</p>
+
+</div>
+
+<div className="rounded-2xl border border-white/[0.05] bg-black/20 p-5">
+
+<p className="runtime-label mb-3">
+Financial Runtime
+</p>
+
+<p className="text-white/80">
+Linked to Live Revenue Streams
+</p>
+
+</div>
+
+<div className="rounded-2xl border border-white/[0.05] bg-black/20 p-5">
+
+<p className="runtime-label mb-3">
+AI Runtime
+</p>
+
+<p className="text-white/80">
+Monitoring Operational Behavior
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div className="mb-10 grid gap-6 md:grid-cols-2">
+
+<div className="rounded-3xl border border-white/[0.06] bg-gradient-to-br from-[#0A0F1F] to-[#111827] p-6">
+
+<div className="mb-6 flex items-center justify-between">
+
+<div>
+
+<p className="runtime-label mb-2">
+{a.synthetic?.leftTitle} Runtime Decision Layer
+</p>
+
+<h3 className="text-2xl font-extralight text-white">
+{a.syntheticDecisionLayer?.title}
+</h3>
+
+</div>
+
+<div className="runtime-status-active runtime-value">
+{a.syntheticDecisionLayer?.status}
+</div>
+
+</div>
+
+<div className="space-y-4">
+
+<div className="rounded-2xl border border-purple-500/20 bg-purple-500/5 p-5">
+
+<p className="mb-2 text-xs uppercase tracking-[0.14em] text-[#D6A66A]">
+{a.synthetic?.leftTitle} {a.syntheticDecisionLayer?.recommendationLabel}
+</p>
+
+<p className="text-white/80">
+{a.syntheticDecisionLayer?.recommendationText}
+</p>
+
+</div>
+
+<div className="rounded-2xl border border-indigo-500/20 bg-indigo-500/5 p-5">
+
+<p className="mb-2 text-xs uppercase tracking-[0.14em] text-indigo-300">
+{a.synthetic?.leftTitle} {a.syntheticDecisionLayer?.predictionLabel}
+</p>
+
+<p className="text-white/80">
+{a.syntheticDecisionLayer?.predictionText}
+</p>
+
+</div>
+
+<div className="rounded-2xl border border-amber-500/20 bg-amber-500/5 p-5">
+
+<p className="mb-2 text-xs uppercase tracking-[0.14em] text-amber-300">
+{a.synthetic?.leftTitle} {a.syntheticDecisionLayer?.detectionLabel}
+</p>
+
+<p className="text-white/80">
+{a.syntheticDecisionLayer?.detectionText}
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div className="rounded-3xl border border-white/[0.06] bg-white/[0.02] p-6">
+
+<div className="mb-6 flex items-center justify-between">
+
+<div>
+
+<p className="runtime-label mb-2">
+{a.runtimeEvents?.title}
+</p>
+
+<h3 className="text-2xl font-extralight text-white">
+{a.runtimeEvents?.subtitle}
+</h3>
+
+</div>
+
+<div className="runtime-status-active runtime-value">
+{a.runtimeEvents?.status}
+</div>
+
+</div>
+
+<div className="space-y-3">
+
+<div className="flex items-center gap-4 rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+<span className="text-xs text-white/35">
+09:22
+</span>
+<span className="text-white/75">
+Payroll runtime locked
+</span>
+</div>
+
+<div className="flex items-center gap-4 rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+<span className="text-xs text-white/35">
+09:24
+</span>
+<span className="text-white/75">
+Inventory ledger synchronized
+</span>
+</div>
+
+<div className="flex items-center gap-4 rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+<span className="text-xs text-white/35">
+09:26
+</span>
+<span className="text-white/75">
+{a.synthetic?.leftTitle} variance detection triggered
+</span>
+</div>
+
+<div className="flex items-center gap-4 rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+<span className="text-xs text-white/35">
+09:28
+</span>
+<span className="text-white/75">
+Approval escalation initiated
+</span>
+</div>
+
+<div className="flex items-center gap-4 rounded-2xl border border-white/[0.05] bg-black/20 p-4">
+<span className="text-xs text-white/35">
+09:31
+</span>
+<span className="text-white/75">
+Revenue synchronization completed
+</span>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div className="grid gap-0 md:grid-cols-2">
+
+<div className="runtime-grid-line border-b md:border-b-0 md:border-r p-6">
+
+<div className="space-y-6">
+
+<div className="flex items-center justify-between">
+<span className="runtime-label">
+Canonical Journal Engine
+</span>
+<span className="runtime-status-active runtime-value">
+ENABLED
+</span>
+</div>
+
+<div className="flex items-center justify-between">
+<span className="runtime-label">
+3-Way Matching
+</span>
+<span className="runtime-status-active runtime-value">
+ACTIVE
+</span>
+</div>
+
+<div className="flex items-center justify-between">
+<span className="runtime-label">
+Audit Chain Integrity
+</span>
+<span className="runtime-status-active runtime-value">
+VERIFIED
+</span>
+</div>
+
+<div className="flex items-center justify-between">
+<span className="runtime-label">
+Procurement Governance
+</span>
+<span className="runtime-status-warning runtime-value">
+HIGH
+</span>
+</div>
+
+</div>
+
+</div>
+
+<div className="p-6">
+
+<div className="space-y-6">
+
+<div className="flex items-center justify-between">
+<span className="runtime-label">
+Inventory Ledger
+</span>
+<span className="runtime-status-active runtime-value">
+SYNCHRONIZED
+</span>
+</div>
+
+<div className="flex items-center justify-between">
+<span className="runtime-label">
+Multi-Entity Consolidation
+</span>
+<span className="runtime-status-active runtime-value">
+READY
+</span>
+</div>
+
+<div className="flex items-center justify-between">
+<span className="runtime-label">
+Approval Runtime
+</span>
+<span className="runtime-status-active runtime-value">
+OPERATIONAL
+</span>
+</div>
+
+<div className="flex items-center justify-between">
+<span className="runtime-label">
+Period Locking
+</span>
+<span className="runtime-status-active runtime-value">
+ENFORCED
+</span>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<Footer />
+
+
+
+
+
+</main>
+
+);
+
+
+<Footer />
+
+</main>
+
+);
+
+}

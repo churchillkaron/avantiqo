@@ -1,0 +1,228 @@
+"use client";
+
+import SiteTopNav from "@/app/components/SiteTopNav";
+
+export default function Page() {
+  return (
+    <>
+      <SiteTopNav />
+
+      <main className="min-h-screen bg-[#02030A] text-white px-6 pt-40">
+
+        <div className="mx-auto max-w-7xl">
+
+          <p className="text-xs tracking-[0.35em] text-[#D6A66A]">
+            SYNTHETIC INTELLIGENCE
+          </p>
+
+          <h1 className="mt-8 text-7xl font-extralight tracking-[-0.06em]">
+            Software Stores Information.
+            <br />
+            AI Generates Information.
+            <br />
+            Synthetic Intelligence
+            <br />
+            Operates Businesses.
+          </h1>
+
+          <p className="mt-10 max-w-4xl text-xl leading-10 text-white/60">
+            Synthetic Intelligence connects
+            Business Reality,
+            Financial Intelligence,
+            Enterprise Memory,
+            Governance,
+            Accounting,
+            Operations,
+            Workforce,
+            Documents
+            and Execution into one
+            continuously learning system.
+          </p>
+
+        </div>
+
+      </main>
+
+    </>
+  );
+}
+      {/* What Is Synthetic Intelligence */}
+      <section className="mx-auto max-w-7xl px-6 py-32">
+        <p className="mb-4 text-xs uppercase tracking-[0.4em] text-[#D6A66A]">
+          SYNTHETIC INTELLIGENCE
+        </p>
+        <h2 className="mb-10 text-6xl font-extralight">
+          What Is Synthetic Intelligence?
+        </h2>
+
+        <div className="max-w-5xl space-y-8 text-xl leading-relaxed text-white/70">
+          <p>
+            Most software stores information.
+            ERP systems store transactions.
+            CRM systems store customers.
+            HR systems store employees.
+            Accounting systems store financial records.
+            Marketing systems store campaigns.
+          </p>
+
+          <p>
+            The problem is that none of these systems understand the relationship
+            between events occurring across the organization. A customer complaint
+            impacts operations. Operations impact service quality. Service quality
+            impacts revenue. Revenue impacts cash flow. Cash flow impacts financial
+            performance.
+          </p>
+
+          <p>
+            Synthetic Intelligence connects these events into a single operational
+            model so leadership can understand not only what happened, but why it
+            happened and what will happen next.
+          </p>
+        </div>
+      </section>
+
+      {/* Organization As One System */}
+      <section className="mx-auto max-w-7xl px-6 py-32 border-t border-white/5">
+        <h2 className="mb-10 text-6xl font-extralight">
+          The Organization As One System
+        </h2>
+
+        <div className="max-w-5xl space-y-8 text-xl leading-relaxed text-white/70">
+          <p>
+            Most companies operate through disconnected departments.
+            Operations manages daily execution. Finance manages reporting.
+            Sales manages customers. Marketing manages growth. Human Resources
+            manages people.
+          </p>
+
+          <p>
+            Each department sees only a portion of reality.
+          </p>
+
+          <p>
+            Synthetic Intelligence creates a unified intelligence layer across
+            the organization, allowing leaders to understand how every decision
+            affects performance, profitability, customer satisfaction,
+            operational efficiency and long-term growth.
+          </p>
+
+          <p>
+            Instead of managing departments separately, organizations can manage
+            the entire business as one connected system.
+          </p>
+        </div>
+      </section>
+
+      {/* Real Time Understanding */}
+      <section className="mx-auto max-w-7xl px-6 py-32 border-t border-white/5">
+        <h2 className="mb-10 text-6xl font-extralight">
+          From Historical Reporting To Real-Time Understanding
+        </h2>
+
+        <div className="max-w-5xl space-y-8 text-xl leading-relaxed text-white/70">
+          <p>
+            Traditional reporting explains what happened last week, last month
+            or last quarter.
+          </p>
+
+          <p>
+            By the time problems appear in reports, the damage has already
+            occurred.
+          </p>
+
+          <p>
+            Synthetic Intelligence continuously monitors operational activity,
+            customer behavior, staff performance, financial movements,
+            compliance requirements and project execution in real time.
+          </p>
+
+          <p>
+            This allows organizations to identify risks, inefficiencies and
+            opportunities before they appear in financial statements.
+          </p>
+        </div>
+      </section>
+
+      {/* Cause And Effect */}
+      <section className="mx-auto max-w-7xl px-6 py-32 border-t border-white/5">
+        <h2 className="mb-10 text-6xl font-extralight">
+          Understanding Cause And Effect
+        </h2>
+
+        <div className="max-w-5xl space-y-8 text-xl leading-relaxed text-white/70">
+          <p>
+            Most systems tell you that revenue decreased.
+            Very few systems explain why.
+          </p>
+
+          <p>
+            Synthetic Intelligence continuously maps relationships between
+            people, customers, operations, projects, finances and outcomes.
+          </p>
+
+          <p>
+            This creates visibility into the root causes behind performance
+            changes instead of simply reporting results.
+          </p>
+
+          <p>
+            Organizations gain the ability to move from reactive management
+            to proactive decision-making.
+          </p>
+        </div>
+      </section>
+
+      {/* Executive Intelligence */}
+      <section className="mx-auto max-w-7xl px-6 py-32 border-t border-white/5">
+        <h2 className="mb-10 text-6xl font-extralight">
+          The Executive Intelligence Layer
+        </h2>
+
+        <div className="max-w-5xl space-y-8 text-xl leading-relaxed text-white/70">
+          <p>
+            Leadership teams do not need more dashboards.
+            They need understanding.
+          </p>
+
+          <p>
+            Synthetic Intelligence acts as an executive intelligence layer that
+            continuously evaluates operational performance, financial health,
+            organizational risk, customer experience and growth opportunities.
+          </p>
+
+          <p>
+            Instead of searching through dozens of reports, executives receive
+            a clear picture of what requires attention and why.
+          </p>
+        </div>
+      </section>
+
+      {/* Future */}
+      <section className="mx-auto max-w-7xl px-6 py-32 border-t border-white/5">
+        <h2 className="mb-10 text-6xl font-extralight">
+          The Future Of Enterprise Operations
+        </h2>
+
+        <div className="max-w-5xl space-y-8 text-xl leading-relaxed text-white/70">
+          <p>
+            Today software records activity.
+            Tomorrow software understands activity.
+          </p>
+
+          <p>
+            Synthetic Intelligence is the transition between information systems
+            and intelligent organizations.
+          </p>
+
+          <p>
+            The goal is not automation.
+            The goal is organizational understanding.
+          </p>
+
+          <p>
+            When an organization understands itself, better decisions become
+            possible at every level.
+          </p>
+        </div>
+      </section>
+

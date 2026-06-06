@@ -4,150 +4,129 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="relative overflow-hidden border-t border-white/[0.08] bg-[#02030A] px-6 pt-24 pb-14">
+    <footer className="relative overflow-hidden border-t border-white/[0.08] bg-[#02030A]">
 
-      {/* TOP LIGHT LINE */}
-      <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[#8B5CF6]/30 to-transparent" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,#3A2410_0%,#0B0912_35%,#02030A_100%)]" />
 
-      {/* LIGHTS */}
-      <div className="absolute left-[-10%] top-[-20%] h-[500px] w-[500px] rounded-full bg-[#8B5CF6]/10 blur-[140px]" />
+      <div className="relative mx-auto max-w-7xl px-6 py-6">
 
-      <div className="absolute bottom-[-20%] right-[-10%] h-[500px] w-[500px] rounded-full bg-[#D6A66A]/10 blur-[160px]" />
+        <div className="mb-4">
 
-      {/* NOISE */}
-      <div className="absolute inset-0 opacity-[0.03]" />
+          <div className="grid gap-6 xl:grid-cols-[0.9fr_1fr_1fr_1fr]">
 
-      <div className="relative mx-auto max-w-7xl">
+            <div>
 
-        {/* TOP */}
-        <div className="grid items-start gap-20 border-b border-white/[0.08] pb-20 md:grid-cols-2 xl:grid-cols-4">
+              <Image
+                src="/brand/avantiqo-logo1.png"
+                alt="Avantiqo"
+                width={320}
+                height={120}
+                className="h-auto w-[180px] object-contain"
+              />
 
-          {/* BRAND */}
-          <div>
+              <div className="mt-8 h-px w-32 bg-gradient-to-r from-[#D6A66A] to-transparent" />
 
-            <Image
-  src="/brand/avantiqo-logo1.png"
-  alt="Avantiqo"
-  width={300}
-  height={100}
-  className="h-auto w-[180px] object-contain"
-/>
+              <p className="mt-2 max-w-[260px] text-[14px] leading-5 text-white/55">
+                Avantiqo combines Artificial Intelligence and
+                Synthetic Intelligence to create organizations
+                that understand themselves.
+              </p>
 
-            
+              <div className="mt-8 text-sm uppercase tracking-[0.4em] text-[#D6A66A]">
+                Enterprise Intelligence Platform
+              </div>
 
-          </div>
+            </div>
 
-          {/* PLATFORM */}
-          <div>
+            <div>
 
-            <p className="mb-6 text-xs tracking-[0.28em] text-[#B58AF8]">
-              PLATFORM
-            </p>
-
-            <div className="grid gap-5 text-[15px]">
-
-              <a
-                href="/what-is-synthetic-intelligence"
-                className="text-white/45 transition duration-300 hover:text-white"
-              >
+              <div className="mb-8 text-xs uppercase tracking-[0.35em] text-[#D6A66A]">
                 Platform
-              </a>
+              </div>
 
-              <a
-                href="/what-is-synthetic-intelligence"
-                className="text-white/45 transition duration-300 hover:text-white"
-              >
-                AI Infrastructure
-              </a>
+              <div className="grid gap-5 text-white/50">
 
-              <a
-                href="/what-is-synthetic-intelligence"
-                className="text-white/45 transition duration-300 hover:text-white"
-              >
-                Enterprise
-              </a>
+                <a href="/what-is-synthetic-intelligence" className="hover:text-white">
+                  Synthetic Intelligence
+                </a>
 
-              <a
-                href="/demo"
-                className="text-white/45 transition duration-300 hover:text-white"
-              >
-                Demo
-              </a>
+                <a href="/security" className="hover:text-white">
+                  Enterprise Security
+                </a>
 
-            </div>
+                <a href="/industries" className="hover:text-white">
+                  Industries
+                </a>
 
-          </div>
+                <a href="/demo" className="hover:text-white">
+                  Request Demo
+                </a>
 
-          {/* COMPLIANCE */}
-          <div>
-
-            <p className="mb-6 text-xs tracking-[0.28em] text-[#B58AF8]">
-              COMPLIANCE
-            </p>
-
-            <div className="grid gap-5 text-[15px]">
-
-              <a
-                href="/security"
-                className="text-white/45 transition duration-300 hover:text-white"
-              >
-                Enterprise Security
-              </a>
-
-              <a
-                href="/privacy"
-                className="text-white/45 transition duration-300 hover:text-white"
-              >
-                Privacy Policy
-              </a>
-
-              <a
-                href="/gdpr"
-                className="text-white/45 transition duration-300 hover:text-white"
-              >
-                GDPR Compliance
-              </a>
-
-              <a
-                href="/governance"
-                className="text-white/45 transition duration-300 hover:text-white"
-              >
-                Governance
-              </a>
+              </div>
 
             </div>
 
-          </div>
+            <div>
 
-          {/* CONTACT */}
-          <div>
+              <div className="mb-8 text-xs uppercase tracking-[0.35em] text-[#D6A66A]">
+                Industries
+              </div>
 
-            <p className="mb-6 text-xs tracking-[0.28em] text-[#B58AF8]">
-              CONTACT
-            </p>
+              <div className="grid gap-5 text-white/50">
 
-            <div className="grid gap-5 text-[15px]">
+                <a href="/industries/accounting-firms" className="hover:text-white">
+                  Accounting Firms
+                </a>
 
-              <a
-                href="mailto:hello@avantiqo.ai"
-                className="text-white/45 transition duration-300 hover:text-white"
-              >
-                hello@avantiqo.ai
-              </a>
+                <a href="/industries/healthcare" className="hover:text-white">
+                  Healthcare
+                </a>
 
-              <a
-                href="/contact"
-                className="text-white/45 transition duration-300 hover:text-white"
-              >
-                Enterprise Consultation
-              </a>
+                <a href="/industries/hospitality" className="hover:text-white">
+                  Hospitality
+                </a>
 
-              <a
-                href="/terms"
-                className="text-white/45 transition duration-300 hover:text-white"
-              >
-                Terms & Conditions
-              </a>
+                <a href="/industries/construction" className="hover:text-white">
+                  Construction
+                </a>
+
+                <a href="/industries/retail-commerce" className="hover:text-white">
+                  Retail & Commerce
+                </a>
+
+              </div>
+
+            </div>
+
+            <div>
+
+              <div className="mb-8 text-xs uppercase tracking-[0.35em] text-[#D6A66A]">
+                Trust
+              </div>
+
+              <div className="grid gap-5 text-white/50">
+
+                <a href="/security" className="hover:text-white">
+                  Security
+                </a>
+
+                <a href="/privacy" className="hover:text-white">
+                  Privacy
+                </a>
+
+                <a href="/governance" className="hover:text-white">
+                  Governance
+                </a>
+
+                <a href="/gdpr" className="hover:text-white">
+                  Compliance
+                </a>
+
+                <a href="mailto:hello@avantiqo.ai" className="hover:text-white">
+                  hello@avantiqo.ai
+                </a>
+
+              </div>
 
             </div>
 
@@ -155,40 +134,14 @@ export default function Footer() {
 
         </div>
 
-        {/* BOTTOM */}
-        <div className="pt-10">
+        <div className="mt-4 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-4 text-sm text-white/35 md:flex-row">
 
-          <div className="flex flex-col items-center justify-between gap-6 md:gap-8 text-[15px] text-white/30 md:flex-row">
+          <div>
+            © 2026 Avantiqo. All rights reserved.
+          </div>
 
-            <p>
-              © 2026 Avantiqo. All rights reserved.
-            </p>
-
-            <div className="flex items-center gap-6 md:gap-8">
-
-              <a
-                href="/privacy"
-                className="transition duration-300 hover:text-white/65"
-              >
-                Privacy
-              </a>
-
-              <a
-                href="/terms"
-                className="transition duration-300 hover:text-white/65"
-              >
-                Terms
-              </a>
-
-              <a
-                href="/security"
-                className="transition duration-300 hover:text-white/65"
-              >
-                Security
-              </a>
-
-            </div>
-
+          <div className="uppercase tracking-[0.25em] text-[#D6A66A]/70">
+            Built For Controlled Growth
           </div>
 
         </div>

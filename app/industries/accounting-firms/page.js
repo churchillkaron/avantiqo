@@ -2,1579 +2,428 @@
 
 import Image from "next/image";
 import Link from "next/link";
-
 import SiteTopNav from "@/app/components/SiteTopNav";
 import Footer from "@/components/layout/Footer";
 import { useTranslation } from "@/app/providers/I18nProvider";
-
-
-
-
-
 
 export default function AccountingIndustryPage() {
   const { translations } = useTranslation();
   const a = translations.home?.accountingFirms || {};
 
-  const enterpriseCardsData =
-    a.enterpriseCards || [];
+  const challenges = [
+    {
+      title: "Disconnected client data",
+      text: "Client documents, accounting systems, approvals, payroll, invoices and reports live in different places. Partners lose visibility and teams waste time searching, checking and correcting."
+    },
+    {
+      title: "Low-margin clients are hard to see",
+      text: "Many firms know revenue per client, but not true profitability. Avantiqo helps reveal which clients consume time, create exceptions and reduce firm margin."
+    },
+    {
+      title: "Manual compliance pressure",
+      text: "Deadlines, approvals, document trails, tax workflows and audit preparation create risk when they depend on manual follow-up and memory."
+    },
+    {
+      title: "Advisory work is difficult to scale",
+      text: "Most accounting firms want to move beyond bookkeeping, but advisory insight is trapped inside senior staff. Avantiqo turns financial data into repeatable intelligence."
+    }
+  ];
 
-  const advisorCardsData =
-    a.advisorCards || [];
+  const whyCards = [
+    {
+      title: "Client Profitability Intelligence",
+      text: "See which clients are profitable, which clients need intervention and which clients are consuming too much team capacity before margins decline."
+    },
+    {
+      title: "Practice Performance",
+      text: "Track utilization, realization, recoverability, workload, WIP, approvals and team performance across the full accounting firm."
+    },
+    {
+      title: "Compliance & Audit Readiness",
+      text: "Maintain governance, approval trails, document control, period locking, exception tracking and audit visibility from one operating layer."
+    },
+    {
+      title: "Advisory Intelligence",
+      text: "Identify risks, cash flow issues, unusual trends, advisory opportunities and recommended next actions for every client."
+    }
+  ];
 
-  const roiCardsData =
-    a.roiCards || [];
+  const operatingSystem = [
+    {
+      title: "Client Intelligence",
+      text: "Client profiles, document status, accounting activity, deadlines, communication, profitability and risk in one place."
+    },
+    {
+      title: "Workflow Control",
+      text: "Control bookkeeping, payroll, reconciliation, tax preparation, approval flows, review cycles and monthly close workflows."
+    },
+    {
+      title: "Financial Runtime",
+      text: "Connect accounting events, operational approvals, journal logic, reconciliation, exceptions and financial reporting."
+    },
+    {
+      title: "Partner Dashboard",
+      text: "Give partners live visibility into clients, team capacity, deadlines, revenue, profitability, risk and advisory opportunities."
+    },
+    {
+      title: "Synthetic Intelligence",
+      text: "Predict client risk, detect anomalies, recommend action, highlight advisory opportunities and reduce manual review work."
+    },
+    {
+      title: "Client Deliverables",
+      text: "Create board-ready reports, advisory summaries, financial reviews, client updates and management presentations faster."
+    }
+  ];
 
-  const featuresData =
-    a.features || [];
+  const intelligence = [
+    {
+      title: "Predict client risk",
+      text: "Identify clients likely to miss deadlines, submit incomplete documents, delay payment or create compliance exposure."
+    },
+    {
+      title: "Detect anomalies",
+      text: "Find unusual transactions, payroll variance, reconciliation exceptions, margin drops and operational inconsistencies."
+    },
+    {
+      title: "Recommend advisory actions",
+      text: "Turn bookkeeping data into recommendations clients can understand, trust and pay for."
+    },
+    {
+      title: "Prioritize partner attention",
+      text: "Show which clients, tasks, exceptions and opportunities need leadership focus today."
+    }
+  ];
+
+  const roi = [
+    {
+      label: "Higher margin",
+      title: "Reduce unbilled work",
+      text: "When work, exceptions and approvals are visible, firms can protect margin and reduce hidden time leakage."
+    },
+    {
+      label: "More advisory revenue",
+      title: "Turn data into advice",
+      text: "Avantiqo helps accounting firms convert financial data into client-facing advisory insight."
+    },
+    {
+      label: "Better control",
+      title: "Know every client status",
+      text: "Partners can see client health, compliance status, deadlines, workload and financial exposure from one operating system."
+    },
+    {
+      label: "Scalable practice",
+      title: "Grow without chaos",
+      text: "Standardized workflows, synthetic intelligence and governance make it easier to manage more clients without losing control."
+    }
+  ];
+
+  const runtimeMetrics = [
+    ["Connected Clients", "128"],
+    ["Open Exceptions", "14"],
+    ["Advisory Opportunities", "32"],
+    ["Governance Integrity", "96%"]
+  ];
 
   return (
-
-    <main className="min-h-screen bg-[#04050B] text-white overflow-hidden">
-
+    <main className="min-h-screen overflow-hidden bg-[#03050B] text-white">
       <SiteTopNav />
 
-      {/* HERO */}
-      <section className="relative px-6 py-32">
-
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,#241237_0%,#070B16_40%,#02030A_100%)]" />
-
-        <div className="relative mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[0.9fr_1.1fr]">
-
-          <div>
-
-            <p className="mb-6 text-xs tracking-[0.35em] text-[#D6A66A]">
-              {a.hero?.badge}
+      <section className="relative min-h-screen px-6 py-28">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(214,166,106,0.18),transparent_28%),radial-gradient(circle_at_top_right,rgba(20,54,77,0.35),transparent_36%),linear-gradient(180deg,#050712_0%,#02030A_100%)]" />
+        <div className="relative mx-auto grid max-w-7xl items-center gap-14 lg:grid-cols-[0.95fr_1.05fr]">
+          <div className="rounded-[42px] border border-white/10 bg-white/[0.045] p-8 shadow-[0_30px_120px_rgba(0,0,0,0.45)] backdrop-blur-3xl md:p-12">
+            <p className="mb-6 text-xs uppercase tracking-[0.42em] text-[#D6A66A]">
+              {a.hero?.badge || "Accounting Firms"}
             </p>
-
-            <h1 className="text-6xl font-extralight leading-[1.02] tracking-[-0.06em] md:text-[92px]">
-
-              {a.hero?.title1}
-              <br />
-              {a.hero?.title2}
-              <br />
-              <br />
-              {a.hero?.title3}
-              <br />
-              {a.hero?.title4}
-
+            <h1 className="max-w-5xl text-5xl font-extralight leading-[0.98] tracking-[-0.07em] md:text-7xl lg:text-[86px]">
+              Accounting Firms Powered by Synthetic Intelligence
             </h1>
-
-            <p className="mt-8 max-w-[620px] text-[17px] leading-[1.9] text-white/50">
-
-              {a.hero?.description}
-
+            <p className="mt-8 max-w-3xl text-lg leading-9 text-white/62">
+              Avantiqo helps accounting firms move from bookkeeping and fragmented workflows into a controlled operating system for clients, compliance, advisory, profitability, governance and firm-wide decision making.
             </p>
-
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-
               <Link
                 href="/demo"
-                className="rounded-[22px] bg-gradient-to-r from-[#D6A66A] to-[#14364D] px-6 py-3 md:px-8 md:py-4 text-sm font-extralight transition-all duration-300 ease-out hover:-translate-y-[2px]"
+                className="rounded-2xl bg-gradient-to-r from-[#D6A66A] via-[#E7C78A] to-[#C9974D] px-8 py-4 text-center font-semibold text-black shadow-[0_0_45px_rgba(214,166,106,0.42)] transition hover:brightness-110"
               >
-                {a.hero?.primary}
+                Book Demo
               </Link>
-
               <Link
-                href="/contact"
-                className="rounded-[22px] border border-white/[0.05] bg-white/[0.025] px-6 py-3 md:px-8 md:py-4 text-sm text-white/50 transition-all duration-300 ease-out hover:border-[#D6A66A]/20"
+                href="/workspace"
+                className="rounded-2xl border border-white/15 bg-white/[0.03] px-8 py-4 text-center font-semibold text-white/78 transition hover:border-[#D6A66A]/40 hover:bg-white/[0.06]"
               >
-                {a.hero?.secondary}
+                Explore Platform
               </Link>
-
             </div>
-
           </div>
 
-          <div className="relative overflow-hidden rounded-[36px] border border-white/[0.05] bg-[#050714] shadow-[0_0_50px_rgba(120,80,255,0.08)]">
-
+          <div className="relative overflow-hidden rounded-[42px] border border-white/10 bg-white/[0.035] p-3 shadow-[0_30px_120px_rgba(0,0,0,0.5)] backdrop-blur-2xl">
             <Image
               src="/images/accounting-enterprise-hero.png"
-              alt="Accounting Runtime"
+              alt="Accounting firm intelligence platform"
               width={1600}
               height={1000}
-              quality={75}
               priority
-              className="h-full w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
+              className="h-[640px] w-full rounded-[32px] object-cover opacity-90"
             />
-
+            <div className="absolute inset-3 rounded-[32px] bg-gradient-to-t from-[#03050B]/85 via-[#03050B]/15 to-transparent" />
+            <div className="absolute bottom-10 left-10 right-10 rounded-3xl border border-white/10 bg-black/35 p-6 backdrop-blur-2xl">
+              <p className="text-xs uppercase tracking-[0.3em] text-[#D6A66A]">
+                Live Firm Runtime
+              </p>
+              <p className="mt-3 text-2xl font-light">
+                Client risk, WIP, compliance, advisory opportunities and profitability connected in one view.
+              </p>
+            </div>
           </div>
-
         </div>
-
       </section>
 
-      {/* BEFORE / AFTER */}
       <section className="px-6 py-28">
-
         <div className="mx-auto max-w-7xl">
-
-          <div className="mb-16">
-
-            <p className="mb-6 text-xs tracking-[0.35em] text-[#D6A66A]">
-              {a.beforeAfter?.badge}
+          <div className="mx-auto mb-16 max-w-4xl text-center">
+            <p className="mb-5 text-xs uppercase tracking-[0.42em] text-[#D6A66A]">
+              The Problem
             </p>
-
-            <h2 className="max-w-5xl text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
-
-              {a.beforeAfter?.title1}
-              {a.beforeAfter?.title2}
-
+            <h2 className="text-5xl font-extralight tracking-[-0.06em] md:text-7xl">
+              Traditional Accounting Software Does Not Run the Firm
             </h2>
-
+            <p className="mt-6 text-lg leading-9 text-white/55">
+              Accounting firms do not only need ledgers. They need client intelligence, workflow control, compliance visibility, partner dashboards and synthetic intelligence that helps the firm act before problems become expensive.
+            </p>
           </div>
 
-          <div className="grid gap-6 md:gap-8 lg:grid-cols-2">
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+            {challenges.map((card) => (
+              <div key={card.title} className="rounded-[32px] border border-white/10 bg-white/[0.045] p-7 shadow-[0_20px_80px_rgba(0,0,0,0.35)] backdrop-blur-2xl">
+                <h3 className="text-2xl font-light tracking-[-0.04em]">{card.title}</h3>
+                <p className="mt-5 leading-8 text-white/58">{card.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
-            <div className="overflow-hidden rounded-[32px] border border-red-500/10 bg-[#0A0A12]">
-
+      <section className="px-6 py-28">
+        <div className="mx-auto max-w-7xl">
+          <div className="grid gap-8 lg:grid-cols-2">
+            <div className="overflow-hidden rounded-[40px] border border-red-400/15 bg-red-500/[0.035] p-3 backdrop-blur-2xl">
               <Image
                 src="/images/accounting-before-chaos.png"
-                alt="Before"
+                alt="Accounting firm before Avantiqo"
                 width={1200}
                 height={800}
-                quality={75}
-                className="h-[520px] w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
+                className="h-[420px] w-full rounded-[30px] object-cover"
               />
-
-              <div className="p-6 md:p-10">
-
-                <p className="mb-5 text-sm tracking-[0.3em] text-red-400">
-                  BEFORE
-                </p>
-
-                <h3 className="text-4xl font-extralight">
-                  Month-end chaos
-                </h3>
-
-                <ul className="mt-8 space-y-4 text-white/50">
-
-                  <li>• Missing invoices and receipts</li>
-                  <li>• Manual data entry</li>
-                  <li>• Line messages and paperwork</li>
-                  <li>• No real-time visibility</li>
-                  <li>• Delayed financial oversight</li>
-                  <li>• Operational problems discovered too late</li>
-
-                </ul>
-
+              <div className="p-7">
+                <p className="mb-4 text-xs uppercase tracking-[0.32em] text-red-300">Before</p>
+                <h3 className="text-4xl font-extralight tracking-[-0.05em]">Reactive, fragmented and partner-dependent</h3>
+                <div className="mt-6 space-y-3 text-white/62">
+                  <p>Manual follow-ups across clients and teams.</p>
+                  <p>Limited visibility into true client profitability.</p>
+                  <p>Compliance risk hidden until deadlines are close.</p>
+                  <p>Advisory work depends on individual partner memory.</p>
+                </div>
               </div>
-
             </div>
 
-            <div className="overflow-hidden rounded-[32px] border border-emerald-500/10 bg-[#0A0A12]">
-
+            <div className="overflow-hidden rounded-[40px] border border-emerald-400/15 bg-emerald-500/[0.035] p-3 backdrop-blur-2xl">
               <Image
                 src="/images/accounting-after-control.png"
-                alt="After"
+                alt="Accounting firm after Avantiqo"
                 width={1200}
                 height={800}
-                quality={75}
-                className="h-[520px] w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
+                className="h-[420px] w-full rounded-[30px] object-cover"
               />
-
-              <div className="p-6 md:p-10">
-
-                <p className="mb-5 text-sm tracking-[0.3em] text-emerald-400">
-                  AFTER
-                </p>
-
-                <h3 className="text-4xl font-extralight">
-                  Live operational control
-                </h3>
-
-                <ul className="mt-8 space-y-4 text-white/50">
-
-                  <li>• AI invoice extraction</li>
-                  <li>• Real-time operational visibility</li>
-                  <li>• Live payroll and procurement tracking</li>
-                  <li>• Connected approvals and audit trails</li>
-                  <li>• Multi-company dashboard control</li>
-                  <li>• Accounting firms handle more clients efficiently</li>
-
-                </ul>
-
+              <div className="p-7">
+                <p className="mb-4 text-xs uppercase tracking-[0.32em] text-emerald-300">After</p>
+                <h3 className="text-4xl font-extralight tracking-[-0.05em]">Controlled, intelligent and scalable</h3>
+                <div className="mt-6 space-y-3 text-white/62">
+                  <p>Client status, compliance and exceptions visible in real time.</p>
+                  <p>Partners see profitability, workload and advisory opportunities.</p>
+                  <p>Synthetic intelligence recommends what needs attention.</p>
+                  <p>The firm grows without losing governance and control.</p>
+                </div>
               </div>
-
             </div>
-
           </div>
-
         </div>
-
       </section>
 
-
-
-
-      <section className="px-6 py-24">
-
-        <div className="mx-auto max-w-7xl">
-
-        <div className="mb-8">
-
-          <p className="mb-4 text-xs tracking-[0.35em] text-[#D6A66A] uppercase">
-            {a.switch?.badge}
-          </p>
-
-          <h2 className="max-w-5xl text-6xl font-extralight leading-tight text-white">
-            {a.switch?.title1}
-            <br />
-            {a.switch?.title2}
-          </h2>
-
-        </div>
-
-        <div className="grid gap-6 md:grid-cols-2">
-
-          <div className="rounded-3xl border border-white/[0.06] bg-white/[0.02] p-8">
-
-            <h3 className="mb-4 text-3xl font-extralight text-white">
-              Traditional Accounting Software
-            </h3>
-
-            <ul className="space-y-4 text-white/60">
-              <li>• Reports after the month ends</li>
-              <li>• No operational visibility</li>
-              <li>• Manual document collection</li>
-              <li>• Problems discovered too late</li>
-              <li>• No approval intelligence</li>
-              <li>• No operational accountability</li>
-              <li>• No live client monitoring</li>
-            </ul>
-
-          </div>
-
-          <div className="rounded-3xl border border-green-500/20 bg-green-500/[0.05] p-8">
-
-            <h3 className="mb-4 text-3xl font-extralight text-white">
-              Avantiqo Runtime
-            </h3>
-
-            <ul className="space-y-4 text-white/80">
-              <li>• Live operational visibility</li>
-              <li>• AI document extraction</li>
-              <li>• Multi-company control</li>
-              <li>• Approval accountability</li>
-              <li>• Operational anomaly detection</li>
-              <li>• Continuous audit trail</li>
-              <li>• Synthetic Intelligence recommendations</li>
-            </ul>
-
-          </div>
-
-        </div>
-
-        </div>
-
-      </section>
-
-      <section className="px-6 py-24">
-
-        <div className="mx-auto max-w-7xl">
-
-        <div className="mb-10">
-
-          <p className="runtime-label mb-4">
-            SYNTHETIC INTELLIGENCE
-          </p>
-
-          <h2 className="max-w-5xl text-6xl font-extralight leading-tight text-white">
-            Artificial Intelligence answers questions.
-            <br />
-            Synthetic Intelligence understands businesses.
-          </h2>
-
-        </div>
-
-        <div className="rounded-[40px] border border-purple-500/20 bg-gradient-to-br from-[#0B1020] to-[#070A12] p-12">
-
-          <div className="grid gap-10 md:grid-cols-2">
-
-            <div>
-
-              <h3 className="mb-4 text-3xl font-extralight text-white">
-                AI
-              </h3>
-
-              <p className="leading-relaxed text-white/60">
-                Generates content.
-                Answers questions.
-                Creates reports.
-                Responds to prompts.
-              </p>
-
-            </div>
-
-            <div>
-
-              <h3 className="mb-4 text-3xl font-extralight text-green-300">
-                Synthetic Intelligence
-              </h3>
-
-              <p className="leading-relaxed text-white/80">
-                Understands relationships between payroll,
-                procurement, approvals, documents,
-                accounting, inventory and operations.
-                Detects risks.
-                Predicts outcomes.
-                Recommends actions.
-                Creates operational intelligence.
-              </p>
-
-            </div>
-
-          </div>
-
-          <div className="mt-12 rounded-3xl border border-white/[0.05] bg-black/20 p-8">
-
-            <p className="text-2xl font-extralight text-white">
-              A missing receipt is not a receipt problem.
-            </p>
-
-            <p className="mt-3 text-white/60">
-              It affects approvals, accounting,
-              procurement reconciliation,
-              financial close,
-              audit confidence,
-              and management visibility.
-            </p>
-
-            <p className="mt-6 text-green-300">
-              Synthetic Intelligence understands the entire chain reaction.
-            </p>
-
-          </div>
-
-        </div>
-
-        </div>
-
-      </section>
-
-      {/* FEATURES */}
       <section className="px-6 py-28">
-
         <div className="mx-auto max-w-7xl">
+          <div className="mx-auto mb-16 max-w-4xl text-center">
+            <p className="mb-5 text-xs uppercase tracking-[0.42em] text-[#D6A66A]">
+              Why Avantiqo
+            </p>
+            <h2 className="text-5xl font-extralight tracking-[-0.06em] md:text-7xl">
+              Why Accounting Firms Choose Avantiqo
+            </h2>
+          </div>
 
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+            {whyCards.map((card) => (
+              <div key={card.title} className="rounded-[34px] border border-white/10 bg-gradient-to-br from-white/[0.075] to-white/[0.025] p-7 shadow-[0_25px_90px_rgba(0,0,0,0.38)] backdrop-blur-2xl">
+                <div className="mb-6 h-1 w-14 rounded-full bg-gradient-to-r from-[#D6A66A] to-[#14364D]" />
+                <h3 className="text-2xl font-light tracking-[-0.04em]">{card.title}</h3>
+                <p className="mt-5 leading-8 text-white/58">{card.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="px-6 py-28">
+        <div className="mx-auto max-w-7xl">
           <div className="mb-16">
-
-            <p className="mb-6 text-xs tracking-[0.35em] text-[#D6A66A]">
-              {a.runtime?.badge}
+            <p className="mb-5 text-xs uppercase tracking-[0.42em] text-[#D6A66A]">
+              Accounting Operating System
             </p>
-
-            <h2 className="max-w-5xl text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
-
-              {a.runtime?.title1}
-              <br />
-              {a.runtime?.title2}
-
+            <h2 className="max-w-5xl text-5xl font-extralight tracking-[-0.06em] md:text-7xl">
+              One Platform for the Whole Firm
             </h2>
-
+            <p className="mt-7 max-w-3xl text-lg leading-9 text-white/55">
+              Avantiqo connects client work, financial control, document readiness, partner visibility and synthetic intelligence so the firm operates as one system instead of many disconnected tools.
+            </p>
           </div>
 
-          <div className="grid gap-6 md:gap-8 md:grid-cols-2">
-
-            {featuresData.map((item) => (
-
-              <div
-                key={item.title}
-                className="overflow-hidden rounded-[32px] border border-white/[0.05] bg-[#050714] shadow-[0_0_40px_rgba(120,80,255,0.05)]"
-              >
-
-                <Image
-                  src={item.image}
-                  alt={item.title}
-                  width={1200}
-                  height={800}
-                  quality={75}
-                  className="h-[380px] w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
-                />
-
-                <div className="p-8">
-
-                  <h3 className="text-3xl font-extralight">
-                    {item.title}
-                  </h3>
-
-                  <p className="mt-5 text-sm leading-7 text-white/50">
-                    {item.description}
-                  </p>
-
-                </div>
-
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {operatingSystem.map((card) => (
+              <div key={card.title} className="rounded-[34px] border border-white/10 bg-white/[0.045] p-8 shadow-[0_20px_85px_rgba(0,0,0,0.34)] backdrop-blur-2xl">
+                <h3 className="text-3xl font-extralight tracking-[-0.05em]">{card.title}</h3>
+                <p className="mt-5 leading-8 text-white/58">{card.text}</p>
               </div>
-
             ))}
-
           </div>
-
         </div>
-
       </section>
 
+      <section className="px-6 py-28">
+        <div className="mx-auto max-w-7xl rounded-[46px] border border-purple-400/20 bg-gradient-to-br from-[#0B1020] via-[#070A12] to-[#120A18] p-8 shadow-[0_35px_140px_rgba(0,0,0,0.5)] backdrop-blur-3xl md:p-12">
+          <div className="mb-14">
+            <p className="mb-5 text-xs uppercase tracking-[0.42em] text-[#D6A66A]">
+              Synthetic Intelligence
+            </p>
+            <h2 className="max-w-5xl text-5xl font-extralight tracking-[-0.06em] md:text-7xl">
+              Not a Chatbot. A Decision Layer for the Accounting Firm.
+            </h2>
+            <p className="mt-7 max-w-4xl text-lg leading-9 text-white/58">
+              Avantiqo synthetic intelligence understands clients, documents, deadlines, financial signals, approval flows, team workload and firm performance. It does not only answer questions. It recommends what the firm should do next.
+            </p>
+          </div>
 
-      {/* ACCOUNTING FIRM BENEFITS */}
-      <section className="px-6 py-32 border-t border-white/5">
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+            {intelligence.map((card) => (
+              <div key={card.title} className="rounded-[30px] border border-white/10 bg-white/[0.045] p-6 backdrop-blur-2xl">
+                <h3 className="text-2xl font-light tracking-[-0.04em]">{card.title}</h3>
+                <p className="mt-4 leading-8 text-white/58">{card.text}</p>
+              </div>
+            ))}
+          </div>
 
+          <div className="mt-10 rounded-[32px] border border-white/10 bg-black/25 p-7">
+            <p className="text-xs uppercase tracking-[0.3em] text-[#D6A66A]">Example Insight</p>
+            <p className="mt-4 text-2xl font-light leading-relaxed text-white/85">
+              Client ABC has incomplete payroll documents, a filing deadline in 6 days, declining cash flow and a high probability of requiring partner intervention. Recommended action: assign senior review today and prepare advisory cash-flow summary.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="px-6 py-28">
         <div className="mx-auto max-w-7xl">
-
-          <div className="mb-20">
-
-            <p className="mb-6 text-xs tracking-[0.35em] text-[#D6A66A]">
-              {a.benefits?.badge}
+          <div className="mb-16">
+            <p className="mb-5 text-xs uppercase tracking-[0.42em] text-[#D6A66A]">
+              Partner Runtime
             </p>
-
-            <h2 className="max-w-5xl text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
-              {a.benefits?.title1}
+            <h2 className="max-w-5xl text-5xl font-extralight tracking-[-0.06em] md:text-7xl">
+              Live Visibility for Partners and Managers
             </h2>
-
           </div>
 
-          <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
-
-            {roiCardsData.map((card) => (
-
-              <div
-                key={card.title}
-                className="rounded-[32px] border border-white/[0.05] bg-[#050714]/90 p-6 md:p-10 transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-[#D6A66A]/20"
-              >
-
-                <p className="mb-5 text-xs uppercase tracking-[0.25em] text-emerald-400">
-                  {card.label}
-                </p>
-
-                <h3 className="mb-5 text-4xl font-extralight leading-tight text-white">
-                  {card.title}
-                </h3>
-
-                <p className="mb-8 text-[17px] leading-8 text-white/50">
-                  {card.description}
-                </p>
-
-                <div className="flex flex-col gap-4">
-
-                  {card.items.map((item) => (
-
-                    <div
-                      key={item}
-                      className="flex items-center gap-3 text-sm text-white/80"
-                    >
-
-                      <div className="h-2 w-2 rounded-full bg-gradient-to-r from-emerald-400 to-[#14364D]" />
-
-                      {item}
-
-                    </div>
-
-                  ))}
-
+          <div className="rounded-[46px] border border-white/10 bg-white/[0.04] p-8 shadow-[0_30px_130px_rgba(0,0,0,0.45)] backdrop-blur-3xl md:p-12">
+            <div className="grid gap-4 md:grid-cols-4">
+              {runtimeMetrics.map(([label, value]) => (
+                <div key={label} className="rounded-[26px] border border-white/10 bg-black/20 p-6">
+                  <p className="text-xs uppercase tracking-[0.22em] text-white/42">{label}</p>
+                  <p className="mt-4 text-4xl font-extralight text-white">{value}</p>
                 </div>
+              ))}
+            </div>
 
+            <div className="mt-8 grid gap-6 lg:grid-cols-2">
+              <div className="rounded-[32px] border border-white/10 bg-black/20 p-7">
+                <p className="text-xs uppercase tracking-[0.25em] text-[#D6A66A]">Firm Control</p>
+                <h3 className="mt-4 text-3xl font-extralight tracking-[-0.05em]">From operational activity to financial consequence</h3>
+                <p className="mt-5 leading-8 text-white/58">
+                  Every client task, approval, exception and accounting workflow can be connected to the financial health of the firm. Partners see where work is stuck, where margin is at risk and where the next advisory opportunity exists.
+                </p>
               </div>
 
-            ))}
-
+              <div className="rounded-[32px] border border-white/10 bg-black/20 p-7">
+                <p className="text-xs uppercase tracking-[0.25em] text-[#D6A66A]">Governance</p>
+                <h3 className="mt-4 text-3xl font-extralight tracking-[-0.05em]">Audit-ready by design</h3>
+                <p className="mt-5 leading-8 text-white/58">
+                  Avantiqo gives accounting firms structure around approvals, accountability, documentation, compliance checkpoints and management review so the practice can scale with confidence.
+                </p>
+              </div>
+            </div>
           </div>
-
         </div>
-
       </section>
 
-
-      {/* ACCOUNTING ADVISORY VALUE */}
-      <section className="px-6 py-32 border-t border-white/5">
-
+      <section className="px-6 py-28">
         <div className="mx-auto max-w-7xl">
-
-          <div className="mb-20">
-
-            <p className="mb-6 text-xs tracking-[0.35em] text-[#D6A66A] uppercase">
-              {a.advisory?.badge}
+          <div className="mb-16 text-center">
+            <p className="mb-5 text-xs uppercase tracking-[0.42em] text-[#D6A66A]">
+              Business Case
             </p>
-
-            <h2 className="max-w-5xl text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
-              {a.advisory?.title1}
+            <h2 className="text-5xl font-extralight tracking-[-0.06em] md:text-7xl">
+              Built to Increase Firm Value
             </h2>
-
-            <p className="mt-8 max-w-[820px] text-[17px] leading-[1.9] text-white/50">
-              {a.advisory?.description}
-            </p>
-
           </div>
 
-          <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
-
-            {advisorCardsData.map((card) => (
-
-              <div
-                key={card.title}
-                className="rounded-[32px] border border-white/[0.05] bg-[#050714]/90 p-6 md:p-10 transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-[#D6A66A]/20"
-              >
-
-                <p className="mb-5 text-xs uppercase tracking-[0.25em] text-[#D6A66A]">
-                  {card.label}
-                </p>
-
-                <h3 className="mb-5 text-3xl font-extralight leading-tight text-white">
-                  {card.title}
-                </h3>
-
-                <p className="mb-8 text-[16px] leading-8 text-white/50">
-                  {card.description}
-                </p>
-
-                <div className="flex flex-col gap-4">
-
-                  {card.items.map((item) => (
-
-                    <div
-                      key={item}
-                      className="flex items-center gap-3 text-sm text-white/80"
-                    >
-
-                      <div className="h-2 w-2 rounded-full bg-gradient-to-r from-[#D6A66A] to-[#14364D]" />
-
-                      {item}
-
-                    </div>
-
-                  ))}
-
-                </div>
-
+          <div className="grid gap-6 md:grid-cols-2">
+            {roi.map((card) => (
+              <div key={card.title} className="rounded-[36px] border border-white/10 bg-white/[0.045] p-8 shadow-[0_24px_100px_rgba(0,0,0,0.38)] backdrop-blur-2xl">
+                <p className="mb-4 text-xs uppercase tracking-[0.26em] text-emerald-300">{card.label}</p>
+                <h3 className="text-4xl font-extralight tracking-[-0.06em]">{card.title}</h3>
+                <p className="mt-5 text-lg leading-9 text-white/58">{card.text}</p>
               </div>
-
             ))}
-
           </div>
-
         </div>
-
       </section>
 
-
-      {/* ENTERPRISE CONTROL */}
-      <section className="px-6 py-32 border-t border-white/5">
-
-        <div className="mx-auto max-w-7xl">
-
-          <div className="mb-20">
-
-            <p className="mb-6 text-xs tracking-[0.35em] text-[#D6A66A]">
-              {a.enterprise?.badge}
-            </p>
-
-            <h2 className="max-w-5xl text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
-              {a.enterprise?.title1}
-              {a.enterprise?.title2}
-            </h2>
-
-            <p className="mt-8 max-w-[820px] text-[17px] leading-[1.9] text-white/50">
-              {a.enterprise?.description}
-            </p>
-
-          </div>
-
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-
-            {enterpriseCardsData.map((card) => (
-
-              <div
-                key={card.title}
-                className="rounded-[32px] border border-white/[0.05] bg-[#050714]/90 p-6 md:p-10 transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-[#D6A66A]/20"
-              >
-
-                <div className="mb-6 flex items-center gap-3">
-
-                  <div className="h-2 w-2 rounded-full bg-gradient-to-r from-[#D6A66A] to-[#14364D]" />
-
-                  <div className="text-xs uppercase tracking-[0.3em] text-white/40">
-                    Enterprise Runtime
-                  </div>
-
-                </div>
-
-                <h3 className="mb-5 text-3xl font-extralight leading-tight text-white">
-                  {card.title}
-                </h3>
-
-                <p className="text-[16px] leading-8 text-white/50">
-                  {card.description}
-                </p>
-
-              </div>
-
-            ))}
-
-          </div>
-
-        </div>
-
-      </section>
-
-      {/* CTA */}
-      <section className="px-6 py-32">
-
+      <section className="px-6 py-28">
         <div className="mx-auto max-w-5xl text-center">
-
-          <p className="mb-6 text-xs tracking-[0.35em] text-[#D6A66A]">
-            {a.cta?.badge}
+          <p className="mb-6 text-xs uppercase tracking-[0.42em] text-[#D6A66A]">
+            Accounting Without Blind Spots
           </p>
-
-          <h2 className="text-5xl font-extralight leading-[1.02] tracking-[-0.05em] md:text-7xl">
-
-            {a.cta?.title1}
-            {a.cta?.title2}
-            {a.cta?.title3}
-
+          <h2 className="text-5xl font-extralight tracking-[-0.06em] md:text-7xl">
+            Turn Your Accounting Firm Into an Intelligent Advisory Business
           </h2>
-
-          <p className="mx-auto mt-8 max-w-[820px] text-[17px] leading-[1.9] text-white/50">
-
-            {a.cta?.description}
-
+          <p className="mx-auto mt-8 max-w-3xl text-lg leading-9 text-white/58">
+            Avantiqo is built for accounting firms that want more than bookkeeping software. It gives the firm control over clients, work, compliance, profitability and advisory growth through one synthetic intelligence operating system.
           </p>
-
-          <div className="mt-12">
-
+          <div className="mt-12 flex flex-col justify-center gap-4 sm:flex-row">
             <Link
               href="/demo"
-              className="rounded-[22px] bg-gradient-to-r from-[#D6A66A] to-[#14364D] px-6 py-3 md:px-8 md:py-4 text-sm font-extralight transition-all duration-300 ease-out hover:-translate-y-[2px]"
+              className="rounded-2xl bg-gradient-to-r from-[#D6A66A] via-[#E7C78A] to-[#C9974D] px-9 py-4 font-semibold text-black shadow-[0_0_45px_rgba(214,166,106,0.42)] transition hover:brightness-110"
             >
-              {a.cta?.primary}
+              Book Demo
             </Link>
-
+            <Link
+              href="/professional-services"
+              className="rounded-2xl border border-white/15 bg-white/[0.03] px-9 py-4 font-semibold text-white/78 transition hover:border-[#D6A66A]/40 hover:bg-white/[0.06]"
+            >
+              Explore Professional Services
+            </Link>
           </div>
-
         </div>
-
       </section>
 
-      <section className="px-6 pb-24 md:pb-32">
-
-  <div className="mx-auto max-w-7xl">
-
-    <div className="enterprise-runtime-card p-8 md:p-12">
-
-      <div className="mb-10 flex items-center justify-between">
-
-        <div>
-
-          <p className="runtime-label mb-3">
-            ENTERPRISE ACCOUNTING RUNTIME
-          </p>
-
-          <h2 className="text-3xl md:text-5xl font-extralight tracking-[-0.05em]">
-            {a.financialGovernance?.title}
-          </h2>
-
-        </div>
-
-        <div className="hidden md:flex items-center gap-3 rounded-full border border-white/[0.08] bg-white/[0.03] px-4 py-2">
-
-          <div className="h-2 w-2 rounded-full bg-green-400" />
-
-          <span className="text-sm text-white/60">
-            SYSTEM ACTIVE
-          </span>
-
-        </div>
-
-      </div>
-
-      <div className="mb-10 grid gap-4 md:grid-cols-4">
-
-        <div className="rounded-2xl border border-white/[0.06] bg-white/[0.03] p-5">
-          <p className="runtime-label mb-2">
-            Connected Entities
-          </p>
-          <p className="text-3xl font-extralight text-white">
-            12
-          </p>
-        </div>
-
-        <div className="rounded-2xl border border-white/[0.06] bg-white/[0.03] p-5">
-          <p className="runtime-label mb-2">
-            Journal Entries Today
-          </p>
-          <p className="text-3xl font-extralight text-white">
-            284
-          </p>
-        </div>
-
-        <div className="rounded-2xl border border-white/[0.06] bg-white/[0.03] p-5">
-          <p className="runtime-label mb-2">
-            Approval Flows
-          </p>
-          <p className="text-3xl font-extralight text-white">
-            18
-          </p>
-        </div>
-
-        <div className="rounded-2xl border border-white/[0.06] bg-white/[0.03] p-5">
-          <p className="runtime-label mb-2">
-            Governance Integrity
-          </p>
-          <p className="text-3xl font-extralight text-green-400">
-            94%
-          </p>
-        </div>
-
-      </div>
-
-      <div className="mb-10 rounded-3xl border border-white/[0.06] bg-white/[0.02] p-6">
-
-        <div className="mb-5 flex items-center justify-between">
-
-          <div>
-
-            <p className="runtime-label mb-2">
-              Month-End Close Runtime
-            </p>
-
-            <h3 className="text-2xl font-extralight text-white">
-              Financial Close Progress
-            </h3>
-
-          </div>
-
-          <div className="runtime-status-warning runtime-value">
-            72% COMPLETE
-          </div>
-
-        </div>
-
-        <div className="mb-4 h-2 overflow-hidden rounded-full bg-white/[0.05]">
-
-          <div className="h-full w-[72%] rounded-full bg-gradient-to-r from-[#8B5CF6] to-[#C084FC]" />
-
-        </div>
-
-        <div className="grid gap-4 md:grid-cols-3">
-
-          <div className="rounded-2xl border border-white/[0.05] bg-black/20 p-4">
-            <p className="runtime-label mb-2">
-              Pending Approvals
-            </p>
-            <p className="text-xl font-light text-white">
-              2
-            </p>
-          </div>
-
-          <div className="rounded-2xl border border-white/[0.05] bg-black/20 p-4">
-            <p className="runtime-label mb-2">
-              Reconciliation Exceptions
-            </p>
-            <p className="text-xl font-light text-amber-400">
-              3
-            </p>
-          </div>
-
-          <div className="rounded-2xl border border-white/[0.05] bg-black/20 p-4">
-            <p className="runtime-label mb-2">
-              Payroll Variances
-            </p>
-            <p className="text-xl font-light text-red-400">
-              1
-            </p>
-          </div>
-
-        </div>
-
-      </div>
-
-      <div className="mb-10 flex flex-wrap items-center gap-3">
-
-        <div className="rounded-full border border-white/[0.06] bg-white/[0.03] px-4 py-2 text-sm text-white/70">
-          Procurement
-        </div>
-
-        <div className="text-white/20">
-          →
-        </div>
-
-        <div className="rounded-full border border-white/[0.06] bg-white/[0.03] px-4 py-2 text-sm text-white/70">
-          Approval
-        </div>
-
-        <div className="text-white/20">
-          →
-        </div>
-
-        <div className="rounded-full border border-white/[0.06] bg-white/[0.03] px-4 py-2 text-sm text-white/70">
-          Journal Engine
-        </div>
-
-        <div className="text-white/20">
-          →
-        </div>
-
-        <div className="rounded-full border border-white/[0.06] bg-white/[0.03] px-4 py-2 text-sm text-white/70">
-          Reconciliation
-        </div>
-
-        <div className="text-white/20">
-          →
-        </div>
-
-        <div className="rounded-full border border-white/[0.06] bg-white/[0.03] px-4 py-2 text-sm text-white/70">
-          Financial Close
-        </div>
-
-      </div>
-
-      <div className="mb-10 grid gap-6 md:grid-cols-2">
-
-        <div className="rounded-3xl border border-white/[0.06] bg-white/[0.02] p-6">
-
-          <div className="mb-6 flex items-center justify-between">
-
-            <div>
-
-              <p className="runtime-label mb-2">
-                Operational Risk Runtime
-              </p>
-
-              <h3 className="text-2xl font-extralight text-white">
-                Live Exception Monitoring
-              </h3>
-
-            </div>
-
-            <div className="runtime-status-warning runtime-value">
-              6 ACTIVE
-            </div>
-
-          </div>
-
-          <div className="space-y-4">
-
-            <div className="flex items-center justify-between rounded-2xl border border-white/[0.05] bg-black/20 p-4">
-              <span className="text-white/70">
-                Missing Receipts
-              </span>
-              <span className="text-amber-400">
-                2
-              </span>
-            </div>
-
-            <div className="flex items-center justify-between rounded-2xl border border-white/[0.05] bg-black/20 p-4">
-              <span className="text-white/70">
-                Payroll Approval Delayed
-              </span>
-              <span className="text-red-400">
-                1
-              </span>
-            </div>
-
-            <div className="flex items-center justify-between rounded-2xl border border-white/[0.05] bg-black/20 p-4">
-              <span className="text-white/70">
-                Procurement Exceptions
-              </span>
-              <span className="text-amber-400">
-                3
-              </span>
-            </div>
-
-            <div className="flex items-center justify-between rounded-2xl border border-white/[0.05] bg-black/20 p-4">
-              <span className="text-white/70">
-                Audit Violations
-              </span>
-              <span className="text-green-400">
-                0
-              </span>
-            </div>
-
-          </div>
-
-        </div>
-
-        <div className="rounded-3xl border border-white/[0.06] bg-white/[0.02] p-6">
-
-          <div className="mb-6 flex items-center justify-between">
-
-            <div>
-
-              <p className="runtime-label mb-2">
-                AI Operational Intelligence
-              </p>
-
-              <h3 className="text-2xl font-extralight text-white">
-                Live Runtime Detection
-              </h3>
-
-            </div>
-
-            <div className="runtime-status-active runtime-value">
-              AI ACTIVE
-            </div>
-
-          </div>
-
-          <div className="space-y-4">
-
-            <div className="rounded-2xl border border-purple-500/20 bg-purple-500/5 p-4">
-
-              <p className="mb-2 text-sm text-[#D6A66A]">
-                AI DETECTED
-              </p>
-
-              <p className="text-white/80">
-                Procurement variance detected in hospitality operations.
-              </p>
-
-            </div>
-
-            <div className="rounded-2xl border border-indigo-500/20 bg-indigo-500/5 p-4">
-
-              <p className="mb-2 text-sm text-indigo-300">
-                AI ANALYSIS
-              </p>
-
-              <p className="text-white/80">
-                Payroll inconsistency identified before financial close.
-              </p>
-
-            </div>
-
-            <div className="rounded-2xl border border-green-500/20 bg-green-500/5 p-4">
-
-              <p className="mb-2 text-sm text-green-300">
-                AI RECOMMENDATION
-              </p>
-
-              <p className="text-white/80">
-                {a.syntheticDecisionLayer?.recommendationText}
-              </p>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-      <div className="mb-10 rounded-3xl border border-white/[0.06] bg-white/[0.02] p-6">
-
-        <div className="mb-6 flex items-center justify-between">
-
-          <div>
-
-            <p className="runtime-label mb-2">
-              {a.governanceTimeline?.label}
-            </p>
-
-            <h3 className="text-2xl font-extralight text-white">
-              Continuous Operational Flow
-            </h3>
-
-          </div>
-
-          <div className="runtime-status-active runtime-value">
-            LIVE
-          </div>
-
-        </div>
-
-        <div className="grid gap-4 md:grid-cols-4">
-
-          <div className="rounded-2xl border border-white/[0.05] bg-black/20 p-4">
-            <p className="mb-2 text-xs text-white/40">
-              08:42
-            </p>
-            <p className="text-white/75">
-              {a.governanceTimeline?.events[0]?.title}
-            </p>
-          </div>
-
-          <div className="rounded-2xl border border-white/[0.05] bg-black/20 p-4">
-            <p className="mb-2 text-xs text-white/40">
-              09:14
-            </p>
-            <p className="text-white/75">
-              {a.governanceTimeline?.events[1]?.title}
-            </p>
-          </div>
-
-          <div className="rounded-2xl border border-white/[0.05] bg-black/20 p-4">
-            <p className="mb-2 text-xs text-white/40">
-              09:16
-            </p>
-            <p className="text-white/75">
-              {a.governanceTimeline?.events[2]?.title}
-            </p>
-          </div>
-
-          <div className="rounded-2xl border border-white/[0.05] bg-black/20 p-4">
-            <p className="mb-2 text-xs text-white/40">
-              09:22
-            </p>
-            <p className="text-white/75">
-              {a.governanceTimeline?.events[3]?.title}
-            </p>
-          </div>
-
-        </div>
-
-      </div>
-
-      <div className="mb-10 grid gap-6 md:grid-cols-2">
-
-        <div className="rounded-3xl border border-white/[0.06] bg-white/[0.02] p-6">
-
-          <div className="mb-6 flex items-center justify-between">
-
-            <div>
-
-              <p className="runtime-label mb-2">
-                Approval Accountability
-              </p>
-
-              <h3 className="text-2xl font-extralight text-white">
-                {a.accountability?.title}
-              </h3>
-
-            </div>
-
-            <div className="runtime-status-active runtime-value">
-              VERIFIED
-            </div>
-
-          </div>
-
-          <div className="space-y-4">
-
-            <div className="rounded-2xl border border-white/[0.05] bg-black/20 p-4">
-
-              <p className="mb-2 text-xs tracking-[0.14em] text-white/40 uppercase">
-                Approved By
-              </p>
-
-              <div className="flex items-center justify-between">
-
-                <p className="text-white/80">
-                  {a.accountability?.items[0]?.name}
-                </p>
-
-                <span className="text-green-400">
-                  ACTIVE
-                </span>
-
-              </div>
-
-            </div>
-
-            <div className="rounded-2xl border border-white/[0.05] bg-black/20 p-4">
-
-              <p className="mb-2 text-xs tracking-[0.14em] text-white/40 uppercase">
-                Locked By
-              </p>
-
-              <div className="flex items-center justify-between">
-
-                <p className="text-white/80">
-                  {a.accountability?.items[1]?.name}
-                </p>
-
-                <span className="text-indigo-400">
-                  ENFORCED
-                </span>
-
-              </div>
-
-            </div>
-
-            <div className="rounded-2xl border border-white/[0.05] bg-black/20 p-4">
-
-              <p className="mb-2 text-xs tracking-[0.14em] text-white/40 uppercase">
-                Reviewed By
-              </p>
-
-              <div className="flex items-center justify-between">
-
-                <p className="text-white/80">
-                  {a.accountability?.items[2]?.name}
-                </p>
-
-                <span className="text-purple-400">
-                  VERIFIED
-                </span>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-        <div className="rounded-3xl border border-white/[0.06] bg-white/[0.02] p-6">
-
-          <div className="mb-6 flex items-center justify-between">
-
-            <div>
-
-              <p className="runtime-label mb-2">
-                Multi-Entity Operational Runtime
-              </p>
-
-              <h3 className="text-2xl font-extralight text-white">
-                {a.multiEntity?.title}
-              </h3>
-
-            </div>
-
-            <div className="runtime-status-active runtime-value">
-              4 ENTITIES
-            </div>
-
-          </div>
-
-          <div className="space-y-4">
-
-            <div className="flex items-center justify-between rounded-2xl border border-white/[0.05] bg-black/20 p-4">
-
-              <div className="flex items-center gap-3">
-
-                <div className="h-2 w-2 rounded-full bg-green-400" />
-
-                <p className="text-white/80">
-                  {a.multiEntity?.entities[0]?.name}
-                </p>
-
-              </div>
-
-              <span className="text-green-400">
-                ACTIVE
-              </span>
-
-            </div>
-
-            <div className="flex items-center justify-between rounded-2xl border border-white/[0.05] bg-black/20 p-4">
-
-              <div className="flex items-center gap-3">
-
-                <div className="h-2 w-2 rounded-full bg-amber-400" />
-
-                <p className="text-white/80">
-                  {a.multiEntity?.entities[1]?.name}
-                </p>
-
-              </div>
-
-              <span className="text-amber-400">
-                REVIEWING
-              </span>
-
-            </div>
-
-            <div className="flex items-center justify-between rounded-2xl border border-white/[0.05] bg-black/20 p-4">
-
-              <div className="flex items-center gap-3">
-
-                <div className="h-2 w-2 rounded-full bg-green-400" />
-
-                <p className="text-white/80">
-                  {a.multiEntity?.entities[2]?.name}
-                </p>
-
-              </div>
-
-              <span className="text-green-400">
-                APPROVED
-              </span>
-
-            </div>
-
-            <div className="flex items-center justify-between rounded-2xl border border-white/[0.05] bg-black/20 p-4">
-
-              <div className="flex items-center gap-3">
-
-                <div className="h-2 w-2 rounded-full bg-purple-400" />
-
-                <p className="text-white/80">
-                  {a.multiEntity?.entities[3]?.name}
-                </p>
-
-              </div>
-
-              <span className="text-purple-400">
-                PENDING CLOSE
-              </span>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-      <div className="mb-10 rounded-3xl border border-white/[0.06] bg-gradient-to-r from-[#0A0F1F] via-[#111827] to-[#0A0F1F] p-6">
-
-        <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
-
-          <div>
-
-            <p className="runtime-label mb-3">
-              Immutable Audit Runtime
-            </p>
-
-            <h3 className="text-3xl font-extralight text-white">
-              Enterprise Audit Traceability
-            </h3>
-
-            <p className="mt-3 max-w-2xl text-white/55">
-              Every approval, edit, transaction and operational event is permanently tracked across the enterprise runtime architecture.
-            </p>
-
-          </div>
-
-          <div className="rounded-3xl border border-green-500/20 bg-green-500/10 px-8 py-6">
-
-            <p className="mb-2 text-xs tracking-[0.16em] text-green-300 uppercase">
-              AI Runtime Confidence
-            </p>
-
-            <p className="text-5xl font-extralight text-white">
-              97.2%
-            </p>
-
-            <p className="mt-2 text-sm text-white/50">
-              No critical anomalies detected.
-            </p>
-
-          </div>
-
-        </div>
-
-      </div>
-
-      <div className="mb-10 rounded-3xl border border-white/[0.06] bg-white/[0.02] p-6 md:p-8">
-
-        <div className="mb-8 flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
-
-          <div>
-
-            <p className="runtime-label mb-2">
-              Cross-System Synchronization
-            </p>
-
-            <h3 className="text-3xl font-extralight text-white">
-              Enterprise Operational Nervous System
-            </h3>
-
-          </div>
-
-          <div className="rounded-full border border-green-500/20 bg-green-500/10 px-5 py-2 text-sm text-green-300">
-            ALL SYSTEMS SYNCHRONIZED
-          </div>
-
-        </div>
-
-        <div className="grid gap-4 md:grid-cols-4">
-
-          <div className="rounded-2xl border border-white/[0.05] bg-black/20 p-5">
-
-            <p className="runtime-label mb-3">
-              Payroll Runtime
-            </p>
-
-            <p className="text-white/80">
-              Synced with Operations Control
-            </p>
-
-          </div>
-
-          <div className="rounded-2xl border border-white/[0.05] bg-black/20 p-5">
-
-            <p className="runtime-label mb-3">
-              Procurement Runtime
-            </p>
-
-            <p className="text-white/80">
-              Connected to Inventory Ledger
-            </p>
-
-          </div>
-
-          <div className="rounded-2xl border border-white/[0.05] bg-black/20 p-5">
-
-            <p className="runtime-label mb-3">
-              Financial Runtime
-            </p>
-
-            <p className="text-white/80">
-              Linked to Live Revenue Streams
-            </p>
-
-          </div>
-
-          <div className="rounded-2xl border border-white/[0.05] bg-black/20 p-5">
-
-            <p className="runtime-label mb-3">
-              AI Runtime
-            </p>
-
-            <p className="text-white/80">
-              Monitoring Operational Behavior
-            </p>
-
-          </div>
-
-        </div>
-
-      </div>
-
-      <div className="mb-10 grid gap-6 md:grid-cols-2">
-
-        <div className="rounded-3xl border border-white/[0.06] bg-gradient-to-br from-[#0A0F1F] to-[#111827] p-6">
-
-          <div className="mb-6 flex items-center justify-between">
-
-            <div>
-
-              <p className="runtime-label mb-2">
-                AI Runtime Decision Layer
-              </p>
-
-              <h3 className="text-2xl font-extralight text-white">
-                {a.syntheticDecisionLayer?.title}
-              </h3>
-
-            </div>
-
-            <div className="runtime-status-active runtime-value">
-              LEARNING
-            </div>
-
-          </div>
-
-          <div className="space-y-4">
-
-            <div className="rounded-2xl border border-purple-500/20 bg-purple-500/5 p-5">
-
-              <p className="mb-2 text-xs uppercase tracking-[0.14em] text-[#D6A66A]">
-                AI Recommendation
-              </p>
-
-              <p className="text-white/80">
-                Delay financial close until procurement reconciliation completes.
-              </p>
-
-            </div>
-
-            <div className="rounded-2xl border border-indigo-500/20 bg-indigo-500/5 p-5">
-
-              <p className="mb-2 text-xs uppercase tracking-[0.14em] text-indigo-300">
-                AI Prediction
-              </p>
-
-              <p className="text-white/80">
-                {a.syntheticDecisionLayer?.predictionText}
-              </p>
-
-            </div>
-
-            <div className="rounded-2xl border border-amber-500/20 bg-amber-500/5 p-5">
-
-              <p className="mb-2 text-xs uppercase tracking-[0.14em] text-amber-300">
-                AI Detection
-              </p>
-
-              <p className="text-white/80">
-                {a.syntheticDecisionLayer?.detectionText}
-              </p>
-
-            </div>
-
-          </div>
-
-        </div>
-
-        <div className="rounded-3xl border border-white/[0.06] bg-white/[0.02] p-6">
-
-          <div className="mb-6 flex items-center justify-between">
-
-            <div>
-
-              <p className="runtime-label mb-2">
-                {a.runtimeEvents?.title}
-              </p>
-
-              <h3 className="text-2xl font-extralight text-white">
-                Continuous Operational Flow
-              </h3>
-
-            </div>
-
-            <div className="runtime-status-active runtime-value">
-              LIVE
-            </div>
-
-          </div>
-
-          <div className="space-y-3">
-
-            <div className="flex items-center gap-4 rounded-2xl border border-white/[0.05] bg-black/20 p-4">
-              <span className="text-xs text-white/35">
-                09:22
-              </span>
-              <span className="text-white/75">
-                {a.runtimeEvents?.events[0]?.title}
-              </span>
-            </div>
-
-            <div className="flex items-center gap-4 rounded-2xl border border-white/[0.05] bg-black/20 p-4">
-              <span className="text-xs text-white/35">
-                09:24
-              </span>
-              <span className="text-white/75">
-                {a.runtimeEvents?.events[1]?.title}
-              </span>
-            </div>
-
-            <div className="flex items-center gap-4 rounded-2xl border border-white/[0.05] bg-black/20 p-4">
-              <span className="text-xs text-white/35">
-                09:26
-              </span>
-              <span className="text-white/75">
-                AI variance detection triggered
-              </span>
-            </div>
-
-            <div className="flex items-center gap-4 rounded-2xl border border-white/[0.05] bg-black/20 p-4">
-              <span className="text-xs text-white/35">
-                09:28
-              </span>
-              <span className="text-white/75">
-                {a.runtimeEvents?.events[3]?.title}
-              </span>
-            </div>
-
-            <div className="flex items-center gap-4 rounded-2xl border border-white/[0.05] bg-black/20 p-4">
-              <span className="text-xs text-white/35">
-                09:31
-              </span>
-              <span className="text-white/75">
-                {a.runtimeEvents?.events[4]?.title}
-              </span>
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-      <div className="grid gap-0 md:grid-cols-2">
-
-        <div className="runtime-grid-line border-b md:border-b-0 md:border-r p-6">
-
-          <div className="space-y-6">
-
-            <div className="flex items-center justify-between">
-              <span className="runtime-label">
-                Canonical Journal Engine
-              </span>
-              <span className="runtime-status-active runtime-value">
-                ENABLED
-              </span>
-            </div>
-
-            <div className="flex items-center justify-between">
-              <span className="runtime-label">
-                3-Way Matching
-              </span>
-              <span className="runtime-status-active runtime-value">
-                ACTIVE
-              </span>
-            </div>
-
-            <div className="flex items-center justify-between">
-              <span className="runtime-label">
-                Audit Chain Integrity
-              </span>
-              <span className="runtime-status-active runtime-value">
-                VERIFIED
-              </span>
-            </div>
-
-            <div className="flex items-center justify-between">
-              <span className="runtime-label">
-                Procurement Governance
-              </span>
-              <span className="runtime-status-warning runtime-value">
-                HIGH
-              </span>
-            </div>
-
-          </div>
-
-        </div>
-
-        <div className="p-6">
-
-          <div className="space-y-6">
-
-            <div className="flex items-center justify-between">
-              <span className="runtime-label">
-                Inventory Ledger
-              </span>
-              <span className="runtime-status-active runtime-value">
-                SYNCHRONIZED
-              </span>
-            </div>
-
-            <div className="flex items-center justify-between">
-              <span className="runtime-label">
-                Multi-Entity Consolidation
-              </span>
-              <span className="runtime-status-active runtime-value">
-                READY
-              </span>
-            </div>
-
-            <div className="flex items-center justify-between">
-              <span className="runtime-label">
-                Approval Runtime
-              </span>
-              <span className="runtime-status-active runtime-value">
-                OPERATIONAL
-              </span>
-            </div>
-
-            <div className="flex items-center justify-between">
-              <span className="runtime-label">
-                Period Locking
-              </span>
-              <span className="runtime-status-active runtime-value">
-                ENFORCED
-              </span>
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-<Footer />
-
-    
-
-
-
-</main>
-
+      <Footer />
+    </main>
   );
-
 }

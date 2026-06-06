@@ -1,184 +1,410 @@
 "use client";
 
+import SiteTopNav from "@/app/components/SiteTopNav";
+import Footer from "@/components/layout/Footer";
+
 export default function GovernancePage() {
+  const sections = [
+    {
+      title: "Governance Is Not Management",
+      text: `Management focuses on operating the business.
+
+Governance focuses on controlling how decisions are made.
+
+Organizations rarely fail because information is unavailable.
+
+Organizations fail because decisions are inconsistent, responsibilities are unclear, approvals are bypassed, accountability is missing and visibility is fragmented.
+
+Governance exists to create structure around decision making.
+
+The objective is not bureaucracy.
+
+The objective is accountability.`,
+    },
+
+    {
+      title: "Why Governance Matters",
+      text: `Every organization eventually reaches a point where growth creates complexity.
+
+More employees.
+More customers.
+More suppliers.
+More approvals.
+More transactions.
+More systems.
+More risk.
+
+As complexity increases, informal processes become unreliable.
+
+Organizations require governance to maintain consistency, accountability and control.
+
+Without governance, growth often creates operational chaos.`,
+    },
+
+    {
+      title: "Governance As A Competitive Advantage",
+      text: `Many organizations view governance as a compliance requirement.
+
+Leading organizations view governance as a competitive advantage.
+
+Governance creates:
+
+• Faster decision making
+
+• Clear accountability
+
+• Reduced operational risk
+
+• Improved visibility
+
+• Better resource allocation
+
+• Greater organizational alignment
+
+Governance is not bureaucracy.
+
+Effective governance reduces friction by ensuring decisions are made by the right people at the right time using the right information.`,
+    },
+
+    {
+      title: "Decision Governance",
+      text: `Every important decision should have ownership.
+
+Every approval should have accountability.
+
+Every action should have traceability.
+
+Organizations should be able to answer:
+
+Who made the decision?
+
+Why was the decision made?
+
+Who approved the decision?
+
+What information was used?
+
+What outcome resulted?
+
+Within Avantiqo, decision governance is supported through structured approval workflows, role-based authority, audit trails and accountability frameworks.
+
+Organizations can define who may initiate actions, who may approve them, who must be informed and who remains accountable for outcomes.
+
+This creates consistency across departments while reducing operational risk.
+
+The result is faster decision making with greater transparency and accountability.`,
+    },
+
+    {
+      title: "Approval Workflows",
+      text: `Financial approvals.
+
+Procurement approvals.
+
+Payroll approvals.
+
+Operational approvals.
+
+Customer approvals.
+
+Compliance approvals.
+
+Executive approvals.
+
+The objective is not to slow the organization down.
+
+The objective is to ensure important actions receive appropriate oversight.
+
+Avantiqo supports configurable approval chains across finance, procurement, payroll, operations, compliance and executive management.
+
+Approvals can be routed based on department, responsibility, authority level or organizational structure.
+
+This ensures important actions receive appropriate oversight while maintaining operational efficiency.
+
+The objective is not bureaucracy.
+
+The objective is confidence.`,
+    },
+
+    {
+      title: "Organizational Accountability",
+      text: `Governance requires clear ownership.
+
+Responsibilities should be defined.
+
+Authorities should be understood.
+
+Escalation paths should be visible.
+
+Organizations become more resilient when accountability is clearly established.
+
+Avantiqo creates visibility around ownership, responsibilities and decision authority.
+
+Managers understand who is responsible.
+
+Teams understand who approves.
+
+Leadership understands who remains accountable.
+
+This creates operational clarity across the organization.`,
+    },
+
+    {
+      title: "Auditability And Transparency",
+      text: `Strong governance requires transparency.
+
+Organizations should understand:
+
+What happened.
+
+Who initiated it.
+
+Who approved it.
+
+When it occurred.
+
+Why it occurred.
+
+How it affected operations.
+
+Governance without visibility becomes difficult to enforce.
+
+Avantiqo maintains audit trails, approval history, workflow visibility and accountability records that provide complete transparency into organizational activity.
+
+This allows organizations to understand not only what happened, but also why it happened and who was responsible.`,
+    },
+
+    {
+      title: "Governance Across The Entire Organization",
+      text: `Governance is not limited to leadership.
+
+Finance.
+Operations.
+Human Resources.
+Customer Service.
+Compliance.
+Marketing.
+Technology.
+Management.
+Executive Leadership.
+
+Every department contributes to accountability.
+
+Every department contributes to governance.`,
+    },
+
+    {
+      title: "Governance And Synthetic Intelligence",
+      text: `Synthetic Intelligence creates organizational awareness.
+
+Governance creates organizational control.
+
+Awareness without control creates risk.
+
+Control without awareness creates inefficiency.
+
+Synthetic Intelligence helps organizations understand:
+
+What is happening.
+
+Why it is happening.
+
+What is likely to happen next.
+
+Governance helps organizations determine:
+
+Who should decide.
+
+Who should approve.
+
+Who is accountable.
+
+How actions should be executed.
+
+Synthetic Intelligence continuously analyzes operational activity, financial performance, customer behavior and organizational processes.
+
+Governance provides the framework that determines how decisions should be made based upon those insights.
+
+Together they create a closed loop between awareness and action.
+
+Organizations can move quickly without sacrificing control.`,
+    },
+
+    {
+      title: "Role-Based Authority",
+      text: `Not every user should have the same authority.
+
+Governance structures support:
+
+• Role-based permissions
+
+• Approval hierarchies
+
+• Department authority
+
+• Management oversight
+
+• Executive controls
+
+Role-based authority allows organizations to align access, approvals and responsibilities with actual organizational structures.
+
+The result is stronger control, clearer accountability and reduced operational risk.`,
+    },
+
+    {
+      title: "Governance And Risk Management",
+      text: `Risk exists in every organization.
+
+Operational risk.
+
+Financial risk.
+
+Compliance risk.
+
+Customer risk.
+
+Technology risk.
+
+Governance creates visibility into these risks.
+
+Avantiqo enables organizations to identify operational, financial, compliance and organizational risks through centralized monitoring, auditability, approval controls and accountability structures.
+
+Governance transforms risk management from reaction into prevention.`,
+    },
+
+    {
+      title: "Governance And Compliance",
+      text: `Compliance defines requirements.
+
+Governance ensures those requirements are followed.
+
+Organizations often focus on compliance outcomes.
+
+Governance focuses on the processes required to achieve those outcomes.
+
+Strong governance simplifies compliance.
+
+Weak governance increases compliance risk.`,
+    },
+
+    {
+      title: "Governance And Executive Leadership",
+      text: `Leadership requires visibility.
+
+Leadership requires accountability.
+
+Leadership requires information.
+
+Executives should be able to understand:
+
+Performance.
+Risk.
+Approvals.
+Responsibilities.
+Compliance.
+Operations.
+
+Avantiqo consolidates approvals, accountability, performance, risk exposure, compliance obligations and operational activity into a unified view.
+
+Leadership teams gain visibility into both outcomes and the decisions that produced them.
+
+This transforms governance from a reactive activity into a strategic capability.`,
+    },
+
+    {
+      title: "The Future Of Governance",
+      text: `The future of governance is not more bureaucracy.
+
+The future of governance is intelligent accountability.
+
+Organizations should move quickly while maintaining control.
+
+They should innovate while maintaining oversight.
+
+They should scale while maintaining accountability.
+
+This requires governance systems integrated into daily operations.
+
+Avantiqo embeds governance directly into daily operations through workflows, approvals, accountability structures, audit trails and intelligence layers.
+
+Organizations can scale while maintaining control, visibility and trust.
+
+That is the governance model Avantiqo is designed to support.`,
+    },
+  ];
+
   return (
-    <main className="min-h-screen bg-[#02030A] text-white">
+    <main className="min-h-screen overflow-hidden bg-[#02030A] text-white">
+      <SiteTopNav />
 
-      {/* HERO */}
-      <section className="relative overflow-hidden px-6 pb-24 pt-40 md:pb-32 md:pt-52">
-
-        {/* GLOW */}
-        <div className="absolute left-1/2 top-1/2 h-[1000px] w-[1000px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#8B5CF6]/10 blur-[220px]" />
+      <section className="relative px-6 py-28">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,#4A2C12_0%,#15110A_30%,#02030A_100%)]" />
 
         <div className="relative mx-auto max-w-7xl">
+          <div className="rounded-[46px] border border-[#D6A66A]/20 bg-white/[0.03] p-12 backdrop-blur-3xl md:p-16">
 
-          <div className="max-w-5xl">
-
-            <p className="mb-8 text-xs tracking-[0.35em] text-[#B58AF8]">
-              OPERATIONAL GOVERNANCE
-            </p>
-
-            <h1
-              className="text-5xl text-white sm:text-6xl md:text-[96px]"
-              style={{
-                lineHeight: 0.95,
-                fontWeight: 300,
-                letterSpacing: "-0.06em",
-              }}
-            >
-              Enterprise operational
-              <br />
-
-              <span className="bg-gradient-to-r from-[#E7C38A] via-white to-[#8B5CF6] bg-clip-text text-transparent">
-                governance and accountability.
-              </span>
-
-            </h1>
-
-            <p
-              className="mt-10 max-w-3xl text-white/55"
-              style={{
-                fontSize: "22px",
-                lineHeight: 1.9,
-                fontWeight: 400,
-                letterSpacing: "-0.01em",
-              }}
-            >
-              Avantiqo is designed with enterprise-grade
-              governance systems supporting operational oversight,
-              approval structures, organizational accountability,
-              audit visibility and multi-location control.
-            </p>
-
-          </div>
-
-        </div>
-
-      </section>
-
-      {/* GOVERNANCE CONTENT */}
-      <section className="relative overflow-hidden px-6 pb-24 md:pb-36">
-
-        <div className="mx-auto grid max-w-7xl gap-6 md:gap-8 lg:grid-cols-[280px_1fr]">
-
-          {/* SIDEBAR */}
-          <div className="h-fit rounded-[34px] border border-white/[0.05] bg-white/[0.025] p-8 backdrop-blur-3xl lg:sticky lg:top-32">
-
-            <p className="mb-8 text-xs tracking-[0.35em] text-[#B58AF8]">
-              GOVERNANCE INDEX
-            </p>
-
-            <div className="space-y-5 text-white/50">
-
-              {[
-                "Operational Oversight",
-                "Approval Structures",
-                "Audit Visibility",
-                "Organizational Accountability",
-                "Financial Governance",
-                "Workforce Governance",
-                "AI Governance",
-                "Multi-Location Control",
-                "Infrastructure Policies",
-                "Enterprise Compliance",
-              ].map((item) => (
-                <div
-                  key={item}
-                  className="cursor-pointer transition duration-300 hover:text-white"
-                >
-                  {item}
-                </div>
-              ))}
-
+            <div className="mb-6 text-xs uppercase tracking-[0.45em] text-[#D6A66A]">
+              GOVERNANCE & ACCOUNTABILITY
             </div>
 
+            <h1 className="max-w-5xl text-6xl font-extralight leading-tight tracking-[-0.06em] md:text-8xl">
+              Governance Is Not
+              <br />
+              <span className="bg-gradient-to-r from-[#D6A66A] via-[#E7C78A] to-[#F7E7B0] bg-clip-text text-transparent">
+                Management.
+              </span>
+            </h1>
+
+            <p className="mt-8 max-w-4xl text-xl leading-10 text-white/65">
+              Governance creates accountability.
+              Accountability creates trust.
+              Trust creates confidence.
+              Confidence creates better decisions.
+            </p>
+
           </div>
+        </div>
+      </section>
 
-          {/* CONTENT */}
-          <div className="space-y-8">
+      <section className="px-6 pb-24">
+        <div className="mx-auto max-w-7xl space-y-10">
 
-            {[
-              {
-                title: "Operational Oversight",
-                text: "Avantiqo includes operational oversight systems designed to support enterprise visibility, infrastructure accountability and organizational management across connected operational environments. Governance functionality may include workflow visibility, operational status monitoring, management reporting and infrastructure coordination designed for scalable business operations.",
-              },
-              {
-                title: "Approval Structures",
-                text: "Organizations may configure approval workflows and authorization structures for financial activity, operational procedures, procurement actions, workforce management and enterprise infrastructure changes. Approval systems are intended to support operational accountability, governance integrity and organizational oversight procedures.",
-              },
-              {
-                title: "Audit Visibility",
-                text: "Operational activity, infrastructure actions, workflow events and approval processes may be recorded through platform audit systems designed to support enterprise accountability and governance visibility. Audit visibility functionality assists organizations in reviewing operational activity, workflow integrity and organizational infrastructure usage.",
-              },
-              {
-                title: "Organizational Accountability",
-                text: "Avantiqo governance systems are designed to support organizational accountability through permissions, operational logging, approval visibility and infrastructure role structures. Organizations remain responsible for implementing appropriate internal governance procedures and operational management practices within their business environments.",
-              },
-              {
-                title: "Financial Governance",
-                text: "Financial infrastructure functionality may include approval chains, accounting visibility, procurement governance, payroll oversight and operational financial monitoring systems intended to support enterprise-grade financial accountability and infrastructure control standards.",
-              },
-              {
-                title: "Workforce Governance",
-                text: "Workforce governance functionality may include operational permissions, attendance visibility, approval systems, scheduling oversight, performance tracking and organizational management structures intended to support operational accountability within workforce environments.",
-              },
-              {
-                title: "AI Governance",
-                text: "AI systems within Avantiqo are designed to operate within controlled enterprise environments and governance structures. AI recommendations, automation workflows, forecasting systems and optimization engines remain connected to operational oversight procedures, infrastructure permissions and organizational accountability standards.",
-              },
-              {
-                title: "Multi-Location Control",
-                text: "Organizations operating across multiple locations may configure operational visibility structures, reporting layers, management permissions and infrastructure governance controls according to organizational requirements and enterprise operational structures.",
-              },
-              {
-                title: "Infrastructure Policies",
-                text: "Organizations utilizing Avantiqo infrastructure remain responsible for implementing internal operational policies, governance procedures and organizational management standards appropriate for their industries, workforce environments and compliance obligations.",
-              },
-              {
-                title: "Enterprise Compliance",
-                text: "Avantiqo infrastructure is designed to support enterprise operational governance, organizational accountability and scalable compliance environments. Organizations remain responsible for ensuring operational usage aligns with applicable legal requirements, industry standards and organizational governance obligations.",
-              },
-            ].map((section) => (
-              <div
-                key={section.title}
-                className="overflow-hidden rounded-[34px] border border-white/[0.05] bg-white/[0.025] p-6 md:p-10 backdrop-blur-3xl"
-              >
+          {sections.map((section) => (
+            <div
+              key={section.title}
+              className="rounded-[38px] border border-white/10 bg-white/[0.03] p-10 backdrop-blur-2xl"
+            >
+              <h2 className="mb-6 text-4xl font-extralight">
+                {section.title}
+              </h2>
 
-                <div className="mb-8 h-[1px] w-20 bg-gradient-to-r from-[#8B5CF6] to-transparent" />
+              <p className="whitespace-pre-line text-lg leading-9 text-white/65">
+                {section.text}
+              </p>
+            </div>
+          ))}
 
-                <h2
-                  className="text-white"
-                  style={{
-                    fontSize: "42px",
-                    lineHeight: 1.05,
-                    fontWeight: 300,
-                    letterSpacing: "-0.04em",
-                  }}
-                >
-                  {section.title}
-                </h2>
+          <div className="rounded-[42px] border border-[#D6A66A]/20 bg-gradient-to-br from-[#D6A66A]/10 via-transparent to-transparent p-14 text-center backdrop-blur-3xl">
 
-                <p
-                  className="mt-8 max-w-4xl text-white/50"
-                  style={{
-                    fontSize: "18px",
-                    lineHeight: 2,
-                    fontWeight: 400,
-                    letterSpacing: "-0.01em",
-                  }}
-                >
-                  {section.text}
-                </p>
+            <h2 className="text-5xl font-extralight leading-tight">
+              Governance Creates Accountability.
+              <br />
+              Accountability Creates Trust.
+              <br />
+              Trust Creates Confidence.
+            </h2>
 
-              </div>
-            ))}
+            <p className="mx-auto mt-8 max-w-4xl text-xl leading-10 text-white/70">
+              Governance is not where organizations slow down.
+              Governance is where organizations gain control.
+            </p>
 
           </div>
 
         </div>
-
       </section>
 
+      <Footer />
     </main>
   );
 }

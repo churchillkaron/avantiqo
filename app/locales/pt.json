@@ -1,0 +1,2312 @@
+{
+  "brand": {
+    "name": "AVANTIQO",
+    "tagline": "Synthetic Intelligence Operating System"
+  },
+  "topnav": {
+    "platform": "Platform",
+    "industries": "Industries",
+    "modules": "Modules",
+    "aiRuntime": "AI Runtime",
+    "security": "Security",
+    "signIn": "Login",
+    "workspace": "Workspace",
+    "startSetup": "Start Setup",
+    "accountingFirms": "Accounting Firms",
+    "demo": "Demo"
+  },
+  "home": {
+    "hero": {
+      "badge": "SYNTHETIC INTELLIGENCE OPERATING SYSTEM",
+      "title1": "Where Business Reality",
+      "title2": "Becomes Financial Intelligence.",
+      "description": "Avantiqo connects business operations directly to accounting, finance, documents, payroll, approvals, and execution through one Synthetic Intelligence layer. Every operational event becomes financial intelligence in real time.",
+      "book_demo": "Experience Avantiqo",
+      "start_setup": "For Accounting Firms",
+      "trust": "Built for accounting firms, business owners, multi-entity groups, and companies ready to move beyond disconnected software.",
+      "image_caption": "BUSINESS REALITY TO FINANCIAL INTELLIGENCE"
+    },
+    "accounting": {
+      "badge": "THE END OF THE GAP BETWEEN BUSINESS AND ACCOUNTING",
+      "title1": "Accounting Should Not Start",
+      "title2": "After The Month Ends.",
+      "description": "For decades, businesses operated in one world while accountants worked in another. Avantiqo eliminates that gap by turning operations, invoices, payroll, procurement, documents, and approvals into live financial intelligence."
+    },
+    "pillars": {
+      "operations": {
+        "badge": "01",
+        "title": "Business Reality",
+        "description": "Revenue, costs, staff, inventory, projects, documents, and approvals are captured while the business is operating."
+      },
+      "accounting": {
+        "badge": "02",
+        "title": "Financial Intelligence",
+        "description": "Operational activity becomes accounting-ready intelligence instead of delayed paperwork, spreadsheets, and manual reconciliation."
+      },
+      "firms": {
+        "badge": "03",
+        "title": "Accounting Firms",
+        "description": "Firms can monitor clients continuously, detect risks earlier, and move from bookkeeping into high-value advisory."
+      },
+      "execution": {
+        "badge": "04",
+        "title": "Enterprise Execution",
+        "description": "The system does not stop at reports. It coordinates approvals, governance, workflows, and operational accountability."
+      }
+    },
+    "synthetic": {
+      "badge": "WHY SYNTHETIC INTELLIGENCE",
+      "title1": "Artificial Intelligence Answers.",
+      "title2": "Synthetic Intelligence Operates.",
+      "description": "AI can generate text, images, and reports. Synthetic Intelligence understands how the business actually works. It connects people, money, documents, customers, suppliers, workflows, decisions, and accounting into one living operating layer.",
+      "formulaBadge": "THE AVANTIQO FORMULA",
+      "formula": "Business Operations + Accounting Intelligence + Enterprise Memory + Execution = Synthetic Intelligence."
+    },
+    "cta": {
+      "badge": "OWN THE FUTURE OF ACCOUNTING",
+      "title1": "From Bookkeeping",
+      "title2": "To Business Intelligence.",
+      "title3": "Powered By Synthetic Intelligence.",
+      "description": "Accounting firms that connect directly to their clients' operations will not just report the past. They will understand the present, forecast risk, guide decisions, and help businesses operate better."
+    },
+    "flow": {
+      "businessReality": [
+        "Operations",
+        "Sales",
+        "Inventory",
+        "Procurement",
+        "Projects",
+        "People",
+        "Documents"
+      ],
+      "financialIntelligence": [
+        "Accounting",
+        "Governance",
+        "Forecasting",
+        "Cash Flow",
+        "Performance",
+        "Owner Control"
+      ],
+      "businessRealityTitle": "BUSINESS REALITY",
+      "financialIntelligenceTitle": "FINANCIAL INTELLIGENCE",
+      "centerTitle": "Synthetic Intelligence"
+    },
+    "workspace": {
+      "badge": "SEE AVANTIQO IN ACTION",
+      "title1": "One Workspace.",
+      "title2": "Every Business Function.",
+      "description": "Operations, Finance, Accounting, Documents, Approvals, Marketing, AI Runtime and Enterprise Control connected through one operating layer.",
+      "cards": {
+        "clientManagement": {
+          "title": "CLIENT MANAGEMENT",
+          "description": "Manage all clients from one workspace."
+        },
+        "accountantAssignment": {
+          "title": "ACCOUNTANT ASSIGNMENT",
+          "description": "Assign accountants and balance workloads."
+        },
+        "complianceControl": {
+          "title": "COMPLIANCE CONTROL",
+          "description": "Track deadlines, approvals and obligations."
+        },
+        "aiRuntime": {
+          "title": "AI ACCOUNTING RUNTIME",
+          "description": "AI-assisted operational and accounting workflows."
+        }
+      },
+      "modules": [
+        "Operations",
+        "Finance",
+        "Accounting",
+        "Documents",
+        "Approvals",
+        "AI Runtime"
+      ]
+    },
+    "comparison": {
+      "software": {
+        "title": "TRADITIONAL SOFTWARE",
+        "items": [
+          "Stores Data",
+          "Manual Work",
+          "Accounting Later"
+        ]
+      },
+      "ai": {
+        "title": "TRADITIONAL AI",
+        "items": [
+          "Generates Answers",
+          "More Manual Work",
+          "No Financial Context"
+        ]
+      },
+      "avantiqo": {
+        "title": "AVANTIQO",
+        "items": [
+          "Observe",
+          "Decide",
+          "Execute",
+          "Account"
+        ]
+      }
+    },
+    "industries": {
+      "badge": "INDUSTRY SOLUTIONS",
+      "title1": "Built For Your Industry.",
+      "title2": "Configured For Your Business.",
+      "description": "Every industry operates differently. Restaurants, hotels, accounting firms, retailers, construction companies and enterprise groups all require different workflows, controls and intelligence. Avantiqo adapts to your business while keeping Customers, Marketing, Operations, Finance and Intelligence connected on one platform.",
+      "groups": {
+        "professionalServices": {
+          "title": "Professional Services",
+          "description": "Accounting firms, legal firms, consultants, agencies and service businesses."
+        },
+        "hospitality": {
+          "title": "Hospitality",
+          "description": "Restaurants, hotels, resorts, beach clubs and nightlife venues."
+        },
+        "retail": {
+          "title": "Retail & Commerce",
+          "description": "Retail stores, shopping malls, franchises and e-commerce."
+        },
+        "construction": {
+          "title": "Construction & Property",
+          "description": "Construction, real estate, property management and development."
+        },
+        "distribution": {
+          "title": "Distribution & Manufacturing",
+          "description": "Warehousing, logistics, procurement and production."
+        },
+        "enterprise": {
+          "title": "Enterprise",
+          "description": "Multi-company groups, holdings, family offices and enterprise organizations."
+        }
+      },
+      "pillars": {
+        "badge": "PLATFORM FOUNDATION",
+        "title1": "Every Operating System",
+        "title2": "Includes",
+        "revenue": {
+          "title": "Revenue",
+          "items": [
+            "CRM",
+            "Customer Experience",
+            "Marketing",
+            "Reviews",
+            "Sales",
+            "Loyalty",
+            "Design Studio"
+          ]
+        },
+        "operations": {
+          "title": "Operations",
+          "items": [
+            "Projects",
+            "Inventory",
+            "Procurement",
+            "Production",
+            "Scheduling",
+            "Documents",
+            "Workflow Engine"
+          ]
+        },
+        "finance": {
+          "title": "Finance",
+          "items": [
+            "Accounting",
+            "Payroll",
+            "Treasury",
+            "Tax",
+            "Accounts Payable",
+            "Accounts Receivable",
+            "Reporting"
+          ]
+        },
+        "intelligence": {
+          "title": "Synthetic Intelligence",
+          "items": [
+            "AI Runtime",
+            "Recommendations",
+            "Compliance",
+            "Optimization",
+            "Knowledge Memory",
+            "Executive Intelligence"
+          ]
+        }
+      },
+      "intelligence": {
+        "badge": "SYNTHETIC INTELLIGENCE",
+        "title1": "Every Industry.",
+        "title2": "One Intelligence Layer.",
+        "description": "Avantiqo adapts to your industry while keeping Revenue, Operations, Finance and Intelligence connected through one operating platform."
+      },
+      "runtimeLabel": "Industry Operating System",
+      "exploreIndustry": "Explore Solution",
+      "cta": {
+        "badge": "ONE PLATFORM",
+        "title1": "Built for your industry.",
+        "title2": "Configured for your operation.",
+        "title3": "Powered by one intelligence layer.",
+        "description": "Whether you run a restaurant, accounting firm, hotel, construction company, retail chain or enterprise group, Avantiqo adapts the operating system to your industry while keeping Revenue, Operations, Finance and Intelligence connected.",
+        "primary": "Explore Industry Solutions",
+        "secondary": "See Platform Architecture"
+      },
+      "businessFunctions": {
+        "badge": "BUSINESS FUNCTIONS",
+        "title1": "Every Business Function.",
+        "title2": "One Connected Platform.",
+        "description": "From customer acquisition to financial reporting, every function operates on the same foundation.",
+        "cards": [
+          {
+            "title": "MARKETING",
+            "items": [
+              "Campaigns",
+              "Design Studio",
+              "Social Media",
+              "Content AI"
+            ]
+          },
+          {
+            "title": "CUSTOMERS",
+            "items": [
+              "CRM",
+              "Loyalty",
+              "Reviews",
+              "Sales"
+            ]
+          },
+          {
+            "title": "OPERATIONS",
+            "items": [
+              "Projects",
+              "Scheduling",
+              "Workforce",
+              "Approvals"
+            ]
+          },
+          {
+            "title": "FINANCE",
+            "items": [
+              "Accounting",
+              "Revenue",
+              "Treasury",
+              "Compliance"
+            ]
+          },
+          {
+            "title": "DOCUMENTS",
+            "items": [
+              "Contracts",
+              "Policies",
+              "Governance",
+              "Records"
+            ]
+          },
+          {
+            "title": "INTELLIGENCE",
+            "items": [
+              "Insights",
+              "Recommendations",
+              "Automation",
+              "Execution"
+            ]
+          }
+        ]
+      },
+      "intelligenceLayer": {
+        "badge": "INTELLIGENCE LAYER",
+        "title1": "One Intelligence Layer.",
+        "title2": "Across Every Industry.",
+        "description": "Avantiqo observes activity across every department, understands relationships between data, recommends actions, and gradually automates execution.",
+        "steps": [
+          {
+            "title": "OBSERVE",
+            "desc": "Collects activity across customers, operations, finance and workforce."
+          },
+          {
+            "title": "UNDERSTAND",
+            "desc": "Builds relationships between people, data, processes and outcomes."
+          },
+          {
+            "title": "RECOMMEND",
+            "desc": "Identifies opportunities, risks and actions."
+          },
+          {
+            "title": "EXECUTE",
+            "desc": "Automates workflows, approvals and decisions."
+          }
+        ]
+      },
+      "dataFoundation": {
+        "badge": "ONE DATA FOUNDATION",
+        "title1": "Unified Business Data.",
+        "title2": "Across Every Department.",
+        "description": "No disconnected systems. No duplicated records. No manual reconciliation. Every module, department and industry runtime operates from the same foundation.",
+        "entities": [
+          {
+            "title": "Customer",
+            "desc": "Sales, CRM, loyalty and marketing"
+          },
+          {
+            "title": "Employee",
+            "desc": "Workforce, payroll and performance"
+          },
+          {
+            "title": "Supplier",
+            "desc": "Procurement and vendor management"
+          },
+          {
+            "title": "Transaction",
+            "desc": "Operations, finance and reporting"
+          },
+          {
+            "title": "Unified Record",
+            "desc": "One foundation across the platform"
+          }
+        ]
+      }
+    },
+    "hospitality": {
+      "hero": {
+        "badge": "HOSPITALITY INTELLIGENCE PLATFORM",
+        "title1": "See The Entire Business.",
+        "title2": "Know What Happens Next.",
+        "description": "Reservations, operations, workforce, finance, marketing and guest experience connected through one synthetic intelligence layer.",
+        "primary": "Book Demo",
+        "secondary": "Explore Platform"
+      },
+      "reality": {
+        "badge": "HOSPITALITY REALITY",
+        "title1": "Hospitality today is connected everywhere.",
+        "title2": "But understood nowhere."
+      },
+      "runtime": {
+        "badge": "ONE HOSPITALITY RUNTIME",
+        "title1": "Guests. Operations. Finance. Ownership.",
+        "title2": "One connected runtime."
+      },
+      "relationships": {
+        "badge": "FROM ACTIVITY TO INTELLIGENCE",
+        "title1": "Most systems store events.",
+        "title2": "Avantiqo understands relationships."
+      },
+      "intelligence": {
+        "badge": "REAL HOSPITALITY INTELLIGENCE",
+        "title1": "One reservation.",
+        "title2": "One chain reaction."
+      },
+      "synthetic": {
+        "badge": "SYNTHETIC INTELLIGENCE LAYER",
+        "title1": "Observe.",
+        "title2": "Understand.",
+        "title3": "Recommend."
+      },
+      "ownership": {
+        "badge": "OWNERSHIP LAYER",
+        "title1": "Ownership sees everything.",
+        "title2": "Before it happens."
+      },
+      "cta": {
+        "badge": "HOSPITALITY OPERATING SYSTEM",
+        "title1": "Hospitality was built around operations.",
+        "title2": "The future will be built around intelligence.",
+        "description": "Avantiqo connects operations, finance, workforce, marketing and guest experience through one Synthetic Intelligence Operating System.",
+        "primary": "Book Demo"
+      },
+      "flow": [
+        "Guest arrives",
+        "Reservation",
+        "Service",
+        "Inventory",
+        "Payroll",
+        "Accounting",
+        "Profitability",
+        "Ownership"
+      ],
+      "realityContent": [
+        "Most hospitality businesses operate through disconnected systems. Reservations live in one platform. Operations live in another. Finance sees the business weeks later. Marketing works from assumptions. Management reacts instead of leading.",
+        "The problem is not a lack of data. The problem is a lack of understanding.",
+        "Hospitality businesses do not need more software. They need one operating system."
+      ],
+      "runtimeContent": "Not separate departments. Not separate software. One connected foundation where every action becomes part of the same business story.",
+      "relationshipsItems": [
+        "A reservation is not a reservation. It is demand.",
+        "A shift is not a shift. It is labour cost.",
+        "An order is not an order. It is revenue.",
+        "A review is not a review. It is future growth."
+      ],
+      "relationshipsDescription": "That is the difference between software and Synthetic Intelligence. Avantiqo connects operational activity directly to business meaning.",
+      "intelligenceDescription": "Hospitality is not a collection of separate events. Every action creates consequences throughout the business. Avantiqo follows those consequences automatically.",
+      "intelligenceChain": {
+        "eventLabel": "Event",
+        "eventTitle": "Reservation demand increases for next weekend",
+        "cards": [
+          {
+            "label": "Operations",
+            "title": "Service demand increases"
+          },
+          {
+            "label": "Workforce",
+            "title": "Staffing requirements adjust automatically"
+          },
+          {
+            "label": "Inventory",
+            "title": "Purchasing forecasts update"
+          },
+          {
+            "label": "Finance",
+            "title": "Revenue and labour projections recalculate"
+          }
+        ],
+        "ownershipLabel": "Ownership",
+        "ownershipTitle": "Ownership sees the impact before it happens."
+      },
+      "syntheticContent": [
+        "Most platforms stop at reporting. Avantiqo continues into action.",
+        "The system continuously observes activity across guests, staff, operations, finance and ownership. It identifies patterns, predicts outcomes, recommends actions and executes approved workflows automatically.",
+        "This is not a chatbot. This is an operational intelligence layer built into the business itself."
+      ],
+      "syntheticExecute": "Execute.",
+      "ownershipTypes": [
+        "Restaurant",
+        "Hotel",
+        "Beach Club",
+        "Multi Venue Group",
+        "Enterprise Hospitality Organization"
+      ]
+    },
+    "accountingFirms": {
+      "hero": {
+        "badge": "SYNTHETIC INTELLIGENCE FOR ACCOUNTING FIRMS",
+        "title1": "Stop Reporting",
+        "title2": "The Past.",
+        "title3": "Start Managing",
+        "title4": "The Future.",
+        "description": "Avantiqo gives accounting firms real-time visibility into operations, approvals, payroll, procurement and financial activity instead of waiting for paperwork 30 days later.",
+        "primary": "Build The Next Generation Accounting Firm",
+        "secondary": "Talk To Enterprise Team"
+      },
+      "beforeAfter": {
+        "badge": "BEFORE VS AFTER",
+        "title1": "Stop rebuilding businesses",
+        "title2": "from paperwork."
+      },
+      "switch": {
+        "badge": "WHY ACCOUNTING FIRMS SWITCH",
+        "title1": "Other software stores transactions.",
+        "title2": "Avantiqo understands businesses."
+      },
+      "runtime": {
+        "badge": "ACCOUNTING RUNTIME",
+        "title1": "Everything connected.",
+        "title2": "Everything visible."
+      },
+      "benefits": {
+        "badge": "ACCOUNTING FIRM BENEFITS",
+        "title1": "Scale your accounting firm without scaling operational chaos."
+      },
+      "advisory": {
+        "badge": "WHY SYNTHETIC INTELLIGENCE FOR ACCOUNTING FIRMS CHOOSE AVANTIQO",
+        "title1": "Turn accounting from bookkeeping into operational intelligence.",
+        "description": "Avantiqo helps accounting firms become live operational intelligence partners, not just month-end bookkeeping providers."
+      },
+      "enterprise": {
+        "badge": "ENTERPRISE CONTROL & COMPLIANCE",
+        "title1": "Built for operational trust,",
+        "title2": "accountability and visibility.",
+        "description": "Avantiqo provides accounting firms with enterprise-grade operational visibility, permission control and audit accountability across all clients."
+      },
+      "cta": {
+        "badge": "LIVE ACCOUNTING CONTROL",
+        "title1": "Your accounting firm",
+        "title2": "should not discover",
+        "title3": "problems 30 days later.",
+        "description": "Avantiqo transforms accounting firms into real-time operational intelligence partners.",
+        "primary": "Book Enterprise Demo"
+      },
+      "enterpriseCards": [
+        {
+          "title": "Role-Based Permissions",
+          "description": "Every accountant only sees assigned companies, approvals and operational areas."
+        },
+        {
+          "title": "Full Audit Trail",
+          "description": "Every approval, document upload and operational action tracked automatically."
+        },
+        {
+          "title": "Approval Accountability",
+          "description": "Know exactly who approved what, when and from which operational workflow."
+        },
+        {
+          "title": "Multi-Company Runtime",
+          "description": "Manage multiple companies, branches and operational entities from one connected system."
+        },
+        {
+          "title": "Searchable Operational History",
+          "description": "Find invoices, approvals, payroll activity and operational changes instantly."
+        },
+        {
+          "title": "Live Operational Monitoring",
+          "description": "Identify financial and operational issues before they become month-end surprises."
+        }
+      ],
+      "advisorCards": [
+        {
+          "label": "Advisory",
+          "title": "Become a Live Business Advisor",
+          "description": "Move from reactive bookkeeping to proactive operational guidance with live client revenue, payroll, procurement and approval visibility.",
+          "items": [
+            "Spot revenue drops early",
+            "Monitor payroll pressure",
+            "Track procurement issues",
+            "Advise clients before month-end"
+          ]
+        },
+        {
+          "label": "Trust",
+          "title": "Increase Owner Confidence",
+          "description": "Give business owners transparent access to approvals, documents, expenses and financial activity so trust increases between client and accountant.",
+          "items": [
+            "Live owner visibility",
+            "Connected approvals",
+            "Searchable documents",
+            "Clear responsibility tracking"
+          ]
+        },
+        {
+          "label": "Risk",
+          "title": "Reduce Leakage & Mistakes",
+          "description": "See unusual activity, missing invoices, delayed approvals and operational cost problems before they become month-end surprises.",
+          "items": [
+            "Expense visibility",
+            "Audit history",
+            "Approval controls",
+            "Operational anomaly alerts"
+          ]
+        }
+      ],
+      "roiCards": [
+        {
+          "label": "Growth",
+          "title": "Handle More Clients",
+          "description": "Reduce manual accounting workload by connecting invoices, payroll, procurement, approvals and operational activity into one live runtime.",
+          "items": [
+            "AI-assisted invoice extraction",
+            "Faster month-end closing",
+            "Less manual bookkeeping",
+            "More clients without more paperwork"
+          ]
+        },
+        {
+          "label": "Visibility",
+          "title": "Discover Problems Earlier",
+          "description": "Monitor client operations in real time instead of waiting for documents and reports at the end of the month.",
+          "items": [
+            "Live revenue visibility",
+            "Payroll and procurement tracking",
+            "Approval monitoring",
+            "Full operational audit trail"
+          ]
+        }
+      ],
+      "features": [
+        {
+          "title": "LIVE FINANCIAL VISIBILITY",
+          "description": "Monitor revenue, payroll, procurement, approvals and operational costs in real time across all clients.",
+          "image": "/images/accounting-live-control.png"
+        },
+        {
+          "title": "AI DOCUMENT EXTRACTION",
+          "description": "Invoices, receipts and paperwork automatically extracted and organized into the financial workflow.",
+          "image": "/images/documents-flow.png"
+        },
+        {
+          "title": "MULTI-COMPANY CONTROL",
+          "description": "Accounting firms manage multiple businesses from one connected operational runtime.",
+          "image": "/images/accounting-multi-company.png"
+        },
+        {
+          "title": "LIVE APPROVALS & AUDIT",
+          "description": "Every approval, document and operational change tracked with full audit visibility.",
+          "image": "/images/accounting-approval-runtime.png"
+        }
+      ],
+      "beforeAfterCards": [
+        {
+          "label": "item1",
+          "name": "Missing invoices and receipts",
+          "status": "Pending"
+        },
+        {
+          "label": "item2",
+          "name": "Manual data entry",
+          "status": "Pending"
+        },
+        {
+          "label": "item3",
+          "name": "Line messages and paperwork",
+          "status": "Pending"
+        },
+        {
+          "label": "item4",
+          "name": "No real-time visibility",
+          "status": "Pending"
+        },
+        {
+          "label": "item5",
+          "name": "Delayed financial oversight",
+          "status": "Pending"
+        },
+        {
+          "label": "item6",
+          "name": "Operational problems discovered too late",
+          "status": "Pending"
+        }
+      ],
+      "runtimeEvents": {
+        "title": "Live Runtime Event Stream",
+        "subtitle": "Continuous Operational Flow",
+        "status": "LIVE",
+        "events": [
+          {
+            "time": "09:22",
+            "title": "Payroll runtime locked"
+          },
+          {
+            "time": "09:24",
+            "title": "Inventory ledger synchronized"
+          },
+          {
+            "time": "09:26",
+            "title": "Variance detection triggered"
+          },
+          {
+            "time": "09:28",
+            "title": "Approval escalation initiated"
+          },
+          {
+            "time": "09:31",
+            "title": "Revenue synchronization completed"
+          }
+        ]
+      },
+      "governanceTimeline": {
+        "label": "Governance Timeline",
+        "title": "Continuous Operational Flow",
+        "status": "LIVE",
+        "events": [
+          {
+            "time": "08:42",
+            "title": "Procurement Approved"
+          },
+          {
+            "time": "09:14",
+            "title": "Journal Posted"
+          },
+          {
+            "time": "09:16",
+            "title": "Reconciliation Updated"
+          },
+          {
+            "time": "09:22",
+            "title": "Payroll Runtime Locked"
+          }
+        ]
+      },
+      "multiEntity": {
+        "label": "Multi-Entity Operational Runtime",
+        "title": "Cross-Company Oversight",
+        "status": "4 ENTITIES",
+        "entities": [
+          {
+            "name": "Churchill Phuket",
+            "status": "ACTIVE"
+          },
+          {
+            "name": "BEA Co., Ltd.",
+            "status": "REVIEWING"
+          },
+          {
+            "name": "PCS Phuket",
+            "status": "APPROVED"
+          },
+          {
+            "name": "Cole Ley Entertainment",
+            "status": "PENDING CLOSE"
+          }
+        ]
+      },
+      "accountability": {
+        "label": "Approval Accountability",
+        "title": "Human Governance Runtime",
+        "status": "VERIFIED",
+        "items": [
+          {
+            "label": "Approved By",
+            "name": "P. Vallgarda — CFO Runtime",
+            "status": "ACTIVE"
+          },
+          {
+            "label": "Locked By",
+            "name": "Financial Governance Engine",
+            "status": "ENFORCED"
+          },
+          {
+            "label": "Reviewed By",
+            "name": "Operations Control Runtime",
+            "status": "VERIFIED"
+          }
+        ]
+      },
+      "syntheticDecisionLayer": {
+        "title": "Predictive Operational Intelligence",
+        "status": "LEARNING",
+        "recommendationLabel": "AI Recommendation",
+        "recommendationText": "Delay financial close until procurement reconciliation completes.",
+        "predictionLabel": "AI Prediction",
+        "predictionText": "Procurement shortage risk predicted within 6 operational days.",
+        "detectionLabel": "AI Detection",
+        "detectionText": "Unusual approval behavior detected in hospitality runtime."
+      },
+      "financialGovernance": {
+        "title": "Live Financial Governance"
+      },
+      "runtimeDashboard": {
+        "title": "Enterprise Runtime",
+        "connectedEntities": "Connected Entities",
+        "journalEntries": "Journal Entries Today",
+        "approvalFlows": "Approval Flows",
+        "governanceIntegrity": "Governance Integrity"
+      },
+      "riskRuntime": {
+        "monthEndClose": "Month-End Close Runtime",
+        "operationalRisk": "Operational Risk Runtime",
+        "auditViolations": "Audit Violations",
+        "liveDetection": "Live Runtime Detection"
+      },
+      "beforeAfterLists": {
+        "before": [
+          "Missing invoices and receipts",
+          "Manual data entry",
+          "Line messages and paperwork",
+          "No real-time visibility",
+          "Delayed financial oversight",
+          "Operational problems discovered too late"
+        ],
+        "after": [
+          "AI invoice extraction",
+          "Real-time operational visibility",
+          "Live payroll and procurement tracking",
+          "Connected approvals and audit trails",
+          "Multi-company dashboard control",
+          "Accounting firms handle more clients efficiently"
+        ]
+      },
+      "switchLists": {
+        "traditional": [
+          "Reports after the month ends",
+          "No operational visibility",
+          "Manual document collection",
+          "Problems discovered too late",
+          "No approval intelligence",
+          "No operational accountability",
+          "No live client monitoring"
+        ],
+        "avantiqo": [
+          "Live operational visibility",
+          "AI document extraction",
+          "Multi-company control",
+          "Approval accountability",
+          "Operational anomaly detection",
+          "Continuous audit trail",
+          "Synthetic Intelligence recommendations"
+        ]
+      },
+      "syntheticSection": {
+        "badge": "SYNTHETIC INTELLIGENCE",
+        "headline1": "Artificial Intelligence answers questions.",
+        "headline2": "Synthetic Intelligence understands businesses.",
+        "aiTitle": "AI",
+        "aiText": "Generates content. Answers questions. Creates reports. Responds to prompts.",
+        "syntheticTitle": "Synthetic Intelligence",
+        "syntheticText": "Understands relationships between payroll, procurement, approvals, documents, accounting, inventory and operations. Detects risks. Predicts outcomes. Recommends actions. Creates operational intelligence.",
+        "receiptText": "It affects approvals, accounting, procurement reconciliation, financial close, audit confidence, and management visibility.",
+        "receiptFooter": "Synthetic Intelligence understands the entire chain reaction."
+      },
+      "riskRuntimeLists": {
+        "missingReceipts": "Missing Receipts",
+        "payrollApproval": "Payroll Approval Delayed",
+        "procurementExceptions": "Procurement Exceptions",
+        "continuousFlow": "Continuous Operational Flow",
+        "enterpriseNervousSystem": "Enterprise Operational Nervous System",
+        "monitoringBehavior": "Monitoring Operational Behavior",
+        "aiVariance": "Procurement variance detected in hospitality operations.",
+        "aiPayroll": "Payroll inconsistency identified before financial close.",
+        "aiConfidence": "AI Runtime Confidence",
+        "aiPercentage": "97.2%",
+        "aiStatus": "No critical anomalies detected."
+      },
+      "statusLabels": {
+        "aiActive": "AI ACTIVE",
+        "systemActive": "SYSTEM ACTIVE",
+        "detected": "AI DETECTED",
+        "analysis": "AI ANALYSIS",
+        "recommendation": "AI RECOMMENDATION",
+        "live": "LIVE",
+        "verified": "VERIFIED",
+        "active": "ACTIVE",
+        "reviewing": "REVIEWING",
+        "approved": "APPROVED",
+        "pendingClose": "PENDING CLOSE",
+        "enforced": "ENFORCED",
+        "enabled": "ENABLED",
+        "ready": "READY",
+        "synchronized": "SYNCHRONIZED",
+        "operational": "OPERATIONAL"
+      },
+      "enterpriseRuntime": {
+        "auditTraceability": "Enterprise Audit Traceability",
+        "auditDescription": "Every approval, edit, transaction and operational event is permanently tracked across the enterprise runtime architecture.",
+        "noAnomalies": "No critical anomalies detected.",
+        "allSystems": "ALL SYSTEMS SYNCHRONIZED",
+        "payrollRuntime": "Payroll Runtime",
+        "payrollDesc": "Synced with Operations Control",
+        "procurementRuntime": "Procurement Runtime",
+        "procurementDesc": "Connected to Inventory Ledger",
+        "financialRuntime": "Financial Runtime",
+        "financialDesc": "Linked to Live Revenue Streams",
+        "aiRuntime": "AI Runtime",
+        "journalEngine": "Canonical Journal Engine",
+        "threeWay": "3-Way Matching",
+        "auditChain": "Audit Chain Integrity",
+        "procurementGovernance": "Procurement Governance",
+        "inventoryLedger": "Inventory Ledger",
+        "multiEntity": "Multi-Entity Consolidation",
+        "approvalRuntime": "Approval Runtime",
+        "periodLocking": "Period Locking",
+        "high": "HIGH",
+        "learning": "LEARNING",
+        "varianceTriggered": "AI variance detection triggered"
+      }
+    },
+    "healthcare": {
+      "hero": {
+        "badge": "PLATAFORMA DE INTELIGÊNCIA EM SAÚDE",
+        "title1": "Veja todo o sistema de saúde.",
+        "title2": "Antes que ele lhe diga que algo está errado.",
+        "description": "Pacientes, clínicos, operações, finanças, conformidade e liderança conectados por uma única camada de inteligência sintética.",
+        "primary": "Solicitar briefing executivo"
+      },
+      "reality": {
+        "badge": "REALIDADE DE SAÚDE",
+        "title1": "A saúde está conectada em todos os lugares.",
+        "title2": "Mas compreendida em nenhum lugar."
+      },
+      "runtime": {
+        "badge": "UM RUNTIME DE SAÚDE",
+        "title1": "Demanda de pacientes. Carga clínica. Capacidade de leitos.",
+        "title2": "Disponibilidade de pessoal. Exposição financeira. Risco de conformidade."
+      },
+      "synthetic": {
+        "badge": "CAMADA DE INTELIGÊNCIA SINTÉTICA",
+        "title1": "Sistemas tradicionais dizem",
+        "title2": "o que aconteceu.",
+        "title3": "Avantiqo mostra",
+        "title4": "o que acontece a seguir."
+      },
+      "ownership": {
+        "badge": "CAMADA DE LIDERANÇA",
+        "title1": "A liderança vê tudo.",
+        "title2": "Antes que aconteça."
+      },
+      "cta": {
+        "badge": "SISTEMA OPERACIONAL DE SAÚDE",
+        "title1": "A saúde foi construída em torno do tratamento.",
+        "title2": "O futuro será construído em torno da inteligência.",
+        "description": "Avantiqo conecta pacientes, clínicos, operações, finanças, conformidade e liderança através de um Sistema Operacional de Inteligência Sintética.",
+        "primary": "Solicitar Briefing Executivo"
+      },
+      "healthcare_hero": "Sistema de saúde completo",
+      "patient_systems": "Sistemas de pacientes",
+      "clinical_systems": "Sistemas clínicos",
+      "billing_systems": "Sistemas de faturamento",
+      "compliance_systems": "Sistemas de conformidade",
+      "patient_waiting_time": "Tempo de espera do paciente",
+      "staff_utilization": "Utilização do pessoal",
+      "revenue_leakage": "Perda de receita",
+      "capacity_planning": "Planejamento de capacidade",
+      "compliance_exposure": "Exposição à conformidade",
+      "executive_blind_spots": "Pontos cegos executivos",
+      "patient_demand": "Demanda do paciente",
+      "clinical_workload": "Carga clínica",
+      "bed_capacity": "Capacidade de leitos",
+      "staff_availability": "Disponibilidade de pessoal",
+      "financial_exposure": "Exposição financeira",
+      "compliance_risk": "Risco de conformidade",
+      "what_is_happening": "O que está acontecendo",
+      "what_happens_next": "O que acontece em seguida",
+      "what_to_do_about_it": "O que fazer a respeito",
+      "patient_surge_risk__87": "Risco de aumento de pacientes · 87%",
+      "staff_shortage_risk__73": "Risco de escassez de pessoal · 73%",
+      "up_capacity_utilization": "↑ Utilização da capacidade",
+      "up_revenue_capture": "↑ Captura de receita",
+      "up_leadership_visibility": "↑ Visibilidade da liderança",
+      "down_waiting_time": "↓ Tempo de espera",
+      "down_staffing_cost": "↓ Custo de pessoal",
+      "operational_bottlenecks_create_delays_long_before_management_becomes_aware_of_them": "Gargalos operacionais criam atrasos muito antes da gestão perceber",
+      "overstaffing_and_understaffing_often_happen_at_the_same_time_across_different_departments": "Excesso e falta de pessoal muitas vezes acontecem ao mesmo tempo em diferentes departamentos",
+      "disconnected_systems_create_missed_billing_opportunities_and_hidden_operational_costs": "Sistemas desconectados criam oportunidades de faturamento perdidas e custos operacionais ocultos",
+      "beds_rooms_equipment_and_staff_capacity_are_rarely_viewed_as_one_connected_reality": "Leitos, quartos, equipamentos e pessoal raramente são vistos como uma realidade conectada",
+      "risk_grows_when_operational_events_and_compliance_obligations_are_disconnected": "O risco aumenta quando eventos operacionais e obrigações de conformidade estão desconectados",
+      "leadership_receives_reports_after_events_occur_instead_of_understanding_risks_before_they_happen": "A liderança recebe relatórios após os eventos em vez de compreender os riscos antecipadamente",
+      "live_operational_visibility_across_patients_clinicians_capacity_finance_and_compliance": "Visibilidade operacional ao vivo sobre pacientes, clínicos, capacidade, finanças e conformidade",
+      "predictive_intelligence_identifies_pressure_risk_and_bottlenecks_before_escalation": "Inteligência preditiva identifica pressão, risco e gargalos antes da escalada",
+      "recommended_actions_help_leadership_intervene_before_operational_failure_occurs": "Ações recomendadas ajudam a liderança a intervir antes da falha operacional",
+      "reality_content_1": "A admissão de um paciente afeta a equipe. A equipe afeta o agendamento. O agendamento afeta a capacidade. A capacidade afeta os tempos de tratamento.",
+      "reality_content_2": "O tratamento afeta os resultados. Os resultados afetam o reembolso. O reembolso afeta o desempenho financeiro.",
+      "reality_content_3": "A maioria das organizações de saúde acompanha esses eventos separadamente. A Avantiqo os entende como uma cadeia operacional conectada.",
+      "reality_content_4": "O problema não são os dados. O problema é que ninguém vê como os dados se movem pela organização.",
+      "runtime_content_1": "Demanda de pacientes. Carga clínica. Utilização de leitos. Capacidade das salas cirúrgicas.",
+      "runtime_content_2": "Capacidade laboratorial. Disponibilidade de pessoal. Desempenho financeiro. Exposição à conformidade.",
+      "runtime_content_3": "Conectado por um único runtime operacional para que a liderança possa agir antes que a pressão se transforme em falha.",
+      "ownership_content_1": "A maioria dos executivos recebe relatórios após os eventos acontecerem. A Avantiqo identifica a pressão operacional antes que ela se torne um problema.",
+      "ownership_content_2": "Veja a escassez de pessoal antes que os horários falhem. Veja restrições de capacidade antes que os atrasos dos pacientes aumentem.",
+      "ownership_content_3": "Veja a exposição financeira antes que os orçamentos sejam afetados. Veja os riscos de conformidade antes que as auditorias os revelem.",
+      "outcomes_content_1": "Melhoria operacional mensurável.",
+      "healthcare_connects": "O sistema de saúde está conectado em todos os lugares.",
+      "healthcare_misunderstood": "Mas compreendido em nenhum lugar.",
+      "outcomes_badge": "OUTCOMES"
+    },
+    "construction": {
+      "construction_hero_badge": "OPERAÇÕES DE CONSTRUÇÃO",
+      "construction_hero_title1": "Controle cada obra antes que os atrasos se transformem em perdas.",
+      "construction_hero_title2": "Plataforma de construção em tempo real",
+      "construction_hero_description": "Orçamentos, compras, força de trabalho, aprovações, relatórios de obra, documentos e visibilidade financeira ligados num único sistema de construção.",
+      "construction_cta_primary": "Agendar demonstração",
+      "construction_cta_secondary": "Fale com a equipe",
+      "before_after_badge": "ANTES VS DEPOIS",
+      "before_after_title": "Substitua a gestão desconectada pela supervisão de projetos em tempo real.",
+      "features_badge": "PLATAFORMA DE CONSTRUÇÃO",
+      "features_title": "Obra, escritório e finanças ligados em tempo real.",
+      "feature_1_title": "Controlo de projetos em tempo reale",
+      "feature_1_text": "Acompanhe progresso, orçamentos, aprovações, atrasos, pessoal e desempenho em tempo real.",
+      "feature_2_title": "Relatórios de obra",
+      "feature_2_text": "Os supervisores carregam fotos, relatórios diários, problemas e atualizações diretamente do local.",
+      "feature_3_title": "Compras e materiais",
+      "feature_3_text": "Controle pedidos de compra, encomendas a fornecedores, entregas de materiais e visibilidade de inventário.",
+      "feature_4_title": "Força de trabalho e salários",
+      "feature_4_text": "Monitorize presença, subcontratados, custos laborais, aprovações salariais e atividade da equipa.",
+      "feature_5_title": "Controlo multi-projeto",
+      "feature_5_text": "Gerencie múltiplas obras, orçamentos e equipas de projeto numa única plataforma.",
+      "feature_6_title": "Visibilidade para proprietários",
+      "feature_6_text": "Proprietários e executivos acompanham progresso, custos, aprovações e riscos em tempo real a partir de qualquer lugar.",
+      "hero_primary": "[PT] hero_primary",
+      "hero_secondary": "[PT] hero_secondary",
+      "reduce_project_delays": "Reduzir atrasos do projeto",
+      "reduce_project_delays_description": "Identificar problemas do site, gargalos de aprovação e atrasos antes que afetem a entrega.",
+      "control_budget_overruns": "Controle de orçamento",
+      "control_budget_overruns_description": "[PT] Track committed costs, supplier spend, labor cost and project financial exposure live.",
+      "connect_site_office": "Conectar local e escritório",
+      "connect_site_office_description": "[PT] Bring field updates, project management, approvals and finance into one connected workflow.",
+      "improve_contractor_accountability": "Melhorar a responsabilização dos empreiteiros",
+      "improve_contractor_accountability_description": "Monitorize atividade, progresso, assiduidade e conclusão de tarefas com evidências.",
+      "faster_approvals": "Aprovações mais rápidas",
+      "faster_approvals_description": "Mova pedidos de compra, alterações, faturas e aprovações através de fluxos estruturados.",
+      "real_time_owner_reporting": "Relatórios em tempo real para proprietários",
+      "real_time_owner_reporting_description": "Substitua relatórios atrasados por visibilidade em tempo real sobre progresso, riscos e orçamento.",
+      "construction_problems_become_expensive_when_visibility_arrives_too_late": ""
+    }
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "operations": "Operations",
+    "inventory": "Inventory",
+    "production": "Production",
+    "finance": "Finance",
+    "marketing": "Marketing",
+    "settings": "Settings",
+    "pos": "POS",
+    "kitchen": "Kitchen",
+    "expo": "Expo",
+    "reservations": "Reservations",
+    "dishStock": "Dish Stock",
+    "ingredientStock": "Ingredient Stock",
+    "procurement": "Procurement",
+    "accounting": "Accounting",
+    "payroll": "Payroll",
+    "hr": "HR",
+    "projects": "Projects",
+    "crm": "CRM",
+    "customers": "Customers",
+    "designStudio": "Design Studio",
+    "documents": "Documents"
+  },
+  "workspace": {
+    "activeProvider": "Active Provider",
+    "runtime": "Churchill Runtime",
+    "start": "Start",
+    "login": "Login",
+    "modules": "Modules",
+    "designStudio": "Design Studio"
+  },
+  "accounting": {
+    "hero": {
+      "badge": "ACCOUNTING RUNTIME",
+      "title": "Financial Ledger Intelligence",
+      "description": "Procurement, revenue, payroll, inventory, and AI synchronize automatically into accounting runtime.",
+      "statusLabel": "ACCOUNTING STATUS",
+      "status": "BALANCED"
+    },
+    "metrics": {
+      "entries": {
+        "title": "Journal Entries",
+        "description": "Runtime synchronized"
+      },
+      "payables": {
+        "title": "Open Payables",
+        "description": "Supplier liabilities"
+      },
+      "cashflow": {
+        "title": "Cash Flow",
+        "description": "Financial health stable",
+        "value": "POSITIVE"
+      },
+      "audit": {
+        "title": "AI Audit Layer",
+        "description": "Runtime monitoring active",
+        "value": "LIVE"
+      }
+    },
+    "entries": {
+      "badge": "LIVE ACCOUNTING",
+      "title": "Financial Entries",
+      "items": {
+        "invoicePosted": {
+          "title": "Supplier Invoice Posted",
+          "account": "Accounts Payable"
+        },
+        "revenue": {
+          "title": "Restaurant Revenue",
+          "account": "Sales Revenue"
+        },
+        "payroll": {
+          "title": "Payroll Allocation",
+          "account": "Labor Expense"
+        }
+      }
+    },
+    "approvals": {
+      "badge": "APPROVAL RUNTIME",
+      "title": "AI Verification Flow",
+      "active": "AI ACTIVE",
+      "description": "Accounting synchronization runtime",
+      "items": {
+        "ocr": {
+          "title": "Invoice OCR Extraction"
+        },
+        "match": {
+          "title": "Procurement Match"
+        },
+        "journal": {
+          "title": "Accounting Journal"
+        }
+      }
+    },
+    "status": {
+      "posted": "POSTED",
+      "synced": "SYNCED",
+      "processing": "PROCESSING",
+      "approved": "APPROVED",
+      "matched": "MATCHED",
+      "ready": "READY"
+    }
+  },
+  "finance": {
+    "hero": {
+      "badge": "FINANCIAL RUNTIME",
+      "title": "Live Financial Intelligence",
+      "description": "Revenue, profitability, labor, inventory, procurement, and accounting synchronized in real time.",
+      "statusLabel": "FINANCE STATUS",
+      "status": "SYNCHRONIZED"
+    },
+    "cards": {
+      "runtime": "Runtime synchronized",
+      "revenue": {
+        "title": "Revenue Today"
+      },
+      "profit": {
+        "title": "Net Profit"
+      },
+      "labor": {
+        "title": "Labor Cost"
+      },
+      "food": {
+        "title": "Food Cost"
+      }
+    },
+    "transactions": {
+      "badge": "LIVE TRANSACTIONS",
+      "title": "Financial Runtime",
+      "description": "Financial synchronization active",
+      "sales": {
+        "title": "Wagyu Burger Sales"
+      },
+      "invoice": {
+        "title": "Supplier Invoice Processed"
+      },
+      "payroll": {
+        "title": "Payroll Allocation"
+      }
+    },
+    "ai": {
+      "badge": "AI FINANCIAL INTELLIGENCE",
+      "title": "Profitability Engine",
+      "active": "AI ACTIVE",
+      "insights": {
+        "margin": {
+          "title": "Wagyu Margin Increasing",
+          "description": "AI detected profitability increase from premium pairing sales."
+        },
+        "labor": {
+          "title": "Labor Cost Rising",
+          "description": "AI forecasting kitchen labor increase during dinner peak."
+        },
+        "procurement": {
+          "title": "Procurement Optimized",
+          "description": "Supplier synchronization reduced purchasing cost by 12%."
+        }
+      }
+    },
+    "status": {
+      "live": "LIVE",
+      "synced": "SYNCED",
+      "processing": "PROCESSING"
+    }
+  },
+  "inventory": {
+    "hero": {
+      "badge": "INVENTORY RUNTIME",
+      "title": "Live Stock Intelligence",
+      "description": "Batch stock and ingredient stock synchronized directly from POS, production, procurement, and operational flow.",
+      "statusLabel": "INVENTORY STATUS",
+      "status": "SYNCHRONIZED"
+    },
+    "cards": {
+      "ingredients": {
+        "title": "Ingredient Items",
+        "description": "Live stock tracked"
+      },
+      "batch": {
+        "title": "Batch Production",
+        "description": "Prepared stock active"
+      },
+      "risk": {
+        "title": "AI Risk Signals",
+        "description": "Inventory warnings active"
+      },
+      "procurement": {
+        "title": "Procurement Sync",
+        "description": "Invoice runtime connected"
+      }
+    },
+    "batch": {
+      "badge": "BATCH STOCK",
+      "title": "Prepared Production",
+      "type": "BATCH STOCK",
+      "wagyu": "Wagyu Patties",
+      "buns": "Burger Buns",
+      "sauce": "Tomato Sauce",
+      "fries": "Prepared Fries"
+    },
+    "ingredients": {
+      "badge": "INGREDIENT STOCK",
+      "title": "Raw Ingredient Runtime",
+      "usage": "Usage",
+      "tomatoes": "Tomatoes",
+      "lettuce": "Lettuce",
+      "potatoes": "Potatoes",
+      "cheese": "Cheddar Cheese"
+    },
+    "status": {
+      "live": "LIVE",
+      "good": "GOOD",
+      "stable": "STABLE",
+      "low": "LOW",
+      "warning": "WARNING"
+    }
+  },
+  "procurement": {
+    "hero": {
+      "badge": "PROCUREMENT RUNTIME",
+      "title": "Purchasing Intelligence",
+      "description": "Procurement synchronized directly into inventory, accounting, AI forecasting, and profitability systems.",
+      "statusLabel": "PROCUREMENT STATUS",
+      "status": "ACTIVE"
+    },
+    "cards": {
+      "orders": {
+        "title": "Open Purchase Orders",
+        "description": "Runtime synchronized"
+      },
+      "deliveries": {
+        "title": "Deliveries Today",
+        "description": "Inventory updated"
+      },
+      "invoice": {
+        "title": "Invoice Automation",
+        "description": "OCR processing active"
+      },
+      "suppliers": {
+        "title": "Supplier Sync",
+        "description": "AI demand forecasting"
+      }
+    },
+    "sections": {
+      "procurement": {
+        "badge": "LIVE PROCUREMENT",
+        "title": "Purchase Orders"
+      },
+      "invoice": {
+        "badge": "AI INVOICE FLOW",
+        "title": "Accounting Synchronization",
+        "active": "AI ACTIVE",
+        "description": "Procurement runtime synchronized"
+      }
+    },
+    "suppliers": {
+      "farm": "Phuket Fresh Farm",
+      "wagyu": "Premium Wagyu Co.",
+      "ocean": "Ocean Beverage"
+    },
+    "items": {
+      "tomatoes": "Tomatoes 40kg",
+      "wagyu": "Wagyu Patties",
+      "wine": "Wine Restock"
+    },
+    "flow": {
+      "upload": "Invoice Photo Uploaded",
+      "ocr": "AI OCR Extraction",
+      "inventory": "Inventory Synchronization",
+      "accounting": "Accounting Entry"
+    },
+    "status": {
+      "live": "LIVE",
+      "active": "ACTIVE",
+      "delivered": "DELIVERED",
+      "transit": "IN TRANSIT",
+      "approval": "APPROVAL",
+      "complete": "COMPLETE",
+      "processing": "PROCESSING"
+    }
+  },
+  "production": {
+    "hero": {
+      "badge": "PRODUCTION RUNTIME",
+      "title": "Batch + À La Minute",
+      "description": "Production runtime synchronizes prepared stock with live ingredient consumption during service.",
+      "statusLabel": "PRODUCTION STATUS",
+      "status": "RUNNING"
+    },
+    "sections": {
+      "batch": {
+        "badge": "BATCH PRODUCTION",
+        "title": "Prepared Runtime",
+        "produced": "Produced"
+      },
+      "consumption": {
+        "badge": "LIVE INGREDIENT CONSUMPTION",
+        "title": "À La Minute Runtime",
+        "deduction": "LIVE DEDUCTION"
+      }
+    },
+    "batch": {
+      "wagyu": "Wagyu Patties",
+      "buns": "Burger Buns",
+      "sauce": "Tomato Sauce"
+    },
+    "ingredients": {
+      "tomatoes": "Tomatoes",
+      "potatoes": "Potatoes",
+      "lettuce": "Lettuce"
+    },
+    "consumption": {
+      "burger": "1 Wagyu Burger",
+      "fries": "1 Fries Portion",
+      "assembly": "1 Burger Assembly"
+    },
+    "status": {
+      "live": "LIVE",
+      "active": "ACTIVE",
+      "good": "GOOD",
+      "low": "LOW"
+    }
+  },
+  "dashboard": {
+    "hero": {
+      "badge": "EXECUTIVE COMMAND CENTER",
+      "title": "Enterprise Runtime",
+      "description": "Real-time operational intelligence across finance, production, procurement, labor, and AI orchestration.",
+      "statusLabel": "SYSTEM STATUS",
+      "status": "Operational"
+    },
+    "cards": {
+      "revenue": {
+        "title": "Revenue Today",
+        "description": "+18.4% operational growth"
+      },
+      "profit": {
+        "title": "Net Profit",
+        "description": "Live operational profitability"
+      },
+      "kitchen": {
+        "title": "Kitchen Efficiency",
+        "description": "Runtime synchronization stable"
+      },
+      "forecast": {
+        "title": "AI Forecast",
+        "description": "Predicted dinner demand spike"
+      }
+    },
+    "locations": {
+      "badge": "LIVE LOCATIONS",
+      "title": "Multi-Location Runtime",
+      "today": "Today",
+      "churchill": "Restaurant Runtime Active",
+      "mongos": "Café Runtime Active",
+      "yona": "Beach Club Runtime Active"
+    },
+    "ai": {
+      "badge": "AI OPERATIONAL FEED",
+      "title": "Runtime Intelligence",
+      "active": "AI ACTIVE",
+      "tomato": {
+        "title": "Tomato Inventory Risk",
+        "description": "AI predicts inventory shortage within 5 hours."
+      },
+      "fryer": {
+        "title": "Fryer Congestion Forecast",
+        "description": "Kitchen runtime load expected to exceed 84%."
+      },
+      "profit": {
+        "title": "Profitability Increase",
+        "description": "Wagyu + wine pairing performing 18% above average."
+      },
+      "procurement": {
+        "title": "Procurement Synchronized",
+        "description": "Supplier invoice processed and inventory updated automatically."
+      }
+    },
+    "status": {
+      "live": "LIVE"
+    }
+  },
+  "hr": {
+    "hero": {
+      "badge": "HUMAN RUNTIME INTELLIGENCE",
+      "title1": "Workforce",
+      "title2": "Synchronization",
+      "description": "AI monitors operational stress, productivity, payroll efficiency, attendance, and labor balance."
+    },
+    "staff": {
+      "badge": "LIVE STAFF CONDITION",
+      "title": "Operational Pulse",
+      "mood": "Mood",
+      "energy": "Energy",
+      "risk": "Burnout Risk"
+    },
+    "ai": {
+      "badge": "AI LABOR SIGNALS",
+      "title": "Predictive HR",
+      "burnout": {
+        "title": "Burnout Risk Detected",
+        "description": "Service team overtime increasing during dinner peak."
+      },
+      "performance": {
+        "title": "Top Performer Identified",
+        "description": "Kitchen productivity outperforming historical average."
+      },
+      "training": {
+        "title": "Training Opportunity",
+        "description": "AI suggests cross-training additional expo runner."
+      }
+    },
+    "payroll": {
+      "badge": "PAYROLL SYNCHRONIZATION",
+      "description": "Attendance, performance, lateness, operational score, and service charge synchronize directly into payroll runtime."
+    },
+    "roles": {
+      "kitchen": "Kitchen Lead",
+      "floor": "Floor Supervisor",
+      "bar": "Bar Lead"
+    },
+    "moods": {
+      "focused": "FOCUSED",
+      "overloaded": "OVERLOADED",
+      "performance": "HIGH PERFORMANCE"
+    },
+    "risk": {
+      "low": "LOW",
+      "medium": "MEDIUM"
+    },
+    "status": {
+      "live": "LIVE"
+    }
+  },
+  "payroll": {
+    "hero": {
+      "badge": "PAYROLL RUNTIME",
+      "title": "Performance Payroll Engine",
+      "description": "Payroll synchronized directly from attendance, operational performance, service charge, and approvals.",
+      "statusLabel": "PAYROLL STATUS"
+    },
+    "cards": {
+      "staff": {
+        "title": "Staff Runtime",
+        "description": "Active payroll staff"
+      },
+      "service": {
+        "title": "Service Charge Pool",
+        "description": "Runtime allocation active"
+      },
+      "performance": {
+        "title": "Avg Performance",
+        "description": "AI performance scoring"
+      },
+      "approval": {
+        "title": "Payroll Approval",
+        "description": "Manager synchronization"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE PAYROLL"
+    },
+    "flowSection": {
+      "badge": "PAYROLL FLOW",
+      "title": "Runtime Synchronization",
+      "active": "AI ACTIVE",
+      "processing": "Payroll runtime processing"
+    },
+    "flow": {
+      "attendance": "Attendance synchronized",
+      "performance": "Performance score calculated",
+      "serviceCharge": "Service charge allocated",
+      "approval": "Manager approval active",
+      "accounting": "Accounting payout processing"
+    },
+    "roles": {
+      "kitchen": "Kitchen",
+      "service": "Service",
+      "bar": "Bar"
+    },
+    "status": {
+      "approved": "APPROVED",
+      "pending": "PENDING",
+      "processing": "PROCESSING",
+      "active": "ACTIVE",
+      "live": "LIVE"
+    }
+  },
+  "reservations": {
+    "hero": {
+      "badge": "RESERVATION RUNTIME",
+      "title": "Guest Coordination",
+      "description": "Reservation flow synchronized with tables, kitchen forecasting, staffing, and AI demand planning.",
+      "statusLabel": "RESERVATION STATUS"
+    },
+    "cards": {
+      "today": {
+        "title": "Reservations Today",
+        "description": "Runtime synchronized"
+      },
+      "guests": {
+        "title": "Expected Guests",
+        "description": "AI forecast active"
+      },
+      "spend": {
+        "title": "Avg Spend Forecast",
+        "description": "AI profitability prediction"
+      },
+      "waitlist": {
+        "title": "Waitlist Queue",
+        "description": "Table optimization active"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE RESERVATION",
+      "table": "Table",
+      "guests": "Guests",
+      "arrival": "Arrival",
+      "spend": "Spend Forecast",
+      "aiTitle": "AI Coordination Active",
+      "aiDescription": "Kitchen prep, staffing, and table flow synchronized automatically."
+    },
+    "actions": {
+      "checkin": "CHECK-IN",
+      "start": "Start Dining Flow",
+      "view": "VIEW TABLE",
+      "status": "Runtime Status"
+    },
+    "spending": {
+      "high": "HIGH VALUE",
+      "dinner": "DINNER",
+      "event": "EVENT"
+    },
+    "status": {
+      "live": "LIVE",
+      "arriving": "ARRIVING",
+      "confirmed": "CONFIRMED",
+      "waitlist": "WAITLIST"
+    }
+  },
+  "pos": {
+    "hero": {
+      "badge": "POINT OF SALE",
+      "title": "Live Ordering Runtime",
+      "description": "Orders route automatically into kitchen, bar, inventory, profitability, AI, and accounting systems.",
+      "statusLabel": "POS STATUS"
+    },
+    "tables": {
+      "badge": "TABLE SELECTION",
+      "title": "Active Tables",
+      "active": "14 ACTIVE",
+      "runtime": "Open Runtime"
+    },
+    "menu": {
+      "badge": "MENU RUNTIME",
+      "title": "Live Menu",
+      "aiPricing": "AI PRICING ACTIVE",
+      "runtime": "Runtime synchronized",
+      "add": "ADD TO ORDER"
+    },
+    "order": {
+      "badge": "CURRENT ORDER",
+      "kitchenRouting": "Kitchen Routing",
+      "barRouting": "Bar Routing",
+      "subtotal": "Subtotal",
+      "serviceCharge": "Service Charge",
+      "total": "Total",
+      "send": "SEND ORDER",
+      "routing": "Routes automatically to kitchen + bar + inventory"
+    },
+    "runtime": {
+      "badge": "LIVE RUNTIME",
+      "title": "Operational Sync",
+      "kitchenTitle": "Kitchen Runtime",
+      "kitchenDescription": "Wagyu Burger routed to grill station.",
+      "inventoryTitle": "Inventory Runtime",
+      "inventoryDescription": "Patties, buns, tomato, fries updated automatically.",
+      "profitTitle": "Profitability Runtime",
+      "profitDescription": "AI recalculating live operational margin."
+    },
+    "categories": {
+      "burgers": "Burgers",
+      "starters": "Starters",
+      "drinks": "Drinks",
+      "desserts": "Desserts"
+    },
+    "dishes": {
+      "wagyu": "Wagyu Burger",
+      "fries": "Truffle Fries",
+      "wine": "Red Wine",
+      "salad": "Caesar Salad"
+    },
+    "status": {
+      "live": "LIVE",
+      "active": "ACTIVE",
+      "highDemand": "HIGH DEMAND",
+      "liveCooking": "LIVE COOKING",
+      "barRouting": "BAR ROUTING",
+      "freshPrep": "FRESH PREP"
+    }
+  },
+  "kitchen": {
+    "hero": {
+      "badge": "KITCHEN DISPLAY SYSTEM",
+      "title": "Kitchen Runtime",
+      "description": "Orders synchronize directly from POS into production flow, inventory, timing, labor, and expo coordination.",
+      "statusLabel": "KITCHEN STATUS"
+    },
+    "cards": {
+      "new": {
+        "title": "New Orders",
+        "description": "Waiting production"
+      },
+      "cooking": {
+        "title": "Cooking",
+        "description": "Active kitchen runtime"
+      },
+      "ready": {
+        "title": "Ready For Expo",
+        "description": "Awaiting dispatch"
+      },
+      "ticket": {
+        "title": "Avg Ticket Time",
+        "description": "Runtime synchronized"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE ORDER",
+      "ticket": "Ticket Runtime"
+    },
+    "actions": {
+      "start": "START",
+      "begin": "Begin Cooking",
+      "hold": "HOLD",
+      "pause": "Pause Runtime",
+      "ready": "READY",
+      "expo": "Send To Expo",
+      "issue": "ISSUE",
+      "problem": "Runtime Problem",
+      "expoReady": "EXPO",
+      "await": "Await Pickup",
+      "complete": "COMPLETE",
+      "closed": "Runtime Closed"
+    },
+    "dishes": {
+      "wagyu": "Wagyu Burger",
+      "fries": "Truffle Fries",
+      "ribeye": "Ribeye Steak",
+      "salad": "Caesar Salad"
+    },
+    "status": {
+      "active": "ACTIVE",
+      "new": "NEW",
+      "cooking": "COOKING",
+      "ready": "READY"
+    }
+  },
+  "ai": {
+    "hero": {
+      "badge": "AI INTELLIGENCE LAYER",
+      "title": "Operational Intelligence",
+      "description": "AI continuously analyzes operations, production, profitability, procurement, labor, and customer behavior in real time.",
+      "statusLabel": "AI STATUS"
+    },
+    "cards": {
+      "predictions": {
+        "title": "Live Predictions",
+        "description": "Runtime decisions active"
+      },
+      "accuracy": {
+        "title": "AI Accuracy",
+        "description": "Operational forecasting precision"
+      },
+      "procurement": {
+        "title": "Procurement Savings",
+        "description": "AI supplier optimization"
+      },
+      "waste": {
+        "title": "Waste Reduction",
+        "description": "Production intelligence active"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE AI DECISIONS",
+      "title": "Runtime Recommendations"
+    },
+    "learning": {
+      "badge": "AI LEARNING ENGINE",
+      "title": "Continuous Optimization",
+      "customer": {
+        "title": "Customer Behavior",
+        "description": "AI analyzing order patterns"
+      },
+      "signals": {
+        "title": "Operational Signals",
+        "description": "Runtime synchronization events"
+      },
+      "forecast": {
+        "title": "AI Forecast Horizon",
+        "description": "Predictive operational window"
+      },
+      "autonomous": {
+        "title": "Autonomous Operational Layer",
+        "description": "AI coordinates procurement, labor allocation, production forecasting, and profitability optimization continuously across all locations."
+      }
+    },
+    "signals": {
+      "inventory": {
+        "title": "Tomato Inventory Risk",
+        "description": "AI predicts tomato shortage during evening peak service.",
+        "recommendation": "Recommended: Create procurement request immediately."
+      },
+      "fryer": {
+        "title": "Fryer Runtime Congestion",
+        "description": "Fryer utilization expected to exceed 87%.",
+        "recommendation": "Recommended: Open secondary fryer station."
+      },
+      "profit": {
+        "title": "High Profitability Opportunity",
+        "description": "Wagyu + wine combination performing 18% above forecast.",
+        "recommendation": "Recommended: Increase promotion priority."
+      }
+    },
+    "status": {
+      "learning": "LEARNING",
+      "live": "LIVE",
+      "priority": "PRIORITY",
+      "monitoring": "MONITORING",
+      "optimized": "OPTIMIZED"
+    },
+    "commands": {
+      "staffing": "Optimize staffing allocation",
+      "forecast": "Generate operational forecast",
+      "inventory": "Recalculate inventory demand",
+      "payroll": "Analyze payroll efficiency",
+      "marketing": "Increase campaign profitability"
+    },
+    "metrics": {
+      "predictions": "124",
+      "accuracy": "94%",
+      "procurement": "฿42K",
+      "waste": "-28%",
+      "behavior": "12.4M",
+      "forecast": "72H"
+    }
+  },
+  "operations": {
+    "hero": {
+      "badge": "FULL OPERATION RUNTIME",
+      "title": "Enterprise Coordination",
+      "description": "Entire restaurant operation synchronized in real time across ordering, production, inventory, labor, AI, procurement, accounting, and profitability.",
+      "statusLabel": "SYSTEM STATUS"
+    },
+    "cards": {
+      "orders": {
+        "title": "Active Orders",
+        "description": "Runtime active"
+      },
+      "kitchen": {
+        "title": "Kitchen Load",
+        "description": "Production synchronized"
+      },
+      "inventory": {
+        "title": "Inventory Health",
+        "description": "AI monitoring active"
+      },
+      "procurement": {
+        "title": "Procurement Runtime",
+        "description": "Invoice sync active"
+      },
+      "profit": {
+        "title": "Net Profit Today",
+        "description": "Live profitability runtime"
+      }
+    },
+    "runtime": {
+      "badge": "LIVE OPERATION FLOW",
+      "title": "Runtime Synchronization"
+    },
+    "ai": {
+      "badge": "AI OPERATIONAL FEED",
+      "title": "Live Runtime Intelligence",
+      "description": "Runtime intelligence synchronized"
+    },
+    "sync": {
+      "badge": "ENTERPRISE SYNCHRONIZATION",
+      "title": "One Runtime Controls Everything"
+    },
+    "modules": {
+      "production": {
+        "title": "Production",
+        "description": "Batch + à la minute synchronization."
+      },
+      "inventory": {
+        "title": "Inventory",
+        "description": "Ingredient + stock movement tracking."
+      },
+      "procurement": {
+        "title": "Procurement",
+        "description": "Invoice AI + supplier synchronization."
+      },
+      "accounting": {
+        "title": "Accounting",
+        "description": "Live financial and profitability updates."
+      }
+    },
+    "flows": {
+      "posKitchen": {
+        "title": "POS → Kitchen",
+        "description": "Orders routed into live production runtime."
+      },
+      "kitchenExpo": {
+        "title": "Kitchen → Expo",
+        "description": "Production synchronized for dispatch."
+      },
+      "expoTables": {
+        "title": "Expo → Tables",
+        "description": "Service runners dispatch completed orders."
+      },
+      "tablesPayment": {
+        "title": "Tables → Payment",
+        "description": "Dining runtime linked to financial flow."
+      }
+    },
+    "alerts": {
+      "inventory": "Tomato inventory running low",
+      "wagyu": "Wagyu demand spike detected",
+      "fryer": "Kitchen fryer utilization high",
+      "invoice": "Supplier invoice processed automatically"
+    },
+    "status": {
+      "active": "ACTIVE",
+      "synced": "SYNCED",
+      "live": "LIVE",
+      "processing": "PROCESSING",
+      "synchronized": "SYNCHRONIZED",
+      "aiActive": "AI ACTIVE",
+      "connected": "FULLY CONNECTED"
+    }
+  },
+  "analytics": {
+    "hero": {
+      "badge": "ANALYTICS ENGINE",
+      "title": "Enterprise Analytics",
+      "description": "Real-time operational analytics across profitability, inventory, labor, customer behavior, and production flow.",
+      "statusLabel": "ANALYTICS STATUS"
+    },
+    "cards": {
+      "orders": {
+        "title": "Orders Processed",
+        "description": "Runtime operational events"
+      },
+      "profitability": {
+        "title": "Profitability Accuracy",
+        "description": "AI operational calculation precision"
+      },
+      "production": {
+        "title": "Production Efficiency",
+        "description": "Kitchen synchronization performance"
+      },
+      "signals": {
+        "title": "AI Runtime Signals",
+        "description": "Operational intelligence active"
+      }
+    },
+    "performance": {
+      "badge": "PERFORMANCE ANALYTICS",
+      "title": "Operational Intelligence",
+      "dish": {
+        "title": "Top Performing Dish",
+        "description": "Highest operational profitability"
+      },
+      "kitchen": {
+        "title": "Kitchen Runtime",
+        "description": "Average preparation flow",
+        "metric": "Avg ticket"
+      },
+      "procurement": {
+        "title": "Procurement Optimization",
+        "description": "AI supplier synchronization",
+        "metric": "Saved"
+      }
+    },
+    "feed": {
+      "badge": "LIVE ANALYTICS FEED",
+      "title": "Runtime Events",
+      "profit": {
+        "title": "Profitability Spike Detected",
+        "description": "Wagyu + wine combination exceeding forecast."
+      },
+      "inventory": {
+        "title": "Inventory Risk Signal",
+        "description": "Tomato inventory depletion accelerating."
+      },
+      "labor": {
+        "title": "Labor Runtime Stable",
+        "description": "Kitchen synchronization operating normally."
+      },
+      "ai": {
+        "title": "AI Learning Updated",
+        "description": "Customer behavior model retrained successfully."
+      }
+    },
+    "status": {
+      "processing": "Processing",
+      "live": "LIVE",
+      "streaming": "STREAMING",
+      "alert": "ALERT",
+      "stable": "STABLE",
+      "updated": "UPDATED"
+    }
+  },
+  "marketing": {
+    "hero": {
+      "badge": "AI MARKETING OPERATING SYSTEM",
+      "title1": "Marketing",
+      "title2": "Runtime Engine",
+      "description": "AI-generated campaigns synchronized directly into Meta publishing, customer intelligence, revenue forecasting, and engagement analytics."
+    },
+    "performance": {
+      "badge": "AI PERFORMANCE",
+      "description": "Average engagement increase from AI campaign optimization."
+    },
+    "cards": {
+      "campaigns": {
+        "title": "Active Campaigns",
+        "description": "AI synchronized"
+      },
+      "queue": {
+        "title": "Publishing Queue",
+        "description": "Meta runtime active"
+      },
+      "assets": {
+        "title": "AI Generated Assets",
+        "description": "Images + video runtime"
+      },
+      "engagement": {
+        "title": "Engagement Runtime",
+        "description": "AI optimization active"
+      }
+    },
+    "sections": {
+      "campaigns": {
+        "badge": "LIVE CAMPAIGNS",
+        "title": "Meta Runtime"
+      },
+      "queue": {
+        "badge": "PUBLISH QUEUE",
+        "title": "Meta Scheduler"
+      },
+      "optimization": {
+        "badge": "AI OPTIMIZATION",
+        "description": "AI continuously optimizes posting time, audience targeting, visuals, captions, and engagement strategy."
+      }
+    },
+    "campaigns": {
+      "wagyu": {
+        "name": "Wagyu Friday Campaign",
+        "platform": "Instagram + Facebook"
+      },
+      "vip": {
+        "name": "VIP Sunset Dinner",
+        "platform": "Instagram Reels"
+      },
+      "beach": {
+        "name": "Beach Club Event",
+        "platform": "Meta Ads"
+      }
+    },
+    "queue": {
+      "cocktail": "Cocktail Reel",
+      "wagyu": "Wagyu Promotion",
+      "dj": "DJ Event Story"
+    },
+    "labels": {
+      "reach": "Reach",
+      "scheduled": "Scheduled"
+    },
+    "status": {
+      "live": "LIVE",
+      "active": "ACTIVE",
+      "queued": "QUEUED",
+      "published": "PUBLISHED",
+      "optimizing": "AI OPTIMIZING",
+      "ready": "READY",
+      "processing": "PROCESSING",
+      "scheduled": "SCHEDULED"
+    }
+  },
+  "crm": {
+    "hero": {
+      "badge": "CUSTOMER RELATIONSHIP INTELLIGENCE",
+      "title1": "Revenue",
+      "title2": "Relationship Engine",
+      "description": "AI-powered customer intelligence synchronized with reservations, POS, marketing, and profitability runtime."
+    },
+    "value": {
+      "badge": "RELATIONSHIP VALUE",
+      "description": "Predicted customer lifetime value"
+    },
+    "pipeline": {
+      "leads": "New Leads",
+      "vip": "VIP Guests",
+      "events": "Event Clients",
+      "returning": "Returning Guests",
+      "description": "AI runtime tracking active"
+    },
+    "runtime": {
+      "badge": "LIVE CRM INTELLIGENCE",
+      "title": "Revenue Interactions"
+    },
+    "interactions": {
+      "vipReservation": "VIP reservation booked",
+      "loyaltyOffer": "AI loyalty offer triggered",
+      "eventProposal": "Private event proposal sent"
+    },
+    "status": {
+      "live": "LIVE"
+    }
+  },
+  "customers": {
+    "hero": {
+      "badge": "CUSTOMER INTELLIGENCE",
+      "title1": "Guest",
+      "title2": "Behavior Runtime",
+      "description": "AI continuously learns customer preferences, spending patterns, reservation behavior, and profitability signals across locations."
+    },
+    "labels": {
+      "favorite": "Favorite",
+      "visits": "Visits",
+      "spend": "Spend"
+    },
+    "favorites": {
+      "wagyuWine": "Wagyu + Wine",
+      "cocktails": "Cocktails",
+      "privateEvents": "Private Events"
+    },
+    "insights": {
+      "wineDemand": "VIP guests increasing premium wine demand",
+      "tastingMenus": "Returning customers respond strongly to tasting menus",
+      "personalization": "High-spend guests prefer reservation personalization",
+      "multilocation": "Beach club events driving multi-location traffic"
+    },
+    "signals": {
+      "badge": "AI CUSTOMER SIGNALS",
+      "title": "Behavioral Intelligence",
+      "description": "AI synchronization runtime active"
+    }
+  },
+  "tables": {
+    "hero": {
+      "badge": "TABLE RUNTIME",
+      "title": "Dining Floor Live",
+      "description": "Real-time synchronization between tables, kitchen, bar, expo, service, and payment flow."
+    },
+    "floor": {
+      "badge": "FLOOR STATUS",
+      "active": "ACTIVE"
+    },
+    "cards": {
+      "activeTables": {
+        "title": "Active Tables",
+        "description": "Runtime synchronized"
+      },
+      "guests": {
+        "title": "Guests Dining",
+        "description": "Live floor occupancy"
+      },
+      "avgTicket": {
+        "title": "Avg Ticket",
+        "description": "Operational average"
+      },
+      "paymentQueue": {
+        "title": "Payment Queue",
+        "description": "Awaiting settlement"
+      }
+    },
+    "table": {
+      "badge": "LIVE TABLE",
+      "guests": "Guests",
+      "total": "Current Total",
+      "runtime": "Runtime synchronized",
+      "live": "LIVE"
+    },
+    "actions": {
+      "viewFlow": "VIEW FLOW",
+      "kitchenBar": "Kitchen + Bar",
+      "payment": "PAYMENT",
+      "settle": "Settle Runtime"
+    },
+    "status": {
+      "dining": "DINING",
+      "waitingFood": "WAITING FOOD",
+      "payment": "PAYMENT",
+      "highValue": "HIGH VALUE"
+    }
+  },
+  "expo": {
+    "hero": {
+      "badge": "EXPO COORDINATION",
+      "title": "Service Synchronization",
+      "description": "Kitchen and bar orders synchronize through expo before service dispatch to tables and payment runtime."
+    },
+    "runtime": {
+      "badge": "EXPO STATUS",
+      "active": "ACTIVE"
+    },
+    "cards": {
+      "waiting": {
+        "title": "Waiting Expo",
+        "description": "Awaiting synchronization"
+      },
+      "ready": {
+        "title": "Ready To Serve",
+        "description": "Dispatch available"
+      },
+      "runners": {
+        "title": "Active Runners",
+        "description": "Runtime synchronized"
+      },
+      "dispatch": {
+        "title": "Avg Dispatch Time",
+        "description": "Service runtime stable"
+      }
+    },
+    "order": {
+      "badge": "EXPO ORDER",
+      "ready": "Ready for synchronization",
+      "runner": "Assigned Runner",
+      "runtime": "Runtime",
+      "sync": "Operational synchronization active"
+    },
+    "actions": {
+      "callRunner": "CALL RUNNER",
+      "dispatch": "Dispatch Service",
+      "served": "SERVED",
+      "close": "Close Expo Flow"
+    },
+    "sources": {
+      "kitchen": "KITCHEN",
+      "bar": "BAR",
+      "kitchenBar": "KITCHEN + BAR"
+    },
+    "status": {
+      "readyForService": "READY FOR SERVICE",
+      "waitingRunner": "WAITING RUNNER",
+      "serving": "SERVING"
+    }
+  },
+  "projects": {
+    "hero": {
+      "badge": "MULTI-LOCATION DEPLOYMENT",
+      "title1": "Enterprise",
+      "title2": "Rollout Engine",
+      "description": "Live operational deployment across restaurants, beach clubs, cafés, and hospitality runtime environments."
+    },
+    "global": {
+      "badge": "GLOBAL STATUS",
+      "description": "Live runtime deployments active"
+    },
+    "labels": {
+      "progress": "Progress"
+    },
+    "stack": {
+      "badge": "DEPLOYMENT STACK",
+      "title": "Runtime Layers",
+      "description": "Enterprise synchronization layer"
+    },
+    "phases": {
+      "operationalDeployment": "Operational Deployment",
+      "aiSynchronization": "AI Synchronization",
+      "inventoryArchitecture": "Inventory Architecture"
+    },
+    "status": {
+      "liveBuild": "LIVE BUILD",
+      "integration": "INTEGRATION",
+      "planning": "PLANNING"
+    },
+    "layers": {
+      "pos": "POS Runtime",
+      "kitchen": "Kitchen Synchronization",
+      "inventory": "Inventory Intelligence",
+      "payroll": "Payroll Engine",
+      "ai": "AI Forecasting",
+      "accounting": "Accounting Runtime"
+    }
+  },
+  "documents": {
+    "hero": {
+      "badge": "DOCUMENT INTELLIGENCE",
+      "title1": "Enterprise",
+      "title2": "Documents",
+      "description": "AI-synchronized contracts, invoices, reports, payroll approvals, procurement documents, and operational records."
+    },
+    "storage": {
+      "badge": "STORAGE STATUS",
+      "live": "LIVE",
+      "description": "Cloud synchronization active"
+    },
+    "actions": {
+      "open": "Open",
+      "download": "Download",
+      "analyze": "AI Analyze"
+    },
+    "types": {
+      "procurement": "PROCUREMENT",
+      "hr": "HR",
+      "operations": "OPERATIONS",
+      "marketing": "MARKETING"
+    },
+    "status": {
+      "synced": "SYNCED",
+      "pending": "PENDING",
+      "approved": "APPROVED",
+      "archived": "ARCHIVED"
+    }
+  },
+  "settings": {
+    "hero": {
+      "badge": "SYSTEM CONFIGURATION",
+      "title1": "Runtime",
+      "title2": "Settings",
+      "description": "Configure enterprise runtime, AI systems, integrations, organizations, permissions, and operational intelligence."
+    },
+    "status": {
+      "badge": "SYSTEM STATUS",
+      "stable": "STABLE",
+      "description": "All runtime systems operational"
+    },
+    "actions": {
+      "configure": "Configure",
+      "aiAssisted": "AI Assisted"
+    },
+    "items": {
+      "organization": {
+        "title": "Organization Runtime",
+        "desc": "Tenant structure, organizations, and locations"
+      },
+      "ai": {
+        "title": "AI Engine Configuration",
+        "desc": "Marketing, operations, and intelligence engines"
+      },
+      "meta": {
+        "title": "Meta Integrations",
+        "desc": "Facebook, Instagram, publishing runtime"
+      },
+      "security": {
+        "title": "Security & Permissions",
+        "desc": "Roles, approvals, and enterprise access"
+      }
+    }
+  },
+  "designStudio": {
+    "hero": {
+      "badge": "AI CREATIVE OPERATING SYSTEM",
+      "title1": "Design",
+      "title2": "Studio",
+      "description": "Multi-engine AI content generation for luxury hospitality, nightlife, restaurants, and premium branding."
+    },
+    "labels": {
+      "engine": "ENGINE"
+    },
+    "preview": {
+      "badge": "REEL PREVIEW"
+    },
+    "reel": {
+      "badge": "PHUKET BEACH CLUB",
+      "title1": "Sunset",
+      "title2": "DJ Reel",
+      "description": "Vertical luxury reel format for Meta, TikTok, and Instagram Stories.",
+      "story": "9:16 Story",
+      "videoEngine": "Video Engine"
+    },
+    "engines": {
+      "fullAi": {
+        "name": "FULL AI",
+        "description": "Complete AI campaign generation"
+      },
+      "enhance": {
+        "name": "ENHANCE",
+        "description": "Luxury upscale + lighting"
+      },
+      "composite": {
+        "name": "COMPOSITE",
+        "description": "Scene + product merging"
+      },
+      "video": {
+        "name": "VIDEO",
+        "description": "Motion + cinematic reels"
+      }
+    }
+  }
+}

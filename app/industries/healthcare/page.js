@@ -1,0 +1,521 @@
+"use client";
+
+import Link from "next/link";
+import SiteTopNav from "@/app/components/SiteTopNav";
+import Footer from "@/components/layout/Footer";
+import { useTranslation } from "@/app/providers/I18nProvider";
+
+export default function HealthcareIndustryPage() {
+  const { translations } = useTranslation();
+  const h = translations.home?.healthcare || {};
+
+  const realityCards = [
+    {
+      title: h.patient_waiting_time || "Patient Waiting Time",
+      text:
+        h.operational_bottlenecks_create_delays_long_before_management_becomes_aware_of_them ||
+        "Operational bottlenecks create delays long before management becomes aware of them.",
+    },
+    {
+      title: h.staff_utilization || "Staff Utilization",
+      text:
+        h.overstaffing_and_understaffing_often_happen_at_the_same_time_across_different_departments ||
+        "Overstaffing and understaffing often happen at the same time across different departments.",
+    },
+    {
+      title: h.revenue_leakage || "Revenue Leakage",
+      text:
+        h.disconnected_systems_create_missed_billing_opportunities_and_hidden_operational_costs ||
+        "Disconnected systems create missed billing opportunities and hidden operational costs.",
+    },
+    {
+      title: h.capacity_planning || "Capacity Planning",
+      text:
+        h.beds_rooms_equipment_and_staff_capacity_are_rarely_viewed_as_one_connected_reality ||
+        "Beds, rooms, equipment and staff capacity are rarely viewed as one connected reality.",
+    },
+    {
+      title: h.compliance_exposure || "Compliance Exposure",
+      text:
+        h.risk_grows_when_operational_events_and_compliance_obligations_are_disconnected ||
+        "Risk grows when operational events and compliance obligations are disconnected.",
+    },
+    {
+      title: h.executive_blind_spots || "Executive Blind Spots",
+      text:
+        h.leadership_receives_reports_after_events_occur_instead_of_understanding_risks_before_they_happen ||
+        "Leadership receives reports after events occur instead of understanding risks before they happen.",
+    },
+  ];
+
+  const runtimeCards = [
+    {
+      title: h.patient_demand || "Patient Demand",
+      text:
+        "Patient volume changes constantly. Avantiqo helps leadership understand demand patterns, appointment pressure, seasonal movement, emergency surges and department-level load before operations become overwhelmed.",
+    },
+    {
+      title: h.clinical_workload || "Clinical Workload",
+      text:
+        "Doctors, nurses, specialists and clinical teams are often managed separately from the operational picture. Avantiqo connects workload, availability, capacity and patient flow so leadership can see where pressure is building.",
+    },
+    {
+      title: h.bed_capacity || "Bed Capacity",
+      text:
+        "Beds, rooms, theatres, equipment and staff capacity are not separate problems. They are one operational system. Avantiqo helps healthcare organizations see capacity as a connected reality instead of isolated department reports.",
+    },
+    {
+      title: h.staff_availability || "Staff Availability",
+      text:
+        "Healthcare operations fail when staffing is planned from old schedules instead of live demand. Avantiqo connects shifts, utilization, shortages, overtime, department pressure and future demand into one staffing intelligence layer.",
+    },
+    {
+      title: h.financial_exposure || "Financial Exposure",
+      text:
+        "Revenue leakage, delayed claims, missed billing opportunities and inefficient utilization can quietly damage performance. Avantiqo connects operations and finance so leadership can understand financial exposure before month-end.",
+    },
+    {
+      title: h.compliance_risk || "Compliance Risk",
+      text:
+        "Compliance risk grows when documentation, care events, operational issues and reporting obligations are disconnected. Avantiqo helps leaders see risk early and maintain visibility before problems become audit issues.",
+    },
+  ];
+
+  const moduleCards = [
+    {
+      title: "Patient Management",
+      text:
+        "Avantiqo connects patient registration, appointment history, visits, follow-ups, communication, documents and patient status into one operational view. Instead of patient information living across disconnected systems, management can understand how patient activity affects staffing, capacity, revenue and care delivery.",
+    },
+    {
+      title: "Clinical Operations",
+      text:
+        "Clinical operations depend on timing, people and capacity. Avantiqo helps healthcare organizations understand department pressure, treatment flow, clinician workload, bottlenecks, delayed care pathways and operational risk across the full care environment.",
+    },
+    {
+      title: "Scheduling & Capacity",
+      text:
+        "Scheduling is not only about booking time. It affects waiting time, patient experience, staff workload, room utilization and financial performance. Avantiqo connects appointment demand, staff availability, bed capacity and operational pressure into one planning layer.",
+    },
+    {
+      title: "Staff Management",
+      text:
+        "Healthcare teams need live visibility into utilization, availability, shifts, overtime, shortages, department pressure and performance. Avantiqo helps leadership understand whether staff resources are aligned with patient demand and clinical workload.",
+    },
+    {
+      title: "Inventory & Pharmacy",
+      text:
+        "Medicines, consumables, equipment and supplies directly affect patient care and operational cost. Avantiqo connects inventory, procurement, pharmacy visibility, replenishment needs, usage patterns and cost exposure so healthcare teams can prevent shortages and reduce waste.",
+    },
+    {
+      title: "Billing & Revenue Cycle",
+      text:
+        "Billing, claims, insurance, collections and revenue capture are deeply connected to operational activity. Avantiqo helps healthcare organizations identify missed revenue, delayed billing, claim pressure, financial leakage and utilization issues before they become hidden losses.",
+    },
+    {
+      title: "Compliance & Quality",
+      text:
+        "Quality and compliance cannot be managed only through after-the-fact reports. Avantiqo connects operational events, documentation, risk indicators, audit readiness and leadership visibility so compliance becomes continuous instead of reactive.",
+    },
+    {
+      title: "Financial Management",
+      text:
+        "Healthcare leaders need to understand how patient flow, staffing, capacity, inventory and billing affect financial performance. Avantiqo connects operational activity with financial exposure, profitability, cost pressure and revenue capture.",
+    },
+    {
+      title: "Marketing & Patient Engagement",
+      text:
+        "Healthcare organizations also need growth, communication and trust. Avantiqo supports patient follow-ups, campaigns, reminders, reputation visibility, service communication and engagement flows that help organizations improve retention and patient experience.",
+    },
+    {
+      title: "Patient Portal",
+      text:
+        "Patients should not need multiple channels to understand appointments, documents, bills, reminders and communication. Avantiqo can connect patient-facing workflows into a single digital experience that improves clarity and reduces administrative pressure.",
+    },
+    {
+      title: "Provider Portal",
+      text:
+        "Doctors, nurses, specialists and care teams need fast access to the operational context around their work. Avantiqo supports provider workflows by connecting workload, communication, schedules, documentation and patient movement.",
+    },
+    {
+      title: "Executive Intelligence",
+      text:
+        "Executives need more than dashboards. They need to understand what is happening, what will happen next and what action should be taken. Avantiqo brings leadership visibility across patients, clinicians, operations, finance, capacity and compliance.",
+    },
+  ];
+
+  const intelligenceCards = [
+    {
+      title: h.what_is_happening || "What Is Happening",
+      text:
+        h.live_operational_visibility_across_patients_clinicians_capacity_finance_and_compliance ||
+        "Live operational visibility across patients, clinicians, capacity, finance and compliance.",
+    },
+    {
+      title: h.what_happens_next || "What Happens Next",
+      text:
+        h.predictive_intelligence_identifies_pressure_risk_and_bottlenecks_before_escalation ||
+        "Predictive intelligence identifies pressure, risk and bottlenecks before escalation.",
+    },
+    {
+      title: h.what_to_do_about_it || "What To Do About It",
+      text:
+        h.recommended_actions_help_leadership_intervene_before_operational_failure_occurs ||
+        "Recommended actions help leadership intervene before operational failure occurs.",
+    },
+  ];
+
+  const patientJourney = [
+    "Patient Demand",
+    "Registration",
+    "Appointment",
+    "Clinical Workload",
+    "Capacity Check",
+    "Treatment",
+    "Billing",
+    "Follow-Up",
+    "Feedback",
+    "Engagement",
+    "Leadership Insight",
+  ];
+
+  const beforeItems = [
+    "Patient records, clinical workload, scheduling, billing and compliance operate in separate systems.",
+    "Leadership receives reports after operational pressure has already affected patients and staff.",
+    "Staffing decisions are based on static schedules instead of live demand and capacity.",
+    "Revenue leakage stays hidden because billing is disconnected from operational activity.",
+    "Compliance risk grows quietly because events, documentation and obligations are not connected.",
+    "Patient experience suffers when waiting time, communication and follow-up are not part of one workflow.",
+  ];
+
+  const afterItems = [
+    "Patients, clinicians, operations, finance and compliance are connected in one healthcare runtime.",
+    "Leadership sees capacity pressure, staffing risk and financial exposure before problems escalate.",
+    "Scheduling, staffing and resource allocation are guided by live operational intelligence.",
+    "Revenue capture improves because operations and billing are connected.",
+    "Compliance becomes continuous because operational events and risk indicators remain visible.",
+    "Patient experience improves because every step from demand to follow-up is connected.",
+  ];
+
+  return (
+    <main className="min-h-screen overflow-hidden bg-[#03050B] text-white">
+      <SiteTopNav />
+
+      <section className="relative min-h-screen overflow-hidden px-6 py-28">
+  <div className="absolute inset-0 z-0">
+    <img src="/images/a_cinematic_high_tech_hospital_control_monitoring.png" alt="Healthcare Background" className="h-full w-full object-cover" />
+    <div className="absolute inset-0 bg-gradient-to-b from-[#02030A]/20 via-[#02030A]/10 to-[#02030A]/40" />
+  </div><div className="relative z-10 mx-auto grid min-h-[76vh] max-w-7xl items-center gap-10 lg:grid-cols-[1fr_0.9fr]">
+          <div className="rounded-[46px] border border-white/10 bg-black/30 p-8 shadow-[0_35px_140px_rgba(0,0,0,0.65)] backdrop-blur-3xl md:p-12">
+            <div className="rounded-[46px] border border-white/10 bg-black/[0.045] p-8 shadow-[0_35px_140px_rgba(0,0,0,0.55)] backdrop-blur-3xl md:p-12">
+<p className="mb-7 text-xs uppercase tracking-[0.45em] text-[#D6A66A]">
+Healthcare Doesn't Fail In Treatment.
+</p>
+
+<h1 className="text-5xl font-extralight leading-[0.96] tracking-[-0.075em] md:text-7xl lg:text-[88px]">
+<span className="bg-gradient-to-r from-[#D6A66A] via-[#E7C38A] to-[#8C6BFF] bg-clip-text text-transparent">
+It Fails In Operations.
+</span>
+</h1>
+
+<p className="mt-8 max-w-3xl text-lg leading-9 text-white/62">
+Patients, clinicians, operations, finance, compliance and leadership are connected through one synthetic intelligence layer, providing real-time insights, predictive analytics, and operational visibility to prevent failures before they happen.
+</p>
+
+<div className="mt-10 flex flex-col gap-4 sm:flex-row">
+<Link
+href="/demo"
+className="rounded-2xl bg-gradient-to-r from-[#D6A66A] via-[#E7C38A] to-[#C9974D] px-9 py-4 text-center font-semibold text-black shadow-[0_0_45px_rgba(214,166,106,0.42)] transition hover:brightness-110"
+>
+Request Executive Briefing
+</Link>
+<Link
+href="/workspace"
+className="rounded-2xl border border-white/15 bg-white/[0.04] px-9 py-4 text-center font-semibold text-white/80 transition hover:border-[#D6A66A]/40 hover:bg-white/[0.08]"
+>
+Explore Platform
+</Link>
+</div>
+</div>
+          </div>
+
+          <div className="rounded-[46px] border border-white/10 bg-white/[0.045] p-6 shadow-[0_35px_140px_rgba(0,0,0,0.55)] backdrop-blur-3xl">
+            <p className="mb-6 text-xs uppercase tracking-[0.35em] text-[#D6A66A]">
+              Healthcare Executive Command Center
+            </p>
+
+            <div className="grid gap-4 sm:grid-cols-2">
+              {[
+                h.patient_surge_risk__87 || "Patient Surge Risk · 87%",
+                h.staff_shortage_risk__73 || "Staff Shortage Risk · 73%",
+                h.up_capacity_utilization || "↑ Capacity Utilization",
+                h.up_revenue_capture || "↑ Revenue Capture",
+                h.up_leadership_visibility || "↑ Leadership Visibility",
+                h.down_waiting_time || "↓ Waiting Time",
+              ].map((item) => (
+                <div key={item} className="rounded-2xl border border-white/10 bg-black/25 p-5">
+                  <p className="text-white/82">{item}</p>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-5 rounded-[28px] border border-white/10 bg-black/25 p-6">
+              <p className="text-4xl font-extralight text-white">96%</p>
+              <p className="mt-2 text-white/58">Operational visibility score</p>
+              <div className="mt-5 h-2 overflow-hidden rounded-full bg-white/10">
+                <div className="h-full w-[96%] rounded-full bg-gradient-to-r from-[#D6A66A] to-[#8C6BFF]" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="px-6 py-28">
+        <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[0.85fr_1.15fr]">
+          <div>
+            <p className="mb-6 text-xs uppercase tracking-[0.42em] text-[#D6A66A]">
+              {h.reality?.badge || "HEALTHCARE REALITY"}
+            </p>
+            <h2 className="text-5xl font-extralight leading-tight tracking-[-0.06em] md:text-7xl">
+              {h.reality?.title1 || "Healthcare is connected everywhere."}
+              <br />
+              <span className="text-white/40">
+                {h.reality?.title2 || "But understood nowhere."}
+              </span>
+            </h2>
+          </div>
+
+          <div className="space-y-7 text-xl leading-10 text-white/62">
+            <p>{h.reality_content_1}</p>
+            <p>{h.reality_content_2}</p>
+            <p>{h.reality_content_3}</p>
+            <p className="text-white/86">{h.reality_content_4}</p>
+          </div>
+        </div>
+
+        <div className="mx-auto mt-16 grid max-w-7xl gap-6 md:grid-cols-2 lg:grid-cols-3">
+          {realityCards.map((card) => (
+            <div
+              key={card.title}
+              className="rounded-[34px] border border-white/10 bg-white/[0.045] p-7 shadow-[0_25px_100px_rgba(0,0,0,0.38)] backdrop-blur-2xl"
+            >
+              <div className="mb-6 h-1 w-14 rounded-full bg-gradient-to-r from-[#D6A66A] to-[#8C6BFF]" />
+              <h3 className="text-2xl font-light tracking-[-0.04em]">{card.title}</h3>
+              <p className="mt-5 leading-8 text-white/60">{card.text}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="border-y border-white/10 bg-white/[0.02] px-6 py-28">
+        <div className="mx-auto max-w-7xl">
+          <div className="mb-16 max-w-5xl">
+            <p className="mb-6 text-xs uppercase tracking-[0.42em] text-[#D6A66A]">
+              {h.runtime?.badge || "ONE HEALTHCARE RUNTIME"}
+            </p>
+            <h2 className="text-5xl font-extralight leading-tight tracking-[-0.06em] md:text-7xl">
+              {h.runtime?.title1 || "Patient Demand. Clinical Workload. Bed Capacity."}
+              <br />
+              <span className="text-white/42">
+                {h.runtime?.title2 || "Staff Availability. Financial Exposure. Compliance Risk."}
+              </span>
+            </h2>
+            <div className="mt-8 max-w-4xl space-y-5 text-xl leading-9 text-white/62">
+              <p>{h.runtime_content_1}</p>
+              <p>{h.runtime_content_2}</p>
+              <p>{h.runtime_content_3}</p>
+            </div>
+          </div>
+
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {runtimeCards.map((card) => (
+              <div key={card.title} className="rounded-[34px] border border-white/10 bg-white/[0.045] p-7 backdrop-blur-2xl">
+                <h3 className="text-3xl font-extralight tracking-[-0.05em]">{card.title}</h3>
+                <p className="mt-5 leading-8 text-white/60">{card.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="px-6 py-28">
+        <div className="mx-auto max-w-7xl">
+          <div className="mb-16 max-w-5xl">
+            <p className="mb-6 text-xs uppercase tracking-[0.42em] text-[#D6A66A]">
+              The Avantiqo Healthcare Platform
+            </p>
+            <h2 className="text-5xl font-extralight leading-tight tracking-[-0.06em] md:text-7xl">
+              Every module. Every workflow. One connected system.
+            </h2>
+            <p className="mt-8 max-w-4xl text-xl leading-10 text-white/62">
+              Healthcare organizations do not need another isolated tool. They need one operating layer that connects patient flow, staff, capacity, billing, compliance, pharmacy, communication and leadership intelligence.
+            </p>
+          </div>
+
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {moduleCards.map((card) => (
+              <div key={card.title} className="rounded-[34px] border border-white/10 bg-gradient-to-br from-white/[0.07] to-white/[0.025] p-7 shadow-[0_25px_100px_rgba(0,0,0,0.38)] backdrop-blur-2xl">
+                <h3 className="text-2xl font-light tracking-[-0.04em]">{card.title}</h3>
+                <p className="mt-5 leading-8 text-white/60">{card.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="px-6 py-28">
+        <div className="mx-auto max-w-7xl rounded-[46px] border border-purple-400/20 bg-gradient-to-br from-[#0B1020] via-[#070A12] to-[#140B1F] p-8 shadow-[0_35px_140px_rgba(0,0,0,0.5)] backdrop-blur-3xl md:p-12">
+          <p className="mb-6 text-xs uppercase tracking-[0.42em] text-[#D6A66A]">
+            {h.synthetic?.badge || "SYNTHETIC INTELLIGENCE LAYER"}
+          </p>
+          <h2 className="max-w-5xl text-5xl font-extralight leading-tight tracking-[-0.06em] md:text-7xl">
+            {h.synthetic?.title1 || "Traditional systems tell you"}{" "}
+            {h.synthetic?.title2 || "what happened."}
+            <br />
+            <span className="text-[#D6A66A]">
+              {h.synthetic?.title3 || "Avantiqo shows you"}{" "}
+              {h.synthetic?.title4 || "what happens next."}
+            </span>
+          </h2>
+          <p className="mt-8 max-w-4xl text-xl leading-10 text-white/62">
+            Synthetic intelligence is not just a chatbot and it is not only report generation. It is an operating intelligence layer that reads the connection between patient demand, clinical workload, staff availability, capacity, finance and compliance risk.
+          </p>
+
+          <div className="mt-14 grid gap-6 md:grid-cols-3">
+            {intelligenceCards.map((card) => (
+              <div key={card.title} className="rounded-[30px] border border-white/10 bg-white/[0.045] p-7 backdrop-blur-2xl">
+                <h3 className="text-2xl font-light tracking-[-0.04em]">{card.title}</h3>
+                <p className="mt-5 leading-8 text-white/62">{card.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="border-y border-white/10 bg-white/[0.02] px-6 py-28">
+        <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[0.9fr_1.1fr]">
+          <div>
+            <p className="mb-6 text-xs uppercase tracking-[0.42em] text-[#D6A66A]">
+              {h.ownership?.badge || "LEADERSHIP LAYER"}
+            </p>
+            <h2 className="text-5xl font-extralight leading-tight tracking-[-0.06em] md:text-7xl">
+              {h.ownership?.title1 || "Leadership sees everything."}
+              <br />
+              <span className="text-white/42">
+                {h.ownership?.title2 || "Before it happens."}
+              </span>
+            </h2>
+          </div>
+
+          <div className="space-y-7 text-xl leading-10 text-white/62">
+            <p>{h.ownership_content_1}</p>
+            <p>{h.ownership_content_2}</p>
+            <p>{h.ownership_content_3}</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="px-6 py-28">
+        <div className="mx-auto max-w-7xl rounded-[46px] border border-white/10 bg-white/[0.04] p-8 shadow-[0_35px_140px_rgba(0,0,0,0.5)] backdrop-blur-3xl md:p-12">
+          <p className="mb-6 text-xs uppercase tracking-[0.42em] text-[#D6A66A]">
+            The Patient Journey
+          </p>
+          <h2 className="max-w-5xl text-5xl font-extralight leading-tight tracking-[-0.06em] md:text-7xl">
+            Every step connected. Every outcome improved.
+          </h2>
+          <p className="mt-8 max-w-4xl text-xl leading-10 text-white/62">
+            A healthcare experience does not begin at treatment and it does not end at discharge. Avantiqo connects demand, appointment flow, clinical capacity, billing, follow-up, communication and leadership visibility into one continuous journey.
+          </p>
+
+          <div className="mt-14 grid gap-4 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6">
+            {patientJourney.map((item, index) => (
+              <div key={item} className="rounded-2xl border border-white/10 bg-black/25 px-4 py-4 text-center text-sm text-white/75">
+                <span className="mb-2 block text-xs text-[#D6A66A]">
+                  {String(index + 1).padStart(2, "0")}
+                </span>
+                {item}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="px-6 py-28">
+        <div className="mx-auto max-w-7xl">
+          <div className="mb-16 max-w-5xl">
+            <p className="mb-6 text-xs uppercase tracking-[0.42em] text-[#D6A66A]">
+              Before vs After Avantiqo
+            </p>
+            <h2 className="text-5xl font-extralight leading-tight tracking-[-0.06em] md:text-7xl">
+              From operational blind spots to predictive leadership.
+            </h2>
+          </div>
+
+          <div className="grid gap-6 lg:grid-cols-2">
+            <div className="rounded-[34px] border border-red-400/15 bg-red-500/[0.035] p-7">
+              <h3 className="text-3xl font-light">Before Avantiqo</h3>
+              <div className="mt-6 space-y-4 text-white/62">
+                {beforeItems.map((item) => (
+                  <p key={item}>{item}</p>
+                ))}
+              </div>
+            </div>
+
+            <div className="rounded-[34px] border border-emerald-400/15 bg-emerald-500/[0.035] p-7">
+              <h3 className="text-3xl font-light">After Avantiqo</h3>
+              <div className="mt-6 space-y-4 text-white/62">
+                {afterItems.map((item) => (
+                  <p key={item}>{item}</p>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-8 grid gap-6 md:grid-cols-4">
+            {[
+              "+23% Capacity Utilization",
+              "-34% Patient Wait Time",
+              "+18% Revenue Capture",
+              "+42% Operational Efficiency",
+            ].map((item) => (
+              <div key={item} className="rounded-3xl border border-white/10 bg-white/[0.045] p-7 text-center backdrop-blur-2xl">
+                <p className="text-3xl font-light text-[#D6A66A]">{item.split(" ")[0]}</p>
+                <p className="mt-2 text-white/62">{item.replace(item.split(" ")[0], "").trim()}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="border-t border-white/10 px-6 py-28 text-center">
+        <div className="mx-auto max-w-5xl">
+          <p className="mb-8 text-xs uppercase tracking-[0.42em] text-[#D6A66A]">
+            {h.cta?.badge || "HEALTHCARE OPERATING SYSTEM"}
+          </p>
+          <h2 className="text-5xl font-extralight leading-tight tracking-[-0.06em] md:text-7xl">
+            {h.cta?.title1 || "Healthcare was built around treatment."}
+            <br />
+            <span className="text-[#D6A66A]">
+              {h.cta?.title2 || "The future will be built around intelligence."}
+            </span>
+          </h2>
+          <p className="mx-auto mt-8 max-w-3xl text-xl leading-10 text-white/62">
+            {h.cta?.description ||
+              "Avantiqo connects patients, clinicians, operations, finance, compliance and leadership through one Synthetic Intelligence Operating System."}
+          </p>
+
+          <div className="mt-12 flex justify-center">
+            <Link
+              href="/demo"
+              className="rounded-2xl bg-gradient-to-r from-[#D6A66A] via-[#E7C78A] to-[#C9974D] px-10 py-5 text-sm font-semibold text-black shadow-[0_0_45px_rgba(214,166,106,0.42)] transition hover:brightness-110"
+            >
+              {h.cta?.primary || "Request Executive Briefing"}
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <Footer />
+    </main>
+  );
+}

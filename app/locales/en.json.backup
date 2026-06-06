@@ -367,87 +367,68 @@
     },
     "hospitality": {
       "hero": {
-        "badge": "HOSPITALITY OPERATING SYSTEM",
-        "title1": "One Runtime For Hospitality.",
-        "title2": "From Guest Experience To Accounting.",
-        "description": "Reservations, operations, staff, accounting, marketing, reviews and AI operating together in one connected system.",
+        "badge": "HOSPITALITY INTELLIGENCE PLATFORM",
+        "title1": "See The Entire Business.",
+        "title2": "Know What Happens Next.",
+        "description": "Reservations, operations, workforce, finance, marketing and guest experience connected through one synthetic intelligence layer.",
         "primary": "Book Demo",
         "secondary": "Explore Platform"
       },
-      "reality": {
-        "badge": "HOSPITALITY REALITY",
-        "title1": "Every Guest Action.",
-        "title2": "Connected To The Business.",
-        "flow": [
-          "Guest",
-          "Reservation",
-          "Arrival",
-          "Table",
-          "Order",
-          "Kitchen / Bar",
-          "Expo",
-          "Service",
-          "Payment",
-          "Accounting",
-          "Profitability"
-        ]
+      "problem": {
+        "badge": "THE HOSPITALITY PROBLEM",
+        "title1": "Most Hospitality Businesses",
+        "title2": "Operate Blind.",
+        "description": "Reservations, operations, accounting, marketing and reviews operate in disconnected systems that create delayed decisions and hidden risks."
       },
-      "staff": {
-        "badge": "STAFF OPERATING SYSTEM",
-        "title": "One Workforce Runtime",
-        "items": [
-          "Attendance",
-          "Scheduling",
-          "Tasks",
-          "Invoice Uploads",
-          "Photo Uploads",
-          "Performance",
-          "Payroll"
-        ]
+      "intelligence": {
+        "badge": "SYNTHETIC INTELLIGENCE",
+        "title1": "From Data.",
+        "title2": "To Decisions.",
+        "description": "Traditional software stores information. Avantiqo transforms operational signals into recommendations, opportunities and actions."
       },
-      "production": {
-        "badge": "INVENTORY & PRODUCTION",
-        "title": "Control Cost In Real Time"
+      "executive": {
+        "badge": "EXECUTIVE VISIBILITY",
+        "title1": "One View Across",
+        "title2": "The Entire Business.",
+        "description": "Revenue, payroll, procurement, guest satisfaction, marketing performance and operational activity visible from one executive control center."
       },
-      "accounting": {
-        "badge": "ACCOUNTING RUNTIME",
-        "title": "Every Transaction Connected"
-      },
-      "designStudio": {
-        "badge": "DESIGN STUDIO",
-        "title": "Create Hospitality Campaigns"
-      },
-      "marketing": {
-        "badge": "MARKETING AUTOMATION",
-        "title": "Turn Guests Into Returning Customers"
-      },
-      "reviews": {
-        "badge": "REVIEWS & REPUTATION",
-        "title": "AI Powered Review Management"
-      },
-      "ai": {
-        "badge": "AI HOSPITALITY RUNTIME",
-        "title": "Observe. Understand. Recommend. Execute."
-      },
-      "owner": {
-        "badge": "OWNER CONTROL CENTER",
-        "title": "Everything Connected",
-        "description": "Reservations, operations, staff uploads, accounting, marketing, reviews and AI intelligence operating together inside one hospitality control center.",
+      "connected": {
+        "badge": "EVERYTHING CONNECTED",
+        "title1": "One Platform.",
+        "title2": "Every Department.",
         "modules": [
-          "Reservations",
-          "Operations",
-          "Staff",
-          "Accounting",
-          "Marketing",
-          "Reviews",
-          "AI Runtime",
-          "Owner Intelligence"
+          "Reservations Runtime",
+          "Operations Runtime",
+          "Workforce Runtime",
+          "Finance Runtime",
+          "Marketing Runtime",
+          "Reputation Runtime"
         ]
+      },
+      "why": {
+        "badge": "WHY AVANTIQO",
+        "title1": "Traditional Software",
+        "title2": "Stores Data.",
+        "title3": "Avantiqo",
+        "title4": "Understands Business."
       },
       "cta": {
-        "badge": "ONE HOSPITALITY PLATFORM",
-        "title": "Run Hospitality On One Operating System"
+        "badge": "HOSPITALITY INTELLIGENCE PLATFORM",
+        "title": "From Operational Data To Executive Decisions."
       }
+    },
+    "accountingFirms": {
+      "hero": {
+        "badge": "SYNTHETIC INTELLIGENCE FOR ACCOUNTING FIRMS",
+        "title1": "Stop Reporting",
+        "title2": "The Past.",
+        "title3": "Start Managing",
+        "title4": "The Future.",
+        "description": "Avantiqo gives accounting firms real-time visibility into operations, approvals, payroll, procurement and financial activity instead of waiting for paperwork 30 days later.",
+        "primary": "Build The Next Generation Accounting Firm",
+        "secondary": "Talk To Enterprise Team"
+      }
+
     }
   },
   "navigation": {
@@ -1743,4 +1724,5 @@
       }
     }
   }
+
 }
