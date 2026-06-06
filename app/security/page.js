@@ -3,46 +3,50 @@
 import Link from "next/link";
 import SiteTopNav from "@/app/components/SiteTopNav";
 import Footer from "@/components/layout/Footer";
+import { useTranslation } from "@/app/providers/I18nProvider";
 
 export default function SecurityPage() {
+  const { translations } = useTranslation();
+  const sec = translations.security || {};
+
   const pillars = [
     {
-      title: "Organization-Level Access Control",
-      text: "Avantiqo is built around organization-based access. Users only see the companies, departments, workspaces and records they are permitted to access. This prevents staff, managers, clients or external users from seeing information outside their responsibility.",
+      title: sec.pillar_1_title || "",
+      text: sec.pillar_1_text || "",
     },
     {
-      title: "Role-Based Permissions",
-      text: "Every user role can be restricted by function. Owners, managers, accounting teams, staff, customers and external collaborators can receive different levels of access. Sensitive actions such as approvals, payments, payroll, finance, customer records and reporting can be protected behind permission layers.",
+      title: sec.pillar_2_title || "",
+      text: sec.pillar_2_text || "",
     },
     {
-      title: "Multi-Tenant Data Separation",
-      text: "Avantiqo is designed for multi-company and multi-client use. Each organization operates inside its own controlled environment. This is especially important for accounting firms, hospitality groups, healthcare groups and enterprise companies managing multiple clients, branches or subsidiaries.",
+      title: sec.pillar_3_title || "",
+      text: sec.pillar_3_text || "",
     },
     {
-      title: "Approval Governance",
-      text: "Important actions should not happen silently. Avantiqo supports approval flows for invoices, payroll, accounting actions, customer requests, operational changes and management decisions. This creates accountability and reduces the risk of unauthorized or accidental actions.",
+      title: sec.pillar_4_title || "",
+      text: sec.pillar_4_text || "",
     },
     {
-      title: "Audit Trail And Activity Visibility",
-      text: "A secure system must show who did what, when it happened and why it matters. Avantiqo is designed to support audit trails across approvals, records, submissions, changes and operational events so leadership can investigate actions instead of guessing.",
+      title: sec.pillar_5_title || "",
+      text: sec.pillar_5_text || "",
     },
     {
-      title: "Customer And Staff Portal Separation",
-      text: "Customer portals and staff portals should never expose internal business controls. Avantiqo separates external customer visibility from internal operational access, allowing customers to see what is relevant to them while protecting internal data, financial logic and management decisions.",
+      title: sec.pillar_6_title || "",
+      text: sec.pillar_6_text || "",
     },
   ];
 
   const layers = [
-    "Authentication and controlled login access",
-    "Role-based authorization",
-    "Organization and workspace separation",
-    "Approval-based sensitive actions",
-    "Audit logs and traceable activity",
-    "Controlled customer portal visibility",
-    "Controlled staff portal visibility",
-    "Finance and payroll protection",
-    "Document and asset access control",
-    "Future-ready compliance structure",
+    sec.layer_1,
+    sec.layer_2,
+    sec.layer_3,
+    sec.layer_4,
+    sec.layer_5,
+    sec.layer_6,
+    sec.layer_7,
+    sec.layer_8,
+    sec.layer_9,
+    sec.layer_10,
   ];
 
   return (
@@ -55,30 +59,28 @@ export default function SecurityPage() {
         <div className="relative mx-auto max-w-7xl">
           <div className="rounded-[46px] border border-white/10 bg-white/[0.035] p-8 shadow-[0_35px_140px_rgba(0,0,0,0.6)] backdrop-blur-3xl md:p-14">
             <p className="mb-6 text-xs uppercase tracking-[0.45em] text-[#D6A66A]">
-              SECURITY & TRUST
+              {sec.hero_label || "SECURITY & TRUST"}
             </p>
 
             <h1 className="max-w-5xl text-6xl font-extralight leading-tight tracking-[-0.06em] md:text-8xl">
-              Security Is Not A Feature.
+              {sec.hero_title || "Security Is Not A Feature."}
               <br />
               <span className="bg-gradient-to-r from-[#D6A66A] via-[#E7C78A] to-[#8C6BFF] bg-clip-text text-transparent">
-                It Is The Foundation.
+                {sec.hero_title_highlight || "It Is The Foundation."}
               </span>
             </h1>
 
             <p className="mt-8 max-w-4xl text-xl leading-10 text-white/66">
-              Avantiqo is designed for businesses that manage sensitive operational, financial,
-              customer, staff and organizational data. Security must exist across every layer:
-              access, approvals, visibility, audit trails, portals, integrations and data separation.
+              {sec.hero_subtitle || "Avantiqo is designed for businesses that manage sensitive operational, financial, customer, staff and organizational data. Security must exist across every layer: access, approvals, visibility, audit trails, portals, integrations and data separation."}
             </p>
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <Link href="/demo" className="rounded-2xl bg-gradient-to-r from-[#D6A66A] via-[#E7C78A] to-[#C9974D] px-9 py-4 text-center text-sm font-semibold text-black shadow-[0_0_45px_rgba(214,166,106,0.42)]">
-                Request Security Briefing
+                {sec.request_briefing || "Request Security Briefing"}
               </Link>
 
               <Link href="/industries" className="rounded-2xl border border-white/15 bg-white/[0.04] px-9 py-4 text-center text-sm font-semibold text-white/80">
-                Explore Platform
+                {sec.explore_platform || "Explore Platform"}
               </Link>
             </div>
           </div>
@@ -89,14 +91,10 @@ export default function SecurityPage() {
         <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[0.85fr_1.15fr]">
           <div>
             <p className="mb-6 text-xs uppercase tracking-[0.42em] text-[#D6A66A]">
-              SECURITY MODEL
+              {sec.model_label || "SECURITY MODEL"}
             </p>
             <h2 className="text-5xl font-extralight leading-tight tracking-[-0.06em] md:text-7xl">
-              Protect The Business.
-              <br />
-              Protect The Data.
-              <br />
-              Protect The Decisions.
+              {sec.model_title || "Protect The Business. Protect The Data. Protect The Decisions."}
             </h2>
           </div>
 
@@ -148,13 +146,11 @@ export default function SecurityPage() {
         <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[1fr_1fr]">
           <div className="rounded-[46px] border border-[#D6A66A]/20 bg-gradient-to-br from-[#D6A66A]/10 via-white/[0.03] to-transparent p-10 shadow-[0_35px_140px_rgba(214,166,106,0.12)] backdrop-blur-3xl">
             <p className="mb-6 text-xs uppercase tracking-[0.42em] text-[#D6A66A]">
-              WHY IT MATTERS
+              {sec.why_label || "WHY IT MATTERS"}
             </p>
 
             <h2 className="mb-8 text-5xl font-extralight leading-tight tracking-[-0.06em]">
-              Security Creates Trust.
-              <br />
-              Trust Creates Adoption.
+              {sec.why_title || "Security Creates Trust. Trust Creates Adoption."}
             </h2>
 
             <div className="space-y-6 text-lg leading-9 text-white/66">
@@ -180,7 +176,7 @@ export default function SecurityPage() {
 
           <div className="rounded-[46px] border border-white/10 bg-white/[0.035] p-10 shadow-[0_35px_140px_rgba(0,0,0,0.45)] backdrop-blur-3xl">
             <p className="mb-6 text-xs uppercase tracking-[0.42em] text-[#D6A66A]">
-              SECURITY LAYERS
+              {sec.layers_label || "SECURITY LAYERS"}
             </p>
 
             <div className="grid gap-4">
@@ -200,11 +196,11 @@ export default function SecurityPage() {
       <section className="px-6 py-28 bg-white/[0.018]">
         <div className="mx-auto max-w-7xl rounded-[46px] border border-white/10 bg-gradient-to-br from-white/[0.06] to-white/[0.02] p-10 shadow-[0_35px_140px_rgba(0,0,0,0.45)] backdrop-blur-3xl md:p-14">
           <p className="mb-6 text-xs uppercase tracking-[0.42em] text-[#D6A66A]">
-            DATA RESPONSIBILITY
+            {sec.data_label || "DATA RESPONSIBILITY"}
           </p>
 
           <h2 className="mb-10 max-w-5xl text-5xl font-extralight leading-tight tracking-[-0.06em] md:text-7xl">
-            A Platform That Understands Sensitive Business Data.
+            {sec.data_title || "A Platform That Understands Sensitive Business Data."}
           </h2>
 
           <div className="grid gap-8 lg:grid-cols-2">
