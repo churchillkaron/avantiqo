@@ -2,8 +2,12 @@
 
 import SiteTopNav from "@/app/components/SiteTopNav";
 import Footer from "@/components/layout/Footer";
+import { useTranslation } from "@/app/providers/I18nProvider";
 
 export default function PrivacyPage() {
+  const { translations } = useTranslation();
+  const privacy = translations.privacy || {};
+
   return (
     <main className="min-h-screen overflow-hidden bg-[#02030A] text-white">
       <SiteTopNav />
@@ -16,22 +20,19 @@ export default function PrivacyPage() {
           <div className="rounded-[46px] border border-[#D6A66A]/20 bg-white/[0.03] p-10 backdrop-blur-3xl md:p-16">
 
             <div className="mb-6 text-xs uppercase tracking-[0.45em] text-[#D6A66A]">
-              PRIVACY & TRUST
+              {privacy.hero_label || "PRIVACY & TRUST"}
             </div>
 
             <h1 className="max-w-5xl text-6xl font-extralight leading-tight tracking-[-0.06em] md:text-8xl">
-              Privacy Is Not A Feature.
+              {privacy.hero_title || "Privacy Is Not A Feature."}
               <br />
               <span className="bg-gradient-to-r from-[#D6A66A] via-[#E7C78A] to-[#F7E7B0] bg-clip-text text-transparent">
-                It Is A Foundation.
+                {privacy.hero_highlight || "It Is A Foundation."}
               </span>
             </h1>
 
             <p className="mt-8 max-w-4xl text-xl leading-10 text-white/65">
-              Trust cannot exist without privacy. Organizations cannot build
-              intelligence, governance, compliance, operational visibility or
-              enterprise-scale decision making without confidence that their
-              information remains protected.
+              {privacy.hero_subtitle || "Trust cannot exist without privacy. Organizations cannot build intelligence, governance, compliance, operational visibility or enterprise-scale decision making without confidence that their information remains protected."}
             </p>
 
           </div>
@@ -44,97 +45,32 @@ export default function PrivacyPage() {
 
           {[
             {
-              title: "Privacy By Design",
-              text: `Privacy cannot be added after a system is built.
-
-Privacy must be incorporated into architecture, governance, access controls, workflows, intelligence systems and operational processes from the beginning.
-
-At Avantiqo, privacy is not treated as a legal checkbox. Privacy is built into the foundation of the platform itself.
-
-Every workflow.
-Every approval.
-Every operational process.
-Every customer interaction.
-Every financial transaction.
-Every intelligence layer.
-
-Privacy exists as a fundamental design principle because trust is the foundation of every modern organization.`,
+              title: privacy.section_1_title || "Privacy By Design",
+              text: privacy.section_1_text || "",
             },
 
             {
-              title: "Privacy Is A Business Requirement",
-              text: `Modern organizations generate information continuously.
-
-Every customer interaction.
-Every financial transaction.
-Every approval.
-Every operational event.
-Every employee action.
-Every project milestone.
-Every compliance activity.
-Every document.
-Every decision.
-
-Together these activities create the operational memory of the organization.
-
-Protecting that information is not simply a regulatory requirement.
-
-It is a business requirement.`,
+              title: privacy.section_2_title || "Privacy Is A Business Requirement",
+              text: privacy.section_2_text || "",
             },
 
             {
-              title: "Who Owns The Data?",
-              text: `Your organization owns its data.
-
-Always.
-
-Avantiqo does not sell customer information.
-Avantiqo does not sell employee information.
-Avantiqo does not sell operational information.
-Avantiqo does not sell financial information.
-Avantiqo does not monetize organizational intelligence.
-
-The platform exists to help organizations understand themselves, not to take ownership of the information they generate.`,
+              title: privacy.section_3_title || "Who Owns The Data?",
+              text: privacy.section_3_text || "",
             },
 
             {
-              title: "How Avantiqo Does NOT Use Data",
-              text: `Avantiqo does not sell customer data.
-
-Avantiqo does not share information between organizations.
-
-Avantiqo does not build advertising profiles.
-
-Avantiqo does not monetize operational activity.
-
-Avantiqo does not use customer information to train public AI systems.
-
-The objective of the platform is to help organizations understand themselves.
-
-Not to exploit the information they generate.`,
+              title: privacy.section_4_title || "How Avantiqo Does NOT Use Data",
+              text: privacy.section_4_text || "",
             },
 
             {
-              title: "Synthetic Intelligence And Privacy",
-              text: `Synthetic Intelligence introduces a fundamentally different approach to intelligence.
-
-Traditional artificial intelligence often attempts to learn from large volumes of public information.
-
-Synthetic Intelligence focuses on understanding organizational reality.
-
-Its purpose is not to profile individuals.
-
-Its purpose is not to create advertising models.
-
-Its purpose is not to exploit user behavior.
-
-Its purpose is organizational awareness.
-
-Not personal surveillance.`,
+              title: privacy.section_5_title || "Synthetic Intelligence And Privacy",
+              text: privacy.section_5_text || "",
             },
 
             {
-              title: "Organizational Privacy",
+              title: privacy.section_6_title || "Organizational Privacy",
               text: `Organizations require privacy in the same way individuals do.
 
 Business strategies.
@@ -231,7 +167,7 @@ Avantiqo is built around the principle that intelligence becomes more valuable w
             },
 
             {
-              title: "Data Lifecycle Management",
+              title: privacy.section_7_title || "Data Lifecycle Management",
               text: `Privacy extends beyond storage.
 
 Privacy also includes lifecycle management.
@@ -256,7 +192,7 @@ Privacy requires visibility throughout the entire lifecycle of information.`,
             },
 
             {
-              title: "Privacy And Executive Responsibility",
+              title: privacy.section_8_title || "Privacy And Executive Responsibility",
               text: `Privacy is no longer solely an IT responsibility.
 
 Privacy is a leadership responsibility.
@@ -279,7 +215,7 @@ Avantiqo helps organizations create the structures required to manage privacy at
             },
 
             {
-              title: "Privacy And Governance",
+              title: privacy.section_9_title || "Privacy And Governance",
               text: `Privacy cannot depend on policy alone.
 
 Privacy requires governance.
@@ -298,7 +234,7 @@ Privacy is part of the operating model of the organization itself.`,
             },
 
             {
-              title: "Privacy And Trust",
+              title: privacy.section_10_title || "Privacy And Trust",
               text: `Trust is one of the most valuable assets any organization possesses.
 
 Customers trust organizations with information.
@@ -321,7 +257,7 @@ It is about preserving trust.`,
             },
 
             {
-              title: "Data Isolation And Organizational Boundaries",
+              title: privacy.section_11_title || "Data Isolation And Organizational Boundaries",
               text: `Every organization operates within its own controlled environment.
 
 Financial information.
@@ -338,7 +274,7 @@ Isolation is fundamental to enterprise trust.`,
 
 
             {
-              title: "Data Storage And Infrastructure",
+              title: privacy.section_12_title || "Data Storage And Infrastructure",
               text: `Organizations entrust Avantiqo with operational, financial, customer and organizational information.
 
 Data is stored within professionally managed cloud infrastructure designed for security, reliability, redundancy and availability.
@@ -351,7 +287,7 @@ The objective is not only protecting data from external threats, but also ensuri
             },
 
             {
-              title: "Data Separation And Isolation",
+              title: privacy.section_13_title || "Data Separation And Isolation",
               text: `Every organization operates within its own logical environment.
 
 Customer records, financial information, operational activity, intelligence models, documents and business processes remain isolated from other organizations using the platform.
@@ -364,7 +300,7 @@ Isolation protects confidentiality while allowing organizations to benefit from 
             },
 
             {
-              title: "Access Control And Permissions",
+              title: privacy.section_14_title || "Access Control And Permissions",
               text: `Not every user should have access to every piece of information.
 
 Avantiqo uses role-based access controls to ensure information is visible only to authorized individuals.
@@ -387,7 +323,7 @@ This ensures that users receive the visibility required to perform their respons
             },
 
             {
-              title: "Encryption And Data Protection",
+              title: privacy.section_15_title || "Encryption And Data Protection",
               text: `Avantiqo is designed to support industry-standard security practices for protecting information during storage and transmission.
 
 Security controls are continuously reviewed and improved as the platform evolves.
@@ -398,7 +334,7 @@ Protecting information is not a one-time activity. It is an ongoing operational 
             },
 
             {
-              title: "Platform Administrators And Data Access",
+              title: privacy.section_16_title || "Platform Administrators And Data Access",
               text: `Avantiqo does not provide unrestricted visibility into customer operations.
 
 Administrative access is controlled, monitored and limited to legitimate operational requirements such as support, maintenance, troubleshooting or security investigations.
@@ -409,7 +345,7 @@ The principle is simple: access should be justified, controlled and accountable.
             },
 
             {
-              title: "Artificial Intelligence And Customer Data",
+              title: privacy.section_17_title || "Artificial Intelligence And Customer Data",
               text: `Customer information is not used to train public artificial intelligence models.
 
 Organizational information remains associated with the organization that generates it.
@@ -420,7 +356,7 @@ Synthetic Intelligence focuses on organizational understanding rather than publi
             },
 
             {
-              title: "Backup, Resilience And Business Continuity",
+              title: privacy.section_18_title || "Backup, Resilience And Business Continuity",
               text: `Enterprise systems must remain resilient.
 
 Operational continuity requires reliable storage, redundancy, recovery planning and infrastructure resilience.
@@ -431,7 +367,7 @@ Avantiqo is designed with continuity and long-term operational reliability in mi
             },
 
             {
-              title: "Data Deletion And Exit Rights",
+              title: privacy.section_19_title || "Data Deletion And Exit Rights",
               text: `Organizations should maintain control over their information throughout its lifecycle.
 
 This includes the ability to manage retention requirements, deletion requests, archival policies and platform exit procedures when appropriate.
@@ -442,7 +378,7 @@ Privacy includes the right to control information not only while it exists, but 
             },
 
             {
-              title: "Customer Rights And Transparency",
+              title: privacy.section_20_title || "Customer Rights And Transparency",
               text: `Organizations and individuals must maintain control over their information.
 
 • Data access requests
@@ -461,7 +397,7 @@ Transparency is essential to maintaining trust.`,
             },
 
             {
-              title: "Global Privacy Standards",
+              title: privacy.section_21_title || "Global Privacy Standards",
               text: `Privacy expectations continue to evolve around the world.
 
 Avantiqo is designed to support organizations operating under:
@@ -478,7 +414,7 @@ Privacy standards are treated as operational requirements rather than legal afte
             },
 
             {
-              title: "The Future Of Privacy",
+              title: privacy.section_22_title || "The Future Of Privacy",
               text: `The future of privacy is not secrecy.
 
 The future of privacy is controlled visibility.
