@@ -33,7 +33,7 @@ export default function IndustriesPage() {
       image: "/images/hero-construction.png",
       description:
         "Control projects, budgets, procurement, workforce and site execution with complete visibility.",
-      href: "/industries/construction",
+      href: "/industries/distribution-manufacturing",
     },
     {
       title: "Retail & Commerce",
@@ -47,7 +47,7 @@ export default function IndustriesPage() {
       image: "/images/professional-services-hero.png",
       description:
         "Manage projects, teams, billing, delivery and customer relationships with operational intelligence.",
-      href: "/industries/profesional-service",
+      href: "/industries/professional-services",
     },
     {
       title: "Distribution & Manufacturing",
