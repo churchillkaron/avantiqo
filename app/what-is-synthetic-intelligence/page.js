@@ -3,51 +3,28 @@
 import Link from "next/link";
 import SiteTopNav from "@/app/components/SiteTopNav";
 import Footer from "@/components/layout/Footer";
+import { useTranslation } from "@/app/providers/I18nProvider";
 
 export default function SyntheticIntelligencePage() {
+  const { translations } = useTranslation();
+  const si = translations.synthetic_intelligence || {};
+
   const sections = [
     {
-      title: "What is Synthetic Intelligence?",
-      description: `Synthetic Intelligence (SI) is a next-generation intelligence system designed
-to analyze, predict, and optimize operational and financial performance across a business
-in real time. Unlike traditional AI, SI integrates multiple streams of business data—including
-finance, operations, customer management, and human resources—into a single, intelligent layer
-that provides actionable insights and predictive recommendations.`,
+      title: si.section_1_title || "What is Synthetic Intelligence?",
+      description: si.section_1_description || "",
     },
     {
-      title: "Why It Matters",
-      description: `SI allows businesses to anticipate bottlenecks, optimize workflows, and improve
-decision-making by providing a comprehensive, real-time overview of all critical business
-operations. By leveraging SI, executives can make informed decisions proactively, rather than
-reacting to problems after they occur, improving efficiency, reducing costs, and increasing growth.`,
+      title: si.section_2_title || "Why It Matters",
+      description: si.section_2_description || "",
     },
     {
-      title: "Key Benefits",
-      description: `- Real-time insights across departments and functions
-- Predictive analytics for operational efficiency
-- Centralized intelligence for faster decision-making
-- Enhanced visibility for leadership to monitor KPIs
-- Automated recommendations to optimize resource allocation`,
+      title: si.section_3_title || "Key Benefits",
+      description: si.section_3_description || "",
     },
     {
-      title: "Artificial Intelligence vs Synthetic Intelligence",
-      description: `Artificial Intelligence Creates Answers:
-AI can generate text, images, reports, and recommendations. However, it does not understand
-the organization itself. It can answer questions, but it cannot continuously understand the
-relationships between operations, customers, staff, finance, compliance, and performance.
-
-Synthetic Intelligence Creates Understanding:
-SI is not designed to generate answers. It creates organizational awareness. Every customer
-interaction, operational event, financial transaction, staff activity, project milestone, and
-compliance requirement becomes part of a continuously evolving model of the organization.
-This allows leadership to understand not only what happened, but why and what is likely to
-happen next.
-
-The Digital Twin Of The Organization:
-SI produces a living operational model of the business—a digital twin. Instead of viewing
-departments separately, the organization is understood as a connected system where decisions,
-events, and outcomes influence each other. Leaders can identify risks, opportunities, and
-bottlenecks before they appear in reports.`,
+      title: si.section_4_title || "Artificial Intelligence vs Synthetic Intelligence",
+      description: si.section_4_description || "",
     },
   ];
 
@@ -67,23 +44,23 @@ bottlenecks before they appear in reports.`,
         </div>
         <div className="relative z-10 mx-auto max-w-7xl text-center flex flex-col justify-center h-full">
           <h1 className="text-6xl font-extralight mb-6 md:text-7xl">
-            Centralized Synthetic Intelligence
+            {si.hero_title || "Centralized Synthetic Intelligence"}
           </h1>
           <p className="mx-auto max-w-4xl text-white/70 text-lg leading-relaxed">
-            Harness the power of Synthetic Intelligence to unify data, predict trends, and make informed decisions faster across your enterprise.
+            {si.hero_subtitle || "Harness the power of Synthetic Intelligence to unify data, predict trends, and make informed decisions faster across your enterprise."}
           </p>
           <div className="mt-8 flex justify-center gap-4">
             <Link
               href="/demo"
               className="px-6 py-3 bg-gradient-to-r from-[#D6A66A] to-[#C9974D] rounded font-bold text-black shadow-lg hover:shadow-2xl transition-all"
             >
-              Request Demo
+              {si.request_demo || "Request Demo"}
             </Link>
             <Link
               href="/industries"
               className="px-6 py-3 border border-white/20 rounded hover:bg-white/10"
             >
-              Explore Industries
+              {si.explore_industries || "Explore Industries"}
             </Link>
           </div>
         </div>
@@ -104,7 +81,7 @@ bottlenecks before they appear in reports.`,
       {/* Patch: Combined SI + AA */}
       <section className="mx-auto max-w-7xl px-6 py-16">
         <div className="text-center backdrop-blur-3xl bg-white/[0.03] border border-white/10 rounded-3xl p-10 shadow-[0_0_40px_rgba(214,166,106,0.25)]">
-          <h2 className="text-4xl font-extralight mb-6">Advanced Synthetic Intelligence</h2>
+          <h2 className="text-4xl font-extralight mb-6">{si.advanced_title || "Advanced Synthetic Intelligence"}</h2>
           <p className="mx-auto max-w-3xl text-white/70 text-lg leading-relaxed">
             SI (Synthetic Intelligence) enables real-time optimization across finance, operations,
             customer management, and compliance. Combined with Avantiqo Analytics,
@@ -115,7 +92,7 @@ bottlenecks before they appear in reports.`,
 
   <div className="mb-16 text-center">
     <div className="mb-4 text-sm uppercase tracking-[0.4em] text-[#D6A66A]">
-      Enterprise Intelligence Layer
+      {si.enterprise_label || "Enterprise Intelligence Layer"}
     </div>
 
     <h2 className="text-6xl font-extralight leading-tight">
@@ -131,11 +108,11 @@ bottlenecks before they appear in reports.`,
 
     <div className="rounded-[32px] border border-white/10 bg-white/[0.03] p-10 backdrop-blur-xl">
       <div className="mb-4 text-[#D6A66A] uppercase tracking-[0.25em] text-sm">
-        Artificial Intelligence
+        {si.ai_title || "Artificial Intelligence"}
       </div>
 
       <h3 className="mb-6 text-3xl font-light">
-        Creates Outputs
+        {si.ai_subtitle || "Creates Outputs"}
       </h3>
 
       <div className="space-y-4 text-white/70">
@@ -149,11 +126,11 @@ bottlenecks before they appear in reports.`,
 
     <div className="rounded-[32px] border border-[#D6A66A]/20 bg-gradient-to-b from-[#D6A66A]/10 to-transparent p-10 backdrop-blur-xl">
       <div className="mb-4 text-[#D6A66A] uppercase tracking-[0.25em] text-sm">
-        Synthetic Intelligence
+        {si.si_title || "Synthetic Intelligence"}
       </div>
 
       <h3 className="mb-6 text-3xl font-light">
-        Creates Understanding
+        {si.si_subtitle || "Creates Understanding"}
       </h3>
 
       <div className="space-y-4 text-white/70">
@@ -240,22 +217,21 @@ bottlenecks before they appear in reports.`,
   <div className="mt-16 rounded-[40px] border border-[#D6A66A]/30 bg-gradient-to-br from-[#D6A66A]/10 via-transparent to-transparent p-16 text-center backdrop-blur-xl">
 
     <div className="mb-4 text-sm uppercase tracking-[0.4em] text-[#D6A66A]">
-      Avantiqo Vision
+      {si.vision_label || "Avantiqo Vision"}
     </div>
 
     <h3 className="mb-8 text-5xl font-extralight leading-tight">
-      The Goal Is Not
+      {si.vision_title || "The Goal Is Not To Automate Work."}
       <br />
       To Automate Work.
     </h3>
 
     <div className="mx-auto max-w-4xl text-2xl text-white/80 leading-relaxed">
-      The goal is to create organizations
-      that understand themselves.
+      {si.vision_text || "The goal is to create organizations that understand themselves."}
     </div>
 
     <div className="mt-8 text-white/50">
-      That is the future Avantiqo is building.
+      {si.vision_footer || "That is the future Avantiqo is building."}
     </div>
 
   </div>

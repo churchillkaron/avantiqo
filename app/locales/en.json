@@ -2365,5 +2365,29 @@
     "security": "Security",
     "login": "Login",
     "start_setup": "Start Setup"
+  },
+  "synthetic_intelligence": {
+    "hero_title": "Centralized Synthetic Intelligence",
+    "hero_subtitle": "Harness the power of Synthetic Intelligence to unify data, predict trends, and make informed decisions faster across your enterprise.",
+    "request_demo": "Request Demo",
+    "explore_industries": "Explore Industries",
+    "section_1_title": "What is Synthetic Intelligence?",
+    "section_2_title": "Why It Matters",
+    "section_3_title": "Key Benefits",
+    "section_4_title": "Artificial Intelligence vs Synthetic Intelligence",
+    "advanced_title": "Advanced Synthetic Intelligence",
+    "ai_title": "Artificial Intelligence",
+    "ai_subtitle": "Creates Outputs",
+    "si_title": "Synthetic Intelligence",
+    "si_subtitle": "Creates Understanding",
+    "vision_label": "Avantiqo Vision",
+    "vision_title": "The Goal Is Not To Automate Work.",
+    "vision_text": "The goal is to create organizations that understand themselves.",
+    "vision_footer": "That is the future Avantiqo is building.",
+    "enterprise_label": "Enterprise Intelligence Layer",
+    "section_1_description": "Synthetic Intelligence (SI) is a next-generation intelligence system designed\nto analyze, predict, and optimize operational and financial performance across a business\nin real time. Unlike traditional AI, SI integrates multiple streams of business data—including\nfinance, operations, customer management, and human resources—into a single, intelligent layer\nthat provides actionable insights and predictive recommendations.",
+    "section_2_description": "SI allows businesses to anticipate bottlenecks, optimize workflows, and improve\ndecision-making by providing a comprehensive, real-time overview of all critical business\noperations. By leveraging SI, executives can make informed decisions proactively, rather than\nreacting to problems after they occur, improving efficiency, reducing costs, and increasing growth.",
+    "section_3_description": "- Real-time insights across departments and functions\n- Predictive analytics for operational efficiency\n- Centralized intelligence for faster decision-making\n- Enhanced visibility for leadership to monitor KPIs\n- Automated recommendations to optimize resource allocation",
+    "section_4_description": "Artificial Intelligence Creates Answers:\nAI can generate text, images, reports, and recommendations. However, it does not understand\nthe organization itself. It can answer questions, but it cannot continuously understand\nthe relationships between operations, customers, staff, finance, compliance, and performance.\n\nSynthetic Intelligence Creates Understanding:\nSI is not designed to generate answers. It creates organizational awareness. Every customer\ninteraction, operational event, financial transaction, staff activity, project milestone, and\ncompliance requirement becomes part of a continuously evolving model of the organization.\nThis allows leadership to understand not only what happened, but why and what is likely to\nhappen next.\n\nThe Digital Twin Of The Organization:\nSI produces a living operational model of the business—a digital twin. Instead of viewing\ndepartments separately, the organization is understood as a connected system where decisions,\nevents, and outcomes influence each other. Leaders can identify risks, opportunities, and\nbottlenecks before they appear in reports."
   }
 }
