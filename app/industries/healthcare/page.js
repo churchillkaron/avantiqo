@@ -11,37 +11,37 @@ export default function HealthcareIndustryPage() {
 
   const realityCards = [
     {
-      title: h.patient_waiting_time || "Patient Waiting Time",
+      title: h.patient_waiting_time || "",
       text:
         h.operational_bottlenecks_create_delays_long_before_management_becomes_aware_of_them ||
         "Operational bottlenecks create delays long before management becomes aware of them.",
     },
     {
-      title: h.staff_utilization || "Staff Utilization",
+      title: h.staff_utilization || "",
       text:
         h.overstaffing_and_understaffing_often_happen_at_the_same_time_across_different_departments ||
         "Overstaffing and understaffing often happen at the same time across different departments.",
     },
     {
-      title: h.revenue_leakage || "Revenue Leakage",
+      title: h.revenue_leakage || "",
       text:
         h.disconnected_systems_create_missed_billing_opportunities_and_hidden_operational_costs ||
         "Disconnected systems create missed billing opportunities and hidden operational costs.",
     },
     {
-      title: h.capacity_planning || "Capacity Planning",
+      title: h.capacity_planning || "",
       text:
         h.beds_rooms_equipment_and_staff_capacity_are_rarely_viewed_as_one_connected_reality ||
         "Beds, rooms, equipment and staff capacity are rarely viewed as one connected reality.",
     },
     {
-      title: h.compliance_exposure || "Compliance Exposure",
+      title: h.compliance_exposure || "",
       text:
         h.risk_grows_when_operational_events_and_compliance_obligations_are_disconnected ||
         "Risk grows when operational events and compliance obligations are disconnected.",
     },
     {
-      title: h.executive_blind_spots || "Executive Blind Spots",
+      title: h.executive_blind_spots || "",
       text:
         h.leadership_receives_reports_after_events_occur_instead_of_understanding_risks_before_they_happen ||
         "Leadership receives reports after events occur instead of understanding risks before they happen.",
@@ -50,32 +50,32 @@ export default function HealthcareIndustryPage() {
 
   const runtimeCards = [
     {
-      title: h.patient_demand || "Patient Demand",
+      title: h.patient_demand || "",
       text:
         "Patient volume changes constantly. Avantiqo helps leadership understand demand patterns, appointment pressure, seasonal movement, emergency surges and department-level load before operations become overwhelmed.",
     },
     {
-      title: h.clinical_workload || "Clinical Workload",
+      title: h.clinical_workload || "",
       text:
         "Doctors, nurses, specialists and clinical teams are often managed separately from the operational picture. Avantiqo connects workload, availability, capacity and patient flow so leadership can see where pressure is building.",
     },
     {
-      title: h.bed_capacity || "Bed Capacity",
+      title: h.bed_capacity || "",
       text:
         "Beds, rooms, theatres, equipment and staff capacity are not separate problems. They are one operational system. Avantiqo helps healthcare organizations see capacity as a connected reality instead of isolated department reports.",
     },
     {
-      title: h.staff_availability || "Staff Availability",
+      title: h.staff_availability || "",
       text:
         "Healthcare operations fail when staffing is planned from old schedules instead of live demand. Avantiqo connects shifts, utilization, shortages, overtime, department pressure and future demand into one staffing intelligence layer.",
     },
     {
-      title: h.financial_exposure || "Financial Exposure",
+      title: h.financial_exposure || "",
       text:
         "Revenue leakage, delayed claims, missed billing opportunities and inefficient utilization can quietly damage performance. Avantiqo connects operations and finance so leadership can understand financial exposure before month-end.",
     },
     {
-      title: h.compliance_risk || "Compliance Risk",
+      title: h.compliance_risk || "",
       text:
         "Compliance risk grows when documentation, care events, operational issues and reporting obligations are disconnected. Avantiqo helps leaders see risk early and maintain visibility before problems become audit issues.",
     },
@@ -146,19 +146,19 @@ export default function HealthcareIndustryPage() {
 
   const intelligenceCards = [
     {
-      title: h.what_is_happening || "What Is Happening",
+      title: h.what_is_happening || "",
       text:
         h.live_operational_visibility_across_patients_clinicians_capacity_finance_and_compliance ||
         "Live operational visibility across patients, clinicians, capacity, finance and compliance.",
     },
     {
-      title: h.what_happens_next || "What Happens Next",
+      title: h.what_happens_next || "",
       text:
         h.predictive_intelligence_identifies_pressure_risk_and_bottlenecks_before_escalation ||
         "Predictive intelligence identifies pressure, risk and bottlenecks before escalation.",
     },
     {
-      title: h.what_to_do_about_it || "What To Do About It",
+      title: h.what_to_do_about_it || "",
       text:
         h.recommended_actions_help_leadership_intervene_before_operational_failure_occurs ||
         "Recommended actions help leadership intervene before operational failure occurs.",
@@ -246,12 +246,12 @@ Explore Platform
 
             <div className="grid gap-4 sm:grid-cols-2">
               {[
-                h.patient_surge_risk__87 || "Patient Surge Risk · 87%",
-                h.staff_shortage_risk__73 || "Staff Shortage Risk · 73%",
-                h.up_capacity_utilization || "↑ Capacity Utilization",
-                h.up_revenue_capture || "↑ Revenue Capture",
-                h.up_leadership_visibility || "↑ Leadership Visibility",
-                h.down_waiting_time || "↓ Waiting Time",
+                h.patient_surge_risk__87 || "",
+                h.staff_shortage_risk__73 || "",
+                h.up_capacity_utilization || "",
+                h.up_revenue_capture || "",
+                h.up_leadership_visibility || "",
+                h.down_waiting_time || "",
               ].map((item) => (
                 <div key={item} className="rounded-2xl border border-white/10 bg-black/25 p-5">
                   <p className="text-white/82">{item}</p>
@@ -274,13 +274,13 @@ Explore Platform
         <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[0.85fr_1.15fr]">
           <div>
             <p className="mb-6 text-xs uppercase tracking-[0.42em] text-[#D6A66A]">
-              {h.reality?.badge || "HEALTHCARE REALITY"}
+              {h.reality?.badge || ""}
             </p>
             <h2 className="text-5xl font-extralight leading-tight tracking-[-0.06em] md:text-7xl">
-              {h.reality?.title1 || "Healthcare is connected everywhere."}
+              {h.reality?.title1 || ""}
               <br />
               <span className="text-white/40">
-                {h.reality?.title2 || "But understood nowhere."}
+                {h.reality?.title2 || ""}
               </span>
             </h2>
           </div>
@@ -311,13 +311,13 @@ Explore Platform
         <div className="mx-auto max-w-7xl">
           <div className="mb-16 max-w-5xl">
             <p className="mb-6 text-xs uppercase tracking-[0.42em] text-[#D6A66A]">
-              {h.runtime?.badge || "ONE HEALTHCARE RUNTIME"}
+              {h.runtime?.badge || ""}
             </p>
             <h2 className="text-5xl font-extralight leading-tight tracking-[-0.06em] md:text-7xl">
-              {h.runtime?.title1 || "Patient Demand. Clinical Workload. Bed Capacity."}
+              {h.runtime?.title1 || ""}
               <br />
               <span className="text-white/42">
-                {h.runtime?.title2 || "Staff Availability. Financial Exposure. Compliance Risk."}
+                {h.runtime?.title2 || ""}
               </span>
             </h2>
             <div className="mt-8 max-w-4xl space-y-5 text-xl leading-9 text-white/62">
@@ -366,15 +366,15 @@ Explore Platform
       <section className="px-6 py-28">
         <div className="mx-auto max-w-7xl rounded-[46px] border border-purple-400/20 bg-gradient-to-br from-[#0B1020] via-[#070A12] to-[#140B1F] p-8 shadow-[0_35px_140px_rgba(0,0,0,0.5)] backdrop-blur-3xl md:p-12">
           <p className="mb-6 text-xs uppercase tracking-[0.42em] text-[#D6A66A]">
-            {h.synthetic?.badge || "SYNTHETIC INTELLIGENCE LAYER"}
+            {h.synthetic?.badge || ""}
           </p>
           <h2 className="max-w-5xl text-5xl font-extralight leading-tight tracking-[-0.06em] md:text-7xl">
-            {h.synthetic?.title1 || "Traditional systems tell you"}{" "}
-            {h.synthetic?.title2 || "what happened."}
+            {h.synthetic?.title1 || ""}{" "}
+            {h.synthetic?.title2 || ""}
             <br />
             <span className="text-[#D6A66A]">
-              {h.synthetic?.title3 || "Avantiqo shows you"}{" "}
-              {h.synthetic?.title4 || "what happens next."}
+              {h.synthetic?.title3 || ""}{" "}
+              {h.synthetic?.title4 || ""}
             </span>
           </h2>
           <p className="mt-8 max-w-4xl text-xl leading-10 text-white/62">
@@ -396,13 +396,13 @@ Explore Platform
         <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[0.9fr_1.1fr]">
           <div>
             <p className="mb-6 text-xs uppercase tracking-[0.42em] text-[#D6A66A]">
-              {h.ownership?.badge || "LEADERSHIP LAYER"}
+              {h.ownership?.badge || ""}
             </p>
             <h2 className="text-5xl font-extralight leading-tight tracking-[-0.06em] md:text-7xl">
-              {h.ownership?.title1 || "Leadership sees everything."}
+              {h.ownership?.title1 || ""}
               <br />
               <span className="text-white/42">
-                {h.ownership?.title2 || "Before it happens."}
+                {h.ownership?.title2 || ""}
               </span>
             </h2>
           </div>
@@ -490,13 +490,13 @@ Explore Platform
       <section className="border-t border-white/10 px-6 py-28 text-center">
         <div className="mx-auto max-w-5xl">
           <p className="mb-8 text-xs uppercase tracking-[0.42em] text-[#D6A66A]">
-            {h.cta?.badge || "HEALTHCARE OPERATING SYSTEM"}
+            {h.cta?.badge || ""}
           </p>
           <h2 className="text-5xl font-extralight leading-tight tracking-[-0.06em] md:text-7xl">
-            {h.cta?.title1 || "Healthcare was built around treatment."}
+            {h.cta?.title1 || ""}
             <br />
             <span className="text-[#D6A66A]">
-              {h.cta?.title2 || "The future will be built around intelligence."}
+              {h.cta?.title2 || ""}
             </span>
           </h2>
           <p className="mx-auto mt-8 max-w-3xl text-xl leading-10 text-white/62">
@@ -509,7 +509,7 @@ Explore Platform
               href="/demo"
               className="rounded-2xl bg-gradient-to-r from-[#D6A66A] via-[#E7C78A] to-[#C9974D] px-10 py-5 text-sm font-semibold text-black shadow-[0_0_45px_rgba(214,166,106,0.42)] transition hover:brightness-110"
             >
-              {h.cta?.primary || "Request Executive Briefing"}
+              {h.cta?.primary || ""}
             </Link>
           </div>
         </div>

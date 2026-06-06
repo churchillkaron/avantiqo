@@ -33,7 +33,7 @@ export default function IndustriesPage() {
       image: "/images/hero-construction.png",
       description:
         "Control projects, budgets, procurement, workforce and site execution with complete visibility.",
-      href: "/industries/distribution-manufacturing",
+      href: "/industries/construction",
     },
     {
       title: "Retail & Commerce",
@@ -54,7 +54,7 @@ export default function IndustriesPage() {
       image: "/images/distribution-hero.png",
       description:
         "Control production, inventory, procurement, quality and profitability from one intelligence layer.",
-      href: "/industries/construction",
+      href: "/industries/distribution-manufacturing",
     },
   ];
 
