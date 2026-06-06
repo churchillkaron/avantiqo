@@ -2,186 +2,76 @@
 
 import SiteTopNav from "@/app/components/SiteTopNav";
 import Footer from "@/components/layout/Footer";
+import { useTranslation } from "@/app/providers/I18nProvider";
 
 export default function GDPRPage() {
+  const { translations } = useTranslation();
+  const gdpr = translations.gdpr || {};
+
   const sections = [
     {
-      title: "GDPR Is Not A Checkbox",
-      text: `The General Data Protection Regulation (GDPR) is not a one-time compliance exercise.
-
-It is an ongoing responsibility.
-
-Organizations are expected to understand what information they collect, why it is collected, how it is used, who can access it and how it is protected.
-
-GDPR requires visibility, accountability and operational discipline.
-
-These principles are closely aligned with the design philosophy of the Avantiqo platform.`,
+      title: gdpr.section_1_title || "GDPR Is Not A Checkbox",
+      text: gdpr.section_1_text || "",
     },
 
     {
-      title: "What Information Is Stored",
-      text: `Organizations using Avantiqo may choose to store operational, financial, customer, employee and organizational information within the platform.
-
-Examples may include:
-
-• Customer records
-
-• Employee information
-
-• Operational activities
-
-• Financial transactions
-
-• Documents
-
-• Approvals
-
-• Workflow activity
-
-• Organizational intelligence
-
-Organizations remain responsible for determining what information is entered into the platform.
-
-Data ownership remains with the organization.`,
+      title: gdpr.section_2_title || "What Information Is Stored",
+      text: gdpr.section_2_text || "",
     },
 
     {
-      title: "Where Information Is Stored",
-      text: `Information is stored within professionally managed cloud infrastructure designed for reliability, availability and security.
-
-Storage environments are designed to support modern enterprise operational requirements while maintaining separation between organizations.
-
-Infrastructure, security controls and operational procedures are continuously evaluated to support privacy, security and compliance objectives.
-
-The objective is protecting confidentiality, integrity and availability of organizational information.`,
+      title: gdpr.section_3_title || "Where Information Is Stored",
+      text: gdpr.section_3_text || "",
     },
 
     {
-      title: "Who Owns The Data",
-      text: `Organizations own their data.
-
-Always.
-
-Avantiqo does not claim ownership of customer information, employee information, operational information, financial records or organizational intelligence.
-
-The platform exists to help organizations manage and understand information.
-
-Ownership remains with the organization that creates it.`,
+      title: gdpr.section_4_title || "Who Owns The Data",
+      text: gdpr.section_4_text || "",
     },
 
     {
-      title: "Who Can Access Information",
-      text: `Access is controlled through role-based permissions and organizational boundaries.
-
-Not every user should have access to every piece of information.
-
-Organizations can define visibility based on:
-
-• Role
-
-• Department
-
-• Responsibility
-
-• Authority level
-
-• Workflow participation
-
-The objective is ensuring information is available to authorized individuals while maintaining privacy and accountability.`,
+      title: gdpr.section_5_title || "Who Can Access Information",
+      text: gdpr.section_5_text || "",
     },
 
     {
-      title: "Right Of Access",
-      text: `GDPR provides individuals with the right to request access to personal information.
-
-Organizations should be able to identify relevant information, review stored records and respond appropriately to legitimate requests.
-
-Visibility and traceability support this process.`,
+      title: gdpr.section_6_title || "Right Of Access",
+      text: gdpr.section_6_text || "",
     },
 
     {
-      title: "Right To Rectification",
-      text: `Individuals may request correction of inaccurate information.
-
-Organizations should maintain processes that support data quality, accountability and appropriate record management throughout the lifecycle of information.`,
+      title: gdpr.section_7_title || "Right To Rectification",
+      text: gdpr.section_7_text || "",
     },
 
     {
-      title: "Right To Erasure",
-      text: `Individuals may request deletion of personal information under certain circumstances.
-
-Organizations should establish appropriate retention, deletion and lifecycle management processes to support applicable obligations and legal requirements.
-
-Privacy includes understanding when information should no longer exist.`,
+      title: gdpr.section_8_title || "Right To Erasure",
+      text: gdpr.section_8_text || "",
     },
 
     {
-      title: "Data Portability",
-      text: `GDPR includes rights related to data portability.
-
-Organizations should maintain visibility into stored information and understand how information can be exported, reviewed and managed when required.`,
+      title: gdpr.section_9_title || "Data Portability",
+      text: gdpr.section_9_text || "",
     },
 
     {
-      title: "Artificial Intelligence And GDPR",
-      text: `Customer information is not used to train public artificial intelligence models.
-
-Synthetic Intelligence focuses on organizational understanding rather than public model training.
-
-Its purpose is to understand workflows, operational relationships, accountability structures and organizational performance.
-
-The objective is organizational awareness.
-
-Not personal profiling.`,
+      title: gdpr.section_10_title || "Artificial Intelligence And GDPR",
+      text: gdpr.section_10_text || "",
     },
 
     {
-      title: "Auditability And Accountability",
-      text: `Strong GDPR compliance depends upon visibility.
-
-Organizations should understand:
-
-Who accessed information.
-
-When access occurred.
-
-Why access occurred.
-
-What actions were performed.
-
-Auditability supports accountability and strengthens trust throughout the organization.`,
+      title: gdpr.section_11_title || "Auditability And Accountability",
+      text: gdpr.section_11_text || "",
     },
 
     {
-      title: "Privacy, Governance And Compliance",
-      text: `GDPR does not operate independently.
-
-Privacy.
-
-Governance.
-
-Security.
-
-Compliance.
-
-Accountability.
-
-These capabilities work together.
-
-Organizations that build strong operational controls often find GDPR obligations easier to manage because visibility and accountability already exist throughout daily operations.`,
+      title: gdpr.section_12_title || "Privacy, Governance And Compliance",
+      text: gdpr.section_12_text || "",
     },
 
     {
-      title: "The Future Of Data Protection",
-      text: `The future of privacy is not secrecy.
-
-The future of privacy is responsible visibility.
-
-Organizations should understand what information exists, who can access it and why it is being used.
-
-Trust is built when visibility, accountability and privacy operate together.
-
-That is the approach Avantiqo is designed to support.`,
+      title: gdpr.section_13_title || "The Future Of Data Protection",
+      text: gdpr.section_13_text || "",
     },
   ];
 
