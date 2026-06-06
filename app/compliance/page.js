@@ -2,230 +2,80 @@
 
 import SiteTopNav from "@/app/components/SiteTopNav";
 import Footer from "@/components/layout/Footer";
+import { useTranslation } from "@/app/providers/I18nProvider";
 
 export default function CompliancePage() {
+  const { translations } = useTranslation();
+  const compliance = translations.compliance || {};
+  const { translations } = useTranslation();
+  const compliance = translations.compliance || {};
+  const { translations } = useTranslation();
+  const compliance = translations.compliance || {};
+
   const sections = [
     {
-      title: "Compliance Is Not A Project",
-      text: `Many organizations treat compliance as an annual exercise.
-
-A report is prepared.
-
-Documentation is reviewed.
-
-Controls are verified.
-
-Auditors arrive.
-
-The process repeats.
-
-Modern organizations require a different approach.
-
-Compliance should not be an event.
-
-Compliance should be part of daily operations.
-
-The objective is not preparing for audits.
-
-The objective is operating correctly every day.`,
+      title: compliance.section_1_title || "Compliance Is Not A Project",
+      text: compliance.section_1_text || "",
     },
 
     {
-      title: "Why Compliance Matters",
-      text: `Compliance protects organizations from operational, financial, legal and reputational risks.
-
-As organizations grow, complexity increases.
-
-More employees.
-
-More customers.
-
-More transactions.
-
-More systems.
-
-More obligations.
-
-Without structured compliance processes, risk grows alongside complexity.
-
-Compliance provides the controls required to operate responsibly.`,
+      title: compliance.section_2_title || "Why Compliance Matters",
+      text: compliance.section_2_text || "",
     },
 
     {
-      title: "Operational Compliance",
-      text: `Operational compliance ensures that processes are executed consistently and according to defined standards.
-
-Policies alone are not enough.
-
-Organizations require visibility, accountability and oversight.
-
-Avantiqo supports operational compliance through workflows, approvals, audit trails and accountability structures that help ensure processes are followed consistently.`,
+      title: compliance.section_3_title || "Operational Compliance",
+      text: compliance.section_3_text || "",
     },
 
     {
-      title: "Financial Compliance",
-      text: `Financial activities require oversight.
-
-Invoices.
-
-Expenses.
-
-Payroll.
-
-Procurement.
-
-Payments.
-
-Approvals.
-
-Financial compliance helps organizations maintain accountability, transparency and control over financial operations.
-
-Avantiqo creates visibility into financial activity while supporting approval processes and auditability.`,
+      title: compliance.section_4_title || "Financial Compliance",
+      text: compliance.section_4_text || "",
     },
 
     {
-      title: "Data Compliance",
-      text: `Organizations are increasingly responsible for protecting information.
-
-Customer data.
-
-Employee data.
-
-Financial data.
-
-Operational data.
-
-Compliance requires organizations to understand what information exists, where it exists, who has access to it and how it is used.
-
-Visibility is the foundation of compliance.`,
+      title: compliance.section_5_title || "Data Compliance",
+      text: compliance.section_5_text || "",
     },
 
     {
-      title: "Governance And Compliance",
-      text: `Compliance defines requirements.
-
-Governance ensures those requirements are followed.
-
-The two operate together.
-
-Without governance, compliance becomes difficult to maintain.
-
-Without compliance, governance becomes difficult to measure.
-
-Avantiqo connects governance, accountability and compliance into a unified operational framework.`,
+      title: compliance.section_6_title || "Governance And Compliance",
+      text: compliance.section_6_text || "",
     },
 
     {
-      title: "Audit Readiness",
-      text: `Organizations should not prepare for audits once a year.
-
-Organizations should remain audit-ready every day.
-
-Approvals.
-
-Decisions.
-
-Transactions.
-
-Operational activity.
-
-Accountability records.
-
-Audit trails.
-
-These should already exist as part of daily operations.
-
-Audit readiness is a by-product of strong operational discipline.`,
+      title: compliance.section_7_title || "Audit Readiness",
+      text: compliance.section_7_text || "",
     },
 
     {
-      title: "Continuous Monitoring",
-      text: `Compliance cannot depend entirely on manual reviews.
-
-Organizations require continuous visibility.
-
-Avantiqo provides centralized monitoring, accountability tracking, workflow oversight and operational visibility that support ongoing compliance activities.
-
-The objective is early detection rather than late discovery.`,
+      title: compliance.section_8_title || "Continuous Monitoring",
+      text: compliance.section_8_text || "",
     },
 
     {
-      title: "Compliance And Synthetic Intelligence",
-      text: `Synthetic Intelligence continuously analyzes organizational activity.
-
-This creates visibility into operational behavior, process execution and organizational patterns.
-
-Compliance teams gain greater awareness of how the organization actually operates rather than relying solely on periodic reviews.
-
-This helps transform compliance from reactive investigation into proactive oversight.`,
+      title: compliance.section_9_title || "Compliance And Synthetic Intelligence",
+      text: compliance.section_9_text || "",
     },
 
     {
-      title: "Enterprise Accountability",
-      text: `Compliance depends upon accountability.
-
-Organizations must understand:
-
-Who performed an action.
-
-Who approved it.
-
-When it occurred.
-
-Why it occurred.
-
-How it affected operations.
-
-Avantiqo maintains visibility into these activities through governance structures, auditability and operational intelligence.`,
+      title: compliance.section_10_title || "Enterprise Accountability",
+      text: compliance.section_10_text || "",
     },
 
     {
-      title: "Regulatory Readiness",
-      text: `Regulations continue to evolve.
-
-Organizations must adapt to changing requirements while maintaining operational efficiency.
-
-The objective is not simply passing audits.
-
-The objective is building resilient operational structures capable of supporting ongoing regulatory obligations.`,
+      title: compliance.section_11_title || "Regulatory Readiness",
+      text: compliance.section_11_text || "",
     },
 
     {
-      title: "Compliance At Scale",
-      text: `As organizations grow, compliance becomes increasingly complex.
-
-More locations.
-
-More employees.
-
-More departments.
-
-More systems.
-
-More obligations.
-
-Manual processes become difficult to manage.
-
-Avantiqo helps organizations establish consistent controls, visibility and accountability across the entire enterprise.`,
+      title: compliance.section_12_title || "Compliance At Scale",
+      text: compliance.section_12_text || "",
     },
 
     {
-      title: "The Future Of Compliance",
-      text: `The future of compliance is not more paperwork.
-
-The future of compliance is operational intelligence.
-
-Organizations should be able to understand compliance risks before they become compliance failures.
-
-Visibility.
-
-Governance.
-
-Accountability.
-
-Intelligence.
-
-These are the foundations of modern compliance.`,
+      title: compliance.section_13_title || "The Future Of Compliance",
+      text: compliance.section_13_text || "",
     },
   ];
 
