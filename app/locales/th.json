@@ -1325,273 +1325,273 @@
     },
     "professionalServices": {
       "hero": {
-        "title": "Professional Services Powered by Synthetic Intelligence",
-        "description": "Turn expertise into actionable intelligence for accounting firms, law firms, and advisory businesses. Control clients, projects, compliance, and financial performance from a single platform.",
-        "primary": "Book Demo",
-        "secondary": "Explore Platform"
+        "title": "บริการวิชาชีพที่ขับเคลื่อนด้วยปัญญาสังเคราะห์",
+        "description": "เปลี่ยนความเชี่ยวชาญให้เป็นข้อมูลเชิงลึกที่นำไปใช้ได้จริงสำหรับสำนักงานบัญชี สำนักงานกฎหมาย และธุรกิจที่ปรึกษา บริหารลูกค้า โครงการ การปฏิบัติตามข้อกำหนด และผลการดำเนินงานทางการเงินจากแพลตฟอร์มเดียว",
+        "primary": "จองเดโม",
+        "secondary": "สำรวจแพลตฟอร์ม"
       },
       "sections": [
         {
-          "title": "Professional Services Challenges",
+          "title": "ความท้าทายของธุรกิจบริการวิชาชีพ",
           "cards": [
             {
-              "title": "Inefficient Operations",
-              "desc": "Manual processes and fragmented workflows slow down service delivery."
+              "title": "การดำเนินงานที่ไม่มีประสิทธิภาพ",
+              "desc": "กระบวนการแบบแมนนวลและเวิร์กโฟลว์ที่แยกส่วนทำให้การให้บริการล่าช้า"
             },
             {
-              "title": "Data Silos",
-              "desc": "Critical insights are scattered across platforms, limiting decision-making."
+              "title": "ข้อมูลกระจัดกระจาย",
+              "desc": "ข้อมูลสำคัญกระจายอยู่หลายระบบ ทำให้การตัดสินใจทำได้ยาก"
             },
             {
-              "title": "Client Experience Gaps",
-              "desc": "Lack of real-time visibility reduces client satisfaction and retention."
+              "title": "ช่องว่างในประสบการณ์ลูกค้า",
+              "desc": "การขาดข้อมูลแบบเรียลไทม์ส่งผลต่อความพึงพอใจและการรักษาลูกค้า"
             }
           ]
         },
         {
-          "title": "Synthetic Intelligence for Accounting & Law",
+          "title": "ปัญญาสังเคราะห์สำหรับบัญชีและกฎหมาย",
           "cards": [
             {
-              "title": "AI Recommendations",
-              "desc": "Leverage AI to optimize client workflows, approvals, and reporting."
+              "title": "คำแนะนำจาก AI",
+              "desc": "ใช้ AI เพื่อเพิ่มประสิทธิภาพเวิร์กโฟลว์ การอนุมัติ และการรายงาน"
             },
             {
-              "title": "Predictive Analytics",
-              "desc": "Forecast revenue, risk, and operational bottlenecks with precision."
+              "title": "การวิเคราะห์เชิงคาดการณ์",
+              "desc": "คาดการณ์รายได้ ความเสี่ยง และคอขวดในการดำเนินงานได้อย่างแม่นยำ"
             },
             {
-              "title": "Automated Decision Making",
-              "desc": "Streamline internal approvals and compliance using AI-driven insights."
+              "title": "การตัดสินใจอัตโนมัติ",
+              "desc": "ปรับปรุงกระบวนการอนุมัติและการปฏิบัติตามข้อกำหนดด้วยข้อมูลเชิงลึกจาก AI"
             },
             {
-              "title": "Client Behavior Insights",
-              "desc": "Understand client trends, retention, and engagement patterns."
+              "title": "ข้อมูลเชิงลึกพฤติกรรมลูกค้า",
+              "desc": "เข้าใจแนวโน้ม การรักษาลูกค้า และรูปแบบการมีส่วนร่วม"
             },
             {
-              "title": "Operational KPIs",
-              "desc": "Track firm-wide performance, staff productivity, and client profitability."
+              "title": "ตัวชี้วัดการดำเนินงาน",
+              "desc": "ติดตามประสิทธิภาพขององค์กร ผลิตภาพพนักงาน และความสามารถในการทำกำไรของลูกค้า"
             }
           ]
         },
         {
-          "title": "Why Accounting Firms Choose Avantiqo",
+          "title": "เหตุใดองค์กรจึงเลือก Avantiqo",
           "cards": [
             {
-              "title": "Client Profitability Intelligence",
-              "desc": "Know exactly which clients generate profit, consume resources, and require intervention before margins decline."
+              "title": "ข้อมูลกำไรของลูกค้า",
+              "desc": "ทราบได้อย่างชัดเจนว่าลูกค้ารายใดสร้างกำไรและรายใดใช้ทรัพยากรมากเกินไป"
             },
             {
-              "title": "Practice Performance",
-              "desc": "Monitor utilization, realization rates, WIP, recoverability, and team performance across the entire firm."
+              "title": "ประสิทธิภาพขององค์กร",
+              "desc": "ติดตามอัตราการใช้ทรัพยากร งานระหว่างดำเนินการ และประสิทธิภาพของทีม"
             },
             {
-              "title": "Compliance & Audit Readiness",
-              "desc": "Maintain audit trails, approvals, governance, and compliance controls automatically."
+              "title": "การปฏิบัติตามข้อกำหนดและการตรวจสอบ",
+              "desc": "จัดการบันทึกการตรวจสอบ การอนุมัติ และการควบคุมด้าน Compliance โดยอัตโนมัติ"
             },
             {
-              "title": "Advisory Intelligence",
-              "desc": "Move beyond bookkeeping by identifying opportunities, risks, and recommendations for every client."
+              "title": "ข้อมูลเชิงลึกด้านที่ปรึกษา",
+              "desc": "ค้นหาโอกาส ความเสี่ยง และคำแนะนำสำหรับลูกค้าแต่ละราย"
             }
           ]
         }
       ],
       "cta": {
-        "title": "Operate. Control. Advise. Deliver.",
-        "description": "Avantiqo connects client management, projects, compliance, finance, and synthetic intelligence into one operating system for professional services businesses."
+        "title": "ดำเนินงาน ควบคุม ให้คำปรึกษา ส่งมอบ",
+        "description": "Avantiqo เชื่อมโยงการจัดการลูกค้า โครงการ Compliance การเงิน และปัญญาสังเคราะห์ไว้ในระบบเดียวสำหรับธุรกิจบริการวิชาชีพ"
       }
     },
     "retailCommerce": {
       "hero": {
-        "title": "From Point of Sale to Complete Retail Intelligence & Design",
-        "description": "Manage sales, inventory, customers, marketing, finance, synthetic intelligence, and design from one unified platform.",
-        "primary": "Book Demo",
-        "secondary": "Explore Platform"
+        "title": "จากระบบขายหน้าร้านสู่ปัญญาธุรกิจค้าปลีกแบบครบวงจร",
+        "description": "จัดการยอดขาย สินค้าคงคลัง ลูกค้า การตลาด การเงิน ปัญญาสังเคราะห์ และงานออกแบบจากแพลตฟอร์มเดียว",
+        "primary": "จองเดโม",
+        "secondary": "สำรวจแพลตฟอร์ม"
       },
       "sections": [
         {
-          "title": "Retail Challenges",
+          "title": "ความท้าทายของธุรกิจค้าปลีก",
           "cards": [
             {
-              "title": "Inventory Inaccuracies",
-              "desc": "Stock visibility is fragmented across locations, causing overstock and lost sales."
+              "title": "ความคลาดเคลื่อนของสินค้าคงคลัง",
+              "desc": "การมองเห็นสต็อกที่กระจัดกระจายระหว่างสาขาทำให้เกิดสินค้าล้นสต็อกและสูญเสียยอดขาย"
             },
             {
-              "title": "Disconnected Systems",
-              "desc": "Different software across stores leads to data silos and slow operations."
+              "title": "ระบบที่ไม่เชื่อมต่อกัน",
+              "desc": "ซอฟต์แวร์ที่แตกต่างกันในแต่ละสาขาสร้าง Data Silo และทำให้การดำเนินงานล่าช้า"
             },
             {
-              "title": "Customer Churn",
-              "desc": "Lack of real-time customer insights leads to missed opportunities."
+              "title": "การสูญเสียลูกค้า",
+              "desc": "การขาดข้อมูลลูกค้าแบบเรียลไทม์ทำให้พลาดโอกาสทางธุรกิจ"
             },
             {
-              "title": "Delayed Financial Insights",
-              "desc": "Manual reporting and fragmented finance data delay decision-making."
+              "title": "ข้อมูลทางการเงินล่าช้า",
+              "desc": "รายงานแบบแมนนวลและข้อมูลการเงินที่กระจัดกระจายทำให้การตัดสินใจล่าช้า"
             },
             {
-              "title": "Manual Stock Tracking",
-              "desc": "Limited automation increases errors and operational burden."
+              "title": "การจัดการสต็อกด้วยมือ",
+              "desc": "การทำงานอัตโนมัติที่จำกัดเพิ่มความผิดพลาดและภาระงาน"
             },
             {
-              "title": "Limited Marketing Intelligence",
-              "desc": "Campaigns are hard to optimize without a unified system."
+              "title": "ข้อมูลเชิงลึกด้านการตลาดจำกัด",
+              "desc": "การเพิ่มประสิทธิภาพแคมเปญทำได้ยากหากไม่มีระบบรวมศูนย์"
             }
           ]
         },
         {
-          "title": "Retail Operating System",
+          "title": "ระบบปฏิบัติการสำหรับธุรกิจค้าปลีก",
           "cards": [
             {
-              "title": "Customer Intelligence",
-              "desc": "Detailed customer profiles, loyalty tracking, AI-driven insights."
+              "title": "ข้อมูลเชิงลึกลูกค้า",
+              "desc": "โปรไฟล์ลูกค้า ระบบสมาชิก และข้อมูลเชิงลึกจาก AI"
             },
             {
-              "title": "Point of Sale",
-              "desc": "Modern POS with returns, discounts, gift cards, multi-location support."
+              "title": "ระบบขายหน้าร้าน",
+              "desc": "POS สมัยใหม่ รองรับการคืนสินค้า ส่วนลด บัตรของขวัญ และหลายสาขา"
             },
             {
-              "title": "Inventory & Supply Chain",
-              "desc": "Stock levels, warehouses, transfers, purchase orders, automation."
+              "title": "สินค้าคงคลังและซัพพลายเชน",
+              "desc": "จัดการสต็อก คลังสินค้า การโอนสินค้า ใบสั่งซื้อ และระบบอัตโนมัติ"
             },
             {
-              "title": "Finance & Accounting",
-              "desc": "Revenue, expenses, profitability, cash flow, integrated reporting."
+              "title": "การเงินและบัญชี",
+              "desc": "รายได้ ค่าใช้จ่าย กำไร กระแสเงินสด และรายงานแบบบูรณาการ"
             },
             {
-              "title": "Marketing Automation",
-              "desc": "Campaign creation, social publishing, AI-generated content."
+              "title": "การตลาดอัตโนมัติ",
+              "desc": "สร้างแคมเปญ โพสต์โซเชียล และคอนเทนต์ที่สร้างด้วย AI"
             },
             {
-              "title": "Synthetic Intelligence",
-              "desc": "Predictive analytics, operational intelligence, automated decisions."
+              "title": "ปัญญาสังเคราะห์",
+              "desc": "การวิเคราะห์เชิงคาดการณ์ ข้อมูลเชิงลึกการดำเนินงาน และการตัดสินใจอัตโนมัติ"
             },
             {
-              "title": "Design Studio",
-              "desc": "Visual campaign design, social media graphics, product mockups."
+              "title": "สตูดิโอออกแบบ",
+              "desc": "ออกแบบแคมเปญ กราฟิกโซเชียลมีเดีย และภาพนำเสนอสินค้า"
             },
             {
               "title": "Business Intelligence",
-              "desc": "Sales dashboards, KPIs, multi-store analytics, AI forecasting."
+              "desc": "แดชบอร์ด KPI การวิเคราะห์หลายสาขา และการพยากรณ์ด้วย AI"
             }
           ]
         },
         {
-          "title": "Retail Without Blind Spots",
+          "title": "ค้าปลีกโดยไม่มีจุดบอด",
           "cards": [
             {
-              "title": "Complete Visibility",
-              "desc": "End-to-end view of operations, inventory, and customer behavior."
+              "title": "การมองเห็นแบบครบวงจร",
+              "desc": "มองเห็นการดำเนินงาน สินค้าคงคลัง และพฤติกรรมลูกค้าแบบ End-to-End"
             },
             {
-              "title": "Data-Driven Decisions",
-              "desc": "AI-powered insights to optimize sales, marketing, and operations."
+              "title": "การตัดสินใจบนพื้นฐานข้อมูล",
+              "desc": "ใช้ข้อมูลจาก AI เพื่อเพิ่มประสิทธิภาพยอดขาย การตลาด และการดำเนินงาน"
             },
             {
-              "title": "Seamless Integration",
-              "desc": "All systems connected for real-time, actionable intelligence."
+              "title": "การเชื่อมต่ออย่างสมบูรณ์",
+              "desc": "ทุกระบบเชื่อมต่อกันเพื่อสร้างข้อมูลเชิงลึกที่ใช้งานได้จริงแบบเรียลไทม์"
             }
           ]
         }
       ],
       "cta": {
-        "title": "Ready To Transform Retail?",
-        "description": "Connect sales, inventory, customers, finance, marketing and AI into one operating system.",
-        "primary": "Book Demo",
-        "secondary": "Explore Platform"
+        "title": "พร้อมเปลี่ยนธุรกิจค้าปลีกของคุณหรือยัง?",
+        "description": "เชื่อมโยงยอดขาย สต็อก ลูกค้า การเงิน การตลาด และ AI ไว้ในระบบเดียว",
+        "primary": "จองเดโม",
+        "secondary": "สำรวจแพลตฟอร์ม"
       }
     },
     "distributionManufacturing": {
       "hero": {
-        "title": "From Raw Materials To Delivered Products",
-        "description": "Control procurement, inventory, production, warehousing, logistics, finance, and operational intelligence from one unified platform.",
-        "primary": "Book Demo",
-        "secondary": "Explore Platform"
+        "title": "จากวัตถุดิบสู่สินค้าพร้อมส่งมอบ",
+        "description": "ควบคุมการจัดซื้อ สินค้าคงคลัง การผลิต คลังสินค้า โลจิสติกส์ การเงิน และข้อมูลเชิงลึกด้านการดำเนินงานจากแพลตฟอร์มเดียว",
+        "primary": "จองเดโม",
+        "secondary": "สำรวจแพลตฟอร์ม"
       },
       "sections": [
         {
-          "title": "Industry Challenges",
+          "title": "ความท้าทายของอุตสาหกรรม",
           "cards": [
             {
-              "title": "Inventory Inaccuracy",
-              "desc": "Stock discrepancies cause overstock and lost sales."
+              "title": "ความคลาดเคลื่อนของสินค้าคงคลัง",
+              "desc": "ความแตกต่างของสต็อกทำให้เกิดสินค้าล้นคลังและสูญเสียยอดขาย"
             },
             {
-              "title": "Production Delays",
-              "desc": "Manufacturing bottlenecks delay order fulfillment."
+              "title": "ความล่าช้าในการผลิต",
+              "desc": "คอขวดในกระบวนการผลิตทำให้การส่งมอบคำสั่งซื้อล่าช้า"
             },
             {
-              "title": "Supply Chain Disruption",
-              "desc": "Uncoordinated logistics increase lead times."
+              "title": "ปัญหาในห่วงโซ่อุปทาน",
+              "desc": "การจัดการโลจิสติกส์ที่ไม่สอดประสานเพิ่มระยะเวลาการจัดส่ง"
             },
             {
-              "title": "Disconnected Warehouses",
-              "desc": "Multiple locations without centralized control."
+              "title": "คลังสินค้าที่แยกจากกัน",
+              "desc": "หลายสถานที่จัดเก็บโดยไม่มีการควบคุมจากศูนย์กลาง"
             },
             {
-              "title": "Poor Forecasting",
-              "desc": "Limited analytics prevent accurate production planning."
+              "title": "การคาดการณ์ที่ไม่มีประสิทธิภาพ",
+              "desc": "ข้อมูลวิเคราะห์ที่จำกัดทำให้การวางแผนการผลิตไม่แม่นยำ"
             },
             {
-              "title": "Lack Of Visibility",
-              "desc": "Limited insight into operations and inventory performance."
+              "title": "ขาดการมองเห็นภาพรวม",
+              "desc": "การมองเห็นข้อมูลการดำเนินงานและประสิทธิภาพสินค้าคงคลังมีจำกัด"
             }
           ]
         },
         {
-          "title": "Manufacturing Operating System",
+          "title": "ระบบปฏิบัติการสำหรับการผลิต",
           "cards": [
             {
-              "title": "Procurement",
-              "desc": "Purchase requests, orders, supplier management, approvals, receiving."
+              "title": "การจัดซื้อ",
+              "desc": "คำขอซื้อ ใบสั่งซื้อ การจัดการผู้ขาย การอนุมัติ และการรับสินค้า"
             },
             {
-              "title": "Inventory & Warehousing",
-              "desc": "Stock levels, locations, transfers, batch tracking, cycle counts."
+              "title": "สินค้าคงคลังและคลังสินค้า",
+              "desc": "ระดับสต็อก ตำแหน่งจัดเก็บ การโอนสินค้า การติดตามล็อต และการตรวจนับ"
             },
             {
-              "title": "Production",
-              "desc": "Recipes, BOM, production orders, costing, yield tracking."
+              "title": "การผลิต",
+              "desc": "สูตรการผลิต BOM คำสั่งผลิต ต้นทุน และการติดตามผลผลิต"
             },
             {
-              "title": "Logistics",
-              "desc": "Deliveries, fleet management, shipping, tracking, distribution."
+              "title": "โลจิสติกส์",
+              "desc": "การจัดส่ง การบริหารยานพาหนะ การขนส่ง การติดตาม และการกระจายสินค้า"
             },
             {
-              "title": "Finance & Accounting",
-              "desc": "AP, AR, ledger, cost accounting, reporting."
+              "title": "การเงินและบัญชี",
+              "desc": "เจ้าหนี้ ลูกหนี้ บัญชีแยกประเภท การคำนวณต้นทุน และรายงานทางการเงิน"
             },
             {
-              "title": "Synthetic Intelligence",
-              "desc": "Predict demand, forecast inventory, identify bottlenecks, reduce waste, automate decisions."
+              "title": "ปัญญาสังเคราะห์",
+              "desc": "คาดการณ์ความต้องการ วางแผนสต็อก ระบุคอขวด ลดของเสีย และตัดสินใจอัตโนมัติ"
             },
             {
-              "title": "Design Studio",
-              "desc": "Product design, packaging, labels, marketing assets, product launches."
+              "title": "สตูดิโอออกแบบ",
+              "desc": "ออกแบบสินค้า บรรจุภัณฑ์ ฉลาก สื่อการตลาด และการเปิดตัวผลิตภัณฑ์"
             }
           ]
         },
         {
-          "title": "Distribution Without Blind Spots",
+          "title": "การกระจายสินค้าโดยไม่มีจุดบอด",
           "cards": [
             {
-              "title": "Complete Visibility",
-              "desc": "Full end-to-end visibility across production and distribution."
+              "title": "การมองเห็นแบบครบวงจร",
+              "desc": "มองเห็นกระบวนการตั้งแต่การผลิตจนถึงการกระจายสินค้าอย่างสมบูรณ์"
             },
             {
-              "title": "Data-Driven Decisions",
-              "desc": "AI-powered insights to optimize operations, inventory and logistics."
+              "title": "การตัดสินใจบนพื้นฐานข้อมูล",
+              "desc": "ใช้ข้อมูลจาก AI เพื่อเพิ่มประสิทธิภาพการดำเนินงาน สินค้าคงคลัง และโลจิสติกส์"
             },
             {
-              "title": "Seamless Integration",
-              "desc": "All modules connected for real-time actionable intelligence."
+              "title": "การเชื่อมต่ออย่างสมบูรณ์",
+              "desc": "ทุกโมดูลเชื่อมต่อกันเพื่อสร้างข้อมูลเชิงลึกที่นำไปใช้ได้จริงแบบเรียลไทม์"
             }
           ]
         }
       ],
       "cta": {
-        "title": "Operate. Control. Produce. Deliver.",
-        "description": "Modern manufacturing requires visibility across every step of the supply chain. Avantiqo connects procurement, inventory, production, logistics, finance, synthetic intelligence, and design into one operating system.",
-        "primary": "Book Demo",
-        "secondary": "Explore Platform"
+        "title": "ดำเนินงาน ควบคุม ผลิต ส่งมอบ",
+        "description": "Avantiqo เชื่อมโยงการจัดซื้อ สินค้าคงคลัง การผลิต โลจิสติกส์ การเงิน ปัญญาสังเคราะห์ และการออกแบบไว้ในระบบเดียว",
+        "primary": "จองเดโม",
+        "secondary": "สำรวจแพลตฟอร์ม"
       }
     }
   },

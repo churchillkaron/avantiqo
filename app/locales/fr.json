@@ -1325,273 +1325,273 @@
     },
     "professionalServices": {
       "hero": {
-        "title": "Professional Services Powered by Synthetic Intelligence",
-        "description": "Turn expertise into actionable intelligence for accounting firms, law firms, and advisory businesses. Control clients, projects, compliance, and financial performance from a single platform.",
-        "primary": "Book Demo",
-        "secondary": "Explore Platform"
+        "title": "Services Professionnels Propulsés par l’Intelligence Synthétique",
+        "description": "Transformez l’expertise en intelligence exploitable pour les cabinets comptables, cabinets d’avocats et sociétés de conseil. Gérez les clients, les projets, la conformité et la performance financière depuis une plateforme unique.",
+        "primary": "Réserver une Démonstration",
+        "secondary": "Découvrir la Plateforme"
       },
       "sections": [
         {
-          "title": "Professional Services Challenges",
+          "title": "Défis des Services Professionnels",
           "cards": [
             {
-              "title": "Inefficient Operations",
-              "desc": "Manual processes and fragmented workflows slow down service delivery."
+              "title": "Opérations Inefficaces",
+              "desc": "Les processus manuels et les flux de travail fragmentés ralentissent la prestation des services."
             },
             {
-              "title": "Data Silos",
-              "desc": "Critical insights are scattered across platforms, limiting decision-making."
+              "title": "Silos de Données",
+              "desc": "Les informations critiques sont dispersées entre plusieurs systèmes, limitant la prise de décision."
             },
             {
-              "title": "Client Experience Gaps",
-              "desc": "Lack of real-time visibility reduces client satisfaction and retention."
+              "title": "Lacunes dans l’Expérience Client",
+              "desc": "L’absence de visibilité en temps réel réduit la satisfaction et la fidélisation des clients."
             }
           ]
         },
         {
-          "title": "Synthetic Intelligence for Accounting & Law",
+          "title": "Intelligence Synthétique pour la Comptabilité et le Droit",
           "cards": [
             {
-              "title": "AI Recommendations",
-              "desc": "Leverage AI to optimize client workflows, approvals, and reporting."
+              "title": "Recommandations IA",
+              "desc": "Utilisez l’IA pour optimiser les flux de travail, les validations et les rapports clients."
             },
             {
-              "title": "Predictive Analytics",
-              "desc": "Forecast revenue, risk, and operational bottlenecks with precision."
+              "title": "Analyse Prédictive",
+              "desc": "Prévoyez les revenus, les risques et les goulets d’étranglement opérationnels avec précision."
             },
             {
-              "title": "Automated Decision Making",
-              "desc": "Streamline internal approvals and compliance using AI-driven insights."
+              "title": "Prise de Décision Automatisée",
+              "desc": "Simplifiez les validations internes et la conformité grâce à des informations pilotées par l’IA."
             },
             {
-              "title": "Client Behavior Insights",
-              "desc": "Understand client trends, retention, and engagement patterns."
+              "title": "Analyse du Comportement Client",
+              "desc": "Comprenez les tendances, la fidélisation et l’engagement de vos clients."
             },
             {
-              "title": "Operational KPIs",
-              "desc": "Track firm-wide performance, staff productivity, and client profitability."
+              "title": "Indicateurs de Performance",
+              "desc": "Suivez la performance du cabinet, la productivité du personnel et la rentabilité des clients."
             }
           ]
         },
         {
-          "title": "Why Accounting Firms Choose Avantiqo",
+          "title": "Pourquoi les Cabinets Choisissent Avantiqo",
           "cards": [
             {
-              "title": "Client Profitability Intelligence",
-              "desc": "Know exactly which clients generate profit, consume resources, and require intervention before margins decline."
+              "title": "Intelligence de Rentabilité Client",
+              "desc": "Identifiez précisément quels clients génèrent du profit, consomment des ressources ou nécessitent une intervention."
             },
             {
-              "title": "Practice Performance",
-              "desc": "Monitor utilization, realization rates, WIP, recoverability, and team performance across the entire firm."
+              "title": "Performance du Cabinet",
+              "desc": "Surveillez l’utilisation des ressources, les taux de réalisation, les travaux en cours et la performance des équipes."
             },
             {
-              "title": "Compliance & Audit Readiness",
-              "desc": "Maintain audit trails, approvals, governance, and compliance controls automatically."
+              "title": "Conformité et Préparation aux Audits",
+              "desc": "Maintenez automatiquement les pistes d’audit, validations, gouvernance et contrôles de conformité."
             },
             {
-              "title": "Advisory Intelligence",
-              "desc": "Move beyond bookkeeping by identifying opportunities, risks, and recommendations for every client."
+              "title": "Intelligence Conseil",
+              "desc": "Allez au-delà de la comptabilité en identifiant opportunités, risques et recommandations pour chaque client."
             }
           ]
         }
       ],
       "cta": {
-        "title": "Operate. Control. Advise. Deliver.",
-        "description": "Avantiqo connects client management, projects, compliance, finance, and synthetic intelligence into one operating system for professional services businesses."
+        "title": "Exécuter. Contrôler. Conseiller. Livrer.",
+        "description": "Avantiqo connecte la gestion des clients, les projets, la conformité, la finance et l’intelligence synthétique dans un seul système d’exploitation pour les services professionnels."
       }
     },
     "retailCommerce": {
       "hero": {
-        "title": "From Point of Sale to Complete Retail Intelligence & Design",
-        "description": "Manage sales, inventory, customers, marketing, finance, synthetic intelligence, and design from one unified platform.",
-        "primary": "Book Demo",
-        "secondary": "Explore Platform"
+        "title": "Du Point de Vente à l’Intelligence Retail Complète",
+        "description": "Gérez les ventes, les stocks, les clients, le marketing, la finance, l’intelligence synthétique et le design depuis une plateforme unifiée.",
+        "primary": "Réserver une Démonstration",
+        "secondary": "Découvrir la Plateforme"
       },
       "sections": [
         {
-          "title": "Retail Challenges",
+          "title": "Défis du Commerce de Détail",
           "cards": [
             {
-              "title": "Inventory Inaccuracies",
-              "desc": "Stock visibility is fragmented across locations, causing overstock and lost sales."
+              "title": "Erreurs d’Inventaire",
+              "desc": "La visibilité des stocks est fragmentée entre les sites, provoquant surstockage et pertes de ventes."
             },
             {
-              "title": "Disconnected Systems",
-              "desc": "Different software across stores leads to data silos and slow operations."
+              "title": "Systèmes Déconnectés",
+              "desc": "Des logiciels différents entre magasins créent des silos de données et ralentissent les opérations."
             },
             {
-              "title": "Customer Churn",
-              "desc": "Lack of real-time customer insights leads to missed opportunities."
+              "title": "Perte de Clients",
+              "desc": "L’absence d’informations client en temps réel entraîne des opportunités manquées."
             },
             {
-              "title": "Delayed Financial Insights",
-              "desc": "Manual reporting and fragmented finance data delay decision-making."
+              "title": "Informations Financières Retardées",
+              "desc": "Les rapports manuels et les données financières fragmentées ralentissent les décisions."
             },
             {
-              "title": "Manual Stock Tracking",
-              "desc": "Limited automation increases errors and operational burden."
+              "title": "Gestion Manuelle des Stocks",
+              "desc": "Le manque d’automatisation augmente les erreurs et la charge opérationnelle."
             },
             {
-              "title": "Limited Marketing Intelligence",
-              "desc": "Campaigns are hard to optimize without a unified system."
+              "title": "Marketing Peu Optimisé",
+              "desc": "Les campagnes sont difficiles à optimiser sans système unifié."
             }
           ]
         },
         {
-          "title": "Retail Operating System",
+          "title": "Système d’Exploitation Retail",
           "cards": [
             {
-              "title": "Customer Intelligence",
-              "desc": "Detailed customer profiles, loyalty tracking, AI-driven insights."
+              "title": "Intelligence Client",
+              "desc": "Profils détaillés, fidélisation et informations pilotées par l’IA."
             },
             {
-              "title": "Point of Sale",
-              "desc": "Modern POS with returns, discounts, gift cards, multi-location support."
+              "title": "Point de Vente",
+              "desc": "POS moderne avec retours, remises, cartes cadeaux et support multi-sites."
             },
             {
-              "title": "Inventory & Supply Chain",
-              "desc": "Stock levels, warehouses, transfers, purchase orders, automation."
+              "title": "Stocks et Chaîne d’Approvisionnement",
+              "desc": "Gestion des stocks, entrepôts, transferts, commandes fournisseurs et automatisation."
             },
             {
-              "title": "Finance & Accounting",
-              "desc": "Revenue, expenses, profitability, cash flow, integrated reporting."
+              "title": "Finance et Comptabilité",
+              "desc": "Revenus, dépenses, rentabilité, trésorerie et reporting intégré."
             },
             {
-              "title": "Marketing Automation",
-              "desc": "Campaign creation, social publishing, AI-generated content."
+              "title": "Automatisation Marketing",
+              "desc": "Création de campagnes, publication sociale et contenu généré par IA."
             },
             {
-              "title": "Synthetic Intelligence",
-              "desc": "Predictive analytics, operational intelligence, automated decisions."
+              "title": "Intelligence Synthétique",
+              "desc": "Analyses prédictives, intelligence opérationnelle et décisions automatisées."
             },
             {
-              "title": "Design Studio",
-              "desc": "Visual campaign design, social media graphics, product mockups."
+              "title": "Studio de Design",
+              "desc": "Création visuelle de campagnes, contenus sociaux et maquettes produits."
             },
             {
               "title": "Business Intelligence",
-              "desc": "Sales dashboards, KPIs, multi-store analytics, AI forecasting."
+              "desc": "Tableaux de bord, KPI, analyses multi-magasins et prévisions IA."
             }
           ]
         },
         {
-          "title": "Retail Without Blind Spots",
+          "title": "Retail Sans Angle Mort",
           "cards": [
             {
-              "title": "Complete Visibility",
-              "desc": "End-to-end view of operations, inventory, and customer behavior."
+              "title": "Visibilité Complète",
+              "desc": "Vue de bout en bout des opérations, stocks et comportements clients."
             },
             {
-              "title": "Data-Driven Decisions",
-              "desc": "AI-powered insights to optimize sales, marketing, and operations."
+              "title": "Décisions Basées sur les Données",
+              "desc": "Informations IA pour optimiser ventes, marketing et opérations."
             },
             {
-              "title": "Seamless Integration",
-              "desc": "All systems connected for real-time, actionable intelligence."
+              "title": "Intégration Totale",
+              "desc": "Tous les systèmes connectés pour une intelligence exploitable en temps réel."
             }
           ]
         }
       ],
       "cta": {
-        "title": "Ready To Transform Retail?",
-        "description": "Connect sales, inventory, customers, finance, marketing and AI into one operating system.",
-        "primary": "Book Demo",
-        "secondary": "Explore Platform"
+        "title": "Prêt à Transformer Votre Commerce ?",
+        "description": "Connectez ventes, stocks, clients, finance, marketing et IA dans un seul système d’exploitation.",
+        "primary": "Réserver une Démonstration",
+        "secondary": "Découvrir la Plateforme"
       }
     },
     "distributionManufacturing": {
       "hero": {
-        "title": "From Raw Materials To Delivered Products",
-        "description": "Control procurement, inventory, production, warehousing, logistics, finance, and operational intelligence from one unified platform.",
-        "primary": "Book Demo",
-        "secondary": "Explore Platform"
+        "title": "Des Matières Premières aux Produits Livrés",
+        "description": "Contrôlez les achats, les stocks, la production, l’entreposage, la logistique, la finance et l’intelligence opérationnelle depuis une plateforme unifiée.",
+        "primary": "Réserver une Démonstration",
+        "secondary": "Découvrir la Plateforme"
       },
       "sections": [
         {
-          "title": "Industry Challenges",
+          "title": "Défis du Secteur",
           "cards": [
             {
-              "title": "Inventory Inaccuracy",
-              "desc": "Stock discrepancies cause overstock and lost sales."
+              "title": "Inexactitudes des Stocks",
+              "desc": "Les écarts de stock entraînent surstockage et pertes de ventes."
             },
             {
-              "title": "Production Delays",
-              "desc": "Manufacturing bottlenecks delay order fulfillment."
+              "title": "Retards de Production",
+              "desc": "Les goulots d’étranglement ralentissent l’exécution des commandes."
             },
             {
-              "title": "Supply Chain Disruption",
-              "desc": "Uncoordinated logistics increase lead times."
+              "title": "Perturbations de la Chaîne Logistique",
+              "desc": "Une logistique mal coordonnée augmente les délais."
             },
             {
-              "title": "Disconnected Warehouses",
-              "desc": "Multiple locations without centralized control."
+              "title": "Entrepôts Déconnectés",
+              "desc": "Plusieurs sites sans contrôle centralisé."
             },
             {
-              "title": "Poor Forecasting",
-              "desc": "Limited analytics prevent accurate production planning."
+              "title": "Prévisions Insuffisantes",
+              "desc": "Des analyses limitées empêchent une planification précise."
             },
             {
-              "title": "Lack Of Visibility",
-              "desc": "Limited insight into operations and inventory performance."
+              "title": "Manque de Visibilité",
+              "desc": "Peu de visibilité sur les opérations et la performance des stocks."
             }
           ]
         },
         {
-          "title": "Manufacturing Operating System",
+          "title": "Système d’Exploitation Industriel",
           "cards": [
             {
-              "title": "Procurement",
-              "desc": "Purchase requests, orders, supplier management, approvals, receiving."
+              "title": "Approvisionnement",
+              "desc": "Demandes d’achat, commandes, gestion fournisseurs, validations et réceptions."
             },
             {
-              "title": "Inventory & Warehousing",
-              "desc": "Stock levels, locations, transfers, batch tracking, cycle counts."
+              "title": "Stocks et Entreposage",
+              "desc": "Niveaux de stock, emplacements, transferts, suivi par lots et inventaires."
             },
             {
               "title": "Production",
-              "desc": "Recipes, BOM, production orders, costing, yield tracking."
+              "desc": "Recettes, nomenclatures, ordres de fabrication, coûts et rendement."
             },
             {
-              "title": "Logistics",
-              "desc": "Deliveries, fleet management, shipping, tracking, distribution."
+              "title": "Logistique",
+              "desc": "Livraisons, flotte, expédition, suivi et distribution."
             },
             {
-              "title": "Finance & Accounting",
-              "desc": "AP, AR, ledger, cost accounting, reporting."
+              "title": "Finance et Comptabilité",
+              "desc": "Comptes fournisseurs, clients, grand livre, comptabilité analytique et reporting."
             },
             {
-              "title": "Synthetic Intelligence",
-              "desc": "Predict demand, forecast inventory, identify bottlenecks, reduce waste, automate decisions."
+              "title": "Intelligence Synthétique",
+              "desc": "Prévoir la demande, optimiser les stocks, identifier les blocages et réduire le gaspillage."
             },
             {
-              "title": "Design Studio",
-              "desc": "Product design, packaging, labels, marketing assets, product launches."
+              "title": "Studio de Design",
+              "desc": "Conception produit, emballages, étiquettes, supports marketing et lancements."
             }
           ]
         },
         {
-          "title": "Distribution Without Blind Spots",
+          "title": "Distribution Sans Angle Mort",
           "cards": [
             {
-              "title": "Complete Visibility",
-              "desc": "Full end-to-end visibility across production and distribution."
+              "title": "Visibilité Complète",
+              "desc": "Vision complète de la production jusqu’à la distribution."
             },
             {
-              "title": "Data-Driven Decisions",
-              "desc": "AI-powered insights to optimize operations, inventory and logistics."
+              "title": "Décisions Pilotées par les Données",
+              "desc": "Informations IA pour optimiser opérations, stocks et logistique."
             },
             {
-              "title": "Seamless Integration",
-              "desc": "All modules connected for real-time actionable intelligence."
+              "title": "Intégration Totale",
+              "desc": "Tous les modules connectés pour une intelligence exploitable en temps réel."
             }
           ]
         }
       ],
       "cta": {
-        "title": "Operate. Control. Produce. Deliver.",
-        "description": "Modern manufacturing requires visibility across every step of the supply chain. Avantiqo connects procurement, inventory, production, logistics, finance, synthetic intelligence, and design into one operating system.",
-        "primary": "Book Demo",
-        "secondary": "Explore Platform"
+        "title": "Exécuter. Contrôler. Produire. Livrer.",
+        "description": "Avantiqo connecte les achats, les stocks, la production, la logistique, la finance, l’intelligence synthétique et le design dans un système d’exploitation unique.",
+        "primary": "Réserver une Démonstration",
+        "secondary": "Découvrir la Plateforme"
       }
     }
   },
