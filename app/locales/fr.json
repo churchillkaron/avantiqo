@@ -592,312 +592,312 @@
     },
     "accountingFirms": {
       "hero": {
-        "badge": "SYNTHETIC INTELLIGENCE FOR ACCOUNTING FIRMS",
-        "title1": "Stop Reporting",
-        "title2": "The Past.",
-        "title3": "Start Managing",
-        "title4": "The Future.",
-        "description": "Avantiqo gives accounting firms real-time visibility into operations, approvals, payroll, procurement and financial activity instead of waiting for paperwork 30 days later.",
-        "primary": "Build The Next Generation Accounting Firm",
-        "secondary": "Talk To Enterprise Team"
+        "badge": "INTELLIGENCE SYNTHÉTIQUE POUR LES CABINETS COMPTABLES",
+        "title1": "Arrêtez de rapporter",
+        "title2": "le passé.",
+        "title3": "Commencez à piloter",
+        "title4": "l'avenir.",
+        "description": "Avantiqo offre aux cabinets comptables une visibilité en temps réel sur les opérations, les approbations, la paie, les achats et l'activité financière, au lieu d'attendre les documents et justificatifs 30 jours plus tard.",
+        "primary": "Construisez le cabinet comptable de nouvelle génération",
+        "secondary": "Parler à l'équipe Entreprise"
       },
       "beforeAfter": {
-        "badge": "BEFORE VS AFTER",
-        "title1": "Stop rebuilding businesses",
-        "title2": "from paperwork."
+        "badge": "AVANT VS APRÈS",
+        "title1": "Arrêtez de reconstruire les entreprises",
+        "title2": "à partir de documents."
       },
       "switch": {
-        "badge": "WHY ACCOUNTING FIRMS SWITCH",
-        "title1": "Other software stores transactions.",
-        "title2": "Avantiqo understands businesses."
+        "badge": "POURQUOI LES CABINETS COMPTABLES CHANGENT",
+        "title1": "Les autres logiciels stockent des transactions.",
+        "title2": "Avantiqo comprend les entreprises."
       },
       "runtime": {
-        "badge": "ACCOUNTING RUNTIME",
-        "title1": "Everything connected.",
-        "title2": "Everything visible."
+        "badge": "RUNTIME COMPTABLE",
+        "title1": "Tout est connecté.",
+        "title2": "Tout est visible."
       },
       "benefits": {
-        "badge": "ACCOUNTING FIRM BENEFITS",
-        "title1": "Scale your accounting firm without scaling operational chaos."
+        "badge": "AVANTAGES POUR LES CABINETS COMPTABLES",
+        "title1": "Développez votre cabinet sans développer le chaos opérationnel."
       },
       "advisory": {
-        "badge": "WHY SYNTHETIC INTELLIGENCE FOR ACCOUNTING FIRMS CHOOSE AVANTIQO",
-        "title1": "Turn accounting from bookkeeping into operational intelligence.",
-        "description": "Avantiqo helps accounting firms become live operational intelligence partners, not just month-end bookkeeping providers."
+        "badge": "POURQUOI LES CABINETS COMPTABLES CHOISISSENT L'INTELLIGENCE SYNTHÉTIQUE D'AVANTIQO",
+        "title1": "Transformez la comptabilité en intelligence opérationnelle.",
+        "description": "Avantiqo aide les cabinets comptables à devenir des partenaires d'intelligence opérationnelle en temps réel, et non de simples prestataires de tenue comptable de fin de mois."
       },
       "enterprise": {
-        "badge": "ENTERPRISE CONTROL & COMPLIANCE",
-        "title1": "Built for operational trust,",
-        "title2": "accountability and visibility.",
-        "description": "Avantiqo provides accounting firms with enterprise-grade operational visibility, permission control and audit accountability across all clients."
+        "badge": "CONTRÔLE ET CONFORMITÉ D'ENTREPRISE",
+        "title1": "Conçu pour la confiance opérationnelle,",
+        "title2": "la responsabilité et la visibilité.",
+        "description": "Avantiqo fournit aux cabinets comptables une visibilité opérationnelle de niveau entreprise, un contrôle des autorisations et une traçabilité complète pour tous les clients."
       },
       "cta": {
-        "badge": "LIVE ACCOUNTING CONTROL",
-        "title1": "Your accounting firm",
-        "title2": "should not discover",
-        "title3": "problems 30 days later.",
-        "description": "Avantiqo transforms accounting firms into real-time operational intelligence partners.",
-        "primary": "Book Enterprise Demo"
+        "badge": "CONTRÔLE COMPTABLE EN TEMPS RÉEL",
+        "title1": "Votre cabinet comptable",
+        "title2": "ne devrait pas découvrir",
+        "title3": "les problèmes 30 jours plus tard.",
+        "description": "Avantiqo transforme les cabinets comptables en partenaires d'intelligence opérationnelle en temps réel.",
+        "primary": "Réserver une démonstration Entreprise"
       },
       "enterpriseCards": [
         {
-          "title": "Role-Based Permissions",
-          "description": "Every accountant only sees assigned companies, approvals and operational areas."
+          "title": "Autorisations Basées sur les Rôles",
+          "description": "Chaque comptable ne voit que les entreprises, approbations et domaines opérationnels qui lui sont attribués."
         },
         {
-          "title": "Full Audit Trail",
-          "description": "Every approval, document upload and operational action tracked automatically."
+          "title": "Piste d'Audit Complète",
+          "description": "Chaque approbation, téléchargement de document et action opérationnelle est automatiquement enregistrée."
         },
         {
-          "title": "Approval Accountability",
-          "description": "Know exactly who approved what, when and from which operational workflow."
+          "title": "Responsabilité des Approbations",
+          "description": "Sachez exactement qui a approuvé quoi, quand et à partir de quel processus opérationnel."
         },
         {
-          "title": "Multi-Company Runtime",
-          "description": "Manage multiple companies, branches and operational entities from one connected system."
+          "title": "Runtime Multi-Entreprises",
+          "description": "Gérez plusieurs sociétés, succursales et entités opérationnelles à partir d'un seul système connecté."
         },
         {
-          "title": "Searchable Operational History",
-          "description": "Find invoices, approvals, payroll activity and operational changes instantly."
+          "title": "Historique Opérationnel Recherchable",
+          "description": "Retrouvez instantanément factures, approbations, activités de paie et changements opérationnels."
         },
         {
-          "title": "Live Operational Monitoring",
-          "description": "Identify financial and operational issues before they become month-end surprises."
+          "title": "Surveillance Opérationnelle en Temps Réel",
+          "description": "Identifiez les problèmes financiers et opérationnels avant qu'ils ne deviennent des surprises de fin de mois."
         }
       ],
       "advisorCards": [
         {
-          "label": "Advisory",
-          "title": "Become a Live Business Advisor",
-          "description": "Move from reactive bookkeeping to proactive operational guidance with live client revenue, payroll, procurement and approval visibility.",
+          "label": "Conseil",
+          "title": "Devenir un Conseiller d'Entreprise en Temps Réel",
+          "description": "Passez d'une comptabilité réactive à un accompagnement opérationnel proactif grâce à la visibilité en temps réel sur les revenus, la paie, les achats et les approbations des clients.",
           "items": [
-            "Spot revenue drops early",
-            "Monitor payroll pressure",
-            "Track procurement issues",
-            "Advise clients before month-end"
+            "Détecter rapidement les baisses de revenus",
+            "Surveiller la pression salariale",
+            "Suivre les problèmes d'approvisionnement",
+            "Conseiller les clients avant la clôture mensuelle"
           ]
         },
         {
-          "label": "Trust",
-          "title": "Increase Owner Confidence",
-          "description": "Give business owners transparent access to approvals, documents, expenses and financial activity so trust increases between client and accountant.",
+          "label": "Confiance",
+          "title": "Renforcer la Confiance des Dirigeants",
+          "description": "Offrez aux dirigeants un accès transparent aux approbations, documents, dépenses et activités financières afin de renforcer la confiance entre client et comptable.",
           "items": [
-            "Live owner visibility",
-            "Connected approvals",
-            "Searchable documents",
-            "Clear responsibility tracking"
+            "Visibilité en temps réel pour les dirigeants",
+            "Approbations connectées",
+            "Documents consultables",
+            "Suivi clair des responsabilités"
           ]
         },
         {
-          "label": "Risk",
-          "title": "Reduce Leakage & Mistakes",
-          "description": "See unusual activity, missing invoices, delayed approvals and operational cost problems before they become month-end surprises.",
+          "label": "Risque",
+          "title": "Réduire les Pertes et les Erreurs",
+          "description": "Identifiez les activités inhabituelles, factures manquantes, approbations retardées et problèmes de coûts opérationnels avant qu'ils ne deviennent des surprises de fin de mois.",
           "items": [
-            "Expense visibility",
-            "Audit history",
-            "Approval controls",
-            "Operational anomaly alerts"
+            "Visibilité des dépenses",
+            "Historique d'audit",
+            "Contrôles d'approbation",
+            "Alertes d'anomalies opérationnelles"
           ]
         }
       ],
       "roiCards": [
         {
-          "label": "Growth",
-          "title": "Handle More Clients",
-          "description": "Reduce manual accounting workload by connecting invoices, payroll, procurement, approvals and operational activity into one live runtime.",
+          "label": "Croissance",
+          "title": "Gérer Plus de Clients",
+          "description": "Réduisez la charge de travail comptable manuelle en connectant factures, paie, achats, approbations et activités opérationnelles dans un runtime unique.",
           "items": [
-            "AI-assisted invoice extraction",
-            "Faster month-end closing",
-            "Less manual bookkeeping",
-            "More clients without more paperwork"
+            "Extraction de factures assistée par IA",
+            "Clôture mensuelle plus rapide",
+            "Moins de saisie comptable manuelle",
+            "Plus de clients sans plus de paperasse"
           ]
         },
         {
-          "label": "Visibility",
-          "title": "Discover Problems Earlier",
-          "description": "Monitor client operations in real time instead of waiting for documents and reports at the end of the month.",
+          "label": "Visibilité",
+          "title": "Découvrir les Problèmes Plus Tôt",
+          "description": "Surveillez les opérations des clients en temps réel au lieu d'attendre les documents et rapports de fin de mois.",
           "items": [
-            "Live revenue visibility",
-            "Payroll and procurement tracking",
-            "Approval monitoring",
-            "Full operational audit trail"
+            "Visibilité en temps réel des revenus",
+            "Suivi de la paie et des achats",
+            "Surveillance des approbations",
+            "Piste d'audit opérationnelle complète"
           ]
         }
       ],
       "features": [
         {
-          "title": "LIVE FINANCIAL VISIBILITY",
-          "description": "Monitor revenue, payroll, procurement, approvals and operational costs in real time across all clients.",
+          "title": "VISIBILITÉ FINANCIÈRE EN TEMPS RÉEL",
+          "description": "Surveillez les revenus, la paie, les achats, les approbations et les coûts opérationnels en temps réel pour tous les clients.",
           "image": "/images/accounting-live-control.png"
         },
         {
-          "title": "AI DOCUMENT EXTRACTION",
-          "description": "Invoices, receipts and paperwork automatically extracted and organized into the financial workflow.",
+          "title": "EXTRACTION DE DOCUMENTS PAR IA",
+          "description": "Les factures, reçus et documents sont automatiquement extraits et organisés dans le flux financier.",
           "image": "/images/documents-flow.png"
         },
         {
-          "title": "MULTI-COMPANY CONTROL",
-          "description": "Accounting firms manage multiple businesses from one connected operational runtime.",
+          "title": "CONTRÔLE MULTI-ENTREPRISES",
+          "description": "Les cabinets comptables gèrent plusieurs entreprises à partir d'un seul runtime opérationnel connecté.",
           "image": "/images/accounting-multi-company.png"
         },
         {
-          "title": "LIVE APPROVALS & AUDIT",
-          "description": "Every approval, document and operational change tracked with full audit visibility.",
+          "title": "APPROBATIONS ET AUDIT EN TEMPS RÉEL",
+          "description": "Chaque approbation, document et changement opérationnel est suivi avec une visibilité d'audit complète.",
           "image": "/images/accounting-approval-runtime.png"
         }
       ],
       "beforeAfterCards": [
         {
           "label": "item1",
-          "name": "Missing invoices and receipts",
-          "status": "Pending"
+          "name": "Factures et reçus manquants",
+          "status": "En attente"
         },
         {
           "label": "item2",
-          "name": "Manual data entry",
-          "status": "Pending"
+          "name": "Saisie manuelle des données",
+          "status": "En attente"
         },
         {
           "label": "item3",
-          "name": "Line messages and paperwork",
-          "status": "Pending"
+          "name": "Messages Line et documents papier",
+          "status": "En attente"
         },
         {
           "label": "item4",
-          "name": "No real-time visibility",
-          "status": "Pending"
+          "name": "Aucune visibilité en temps réel",
+          "status": "En attente"
         },
         {
           "label": "item5",
-          "name": "Delayed financial oversight",
-          "status": "Pending"
+          "name": "Supervision financière retardée",
+          "status": "En attente"
         },
         {
           "label": "item6",
-          "name": "Operational problems discovered too late",
-          "status": "Pending"
+          "name": "Problèmes opérationnels découverts trop tard",
+          "status": "En attente"
         }
       ],
       "runtimeEvents": {
-        "title": "Live Runtime Event Stream",
-        "subtitle": "Continuous Operational Flow",
-        "status": "LIVE",
+        "title": "Flux d'Événements Runtime en Temps Réel",
+        "subtitle": "Flux Opérationnel Continu",
+        "status": "EN DIRECT",
         "events": [
           {
             "time": "09:22",
-            "title": "Payroll runtime locked"
+            "title": "Runtime de paie verrouillé"
           },
           {
             "time": "09:24",
-            "title": "Inventory ledger synchronized"
+            "title": "Grand livre des stocks synchronisé"
           },
           {
             "time": "09:26",
-            "title": "Variance detection triggered"
+            "title": "Détection d'écart déclenchée"
           },
           {
             "time": "09:28",
-            "title": "Approval escalation initiated"
+            "title": "Escalade d'approbation initiée"
           },
           {
             "time": "09:31",
-            "title": "Revenue synchronization completed"
+            "title": "Synchronisation des revenus terminée"
           }
         ]
       },
       "governanceTimeline": {
-        "label": "Governance Timeline",
-        "title": "Continuous Operational Flow",
-        "status": "LIVE",
+        "label": "Chronologie de Gouvernance",
+        "title": "Flux Opérationnel Continu",
+        "status": "EN DIRECT",
         "events": [
           {
             "time": "08:42",
-            "title": "Procurement Approved"
+            "title": "Achat approuvé"
           },
           {
             "time": "09:14",
-            "title": "Journal Posted"
+            "title": "Écriture comptable enregistrée"
           },
           {
             "time": "09:16",
-            "title": "Reconciliation Updated"
+            "title": "Rapprochement mis à jour"
           },
           {
             "time": "09:22",
-            "title": "Payroll Runtime Locked"
+            "title": "Runtime de paie verrouillé"
           }
         ]
       },
       "multiEntity": {
-        "label": "Multi-Entity Operational Runtime",
-        "title": "Cross-Company Oversight",
-        "status": "4 ENTITIES",
+        "label": "Runtime Opérationnel Multi-Entités",
+        "title": "Supervision Inter-Entreprises",
+        "status": "4 ENTITÉS",
         "entities": [
           {
             "name": "Churchill Phuket",
-            "status": "ACTIVE"
+            "status": "ACTIF"
           },
           {
             "name": "BEA Co., Ltd.",
-            "status": "REVIEWING"
+            "status": "EN RÉVISION"
           },
           {
             "name": "PCS Phuket",
-            "status": "APPROVED"
+            "status": "APPROUVÉ"
           },
           {
             "name": "Cole Ley Entertainment",
-            "status": "PENDING CLOSE"
+            "status": "CLÔTURE EN ATTENTE"
           }
         ]
       },
       "accountability": {
-        "label": "Approval Accountability",
-        "title": "Human Governance Runtime",
-        "status": "VERIFIED",
+        "label": "Responsabilité des Approbations",
+        "title": "Runtime de Gouvernance Humaine",
+        "status": "VÉRIFIÉ",
         "items": [
           {
-            "label": "Approved By",
-            "name": "P. Vallgarda — CFO Runtime",
-            "status": "ACTIVE"
+            "label": "Approuvé Par",
+            "name": "P. Vallgarda — Runtime CFO",
+            "status": "ACTIF"
           },
           {
-            "label": "Locked By",
-            "name": "Financial Governance Engine",
-            "status": "ENFORCED"
+            "label": "Verrouillé Par",
+            "name": "Moteur de Gouvernance Financière",
+            "status": "APPLIQUÉ"
           },
           {
-            "label": "Reviewed By",
-            "name": "Operations Control Runtime",
-            "status": "VERIFIED"
+            "label": "Révisé Par",
+            "name": "Runtime de Contrôle des Opérations",
+            "status": "VÉRIFIÉ"
           }
         ]
       },
       "syntheticDecisionLayer": {
-        "title": "Predictive Operational Intelligence",
-        "status": "LEARNING",
-        "recommendationLabel": "AI Recommendation",
-        "recommendationText": "Delay financial close until procurement reconciliation completes.",
-        "predictionLabel": "AI Prediction",
-        "predictionText": "Procurement shortage risk predicted within 6 operational days.",
-        "detectionLabel": "AI Detection",
-        "detectionText": "Unusual approval behavior detected in hospitality runtime."
+        "title": "Intelligence Opérationnelle Prédictive",
+        "status": "APPRENTISSAGE",
+        "detectionLabel": "Détection IA",
+        "detectionText": "Comportement d'approbation inhabituel détecté dans le runtime Hospitality.",
+        "predictionLabel": "Prédiction IA",
+        "predictionText": "Risque de pénurie d'approvisionnement prévu dans les 6 prochains jours opérationnels.",
+        "recommendationLabel": "Recommandation IA",
+        "recommendationText": "Reporter la clôture financière jusqu'à la fin du rapprochement des achats."
       },
       "financialGovernance": {
-        "title": "Live Financial Governance"
+        "title": "Gouvernance Financière en Temps Réel"
       },
       "runtimeDashboard": {
-        "title": "Enterprise Runtime",
-        "connectedEntities": "Connected Entities",
-        "journalEntries": "Journal Entries Today",
-        "approvalFlows": "Approval Flows",
-        "governanceIntegrity": "Governance Integrity"
+        "title": "Runtime Entreprise",
+        "connectedEntities": "Entités Connectées",
+        "journalEntries": "Écritures Comptables Aujourd'hui",
+        "approvalFlows": "Flux d'Approbation",
+        "governanceIntegrity": "Intégrité de Gouvernance"
       },
       "riskRuntime": {
-        "monthEndClose": "Month-End Close Runtime",
-        "operationalRisk": "Operational Risk Runtime",
-        "auditViolations": "Audit Violations",
-        "liveDetection": "Live Runtime Detection"
+        "liveDetection": "Détection Runtime en Temps Réel",
+        "operationalRisk": "Runtime de Risque Opérationnel",
+        "auditViolations": "Violations d'Audit",
+        "monthEndClose": "Runtime de Clôture Mensuelle"
       },
       "beforeAfterLists": {
         "before": [
@@ -1107,19 +1107,19 @@
       ],
       "runtimeMetrics": [
         [
-          "Connected Clients",
+          "Clients Connectés",
           "128"
         ],
         [
-          "Open Exceptions",
+          "Exceptions Ouvertes",
           "14"
         ],
         [
-          "Advisory Opportunities",
+          "Opportunités de Conseil",
           "32"
         ],
         [
-          "Governance Integrity",
+          "Intégrité de Gouvernance",
           "96%"
         ]
       ]
