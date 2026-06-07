@@ -10,119 +10,17 @@ export default function AccountingIndustryPage() {
   const { translations } = useTranslation();
   const a = translations.home?.accountingFirms || {};
 
-  const challenges = [
-    {
-      title: "Disconnected client data",
-      text: "Client documents, accounting systems, approvals, payroll, invoices and reports live in different places. Partners lose visibility and teams waste time searching, checking and correcting."
-    },
-    {
-      title: "Low-margin clients are hard to see",
-      text: "Many firms know revenue per client, but not true profitability. Avantiqo helps reveal which clients consume time, create exceptions and reduce firm margin."
-    },
-    {
-      title: "Manual compliance pressure",
-      text: "Deadlines, approvals, document trails, tax workflows and audit preparation create risk when they depend on manual follow-up and memory."
-    },
-    {
-      title: "Advisory work is difficult to scale",
-      text: "Most accounting firms want to move beyond bookkeeping, but advisory insight is trapped inside senior staff. Avantiqo turns financial data into repeatable intelligence."
-    }
-  ];
+  const challenges = a.challenges || [];
 
-  const whyCards = [
-    {
-      title: "Client Profitability Intelligence",
-      text: "See which clients are profitable, which clients need intervention and which clients are consuming too much team capacity before margins decline."
-    },
-    {
-      title: "Practice Performance",
-      text: "Track utilization, realization, recoverability, workload, WIP, approvals and team performance across the full accounting firm."
-    },
-    {
-      title: "Compliance & Audit Readiness",
-      text: "Maintain governance, approval trails, document control, period locking, exception tracking and audit visibility from one operating layer."
-    },
-    {
-      title: "Advisory Intelligence",
-      text: "Identify risks, cash flow issues, unusual trends, advisory opportunities and recommended next actions for every client."
-    }
-  ];
+  const whyCards = a.whyCards || [];
 
-  const operatingSystem = [
-    {
-      title: "Client Intelligence",
-      text: "Client profiles, document status, accounting activity, deadlines, communication, profitability and risk in one place."
-    },
-    {
-      title: "Workflow Control",
-      text: "Control bookkeeping, payroll, reconciliation, tax preparation, approval flows, review cycles and monthly close workflows."
-    },
-    {
-      title: "Financial Runtime",
-      text: "Connect accounting events, operational approvals, journal logic, reconciliation, exceptions and financial reporting."
-    },
-    {
-      title: "Partner Dashboard",
-      text: "Give partners live visibility into clients, team capacity, deadlines, revenue, profitability, risk and advisory opportunities."
-    },
-    {
-      title: "Synthetic Intelligence",
-      text: "Predict client risk, detect anomalies, recommend action, highlight advisory opportunities and reduce manual review work."
-    },
-    {
-      title: "Client Deliverables",
-      text: "Create board-ready reports, advisory summaries, financial reviews, client updates and management presentations faster."
-    }
-  ];
+  const operatingSystem = a.operatingSystem || [];
 
-  const intelligence = [
-    {
-      title: "Predict client risk",
-      text: "Identify clients likely to miss deadlines, submit incomplete documents, delay payment or create compliance exposure."
-    },
-    {
-      title: "Detect anomalies",
-      text: "Find unusual transactions, payroll variance, reconciliation exceptions, margin drops and operational inconsistencies."
-    },
-    {
-      title: "Recommend advisory actions",
-      text: "Turn bookkeeping data into recommendations clients can understand, trust and pay for."
-    },
-    {
-      title: "Prioritize partner attention",
-      text: "Show which clients, tasks, exceptions and opportunities need leadership focus today."
-    }
-  ];
+  const intelligence = a.intelligence || [];
 
-  const roi = [
-    {
-      label: "Higher margin",
-      title: "Reduce unbilled work",
-      text: "When work, exceptions and approvals are visible, firms can protect margin and reduce hidden time leakage."
-    },
-    {
-      label: "More advisory revenue",
-      title: "Turn data into advice",
-      text: "Avantiqo helps accounting firms convert financial data into client-facing advisory insight."
-    },
-    {
-      label: "Better control",
-      title: "Know every client status",
-      text: "Partners can see client health, compliance status, deadlines, workload and financial exposure from one operating system."
-    },
-    {
-      label: "Scalable practice",
-      title: "Grow without chaos",
-      text: "Standardized workflows, synthetic intelligence and governance make it easier to manage more clients without losing control."
-    }
-  ];
+  const roi = a.roi || [];
 
-  const runtimeMetrics = [
-    ["Connected Clients", "128"],
-    ["Open Exceptions", "14"],
-    ["Advisory Opportunities", "32"],
-    ["Governance Integrity", "96%"]
-  ];
+  const runtimeMetrics = a.runtimeMetrics || [];
 
   return (
     <main className="min-h-screen overflow-hidden bg-[#03050B] text-white">

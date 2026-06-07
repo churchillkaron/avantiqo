@@ -10,99 +10,92 @@ export default function ConstructionIndustryPage() {
   const { translations } = useTranslation();
   const h = translations.home?.construction || {};
 
+  
   const flow = [
-    "Lead",
-    "CRM",
-    "Quotation",
-    "Tender",
-    "Project Award",
-    "Project Setup",
-    "Procurement",
-    "Inventory",
-    "Workforce",
-    "Site Reporting",
-    "Billing",
-    "Invoices",
-    "Project Completion",
-    "Case Study",
-    "Marketing",
-    "Next Project",
+    h.flow_step_1,
+    h.flow_step_2,
+    h.flow_step_3,
+    h.flow_step_4,
+    h.flow_step_5,
+    h.flow_step_6,
+    h.flow_step_7,
+    h.flow_step_8,
+    h.flow_step_9,
+    h.flow_step_10,
+    h.flow_step_11,
+    h.flow_step_12,
+    h.flow_step_13,
+    h.flow_step_14,
+    h.flow_step_15,
+    h.flow_step_16,
   ];
 
   const whyCards = [
     {
-      title: "Know which projects actually make money",
-      text: "Avantiqo connects quotation, budget, procurement, labor, subcontractors, equipment, invoices and billing into one financial picture. Owners can see which projects create profit and which projects are quietly losing margin.",
+      title: h.why_1_title,
+      text: h.why_1_text,
     },
     {
-      title: "Control every subcontractor",
-      text: "Attendance, task completion, photo evidence, site updates and milestone approvals are tracked inside the system. No more blind trust, missing updates or undocumented work claims.",
+      title: h.why_2_title,
+      text: h.why_2_text,
     },
     {
-      title: "Complete cost intelligence",
-      text: "Every purchase request, supplier order, material delivery, workforce cost and invoice is connected to the project. This gives management real cost visibility before problems reach accounting.",
+      title: h.why_3_title,
+      text: h.why_3_text,
     },
     {
-      title: "Executive visibility at every level",
-      text: "Owners and directors can monitor every site, project, cost exposure, approval, delay and risk without waiting for weekly reports or asking managers for updates.",
+      title: h.why_4_title,
+      text: h.why_4_text,
     },
   ];
 
   const differenceCards = [
     {
-      title: "Not project management software",
-      text: "Project management tools manage tasks. Avantiqo manages the business behind the project: sales, quotations, procurement, workforce, cost, invoices, reporting, marketing and growth.",
+      title: h.difference_1_title,
+      text: h.difference_1_text,
     },
     {
-      title: "Not traditional ERP",
-      text: "Traditional ERP is built around accounting. Construction happens on site. Avantiqo is built around operational reality, so office teams, site managers, contractors, clients and owners can all work from the same live system.",
+      title: h.difference_2_title,
+      text: h.difference_2_text,
     },
     {
-      title: "One platform instead of five",
-      text: "Most companies use one tool for CRM, one for accounting, one for projects, one for reports and one for marketing. Avantiqo connects everything into one operating system.",
+      title: h.difference_3_title,
+      text: h.difference_3_text,
     },
     {
-      title: "A digital twin of the company",
-      text: "Every project, supplier, worker, client, asset, document, cost and transaction becomes part of one connected operational model. Management sees the company as it really operates.",
+      title: h.difference_4_title,
+      text: h.difference_4_text,
     },
   ];
 
   const syntheticCards = [
     {
-      title: "Predict delays",
-      text: "The system can detect supplier delays, workforce shortages, late approvals, incomplete reports and milestone risk before the schedule is already damaged.",
+      title: h.si_1_title,
+      text: h.si_1_text,
     },
     {
-      title: "Predict budget overruns",
-      text: "Avantiqo compares estimated cost, committed cost and actual cost continuously. Management can react before profit disappears.",
+      title: h.si_2_title,
+      text: h.si_2_text,
     },
     {
-      title: "Generate owner reports",
-      text: "Instead of spending hours creating updates, the system can generate progress reports, risk summaries, budget updates and executive reports from live project data.",
+      title: h.si_3_title,
+      text: h.si_3_text,
     },
     {
-      title: "Procurement intelligence",
-      text: "The system can recommend purchasing actions based on project schedule, inventory, supplier performance, budget exposure and delivery risk.",
-    },
-    {
-      title: "Workforce intelligence",
-      text: "Avantiqo helps identify attendance problems, productivity issues, labor cost risk and staffing shortages across multiple sites.",
-    },
-    {
-      title: "Risk intelligence",
-      text: "Operational, financial and contractor risks are connected, giving management early warnings instead of late explanations.",
+      title: h.si_4_title,
+      text: h.si_4_text,
     },
   ];
 
+
   const marketingItems = [
-    "Company profiles",
-    "Capability statements",
-    "Tender documents",
-    "Project case studies",
-    "Before / after showcases",
-    "Website content",
-    "Social media campaigns",
-    "Client presentations",
+    h.marketing_item_1,
+    h.marketing_item_2,
+    h.marketing_item_3,
+    h.marketing_item_4,
+    h.marketing_item_5,
+    h.marketing_item_6,
+    h.marketing_item_7,
   ];
 
   return (

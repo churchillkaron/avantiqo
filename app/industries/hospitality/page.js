@@ -12,136 +12,125 @@ export default function HospitalityPage() {
 
   const challenges = [
     {
-      title: "Guest experience is fragmented",
-      text: "Guest history, preferences, reviews, loyalty, table activity and marketing data are usually spread across different systems. Avantiqo brings the full guest picture into one operating layer."
+      title: h.challenges?.[0]?.title || "",
+      text: h.challenges?.[0]?.text || ""
     },
     {
-      title: "Staff performance is invisible",
-      text: "Managers often know who is working, but not who is performing, who is late, who creates value and where service quality is dropping. Avantiqo connects staff activity to accountability."
+      title: h.challenges?.[1]?.title || "",
+      text: h.challenges?.[1]?.text || ""
     },
     {
-      title: "POS is disconnected from control",
-      text: "Traditional POS systems record sales. Avantiqo connects sales to kitchen flow, stock, customer profiles, staff performance, revenue control and management decisions."
+      title: h.challenges?.[2]?.title || "",
+      text: h.challenges?.[2]?.text || ""
     },
     {
-      title: "Kitchen and production lose margin",
-      text: "Without connected production, recipe costing, waste tracking and stock visibility, hospitality businesses lose money quietly every day."
+      title: h.challenges?.[3]?.title || "",
+      text: h.challenges?.[3]?.text || ""
     },
     {
-      title: "Marketing happens too late",
-      text: "Most venues post randomly. Avantiqo can turn slow days, guest behavior, events, campaigns and business goals into automatic ads and social posts."
+      title: h.challenges?.[4]?.title || "",
+      text: h.challenges?.[4]?.text || ""
     },
     {
-      title: "Owners lack one source of truth",
-      text: "Restaurants, hotels, beach clubs, spas and multi-location groups need one operating system that shows what is happening now and what should happen next."
+      title: h.challenges?.[5]?.title || "",
+      text: h.challenges?.[5]?.text || ""
     }
   ];
 
   const whyCards = [
     {
-      title: "Customer Portal",
-      text: "Give guests access to loyalty, rewards, bookings, preferences, history and personalized offers. Every interaction becomes part of the customer intelligence layer."
+      title: h.whyCards?.[0]?.title || "",
+      text: h.whyCards?.[0]?.text || ""
     },
     {
-      title: "Staff Portal",
-      text: "Staff can manage attendance, tasks, confirmations, salary visibility and performance. Managers can see accountability and approve exceptions before they affect payroll."
+      title: h.whyCards?.[1]?.title || "",
+      text: h.whyCards?.[1]?.text || ""
     },
     {
-      title: "POS Control",
-      text: "Sales are not isolated. Every order can connect to customer data, kitchen operations, staff performance, stock usage, financial reporting and management dashboards."
+      title: h.whyCards?.[2]?.title || "",
+      text: h.whyCards?.[2]?.text || ""
     },
     {
-      title: "Kitchen Flow",
-      text: "Orders move from POS to kitchen with clear status, preparation flow, completion tracking and operational visibility for service teams and managers."
+      title: h.whyCards?.[3]?.title || "",
+      text: h.whyCards?.[3]?.text || ""
     },
     {
-      title: "Stock & Production",
-      text: "Connect recipes, inventory, cost control, production usage and waste so food and beverage margins are visible before month-end."
+      title: h.whyCards?.[4]?.title || "",
+      text: h.whyCards?.[4]?.text || ""
     },
     {
-      title: "AI Marketing Engine",
-      text: "Generate ads, captions, campaign ideas, event promotions and social media posts automatically from business context, slow days, guest behavior and revenue targets."
+      title: h.whyCards?.[5]?.title || "",
+      text: h.whyCards?.[5]?.text || ""
     }
   ];
 
   const operatingSystem = [
     {
-      title: "Guest Intelligence",
-      text: "Profiles, loyalty, visit history, favorite items, reviews, VIP status, marketing consent and customer value in one view."
+      title: h.operatingSystem?.[0]?.title || "",
+      text: h.operatingSystem?.[0]?.text || ""
     },
     {
-      title: "Reservations & Tables",
-      text: "Bookings, tables, guest flow, service timing and operational planning connected with the rest of the business."
+      title: h.operatingSystem?.[1]?.title || "",
+      text: h.operatingSystem?.[1]?.text || ""
     },
     {
-      title: "POS & Orders",
-      text: "Fast sales flow connected to kitchen, customer history, staff accountability, revenue reporting and daily control."
+      title: h.operatingSystem?.[2]?.title || "",
+      text: h.operatingSystem?.[2]?.text || ""
     },
     {
-      title: "Kitchen & Production",
-      text: "Live order status, preparation control, recipe costing, stock impact, waste visibility and production accountability."
+      title: h.operatingSystem?.[3]?.title || "",
+      text: h.operatingSystem?.[3]?.text || ""
     },
     {
-      title: "Staff & Payroll",
-      text: "Attendance, lateness, approvals, task completion, salary confirmation, performance and payroll-ready control."
+      title: h.operatingSystem?.[4]?.title || "",
+      text: h.operatingSystem?.[4]?.text || ""
     },
     {
-      title: "Inventory & Cost",
-      text: "Stock usage, purchasing, transfers, product costing, food cost, waste and profitability connected to operations."
+      title: h.operatingSystem?.[5]?.title || "",
+      text: h.operatingSystem?.[5]?.text || ""
     },
     {
-      title: "Reviews & Reputation",
-      text: "Google reviews, guest feedback, service issues and response opportunities connected to customer and staff intelligence."
+      title: h.operatingSystem?.[6]?.title || "",
+      text: h.operatingSystem?.[6]?.text || ""
     },
     {
-      title: "Marketing & Design Studio",
-      text: "Create campaigns, posters, ads, social posts, promotions and branded content directly from the operating system."
+      title: h.operatingSystem?.[7]?.title || "",
+      text: h.operatingSystem?.[7]?.text || ""
     },
     {
-      title: "Synthetic Intelligence",
-      text: "Predict slow days, staffing pressure, stock issues, customer churn, marketing opportunities and operational risk."
+      title: h.operatingSystem?.[8]?.title || "",
+      text: h.operatingSystem?.[8]?.text || ""
     }
   ];
 
   const syntheticActions = [
     {
-      title: "Predict slow days",
-      text: "When revenue patterns show a coming quiet period, Avantiqo can recommend offers, campaigns, events and staffing adjustments."
+      title: h.syntheticActions?.[0]?.title || "",
+      text: h.syntheticActions?.[0]?.text || ""
     },
     {
-      title: "Recommend promotions",
-      text: "The system can suggest what to promote based on guest behavior, stock levels, margin, weather, seasonality and historical sales."
+      title: h.syntheticActions?.[1]?.title || "",
+      text: h.syntheticActions?.[1]?.text || ""
     },
     {
-      title: "Generate ads and posts",
-      text: "Turn business goals into ready-to-use social captions, campaign concepts, visuals, event promotions and offer messaging."
+      title: h.syntheticActions?.[2]?.title || "",
+      text: h.syntheticActions?.[2]?.text || ""
     },
     {
-      title: "Detect service risk",
-      text: "If reviews, delays, staff behavior or operational exceptions indicate a problem, management can act before it damages reputation."
+      title: h.syntheticActions?.[3]?.title || "",
+      text: h.syntheticActions?.[3]?.text || ""
     },
     {
-      title: "Optimize staffing",
-      text: "Use revenue, bookings, order volume and guest flow to understand staffing pressure before service quality drops."
+      title: h.syntheticActions?.[4]?.title || "",
+      text: h.syntheticActions?.[4]?.text || ""
     },
     {
-      title: "Protect margin",
-      text: "Connect POS, kitchen, recipes, stock and waste so owners can see where profit is leaking."
+      title: h.syntheticActions?.[5]?.title || "",
+      text: h.syntheticActions?.[5]?.text || ""
     }
   ];
 
-  const propertyTypes = [
-    "Restaurants",
-    "Hotels",
-    "Beach Clubs",
-    "Bars",
-    "Cafes",
-    "Resorts",
-    "Spas",
-    "Event Venues",
-    "Multi-Location Groups",
-    "Hospitality Brands"
-  ];
+  const propertyTypes = h.ownershipTypes || [];
 
   return (
     <>
