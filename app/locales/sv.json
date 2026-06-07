@@ -1,4 +1,944 @@
 {
+  "home": {
+    "hero": {
+      "badge": "",
+      "title1": "",
+      "title2": "",
+      "description": "",
+      "book_demo": "",
+      "start_setup": "",
+      "trust": "",
+      "image_caption": ""
+    },
+    "accounting": {
+      "badge": "",
+      "title1": "",
+      "title2": "",
+      "description": ""
+    },
+    "pillars": {
+      "operations": {
+        "badge": "",
+        "title": "",
+        "description": ""
+      },
+      "accounting": {
+        "badge": "",
+        "title": "",
+        "description": ""
+      },
+      "firms": {
+        "badge": "",
+        "title": "",
+        "description": ""
+      },
+      "execution": {
+        "badge": "",
+        "title": "",
+        "description": ""
+      }
+    },
+    "synthetic": {
+      "badge": "",
+      "title1": "",
+      "title2": "",
+      "description": "",
+      "formulaBadge": "",
+      "formula": ""
+    },
+    "cta": {
+      "badge": "",
+      "title1": "",
+      "title2": "",
+      "title3": "",
+      "description": ""
+    },
+    "flow": {
+      "businessReality": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "financialIntelligence": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "businessRealityTitle": "",
+      "financialIntelligenceTitle": "",
+      "centerTitle": ""
+    },
+    "workspace": {
+      "badge": "",
+      "title1": "",
+      "title2": "",
+      "description": "",
+      "cards": {
+        "clientManagement": {
+          "title": "",
+          "description": ""
+        },
+        "accountantAssignment": {
+          "title": "",
+          "description": ""
+        },
+        "complianceControl": {
+          "title": "",
+          "description": ""
+        },
+        "aiRuntime": {
+          "title": "",
+          "description": ""
+        }
+      },
+      "modules": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "comparison": {
+      "software": {
+        "title": "",
+        "items": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "ai": {
+        "title": "",
+        "items": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "avantiqo": {
+        "title": "",
+        "items": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    },
+    "industries": {
+      "badge": "",
+      "title1": "",
+      "title2": "",
+      "description": "",
+      "groups": {
+        "professionalServices": {
+          "title": "",
+          "description": ""
+        },
+        "hospitality": {
+          "title": "",
+          "description": ""
+        },
+        "retail": {
+          "title": "",
+          "description": ""
+        },
+        "construction": {
+          "title": "",
+          "description": ""
+        },
+        "distribution": {
+          "title": "",
+          "description": ""
+        },
+        "enterprise": {
+          "title": "",
+          "description": ""
+        }
+      },
+      "pillars": {
+        "badge": "",
+        "title1": "",
+        "title2": "",
+        "revenue": {
+          "title": "",
+          "items": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        "operations": {
+          "title": "",
+          "items": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        "finance": {
+          "title": "",
+          "items": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        "intelligence": {
+          "title": "",
+          "items": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      },
+      "intelligence": {
+        "badge": "",
+        "title1": "",
+        "title2": "",
+        "description": ""
+      },
+      "runtimeLabel": "",
+      "exploreIndustry": "",
+      "cta": {
+        "badge": "",
+        "title1": "",
+        "title2": "",
+        "title3": "",
+        "description": "",
+        "primary": "",
+        "secondary": ""
+      },
+      "businessFunctions": {
+        "badge": "",
+        "title1": "",
+        "title2": "",
+        "description": "",
+        "cards": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "intelligenceLayer": {
+        "badge": "",
+        "title1": "",
+        "title2": "",
+        "description": "",
+        "steps": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "dataFoundation": {
+        "badge": "",
+        "title1": "",
+        "title2": "",
+        "description": "",
+        "entities": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    },
+    "hospitality": {
+      "hero": {
+        "badge": "",
+        "title1": "",
+        "title2": "",
+        "description": "",
+        "primary": "",
+        "secondary": ""
+      },
+      "reality": {
+        "badge": "",
+        "title1": "",
+        "title2": ""
+      },
+      "runtime": {
+        "badge": "",
+        "title1": "",
+        "title2": ""
+      },
+      "relationships": {
+        "badge": "",
+        "title1": "",
+        "title2": ""
+      },
+      "intelligence": {
+        "badge": "",
+        "title1": "",
+        "title2": ""
+      },
+      "synthetic": {
+        "badge": "",
+        "title1": "",
+        "title2": "",
+        "title3": ""
+      },
+      "ownership": {
+        "badge": "",
+        "title1": "",
+        "title2": ""
+      },
+      "cta": {
+        "badge": "",
+        "title1": "",
+        "title2": "",
+        "description": "",
+        "primary": ""
+      },
+      "flow": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "realityContent": [
+        "",
+        "",
+        ""
+      ],
+      "runtimeContent": "",
+      "relationshipsItems": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "relationshipsDescription": "",
+      "intelligenceDescription": "",
+      "intelligenceChain": {
+        "eventLabel": "",
+        "eventTitle": "",
+        "cards": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "ownershipLabel": "",
+        "ownershipTitle": ""
+      },
+      "syntheticContent": [
+        "",
+        "",
+        ""
+      ],
+      "syntheticExecute": "",
+      "ownershipTypes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "challenges": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "whyCards": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "operatingSystem": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "syntheticActions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "accountingFirms": {
+      "hero": {
+        "badge": "",
+        "title1": "",
+        "title2": "",
+        "title3": "",
+        "title4": "",
+        "description": "",
+        "primary": "",
+        "secondary": ""
+      },
+      "beforeAfter": {
+        "badge": "",
+        "title1": "",
+        "title2": ""
+      },
+      "switch": {
+        "badge": "",
+        "title1": "",
+        "title2": ""
+      },
+      "runtime": {
+        "badge": "",
+        "title1": "",
+        "title2": ""
+      },
+      "benefits": {
+        "badge": "",
+        "title1": ""
+      },
+      "advisory": {
+        "badge": "",
+        "title1": "",
+        "description": ""
+      },
+      "enterprise": {
+        "badge": "",
+        "title1": "",
+        "title2": "",
+        "description": ""
+      },
+      "cta": {
+        "badge": "",
+        "title1": "",
+        "title2": "",
+        "title3": "",
+        "description": "",
+        "primary": ""
+      },
+      "enterpriseCards": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "advisorCards": [
+        "",
+        "",
+        ""
+      ],
+      "roiCards": [
+        "",
+        ""
+      ],
+      "features": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "beforeAfterCards": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "runtimeEvents": {
+        "title": "",
+        "subtitle": "",
+        "status": "",
+        "events": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "governanceTimeline": {
+        "label": "",
+        "title": "",
+        "status": "",
+        "events": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "multiEntity": {
+        "label": "",
+        "title": "",
+        "status": "",
+        "entities": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "accountability": {
+        "label": "",
+        "title": "",
+        "status": "",
+        "items": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "syntheticDecisionLayer": {
+        "title": "",
+        "status": "",
+        "recommendationLabel": "",
+        "recommendationText": "",
+        "predictionLabel": "",
+        "predictionText": "",
+        "detectionLabel": "",
+        "detectionText": ""
+      },
+      "financialGovernance": {
+        "title": ""
+      },
+      "runtimeDashboard": {
+        "title": "",
+        "connectedEntities": "",
+        "journalEntries": "",
+        "approvalFlows": "",
+        "governanceIntegrity": ""
+      },
+      "riskRuntime": {
+        "monthEndClose": "",
+        "operationalRisk": "",
+        "auditViolations": "",
+        "liveDetection": ""
+      },
+      "beforeAfterLists": {
+        "before": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "after": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "switchLists": {
+        "traditional": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "avantiqo": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      "syntheticSection": {
+        "badge": "",
+        "headline1": "",
+        "headline2": "",
+        "aiTitle": "",
+        "aiText": "",
+        "syntheticTitle": "",
+        "syntheticText": "",
+        "receiptText": "",
+        "receiptFooter": ""
+      },
+      "riskRuntimeLists": {
+        "missingReceipts": "",
+        "payrollApproval": "",
+        "procurementExceptions": "",
+        "continuousFlow": "",
+        "enterpriseNervousSystem": "",
+        "monitoringBehavior": "",
+        "aiVariance": "",
+        "aiPayroll": "",
+        "aiConfidence": "",
+        "aiPercentage": "",
+        "aiStatus": ""
+      },
+      "statusLabels": {
+        "aiActive": "",
+        "systemActive": "",
+        "detected": "",
+        "analysis": "",
+        "recommendation": "",
+        "live": "",
+        "verified": "",
+        "active": "",
+        "reviewing": "",
+        "approved": "",
+        "pendingClose": "",
+        "enforced": "",
+        "enabled": "",
+        "ready": "",
+        "synchronized": "",
+        "operational": ""
+      },
+      "enterpriseRuntime": {
+        "auditTraceability": "",
+        "auditDescription": "",
+        "noAnomalies": "",
+        "allSystems": "",
+        "payrollRuntime": "",
+        "payrollDesc": "",
+        "procurementRuntime": "",
+        "procurementDesc": "",
+        "financialRuntime": "",
+        "financialDesc": "",
+        "aiRuntime": "",
+        "journalEngine": "",
+        "threeWay": "",
+        "auditChain": "",
+        "procurementGovernance": "",
+        "inventoryLedger": "",
+        "multiEntity": "",
+        "approvalRuntime": "",
+        "periodLocking": "",
+        "high": "",
+        "learning": "",
+        "varianceTriggered": ""
+      },
+      "challenges": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "whyCards": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "operatingSystem": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "intelligence": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "roi": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "runtimeMetrics": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "healthcare": {
+      "hero": {
+        "badge": "",
+        "title1": "",
+        "title2": "",
+        "description": "",
+        "primary": ""
+      },
+      "reality": {
+        "badge": "",
+        "title1": "",
+        "title2": ""
+      },
+      "runtime": {
+        "badge": "",
+        "title1": "",
+        "title2": ""
+      },
+      "synthetic": {
+        "badge": "",
+        "title1": "",
+        "title2": "",
+        "title3": "",
+        "title4": ""
+      },
+      "ownership": {
+        "badge": "",
+        "title1": "",
+        "title2": ""
+      },
+      "cta": {
+        "badge": "",
+        "title1": "",
+        "title2": "",
+        "description": "",
+        "primary": ""
+      },
+      "healthcare_hero": "",
+      "patient_systems": "",
+      "clinical_systems": "",
+      "billing_systems": "",
+      "compliance_systems": "",
+      "patient_waiting_time": "",
+      "staff_utilization": "",
+      "revenue_leakage": "",
+      "capacity_planning": "",
+      "compliance_exposure": "",
+      "executive_blind_spots": "",
+      "patient_demand": "",
+      "clinical_workload": "",
+      "bed_capacity": "",
+      "staff_availability": "",
+      "financial_exposure": "",
+      "compliance_risk": "",
+      "what_is_happening": "",
+      "what_happens_next": "",
+      "what_to_do_about_it": "",
+      "patient_surge_risk__87": "",
+      "staff_shortage_risk__73": "",
+      "up_capacity_utilization": "",
+      "up_revenue_capture": "",
+      "up_leadership_visibility": "",
+      "down_waiting_time": "",
+      "down_staffing_cost": "",
+      "operational_bottlenecks_create_delays_long_before_management_becomes_aware_of_them": "",
+      "overstaffing_and_understaffing_often_happen_at_the_same_time_across_different_departments": "",
+      "disconnected_systems_create_missed_billing_opportunities_and_hidden_operational_costs": "",
+      "beds_rooms_equipment_and_staff_capacity_are_rarely_viewed_as_one_connected_reality": "",
+      "risk_grows_when_operational_events_and_compliance_obligations_are_disconnected": "",
+      "leadership_receives_reports_after_events_occur_instead_of_understanding_risks_before_they_happen": "",
+      "live_operational_visibility_across_patients_clinicians_capacity_finance_and_compliance": "",
+      "predictive_intelligence_identifies_pressure_risk_and_bottlenecks_before_escalation": "",
+      "recommended_actions_help_leadership_intervene_before_operational_failure_occurs": "",
+      "reality_content_1": "",
+      "reality_content_2": "",
+      "reality_content_3": "",
+      "reality_content_4": "",
+      "runtime_content_1": "",
+      "runtime_content_2": "",
+      "runtime_content_3": "",
+      "ownership_content_1": "",
+      "ownership_content_2": "",
+      "ownership_content_3": "",
+      "outcomes_content_1": "",
+      "healthcare_connects": "",
+      "healthcare_misunderstood": "",
+      "outcomes_badge": ""
+    },
+    "construction": {
+      "construction_hero_badge": "",
+      "construction_hero_title1": "",
+      "construction_hero_title2": "",
+      "construction_hero_description": "",
+      "construction_cta_primary": "",
+      "construction_cta_secondary": "",
+      "before_after_badge": "",
+      "before_after_title": "",
+      "features_badge": "",
+      "features_title": "",
+      "feature_1_title": "",
+      "feature_1_text": "",
+      "feature_2_title": "",
+      "feature_2_text": "",
+      "feature_3_title": "",
+      "feature_3_text": "",
+      "feature_4_title": "",
+      "feature_4_text": "",
+      "feature_5_title": "",
+      "feature_5_text": "",
+      "feature_6_title": "",
+      "feature_6_text": "",
+      "why_title": "",
+      "why_1_title": "",
+      "why_1_text": "",
+      "why_2_title": "",
+      "why_2_text": "",
+      "why_3_title": "",
+      "why_3_text": "",
+      "why_4_title": "",
+      "why_4_text": "",
+      "portal_title": "",
+      "portal_client_title": "",
+      "portal_client_text": "",
+      "portal_contractor_title": "",
+      "portal_contractor_text": "",
+      "si_title": "",
+      "si_1_title": "",
+      "si_1_text": "",
+      "si_2_title": "",
+      "si_2_text": "",
+      "si_3_title": "",
+      "si_3_text": "",
+      "si_4_title": "",
+      "si_4_text": "",
+      "marketing_title": "",
+      "marketing_text": "",
+      "challenge_title": "",
+      "challenge_text": "",
+      "profitability_title": "",
+      "profitability_text": "",
+      "flow_title": "",
+      "flow_text": "",
+      "workforce_title": "",
+      "workforce_text": "",
+      "procurement_title": "",
+      "procurement_text": "",
+      "difference_title": "",
+      "difference_text": "",
+      "future_title": "",
+      "future_text": "",
+      "cta_title": "",
+      "cta_text": "",
+      "flow_step_1": "",
+      "flow_step_2": "",
+      "flow_step_3": "",
+      "flow_step_4": "",
+      "flow_step_5": "",
+      "flow_step_6": "",
+      "flow_step_7": "",
+      "flow_step_8": "",
+      "flow_step_9": "",
+      "flow_step_10": "",
+      "flow_step_11": "",
+      "flow_step_12": "",
+      "flow_step_13": "",
+      "flow_step_14": "",
+      "flow_step_15": "",
+      "flow_step_16": "",
+      "difference_1_title": "",
+      "difference_1_text": "",
+      "difference_2_title": "",
+      "difference_2_text": "",
+      "difference_3_title": "",
+      "difference_3_text": "",
+      "difference_4_title": "",
+      "difference_4_text": "",
+      "marketing_item_1": "",
+      "marketing_item_2": "",
+      "marketing_item_3": "",
+      "marketing_item_4": "",
+      "marketing_item_5": "",
+      "marketing_item_6": "",
+      "marketing_item_7": ""
+    },
+    "professionalServices": {
+      "hero": {
+        "title": "",
+        "description": "",
+        "primary": "",
+        "secondary": ""
+      },
+      "sections": [
+        "",
+        "",
+        ""
+      ],
+      "cta": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "retailCommerce": {
+      "hero": {
+        "title": "",
+        "description": "",
+        "primary": "",
+        "secondary": ""
+      },
+      "sections": [
+        "",
+        "",
+        ""
+      ],
+      "cta": {
+        "title": "",
+        "description": "",
+        "primary": "",
+        "secondary": ""
+      }
+    },
+    "distributionManufacturing": {
+      "hero": {
+        "title": "",
+        "description": "",
+        "primary": "",
+        "secondary": ""
+      },
+      "sections": [
+        "",
+        "",
+        ""
+      ],
+      "cta": {
+        "title": "",
+        "description": "",
+        "primary": "",
+        "secondary": ""
+      }
+    }
+  },
   "brand": {
     "name": "AVANTIQO",
     "tagline": "Synthetic Intelligence Operating System"
@@ -14,1008 +954,6 @@
     "startSetup": "Start Setup",
     "accountingFirms": "Accounting Firms",
     "demo": "Demo"
-  },
-  "home": {
-    "hero": {
-      "badge": "SYNTHETIC INTELLIGENCE OPERATING SYSTEM",
-      "title1": "Where Business Reality",
-      "title2": "Becomes Financial Intelligence.",
-      "description": "Avantiqo connects business operations directly to accounting, finance, documents, payroll, approvals, and execution through one Synthetic Intelligence layer. Every operational event becomes financial intelligence in real time.",
-      "book_demo": "Experience Avantiqo",
-      "start_setup": "For Accounting Firms",
-      "trust": "Built for accounting firms, business owners, multi-entity groups, and companies ready to move beyond disconnected software.",
-      "image_caption": "BUSINESS REALITY TO FINANCIAL INTELLIGENCE"
-    },
-    "accounting": {
-      "badge": "THE END OF THE GAP BETWEEN BUSINESS AND ACCOUNTING",
-      "title1": "Accounting Should Not Start",
-      "title2": "After The Month Ends.",
-      "description": "For decades, businesses operated in one world while accountants worked in another. Avantiqo eliminates that gap by turning operations, invoices, payroll, procurement, documents, and approvals into live financial intelligence."
-    },
-    "pillars": {
-      "operations": {
-        "badge": "01",
-        "title": "Business Reality",
-        "description": "Revenue, costs, staff, inventory, projects, documents, and approvals are captured while the business is operating."
-      },
-      "accounting": {
-        "badge": "02",
-        "title": "Financial Intelligence",
-        "description": "Operational activity becomes accounting-ready intelligence instead of delayed paperwork, spreadsheets, and manual reconciliation."
-      },
-      "firms": {
-        "badge": "03",
-        "title": "Accounting Firms",
-        "description": "Firms can monitor clients continuously, detect risks earlier, and move from bookkeeping into high-value advisory."
-      },
-      "execution": {
-        "badge": "04",
-        "title": "Enterprise Execution",
-        "description": "The system does not stop at reports. It coordinates approvals, governance, workflows, and operational accountability."
-      }
-    },
-    "synthetic": {
-      "badge": "WHY SYNTHETIC INTELLIGENCE",
-      "title1": "Artificial Intelligence Answers.",
-      "title2": "Synthetic Intelligence Operates.",
-      "description": "AI can generate text, images, and reports. Synthetic Intelligence understands how the business actually works. It connects people, money, documents, customers, suppliers, workflows, decisions, and accounting into one living operating layer.",
-      "formulaBadge": "THE AVANTIQO FORMULA",
-      "formula": "Business Operations + Accounting Intelligence + Enterprise Memory + Execution = Synthetic Intelligence."
-    },
-    "cta": {
-      "badge": "OWN THE FUTURE OF ACCOUNTING",
-      "title1": "From Bookkeeping",
-      "title2": "To Business Intelligence.",
-      "title3": "Powered By Synthetic Intelligence.",
-      "description": "Accounting firms that connect directly to their clients' operations will not just report the past. They will understand the present, forecast risk, guide decisions, and help businesses operate better."
-    },
-    "flow": {
-      "businessReality": [
-        "Operations",
-        "Sales",
-        "Inventory",
-        "Procurement",
-        "Projects",
-        "People",
-        "Documents"
-      ],
-      "financialIntelligence": [
-        "Accounting",
-        "Governance",
-        "Forecasting",
-        "Cash Flow",
-        "Performance",
-        "Owner Control"
-      ],
-      "businessRealityTitle": "BUSINESS REALITY",
-      "financialIntelligenceTitle": "FINANCIAL INTELLIGENCE",
-      "centerTitle": "Synthetic Intelligence"
-    },
-    "workspace": {
-      "badge": "SEE AVANTIQO IN ACTION",
-      "title1": "One Workspace.",
-      "title2": "Every Business Function.",
-      "description": "Operations, Finance, Accounting, Documents, Approvals, Marketing, AI Runtime and Enterprise Control connected through one operating layer.",
-      "cards": {
-        "clientManagement": {
-          "title": "CLIENT MANAGEMENT",
-          "description": "Manage all clients from one workspace."
-        },
-        "accountantAssignment": {
-          "title": "ACCOUNTANT ASSIGNMENT",
-          "description": "Assign accountants and balance workloads."
-        },
-        "complianceControl": {
-          "title": "COMPLIANCE CONTROL",
-          "description": "Track deadlines, approvals and obligations."
-        },
-        "aiRuntime": {
-          "title": "AI ACCOUNTING RUNTIME",
-          "description": "AI-assisted operational and accounting workflows."
-        }
-      },
-      "modules": [
-        "Operations",
-        "Finance",
-        "Accounting",
-        "Documents",
-        "Approvals",
-        "AI Runtime"
-      ]
-    },
-    "comparison": {
-      "software": {
-        "title": "TRADITIONAL SOFTWARE",
-        "items": [
-          "Stores Data",
-          "Manual Work",
-          "Accounting Later"
-        ]
-      },
-      "ai": {
-        "title": "TRADITIONAL AI",
-        "items": [
-          "Generates Answers",
-          "More Manual Work",
-          "No Financial Context"
-        ]
-      },
-      "avantiqo": {
-        "title": "AVANTIQO",
-        "items": [
-          "Observe",
-          "Decide",
-          "Execute",
-          "Account"
-        ]
-      }
-    },
-    "industries": {
-      "badge": "INDUSTRY SOLUTIONS",
-      "title1": "Built For Your Industry.",
-      "title2": "Configured For Your Business.",
-      "description": "Every industry operates differently. Restaurants, hotels, accounting firms, retailers, construction companies and enterprise groups all require different workflows, controls and intelligence. Avantiqo adapts to your business while keeping Customers, Marketing, Operations, Finance and Intelligence connected on one platform.",
-      "groups": {
-        "professionalServices": {
-          "title": "Professional Services",
-          "description": "Accounting firms, legal firms, consultants, agencies and service businesses."
-        },
-        "hospitality": {
-          "title": "Hospitality",
-          "description": "Restaurants, hotels, resorts, beach clubs and nightlife venues."
-        },
-        "retail": {
-          "title": "Retail & Commerce",
-          "description": "Retail stores, shopping malls, franchises and e-commerce."
-        },
-        "construction": {
-          "title": "Construction & Property",
-          "description": "Construction, real estate, property management and development."
-        },
-        "distribution": {
-          "title": "Distribution & Manufacturing",
-          "description": "Warehousing, logistics, procurement and production."
-        },
-        "enterprise": {
-          "title": "Enterprise",
-          "description": "Multi-company groups, holdings, family offices and enterprise organizations."
-        }
-      },
-      "pillars": {
-        "badge": "PLATFORM FOUNDATION",
-        "title1": "Every Operating System",
-        "title2": "Includes",
-        "revenue": {
-          "title": "Revenue",
-          "items": [
-            "CRM",
-            "Customer Experience",
-            "Marketing",
-            "Reviews",
-            "Sales",
-            "Loyalty",
-            "Design Studio"
-          ]
-        },
-        "operations": {
-          "title": "Operations",
-          "items": [
-            "Projects",
-            "Inventory",
-            "Procurement",
-            "Production",
-            "Scheduling",
-            "Documents",
-            "Workflow Engine"
-          ]
-        },
-        "finance": {
-          "title": "Finance",
-          "items": [
-            "Accounting",
-            "Payroll",
-            "Treasury",
-            "Tax",
-            "Accounts Payable",
-            "Accounts Receivable",
-            "Reporting"
-          ]
-        },
-        "intelligence": {
-          "title": "Synthetic Intelligence",
-          "items": [
-            "AI Runtime",
-            "Recommendations",
-            "Compliance",
-            "Optimization",
-            "Knowledge Memory",
-            "Executive Intelligence"
-          ]
-        }
-      },
-      "intelligence": {
-        "badge": "SYNTHETIC INTELLIGENCE",
-        "title1": "Every Industry.",
-        "title2": "One Intelligence Layer.",
-        "description": "Avantiqo adapts to your industry while keeping Revenue, Operations, Finance and Intelligence connected through one operating platform."
-      },
-      "runtimeLabel": "Industry Operating System",
-      "exploreIndustry": "Explore Solution",
-      "cta": {
-        "badge": "ONE PLATFORM",
-        "title1": "Built for your industry.",
-        "title2": "Configured for your operation.",
-        "title3": "Powered by one intelligence layer.",
-        "description": "Whether you run a restaurant, accounting firm, hotel, construction company, retail chain or enterprise group, Avantiqo adapts the operating system to your industry while keeping Revenue, Operations, Finance and Intelligence connected.",
-        "primary": "Explore Industry Solutions",
-        "secondary": "See Platform Architecture"
-      },
-      "businessFunctions": {
-        "badge": "BUSINESS FUNCTIONS",
-        "title1": "Every Business Function.",
-        "title2": "One Connected Platform.",
-        "description": "From customer acquisition to financial reporting, every function operates on the same foundation.",
-        "cards": [
-          {
-            "title": "MARKETING",
-            "items": [
-              "Campaigns",
-              "Design Studio",
-              "Social Media",
-              "Content AI"
-            ]
-          },
-          {
-            "title": "CUSTOMERS",
-            "items": [
-              "CRM",
-              "Loyalty",
-              "Reviews",
-              "Sales"
-            ]
-          },
-          {
-            "title": "OPERATIONS",
-            "items": [
-              "Projects",
-              "Scheduling",
-              "Workforce",
-              "Approvals"
-            ]
-          },
-          {
-            "title": "FINANCE",
-            "items": [
-              "Accounting",
-              "Revenue",
-              "Treasury",
-              "Compliance"
-            ]
-          },
-          {
-            "title": "DOCUMENTS",
-            "items": [
-              "Contracts",
-              "Policies",
-              "Governance",
-              "Records"
-            ]
-          },
-          {
-            "title": "INTELLIGENCE",
-            "items": [
-              "Insights",
-              "Recommendations",
-              "Automation",
-              "Execution"
-            ]
-          }
-        ]
-      },
-      "intelligenceLayer": {
-        "badge": "INTELLIGENCE LAYER",
-        "title1": "One Intelligence Layer.",
-        "title2": "Across Every Industry.",
-        "description": "Avantiqo observes activity across every department, understands relationships between data, recommends actions, and gradually automates execution.",
-        "steps": [
-          {
-            "title": "OBSERVE",
-            "desc": "Collects activity across customers, operations, finance and workforce."
-          },
-          {
-            "title": "UNDERSTAND",
-            "desc": "Builds relationships between people, data, processes and outcomes."
-          },
-          {
-            "title": "RECOMMEND",
-            "desc": "Identifies opportunities, risks and actions."
-          },
-          {
-            "title": "EXECUTE",
-            "desc": "Automates workflows, approvals and decisions."
-          }
-        ]
-      },
-      "dataFoundation": {
-        "badge": "ONE DATA FOUNDATION",
-        "title1": "Unified Business Data.",
-        "title2": "Across Every Department.",
-        "description": "No disconnected systems. No duplicated records. No manual reconciliation. Every module, department and industry runtime operates from the same foundation.",
-        "entities": [
-          {
-            "title": "Customer",
-            "desc": "Sales, CRM, loyalty and marketing"
-          },
-          {
-            "title": "Employee",
-            "desc": "Workforce, payroll and performance"
-          },
-          {
-            "title": "Supplier",
-            "desc": "Procurement and vendor management"
-          },
-          {
-            "title": "Transaction",
-            "desc": "Operations, finance and reporting"
-          },
-          {
-            "title": "Unified Record",
-            "desc": "One foundation across the platform"
-          }
-        ]
-      }
-    },
-    "hospitality": {
-      "hero": {
-        "badge": "HOSPITALITY INTELLIGENCE PLATFORM",
-        "title1": "See The Entire Business.",
-        "title2": "Know What Happens Next.",
-        "description": "Reservations, operations, workforce, finance, marketing and guest experience connected through one synthetic intelligence layer.",
-        "primary": "Book Demo",
-        "secondary": "Explore Platform"
-      },
-      "reality": {
-        "badge": "HOSPITALITY REALITY",
-        "title1": "Hospitality today is connected everywhere.",
-        "title2": "But understood nowhere."
-      },
-      "runtime": {
-        "badge": "ONE HOSPITALITY RUNTIME",
-        "title1": "Guests. Operations. Finance. Ownership.",
-        "title2": "One connected runtime."
-      },
-      "relationships": {
-        "badge": "FROM ACTIVITY TO INTELLIGENCE",
-        "title1": "Most systems store events.",
-        "title2": "Avantiqo understands relationships."
-      },
-      "intelligence": {
-        "badge": "REAL HOSPITALITY INTELLIGENCE",
-        "title1": "One reservation.",
-        "title2": "One chain reaction."
-      },
-      "synthetic": {
-        "badge": "SYNTHETIC INTELLIGENCE LAYER",
-        "title1": "Observe.",
-        "title2": "Understand.",
-        "title3": "Recommend."
-      },
-      "ownership": {
-        "badge": "OWNERSHIP LAYER",
-        "title1": "Ownership sees everything.",
-        "title2": "Before it happens."
-      },
-      "cta": {
-        "badge": "HOSPITALITY OPERATING SYSTEM",
-        "title1": "Hospitality was built around operations.",
-        "title2": "The future will be built around intelligence.",
-        "description": "Avantiqo connects operations, finance, workforce, marketing and guest experience through one Synthetic Intelligence Operating System.",
-        "primary": "Book Demo"
-      },
-      "flow": [
-        "Guest arrives",
-        "Reservation",
-        "Service",
-        "Inventory",
-        "Payroll",
-        "Accounting",
-        "Profitability",
-        "Ownership"
-      ],
-      "realityContent": [
-        "Most hospitality businesses operate through disconnected systems. Reservations live in one platform. Operations live in another. Finance sees the business weeks later. Marketing works from assumptions. Management reacts instead of leading.",
-        "The problem is not a lack of data. The problem is a lack of understanding.",
-        "Hospitality businesses do not need more software. They need one operating system."
-      ],
-      "runtimeContent": "Not separate departments. Not separate software. One connected foundation where every action becomes part of the same business story.",
-      "relationshipsItems": [
-        "A reservation is not a reservation. It is demand.",
-        "A shift is not a shift. It is labour cost.",
-        "An order is not an order. It is revenue.",
-        "A review is not a review. It is future growth."
-      ],
-      "relationshipsDescription": "That is the difference between software and Synthetic Intelligence. Avantiqo connects operational activity directly to business meaning.",
-      "intelligenceDescription": "Hospitality is not a collection of separate events. Every action creates consequences throughout the business. Avantiqo follows those consequences automatically.",
-      "intelligenceChain": {
-        "eventLabel": "Event",
-        "eventTitle": "Reservation demand increases for next weekend",
-        "cards": [
-          {
-            "label": "Operations",
-            "title": "Service demand increases"
-          },
-          {
-            "label": "Workforce",
-            "title": "Staffing requirements adjust automatically"
-          },
-          {
-            "label": "Inventory",
-            "title": "Purchasing forecasts update"
-          },
-          {
-            "label": "Finance",
-            "title": "Revenue and labour projections recalculate"
-          }
-        ],
-        "ownershipLabel": "Ownership",
-        "ownershipTitle": "Ownership sees the impact before it happens."
-      },
-      "syntheticContent": [
-        "Most platforms stop at reporting. Avantiqo continues into action.",
-        "The system continuously observes activity across guests, staff, operations, finance and ownership. It identifies patterns, predicts outcomes, recommends actions and executes approved workflows automatically.",
-        "This is not a chatbot. This is an operational intelligence layer built into the business itself."
-      ],
-      "syntheticExecute": "Execute.",
-      "ownershipTypes": [
-        "Restaurant",
-        "Hotel",
-        "Beach Club",
-        "Multi Venue Group",
-        "Enterprise Hospitality Organization"
-      ]
-    },
-    "accountingFirms": {
-      "hero": {
-        "badge": "SYNTHETIC INTELLIGENCE FOR ACCOUNTING FIRMS",
-        "title1": "Stop Reporting",
-        "title2": "The Past.",
-        "title3": "Start Managing",
-        "title4": "The Future.",
-        "description": "Avantiqo gives accounting firms real-time visibility into operations, approvals, payroll, procurement and financial activity instead of waiting for paperwork 30 days later.",
-        "primary": "Build The Next Generation Accounting Firm",
-        "secondary": "Talk To Enterprise Team"
-      },
-      "beforeAfter": {
-        "badge": "BEFORE VS AFTER",
-        "title1": "Stop rebuilding businesses",
-        "title2": "from paperwork."
-      },
-      "switch": {
-        "badge": "WHY ACCOUNTING FIRMS SWITCH",
-        "title1": "Other software stores transactions.",
-        "title2": "Avantiqo understands businesses."
-      },
-      "runtime": {
-        "badge": "ACCOUNTING RUNTIME",
-        "title1": "Everything connected.",
-        "title2": "Everything visible."
-      },
-      "benefits": {
-        "badge": "ACCOUNTING FIRM BENEFITS",
-        "title1": "Scale your accounting firm without scaling operational chaos."
-      },
-      "advisory": {
-        "badge": "WHY SYNTHETIC INTELLIGENCE FOR ACCOUNTING FIRMS CHOOSE AVANTIQO",
-        "title1": "Turn accounting from bookkeeping into operational intelligence.",
-        "description": "Avantiqo helps accounting firms become live operational intelligence partners, not just month-end bookkeeping providers."
-      },
-      "enterprise": {
-        "badge": "ENTERPRISE CONTROL & COMPLIANCE",
-        "title1": "Built for operational trust,",
-        "title2": "accountability and visibility.",
-        "description": "Avantiqo provides accounting firms with enterprise-grade operational visibility, permission control and audit accountability across all clients."
-      },
-      "cta": {
-        "badge": "LIVE ACCOUNTING CONTROL",
-        "title1": "Your accounting firm",
-        "title2": "should not discover",
-        "title3": "problems 30 days later.",
-        "description": "Avantiqo transforms accounting firms into real-time operational intelligence partners.",
-        "primary": "Book Enterprise Demo"
-      },
-      "enterpriseCards": [
-        {
-          "title": "Role-Based Permissions",
-          "description": "Every accountant only sees assigned companies, approvals and operational areas."
-        },
-        {
-          "title": "Full Audit Trail",
-          "description": "Every approval, document upload and operational action tracked automatically."
-        },
-        {
-          "title": "Approval Accountability",
-          "description": "Know exactly who approved what, when and from which operational workflow."
-        },
-        {
-          "title": "Multi-Company Runtime",
-          "description": "Manage multiple companies, branches and operational entities from one connected system."
-        },
-        {
-          "title": "Searchable Operational History",
-          "description": "Find invoices, approvals, payroll activity and operational changes instantly."
-        },
-        {
-          "title": "Live Operational Monitoring",
-          "description": "Identify financial and operational issues before they become month-end surprises."
-        }
-      ],
-      "advisorCards": [
-        {
-          "label": "Advisory",
-          "title": "Become a Live Business Advisor",
-          "description": "Move from reactive bookkeeping to proactive operational guidance with live client revenue, payroll, procurement and approval visibility.",
-          "items": [
-            "Spot revenue drops early",
-            "Monitor payroll pressure",
-            "Track procurement issues",
-            "Advise clients before month-end"
-          ]
-        },
-        {
-          "label": "Trust",
-          "title": "Increase Owner Confidence",
-          "description": "Give business owners transparent access to approvals, documents, expenses and financial activity so trust increases between client and accountant.",
-          "items": [
-            "Live owner visibility",
-            "Connected approvals",
-            "Searchable documents",
-            "Clear responsibility tracking"
-          ]
-        },
-        {
-          "label": "Risk",
-          "title": "Reduce Leakage & Mistakes",
-          "description": "See unusual activity, missing invoices, delayed approvals and operational cost problems before they become month-end surprises.",
-          "items": [
-            "Expense visibility",
-            "Audit history",
-            "Approval controls",
-            "Operational anomaly alerts"
-          ]
-        }
-      ],
-      "roiCards": [
-        {
-          "label": "Growth",
-          "title": "Handle More Clients",
-          "description": "Reduce manual accounting workload by connecting invoices, payroll, procurement, approvals and operational activity into one live runtime.",
-          "items": [
-            "AI-assisted invoice extraction",
-            "Faster month-end closing",
-            "Less manual bookkeeping",
-            "More clients without more paperwork"
-          ]
-        },
-        {
-          "label": "Visibility",
-          "title": "Discover Problems Earlier",
-          "description": "Monitor client operations in real time instead of waiting for documents and reports at the end of the month.",
-          "items": [
-            "Live revenue visibility",
-            "Payroll and procurement tracking",
-            "Approval monitoring",
-            "Full operational audit trail"
-          ]
-        }
-      ],
-      "features": [
-        {
-          "title": "LIVE FINANCIAL VISIBILITY",
-          "description": "Monitor revenue, payroll, procurement, approvals and operational costs in real time across all clients.",
-          "image": "/images/accounting-live-control.png"
-        },
-        {
-          "title": "AI DOCUMENT EXTRACTION",
-          "description": "Invoices, receipts and paperwork automatically extracted and organized into the financial workflow.",
-          "image": "/images/documents-flow.png"
-        },
-        {
-          "title": "MULTI-COMPANY CONTROL",
-          "description": "Accounting firms manage multiple businesses from one connected operational runtime.",
-          "image": "/images/accounting-multi-company.png"
-        },
-        {
-          "title": "LIVE APPROVALS & AUDIT",
-          "description": "Every approval, document and operational change tracked with full audit visibility.",
-          "image": "/images/accounting-approval-runtime.png"
-        }
-      ],
-      "beforeAfterCards": [
-        {
-          "label": "item1",
-          "name": "Missing invoices and receipts",
-          "status": "Pending"
-        },
-        {
-          "label": "item2",
-          "name": "Manual data entry",
-          "status": "Pending"
-        },
-        {
-          "label": "item3",
-          "name": "Line messages and paperwork",
-          "status": "Pending"
-        },
-        {
-          "label": "item4",
-          "name": "No real-time visibility",
-          "status": "Pending"
-        },
-        {
-          "label": "item5",
-          "name": "Delayed financial oversight",
-          "status": "Pending"
-        },
-        {
-          "label": "item6",
-          "name": "Operational problems discovered too late",
-          "status": "Pending"
-        }
-      ],
-      "runtimeEvents": {
-        "title": "Live Runtime Event Stream",
-        "subtitle": "Continuous Operational Flow",
-        "status": "LIVE",
-        "events": [
-          {
-            "time": "09:22",
-            "title": "Payroll runtime locked"
-          },
-          {
-            "time": "09:24",
-            "title": "Inventory ledger synchronized"
-          },
-          {
-            "time": "09:26",
-            "title": "Variance detection triggered"
-          },
-          {
-            "time": "09:28",
-            "title": "Approval escalation initiated"
-          },
-          {
-            "time": "09:31",
-            "title": "Revenue synchronization completed"
-          }
-        ]
-      },
-      "governanceTimeline": {
-        "label": "Governance Timeline",
-        "title": "Continuous Operational Flow",
-        "status": "LIVE",
-        "events": [
-          {
-            "time": "08:42",
-            "title": "Procurement Approved"
-          },
-          {
-            "time": "09:14",
-            "title": "Journal Posted"
-          },
-          {
-            "time": "09:16",
-            "title": "Reconciliation Updated"
-          },
-          {
-            "time": "09:22",
-            "title": "Payroll Runtime Locked"
-          }
-        ]
-      },
-      "multiEntity": {
-        "label": "Multi-Entity Operational Runtime",
-        "title": "Cross-Company Oversight",
-        "status": "4 ENTITIES",
-        "entities": [
-          {
-            "name": "Churchill Phuket",
-            "status": "ACTIVE"
-          },
-          {
-            "name": "BEA Co., Ltd.",
-            "status": "REVIEWING"
-          },
-          {
-            "name": "PCS Phuket",
-            "status": "APPROVED"
-          },
-          {
-            "name": "Cole Ley Entertainment",
-            "status": "PENDING CLOSE"
-          }
-        ]
-      },
-      "accountability": {
-        "label": "Approval Accountability",
-        "title": "Human Governance Runtime",
-        "status": "VERIFIED",
-        "items": [
-          {
-            "label": "Approved By",
-            "name": "P. Vallgarda — CFO Runtime",
-            "status": "ACTIVE"
-          },
-          {
-            "label": "Locked By",
-            "name": "Financial Governance Engine",
-            "status": "ENFORCED"
-          },
-          {
-            "label": "Reviewed By",
-            "name": "Operations Control Runtime",
-            "status": "VERIFIED"
-          }
-        ]
-      },
-      "syntheticDecisionLayer": {
-        "title": "Predictive Operational Intelligence",
-        "status": "LEARNING",
-        "recommendationLabel": "AI Recommendation",
-        "recommendationText": "Delay financial close until procurement reconciliation completes.",
-        "predictionLabel": "AI Prediction",
-        "predictionText": "Procurement shortage risk predicted within 6 operational days.",
-        "detectionLabel": "AI Detection",
-        "detectionText": "Unusual approval behavior detected in hospitality runtime."
-      },
-      "financialGovernance": {
-        "title": "Live Financial Governance"
-      },
-      "runtimeDashboard": {
-        "title": "Enterprise Runtime",
-        "connectedEntities": "Connected Entities",
-        "journalEntries": "Journal Entries Today",
-        "approvalFlows": "Approval Flows",
-        "governanceIntegrity": "Governance Integrity"
-      },
-      "riskRuntime": {
-        "monthEndClose": "Month-End Close Runtime",
-        "operationalRisk": "Operational Risk Runtime",
-        "auditViolations": "Audit Violations",
-        "liveDetection": "Live Runtime Detection"
-      },
-      "beforeAfterLists": {
-        "before": [
-          "Missing invoices and receipts",
-          "Manual data entry",
-          "Line messages and paperwork",
-          "No real-time visibility",
-          "Delayed financial oversight",
-          "Operational problems discovered too late"
-        ],
-        "after": [
-          "AI invoice extraction",
-          "Real-time operational visibility",
-          "Live payroll and procurement tracking",
-          "Connected approvals and audit trails",
-          "Multi-company dashboard control",
-          "Accounting firms handle more clients efficiently"
-        ]
-      },
-      "switchLists": {
-        "traditional": [
-          "Reports after the month ends",
-          "No operational visibility",
-          "Manual document collection",
-          "Problems discovered too late",
-          "No approval intelligence",
-          "No operational accountability",
-          "No live client monitoring"
-        ],
-        "avantiqo": [
-          "Live operational visibility",
-          "AI document extraction",
-          "Multi-company control",
-          "Approval accountability",
-          "Operational anomaly detection",
-          "Continuous audit trail",
-          "Synthetic Intelligence recommendations"
-        ]
-      },
-      "syntheticSection": {
-        "badge": "SYNTHETIC INTELLIGENCE",
-        "headline1": "Artificial Intelligence answers questions.",
-        "headline2": "Synthetic Intelligence understands businesses.",
-        "aiTitle": "AI",
-        "aiText": "Generates content. Answers questions. Creates reports. Responds to prompts.",
-        "syntheticTitle": "Synthetic Intelligence",
-        "syntheticText": "Understands relationships between payroll, procurement, approvals, documents, accounting, inventory and operations. Detects risks. Predicts outcomes. Recommends actions. Creates operational intelligence.",
-        "receiptText": "It affects approvals, accounting, procurement reconciliation, financial close, audit confidence, and management visibility.",
-        "receiptFooter": "Synthetic Intelligence understands the entire chain reaction."
-      },
-      "riskRuntimeLists": {
-        "missingReceipts": "Missing Receipts",
-        "payrollApproval": "Payroll Approval Delayed",
-        "procurementExceptions": "Procurement Exceptions",
-        "continuousFlow": "Continuous Operational Flow",
-        "enterpriseNervousSystem": "Enterprise Operational Nervous System",
-        "monitoringBehavior": "Monitoring Operational Behavior",
-        "aiVariance": "Procurement variance detected in hospitality operations.",
-        "aiPayroll": "Payroll inconsistency identified before financial close.",
-        "aiConfidence": "AI Runtime Confidence",
-        "aiPercentage": "97.2%",
-        "aiStatus": "No critical anomalies detected."
-      },
-      "statusLabels": {
-        "aiActive": "AI ACTIVE",
-        "systemActive": "SYSTEM ACTIVE",
-        "detected": "AI DETECTED",
-        "analysis": "AI ANALYSIS",
-        "recommendation": "AI RECOMMENDATION",
-        "live": "LIVE",
-        "verified": "VERIFIED",
-        "active": "ACTIVE",
-        "reviewing": "REVIEWING",
-        "approved": "APPROVED",
-        "pendingClose": "PENDING CLOSE",
-        "enforced": "ENFORCED",
-        "enabled": "ENABLED",
-        "ready": "READY",
-        "synchronized": "SYNCHRONIZED",
-        "operational": "OPERATIONAL"
-      },
-      "enterpriseRuntime": {
-        "auditTraceability": "Enterprise Audit Traceability",
-        "auditDescription": "Every approval, edit, transaction and operational event is permanently tracked across the enterprise runtime architecture.",
-        "noAnomalies": "No critical anomalies detected.",
-        "allSystems": "ALL SYSTEMS SYNCHRONIZED",
-        "payrollRuntime": "Payroll Runtime",
-        "payrollDesc": "Synced with Operations Control",
-        "procurementRuntime": "Procurement Runtime",
-        "procurementDesc": "Connected to Inventory Ledger",
-        "financialRuntime": "Financial Runtime",
-        "financialDesc": "Linked to Live Revenue Streams",
-        "aiRuntime": "AI Runtime",
-        "journalEngine": "Canonical Journal Engine",
-        "threeWay": "3-Way Matching",
-        "auditChain": "Audit Chain Integrity",
-        "procurementGovernance": "Procurement Governance",
-        "inventoryLedger": "Inventory Ledger",
-        "multiEntity": "Multi-Entity Consolidation",
-        "approvalRuntime": "Approval Runtime",
-        "periodLocking": "Period Locking",
-        "high": "HIGH",
-        "learning": "LEARNING",
-        "varianceTriggered": "AI variance detection triggered"
-      }
-    },
-    "healthcare": {
-      "hero": {
-        "badge": "PLATTFORM FÖR VÅRDINTELLIGENS",
-        "title2": "Innan problemen blir synliga.",
-        "title1": "Se hela vårdsystemet.",
-        "description": "Patienter, vårdpersonal, drift, ekonomi, regelefterlevnad och ledning samlas i ett intelligent operativt lager.",
-        "primary": "Begär en ledningsgenomgång"
-      },
-      "reality": {
-        "badge": "SJUKVÅRDENS VERKLIGHET",
-        "title1": "Sjukvården är sammankopplad överallt.",
-        "title2": "Men förstås ingenstans fullt ut."
-      },
-      "runtime": {
-        "badge": "EN GEMENSAM SJUKVÅRDSPLATTFORM",
-        "title1": "Patientefterfrågan. Klinisk arbetsbelastning. Vårdkapacitet.",
-        "title2": "Personaltillgänglighet. Finansiell exponering. Efterlevnadsrisk."
-      },
-      "synthetic": {
-        "badge": "LAGER AV SYNTETISK INTELLIGENS",
-        "title1": "Traditionella system visar",
-        "title2": "vad som har hänt.",
-        "title3": "Avantiqo visar",
-        "title4": "vad som händer härnäst."
-      },
-      "ownership": {
-        "badge": "LEDNINGSLAGER",
-        "title1": "Ledningen ser allt.",
-        "title2": "Innan det händer."
-      },
-      "cta": {
-        "badge": "SJUKVÅRDENS OPERATIVSYSTEM",
-        "title1": "Sjukvården byggdes kring behandling.",
-        "title2": "Framtiden kommer att byggas kring intelligens.",
-        "description": "Avantiqo sammanför patienter, kliniker, verksamhet, ekonomi, efterlevnad och ledning i ett gemensamt operativsystem för syntetisk intelligens.",
-        "primary": "Begär ledningsbriefing"
-      },
-      "healthcare_hero": "Se hela vårdsystemet",
-      "patient_systems": "Patientsystem",
-      "clinical_systems": "Kliniska system",
-      "billing_systems": "Faktureringssystem",
-      "compliance_systems": "Efterlevnadssystem",
-      "patient_waiting_time": "Patientväntetid",
-      "staff_utilization": "Personalutnyttjande",
-      "revenue_leakage": "Intäktsläckage",
-      "capacity_planning": "Kapacitetsplanering",
-      "compliance_exposure": "Efterlevnadsexponering",
-      "executive_blind_spots": "Ledningens blinda fläckar",
-      "patient_demand": "Patientefterfrågan",
-      "clinical_workload": "Klinisk arbetsbelastning",
-      "bed_capacity": "Sängkapacitet",
-      "staff_availability": "Personaltillgänglighet",
-      "financial_exposure": "Finansiell exponering",
-      "compliance_risk": "Efterlevnadsrisk",
-      "what_is_happening": "Vad händer nu",
-      "what_happens_next": "Vad händer härnäst",
-      "what_to_do_about_it": "Vad man ska göra åt det",
-      "patient_surge_risk__87": "Risk för patientökning · 87%",
-      "staff_shortage_risk__73": "Risk för personalbrist · 73%",
-      "up_capacity_utilization": "↑ Kapacitetsutnyttjande",
-      "up_revenue_capture": "↑ Intäktsfångst",
-      "up_leadership_visibility": "↑ Ledningsinsyn",
-      "down_waiting_time": "↓ Väntetid",
-      "down_staffing_cost": "↓ Personalkostnad",
-      "operational_bottlenecks_create_delays_long_before_management_becomes_aware_of_them": "Operativa flaskhalsar skapar förseningar långt innan ledningen blir medveten om dem",
-      "overstaffing_and_understaffing_often_happen_at_the_same_time_across_different_departments": "Över- och underbemanning sker ofta samtidigt i olika avdelningar",
-      "disconnected_systems_create_missed_billing_opportunities_and_hidden_operational_costs": "Frånkopplade system skapar missade faktureringsmöjligheter och dolda driftskostnader",
-      "beds_rooms_equipment_and_staff_capacity_are_rarely_viewed_as_one_connected_reality": "Sängar, rum, utrustning och personal ses sällan som en sammanhängande verklighet",
-      "risk_grows_when_operational_events_and_compliance_obligations_are_disconnected": "Risken ökar när operativa händelser och efterlevnadskrav är frånkopplade",
-      "leadership_receives_reports_after_events_occur_instead_of_understanding_risks_before_they_happen": "Ledningen får rapporter efter att händelser inträffat istället för att förstå riskerna i förväg",
-      "live_operational_visibility_across_patients_clinicians_capacity_finance_and_compliance": "Direkt operativ insyn över patienter, kliniker, kapacitet, ekonomi och efterlevnad",
-      "predictive_intelligence_identifies_pressure_risk_and_bottlenecks_before_escalation": "Prediktiv intelligens identifierar tryck, risker och flaskhalsar innan eskalering",
-      "recommended_actions_help_leadership_intervene_before_operational_failure_occurs": "Rekommenderade åtgärder hjälper ledningen att ingripa innan operativa fel uppstår",
-      "reality_content_1": "En patientinläggning påverkar bemanningen. Bemanningen påverkar schemaläggningen. Schemaläggningen påverkar kapaciteten. Kapaciteten påverkar behandlingstiderna.",
-      "reality_content_2": "Behandlingen påverkar resultaten. Resultaten påverkar ersättningen. Ersättningen påverkar den ekonomiska prestationen.",
-      "reality_content_3": "De flesta vårdorganisationer följer dessa händelser separat. Avantiqo förstår dem som en sammanhängande operativ kedja.",
-      "reality_content_4": "Problemet är inte data. Problemet är att ingen ser hur data rör sig genom verksamheten.",
-      "runtime_content_1": "Patientefterfrågan. Klinisk arbetsbelastning. Beläggningsgrad. Operationskapacitet.",
-      "runtime_content_2": "Laboratoriekapacitet. Personaltillgänglighet. Ekonomisk prestation. Efterlevnadsexponering.",
-      "runtime_content_3": "Sammankopplat genom en operativ runtime så att ledningen kan agera innan trycket blir ett problem.",
-      "ownership_content_1": "De flesta chefer får rapporter efter att händelser har inträffat. Avantiqo identifierar operativt tryck innan det blir ett problem.",
-      "ownership_content_2": "Se personalbrist innan scheman kollapsar. Se kapacitetsbegränsningar innan patientförseningar ökar.",
-      "ownership_content_3": "Se finansiell exponering innan budgetar påverkas. Se efterlevnadsrisk innan revisioner avslöjar den.",
-      "outcomes_content_1": "Mätbar operativ förbättring.",
-      "healthcare_connects": "Hälso- och sjukvården är sammankopplad överallt",
-      "healthcare_misunderstood": "Men förstås ingenstans.",
-      "outcomes_badge": "OUTCOMES",
-      "hero_description": "Se hela vårdflödet, från patienter och personal till finans och regelefterlevnad, på en samlad plattform."
-    },
-    "construction": {
-      "construction_hero_badge": "BYGGVERKSAMHET",
-      "construction_hero_title1": "Kontrollera varje byggplats innan förseningar blir förluster.",
-      "construction_hero_title2": "Byggdrift",
-      "construction_hero_description": "Budgetar, inköp, arbetskraft, godkännanden, platsrapporter, dokument och finansiell insyn samlat i ett byggoperativt system.",
-      "construction_cta_primary": "Boka demo",
-      "construction_cta_secondary": "Kontakta teamet",
-      "before_after_badge": "FÖRE VS EFTER",
-      "before_after_title": "Byt ut fragmenterad byggledning mot live-projektkontroll.",
-      "features_badge": "BYGGDRIFT",
-      "features_title": "Plats, kontor och ekonomi — kopplat live.",
-      "feature_1_title": "Live projektkontroll",
-      "feature_1_text": "Följ framsteg, budget, godkännanden, förseningar, personal och prestationer i realtid.",
-      "feature_2_title": "Byggplatsrapporter",
-      "feature_2_text": "Handledare laddar upp foton, dagliga rapporter, problem och uppdateringar direkt från platsen.",
-      "feature_3_title": "Inköp & material",
-      "feature_3_text": "Kontrollera inköpsförfrågningar, leverantörsbeställningar, materialleverans och inventeringssynlighet.",
-      "feature_4_title": "Arbetskraft & lön",
-      "feature_4_text": "Övervaka närvaro, underleverantörer, arbetskostnader, lönegodkännanden och arbetskraftsaktivitet.",
-      "feature_5_title": "Flera projektkontroller",
-      "feature_5_text": "Hantera flera byggplatser, budgetar och projektteam från ett operativt system.",
-      "feature_6_title": "Ägarinsyn",
-      "feature_6_text": "Projektägare och chefer ser live framsteg, kostnader, godkännanden och risker var som helst.",
-      "hero_primary": "[SV] hero_primary",
-      "hero_secondary": "[SV] hero_secondary",
-      "reduce_project_delays": "Minska projektförseningar",
-      "reduce_project_delays_description": "Identifiera platsproblem, godkännande flaskhalsar och förseningar innan de påverkar leveransen.",
-      "control_budget_overruns": "Budgetkontroll",
-      "control_budget_overruns_description": "[SV] Track committed costs, supplier spend, labor cost and project financial exposure live.",
-      "connect_site_office": "Anslut plats och kontor",
-      "connect_site_office_description": "[SV] Bring field updates, project management, approvals and finance into one connected workflow.",
-      "improve_contractor_accountability": "Förbättra entreprenörsansvar",
-      "improve_contractor_accountability_description": "Spåra entreprenörsaktivitet, framsteg, närvaro och slutförande av uppgifter med bevis.",
-      "faster_approvals": "Snabbare godkännanden",
-      "faster_approvals_description": "Hantera inköpsförfrågningar, ändringar, fakturor och godkännanden genom strukturerade arbetsflöden.",
-      "real_time_owner_reporting": "Rapportering i realtid för ägare",
-      "real_time_owner_reporting_description": "Ersätt försenade rapporter med realtidsinsyn i framsteg, risker och budget.",
-      "construction_problems_become_expensive_when_visibility_arrives_too_late": ""
-    }
   },
   "navigation": {
     "dashboard": "Dashboard",
@@ -2311,10 +2249,204 @@
     }
   },
   "nav": {
-    "industries": "Branscher",
-    "synthetic_intelligence": "Syntetisk Intelligens (SI)",
-    "security": "Säkerhet",
-    "login": "Logga In",
-    "start_setup": "Kom Igång"
+    "industries": "Industries",
+    "synthetic_intelligence": "Synthetic Intelligence (SI)",
+    "security": "Security",
+    "login": "Login",
+    "start_setup": "Start Setup"
+  },
+  "synthetic_intelligence": {
+    "hero_title": "Centralized Synthetic Intelligence",
+    "hero_subtitle": "Harness the power of Synthetic Intelligence to unify data, predict trends, and make informed decisions faster across your enterprise.",
+    "request_demo": "Request Demo",
+    "explore_industries": "Explore Industries",
+    "section_1_title": "What is Synthetic Intelligence?",
+    "section_2_title": "Why It Matters",
+    "section_3_title": "Key Benefits",
+    "section_4_title": "Artificial Intelligence vs Synthetic Intelligence",
+    "advanced_title": "Advanced Synthetic Intelligence",
+    "ai_title": "Artificial Intelligence",
+    "ai_subtitle": "Creates Outputs",
+    "si_title": "Synthetic Intelligence",
+    "si_subtitle": "Creates Understanding",
+    "vision_label": "Avantiqo Vision",
+    "vision_title": "The Goal Is Not To Automate Work.",
+    "vision_text": "The goal is to create organizations that understand themselves.",
+    "vision_footer": "That is the future Avantiqo is building.",
+    "enterprise_label": "Enterprise Intelligence Layer",
+    "section_1_description": "Synthetic Intelligence (SI) is a next-generation intelligence system designed\nto analyze, predict, and optimize operational and financial performance across a business\nin real time. Unlike traditional AI, SI integrates multiple streams of business data—including\nfinance, operations, customer management, and human resources—into a single, intelligent layer\nthat provides actionable insights and predictive recommendations.",
+    "section_2_description": "SI allows businesses to anticipate bottlenecks, optimize workflows, and improve\ndecision-making by providing a comprehensive, real-time overview of all critical business\noperations. By leveraging SI, executives can make informed decisions proactively, rather than\nreacting to problems after they occur, improving efficiency, reducing costs, and increasing growth.",
+    "section_3_description": "- Real-time insights across departments and functions\n- Predictive analytics for operational efficiency\n- Centralized intelligence for faster decision-making\n- Enhanced visibility for leadership to monitor KPIs\n- Automated recommendations to optimize resource allocation",
+    "section_4_description": "Artificial Intelligence Creates Answers:\nAI can generate text, images, reports, and recommendations. However, it does not understand\nthe organization itself. It can answer questions, but it cannot continuously understand\nthe relationships between operations, customers, staff, finance, compliance, and performance.\n\nSynthetic Intelligence Creates Understanding:\nSI is not designed to generate answers. It creates organizational awareness. Every customer\ninteraction, operational event, financial transaction, staff activity, project milestone, and\ncompliance requirement becomes part of a continuously evolving model of the organization.\nThis allows leadership to understand not only what happened, but why and what is likely to\nhappen next.\n\nThe Digital Twin Of The Organization:\nSI produces a living operational model of the business—a digital twin. Instead of viewing\ndepartments separately, the organization is understood as a connected system where decisions,\nevents, and outcomes influence each other. Leaders can identify risks, opportunities, and\nbottlenecks before they appear in reports."
+  },
+  "security": {
+    "hero_label": "SECURITY & TRUST",
+    "hero_title": "Security Is Not A Feature.",
+    "hero_title_highlight": "It Is The Foundation.",
+    "hero_subtitle": "Avantiqo is designed for businesses that manage sensitive operational, financial, customer, staff and organizational data. Security must exist across every layer: access, approvals, visibility, audit trails, portals, integrations and data separation.",
+    "request_briefing": "Request Security Briefing",
+    "explore_platform": "Explore Platform",
+    "model_label": "SECURITY MODEL",
+    "model_title": "Protect The Business. Protect The Data. Protect The Decisions.",
+    "why_label": "WHY IT MATTERS",
+    "why_title": "Security Creates Trust. Trust Creates Adoption.",
+    "layers_label": "SECURITY LAYERS",
+    "data_label": "DATA RESPONSIBILITY",
+    "data_title": "A Platform That Understands Sensitive Business Data.",
+    "pillar_1_title": "Organization-Level Access Control",
+    "pillar_1_text": "Avantiqo is built around organization-based access. Users only see the companies, departments, workspaces and records they are permitted to access. This prevents staff, managers, clients or external users from seeing information outside their responsibility.",
+    "pillar_2_title": "Role-Based Permissions",
+    "pillar_2_text": "Every user role can be restricted by function. Owners, managers, accounting teams, staff, customers and external collaborators can receive different levels of access. Sensitive actions such as approvals, payments, payroll, finance, customer records and reporting can be protected behind permission layers.",
+    "pillar_3_title": "Multi-Tenant Data Separation",
+    "pillar_3_text": "Avantiqo is designed for multi-company and multi-client use. Each organization operates inside its own controlled environment. This is especially important for accounting firms, hospitality groups, healthcare groups and enterprise companies managing multiple clients, branches or subsidiaries.",
+    "pillar_4_title": "Approval Governance",
+    "pillar_4_text": "Important actions should not happen silently. Avantiqo supports approval flows for invoices, payroll, accounting actions, customer requests, operational changes and management decisions. This creates accountability and reduces the risk of unauthorized or accidental actions.",
+    "pillar_5_title": "Audit Trail And Activity Visibility",
+    "pillar_5_text": "A secure system must show who did what, when it happened and why it matters. Avantiqo is designed to support audit trails across approvals, records, submissions, changes and operational events so leadership can investigate actions instead of guessing.",
+    "pillar_6_title": "Customer And Staff Portal Separation",
+    "pillar_6_text": "Customer portals and staff portals should never expose internal business controls. Avantiqo separates external customer visibility from internal operational access, allowing customers to see what is relevant to them while protecting internal data, financial logic and management decisions.",
+    "layer_1": "Authentication and controlled login access",
+    "layer_2": "Role-based authorization",
+    "layer_3": "Organization and workspace separation",
+    "layer_4": "Approval-based sensitive actions",
+    "layer_5": "Audit logs and traceable activity",
+    "layer_6": "Controlled customer portal visibility",
+    "layer_7": "Controlled staff portal visibility",
+    "layer_8": "Finance and payroll protection",
+    "layer_9": "Document and asset access control",
+    "layer_10": "Future-ready compliance structure"
+  },
+  "privacy": {
+    "hero_label": "PRIVACY & TRUST",
+    "hero_title": "Privacy Is Not A Feature.",
+    "hero_highlight": "It Is A Foundation.",
+    "hero_subtitle": "Trust cannot exist without privacy. Organizations cannot build intelligence, governance, compliance, operational visibility or enterprise-scale decision making without confidence that their information remains protected.",
+    "section_1_title": "Privacy By Design",
+    "section_2_title": "Privacy Is A Business Requirement",
+    "section_3_title": "Who Owns The Data?",
+    "section_4_title": "How Avantiqo Does NOT Use Data",
+    "section_5_title": "Synthetic Intelligence And Privacy",
+    "section_1_text": "Privacy cannot be added after a system is built.\n\nPrivacy must be incorporated into architecture, governance, access controls, workflows, intelligence systems and operational processes from the beginning.\n\nAt Avantiqo, privacy is not treated as a legal checkbox. Privacy is built into the foundation of the platform itself.\n\nEvery workflow.\nEvery approval.\nEvery operational process.\nEvery customer interaction.\nEvery financial transaction.\nEvery intelligence layer.\n\nPrivacy exists as a fundamental design principle because trust is the foundation of every modern organization.",
+    "section_2_text": "Modern organizations generate information continuously.\n\nEvery customer interaction.\nEvery financial transaction.\nEvery approval.\nEvery operational event.\nEvery employee action.\nEvery project milestone.\nEvery compliance activity.\nEvery document.\nEvery decision.\n\nTogether these activities create the operational memory of the organization.\n\nProtecting that information is not simply a regulatory requirement.\n\nIt is a business requirement.",
+    "section_3_text": "Your organization owns its data.\n\nAlways.\n\nAvantiqo does not sell customer information.\nAvantiqo does not sell employee information.\nAvantiqo does not sell operational information.\nAvantiqo does not sell financial information.\nAvantiqo does not monetize organizational intelligence.\n\nThe platform exists to help organizations understand themselves, not to take ownership of the information they generate.",
+    "section_4_text": "Avantiqo does not sell customer data.\n\nAvantiqo does not share information between organizations.\n\nAvantiqo does not build advertising profiles.\n\nAvantiqo does not monetize operational activity.\n\nAvantiqo does not use customer information to train public AI systems.\n\nThe objective of the platform is to help organizations understand themselves.\n\nNot to exploit the information they generate.",
+    "section_5_text": "Synthetic Intelligence introduces a fundamentally different approach to intelligence.\n\nTraditional artificial intelligence often attempts to learn from large volumes of public information.\n\nSynthetic Intelligence focuses on understanding organizational reality.\n\nIts purpose is not to profile individuals.\n\nIts purpose is not to create advertising models.\n\nIts purpose is not to exploit user behavior.\n\nIts purpose is organizational awareness.\n\nNot personal surveillance.",
+    "section_6_title": "Organizational Privacy",
+    "section_7_title": "Data Lifecycle Management",
+    "section_8_title": "Privacy And Executive Responsibility",
+    "section_9_title": "Privacy And Governance",
+    "section_10_title": "Privacy And Trust",
+    "section_11_title": "Data Isolation And Organizational Boundaries",
+    "section_12_title": "Data Storage And Infrastructure",
+    "section_13_title": "Data Separation And Isolation",
+    "section_14_title": "Access Control And Permissions",
+    "section_15_title": "Encryption And Data Protection",
+    "section_16_title": "Platform Administrators And Data Access",
+    "section_17_title": "Artificial Intelligence And Customer Data",
+    "section_18_title": "Backup, Resilience And Business Continuity",
+    "section_19_title": "Data Deletion And Exit Rights",
+    "section_20_title": "Customer Rights And Transparency",
+    "section_21_title": "Global Privacy Standards",
+    "section_22_title": "The Future Of Privacy"
+  },
+  "governance": {
+    "hero_label": "GOVERNANCE & ACCOUNTABILITY",
+    "hero_title": "Governance Creates Control.",
+    "hero_highlight": "Control Creates Trust.",
+    "hero_subtitle": "Governance is not bureaucracy. Governance creates accountability, visibility, consistency and decision control across the organization.",
+    "section_1_title": "Governance Is Not Management",
+    "section_2_title": "Why Governance Matters",
+    "section_3_title": "Governance As A Competitive Advantage",
+    "section_4_title": "Decision Governance",
+    "section_5_title": "Approval Workflows",
+    "section_6_title": "Organizational Accountability",
+    "section_7_title": "Auditability And Transparency",
+    "section_8_title": "Governance Across The Entire Organization",
+    "section_9_title": "Governance And Synthetic Intelligence",
+    "section_10_title": "Role-Based Authority",
+    "section_11_title": "Governance And Risk Management",
+    "section_12_title": "Governance And Compliance",
+    "section_13_title": "Governance And Executive Leadership",
+    "section_14_title": "The Future Of Governance",
+    "section_1_text": "TODO_GOVERNANCE_SECTION_1",
+    "section_2_text": "TODO_GOVERNANCE_SECTION_2",
+    "section_3_text": "TODO_GOVERNANCE_SECTION_3",
+    "section_4_text": "TODO_GOVERNANCE_SECTION_4",
+    "section_5_text": "TODO_GOVERNANCE_SECTION_5",
+    "section_6_text": "TODO_GOVERNANCE_SECTION_6",
+    "section_7_text": "TODO_GOVERNANCE_SECTION_7",
+    "section_8_text": "TODO_GOVERNANCE_SECTION_8",
+    "section_9_text": "TODO_GOVERNANCE_SECTION_9",
+    "section_10_text": "TODO_GOVERNANCE_SECTION_10",
+    "section_11_text": "TODO_GOVERNANCE_SECTION_11",
+    "section_12_text": "TODO_GOVERNANCE_SECTION_12",
+    "section_13_text": "TODO_GOVERNANCE_SECTION_13",
+    "section_14_text": "TODO_GOVERNANCE_SECTION_14"
+  },
+  "compliance": {
+    "hero_label": "COMPLIANCE & TRUST",
+    "hero_title": "Compliance Is Not A Project.",
+    "hero_highlight": "It Is Continuous.",
+    "hero_subtitle": "Avantiqo integrates compliance into operational workflows, ensuring accountability, visibility, and auditability across every department and process.",
+    "request_briefing": "Request Compliance Briefing",
+    "explore_platform": "Explore Platform",
+    "section_1_title": "Compliance Is Not A Project",
+    "section_1_text": "TODO_COMPLIANCE_SECTION_1",
+    "section_2_title": "Why Compliance Matters",
+    "section_2_text": "TODO_COMPLIANCE_SECTION_2",
+    "section_3_title": "Operational Compliance",
+    "section_3_text": "TODO_COMPLIANCE_SECTION_3",
+    "section_4_title": "Financial Compliance",
+    "section_4_text": "TODO_COMPLIANCE_SECTION_4",
+    "section_5_title": "Data Compliance",
+    "section_5_text": "TODO_COMPLIANCE_SECTION_5",
+    "section_6_title": "Governance And Compliance",
+    "section_6_text": "TODO_COMPLIANCE_SECTION_6",
+    "section_7_title": "Audit Readiness",
+    "section_7_text": "TODO_COMPLIANCE_SECTION_7",
+    "section_8_title": "Continuous Monitoring",
+    "section_8_text": "TODO_COMPLIANCE_SECTION_8",
+    "section_9_title": "Compliance And Synthetic Intelligence",
+    "section_9_text": "TODO_COMPLIANCE_SECTION_9",
+    "section_10_title": "Enterprise Accountability",
+    "section_10_text": "TODO_COMPLIANCE_SECTION_10",
+    "section_11_title": "Regulatory Readiness",
+    "section_11_text": "TODO_COMPLIANCE_SECTION_11",
+    "section_12_title": "Compliance At Scale",
+    "section_12_text": "TODO_COMPLIANCE_SECTION_12",
+    "section_13_title": "The Future Of Compliance",
+    "section_13_text": "TODO_COMPLIANCE_SECTION_13"
+  },
+  "gdpr": {
+    "hero_label": "GDPR & DATA RIGHTS",
+    "hero_title": "Privacy Requires Accountability.",
+    "hero_highlight": "Accountability Requires Visibility.",
+    "hero_subtitle": "GDPR is built around transparency, accountability, privacy and control. Organizations must understand what information exists, how it is used and how it is protected.",
+    "section_1_title": "GDPR Is Not A Checkbox",
+    "section_1_text": "TODO_GDPR_SECTION_1",
+    "section_2_title": "What Information Is Stored",
+    "section_2_text": "TODO_GDPR_SECTION_2",
+    "section_3_title": "Where Information Is Stored",
+    "section_3_text": "TODO_GDPR_SECTION_3",
+    "section_4_title": "Who Owns The Data",
+    "section_4_text": "TODO_GDPR_SECTION_4",
+    "section_5_title": "Who Can Access Information",
+    "section_5_text": "TODO_GDPR_SECTION_5",
+    "section_6_title": "Right Of Access",
+    "section_6_text": "TODO_GDPR_SECTION_6",
+    "section_7_title": "Right To Rectification",
+    "section_7_text": "TODO_GDPR_SECTION_7",
+    "section_8_title": "Right To Erasure",
+    "section_8_text": "TODO_GDPR_SECTION_8",
+    "section_9_title": "Data Portability",
+    "section_9_text": "TODO_GDPR_SECTION_9",
+    "section_10_title": "Artificial Intelligence And GDPR",
+    "section_10_text": "TODO_GDPR_SECTION_10",
+    "section_11_title": "Auditability And Accountability",
+    "section_11_text": "TODO_GDPR_SECTION_11",
+    "section_12_title": "Privacy, Governance And Compliance",
+    "section_12_text": "TODO_GDPR_SECTION_12",
+    "section_13_title": "The Future Of Data Protection",
+    "section_13_text": "TODO_GDPR_SECTION_13"
   }
 }

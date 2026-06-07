@@ -367,32 +367,32 @@
     },
     "hospitality": {
       "hero": {
-        "badge": "酒店智能平台",
-        "title1": "看见整个业务",
-        "title2": "知道下一步会发生什么",
-        "description": "预订、运营、员工、财务、营销和客户体验通过 Avantiqo 实时连接。",
-        "primary": "预约演示",
-        "secondary": "探索平台"
+        "badge": "HOSPITALITY INTELLIGENCE PLATFORM",
+        "title1": "See The Entire Business.",
+        "title2": "Know What Happens Next.",
+        "description": "Reservations, operations, workforce, finance, marketing and guest experience connected through one synthetic intelligence layer.",
+        "primary": "Book Demo",
+        "secondary": "Explore Platform"
       },
       "reality": {
-        "badge": "酒店现实",
-        "title1": "今天一切都互联",
-        "title2": "但无人真正理解"
+        "badge": "HOSPITALITY REALITY",
+        "title1": "Hospitality today is connected everywhere.",
+        "title2": "But understood nowhere."
       },
       "runtime": {
         "badge": "ONE HOSPITALITY RUNTIME",
-        "title1": "客户. 运营. 财务. 所有权.",
-        "title2": "一个互联的运行时"
+        "title1": "Guests. Operations. Finance. Ownership.",
+        "title2": "One connected runtime."
       },
       "relationships": {
-        "badge": "从活动到智能",
-        "title1": "大多数系统存储事件",
-        "title2": "Avantiqo 理解关系"
+        "badge": "FROM ACTIVITY TO INTELLIGENCE",
+        "title1": "Most systems store events.",
+        "title2": "Avantiqo understands relationships."
       },
       "intelligence": {
-        "badge": "真实酒店智能",
-        "title1": "一次预订",
-        "title2": "一次连锁反应"
+        "badge": "REAL HOSPITALITY INTELLIGENCE",
+        "title1": "One reservation.",
+        "title2": "One chain reaction."
       },
       "synthetic": {
         "badge": "SYNTHETIC INTELLIGENCE LAYER",
@@ -401,376 +401,490 @@
         "title3": "Recommend."
       },
       "ownership": {
-        "badge": "所有权层",
-        "title1": "所有者看到一切",
-        "title2": "在发生之前"
+        "badge": "OWNERSHIP LAYER",
+        "title1": "Ownership sees everything.",
+        "title2": "Before it happens."
       },
       "cta": {
         "badge": "HOSPITALITY OPERATING SYSTEM",
-        "title1": "酒店围绕运营构建",
-        "title2": "未来将围绕智能构建",
-        "description": "Avantiqo 将运营、财务、员工、营销和客户体验通过合成智能操作系统连接在一起。",
-        "primary": "预约演示"
+        "title1": "Hospitality was built around operations.",
+        "title2": "The future will be built around intelligence.",
+        "description": "Avantiqo connects operations, finance, workforce, marketing and guest experience through one Synthetic Intelligence Operating System.",
+        "primary": "Book Demo"
       },
       "flow": [
-        "客户到达",
-        "预订",
-        "服务",
-        "库存",
-        "薪资",
-        "会计",
-        "盈利能力",
-        "所有权"
+        "Guest arrives",
+        "Reservation",
+        "Service",
+        "Inventory",
+        "Payroll",
+        "Accounting",
+        "Profitability",
+        "Ownership"
       ],
       "realityContent": [
-        "大多数酒店业务通过分离系统运作。预订在一个平台，运营在另一个平台，财务滞后几周才看到业务情况，营销依赖假设，管理层被动应对。",
-        "问题不在于数据缺失，而在于缺乏理解。",
-        "酒店业务不需要更多软件，它们需要一个统一的操作系统。"
+        "Most hospitality businesses operate through disconnected systems. Reservations live in one platform. Operations live in another. Finance sees the business weeks later. Marketing works from assumptions. Management reacts instead of leading.",
+        "The problem is not a lack of data. The problem is a lack of understanding.",
+        "Hospitality businesses do not need more software. They need one operating system."
       ],
-      "runtimeContent": "不是独立部门，也不是独立软件。每个动作都是同一业务故事的一部分。",
+      "runtimeContent": "Not separate departments. Not separate software. One connected foundation where every action becomes part of the same business story.",
       "relationshipsItems": [
-        "预订不仅仅是预订，这是需求。",
-        "班次不仅仅是班次，这是劳动力成本。",
-        "订单不仅仅是订单，这是收入。",
-        "评论不仅仅是评论，这是未来增长。"
+        "A reservation is not a reservation. It is demand.",
+        "A shift is not a shift. It is labour cost.",
+        "An order is not an order. It is revenue.",
+        "A review is not a review. It is future growth."
       ],
-      "relationshipsDescription": "这就是软件与合成智能的区别。Avantiqo 将操作活动直接与业务意义连接。",
-      "intelligenceDescription": "酒店业务不是孤立事件的集合。每个动作都会在整个业务中产生连锁影响。Avantiqo 会自动跟踪这些影响。",
+      "relationshipsDescription": "That is the difference between software and Synthetic Intelligence. Avantiqo connects operational activity directly to business meaning.",
+      "intelligenceDescription": "Hospitality is not a collection of separate events. Every action creates consequences throughout the business. Avantiqo follows those consequences automatically.",
       "intelligenceChain": {
-        "eventLabel": "事件",
-        "eventTitle": "下周末的预订需求增加",
+        "eventLabel": "Event",
+        "eventTitle": "Reservation demand increases for next weekend",
         "cards": [
           {
-            "label": "运营",
-            "title": "服务需求增加"
+            "label": "Operations",
+            "title": "Service demand increases"
           },
           {
-            "label": "员工",
-            "title": "人员需求自动调整"
+            "label": "Workforce",
+            "title": "Staffing requirements adjust automatically"
           },
           {
-            "label": "库存",
-            "title": "采购预测更新"
+            "label": "Inventory",
+            "title": "Purchasing forecasts update"
           },
           {
-            "label": "财务",
-            "title": "收入与劳动力成本预测重新计算"
+            "label": "Finance",
+            "title": "Revenue and labour projections recalculate"
           }
         ],
-        "ownershipLabel": "所有者",
-        "ownershipTitle": "所有者在发生前看到影响"
+        "ownershipLabel": "Ownership",
+        "ownershipTitle": "Ownership sees the impact before it happens."
       },
       "syntheticContent": [
-        "大多数平台停留在报告阶段。Avantiqo 进入实际操作。",
-        "系统持续观察客户、员工、运营、财务和所有者。它识别模式、预测结果、推荐操作。",
-        "这不是聊天机器人，而是内置于业务中的操作智能层。"
+        "Most platforms stop at reporting. Avantiqo continues into action.",
+        "The system continuously observes activity across guests, staff, operations, finance and ownership. It identifies patterns, predicts outcomes, recommends actions and executes approved workflows automatically.",
+        "This is not a chatbot. This is an operational intelligence layer built into the business itself."
       ],
-      "syntheticExecute": "执行",
+      "syntheticExecute": "Execute.",
       "ownershipTypes": [
-        "餐厅",
-        "酒店",
-        "海滩俱乐部",
-        "多场地集团",
-        "企业级酒店组织"
+        "Restaurant",
+        "Hotel",
+        "Beach Club",
+        "Multi Venue Group",
+        "Enterprise Hospitality Organization"
       ],
-      "ownershipNotice": "For the first time, ownership can see the complete business. Not isolated reports. Not disconnected dashboards.",
-      "operationalReality": "One operational reality. One financial reality. One intelligence layer."
+      "challenges": [
+        {
+          "title": "Guest experience is fragmented",
+          "text": "Guest history, preferences, reviews, loyalty, table activity and marketing data are usually spread across different systems. Avantiqo brings the full guest picture into one operating layer."
+        },
+        {
+          "title": "Staff performance is invisible",
+          "text": "Managers often know who is working, but not who is performing, who is late, who creates value and where service quality is dropping. Avantiqo connects staff activity to accountability."
+        },
+        {
+          "title": "POS is disconnected from control",
+          "text": "Traditional POS systems record sales. Avantiqo connects sales to kitchen flow, stock, customer profiles, staff performance, revenue control and management decisions."
+        },
+        {
+          "title": "Kitchen and production lose margin",
+          "text": "Without connected production, recipe costing, waste tracking and stock visibility, hospitality businesses lose money quietly every day."
+        },
+        {
+          "title": "Marketing happens too late",
+          "text": "Most venues post randomly. Avantiqo can turn slow days, guest behavior, events, campaigns and business goals into automatic ads and social posts."
+        },
+        {
+          "title": "Owners lack one source of truth",
+          "text": "Restaurants, hotels, beach clubs, spas and multi-location groups need one operating system that shows what is happening now and what should happen next."
+        }
+      ],
+      "whyCards": [
+        {
+          "title": "Customer Portal",
+          "text": "Give guests access to loyalty, rewards, bookings, preferences, history and personalized offers. Every interaction becomes part of the customer intelligence layer."
+        },
+        {
+          "title": "Staff Portal",
+          "text": "Staff can manage attendance, tasks, confirmations, salary visibility and performance. Managers can see accountability and approve exceptions before they affect payroll."
+        },
+        {
+          "title": "POS Control",
+          "text": "Sales are not isolated. Every order can connect to customer data, kitchen operations, staff performance, stock usage, financial reporting and management dashboards."
+        },
+        {
+          "title": "Kitchen Flow",
+          "text": "Orders move from POS to kitchen with clear status, preparation flow, completion tracking and operational visibility for service teams and managers."
+        },
+        {
+          "title": "Stock & Production",
+          "text": "Connect recipes, inventory, cost control, production usage and waste so food and beverage margins are visible before month-end."
+        },
+        {
+          "title": "AI Marketing Engine",
+          "text": "Generate ads, captions, campaign ideas, event promotions and social media posts automatically from business context, slow days, guest behavior and revenue targets."
+        }
+      ],
+      "operatingSystem": [
+        {
+          "title": "Guest Intelligence",
+          "text": "Profiles, loyalty, visit history, favorite items, reviews, VIP status, marketing consent and customer value in one view."
+        },
+        {
+          "title": "Reservations & Tables",
+          "text": "Bookings, tables, guest flow, service timing and operational planning connected with the rest of the business."
+        },
+        {
+          "title": "POS & Orders",
+          "text": "Fast sales flow connected to kitchen, customer history, staff accountability, revenue reporting and daily control."
+        },
+        {
+          "title": "Kitchen & Production",
+          "text": "Live order status, preparation control, recipe costing, stock impact, waste visibility and production accountability."
+        },
+        {
+          "title": "Staff & Payroll",
+          "text": "Attendance, lateness, approvals, task completion, salary confirmation, performance and payroll-ready control."
+        },
+        {
+          "title": "Inventory & Cost",
+          "text": "Stock usage, purchasing, transfers, product costing, food cost, waste and profitability connected to operations."
+        },
+        {
+          "title": "Reviews & Reputation",
+          "text": "Google reviews, guest feedback, service issues and response opportunities connected to customer and staff intelligence."
+        },
+        {
+          "title": "Marketing & Design Studio",
+          "text": "Create campaigns, posters, ads, social posts, promotions and branded content directly from the operating system."
+        },
+        {
+          "title": "Synthetic Intelligence",
+          "text": "Predict slow days, staffing pressure, stock issues, customer churn, marketing opportunities and operational risk."
+        }
+      ],
+      "syntheticActions": [
+        {
+          "title": "Predict slow days",
+          "text": "When revenue patterns show a coming quiet period, Avantiqo can recommend offers, campaigns, events and staffing adjustments."
+        },
+        {
+          "title": "Recommend promotions",
+          "text": "The system can suggest what to promote based on guest behavior, stock levels, margin, weather, seasonality and historical sales."
+        },
+        {
+          "title": "Generate ads and posts",
+          "text": "Turn business goals into ready-to-use social captions, campaign concepts, visuals, event promotions and offer messaging."
+        },
+        {
+          "title": "Detect service risk",
+          "text": "If reviews, delays, staff behavior or operational exceptions indicate a problem, management can act before it damages reputation."
+        },
+        {
+          "title": "Optimize staffing",
+          "text": "Use revenue, bookings, order volume and guest flow to understand staffing pressure before service quality drops."
+        },
+        {
+          "title": "Protect margin",
+          "text": "Connect POS, kitchen, recipes, stock and waste so owners can see where profit is leaking."
+        }
+      ]
     },
     "accountingFirms": {
       "hero": {
-        "badge": "会计",
-        "title1": "停止重建企业",
-        "title2": "从纸质工作",
-        "title3": "开始",
-        "title4": "",
-        "description": "使用 Avantiqo 实时控制您的财务、运营和工作流。",
-        "primary": "预约演示",
-        "secondary": "探索平台"
+        "badge": "SYNTHETIC INTELLIGENCE FOR ACCOUNTING FIRMS",
+        "title1": "Stop Reporting",
+        "title2": "The Past.",
+        "title3": "Start Managing",
+        "title4": "The Future.",
+        "description": "Avantiqo gives accounting firms real-time visibility into operations, approvals, payroll, procurement and financial activity instead of waiting for paperwork 30 days later.",
+        "primary": "Build The Next Generation Accounting Firm",
+        "secondary": "Talk To Enterprise Team"
       },
       "beforeAfter": {
-        "badge": "前与后",
-        "title1": "停止重建业务",
-        "title2": "从文件工作中"
+        "badge": "BEFORE VS AFTER",
+        "title1": "Stop rebuilding businesses",
+        "title2": "from paperwork."
       },
       "switch": {
-        "badge": "为什么会计师事务所选择 Avantiqo",
-        "title1": "传统软件只保存交易",
-        "title2": "Avantiqo 了解整个业务"
+        "badge": "WHY ACCOUNTING FIRMS SWITCH",
+        "title1": "Other software stores transactions.",
+        "title2": "Avantiqo understands businesses."
       },
       "runtime": {
-        "badge": "会计运行时系统",
-        "title1": "所有事务互联",
-        "title2": "全程可视"
+        "badge": "ACCOUNTING RUNTIME",
+        "title1": "Everything connected.",
+        "title2": "Everything visible."
       },
       "benefits": {
-        "badge": "对会计师事务所的益处",
-        "title1": "扩大业务而不增加运营混乱"
+        "badge": "ACCOUNTING FIRM BENEFITS",
+        "title1": "Scale your accounting firm without scaling operational chaos."
       },
       "advisory": {
-        "badge": "会计师事务所选择 Avantiqo 的理由",
-        "title1": "将会计工作从被动转为实时智能建议",
-        "description": "Avantiqo 让会计师成为实时业务智能合作伙伴，而不仅是月末会计员"
+        "badge": "WHY SYNTHETIC INTELLIGENCE FOR ACCOUNTING FIRMS CHOOSE AVANTIQO",
+        "title1": "Turn accounting from bookkeeping into operational intelligence.",
+        "description": "Avantiqo helps accounting firms become live operational intelligence partners, not just month-end bookkeeping providers."
       },
       "enterprise": {
-        "badge": "企业级控制与治理",
-        "title1": "为操作可靠性而设计",
-        "title2": "责任和透明度",
-        "description": "Avantiqo 提供企业级可视化、权限控制和责任追踪"
+        "badge": "ENTERPRISE CONTROL & COMPLIANCE",
+        "title1": "Built for operational trust,",
+        "title2": "accountability and visibility.",
+        "description": "Avantiqo provides accounting firms with enterprise-grade operational visibility, permission control and audit accountability across all clients."
       },
       "cta": {
-        "badge": "实时会计控制",
-        "title1": "您的会计系统",
-        "title2": "不再延迟",
-        "title3": "实时问题预警",
-        "description": "Avantiqo 将会计师转变为实时业务智能伙伴",
-        "primary": "预订企业演示"
+        "badge": "LIVE ACCOUNTING CONTROL",
+        "title1": "Your accounting firm",
+        "title2": "should not discover",
+        "title3": "problems 30 days later.",
+        "description": "Avantiqo transforms accounting firms into real-time operational intelligence partners.",
+        "primary": "Book Enterprise Demo"
       },
       "enterpriseCards": [
         {
-          "title": "按角色权限",
-          "description": "每位会计只看到其被分配的公司、审批和操作区域"
+          "title": "Role-Based Permissions",
+          "description": "Every accountant only sees assigned companies, approvals and operational areas."
         },
         {
-          "title": "完整审计历史",
-          "description": "所有审批、文档上传及操作均自动记录"
+          "title": "Full Audit Trail",
+          "description": "Every approval, document upload and operational action tracked automatically."
         },
         {
-          "title": "审批责任",
-          "description": "即时知道谁审批了什么，何时，以及来自哪个流程"
+          "title": "Approval Accountability",
+          "description": "Know exactly who approved what, when and from which operational workflow."
         },
         {
-          "title": "多公司系统",
-          "description": "从一个系统管理多家公司、多分支和多部门"
+          "title": "Multi-Company Runtime",
+          "description": "Manage multiple companies, branches and operational entities from one connected system."
         },
         {
-          "title": "可搜索的操作历史",
-          "description": "实时查找发票、审批、工资及变更"
+          "title": "Searchable Operational History",
+          "description": "Find invoices, approvals, payroll activity and operational changes instantly."
         },
         {
-          "title": "实时操作监控",
-          "description": "在月末问题出现之前发现财务和运营问题"
+          "title": "Live Operational Monitoring",
+          "description": "Identify financial and operational issues before they become month-end surprises."
         }
       ],
       "advisorCards": [
         {
-          "label": "顾问",
-          "title": "实时业务顾问",
-          "description": "将会计师工作从被动转换为主动实时建议",
+          "label": "Advisory",
+          "title": "Become a Live Business Advisor",
+          "description": "Move from reactive bookkeeping to proactive operational guidance with live client revenue, payroll, procurement and approval visibility.",
           "items": [
-            "提前发现收入下降",
-            "追踪工资压力",
-            "检查采购问题",
-            "在月末前提供客户建议"
+            "Spot revenue drops early",
+            "Monitor payroll pressure",
+            "Track procurement issues",
+            "Advise clients before month-end"
           ]
         },
         {
-          "label": "信任",
-          "title": "提升业主信心",
-          "description": "让业主实时看到审批、文档、费用和财务活动",
+          "label": "Trust",
+          "title": "Increase Owner Confidence",
+          "description": "Give business owners transparent access to approvals, documents, expenses and financial activity so trust increases between client and accountant.",
           "items": [
-            "业主实时可见",
-            "审批连贯",
-            "文档可搜索",
-            "责任清晰"
+            "Live owner visibility",
+            "Connected approvals",
+            "Searchable documents",
+            "Clear responsibility tracking"
           ]
         },
         {
-          "label": "风险",
-          "title": "降低漏洞和错误",
-          "description": "监控异常活动、丢失发票、延迟审批和成本问题",
+          "label": "Risk",
+          "title": "Reduce Leakage & Mistakes",
+          "description": "See unusual activity, missing invoices, delayed approvals and operational cost problems before they become month-end surprises.",
           "items": [
-            "查看支出",
-            "完整审计历史",
-            "审批控制",
-            "异常提醒"
+            "Expense visibility",
+            "Audit history",
+            "Approval controls",
+            "Operational anomaly alerts"
           ]
         }
       ],
       "roiCards": [
         {
-          "label": "增长",
-          "title": "获得更多客户",
-          "description": "通过系统化处理发票、工资、采购、审批和操作减少会计工作",
+          "label": "Growth",
+          "title": "Handle More Clients",
+          "description": "Reduce manual accounting workload by connecting invoices, payroll, procurement, approvals and operational activity into one live runtime.",
           "items": [
-            "AI 帮助抓取发票数据",
-            "加快月末结账",
-            "减少手工会计工作",
-            "增加客户而不增加文档"
+            "AI-assisted invoice extraction",
+            "Faster month-end closing",
+            "Less manual bookkeeping",
+            "More clients without more paperwork"
           ]
         },
         {
-          "label": "可见性",
-          "title": "更快发现问题",
-          "description": "实时追踪客户操作，替代月末文档等待",
+          "label": "Visibility",
+          "title": "Discover Problems Earlier",
+          "description": "Monitor client operations in real time instead of waiting for documents and reports at the end of the month.",
           "items": [
-            "实时查看收入",
-            "追踪工资和采购",
-            "审批追踪",
-            "完整审计历史"
+            "Live revenue visibility",
+            "Payroll and procurement tracking",
+            "Approval monitoring",
+            "Full operational audit trail"
           ]
         }
       ],
       "features": [
         {
-          "title": "实时财务可视化",
-          "description": "实时监控客户收入、工资、采购、审批及成本",
+          "title": "LIVE FINANCIAL VISIBILITY",
+          "description": "Monitor revenue, payroll, procurement, approvals and operational costs in real time across all clients.",
           "image": "/images/accounting-live-control.png"
         },
         {
-          "title": "AI 数据抓取",
-          "description": "发票、收据及文档自动抓取并归档",
+          "title": "AI DOCUMENT EXTRACTION",
+          "description": "Invoices, receipts and paperwork automatically extracted and organized into the financial workflow.",
           "image": "/images/documents-flow.png"
         },
         {
-          "title": "多公司控制",
-          "description": "会计师通过统一系统管理多家业务",
+          "title": "MULTI-COMPANY CONTROL",
+          "description": "Accounting firms manage multiple businesses from one connected operational runtime.",
           "image": "/images/accounting-multi-company.png"
         },
         {
-          "title": "实时审批与审计",
-          "description": "所有审批、文档及变更都有完整审计视图",
+          "title": "LIVE APPROVALS & AUDIT",
+          "description": "Every approval, document and operational change tracked with full audit visibility.",
           "image": "/images/accounting-approval-runtime.png"
         }
       ],
       "beforeAfterCards": [
         {
-          "label": "项目 1",
-          "name": "缺少发票和收据",
-          "status": "待处理"
+          "label": "item1",
+          "name": "Missing invoices and receipts",
+          "status": "Pending"
         },
         {
-          "label": "项目 2",
-          "name": "手工录入数据",
-          "status": "待处理"
+          "label": "item2",
+          "name": "Manual data entry",
+          "status": "Pending"
         },
         {
-          "label": "项目 3",
-          "name": "分散消息与文件",
-          "status": "待处理"
+          "label": "item3",
+          "name": "Line messages and paperwork",
+          "status": "Pending"
         },
         {
-          "label": "项目 4",
-          "name": "无实时可视性",
-          "status": "待处理"
+          "label": "item4",
+          "name": "No real-time visibility",
+          "status": "Pending"
         },
         {
-          "label": "项目 5",
-          "name": "财务监管延迟",
-          "status": "待处理"
+          "label": "item5",
+          "name": "Delayed financial oversight",
+          "status": "Pending"
         },
         {
-          "label": "项目 6",
-          "name": "运营问题发现过晚",
-          "status": "待处理"
+          "label": "item6",
+          "name": "Operational problems discovered too late",
+          "status": "Pending"
         }
       ],
       "runtimeEvents": {
-        "title": "实时事件流",
-        "subtitle": "持续的运营流程",
-        "status": "运行中",
+        "title": "Live Runtime Event Stream",
+        "subtitle": "Continuous Operational Flow",
+        "status": "LIVE",
         "events": [
           {
             "time": "09:22",
-            "title": "工资运行锁定"
+            "title": "Payroll runtime locked"
           },
           {
             "time": "09:24",
-            "title": "库存分类账同步"
+            "title": "Inventory ledger synchronized"
           },
           {
             "time": "09:26",
-            "title": "差异检测触发"
+            "title": "Variance detection triggered"
           },
           {
             "time": "09:28",
-            "title": "审批升级已启动"
+            "title": "Approval escalation initiated"
           },
           {
             "time": "09:31",
-            "title": "收入同步完成"
+            "title": "Revenue synchronization completed"
           }
         ]
       },
       "governanceTimeline": {
-        "label": "治理时间线",
-        "title": "持续的运营流程",
-        "status": "运行中",
+        "label": "Governance Timeline",
+        "title": "Continuous Operational Flow",
+        "status": "LIVE",
         "events": [
           {
             "time": "08:42",
-            "title": "采购已批准"
+            "title": "Procurement Approved"
           },
           {
             "time": "09:14",
-            "title": "账目已发布"
+            "title": "Journal Posted"
           },
           {
             "time": "09:16",
-            "title": "对账已更新"
+            "title": "Reconciliation Updated"
           },
           {
             "time": "09:22",
-            "title": "工资运行锁定"
+            "title": "Payroll Runtime Locked"
           }
         ]
       },
       "multiEntity": {
-        "label": "多单位运行系统",
-        "title": "跨公司监管",
-        "status": "4 个单位",
+        "label": "Multi-Entity Operational Runtime",
+        "title": "Cross-Company Oversight",
+        "status": "4 ENTITIES",
         "entities": [
           {
             "name": "Churchill Phuket",
-            "status": "活跃"
+            "status": "ACTIVE"
           },
           {
             "name": "BEA Co., Ltd.",
-            "status": "审核中"
+            "status": "REVIEWING"
           },
           {
             "name": "PCS Phuket",
-            "status": "已批准"
+            "status": "APPROVED"
           },
           {
             "name": "Cole Ley Entertainment",
-            "status": "待关闭"
+            "status": "PENDING CLOSE"
           }
         ]
       },
       "accountability": {
-        "label": "审批责任",
-        "title": "人工治理运行",
-        "status": "已验证",
+        "label": "Approval Accountability",
+        "title": "Human Governance Runtime",
+        "status": "VERIFIED",
         "items": [
           {
-            "label": "批准人",
-            "name": "P. Vallgarda — CFO 系统",
-            "status": "活跃"
+            "label": "Approved By",
+            "name": "P. Vallgarda — CFO Runtime",
+            "status": "ACTIVE"
           },
           {
-            "label": "锁定人",
-            "name": "财务治理引擎",
-            "status": "已强制"
+            "label": "Locked By",
+            "name": "Financial Governance Engine",
+            "status": "ENFORCED"
           },
           {
-            "label": "审核人",
-            "name": "运营控制系统",
-            "status": "已验证"
+            "label": "Reviewed By",
+            "name": "Operations Control Runtime",
+            "status": "VERIFIED"
           }
         ]
       },
       "syntheticDecisionLayer": {
-        "title": "预测运营智能",
-        "status": "学习中",
-        "recommendationLabel": "AI 建议",
-        "recommendationText": "延迟财务结算，直到采购对账完成。",
-        "predictionLabel": "AI 预测",
-        "predictionText": "预计在 6 个工作日内可能出现采购短缺风险。",
-        "detectionLabel": "AI 检测",
-        "detectionText": "在运营系统中检测到异常审批行为。"
+        "title": "Predictive Operational Intelligence",
+        "status": "LEARNING",
+        "recommendationLabel": "AI Recommendation",
+        "recommendationText": "Delay financial close until procurement reconciliation completes.",
+        "predictionLabel": "AI Prediction",
+        "predictionText": "Procurement shortage risk predicted within 6 operational days.",
+        "detectionLabel": "AI Detection",
+        "detectionText": "Unusual approval behavior detected in hospitality runtime."
       },
       "financialGovernance": {
-        "title": "实时财务治理"
+        "title": "Live Financial Governance"
       },
       "runtimeDashboard": {
         "title": "Enterprise Runtime",
@@ -787,235 +901,683 @@
       },
       "beforeAfterLists": {
         "before": [
-          "缺失发票和收据",
-          "手动数据录入",
-          "聊天记录和文件分散",
-          "缺乏实时可视化",
-          "财务监督滞后",
-          "运营问题发现过晚"
+          "Missing invoices and receipts",
+          "Manual data entry",
+          "Line messages and paperwork",
+          "No real-time visibility",
+          "Delayed financial oversight",
+          "Operational problems discovered too late"
         ],
         "after": [
-          "AI 发票提取",
-          "实时运营可视化",
-          "实时工资与采购追踪",
-          "审批与审计全程关联",
-          "多公司统一控制",
-          "会计师事务所更高效管理更多客户"
+          "AI invoice extraction",
+          "Real-time operational visibility",
+          "Live payroll and procurement tracking",
+          "Connected approvals and audit trails",
+          "Multi-company dashboard control",
+          "Accounting firms handle more clients efficiently"
         ]
       },
       "switchLists": {
         "traditional": [
-          "月末之后才生成报表",
-          "缺乏运营可视化",
-          "手动收集文件",
-          "问题发现过晚",
-          "缺乏审批智能",
-          "缺乏运营责任追踪",
-          "无法实时监控客户"
+          "Reports after the month ends",
+          "No operational visibility",
+          "Manual document collection",
+          "Problems discovered too late",
+          "No approval intelligence",
+          "No operational accountability",
+          "No live client monitoring"
         ],
         "avantiqo": [
-          "实时运营可视化",
-          "AI 文档提取",
-          "多公司控制",
-          "审批责任追踪",
-          "运营异常检测",
-          "持续审计追踪",
-          "合成智能建议"
+          "Live operational visibility",
+          "AI document extraction",
+          "Multi-company control",
+          "Approval accountability",
+          "Operational anomaly detection",
+          "Continuous audit trail",
+          "Synthetic Intelligence recommendations"
         ]
       },
       "syntheticSection": {
-        "badge": "合成智能",
-        "headline1": "人工智能回答问题。",
-        "headline2": "合成智能理解企业。",
+        "badge": "SYNTHETIC INTELLIGENCE",
+        "headline1": "Artificial Intelligence answers questions.",
+        "headline2": "Synthetic Intelligence understands businesses.",
         "aiTitle": "AI",
-        "aiText": "生成内容。回答问题。创建报告。响应指令。",
-        "syntheticTitle": "合成智能",
-        "syntheticText": "理解工资、采购、审批、文档、会计、库存与运营之间的关系。识别风险、预测结果并提供建议。",
-        "receiptText": "它会影响审批、会计、采购对账、财务结账、审计可信度和管理层可视化。",
-        "receiptFooter": "合成智能理解整个连锁反应。"
+        "aiText": "Generates content. Answers questions. Creates reports. Responds to prompts.",
+        "syntheticTitle": "Synthetic Intelligence",
+        "syntheticText": "Understands relationships between payroll, procurement, approvals, documents, accounting, inventory and operations. Detects risks. Predicts outcomes. Recommends actions. Creates operational intelligence.",
+        "receiptText": "It affects approvals, accounting, procurement reconciliation, financial close, audit confidence, and management visibility.",
+        "receiptFooter": "Synthetic Intelligence understands the entire chain reaction."
       },
       "riskRuntimeLists": {
-        "missingReceipts": "缺失收据",
-        "payrollApproval": "工资审批延迟",
-        "procurementExceptions": "采购异常",
-        "continuousFlow": "持续运营流程",
-        "enterpriseNervousSystem": "企业运营神经系统",
-        "monitoringBehavior": "监控运营行为",
-        "aiVariance": "检测到酒店运营中的采购偏差。",
-        "aiPayroll": "在财务结账前发现工资异常。",
-        "aiConfidence": "AI 运行系统 可信度",
+        "missingReceipts": "Missing Receipts",
+        "payrollApproval": "Payroll Approval Delayed",
+        "procurementExceptions": "Procurement Exceptions",
+        "continuousFlow": "Continuous Operational Flow",
+        "enterpriseNervousSystem": "Enterprise Operational Nervous System",
+        "monitoringBehavior": "Monitoring Operational Behavior",
+        "aiVariance": "Procurement variance detected in hospitality operations.",
+        "aiPayroll": "Payroll inconsistency identified before financial close.",
+        "aiConfidence": "AI Runtime Confidence",
         "aiPercentage": "97.2%",
-        "aiStatus": "未发现关键异常。"
+        "aiStatus": "No critical anomalies detected."
       },
       "statusLabels": {
-        "aiActive": "AI 运行中",
-        "systemActive": "系统运行中",
-        "detected": "AI 已检测",
-        "analysis": "AI 分析",
-        "recommendation": "AI 建议",
-        "live": "实时",
-        "verified": "已验证",
-        "active": "活跃",
-        "reviewing": "审核中",
-        "approved": "已批准",
-        "pendingClose": "待结账",
-        "enforced": "已执行",
-        "enabled": "已启用",
-        "ready": "已准备",
-        "synchronized": "已同步",
-        "operational": "运行中"
+        "aiActive": "AI ACTIVE",
+        "systemActive": "SYSTEM ACTIVE",
+        "detected": "AI DETECTED",
+        "analysis": "AI ANALYSIS",
+        "recommendation": "AI RECOMMENDATION",
+        "live": "LIVE",
+        "verified": "VERIFIED",
+        "active": "ACTIVE",
+        "reviewing": "REVIEWING",
+        "approved": "APPROVED",
+        "pendingClose": "PENDING CLOSE",
+        "enforced": "ENFORCED",
+        "enabled": "ENABLED",
+        "ready": "READY",
+        "synchronized": "SYNCHRONIZED",
+        "operational": "OPERATIONAL"
       },
       "enterpriseRuntime": {
-        "auditTraceability": "企业级审计追踪",
-        "auditDescription": "所有审批、修改、交易和运营事件都会被永久记录。",
-        "noAnomalies": "未发现关键异常。",
-        "allSystems": "所有系统已同步",
-        "payrollRuntime": "工资 Runtime",
-        "payrollDesc": "已与运营控制同步",
-        "procurementRuntime": "采购 Runtime",
-        "procurementDesc": "已连接库存台账",
-        "financialRuntime": "财务 Runtime",
-        "financialDesc": "已连接实时收入流",
-        "aiRuntime": "AI 运行系统",
-        "journalEngine": "标准会计引擎",
-        "threeWay": "三方匹配",
-        "auditChain": "审计链完整性",
-        "procurementGovernance": "采购治理",
-        "inventoryLedger": "库存台账",
-        "multiEntity": "多实体合并",
-        "approvalRuntime": "审批 Runtime",
-        "periodLocking": "期间锁定",
-        "high": "高",
-        "learning": "学习中",
-        "varianceTriggered": "AI 偏差检测已触发"
-      }
+        "auditTraceability": "Enterprise Audit Traceability",
+        "auditDescription": "Every approval, edit, transaction and operational event is permanently tracked across the enterprise runtime architecture.",
+        "noAnomalies": "No critical anomalies detected.",
+        "allSystems": "ALL SYSTEMS SYNCHRONIZED",
+        "payrollRuntime": "Payroll Runtime",
+        "payrollDesc": "Synced with Operations Control",
+        "procurementRuntime": "Procurement Runtime",
+        "procurementDesc": "Connected to Inventory Ledger",
+        "financialRuntime": "Financial Runtime",
+        "financialDesc": "Linked to Live Revenue Streams",
+        "aiRuntime": "AI Runtime",
+        "journalEngine": "Canonical Journal Engine",
+        "threeWay": "3-Way Matching",
+        "auditChain": "Audit Chain Integrity",
+        "procurementGovernance": "Procurement Governance",
+        "inventoryLedger": "Inventory Ledger",
+        "multiEntity": "Multi-Entity Consolidation",
+        "approvalRuntime": "Approval Runtime",
+        "periodLocking": "Period Locking",
+        "high": "HIGH",
+        "learning": "LEARNING",
+        "varianceTriggered": "AI variance detection triggered"
+      },
+      "challenges": [
+        {
+          "title": "Disconnected client data",
+          "text": "Client documents, accounting systems, approvals, payroll, invoices and reports live in different places. Partners lose visibility and teams waste time searching, checking and correcting."
+        },
+        {
+          "title": "Low-margin clients are hard to see",
+          "text": "Many firms know revenue per client, but not true profitability. Avantiqo helps reveal which clients consume time, create exceptions and reduce firm margin."
+        },
+        {
+          "title": "Manual compliance pressure",
+          "text": "Deadlines, approvals, document trails, tax workflows and audit preparation create risk when they depend on manual follow-up and memory."
+        },
+        {
+          "title": "Advisory work is difficult to scale",
+          "text": "Most accounting firms want to move beyond bookkeeping, but advisory insight is trapped inside senior staff. Avantiqo turns financial data into repeatable intelligence."
+        }
+      ],
+      "whyCards": [
+        {
+          "title": "Client Profitability Intelligence",
+          "text": "See which clients are profitable, which clients need intervention and which clients are consuming too much team capacity before margins decline."
+        },
+        {
+          "title": "Practice Performance",
+          "text": "Track utilization, realization, recoverability, workload, WIP, approvals and team performance across the full accounting firm."
+        },
+        {
+          "title": "Compliance & Audit Readiness",
+          "text": "Maintain governance, approval trails, document control, period locking, exception tracking and audit visibility from one operating layer."
+        },
+        {
+          "title": "Advisory Intelligence",
+          "text": "Identify risks, cash flow issues, unusual trends, advisory opportunities and recommended next actions for every client."
+        }
+      ],
+      "operatingSystem": [
+        {
+          "title": "Client Intelligence",
+          "text": "Client profiles, document status, accounting activity, deadlines, communication, profitability and risk in one place."
+        },
+        {
+          "title": "Workflow Control",
+          "text": "Control bookkeeping, payroll, reconciliation, tax preparation, approval flows, review cycles and monthly close workflows."
+        },
+        {
+          "title": "Financial Runtime",
+          "text": "Connect accounting events, operational approvals, journal logic, reconciliation, exceptions and financial reporting."
+        },
+        {
+          "title": "Partner Dashboard",
+          "text": "Give partners live visibility into clients, team capacity, deadlines, revenue, profitability, risk and advisory opportunities."
+        },
+        {
+          "title": "Synthetic Intelligence",
+          "text": "Predict client risk, detect anomalies, recommend action, highlight advisory opportunities and reduce manual review work."
+        },
+        {
+          "title": "Client Deliverables",
+          "text": "Create board-ready reports, advisory summaries, financial reviews, client updates and management presentations faster."
+        }
+      ],
+      "intelligence": [
+        {
+          "title": "Predict client risk",
+          "text": "Identify clients likely to miss deadlines, submit incomplete documents, delay payment or create compliance exposure."
+        },
+        {
+          "title": "Detect anomalies",
+          "text": "Find unusual transactions, payroll variance, reconciliation exceptions, margin drops and operational inconsistencies."
+        },
+        {
+          "title": "Recommend advisory actions",
+          "text": "Turn bookkeeping data into recommendations clients can understand, trust and pay for."
+        },
+        {
+          "title": "Prioritize partner attention",
+          "text": "Show which clients, tasks, exceptions and opportunities need leadership focus today."
+        }
+      ],
+      "roi": [
+        {
+          "label": "Higher margin",
+          "title": "Reduce unbilled work",
+          "text": "When work, exceptions and approvals are visible, firms can protect margin and reduce hidden time leakage."
+        },
+        {
+          "label": "More advisory revenue",
+          "title": "Turn data into advice",
+          "text": "Avantiqo helps accounting firms convert financial data into client-facing advisory insight."
+        },
+        {
+          "label": "Better control",
+          "title": "Know every client status",
+          "text": "Partners can see client health, compliance status, deadlines, workload and financial exposure from one operating system."
+        },
+        {
+          "label": "Scalable practice",
+          "title": "Grow without chaos",
+          "text": "Standardized workflows, synthetic intelligence and governance make it easier to manage more clients without losing control."
+        }
+      ],
+      "runtimeMetrics": [
+        [
+          "Connected Clients",
+          "128"
+        ],
+        [
+          "Open Exceptions",
+          "14"
+        ],
+        [
+          "Advisory Opportunities",
+          "32"
+        ],
+        [
+          "Governance Integrity",
+          "96%"
+        ]
+      ]
     },
     "healthcare": {
       "hero": {
-        "badge": "医疗智能平台",
-        "title1": "看见整个医疗系统。",
-        "title2": "在问题发生之前。",
-        "description": "患者、临床、运营、财务、合规与管理层通过统一的合成智能层连接在一起。",
-        "primary": "申请管理层简报"
+        "badge": "HEALTHCARE INTELLIGENCE PLATFORM",
+        "title1": "See The Entire Healthcare System.",
+        "title2": "Before It Tells You Something Is Wrong.",
+        "description": "Patients, clinicians, operations, finance, compliance and leadership connected through one synthetic intelligence layer.",
+        "primary": "Request Executive Briefing"
       },
       "reality": {
-        "badge": "医疗现实",
-        "title1": "医疗系统无处不在地连接",
-        "title2": "但没人能完全理解"
+        "badge": "HEALTHCARE REALITY",
+        "title1": "Healthcare is connected everywhere.",
+        "title2": "But understood nowhere."
       },
       "runtime": {
-        "badge": "统一医疗运行平台",
-        "title1": "患者需求。临床工作量。床位容量。",
-        "title2": "人员可用性。财务风险。合规风险。"
+        "badge": "ONE HEALTHCARE RUNTIME",
+        "title1": "Patient Demand. Clinical Workload. Bed Capacity.",
+        "title2": "Staff Availability. Financial Exposure. Compliance Risk."
       },
       "synthetic": {
-        "badge": "合成智能层",
-        "title1": "传统系统告诉你",
-        "title2": "发生了什么。",
-        "title3": "Avantiqo 告诉你",
-        "title4": "接下来会发生什么。"
+        "badge": "SYNTHETIC INTELLIGENCE LAYER",
+        "title1": "Traditional systems tell you",
+        "title2": "what happened.",
+        "title3": "Avantiqo shows you",
+        "title4": "what happens next."
       },
       "ownership": {
-        "badge": "领导层",
-        "title1": "领导层看到一切。",
-        "title2": "在事件发生之前。"
+        "badge": "LEADERSHIP LAYER",
+        "title1": "Leadership sees everything.",
+        "title2": "Before it happens."
       },
       "cta": {
-        "badge": "医疗运营系统",
-        "title1": "医疗系统围绕治疗构建。",
-        "title2": "未来将围绕智能构建。",
-        "description": "Avantiqo 通过合成智能操作系统连接患者、临床、运营、财务、合规和领导层。",
-        "primary": "请求高管简报"
+        "badge": "HEALTHCARE OPERATING SYSTEM",
+        "title1": "Healthcare was built around treatment.",
+        "title2": "The future will be built around intelligence.",
+        "description": "Avantiqo connects patients, clinicians, operations, finance, compliance and leadership through one Synthetic Intelligence Operating System.",
+        "primary": "Request Executive Briefing"
       },
-      "healthcare_hero": "全景医疗系统",
-      "patient_systems": "患者系统",
-      "clinical_systems": "临床系统",
-      "billing_systems": "账单系统",
-      "compliance_systems": "合规系统",
-      "patient_waiting_time": "患者等待时间",
-      "staff_utilization": "人员使用率",
-      "revenue_leakage": "收入流失",
-      "capacity_planning": "容量规划",
-      "compliance_exposure": "合规风险暴露",
-      "executive_blind_spots": "管理盲点",
-      "patient_demand": "患者需求",
-      "clinical_workload": "临床工作量",
-      "bed_capacity": "床位容量",
-      "staff_availability": "人员可用性",
-      "financial_exposure": "财务风险",
-      "compliance_risk": "合规风险",
-      "what_is_happening": "正在发生什么",
-      "what_happens_next": "接下来会发生什么",
-      "what_to_do_about_it": "应该怎么做",
-      "patient_surge_risk__87": "患者激增风险 · 87%",
-      "staff_shortage_risk__73": "人员短缺风险 · 73%",
-      "up_capacity_utilization": "↑ 容量使用率",
-      "up_revenue_capture": "↑ 收入捕获",
-      "up_leadership_visibility": "↑ 领导可见性",
-      "down_waiting_time": "↓ 等待时间",
-      "down_staffing_cost": "↓ 人员成本",
-      "operational_bottlenecks_create_delays_long_before_management_becomes_aware_of_them": "运营瓶颈会在管理层察觉之前造成延迟",
-      "overstaffing_and_understaffing_often_happen_at_the_same_time_across_different_departments": "在不同部门中，人员过多和不足往往同时发生",
-      "disconnected_systems_create_missed_billing_opportunities_and_hidden_operational_costs": "分离的系统造成错失的账单机会和隐藏的运营成本",
-      "beds_rooms_equipment_and_staff_capacity_are_rarely_viewed_as_one_connected_reality": "床位、房间、设备和人员很少被视为一个整体连接的现实",
-      "risk_grows_when_operational_events_and_compliance_obligations_are_disconnected": "当运营事件和合规义务分离时，风险增加",
-      "leadership_receives_reports_after_events_occur_instead_of_understanding_risks_before_they_happen": "领导在事件发生后收到报告，而不是事先理解风险",
-      "live_operational_visibility_across_patients_clinicians_capacity_finance_and_compliance": "患者、临床、容量、财务和合规的实时运营可见性",
-      "predictive_intelligence_identifies_pressure_risk_and_bottlenecks_before_escalation": "预测性智能在升级前识别压力、风险和瓶颈",
-      "recommended_actions_help_leadership_intervene_before_operational_failure_occurs": "推荐的措施帮助领导在运营故障发生前干预",
-      "reality_content_1": "患者入院会影响人员配置。人员配置会影响排班。排班会影响容量。容量会影响治疗时间。",
-      "reality_content_2": "治疗会影响结果。结果会影响报销。报销会影响财务表现。",
-      "reality_content_3": "大多数医疗机构将这些视为独立事件。Avantiqo 将其理解为一个相互连接的运营链。",
-      "reality_content_4": "问题不在于数据。问题在于没有人能看到数据如何在整个组织中流动。",
-      "runtime_content_1": "患者需求。临床工作量。床位利用率。手术室容量。",
-      "runtime_content_2": "实验室处理能力。人员可用性。财务绩效。合规风险。",
-      "runtime_content_3": "通过统一运营运行时连接，使管理层能够在压力演变为问题之前采取行动。",
-      "ownership_content_1": "大多数高管在事件发生后才收到报告。Avantiqo 能在运营压力成为问题之前识别它。",
-      "ownership_content_2": "在排班失败之前发现人员短缺。在患者延误增加之前发现容量限制。",
-      "ownership_content_3": "在预算受到影响之前发现财务风险。在审计发现之前识别合规风险。",
-      "outcomes_content_1": "可衡量的运营改进。",
-      "healthcare_connects": "医疗系统无处不在地互联。",
-      "healthcare_misunderstood": "但却无人真正理解。",
+      "healthcare_hero": "Healthcare Hero",
+      "patient_systems": "Patient Systems",
+      "clinical_systems": "Clinical Systems",
+      "billing_systems": "Billing Systems",
+      "compliance_systems": "Compliance Systems",
+      "patient_waiting_time": "Patient Waiting Time",
+      "staff_utilization": "Staff Utilization",
+      "revenue_leakage": "Revenue Leakage",
+      "capacity_planning": "Capacity Planning",
+      "compliance_exposure": "Compliance Exposure",
+      "executive_blind_spots": "Executive Blind Spots",
+      "patient_demand": "Patient Demand",
+      "clinical_workload": "Clinical Workload",
+      "bed_capacity": "Bed Capacity",
+      "staff_availability": "Staff Availability",
+      "financial_exposure": "Financial Exposure",
+      "compliance_risk": "Compliance Risk",
+      "what_is_happening": "What Is Happening",
+      "what_happens_next": "What Happens Next",
+      "what_to_do_about_it": "What To Do About It",
+      "patient_surge_risk__87": "Patient Surge Risk · 87%",
+      "staff_shortage_risk__73": "Staff Shortage Risk · 73%",
+      "up_capacity_utilization": "↑ Capacity Utilization",
+      "up_revenue_capture": "↑ Revenue Capture",
+      "up_leadership_visibility": "↑ Leadership Visibility",
+      "down_waiting_time": "↓ Waiting Time",
+      "down_staffing_cost": "↓ Staffing Cost",
+      "operational_bottlenecks_create_delays_long_before_management_becomes_aware_of_them": "Operational bottlenecks create delays long before management becomes aware of them.",
+      "overstaffing_and_understaffing_often_happen_at_the_same_time_across_different_departments": "Overstaffing and understaffing often happen at the same time across different departments.",
+      "disconnected_systems_create_missed_billing_opportunities_and_hidden_operational_costs": "Disconnected systems create missed billing opportunities and hidden operational costs.",
+      "beds_rooms_equipment_and_staff_capacity_are_rarely_viewed_as_one_connected_reality": "Beds, rooms, equipment and staff capacity are rarely viewed as one connected reality.",
+      "risk_grows_when_operational_events_and_compliance_obligations_are_disconnected": "Risk grows when operational events and compliance obligations are disconnected.",
+      "leadership_receives_reports_after_events_occur_instead_of_understanding_risks_before_they_happen": "Leadership receives reports after events occur instead of understanding risks before they happen.",
+      "live_operational_visibility_across_patients_clinicians_capacity_finance_and_compliance": "Live operational visibility across patients, clinicians, capacity, finance and compliance.",
+      "predictive_intelligence_identifies_pressure_risk_and_bottlenecks_before_escalation": "Predictive intelligence identifies pressure, risk and bottlenecks before escalation.",
+      "recommended_actions_help_leadership_intervene_before_operational_failure_occurs": "Recommended actions help leadership intervene before operational failure occurs.",
+      "reality_content_1": "A patient admission affects staffing. Staffing affects scheduling. Scheduling affects capacity. Capacity affects treatment times.",
+      "reality_content_2": "Treatment affects outcomes. Outcomes affect reimbursement. Reimbursement affects financial performance.",
+      "reality_content_3": "Most healthcare organizations track these as separate events. Avantiqo understands them as one connected operational chain.",
+      "reality_content_4": "The problem is not data. The problem is that nobody sees how the data moves through the business.",
+      "runtime_content_1": "Patient demand. Clinical workload. Bed utilization. Operating theatre capacity.",
+      "runtime_content_2": "Laboratory throughput. Staff availability. Financial performance. Compliance exposure.",
+      "runtime_content_3": "Connected through one operational runtime so leadership can act before pressure becomes failure.",
+      "ownership_content_1": "Most executives receive reports after events occur. Avantiqo identifies operational pressure before it becomes a problem.",
+      "ownership_content_2": "See staffing shortages before schedules fail. See capacity constraints before patient delays increase.",
+      "ownership_content_3": "See financial exposure before budgets are impacted. See compliance risk before audits reveal it.",
+      "outcomes_content_1": "Measurable operational improvement.",
+      "healthcare_connects": "Healthcare is connected everywhere.",
+      "healthcare_misunderstood": "But understood nowhere.",
       "outcomes_badge": "OUTCOMES"
     },
     "construction": {
-      "construction_hero_badge": "建筑运营",
-      "construction_hero_title1": "在延误造成损失前掌控每个工地。",
-      "construction_hero_title2": "施工运行",
-      "construction_hero_description": "预算、采购、劳动力、审批、现场报告、文档和财务透明度汇聚于一个施工运营系统。",
-      "construction_cta_primary": "预订演示",
-      "construction_cta_secondary": "联系团队",
-      "before_after_badge": "前与后",
-      "before_after_title": "用实时项目控制替换断开的施工管理。",
-      "features_badge": "施工运行",
-      "features_title": "工地、办公室和财务 — 实时互联。",
-      "feature_1_title": "实时项目控制",
-      "feature_1_text": "实时跟踪进度、预算、审批、延误、人员和工地绩效。",
-      "feature_2_title": "现场报告",
-      "feature_2_text": "监督员即时上传照片、日报、问题和进度更新。",
-      "feature_3_title": "采购与材料",
-      "feature_3_text": "控制采购请求、供应商订单、材料交付及库存可视化。",
-      "feature_4_title": "劳动力与工资",
-      "feature_4_text": "监控考勤、分包商、人工成本、工资审批和工作活动。",
-      "feature_5_title": "多项目管理",
-      "feature_5_text": "从一个操作系统管理多个建筑工地、预算和项目团队。",
-      "feature_6_title": "业主可视化",
-      "feature_6_text": "项目业主和管理人员随时查看实时进度、成本、审批和风险。",
-      "hero_primary": "[ZH] hero_primary",
-      "hero_secondary": "[ZH] hero_secondary",
-      "reduce_project_delays": "[ZH] Reduce Project Delays",
-      "reduce_project_delays_description": "[ZH] Identify site issues, approval bottlenecks and procurement delays before they impact delivery.",
-      "control_budget_overruns": "[ZH] Control Budget Overruns",
-      "control_budget_overruns_description": "[ZH] Track committed costs, supplier spend, labor cost and project financial exposure live.",
-      "connect_site_office": "[ZH] Connect Site & Office",
-      "connect_site_office_description": "[ZH] Bring field updates, project management, approvals and finance into one connected workflow.",
-      "improve_contractor_accountability": "[ZH] Improve Contractor Accountability",
-      "improve_contractor_accountability_description": "[ZH] Track subcontractor activity, site progress, attendance and task completion with evidence.",
-      "faster_approvals": "[ZH] Faster Approvals",
-      "faster_approvals_description": "[ZH] Move purchase requests, change orders, invoices and project approvals through structured workflows.",
-      "real_time_owner_reporting": "[ZH] Real-Time Owner Reporting",
-      "real_time_owner_reporting_description": "[ZH] Replace delayed manual reports with live visibility into progress, risks, budget and execution.",
-      "construction_problems_become_expensive_when_visibility_arrives_too_late": ""
+      "construction_hero_badge": "CONSTRUCTION OPERATIONS",
+      "construction_hero_title1": "Control every site before delays become losses.",
+      "construction_hero_title2": "Real-time site visibility.",
+      "construction_hero_description": "Replace delayed site reporting and disconnected workflows with one connected construction operating system.",
+      "construction_cta_primary": "One runtime.",
+      "construction_cta_secondary": "Every project.",
+      "before_after_badge": "BEFORE VS AFTER",
+      "before_after_title": "Replace disconnected construction management with live project control.",
+      "features_badge": "CONSTRUCTION RUNTIME",
+      "features_title": "Site, office and finance connected live.",
+      "feature_1_title": "Live Project Control",
+      "feature_1_text": "Track progress, budgets, approvals, delays, manpower and site performance in real time.",
+      "feature_2_title": "Site Reporting",
+      "feature_2_text": "Supervisors upload photos, daily reports, issues and progress updates directly from site.",
+      "feature_3_title": "Procurement & Materials",
+      "feature_3_text": "Control purchase requests, supplier orders, material delivery and inventory visibility.",
+      "feature_4_title": "Workforce & Payroll",
+      "feature_4_text": "Monitor attendance, subcontractors, labor cost, payroll approvals and workforce activity.",
+      "feature_5_title": "Multi-Project Control",
+      "feature_5_text": "Manage multiple construction sites, budgets and project teams from one operational runtime.",
+      "feature_6_title": "Owner Visibility",
+      "feature_6_text": "Project owners and executives see live progress, costs, approvals and risks from anywhere.",
+      "why_title": "Why Construction Companies Choose Avantiqo",
+      "why_1_title": "Project Intelligence",
+      "why_1_text": "See every project, milestone, budget, delay, approval and risk from one operational runtime.",
+      "why_2_title": "Contractor Accountability",
+      "why_2_text": "Track subcontractors, attendance, progress, photos and task completion with evidence.",
+      "why_3_title": "Cost Intelligence",
+      "why_3_text": "Connect procurement, labor, inventory and project spend to understand real profitability.",
+      "why_4_title": "Executive Visibility",
+      "why_4_text": "Owners and executives can monitor every site without waiting for weekly reports.",
+      "portal_title": "Client & Contractor Portals",
+      "portal_client_title": "Client Portal",
+      "portal_client_text": "Clients can follow progress, approvals, milestones, photos, invoices and project status in real time.",
+      "portal_contractor_title": "Contractor Portal",
+      "portal_contractor_text": "Subcontractors can submit updates, attendance, photos, documents and completion evidence directly from site.",
+      "si_title": "Synthetic Intelligence",
+      "si_1_title": "Predict Delays",
+      "si_1_text": "Identify schedule risks before they impact project delivery.",
+      "si_2_title": "Predict Budget Overruns",
+      "si_2_text": "Detect procurement, labor and change-order risks before they become financial problems.",
+      "si_3_title": "Automatic Progress Reports",
+      "si_3_text": "Generate owner-ready project summaries automatically from site activity.",
+      "si_4_title": "Procurement Intelligence",
+      "si_4_text": "Recommend purchasing actions based on inventory, project schedules and supplier performance.",
+      "marketing_title": "Marketing & Tender Intelligence",
+      "marketing_text": "Generate company profiles, capability statements, tender documents, project case studies, social media posts and marketing campaigns directly from completed projects.",
+      "challenge_title": "Construction Companies Are Losing Money Every Day",
+      "challenge_text": "Most construction companies do not lose money because they lack projects. They lose money because they lack visibility. Delays, procurement mistakes, subcontractor issues, budget overruns and communication failures often remain hidden until they have already damaged profitability. Avantiqo gives management real-time visibility across projects, people, suppliers, budgets and execution so problems can be solved before they become losses.",
+      "profitability_title": "Know Which Projects Actually Make Money",
+      "profitability_text": "Revenue is not profit. Most construction companies can tell you project revenue, but very few can accurately explain project profitability. Avantiqo connects quotations, budgets, procurement, inventory, labor, subcontractors, equipment costs and invoices into one financial model so management can see exactly where profit is generated and where margins are disappearing.",
+      "flow_title": "From Lead To Completed Project",
+      "flow_text": "Construction companies often operate with disconnected systems. Sales uses one platform, project teams use another, procurement uses spreadsheets and accounting operates separately. Avantiqo connects the entire lifecycle from lead generation and quotations to project completion, billing, case studies and marketing, creating a single operational runtime for the entire company.",
+      "workforce_title": "Workforce, Payroll & Site Operations",
+      "workforce_text": "Managing hundreds of workers, supervisors and subcontractors across multiple sites is one of the biggest challenges in construction. Avantiqo provides workforce visibility, attendance tracking, payroll management, productivity monitoring, contractor oversight and operational reporting from one connected platform.",
+      "procurement_title": "Procurement, Inventory & Equipment Control",
+      "procurement_text": "Materials, equipment and procurement represent some of the largest project costs. Avantiqo connects purchase requests, supplier management, inventory, warehouses, equipment tracking and project allocations into one procurement engine. Every material movement becomes visible and every purchase becomes traceable.",
+      "difference_title": "Why Avantiqo Is Different",
+      "difference_text": "Most software solves one problem. Project management software manages tasks. ERP systems manage accounting. CRM systems manage customers. Avantiqo connects the entire construction business. Projects, procurement, workforce, finance, clients, marketing and synthetic intelligence operate from one environment instead of ten disconnected systems.",
+      "future_title": "The Future Construction Company",
+      "future_text": "The future construction company operates with live visibility, connected workflows and predictive intelligence. Instead of reacting to delays, budget overruns and operational surprises, management can make informed decisions before problems occur. Avantiqo transforms construction companies from reactive organizations into proactive businesses.",
+      "cta_title": "Construction Without Blind Spots",
+      "cta_text": "Connect projects, procurement, workforce, finance, reporting, client visibility, marketing and synthetic intelligence into one construction operating system.",
+      "flow_step_1": "Lead",
+      "flow_step_2": "CRM",
+      "flow_step_3": "Quotation",
+      "flow_step_4": "Tender",
+      "flow_step_5": "Project Award",
+      "flow_step_6": "Project Setup",
+      "flow_step_7": "Procurement",
+      "flow_step_8": "Inventory",
+      "flow_step_9": "Workforce",
+      "flow_step_10": "Site Reporting",
+      "flow_step_11": "Billing",
+      "flow_step_12": "Invoices",
+      "flow_step_13": "Project Completion",
+      "flow_step_14": "Case Study",
+      "flow_step_15": "Marketing",
+      "flow_step_16": "Next Project",
+      "difference_1_title": "Not Project Management Software",
+      "difference_1_text": "Project management tools manage tasks. Construction companies need to manage entire businesses.",
+      "difference_2_title": "Not Traditional ERP",
+      "difference_2_text": "Traditional ERP systems were built around accounting. Avantiqo is built around operational reality.",
+      "difference_3_title": "Digital Twin Of Your Business",
+      "difference_3_text": "Every project, supplier, worker, asset and transaction becomes part of one connected operational model.",
+      "difference_4_title": "One Platform Instead Of Five",
+      "difference_4_text": "Replace disconnected project software, CRM, ERP, reporting and marketing tools with one connected environment.",
+      "marketing_item_1": "Company profiles",
+      "marketing_item_2": "Capability statements",
+      "marketing_item_3": "Tender documents",
+      "marketing_item_4": "Project case studies",
+      "marketing_item_5": "Website content",
+      "marketing_item_6": "Social media campaigns",
+      "marketing_item_7": "Client presentations"
+    },
+    "professionalServices": {
+      "hero": {
+        "title": "Professional Services Powered by Synthetic Intelligence",
+        "description": "Turn expertise into actionable intelligence for accounting firms, law firms, and advisory businesses. Control clients, projects, compliance, and financial performance from a single platform.",
+        "primary": "Book Demo",
+        "secondary": "Explore Platform"
+      },
+      "sections": [
+        {
+          "title": "Professional Services Challenges",
+          "cards": [
+            {
+              "title": "Inefficient Operations",
+              "desc": "Manual processes and fragmented workflows slow down service delivery."
+            },
+            {
+              "title": "Data Silos",
+              "desc": "Critical insights are scattered across platforms, limiting decision-making."
+            },
+            {
+              "title": "Client Experience Gaps",
+              "desc": "Lack of real-time visibility reduces client satisfaction and retention."
+            }
+          ]
+        },
+        {
+          "title": "Synthetic Intelligence for Accounting & Law",
+          "cards": [
+            {
+              "title": "AI Recommendations",
+              "desc": "Leverage AI to optimize client workflows, approvals, and reporting."
+            },
+            {
+              "title": "Predictive Analytics",
+              "desc": "Forecast revenue, risk, and operational bottlenecks with precision."
+            },
+            {
+              "title": "Automated Decision Making",
+              "desc": "Streamline internal approvals and compliance using AI-driven insights."
+            },
+            {
+              "title": "Client Behavior Insights",
+              "desc": "Understand client trends, retention, and engagement patterns."
+            },
+            {
+              "title": "Operational KPIs",
+              "desc": "Track firm-wide performance, staff productivity, and client profitability."
+            }
+          ]
+        },
+        {
+          "title": "Why Accounting Firms Choose Avantiqo",
+          "cards": [
+            {
+              "title": "Client Profitability Intelligence",
+              "desc": "Know exactly which clients generate profit, consume resources, and require intervention before margins decline."
+            },
+            {
+              "title": "Practice Performance",
+              "desc": "Monitor utilization, realization rates, WIP, recoverability, and team performance across the entire firm."
+            },
+            {
+              "title": "Compliance & Audit Readiness",
+              "desc": "Maintain audit trails, approvals, governance, and compliance controls automatically."
+            },
+            {
+              "title": "Advisory Intelligence",
+              "desc": "Move beyond bookkeeping by identifying opportunities, risks, and recommendations for every client."
+            }
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Operate. Control. Advise. Deliver.",
+        "description": "Avantiqo connects client management, projects, compliance, finance, and synthetic intelligence into one operating system for professional services businesses."
+      }
+    },
+    "retailCommerce": {
+      "hero": {
+        "title": "From Point of Sale to Complete Retail Intelligence & Design",
+        "description": "Manage sales, inventory, customers, marketing, finance, synthetic intelligence, and design from one unified platform.",
+        "primary": "Book Demo",
+        "secondary": "Explore Platform"
+      },
+      "sections": [
+        {
+          "title": "Retail Challenges",
+          "cards": [
+            {
+              "title": "Inventory Inaccuracies",
+              "desc": "Stock visibility is fragmented across locations, causing overstock and lost sales."
+            },
+            {
+              "title": "Disconnected Systems",
+              "desc": "Different software across stores leads to data silos and slow operations."
+            },
+            {
+              "title": "Customer Churn",
+              "desc": "Lack of real-time customer insights leads to missed opportunities."
+            },
+            {
+              "title": "Delayed Financial Insights",
+              "desc": "Manual reporting and fragmented finance data delay decision-making."
+            },
+            {
+              "title": "Manual Stock Tracking",
+              "desc": "Limited automation increases errors and operational burden."
+            },
+            {
+              "title": "Limited Marketing Intelligence",
+              "desc": "Campaigns are hard to optimize without a unified system."
+            }
+          ]
+        },
+        {
+          "title": "Retail Operating System",
+          "cards": [
+            {
+              "title": "Customer Intelligence",
+              "desc": "Detailed customer profiles, loyalty tracking, AI-driven insights."
+            },
+            {
+              "title": "Point of Sale",
+              "desc": "Modern POS with returns, discounts, gift cards, multi-location support."
+            },
+            {
+              "title": "Inventory & Supply Chain",
+              "desc": "Stock levels, warehouses, transfers, purchase orders, automation."
+            },
+            {
+              "title": "Finance & Accounting",
+              "desc": "Revenue, expenses, profitability, cash flow, integrated reporting."
+            },
+            {
+              "title": "Marketing Automation",
+              "desc": "Campaign creation, social publishing, AI-generated content."
+            },
+            {
+              "title": "Synthetic Intelligence",
+              "desc": "Predictive analytics, operational intelligence, automated decisions."
+            },
+            {
+              "title": "Design Studio",
+              "desc": "Visual campaign design, social media graphics, product mockups."
+            },
+            {
+              "title": "Business Intelligence",
+              "desc": "Sales dashboards, KPIs, multi-store analytics, AI forecasting."
+            }
+          ]
+        },
+        {
+          "title": "Retail Without Blind Spots",
+          "cards": [
+            {
+              "title": "Complete Visibility",
+              "desc": "End-to-end view of operations, inventory, and customer behavior."
+            },
+            {
+              "title": "Data-Driven Decisions",
+              "desc": "AI-powered insights to optimize sales, marketing, and operations."
+            },
+            {
+              "title": "Seamless Integration",
+              "desc": "All systems connected for real-time, actionable intelligence."
+            }
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Ready To Transform Retail?",
+        "description": "Connect sales, inventory, customers, finance, marketing and AI into one operating system.",
+        "primary": "Book Demo",
+        "secondary": "Explore Platform"
+      }
+    },
+    "distributionManufacturing": {
+      "hero": {
+        "title": "From Raw Materials To Delivered Products",
+        "description": "Control procurement, inventory, production, warehousing, logistics, finance, and operational intelligence from one unified platform.",
+        "primary": "Book Demo",
+        "secondary": "Explore Platform"
+      },
+      "sections": [
+        {
+          "title": "Industry Challenges",
+          "cards": [
+            {
+              "title": "Inventory Inaccuracy",
+              "desc": "Stock discrepancies cause overstock and lost sales."
+            },
+            {
+              "title": "Production Delays",
+              "desc": "Manufacturing bottlenecks delay order fulfillment."
+            },
+            {
+              "title": "Supply Chain Disruption",
+              "desc": "Uncoordinated logistics increase lead times."
+            },
+            {
+              "title": "Disconnected Warehouses",
+              "desc": "Multiple locations without centralized control."
+            },
+            {
+              "title": "Poor Forecasting",
+              "desc": "Limited analytics prevent accurate production planning."
+            },
+            {
+              "title": "Lack Of Visibility",
+              "desc": "Limited insight into operations and inventory performance."
+            }
+          ]
+        },
+        {
+          "title": "Manufacturing Operating System",
+          "cards": [
+            {
+              "title": "Procurement",
+              "desc": "Purchase requests, orders, supplier management, approvals, receiving."
+            },
+            {
+              "title": "Inventory & Warehousing",
+              "desc": "Stock levels, locations, transfers, batch tracking, cycle counts."
+            },
+            {
+              "title": "Production",
+              "desc": "Recipes, BOM, production orders, costing, yield tracking."
+            },
+            {
+              "title": "Logistics",
+              "desc": "Deliveries, fleet management, shipping, tracking, distribution."
+            },
+            {
+              "title": "Finance & Accounting",
+              "desc": "AP, AR, ledger, cost accounting, reporting."
+            },
+            {
+              "title": "Synthetic Intelligence",
+              "desc": "Predict demand, forecast inventory, identify bottlenecks, reduce waste, automate decisions."
+            },
+            {
+              "title": "Design Studio",
+              "desc": "Product design, packaging, labels, marketing assets, product launches."
+            }
+          ]
+        },
+        {
+          "title": "Distribution Without Blind Spots",
+          "cards": [
+            {
+              "title": "Complete Visibility",
+              "desc": "Full end-to-end visibility across production and distribution."
+            },
+            {
+              "title": "Data-Driven Decisions",
+              "desc": "AI-powered insights to optimize operations, inventory and logistics."
+            },
+            {
+              "title": "Seamless Integration",
+              "desc": "All modules connected for real-time actionable intelligence."
+            }
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Operate. Control. Produce. Deliver.",
+        "description": "Modern manufacturing requires visibility across every step of the supply chain. Avantiqo connects procurement, inventory, production, logistics, finance, synthetic intelligence, and design into one operating system.",
+        "primary": "Book Demo",
+        "secondary": "Explore Platform"
+      }
     }
   },
   "navigation": {
@@ -2111,5 +2673,12 @@
       "approved": "已批准",
       "archived": "已归档"
     }
+  },
+  "nav": {
+    "industries": "行业",
+    "synthetic_intelligence": "合成智能 (SI)",
+    "security": "安全",
+    "login": "登录",
+    "start_setup": "开始设置"
   }
 }

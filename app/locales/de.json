@@ -472,6 +472,122 @@
         "Beach Club",
         "Multi Venue Group",
         "Enterprise Hospitality Organization"
+      ],
+      "challenges": [
+        {
+          "title": "Guest experience is fragmented",
+          "text": "Guest history, preferences, reviews, loyalty, table activity and marketing data are usually spread across different systems. Avantiqo brings the full guest picture into one operating layer."
+        },
+        {
+          "title": "Staff performance is invisible",
+          "text": "Managers often know who is working, but not who is performing, who is late, who creates value and where service quality is dropping. Avantiqo connects staff activity to accountability."
+        },
+        {
+          "title": "POS is disconnected from control",
+          "text": "Traditional POS systems record sales. Avantiqo connects sales to kitchen flow, stock, customer profiles, staff performance, revenue control and management decisions."
+        },
+        {
+          "title": "Kitchen and production lose margin",
+          "text": "Without connected production, recipe costing, waste tracking and stock visibility, hospitality businesses lose money quietly every day."
+        },
+        {
+          "title": "Marketing happens too late",
+          "text": "Most venues post randomly. Avantiqo can turn slow days, guest behavior, events, campaigns and business goals into automatic ads and social posts."
+        },
+        {
+          "title": "Owners lack one source of truth",
+          "text": "Restaurants, hotels, beach clubs, spas and multi-location groups need one operating system that shows what is happening now and what should happen next."
+        }
+      ],
+      "whyCards": [
+        {
+          "title": "Customer Portal",
+          "text": "Give guests access to loyalty, rewards, bookings, preferences, history and personalized offers. Every interaction becomes part of the customer intelligence layer."
+        },
+        {
+          "title": "Staff Portal",
+          "text": "Staff can manage attendance, tasks, confirmations, salary visibility and performance. Managers can see accountability and approve exceptions before they affect payroll."
+        },
+        {
+          "title": "POS Control",
+          "text": "Sales are not isolated. Every order can connect to customer data, kitchen operations, staff performance, stock usage, financial reporting and management dashboards."
+        },
+        {
+          "title": "Kitchen Flow",
+          "text": "Orders move from POS to kitchen with clear status, preparation flow, completion tracking and operational visibility for service teams and managers."
+        },
+        {
+          "title": "Stock & Production",
+          "text": "Connect recipes, inventory, cost control, production usage and waste so food and beverage margins are visible before month-end."
+        },
+        {
+          "title": "AI Marketing Engine",
+          "text": "Generate ads, captions, campaign ideas, event promotions and social media posts automatically from business context, slow days, guest behavior and revenue targets."
+        }
+      ],
+      "operatingSystem": [
+        {
+          "title": "Guest Intelligence",
+          "text": "Profiles, loyalty, visit history, favorite items, reviews, VIP status, marketing consent and customer value in one view."
+        },
+        {
+          "title": "Reservations & Tables",
+          "text": "Bookings, tables, guest flow, service timing and operational planning connected with the rest of the business."
+        },
+        {
+          "title": "POS & Orders",
+          "text": "Fast sales flow connected to kitchen, customer history, staff accountability, revenue reporting and daily control."
+        },
+        {
+          "title": "Kitchen & Production",
+          "text": "Live order status, preparation control, recipe costing, stock impact, waste visibility and production accountability."
+        },
+        {
+          "title": "Staff & Payroll",
+          "text": "Attendance, lateness, approvals, task completion, salary confirmation, performance and payroll-ready control."
+        },
+        {
+          "title": "Inventory & Cost",
+          "text": "Stock usage, purchasing, transfers, product costing, food cost, waste and profitability connected to operations."
+        },
+        {
+          "title": "Reviews & Reputation",
+          "text": "Google reviews, guest feedback, service issues and response opportunities connected to customer and staff intelligence."
+        },
+        {
+          "title": "Marketing & Design Studio",
+          "text": "Create campaigns, posters, ads, social posts, promotions and branded content directly from the operating system."
+        },
+        {
+          "title": "Synthetic Intelligence",
+          "text": "Predict slow days, staffing pressure, stock issues, customer churn, marketing opportunities and operational risk."
+        }
+      ],
+      "syntheticActions": [
+        {
+          "title": "Predict slow days",
+          "text": "When revenue patterns show a coming quiet period, Avantiqo can recommend offers, campaigns, events and staffing adjustments."
+        },
+        {
+          "title": "Recommend promotions",
+          "text": "The system can suggest what to promote based on guest behavior, stock levels, margin, weather, seasonality and historical sales."
+        },
+        {
+          "title": "Generate ads and posts",
+          "text": "Turn business goals into ready-to-use social captions, campaign concepts, visuals, event promotions and offer messaging."
+        },
+        {
+          "title": "Detect service risk",
+          "text": "If reviews, delays, staff behavior or operational exceptions indicate a problem, management can act before it damages reputation."
+        },
+        {
+          "title": "Optimize staffing",
+          "text": "Use revenue, bookings, order volume and guest flow to understand staffing pressure before service quality drops."
+        },
+        {
+          "title": "Protect margin",
+          "text": "Connect POS, kitchen, recipes, stock and waste so owners can see where profit is leaking."
+        }
       ]
     },
     "accountingFirms": {
@@ -886,7 +1002,127 @@
         "high": "HIGH",
         "learning": "LEARNING",
         "varianceTriggered": "AI variance detection triggered"
-      }
+      },
+      "challenges": [
+        {
+          "title": "Disconnected client data",
+          "text": "Client documents, accounting systems, approvals, payroll, invoices and reports live in different places. Partners lose visibility and teams waste time searching, checking and correcting."
+        },
+        {
+          "title": "Low-margin clients are hard to see",
+          "text": "Many firms know revenue per client, but not true profitability. Avantiqo helps reveal which clients consume time, create exceptions and reduce firm margin."
+        },
+        {
+          "title": "Manual compliance pressure",
+          "text": "Deadlines, approvals, document trails, tax workflows and audit preparation create risk when they depend on manual follow-up and memory."
+        },
+        {
+          "title": "Advisory work is difficult to scale",
+          "text": "Most accounting firms want to move beyond bookkeeping, but advisory insight is trapped inside senior staff. Avantiqo turns financial data into repeatable intelligence."
+        }
+      ],
+      "whyCards": [
+        {
+          "title": "Client Profitability Intelligence",
+          "text": "See which clients are profitable, which clients need intervention and which clients are consuming too much team capacity before margins decline."
+        },
+        {
+          "title": "Practice Performance",
+          "text": "Track utilization, realization, recoverability, workload, WIP, approvals and team performance across the full accounting firm."
+        },
+        {
+          "title": "Compliance & Audit Readiness",
+          "text": "Maintain governance, approval trails, document control, period locking, exception tracking and audit visibility from one operating layer."
+        },
+        {
+          "title": "Advisory Intelligence",
+          "text": "Identify risks, cash flow issues, unusual trends, advisory opportunities and recommended next actions for every client."
+        }
+      ],
+      "operatingSystem": [
+        {
+          "title": "Client Intelligence",
+          "text": "Client profiles, document status, accounting activity, deadlines, communication, profitability and risk in one place."
+        },
+        {
+          "title": "Workflow Control",
+          "text": "Control bookkeeping, payroll, reconciliation, tax preparation, approval flows, review cycles and monthly close workflows."
+        },
+        {
+          "title": "Financial Runtime",
+          "text": "Connect accounting events, operational approvals, journal logic, reconciliation, exceptions and financial reporting."
+        },
+        {
+          "title": "Partner Dashboard",
+          "text": "Give partners live visibility into clients, team capacity, deadlines, revenue, profitability, risk and advisory opportunities."
+        },
+        {
+          "title": "Synthetic Intelligence",
+          "text": "Predict client risk, detect anomalies, recommend action, highlight advisory opportunities and reduce manual review work."
+        },
+        {
+          "title": "Client Deliverables",
+          "text": "Create board-ready reports, advisory summaries, financial reviews, client updates and management presentations faster."
+        }
+      ],
+      "intelligence": [
+        {
+          "title": "Predict client risk",
+          "text": "Identify clients likely to miss deadlines, submit incomplete documents, delay payment or create compliance exposure."
+        },
+        {
+          "title": "Detect anomalies",
+          "text": "Find unusual transactions, payroll variance, reconciliation exceptions, margin drops and operational inconsistencies."
+        },
+        {
+          "title": "Recommend advisory actions",
+          "text": "Turn bookkeeping data into recommendations clients can understand, trust and pay for."
+        },
+        {
+          "title": "Prioritize partner attention",
+          "text": "Show which clients, tasks, exceptions and opportunities need leadership focus today."
+        }
+      ],
+      "roi": [
+        {
+          "label": "Higher margin",
+          "title": "Reduce unbilled work",
+          "text": "When work, exceptions and approvals are visible, firms can protect margin and reduce hidden time leakage."
+        },
+        {
+          "label": "More advisory revenue",
+          "title": "Turn data into advice",
+          "text": "Avantiqo helps accounting firms convert financial data into client-facing advisory insight."
+        },
+        {
+          "label": "Better control",
+          "title": "Know every client status",
+          "text": "Partners can see client health, compliance status, deadlines, workload and financial exposure from one operating system."
+        },
+        {
+          "label": "Scalable practice",
+          "title": "Grow without chaos",
+          "text": "Standardized workflows, synthetic intelligence and governance make it easier to manage more clients without losing control."
+        }
+      ],
+      "runtimeMetrics": [
+        [
+          "Connected Clients",
+          "128"
+        ],
+        [
+          "Open Exceptions",
+          "14"
+        ],
+        [
+          "Advisory Opportunities",
+          "32"
+        ],
+        [
+          "Governance Integrity",
+          "96%"
+        ]
+      ]
     },
     "healthcare": {
       "hero": {
@@ -1013,7 +1249,350 @@
       "faster_approvals_description": "Leiten Sie Bestellanforderungen, Änderungen, Rechnungen und Projektfreigaben durch strukturierte Workflows.",
       "real_time_owner_reporting": "Echtzeitberichte für Eigentümer",
       "real_time_owner_reporting_description": "Ersetzen Sie verspätete Berichte durch Live-Einblicke in Fortschritt, Risiken, Budget und Ausführung.",
-      "construction_problems_become_expensive_when_visibility_arrives_too_late": ""
+      "construction_problems_become_expensive_when_visibility_arrives_too_late": "",
+      "why_title": "Why Construction Companies Choose Avantiqo",
+      "why_1_title": "Project Intelligence",
+      "why_1_text": "See every project, milestone, budget, delay, approval and risk from one operational runtime.",
+      "why_2_title": "Contractor Accountability",
+      "why_2_text": "Track subcontractors, attendance, progress, photos and task completion with evidence.",
+      "why_3_title": "Cost Intelligence",
+      "why_3_text": "Connect procurement, labor, inventory and project spend to understand real profitability.",
+      "why_4_title": "Executive Visibility",
+      "why_4_text": "Owners and executives can monitor every site without waiting for weekly reports.",
+      "portal_title": "Client & Contractor Portals",
+      "portal_client_title": "Client Portal",
+      "portal_client_text": "Clients can follow progress, approvals, milestones, photos, invoices and project status in real time.",
+      "portal_contractor_title": "Contractor Portal",
+      "portal_contractor_text": "Subcontractors can submit updates, attendance, photos, documents and completion evidence directly from site.",
+      "si_title": "Synthetic Intelligence",
+      "si_1_title": "Predict Delays",
+      "si_1_text": "Identify schedule risks before they impact project delivery.",
+      "si_2_title": "Predict Budget Overruns",
+      "si_2_text": "Detect procurement, labor and change-order risks before they become financial problems.",
+      "si_3_title": "Automatic Progress Reports",
+      "si_3_text": "Generate owner-ready project summaries automatically from site activity.",
+      "si_4_title": "Procurement Intelligence",
+      "si_4_text": "Recommend purchasing actions based on inventory, project schedules and supplier performance.",
+      "marketing_title": "Marketing & Tender Intelligence",
+      "marketing_text": "Generate company profiles, capability statements, tender documents, project case studies, social media posts and marketing campaigns directly from completed projects.",
+      "challenge_title": "Construction Companies Are Losing Money Every Day",
+      "challenge_text": "Most construction companies do not lose money because they lack projects. They lose money because they lack visibility. Delays, procurement mistakes, subcontractor issues, budget overruns and communication failures often remain hidden until they have already damaged profitability. Avantiqo gives management real-time visibility across projects, people, suppliers, budgets and execution so problems can be solved before they become losses.",
+      "profitability_title": "Know Which Projects Actually Make Money",
+      "profitability_text": "Revenue is not profit. Most construction companies can tell you project revenue, but very few can accurately explain project profitability. Avantiqo connects quotations, budgets, procurement, inventory, labor, subcontractors, equipment costs and invoices into one financial model so management can see exactly where profit is generated and where margins are disappearing.",
+      "flow_title": "From Lead To Completed Project",
+      "flow_text": "Construction companies often operate with disconnected systems. Sales uses one platform, project teams use another, procurement uses spreadsheets and accounting operates separately. Avantiqo connects the entire lifecycle from lead generation and quotations to project completion, billing, case studies and marketing, creating a single operational runtime for the entire company.",
+      "workforce_title": "Workforce, Payroll & Site Operations",
+      "workforce_text": "Managing hundreds of workers, supervisors and subcontractors across multiple sites is one of the biggest challenges in construction. Avantiqo provides workforce visibility, attendance tracking, payroll management, productivity monitoring, contractor oversight and operational reporting from one connected platform.",
+      "procurement_title": "Procurement, Inventory & Equipment Control",
+      "procurement_text": "Materials, equipment and procurement represent some of the largest project costs. Avantiqo connects purchase requests, supplier management, inventory, warehouses, equipment tracking and project allocations into one procurement engine. Every material movement becomes visible and every purchase becomes traceable.",
+      "difference_title": "Why Avantiqo Is Different",
+      "difference_text": "Most software solves one problem. Project management software manages tasks. ERP systems manage accounting. CRM systems manage customers. Avantiqo connects the entire construction business. Projects, procurement, workforce, finance, clients, marketing and synthetic intelligence operate from one environment instead of ten disconnected systems.",
+      "future_title": "The Future Construction Company",
+      "future_text": "The future construction company operates with live visibility, connected workflows and predictive intelligence. Instead of reacting to delays, budget overruns and operational surprises, management can make informed decisions before problems occur. Avantiqo transforms construction companies from reactive organizations into proactive businesses.",
+      "cta_title": "Construction Without Blind Spots",
+      "cta_text": "Connect projects, procurement, workforce, finance, reporting, client visibility, marketing and synthetic intelligence into one construction operating system.",
+      "flow_step_1": "Lead",
+      "flow_step_2": "CRM",
+      "flow_step_3": "Quotation",
+      "flow_step_4": "Tender",
+      "flow_step_5": "Project Award",
+      "flow_step_6": "Project Setup",
+      "flow_step_7": "Procurement",
+      "flow_step_8": "Inventory",
+      "flow_step_9": "Workforce",
+      "flow_step_10": "Site Reporting",
+      "flow_step_11": "Billing",
+      "flow_step_12": "Invoices",
+      "flow_step_13": "Project Completion",
+      "flow_step_14": "Case Study",
+      "flow_step_15": "Marketing",
+      "flow_step_16": "Next Project",
+      "difference_1_title": "Not Project Management Software",
+      "difference_1_text": "Project management tools manage tasks. Construction companies need to manage entire businesses.",
+      "difference_2_title": "Not Traditional ERP",
+      "difference_2_text": "Traditional ERP systems were built around accounting. Avantiqo is built around operational reality.",
+      "difference_3_title": "Digital Twin Of Your Business",
+      "difference_3_text": "Every project, supplier, worker, asset and transaction becomes part of one connected operational model.",
+      "difference_4_title": "One Platform Instead Of Five",
+      "difference_4_text": "Replace disconnected project software, CRM, ERP, reporting and marketing tools with one connected environment.",
+      "marketing_item_1": "Company profiles",
+      "marketing_item_2": "Capability statements",
+      "marketing_item_3": "Tender documents",
+      "marketing_item_4": "Project case studies",
+      "marketing_item_5": "Website content",
+      "marketing_item_6": "Social media campaigns",
+      "marketing_item_7": "Client presentations"
+    },
+    "professionalServices": {
+      "hero": {
+        "title": "Professional Services Powered by Synthetic Intelligence",
+        "description": "Turn expertise into actionable intelligence for accounting firms, law firms, and advisory businesses. Control clients, projects, compliance, and financial performance from a single platform.",
+        "primary": "Book Demo",
+        "secondary": "Explore Platform"
+      },
+      "sections": [
+        {
+          "title": "Professional Services Challenges",
+          "cards": [
+            {
+              "title": "Inefficient Operations",
+              "desc": "Manual processes and fragmented workflows slow down service delivery."
+            },
+            {
+              "title": "Data Silos",
+              "desc": "Critical insights are scattered across platforms, limiting decision-making."
+            },
+            {
+              "title": "Client Experience Gaps",
+              "desc": "Lack of real-time visibility reduces client satisfaction and retention."
+            }
+          ]
+        },
+        {
+          "title": "Synthetic Intelligence for Accounting & Law",
+          "cards": [
+            {
+              "title": "AI Recommendations",
+              "desc": "Leverage AI to optimize client workflows, approvals, and reporting."
+            },
+            {
+              "title": "Predictive Analytics",
+              "desc": "Forecast revenue, risk, and operational bottlenecks with precision."
+            },
+            {
+              "title": "Automated Decision Making",
+              "desc": "Streamline internal approvals and compliance using AI-driven insights."
+            },
+            {
+              "title": "Client Behavior Insights",
+              "desc": "Understand client trends, retention, and engagement patterns."
+            },
+            {
+              "title": "Operational KPIs",
+              "desc": "Track firm-wide performance, staff productivity, and client profitability."
+            }
+          ]
+        },
+        {
+          "title": "Why Accounting Firms Choose Avantiqo",
+          "cards": [
+            {
+              "title": "Client Profitability Intelligence",
+              "desc": "Know exactly which clients generate profit, consume resources, and require intervention before margins decline."
+            },
+            {
+              "title": "Practice Performance",
+              "desc": "Monitor utilization, realization rates, WIP, recoverability, and team performance across the entire firm."
+            },
+            {
+              "title": "Compliance & Audit Readiness",
+              "desc": "Maintain audit trails, approvals, governance, and compliance controls automatically."
+            },
+            {
+              "title": "Advisory Intelligence",
+              "desc": "Move beyond bookkeeping by identifying opportunities, risks, and recommendations for every client."
+            }
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Operate. Control. Advise. Deliver.",
+        "description": "Avantiqo connects client management, projects, compliance, finance, and synthetic intelligence into one operating system for professional services businesses."
+      }
+    },
+    "retailCommerce": {
+      "hero": {
+        "title": "From Point of Sale to Complete Retail Intelligence & Design",
+        "description": "Manage sales, inventory, customers, marketing, finance, synthetic intelligence, and design from one unified platform.",
+        "primary": "Book Demo",
+        "secondary": "Explore Platform"
+      },
+      "sections": [
+        {
+          "title": "Retail Challenges",
+          "cards": [
+            {
+              "title": "Inventory Inaccuracies",
+              "desc": "Stock visibility is fragmented across locations, causing overstock and lost sales."
+            },
+            {
+              "title": "Disconnected Systems",
+              "desc": "Different software across stores leads to data silos and slow operations."
+            },
+            {
+              "title": "Customer Churn",
+              "desc": "Lack of real-time customer insights leads to missed opportunities."
+            },
+            {
+              "title": "Delayed Financial Insights",
+              "desc": "Manual reporting and fragmented finance data delay decision-making."
+            },
+            {
+              "title": "Manual Stock Tracking",
+              "desc": "Limited automation increases errors and operational burden."
+            },
+            {
+              "title": "Limited Marketing Intelligence",
+              "desc": "Campaigns are hard to optimize without a unified system."
+            }
+          ]
+        },
+        {
+          "title": "Retail Operating System",
+          "cards": [
+            {
+              "title": "Customer Intelligence",
+              "desc": "Detailed customer profiles, loyalty tracking, AI-driven insights."
+            },
+            {
+              "title": "Point of Sale",
+              "desc": "Modern POS with returns, discounts, gift cards, multi-location support."
+            },
+            {
+              "title": "Inventory & Supply Chain",
+              "desc": "Stock levels, warehouses, transfers, purchase orders, automation."
+            },
+            {
+              "title": "Finance & Accounting",
+              "desc": "Revenue, expenses, profitability, cash flow, integrated reporting."
+            },
+            {
+              "title": "Marketing Automation",
+              "desc": "Campaign creation, social publishing, AI-generated content."
+            },
+            {
+              "title": "Synthetic Intelligence",
+              "desc": "Predictive analytics, operational intelligence, automated decisions."
+            },
+            {
+              "title": "Design Studio",
+              "desc": "Visual campaign design, social media graphics, product mockups."
+            },
+            {
+              "title": "Business Intelligence",
+              "desc": "Sales dashboards, KPIs, multi-store analytics, AI forecasting."
+            }
+          ]
+        },
+        {
+          "title": "Retail Without Blind Spots",
+          "cards": [
+            {
+              "title": "Complete Visibility",
+              "desc": "End-to-end view of operations, inventory, and customer behavior."
+            },
+            {
+              "title": "Data-Driven Decisions",
+              "desc": "AI-powered insights to optimize sales, marketing, and operations."
+            },
+            {
+              "title": "Seamless Integration",
+              "desc": "All systems connected for real-time, actionable intelligence."
+            }
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Ready To Transform Retail?",
+        "description": "Connect sales, inventory, customers, finance, marketing and AI into one operating system.",
+        "primary": "Book Demo",
+        "secondary": "Explore Platform"
+      }
+    },
+    "distributionManufacturing": {
+      "hero": {
+        "title": "From Raw Materials To Delivered Products",
+        "description": "Control procurement, inventory, production, warehousing, logistics, finance, and operational intelligence from one unified platform.",
+        "primary": "Book Demo",
+        "secondary": "Explore Platform"
+      },
+      "sections": [
+        {
+          "title": "Industry Challenges",
+          "cards": [
+            {
+              "title": "Inventory Inaccuracy",
+              "desc": "Stock discrepancies cause overstock and lost sales."
+            },
+            {
+              "title": "Production Delays",
+              "desc": "Manufacturing bottlenecks delay order fulfillment."
+            },
+            {
+              "title": "Supply Chain Disruption",
+              "desc": "Uncoordinated logistics increase lead times."
+            },
+            {
+              "title": "Disconnected Warehouses",
+              "desc": "Multiple locations without centralized control."
+            },
+            {
+              "title": "Poor Forecasting",
+              "desc": "Limited analytics prevent accurate production planning."
+            },
+            {
+              "title": "Lack Of Visibility",
+              "desc": "Limited insight into operations and inventory performance."
+            }
+          ]
+        },
+        {
+          "title": "Manufacturing Operating System",
+          "cards": [
+            {
+              "title": "Procurement",
+              "desc": "Purchase requests, orders, supplier management, approvals, receiving."
+            },
+            {
+              "title": "Inventory & Warehousing",
+              "desc": "Stock levels, locations, transfers, batch tracking, cycle counts."
+            },
+            {
+              "title": "Production",
+              "desc": "Recipes, BOM, production orders, costing, yield tracking."
+            },
+            {
+              "title": "Logistics",
+              "desc": "Deliveries, fleet management, shipping, tracking, distribution."
+            },
+            {
+              "title": "Finance & Accounting",
+              "desc": "AP, AR, ledger, cost accounting, reporting."
+            },
+            {
+              "title": "Synthetic Intelligence",
+              "desc": "Predict demand, forecast inventory, identify bottlenecks, reduce waste, automate decisions."
+            },
+            {
+              "title": "Design Studio",
+              "desc": "Product design, packaging, labels, marketing assets, product launches."
+            }
+          ]
+        },
+        {
+          "title": "Distribution Without Blind Spots",
+          "cards": [
+            {
+              "title": "Complete Visibility",
+              "desc": "Full end-to-end visibility across production and distribution."
+            },
+            {
+              "title": "Data-Driven Decisions",
+              "desc": "AI-powered insights to optimize operations, inventory and logistics."
+            },
+            {
+              "title": "Seamless Integration",
+              "desc": "All modules connected for real-time actionable intelligence."
+            }
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Operate. Control. Produce. Deliver.",
+        "description": "Modern manufacturing requires visibility across every step of the supply chain. Avantiqo connects procurement, inventory, production, logistics, finance, synthetic intelligence, and design into one operating system.",
+        "primary": "Book Demo",
+        "secondary": "Explore Platform"
+      }
     }
   },
   "navigation": {
@@ -2315,5 +2894,199 @@
     "security": "Sicherheit",
     "login": "Anmelden",
     "start_setup": "Starten"
+  },
+  "synthetic_intelligence": {
+    "hero_title": "Centralized Synthetic Intelligence",
+    "hero_subtitle": "Harness the power of Synthetic Intelligence to unify data, predict trends, and make informed decisions faster across your enterprise.",
+    "request_demo": "Request Demo",
+    "explore_industries": "Explore Industries",
+    "section_1_title": "What is Synthetic Intelligence?",
+    "section_2_title": "Why It Matters",
+    "section_3_title": "Key Benefits",
+    "section_4_title": "Artificial Intelligence vs Synthetic Intelligence",
+    "advanced_title": "Advanced Synthetic Intelligence",
+    "ai_title": "Artificial Intelligence",
+    "ai_subtitle": "Creates Outputs",
+    "si_title": "Synthetic Intelligence",
+    "si_subtitle": "Creates Understanding",
+    "vision_label": "Avantiqo Vision",
+    "vision_title": "The Goal Is Not To Automate Work.",
+    "vision_text": "The goal is to create organizations that understand themselves.",
+    "vision_footer": "That is the future Avantiqo is building.",
+    "enterprise_label": "Enterprise Intelligence Layer",
+    "section_1_description": "Synthetic Intelligence (SI) is a next-generation intelligence system designed\nto analyze, predict, and optimize operational and financial performance across a business\nin real time. Unlike traditional AI, SI integrates multiple streams of business data—including\nfinance, operations, customer management, and human resources—into a single, intelligent layer\nthat provides actionable insights and predictive recommendations.",
+    "section_2_description": "SI allows businesses to anticipate bottlenecks, optimize workflows, and improve\ndecision-making by providing a comprehensive, real-time overview of all critical business\noperations. By leveraging SI, executives can make informed decisions proactively, rather than\nreacting to problems after they occur, improving efficiency, reducing costs, and increasing growth.",
+    "section_3_description": "- Real-time insights across departments and functions\n- Predictive analytics for operational efficiency\n- Centralized intelligence for faster decision-making\n- Enhanced visibility for leadership to monitor KPIs\n- Automated recommendations to optimize resource allocation",
+    "section_4_description": "Artificial Intelligence Creates Answers:\nAI can generate text, images, reports, and recommendations. However, it does not understand\nthe organization itself. It can answer questions, but it cannot continuously understand\nthe relationships between operations, customers, staff, finance, compliance, and performance.\n\nSynthetic Intelligence Creates Understanding:\nSI is not designed to generate answers. It creates organizational awareness. Every customer\ninteraction, operational event, financial transaction, staff activity, project milestone, and\ncompliance requirement becomes part of a continuously evolving model of the organization.\nThis allows leadership to understand not only what happened, but why and what is likely to\nhappen next.\n\nThe Digital Twin Of The Organization:\nSI produces a living operational model of the business—a digital twin. Instead of viewing\ndepartments separately, the organization is understood as a connected system where decisions,\nevents, and outcomes influence each other. Leaders can identify risks, opportunities, and\nbottlenecks before they appear in reports."
+  },
+  "security": {
+    "hero_label": "SECURITY & TRUST",
+    "hero_title": "Security Is Not A Feature.",
+    "hero_title_highlight": "It Is The Foundation.",
+    "hero_subtitle": "Avantiqo is designed for businesses that manage sensitive operational, financial, customer, staff and organizational data. Security must exist across every layer: access, approvals, visibility, audit trails, portals, integrations and data separation.",
+    "request_briefing": "Request Security Briefing",
+    "explore_platform": "Explore Platform",
+    "model_label": "SECURITY MODEL",
+    "model_title": "Protect The Business. Protect The Data. Protect The Decisions.",
+    "why_label": "WHY IT MATTERS",
+    "why_title": "Security Creates Trust. Trust Creates Adoption.",
+    "layers_label": "SECURITY LAYERS",
+    "data_label": "DATA RESPONSIBILITY",
+    "data_title": "A Platform That Understands Sensitive Business Data.",
+    "pillar_1_title": "Organization-Level Access Control",
+    "pillar_1_text": "Avantiqo is built around organization-based access. Users only see the companies, departments, workspaces and records they are permitted to access. This prevents staff, managers, clients or external users from seeing information outside their responsibility.",
+    "pillar_2_title": "Role-Based Permissions",
+    "pillar_2_text": "Every user role can be restricted by function. Owners, managers, accounting teams, staff, customers and external collaborators can receive different levels of access. Sensitive actions such as approvals, payments, payroll, finance, customer records and reporting can be protected behind permission layers.",
+    "pillar_3_title": "Multi-Tenant Data Separation",
+    "pillar_3_text": "Avantiqo is designed for multi-company and multi-client use. Each organization operates inside its own controlled environment. This is especially important for accounting firms, hospitality groups, healthcare groups and enterprise companies managing multiple clients, branches or subsidiaries.",
+    "pillar_4_title": "Approval Governance",
+    "pillar_4_text": "Important actions should not happen silently. Avantiqo supports approval flows for invoices, payroll, accounting actions, customer requests, operational changes and management decisions. This creates accountability and reduces the risk of unauthorized or accidental actions.",
+    "pillar_5_title": "Audit Trail And Activity Visibility",
+    "pillar_5_text": "A secure system must show who did what, when it happened and why it matters. Avantiqo is designed to support audit trails across approvals, records, submissions, changes and operational events so leadership can investigate actions instead of guessing.",
+    "pillar_6_title": "Customer And Staff Portal Separation",
+    "pillar_6_text": "Customer portals and staff portals should never expose internal business controls. Avantiqo separates external customer visibility from internal operational access, allowing customers to see what is relevant to them while protecting internal data, financial logic and management decisions.",
+    "layer_1": "Authentication and controlled login access",
+    "layer_2": "Role-based authorization",
+    "layer_3": "Organization and workspace separation",
+    "layer_4": "Approval-based sensitive actions",
+    "layer_5": "Audit logs and traceable activity",
+    "layer_6": "Controlled customer portal visibility",
+    "layer_7": "Controlled staff portal visibility",
+    "layer_8": "Finance and payroll protection",
+    "layer_9": "Document and asset access control",
+    "layer_10": "Future-ready compliance structure"
+  },
+  "privacy": {
+    "hero_label": "PRIVACY & TRUST",
+    "hero_title": "Privacy Is Not A Feature.",
+    "hero_highlight": "It Is A Foundation.",
+    "hero_subtitle": "Trust cannot exist without privacy. Organizations cannot build intelligence, governance, compliance, operational visibility or enterprise-scale decision making without confidence that their information remains protected.",
+    "section_1_title": "Privacy By Design",
+    "section_2_title": "Privacy Is A Business Requirement",
+    "section_3_title": "Who Owns The Data?",
+    "section_4_title": "How Avantiqo Does NOT Use Data",
+    "section_5_title": "Synthetic Intelligence And Privacy",
+    "section_1_text": "Privacy cannot be added after a system is built.\n\nPrivacy must be incorporated into architecture, governance, access controls, workflows, intelligence systems and operational processes from the beginning.\n\nAt Avantiqo, privacy is not treated as a legal checkbox. Privacy is built into the foundation of the platform itself.\n\nEvery workflow.\nEvery approval.\nEvery operational process.\nEvery customer interaction.\nEvery financial transaction.\nEvery intelligence layer.\n\nPrivacy exists as a fundamental design principle because trust is the foundation of every modern organization.",
+    "section_2_text": "Modern organizations generate information continuously.\n\nEvery customer interaction.\nEvery financial transaction.\nEvery approval.\nEvery operational event.\nEvery employee action.\nEvery project milestone.\nEvery compliance activity.\nEvery document.\nEvery decision.\n\nTogether these activities create the operational memory of the organization.\n\nProtecting that information is not simply a regulatory requirement.\n\nIt is a business requirement.",
+    "section_3_text": "Your organization owns its data.\n\nAlways.\n\nAvantiqo does not sell customer information.\nAvantiqo does not sell employee information.\nAvantiqo does not sell operational information.\nAvantiqo does not sell financial information.\nAvantiqo does not monetize organizational intelligence.\n\nThe platform exists to help organizations understand themselves, not to take ownership of the information they generate.",
+    "section_4_text": "Avantiqo does not sell customer data.\n\nAvantiqo does not share information between organizations.\n\nAvantiqo does not build advertising profiles.\n\nAvantiqo does not monetize operational activity.\n\nAvantiqo does not use customer information to train public AI systems.\n\nThe objective of the platform is to help organizations understand themselves.\n\nNot to exploit the information they generate.",
+    "section_5_text": "Synthetic Intelligence introduces a fundamentally different approach to intelligence.\n\nTraditional artificial intelligence often attempts to learn from large volumes of public information.\n\nSynthetic Intelligence focuses on understanding organizational reality.\n\nIts purpose is not to profile individuals.\n\nIts purpose is not to create advertising models.\n\nIts purpose is not to exploit user behavior.\n\nIts purpose is organizational awareness.\n\nNot personal surveillance.",
+    "section_6_title": "Organizational Privacy",
+    "section_7_title": "Data Lifecycle Management",
+    "section_8_title": "Privacy And Executive Responsibility",
+    "section_9_title": "Privacy And Governance",
+    "section_10_title": "Privacy And Trust",
+    "section_11_title": "Data Isolation And Organizational Boundaries",
+    "section_12_title": "Data Storage And Infrastructure",
+    "section_13_title": "Data Separation And Isolation",
+    "section_14_title": "Access Control And Permissions",
+    "section_15_title": "Encryption And Data Protection",
+    "section_16_title": "Platform Administrators And Data Access",
+    "section_17_title": "Artificial Intelligence And Customer Data",
+    "section_18_title": "Backup, Resilience And Business Continuity",
+    "section_19_title": "Data Deletion And Exit Rights",
+    "section_20_title": "Customer Rights And Transparency",
+    "section_21_title": "Global Privacy Standards",
+    "section_22_title": "The Future Of Privacy"
+  },
+  "governance": {
+    "hero_label": "GOVERNANCE & ACCOUNTABILITY",
+    "hero_title": "Governance Creates Control.",
+    "hero_highlight": "Control Creates Trust.",
+    "hero_subtitle": "Governance is not bureaucracy. Governance creates accountability, visibility, consistency and decision control across the organization.",
+    "section_1_title": "Governance Is Not Management",
+    "section_2_title": "Why Governance Matters",
+    "section_3_title": "Governance As A Competitive Advantage",
+    "section_4_title": "Decision Governance",
+    "section_5_title": "Approval Workflows",
+    "section_6_title": "Organizational Accountability",
+    "section_7_title": "Auditability And Transparency",
+    "section_8_title": "Governance Across The Entire Organization",
+    "section_9_title": "Governance And Synthetic Intelligence",
+    "section_10_title": "Role-Based Authority",
+    "section_11_title": "Governance And Risk Management",
+    "section_12_title": "Governance And Compliance",
+    "section_13_title": "Governance And Executive Leadership",
+    "section_14_title": "The Future Of Governance",
+    "section_1_text": "TODO_GOVERNANCE_SECTION_1",
+    "section_2_text": "TODO_GOVERNANCE_SECTION_2",
+    "section_3_text": "TODO_GOVERNANCE_SECTION_3",
+    "section_4_text": "TODO_GOVERNANCE_SECTION_4",
+    "section_5_text": "TODO_GOVERNANCE_SECTION_5",
+    "section_6_text": "TODO_GOVERNANCE_SECTION_6",
+    "section_7_text": "TODO_GOVERNANCE_SECTION_7",
+    "section_8_text": "TODO_GOVERNANCE_SECTION_8",
+    "section_9_text": "TODO_GOVERNANCE_SECTION_9",
+    "section_10_text": "TODO_GOVERNANCE_SECTION_10",
+    "section_11_text": "TODO_GOVERNANCE_SECTION_11",
+    "section_12_text": "TODO_GOVERNANCE_SECTION_12",
+    "section_13_text": "TODO_GOVERNANCE_SECTION_13",
+    "section_14_text": "TODO_GOVERNANCE_SECTION_14"
+  },
+  "compliance": {
+    "hero_label": "COMPLIANCE & TRUST",
+    "hero_title": "Compliance Is Not A Project.",
+    "hero_highlight": "It Is Continuous.",
+    "hero_subtitle": "Avantiqo integrates compliance into operational workflows, ensuring accountability, visibility, and auditability across every department and process.",
+    "request_briefing": "Request Compliance Briefing",
+    "explore_platform": "Explore Platform",
+    "section_1_title": "Compliance Is Not A Project",
+    "section_1_text": "TODO_COMPLIANCE_SECTION_1",
+    "section_2_title": "Why Compliance Matters",
+    "section_2_text": "TODO_COMPLIANCE_SECTION_2",
+    "section_3_title": "Operational Compliance",
+    "section_3_text": "TODO_COMPLIANCE_SECTION_3",
+    "section_4_title": "Financial Compliance",
+    "section_4_text": "TODO_COMPLIANCE_SECTION_4",
+    "section_5_title": "Data Compliance",
+    "section_5_text": "TODO_COMPLIANCE_SECTION_5",
+    "section_6_title": "Governance And Compliance",
+    "section_6_text": "TODO_COMPLIANCE_SECTION_6",
+    "section_7_title": "Audit Readiness",
+    "section_7_text": "TODO_COMPLIANCE_SECTION_7",
+    "section_8_title": "Continuous Monitoring",
+    "section_8_text": "TODO_COMPLIANCE_SECTION_8",
+    "section_9_title": "Compliance And Synthetic Intelligence",
+    "section_9_text": "TODO_COMPLIANCE_SECTION_9",
+    "section_10_title": "Enterprise Accountability",
+    "section_10_text": "TODO_COMPLIANCE_SECTION_10",
+    "section_11_title": "Regulatory Readiness",
+    "section_11_text": "TODO_COMPLIANCE_SECTION_11",
+    "section_12_title": "Compliance At Scale",
+    "section_12_text": "TODO_COMPLIANCE_SECTION_12",
+    "section_13_title": "The Future Of Compliance",
+    "section_13_text": "TODO_COMPLIANCE_SECTION_13"
+  },
+  "gdpr": {
+    "hero_label": "GDPR & DATA RIGHTS",
+    "hero_title": "Privacy Requires Accountability.",
+    "hero_highlight": "Accountability Requires Visibility.",
+    "hero_subtitle": "GDPR is built around transparency, accountability, privacy and control. Organizations must understand what information exists, how it is used and how it is protected.",
+    "section_1_title": "GDPR Is Not A Checkbox",
+    "section_1_text": "TODO_GDPR_SECTION_1",
+    "section_2_title": "What Information Is Stored",
+    "section_2_text": "TODO_GDPR_SECTION_2",
+    "section_3_title": "Where Information Is Stored",
+    "section_3_text": "TODO_GDPR_SECTION_3",
+    "section_4_title": "Who Owns The Data",
+    "section_4_text": "TODO_GDPR_SECTION_4",
+    "section_5_title": "Who Can Access Information",
+    "section_5_text": "TODO_GDPR_SECTION_5",
+    "section_6_title": "Right Of Access",
+    "section_6_text": "TODO_GDPR_SECTION_6",
+    "section_7_title": "Right To Rectification",
+    "section_7_text": "TODO_GDPR_SECTION_7",
+    "section_8_title": "Right To Erasure",
+    "section_8_text": "TODO_GDPR_SECTION_8",
+    "section_9_title": "Data Portability",
+    "section_9_text": "TODO_GDPR_SECTION_9",
+    "section_10_title": "Artificial Intelligence And GDPR",
+    "section_10_text": "TODO_GDPR_SECTION_10",
+    "section_11_title": "Auditability And Accountability",
+    "section_11_text": "TODO_GDPR_SECTION_11",
+    "section_12_title": "Privacy, Governance And Compliance",
+    "section_12_text": "TODO_GDPR_SECTION_12",
+    "section_13_title": "The Future Of Data Protection",
+    "section_13_text": "TODO_GDPR_SECTION_13"
   }
 }
