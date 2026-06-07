@@ -909,81 +909,81 @@
           "Operational problems discovered too late"
         ],
         "after": [
-          "AI invoice extraction",
-          "Real-time operational visibility",
-          "Live payroll and procurement tracking",
-          "Connected approvals and audit trails",
-          "Multi-company dashboard control",
-          "Accounting firms handle more clients efficiently"
+          "Extraction de factures par IA",
+          "Visibilité opérationnelle en temps réel",
+          "Suivi en direct de la paie et des achats",
+          "Approbations et pistes d'audit connectées",
+          "Contrôle multi-entreprises",
+          "Les cabinets gèrent davantage de clients efficacement"
         ]
       },
       "switchLists": {
         "traditional": [
-          "Reports after the month ends",
-          "No operational visibility",
-          "Manual document collection",
-          "Problems discovered too late",
-          "No approval intelligence",
-          "No operational accountability",
-          "No live client monitoring"
+          "Rapports après la fin du mois",
+          "Aucune visibilité opérationnelle",
+          "Collecte manuelle de documents",
+          "Problèmes découverts trop tard",
+          "Aucune intelligence d'approbation",
+          "Aucune responsabilité opérationnelle",
+          "Aucun suivi client en temps réel"
         ],
         "avantiqo": [
-          "Live operational visibility",
-          "AI document extraction",
-          "Multi-company control",
-          "Approval accountability",
-          "Operational anomaly detection",
-          "Continuous audit trail",
-          "Synthetic Intelligence recommendations"
+          "Visibilité opérationnelle en temps réel",
+          "Extraction documentaire par IA",
+          "Contrôle multi-entreprises",
+          "Responsabilité des approbations",
+          "Détection d'anomalies opérationnelles",
+          "Piste d'audit continue",
+          "Recommandations d'intelligence synthétique"
         ]
       },
       "syntheticSection": {
-        "badge": "SYNTHETIC INTELLIGENCE",
-        "headline1": "Artificial Intelligence answers questions.",
-        "headline2": "Synthetic Intelligence understands businesses.",
-        "aiTitle": "AI",
-        "aiText": "Generates content. Answers questions. Creates reports. Responds to prompts.",
-        "syntheticTitle": "Synthetic Intelligence",
-        "syntheticText": "Understands relationships between payroll, procurement, approvals, documents, accounting, inventory and operations. Detects risks. Predicts outcomes. Recommends actions. Creates operational intelligence.",
+        "badge": "INTELLIGENCE SYNTHÉTIQUE",
+        "headline1": "L'intelligence artificielle répond aux questions.",
+        "headline2": "L'intelligence synthétique comprend les entreprises.",
+        "aiTitle": "IA",
+        "aiText": "Génère du contenu. Répond aux questions. Crée des rapports. Réagit aux instructions.",
+        "syntheticTitle": "Intelligence Synthétique",
+        "syntheticText": "Comprend les relations entre la paie, les achats, les approbations, les documents, la comptabilité, les stocks et les opérations. Détecte les risques. Prédit les résultats. Recommande des actions. Crée de l'intelligence opérationnelle.",
         "receiptText": "It affects approvals, accounting, procurement reconciliation, financial close, audit confidence, and management visibility.",
         "receiptFooter": "Synthetic Intelligence understands the entire chain reaction."
       },
       "riskRuntimeLists": {
-        "missingReceipts": "Missing Receipts",
-        "payrollApproval": "Payroll Approval Delayed",
-        "procurementExceptions": "Procurement Exceptions",
-        "continuousFlow": "Continuous Operational Flow",
-        "enterpriseNervousSystem": "Enterprise Operational Nervous System",
-        "monitoringBehavior": "Monitoring Operational Behavior",
-        "aiVariance": "Procurement variance detected in hospitality operations.",
-        "aiPayroll": "Payroll inconsistency identified before financial close.",
-        "aiConfidence": "AI Runtime Confidence",
-        "aiPercentage": "97.2%",
-        "aiStatus": "No critical anomalies detected."
+        "enterpriseNervousSystem": "Système Nerveux Opérationnel de l'Entreprise",
+        "continuousFlow": "Flux Opérationnel Continu",
+        "monitoringBehavior": "Surveillance du Comportement Opérationnel",
+        "missingReceipts": "Reçus Manquants",
+        "payrollApproval": "Approbation de Paie Retardée",
+        "procurementExceptions": "Exceptions d'Achats",
+        "aiVariance": "Écart d'approvisionnement détecté dans les opérations Hospitality.",
+        "aiPayroll": "Incohérence de paie identifiée avant la clôture financière.",
+        "aiStatus": "Aucune anomalie critique détectée.",
+        "aiConfidence": "Niveau de Confiance IA",
+        "aiPercentage": "97.2%"
       },
       "statusLabels": {
-        "aiActive": "AI ACTIVE",
-        "systemActive": "SYSTEM ACTIVE",
-        "detected": "AI DETECTED",
-        "analysis": "AI ANALYSIS",
-        "recommendation": "AI RECOMMENDATION",
-        "live": "LIVE",
-        "verified": "VERIFIED",
-        "active": "ACTIVE",
-        "reviewing": "REVIEWING",
-        "approved": "APPROVED",
-        "pendingClose": "PENDING CLOSE",
-        "enforced": "ENFORCED",
-        "enabled": "ENABLED",
-        "ready": "READY",
-        "synchronized": "SYNCHRONIZED",
-        "operational": "OPERATIONAL"
+        "active": "ACTIF",
+        "aiActive": "IA ACTIVE",
+        "analysis": "ANALYSE IA",
+        "approved": "APPROUVÉ",
+        "detected": "IA DÉTECTÉE",
+        "enabled": "ACTIVÉ",
+        "enforced": "APPLIQUÉ",
+        "live": "EN DIRECT",
+        "operational": "OPÉRATIONNEL",
+        "pendingClose": "CLÔTURE EN ATTENTE",
+        "ready": "PRÊT",
+        "recommendation": "RECOMMANDATION IA",
+        "reviewing": "EN RÉVISION",
+        "synchronized": "SYNCHRONISÉ",
+        "systemActive": "SYSTÈME ACTIF",
+        "verified": "VÉRIFIÉ"
       },
       "enterpriseRuntime": {
-        "auditTraceability": "Enterprise Audit Traceability",
+        "auditTraceability": "Traçabilité d'Audit d'Entreprise",
         "auditDescription": "Every approval, edit, transaction and operational event is permanently tracked across the enterprise runtime architecture.",
-        "noAnomalies": "No critical anomalies detected.",
-        "allSystems": "ALL SYSTEMS SYNCHRONIZED",
+        "noAnomalies": "Aucune anomalie critique détectée.",
+        "allSystems": "TOUS LES SYSTÈMES SYNCHRONISÉS",
         "payrollRuntime": "Payroll Runtime",
         "payrollDesc": "Synced with Operations Control",
         "procurementRuntime": "Procurement Runtime",
@@ -1005,104 +1005,104 @@
       },
       "challenges": [
         {
-          "title": "Disconnected client data",
+          "title": "Données clients déconnectées",
           "text": "Client documents, accounting systems, approvals, payroll, invoices and reports live in different places. Partners lose visibility and teams waste time searching, checking and correcting."
         },
         {
-          "title": "Low-margin clients are hard to see",
+          "title": "Les clients à faible marge sont difficiles à identifier",
           "text": "Many firms know revenue per client, but not true profitability. Avantiqo helps reveal which clients consume time, create exceptions and reduce firm margin."
         },
         {
-          "title": "Manual compliance pressure",
+          "title": "Pression de conformité manuelle",
           "text": "Deadlines, approvals, document trails, tax workflows and audit preparation create risk when they depend on manual follow-up and memory."
         },
         {
-          "title": "Advisory work is difficult to scale",
+          "title": "Le conseil est difficile à développer",
           "text": "Most accounting firms want to move beyond bookkeeping, but advisory insight is trapped inside senior staff. Avantiqo turns financial data into repeatable intelligence."
         }
       ],
       "whyCards": [
         {
-          "title": "Client Profitability Intelligence",
+          "title": "Intelligence de Rentabilité Client",
           "text": "See which clients are profitable, which clients need intervention and which clients are consuming too much team capacity before margins decline."
         },
         {
-          "title": "Practice Performance",
+          "title": "Performance du Cabinet",
           "text": "Track utilization, realization, recoverability, workload, WIP, approvals and team performance across the full accounting firm."
         },
         {
-          "title": "Compliance & Audit Readiness",
+          "title": "Conformité et Préparation à l'Audit",
           "text": "Maintain governance, approval trails, document control, period locking, exception tracking and audit visibility from one operating layer."
         },
         {
-          "title": "Advisory Intelligence",
+          "title": "Intelligence de Conseil",
           "text": "Identify risks, cash flow issues, unusual trends, advisory opportunities and recommended next actions for every client."
         }
       ],
       "operatingSystem": [
         {
-          "title": "Client Intelligence",
+          "title": "Intelligence Client",
           "text": "Client profiles, document status, accounting activity, deadlines, communication, profitability and risk in one place."
         },
         {
-          "title": "Workflow Control",
+          "title": "Contrôle des Processus",
           "text": "Control bookkeeping, payroll, reconciliation, tax preparation, approval flows, review cycles and monthly close workflows."
         },
         {
-          "title": "Financial Runtime",
+          "title": "Runtime Financier",
           "text": "Connect accounting events, operational approvals, journal logic, reconciliation, exceptions and financial reporting."
         },
         {
-          "title": "Partner Dashboard",
+          "title": "Tableau de Bord Associés",
           "text": "Give partners live visibility into clients, team capacity, deadlines, revenue, profitability, risk and advisory opportunities."
         },
         {
-          "title": "Synthetic Intelligence",
+          "title": "Intelligence Synthétique",
           "text": "Predict client risk, detect anomalies, recommend action, highlight advisory opportunities and reduce manual review work."
         },
         {
-          "title": "Client Deliverables",
+          "title": "Livrables Clients",
           "text": "Create board-ready reports, advisory summaries, financial reviews, client updates and management presentations faster."
         }
       ],
       "intelligence": [
         {
-          "title": "Predict client risk",
+          "title": "Prédire le risque client",
           "text": "Identify clients likely to miss deadlines, submit incomplete documents, delay payment or create compliance exposure."
         },
         {
-          "title": "Detect anomalies",
+          "title": "Détecter les anomalies",
           "text": "Find unusual transactions, payroll variance, reconciliation exceptions, margin drops and operational inconsistencies."
         },
         {
-          "title": "Recommend advisory actions",
+          "title": "Recommander des actions de conseil",
           "text": "Turn bookkeeping data into recommendations clients can understand, trust and pay for."
         },
         {
-          "title": "Prioritize partner attention",
+          "title": "Prioriser l'attention des associés",
           "text": "Show which clients, tasks, exceptions and opportunities need leadership focus today."
         }
       ],
       "roi": [
         {
-          "label": "Higher margin",
-          "title": "Reduce unbilled work",
-          "text": "When work, exceptions and approvals are visible, firms can protect margin and reduce hidden time leakage."
+          "label": "Marge supérieure",
+          "title": "Réduire le travail non facturé",
+          "text": "Lorsque le travail, les exceptions et les approbations sont visibles, les cabinets peuvent protéger leurs marges et réduire les pertes de temps cachées."
         },
         {
-          "label": "More advisory revenue",
-          "title": "Turn data into advice",
-          "text": "Avantiqo helps accounting firms convert financial data into client-facing advisory insight."
+          "label": "Plus de revenus de conseil",
+          "title": "Transformer les données en recommandations",
+          "text": "Avantiqo aide les cabinets comptables à transformer les données financières en conseils à forte valeur ajoutée."
         },
         {
-          "label": "Better control",
-          "title": "Know every client status",
-          "text": "Partners can see client health, compliance status, deadlines, workload and financial exposure from one operating system."
+          "label": "Meilleur contrôle",
+          "title": "Connaître le statut de chaque client",
+          "text": "Les associés peuvent voir la santé du client, la conformité, les échéances, la charge de travail et l'exposition financière depuis un seul système."
         },
         {
-          "label": "Scalable practice",
-          "title": "Grow without chaos",
-          "text": "Standardized workflows, synthetic intelligence and governance make it easier to manage more clients without losing control."
+          "label": "Cabinet évolutif",
+          "title": "Grandir sans chaos",
+          "text": "Les workflows standardisés, l'intelligence synthétique et la gouvernance facilitent la croissance sans perte de contrôle."
         }
       ],
       "runtimeMetrics": [
