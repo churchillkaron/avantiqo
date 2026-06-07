@@ -49,10 +49,8 @@ export default function DistributionManufacturingPage() {
           <h2 className="text-4xl md:text-5xl font-semibold text-center mb-12">{section.title}</h2>
           <div className="flex flex-wrap justify-center gap-6">
             {section.cards.map((card, idx) => {
-              const Icon = card.icon;
               return (
                 <div key={idx} className="w-full sm:w-[300px] md:w-[320px] bg-white/5 backdrop-blur-2xl border border-white/10 rounded-3xl p-6 hover:bg-white/10 transition-all flex flex-col items-center text-center shadow-lg">
-                  <Icon className="w-8 h-8 mb-3 text-[#D6A66A]" />
                   <h3 className="font-semibold text-xl mb-2">{card.title}</h3>
                   <p className="text-white/70">{card.desc}</p>
                 </div>
