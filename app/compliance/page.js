@@ -7,10 +7,7 @@ import { useTranslation } from "@/app/providers/I18nProvider";
 export default function CompliancePage() {
   const { translations } = useTranslation();
   const compliance = translations.compliance || {};
-  const { translations } = useTranslation();
-  const compliance = translations.compliance || {};
-  const { translations } = useTranslation();
-  const compliance = translations.compliance || {};
+ 
 
   const sections = [
     {
