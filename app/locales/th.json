@@ -592,534 +592,534 @@
     },
     "accountingFirms": {
       "hero": {
-        "badge": "SYNTHETIC INTELLIGENCE FOR ACCOUNTING FIRMS",
-        "title1": "Stop Reporting",
-        "title2": "The Past.",
-        "title3": "Start Managing",
-        "title4": "The Future.",
-        "description": "Avantiqo gives accounting firms real-time visibility into operations, approvals, payroll, procurement and financial activity instead of waiting for paperwork 30 days later.",
-        "primary": "Build The Next Generation Accounting Firm",
-        "secondary": "Talk To Enterprise Team"
+        "badge": "SYNTHETIC INTELLIGENCE สำหรับสำนักงานบัญชี",
+        "title1": "หยุดรายงาน",
+        "title2": "อดีต",
+        "title3": "เริ่มบริหาร",
+        "title4": "อนาคต",
+        "description": "Avantiqo มอบการมองเห็นแบบเรียลไทม์ในด้านการดำเนินงาน การอนุมัติ เงินเดือน การจัดซื้อ และกิจกรรมทางการเงิน โดยไม่ต้องรอเอกสารหลังสิ้นเดือน 30 วัน",
+        "primary": "สร้างสำนักงานบัญชีแห่งอนาคต",
+        "secondary": "พูดคุยกับทีม Enterprise"
       },
       "beforeAfter": {
-        "badge": "BEFORE VS AFTER",
-        "title1": "Stop rebuilding businesses",
-        "title2": "from paperwork."
+        "badge": "ก่อนและหลัง",
+        "title1": "หยุดสร้างธุรกิจใหม่",
+        "title2": "จากเอกสารกระดาษ"
       },
       "switch": {
-        "badge": "WHY ACCOUNTING FIRMS SWITCH",
-        "title1": "Other software stores transactions.",
-        "title2": "Avantiqo understands businesses."
+        "badge": "เหตุใดสำนักงานบัญชีจึงเปลี่ยนมาใช้",
+        "title1": "ซอฟต์แวร์อื่นเก็บธุรกรรม",
+        "title2": "Avantiqo เข้าใจธุรกิจ"
       },
       "runtime": {
         "badge": "ACCOUNTING RUNTIME",
-        "title1": "Everything connected.",
-        "title2": "Everything visible."
+        "title1": "ทุกอย่างเชื่อมต่อกัน",
+        "title2": "ทุกอย่างมองเห็นได้"
       },
       "benefits": {
-        "badge": "ACCOUNTING FIRM BENEFITS",
-        "title1": "Scale your accounting firm without scaling operational chaos."
+        "badge": "ประโยชน์สำหรับสำนักงานบัญชี",
+        "title1": "ขยายสำนักงานบัญชีโดยไม่เพิ่มความวุ่นวายในการดำเนินงาน"
       },
       "advisory": {
-        "badge": "WHY SYNTHETIC INTELLIGENCE FOR ACCOUNTING FIRMS CHOOSE AVANTIQO",
-        "title1": "Turn accounting from bookkeeping into operational intelligence.",
-        "description": "Avantiqo helps accounting firms become live operational intelligence partners, not just month-end bookkeeping providers."
+        "badge": "ทำไมสำนักงานบัญชีจึงเลือก AVANTIQO",
+        "title1": "เปลี่ยนงานบัญชีให้เป็นข้อมูลเชิงปฏิบัติการ",
+        "description": "Avantiqo ช่วยให้สำนักงานบัญชีกลายเป็นพันธมิตรด้านข้อมูลเชิงปฏิบัติการแบบเรียลไทม์ ไม่ใช่เพียงผู้ทำบัญชีปลายเดือน"
       },
       "enterprise": {
-        "badge": "ENTERPRISE CONTROL & COMPLIANCE",
-        "title1": "Built for operational trust,",
-        "title2": "accountability and visibility.",
-        "description": "Avantiqo provides accounting firms with enterprise-grade operational visibility, permission control and audit accountability across all clients."
+        "badge": "การควบคุมองค์กรและการปฏิบัติตามข้อกำหนด",
+        "title1": "สร้างขึ้นเพื่อความไว้วางใจ",
+        "title2": "ความรับผิดชอบ และการมองเห็น",
+        "description": "Avantiqo มอบการมองเห็นระดับองค์กร การควบคุมสิทธิ์ และความสามารถในการตรวจสอบย้อนหลังสำหรับลูกค้าทั้งหมด"
       },
       "cta": {
-        "badge": "LIVE ACCOUNTING CONTROL",
-        "title1": "Your accounting firm",
-        "title2": "should not discover",
-        "title3": "problems 30 days later.",
-        "description": "Avantiqo transforms accounting firms into real-time operational intelligence partners.",
-        "primary": "Book Enterprise Demo"
+        "badge": "การควบคุมบัญชีแบบเรียลไทม์",
+        "title1": "สำนักงานบัญชีของคุณ",
+        "title2": "ไม่ควรค้นพบปัญหา",
+        "title3": "หลังจากผ่านไป 30 วัน",
+        "description": "Avantiqo เปลี่ยนสำนักงานบัญชีให้เป็นพันธมิตรด้านข้อมูลเชิงปฏิบัติการแบบเรียลไทม์",
+        "primary": "จอง Enterprise Demo"
       },
       "enterpriseCards": [
         {
-          "title": "Role-Based Permissions",
-          "description": "Every accountant only sees assigned companies, approvals and operational areas."
+          "title": "สิทธิ์ตามบทบาท",
+          "description": "นักบัญชีแต่ละคนเห็นเฉพาะบริษัท การอนุมัติ และส่วนงานที่ได้รับมอบหมาย"
         },
         {
-          "title": "Full Audit Trail",
-          "description": "Every approval, document upload and operational action tracked automatically."
+          "title": "ประวัติการตรวจสอบครบถ้วน",
+          "description": "ทุกการอนุมัติ เอกสาร และการดำเนินงานถูกบันทึกอัตโนมัติ"
         },
         {
-          "title": "Approval Accountability",
-          "description": "Know exactly who approved what, when and from which operational workflow."
+          "title": "ความรับผิดชอบในการอนุมัติ",
+          "description": "ทราบได้ว่าใครอนุมัติอะไร เมื่อใด และมาจากกระบวนการใด"
         },
         {
-          "title": "Multi-Company Runtime",
-          "description": "Manage multiple companies, branches and operational entities from one connected system."
+          "title": "ระบบหลายบริษัท",
+          "description": "บริหารหลายบริษัท หลายสาขา และหลายหน่วยงานจากระบบเดียว"
         },
         {
-          "title": "Searchable Operational History",
-          "description": "Find invoices, approvals, payroll activity and operational changes instantly."
+          "title": "ค้นหาประวัติการดำเนินงานได้ทันที",
+          "description": "ค้นหาใบแจ้งหนี้ การอนุมัติ เงินเดือน และการเปลี่ยนแปลงต่าง ๆ ได้ทันที"
         },
         {
-          "title": "Live Operational Monitoring",
-          "description": "Identify financial and operational issues before they become month-end surprises."
+          "title": "การติดตามการดำเนินงานแบบเรียลไทม์",
+          "description": "ค้นพบปัญหาทางการเงินและการดำเนินงานก่อนจะกลายเป็นปัญหาปลายเดือน"
         }
       ],
       "advisorCards": [
         {
-          "label": "Advisory",
-          "title": "Become a Live Business Advisor",
-          "description": "Move from reactive bookkeeping to proactive operational guidance with live client revenue, payroll, procurement and approval visibility.",
+          "label": "ที่ปรึกษา",
+          "title": "เป็นที่ปรึกษาธุรกิจแบบเรียลไทม์",
+          "description": "เปลี่ยนจากการทำบัญชีเชิงรับเป็นการให้คำแนะนำเชิงรุกด้วยข้อมูลแบบเรียลไทม์",
           "items": [
-            "Spot revenue drops early",
-            "Monitor payroll pressure",
-            "Track procurement issues",
-            "Advise clients before month-end"
+            "ตรวจพบรายได้ลดลงเร็วขึ้น",
+            "ติดตามต้นทุนเงินเดือน",
+            "ติดตามปัญหาการจัดซื้อ",
+            "ให้คำแนะนำก่อนสิ้นเดือน"
           ]
         },
         {
-          "label": "Trust",
-          "title": "Increase Owner Confidence",
-          "description": "Give business owners transparent access to approvals, documents, expenses and financial activity so trust increases between client and accountant.",
+          "label": "ความไว้วางใจ",
+          "title": "เพิ่มความมั่นใจให้เจ้าของธุรกิจ",
+          "description": "ให้เจ้าของธุรกิจเข้าถึงการอนุมัติ เอกสาร ค่าใช้จ่าย และข้อมูลทางการเงินอย่างโปร่งใส",
           "items": [
-            "Live owner visibility",
-            "Connected approvals",
-            "Searchable documents",
-            "Clear responsibility tracking"
+            "มองเห็นข้อมูลแบบเรียลไทม์",
+            "การอนุมัติที่เชื่อมต่อกัน",
+            "ค้นหาเอกสารได้",
+            "ความรับผิดชอบที่ชัดเจน"
           ]
         },
         {
-          "label": "Risk",
-          "title": "Reduce Leakage & Mistakes",
-          "description": "See unusual activity, missing invoices, delayed approvals and operational cost problems before they become month-end surprises.",
+          "label": "ความเสี่ยง",
+          "title": "ลดความผิดพลาดและการรั่วไหล",
+          "description": "ตรวจพบกิจกรรมผิดปกติ เอกสารหาย และการอนุมัติล่าช้าก่อนจะกลายเป็นปัญหา",
           "items": [
-            "Expense visibility",
-            "Audit history",
-            "Approval controls",
-            "Operational anomaly alerts"
+            "มองเห็นค่าใช้จ่าย",
+            "ประวัติการตรวจสอบ",
+            "การควบคุมการอนุมัติ",
+            "แจ้งเตือนความผิดปกติ"
           ]
         }
       ],
       "roiCards": [
         {
-          "label": "Growth",
-          "title": "Handle More Clients",
-          "description": "Reduce manual accounting workload by connecting invoices, payroll, procurement, approvals and operational activity into one live runtime.",
+          "label": "การเติบโต",
+          "title": "ดูแลลูกค้าได้มากขึ้น",
+          "description": "ลดงานบัญชีแบบแมนนวลด้วยการเชื่อมต่อใบแจ้งหนี้ เงินเดือน การจัดซื้อ และการอนุมัติ",
           "items": [
-            "AI-assisted invoice extraction",
-            "Faster month-end closing",
-            "Less manual bookkeeping",
-            "More clients without more paperwork"
+            "ดึงข้อมูลใบแจ้งหนี้ด้วย AI",
+            "ปิดงบได้เร็วขึ้น",
+            "ลดงานบัญชีแบบแมนนวล",
+            "ลูกค้าเพิ่มขึ้นโดยไม่เพิ่มงานเอกสาร"
           ]
         },
         {
-          "label": "Visibility",
-          "title": "Discover Problems Earlier",
-          "description": "Monitor client operations in real time instead of waiting for documents and reports at the end of the month.",
+          "label": "การมองเห็น",
+          "title": "ค้นพบปัญหาได้เร็วขึ้น",
+          "description": "ติดตามธุรกิจลูกค้าแบบเรียลไทม์แทนการรอรายงานสิ้นเดือน",
           "items": [
-            "Live revenue visibility",
-            "Payroll and procurement tracking",
-            "Approval monitoring",
-            "Full operational audit trail"
+            "มองเห็นรายได้แบบเรียลไทม์",
+            "ติดตามเงินเดือนและการจัดซื้อ",
+            "ติดตามการอนุมัติ",
+            "Audit Trail ครบถ้วน"
           ]
         }
       ],
       "features": [
         {
-          "title": "LIVE FINANCIAL VISIBILITY",
-          "description": "Monitor revenue, payroll, procurement, approvals and operational costs in real time across all clients.",
+          "title": "การมองเห็นทางการเงินแบบเรียลไทม์",
+          "description": "ติดตามรายได้ เงินเดือน การจัดซื้อ การอนุมัติ และต้นทุนแบบเรียลไทม์",
           "image": "/images/accounting-live-control.png"
         },
         {
-          "title": "AI DOCUMENT EXTRACTION",
-          "description": "Invoices, receipts and paperwork automatically extracted and organized into the financial workflow.",
+          "title": "ดึงข้อมูลเอกสารด้วย AI",
+          "description": "ใบแจ้งหนี้ ใบเสร็จ และเอกสารถูกจัดการอัตโนมัติ",
           "image": "/images/documents-flow.png"
         },
         {
-          "title": "MULTI-COMPANY CONTROL",
-          "description": "Accounting firms manage multiple businesses from one connected operational runtime.",
+          "title": "ควบคุมหลายบริษัท",
+          "description": "บริหารหลายธุรกิจจาก Runtime เดียวที่เชื่อมต่อกัน",
           "image": "/images/accounting-multi-company.png"
         },
         {
-          "title": "LIVE APPROVALS & AUDIT",
-          "description": "Every approval, document and operational change tracked with full audit visibility.",
+          "title": "การอนุมัติและการตรวจสอบแบบเรียลไทม์",
+          "description": "ทุกการอนุมัติและการเปลี่ยนแปลงถูกติดตามอย่างครบถ้วน",
           "image": "/images/accounting-approval-runtime.png"
         }
       ],
       "beforeAfterCards": [
         {
           "label": "item1",
-          "name": "Missing invoices and receipts",
-          "status": "Pending"
+          "name": "ใบแจ้งหนี้และใบเสร็จสูญหาย",
+          "status": "รอดำเนินการ"
         },
         {
           "label": "item2",
-          "name": "Manual data entry",
-          "status": "Pending"
+          "name": "ป้อนข้อมูลด้วยตนเอง",
+          "status": "รอดำเนินการ"
         },
         {
           "label": "item3",
-          "name": "Line messages and paperwork",
-          "status": "Pending"
+          "name": "ข้อความ Line และเอกสารกระดาษ",
+          "status": "รอดำเนินการ"
         },
         {
           "label": "item4",
-          "name": "No real-time visibility",
-          "status": "Pending"
+          "name": "ไม่มีการมองเห็นแบบเรียลไทม์",
+          "status": "รอดำเนินการ"
         },
         {
           "label": "item5",
-          "name": "Delayed financial oversight",
-          "status": "Pending"
+          "name": "การกำกับดูแลทางการเงินล่าช้า",
+          "status": "รอดำเนินการ"
         },
         {
           "label": "item6",
-          "name": "Operational problems discovered too late",
-          "status": "Pending"
+          "name": "ค้นพบปัญหาช้าเกินไป",
+          "status": "รอดำเนินการ"
         }
       ],
       "runtimeEvents": {
-        "title": "Live Runtime Event Stream",
-        "subtitle": "Continuous Operational Flow",
+        "title": "สตรีมเหตุการณ์ Runtime แบบเรียลไทม์",
+        "subtitle": "การดำเนินงานต่อเนื่อง",
         "status": "LIVE",
         "events": [
           {
             "time": "09:22",
-            "title": "Payroll runtime locked"
+            "title": "ล็อก Runtime เงินเดือน"
           },
           {
             "time": "09:24",
-            "title": "Inventory ledger synchronized"
+            "title": "ซิงโครไนซ์บัญชีสต๊อก"
           },
           {
             "time": "09:26",
-            "title": "Variance detection triggered"
+            "title": "ตรวจพบความผิดปกติ"
           },
           {
             "time": "09:28",
-            "title": "Approval escalation initiated"
+            "title": "เริ่มกระบวนการยกระดับการอนุมัติ"
           },
           {
             "time": "09:31",
-            "title": "Revenue synchronization completed"
+            "title": "ซิงโครไนซ์รายได้เสร็จสมบูรณ์"
           }
         ]
       },
       "governanceTimeline": {
-        "label": "Governance Timeline",
-        "title": "Continuous Operational Flow",
+        "label": "ไทม์ไลน์การกำกับดูแล",
+        "title": "การดำเนินงานต่อเนื่อง",
         "status": "LIVE",
         "events": [
           {
             "time": "08:42",
-            "title": "Procurement Approved"
+            "title": "อนุมัติการจัดซื้อ"
           },
           {
             "time": "09:14",
-            "title": "Journal Posted"
+            "title": "บันทึกบัญชีแล้ว"
           },
           {
             "time": "09:16",
-            "title": "Reconciliation Updated"
+            "title": "อัปเดตการกระทบยอด"
           },
           {
             "time": "09:22",
-            "title": "Payroll Runtime Locked"
+            "title": "ล็อก Runtime เงินเดือน"
           }
         ]
       },
       "multiEntity": {
-        "label": "Multi-Entity Operational Runtime",
-        "title": "Cross-Company Oversight",
-        "status": "4 ENTITIES",
+        "label": "ระบบหลายบริษัท",
+        "title": "ภาพรวมข้ามองค์กร",
+        "status": "4 องค์กร",
         "entities": [
           {
             "name": "Churchill Phuket",
-            "status": "ACTIVE"
+            "status": "ใช้งานอยู่"
           },
           {
             "name": "BEA Co., Ltd.",
-            "status": "REVIEWING"
+            "status": "กำลังตรวจสอบ"
           },
           {
             "name": "PCS Phuket",
-            "status": "APPROVED"
+            "status": "อนุมัติแล้ว"
           },
           {
             "name": "Cole Ley Entertainment",
-            "status": "PENDING CLOSE"
+            "status": "รอปิดงบ"
           }
         ]
       },
       "accountability": {
-        "label": "Approval Accountability",
+        "label": "ความรับผิดชอบในการอนุมัติ",
         "title": "Human Governance Runtime",
-        "status": "VERIFIED",
+        "status": "ยืนยันแล้ว",
         "items": [
           {
-            "label": "Approved By",
+            "label": "อนุมัติโดย",
             "name": "P. Vallgarda — CFO Runtime",
-            "status": "ACTIVE"
+            "status": "ใช้งานอยู่"
           },
           {
-            "label": "Locked By",
+            "label": "ล็อกโดย",
             "name": "Financial Governance Engine",
-            "status": "ENFORCED"
+            "status": "บังคับใช้"
           },
           {
-            "label": "Reviewed By",
+            "label": "ตรวจสอบโดย",
             "name": "Operations Control Runtime",
-            "status": "VERIFIED"
+            "status": "ยืนยันแล้ว"
           }
         ]
       },
       "syntheticDecisionLayer": {
-        "title": "Predictive Operational Intelligence",
-        "status": "LEARNING",
-        "recommendationLabel": "AI Recommendation",
-        "recommendationText": "Delay financial close until procurement reconciliation completes.",
-        "predictionLabel": "AI Prediction",
-        "predictionText": "Procurement shortage risk predicted within 6 operational days.",
-        "detectionLabel": "AI Detection",
-        "detectionText": "Unusual approval behavior detected in hospitality runtime."
+        "title": "ข้อมูลเชิงปฏิบัติการเชิงคาดการณ์",
+        "status": "กำลังเรียนรู้",
+        "recommendationLabel": "คำแนะนำจาก AI",
+        "recommendationText": "ชะลอการปิดงบจนกว่าการกระทบยอดการจัดซื้อจะเสร็จสิ้น",
+        "predictionLabel": "การคาดการณ์จาก AI",
+        "predictionText": "คาดการณ์ความเสี่ยงด้านการจัดซื้อภายใน 6 วันปฏิบัติการ",
+        "detectionLabel": "การตรวจจับจาก AI",
+        "detectionText": "ตรวจพบพฤติกรรมการอนุมัติที่ผิดปกติในธุรกิจ Hospitality"
       },
       "financialGovernance": {
-        "title": "Live Financial Governance"
+        "title": "การกำกับดูแลทางการเงินแบบเรียลไทม์"
       },
       "runtimeDashboard": {
         "title": "Enterprise Runtime",
-        "connectedEntities": "Connected Entities",
-        "journalEntries": "Journal Entries Today",
-        "approvalFlows": "Approval Flows",
-        "governanceIntegrity": "Governance Integrity"
+        "connectedEntities": "หน่วยงานที่เชื่อมต่อ",
+        "journalEntries": "รายการบัญชีวันนี้",
+        "approvalFlows": "กระบวนการอนุมัติ",
+        "governanceIntegrity": "ความสมบูรณ์ของการกำกับดูแล"
       },
       "riskRuntime": {
-        "monthEndClose": "Month-End Close Runtime",
-        "operationalRisk": "Operational Risk Runtime",
-        "auditViolations": "Audit Violations",
-        "liveDetection": "Live Runtime Detection"
+        "liveDetection": "การตรวจจับแบบเรียลไทม์",
+        "operationalRisk": "Runtime ความเสี่ยงในการดำเนินงาน",
+        "auditViolations": "การละเมิดการตรวจสอบ",
+        "monthEndClose": "Runtime ปิดงบสิ้นเดือน"
       },
       "beforeAfterLists": {
         "before": [
-          "Missing invoices and receipts",
-          "Manual data entry",
-          "Line messages and paperwork",
-          "No real-time visibility",
-          "Delayed financial oversight",
-          "Operational problems discovered too late"
+          "ใบแจ้งหนี้และใบเสร็จสูญหาย",
+          "ป้อนข้อมูลด้วยตนเอง",
+          "ข้อความ Line และเอกสารกระดาษ",
+          "ไม่มีการมองเห็นแบบเรียลไทม์",
+          "การกำกับดูแลทางการเงินล่าช้า",
+          "ค้นพบปัญหาช้าเกินไป"
         ],
         "after": [
-          "AI invoice extraction",
-          "Real-time operational visibility",
-          "Live payroll and procurement tracking",
-          "Connected approvals and audit trails",
-          "Multi-company dashboard control",
-          "Accounting firms handle more clients efficiently"
+          "ดึงข้อมูลใบแจ้งหนี้ด้วย AI",
+          "มองเห็นการดำเนินงานแบบเรียลไทม์",
+          "ติดตามเงินเดือนและการจัดซื้อแบบสด",
+          "การอนุมัติและ Audit Trail ที่เชื่อมต่อกัน",
+          "การควบคุมหลายบริษัท",
+          "ดูแลลูกค้าได้มากขึ้นอย่างมีประสิทธิภาพ"
         ]
       },
       "switchLists": {
         "traditional": [
-          "Reports after the month ends",
-          "No operational visibility",
-          "Manual document collection",
-          "Problems discovered too late",
-          "No approval intelligence",
-          "No operational accountability",
-          "No live client monitoring"
+          "รายงานหลังสิ้นเดือน",
+          "ไม่มีการมองเห็นการดำเนินงาน",
+          "รวบรวมเอกสารด้วยตนเอง",
+          "ค้นพบปัญหาช้าเกินไป",
+          "ไม่มีข้อมูลการอนุมัติ",
+          "ไม่มีความรับผิดชอบในการดำเนินงาน",
+          "ไม่มีการติดตามลูกค้าแบบเรียลไทม์"
         ],
         "avantiqo": [
-          "Live operational visibility",
-          "AI document extraction",
-          "Multi-company control",
-          "Approval accountability",
-          "Operational anomaly detection",
-          "Continuous audit trail",
-          "Synthetic Intelligence recommendations"
+          "มองเห็นการดำเนินงานแบบเรียลไทม์",
+          "ดึงข้อมูลเอกสารด้วย AI",
+          "การควบคุมหลายบริษัท",
+          "ความรับผิดชอบในการอนุมัติ",
+          "ตรวจจับความผิดปกติ",
+          "Audit Trail ต่อเนื่อง",
+          "คำแนะนำจาก Synthetic Intelligence"
         ]
       },
       "syntheticSection": {
         "badge": "SYNTHETIC INTELLIGENCE",
-        "headline1": "Artificial Intelligence answers questions.",
-        "headline2": "Synthetic Intelligence understands businesses.",
+        "headline1": "AI ตอบคำถาม",
+        "headline2": "Synthetic Intelligence เข้าใจธุรกิจ",
         "aiTitle": "AI",
-        "aiText": "Generates content. Answers questions. Creates reports. Responds to prompts.",
+        "aiText": "สร้างเนื้อหา ตอบคำถาม สร้างรายงาน และตอบสนองต่อคำสั่ง",
         "syntheticTitle": "Synthetic Intelligence",
-        "syntheticText": "Understands relationships between payroll, procurement, approvals, documents, accounting, inventory and operations. Detects risks. Predicts outcomes. Recommends actions. Creates operational intelligence.",
-        "receiptText": "It affects approvals, accounting, procurement reconciliation, financial close, audit confidence, and management visibility.",
-        "receiptFooter": "Synthetic Intelligence understands the entire chain reaction."
+        "syntheticText": "เข้าใจความสัมพันธ์ระหว่างเงินเดือน การจัดซื้อ การอนุมัติ เอกสาร บัญชี สต๊อก และการดำเนินงาน ตรวจจับความเสี่ยง คาดการณ์ผลลัพธ์ และแนะนำการดำเนินการ",
+        "receiptText": "ส่งผลต่อการอนุมัติ การบัญชี การกระทบยอดการจัดซื้อ การปิดงบ ความเชื่อมั่นในการตรวจสอบ และการมองเห็นของผู้บริหาร",
+        "receiptFooter": "Synthetic Intelligence เข้าใจปฏิกิริยาลูกโซ่ทั้งหมด"
       },
       "riskRuntimeLists": {
-        "missingReceipts": "Missing Receipts",
-        "payrollApproval": "Payroll Approval Delayed",
-        "procurementExceptions": "Procurement Exceptions",
-        "continuousFlow": "Continuous Operational Flow",
-        "enterpriseNervousSystem": "Enterprise Operational Nervous System",
-        "monitoringBehavior": "Monitoring Operational Behavior",
-        "aiVariance": "Procurement variance detected in hospitality operations.",
-        "aiPayroll": "Payroll inconsistency identified before financial close.",
-        "aiConfidence": "AI Runtime Confidence",
-        "aiPercentage": "97.2%",
-        "aiStatus": "No critical anomalies detected."
+        "enterpriseNervousSystem": "ระบบประสาทการดำเนินงานขององค์กร",
+        "continuousFlow": "การดำเนินงานต่อเนื่อง",
+        "monitoringBehavior": "ติดตามพฤติกรรมการดำเนินงาน",
+        "missingReceipts": "ใบเสร็จสูญหาย",
+        "payrollApproval": "การอนุมัติเงินเดือนล่าช้า",
+        "procurementExceptions": "ข้อยกเว้นด้านการจัดซื้อ",
+        "aiVariance": "ตรวจพบความคลาดเคลื่อนในการจัดซื้อ",
+        "aiPayroll": "ตรวจพบความผิดปกติของเงินเดือนก่อนปิดงบ",
+        "aiStatus": "ไม่พบความผิดปกติที่สำคัญ",
+        "aiConfidence": "ระดับความเชื่อมั่นของ AI",
+        "aiPercentage": "97.2%"
       },
       "statusLabels": {
-        "aiActive": "AI ACTIVE",
-        "systemActive": "SYSTEM ACTIVE",
-        "detected": "AI DETECTED",
-        "analysis": "AI ANALYSIS",
-        "recommendation": "AI RECOMMENDATION",
+        "active": "ใช้งานอยู่",
+        "aiActive": "AI ทำงานอยู่",
+        "analysis": "AI วิเคราะห์",
+        "approved": "อนุมัติแล้ว",
+        "detected": "AI ตรวจพบ",
+        "enabled": "เปิดใช้งาน",
+        "enforced": "บังคับใช้",
         "live": "LIVE",
-        "verified": "VERIFIED",
-        "active": "ACTIVE",
-        "reviewing": "REVIEWING",
-        "approved": "APPROVED",
-        "pendingClose": "PENDING CLOSE",
-        "enforced": "ENFORCED",
-        "enabled": "ENABLED",
-        "ready": "READY",
-        "synchronized": "SYNCHRONIZED",
-        "operational": "OPERATIONAL"
+        "operational": "กำลังดำเนินงาน",
+        "pendingClose": "รอปิดงบ",
+        "ready": "พร้อม",
+        "recommendation": "คำแนะนำจาก AI",
+        "reviewing": "กำลังตรวจสอบ",
+        "synchronized": "ซิงโครไนซ์แล้ว",
+        "systemActive": "ระบบทำงานอยู่",
+        "verified": "ยืนยันแล้ว"
       },
       "enterpriseRuntime": {
-        "auditTraceability": "Enterprise Audit Traceability",
-        "auditDescription": "Every approval, edit, transaction and operational event is permanently tracked across the enterprise runtime architecture.",
-        "noAnomalies": "No critical anomalies detected.",
-        "allSystems": "ALL SYSTEMS SYNCHRONIZED",
-        "payrollRuntime": "Payroll Runtime",
-        "payrollDesc": "Synced with Operations Control",
-        "procurementRuntime": "Procurement Runtime",
-        "procurementDesc": "Connected to Inventory Ledger",
-        "financialRuntime": "Financial Runtime",
-        "financialDesc": "Linked to Live Revenue Streams",
         "aiRuntime": "AI Runtime",
-        "journalEngine": "Canonical Journal Engine",
-        "threeWay": "3-Way Matching",
-        "auditChain": "Audit Chain Integrity",
-        "procurementGovernance": "Procurement Governance",
-        "inventoryLedger": "Inventory Ledger",
-        "multiEntity": "Multi-Entity Consolidation",
+        "allSystems": "ทุกระบบซิงโครไนซ์แล้ว",
         "approvalRuntime": "Approval Runtime",
-        "periodLocking": "Period Locking",
-        "high": "HIGH",
-        "learning": "LEARNING",
-        "varianceTriggered": "AI variance detection triggered"
+        "auditChain": "ความสมบูรณ์ของ Audit Chain",
+        "auditDescription": "ทุกการอนุมัติ การแก้ไข ธุรกรรม และเหตุการณ์ในการดำเนินงานถูกติดตามอย่างถาวร",
+        "auditTraceability": "การตรวจสอบย้อนหลังระดับองค์กร",
+        "financialRuntime": "Financial Runtime",
+        "financialDesc": "เชื่อมต่อกับรายได้แบบเรียลไทม์",
+        "procurementRuntime": "Procurement Runtime",
+        "procurementDesc": "เชื่อมต่อกับ Inventory Ledger",
+        "procurementGovernance": "การกำกับดูแลการจัดซื้อ",
+        "inventoryLedger": "Inventory Ledger",
+        "journalEngine": "Canonical Journal Engine",
+        "payrollRuntime": "Payroll Runtime",
+        "payrollDesc": "ซิงค์กับ Operations Control",
+        "periodLocking": "ล็อกงวดบัญชี",
+        "threeWay": "3-Way Matching",
+        "multiEntity": "การรวมหลายบริษัท",
+        "varianceTriggered": "AI ตรวจพบความคลาดเคลื่อน",
+        "noAnomalies": "ไม่พบความผิดปกติที่สำคัญ",
+        "high": "สูง",
+        "learning": "กำลังเรียนรู้"
       },
       "challenges": [
         {
-          "title": "Disconnected client data",
-          "text": "Client documents, accounting systems, approvals, payroll, invoices and reports live in different places. Partners lose visibility and teams waste time searching, checking and correcting."
+          "title": "ข้อมูลลูกค้ากระจัดกระจาย",
+          "text": "เอกสาร ระบบบัญชี การอนุมัติ เงินเดือน ใบแจ้งหนี้ และรายงานอยู่คนละที่ ทำให้ผู้บริหารขาดการมองเห็นและทีมเสียเวลาในการค้นหา ตรวจสอบ และแก้ไข"
         },
         {
-          "title": "Low-margin clients are hard to see",
-          "text": "Many firms know revenue per client, but not true profitability. Avantiqo helps reveal which clients consume time, create exceptions and reduce firm margin."
+          "title": "ลูกค้าที่มีกำไรต่ำมองเห็นได้ยาก",
+          "text": "หลายสำนักงานรู้รายได้ต่อลูกค้า แต่ไม่รู้กำไรที่แท้จริง Avantiqo ช่วยให้เห็นว่าลูกค้ารายใดใช้เวลามาก สร้างข้อยกเว้น และลดกำไรขององค์กร"
         },
         {
-          "title": "Manual compliance pressure",
-          "text": "Deadlines, approvals, document trails, tax workflows and audit preparation create risk when they depend on manual follow-up and memory."
+          "title": "แรงกดดันด้าน Compliance แบบแมนนวล",
+          "text": "กำหนดส่ง การอนุมัติ เอกสาร ภาษี และการเตรียมตรวจสอบ สร้างความเสี่ยงเมื่อพึ่งพาการติดตามด้วยคน"
         },
         {
-          "title": "Advisory work is difficult to scale",
-          "text": "Most accounting firms want to move beyond bookkeeping, but advisory insight is trapped inside senior staff. Avantiqo turns financial data into repeatable intelligence."
+          "title": "งานที่ปรึกษาขยายได้ยาก",
+          "text": "หลายสำนักงานต้องการก้าวข้ามงานบัญชี แต่ความรู้ด้านที่ปรึกษามักอยู่กับพนักงานระดับสูง Avantiqo เปลี่ยนข้อมูลทางการเงินให้เป็นความรู้ที่นำกลับมาใช้ซ้ำได้"
         }
       ],
       "whyCards": [
         {
-          "title": "Client Profitability Intelligence",
-          "text": "See which clients are profitable, which clients need intervention and which clients are consuming too much team capacity before margins decline."
+          "title": "ข้อมูลกำไรของลูกค้า",
+          "text": "เห็นว่าลูกค้ารายใดทำกำไร รายใดต้องการการแก้ไข และรายใดใช้ทรัพยากรมากเกินไปก่อนที่กำไรจะลดลง"
         },
         {
-          "title": "Practice Performance",
-          "text": "Track utilization, realization, recoverability, workload, WIP, approvals and team performance across the full accounting firm."
+          "title": "ประสิทธิภาพของสำนักงาน",
+          "text": "ติดตามการใช้ทรัพยากร ภาระงาน WIP การอนุมัติ และประสิทธิภาพของทีมทั้งองค์กร"
         },
         {
-          "title": "Compliance & Audit Readiness",
-          "text": "Maintain governance, approval trails, document control, period locking, exception tracking and audit visibility from one operating layer."
+          "title": "พร้อมสำหรับ Compliance และ Audit",
+          "text": "ควบคุม Governance การอนุมัติ เอกสาร การล็อกงวดบัญชี และการตรวจสอบจากระบบเดียว"
         },
         {
-          "title": "Advisory Intelligence",
-          "text": "Identify risks, cash flow issues, unusual trends, advisory opportunities and recommended next actions for every client."
+          "title": "ข้อมูลเชิงลึกสำหรับที่ปรึกษา",
+          "text": "ค้นหาความเสี่ยง ปัญหากระแสเงินสด แนวโน้มผิดปกติ และโอกาสในการให้คำปรึกษา"
         }
       ],
       "operatingSystem": [
         {
-          "title": "Client Intelligence",
-          "text": "Client profiles, document status, accounting activity, deadlines, communication, profitability and risk in one place."
+          "title": "ข้อมูลลูกค้า",
+          "text": "โปรไฟล์ลูกค้า สถานะเอกสาร กิจกรรมบัญชี กำหนดส่ง การสื่อสาร กำไร และความเสี่ยงในที่เดียว"
         },
         {
-          "title": "Workflow Control",
-          "text": "Control bookkeeping, payroll, reconciliation, tax preparation, approval flows, review cycles and monthly close workflows."
+          "title": "การควบคุม Workflow",
+          "text": "ควบคุมบัญชี เงินเดือน การกระทบยอด ภาษี การอนุมัติ การตรวจสอบ และการปิดงบ"
         },
         {
           "title": "Financial Runtime",
-          "text": "Connect accounting events, operational approvals, journal logic, reconciliation, exceptions and financial reporting."
+          "text": "เชื่อมต่อเหตุการณ์ทางบัญชี การอนุมัติ การกระทบยอด ข้อยกเว้น และรายงานทางการเงิน"
         },
         {
           "title": "Partner Dashboard",
-          "text": "Give partners live visibility into clients, team capacity, deadlines, revenue, profitability, risk and advisory opportunities."
+          "text": "มองเห็นลูกค้า ภาระงาน รายได้ กำไร ความเสี่ยง และโอกาสทางธุรกิจแบบเรียลไทม์"
         },
         {
           "title": "Synthetic Intelligence",
-          "text": "Predict client risk, detect anomalies, recommend action, highlight advisory opportunities and reduce manual review work."
+          "text": "คาดการณ์ความเสี่ยง ตรวจจับความผิดปกติ แนะนำการดำเนินการ และลดงานตรวจสอบด้วยคน"
         },
         {
-          "title": "Client Deliverables",
-          "text": "Create board-ready reports, advisory summaries, financial reviews, client updates and management presentations faster."
+          "title": "รายงานสำหรับลูกค้า",
+          "text": "สร้างรายงาน สรุปคำแนะนำ รีวิวทางการเงิน และงานนำเสนอได้รวดเร็วยิ่งขึ้น"
         }
       ],
       "intelligence": [
         {
-          "title": "Predict client risk",
-          "text": "Identify clients likely to miss deadlines, submit incomplete documents, delay payment or create compliance exposure."
+          "title": "คาดการณ์ความเสี่ยงของลูกค้า",
+          "text": "ระบุลูกค้าที่อาจพลาดกำหนดส่ง ส่งเอกสารไม่ครบ หรือสร้างความเสี่ยงด้าน Compliance"
         },
         {
-          "title": "Detect anomalies",
-          "text": "Find unusual transactions, payroll variance, reconciliation exceptions, margin drops and operational inconsistencies."
+          "title": "ตรวจจับความผิดปกติ",
+          "text": "ค้นหาธุรกรรมผิดปกติ ความคลาดเคลื่อนของเงินเดือน ปัญหาการกระทบยอด และกำไรที่ลดลง"
         },
         {
-          "title": "Recommend advisory actions",
-          "text": "Turn bookkeeping data into recommendations clients can understand, trust and pay for."
+          "title": "แนะนำการให้คำปรึกษา",
+          "text": "เปลี่ยนข้อมูลบัญชีให้เป็นคำแนะนำที่ลูกค้าเข้าใจ เชื่อถือ และพร้อมจ่ายเงิน"
         },
         {
-          "title": "Prioritize partner attention",
-          "text": "Show which clients, tasks, exceptions and opportunities need leadership focus today."
+          "title": "จัดลำดับความสำคัญของผู้บริหาร",
+          "text": "แสดงว่าลูกค้า งาน ข้อยกเว้น และโอกาสใดต้องได้รับความสนใจในวันนี้"
         }
       ],
       "roi": [
         {
-          "label": "Higher margin",
-          "title": "Reduce unbilled work",
-          "text": "When work, exceptions and approvals are visible, firms can protect margin and reduce hidden time leakage."
+          "label": "กำไรสูงขึ้น",
+          "title": "ลดงานที่ไม่ได้เรียกเก็บเงิน",
+          "text": "เมื่อมองเห็นงาน ข้อยกเว้น และการอนุมัติได้ชัดเจน องค์กรจะลดการสูญเสียเวลาและรักษากำไรได้"
         },
         {
-          "label": "More advisory revenue",
-          "title": "Turn data into advice",
-          "text": "Avantiqo helps accounting firms convert financial data into client-facing advisory insight."
+          "label": "รายได้จากที่ปรึกษามากขึ้น",
+          "title": "เปลี่ยนข้อมูลเป็นคำแนะนำ",
+          "text": "Avantiqo ช่วยเปลี่ยนข้อมูลทางการเงินให้เป็นบริการที่มีมูลค่าสูงสำหรับลูกค้า"
         },
         {
-          "label": "Better control",
-          "title": "Know every client status",
-          "text": "Partners can see client health, compliance status, deadlines, workload and financial exposure from one operating system."
+          "label": "การควบคุมที่ดีกว่า",
+          "title": "รู้สถานะของลูกค้าทุกคน",
+          "text": "ผู้บริหารสามารถเห็นสุขภาพธุรกิจ Compliance ภาระงาน และความเสี่ยงทางการเงินจากระบบเดียว"
         },
         {
-          "label": "Scalable practice",
-          "title": "Grow without chaos",
-          "text": "Standardized workflows, synthetic intelligence and governance make it easier to manage more clients without losing control."
+          "label": "สำนักงานที่ขยายได้",
+          "title": "เติบโตโดยไม่เกิดความวุ่นวาย",
+          "text": "Workflow มาตรฐาน Synthetic Intelligence และ Governance ช่วยให้เติบโตโดยไม่สูญเสียการควบคุม"
         }
       ],
       "runtimeMetrics": [
         [
-          "Connected Clients",
+          "ลูกค้าที่เชื่อมต่อ",
           "128"
         ],
         [
-          "Open Exceptions",
+          "ข้อยกเว้นที่เปิดอยู่",
           "14"
         ],
         [
-          "Advisory Opportunities",
+          "โอกาสด้านที่ปรึกษา",
           "32"
         ],
         [
-          "Governance Integrity",
+          "ความสมบูรณ์ของ Governance",
           "96%"
         ]
       ]

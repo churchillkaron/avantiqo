@@ -592,534 +592,534 @@
     },
     "accountingFirms": {
       "hero": {
-        "badge": "SYNTHETIC INTELLIGENCE FOR ACCOUNTING FIRMS",
-        "title1": "Stop Reporting",
-        "title2": "The Past.",
-        "title3": "Start Managing",
-        "title4": "The Future.",
-        "description": "Avantiqo gives accounting firms real-time visibility into operations, approvals, payroll, procurement and financial activity instead of waiting for paperwork 30 days later.",
-        "primary": "Build The Next Generation Accounting Firm",
-        "secondary": "Talk To Enterprise Team"
+        "badge": "INTELIGENCIA SINTÉTICA PARA FIRMAS CONTABLES",
+        "title1": "Deje de reportar",
+        "title2": "el pasado.",
+        "title3": "Empiece a gestionar",
+        "title4": "el futuro.",
+        "description": "Avantiqo ofrece a las firmas contables visibilidad en tiempo real sobre operaciones, aprobaciones, nómina, compras y actividad financiera, en lugar de esperar documentación 30 días después.",
+        "primary": "Construya la firma contable de próxima generación",
+        "secondary": "Hablar con el equipo Enterprise"
       },
       "beforeAfter": {
-        "badge": "BEFORE VS AFTER",
-        "title1": "Stop rebuilding businesses",
-        "title2": "from paperwork."
+        "badge": "ANTES VS DESPUÉS",
+        "title1": "Deje de reconstruir empresas",
+        "title2": "a partir de documentos."
       },
       "switch": {
-        "badge": "WHY ACCOUNTING FIRMS SWITCH",
-        "title1": "Other software stores transactions.",
-        "title2": "Avantiqo understands businesses."
+        "badge": "POR QUÉ LAS FIRMAS CONTABLES CAMBIAN",
+        "title1": "Otros sistemas almacenan transacciones.",
+        "title2": "Avantiqo entiende los negocios."
       },
       "runtime": {
-        "badge": "ACCOUNTING RUNTIME",
-        "title1": "Everything connected.",
-        "title2": "Everything visible."
+        "badge": "RUNTIME CONTABLE",
+        "title1": "Todo conectado.",
+        "title2": "Todo visible."
       },
       "benefits": {
-        "badge": "ACCOUNTING FIRM BENEFITS",
-        "title1": "Scale your accounting firm without scaling operational chaos."
+        "badge": "BENEFICIOS PARA FIRMAS CONTABLES",
+        "title1": "Escala tu firma contable sin escalar el caos operativo."
       },
       "advisory": {
-        "badge": "WHY SYNTHETIC INTELLIGENCE FOR ACCOUNTING FIRMS CHOOSE AVANTIQO",
-        "title1": "Turn accounting from bookkeeping into operational intelligence.",
-        "description": "Avantiqo helps accounting firms become live operational intelligence partners, not just month-end bookkeeping providers."
+        "badge": "POR QUÉ LAS FIRMAS CONTABLES ELIGEN AVANTIQO",
+        "title1": "Transforma la contabilidad en inteligencia operativa.",
+        "description": "Avantiqo ayuda a las firmas contables a convertirse en socios de inteligencia operativa en tiempo real, no solo proveedores de contabilidad de fin de mes."
       },
       "enterprise": {
-        "badge": "ENTERPRISE CONTROL & COMPLIANCE",
-        "title1": "Built for operational trust,",
-        "title2": "accountability and visibility.",
-        "description": "Avantiqo provides accounting firms with enterprise-grade operational visibility, permission control and audit accountability across all clients."
+        "badge": "CONTROL EMPRESARIAL Y CUMPLIMIENTO",
+        "title1": "Diseñado para confianza operativa,",
+        "title2": "responsabilidad y visibilidad.",
+        "description": "Avantiqo proporciona a las firmas contables visibilidad operativa de nivel empresarial, control de permisos y trazabilidad completa en todos sus clientes."
       },
       "cta": {
-        "badge": "LIVE ACCOUNTING CONTROL",
-        "title1": "Your accounting firm",
-        "title2": "should not discover",
-        "title3": "problems 30 days later.",
-        "description": "Avantiqo transforms accounting firms into real-time operational intelligence partners.",
-        "primary": "Book Enterprise Demo"
+        "badge": "CONTROL CONTABLE EN VIVO",
+        "title1": "Tu firma contable",
+        "title2": "no debería descubrir",
+        "title3": "problemas 30 días después.",
+        "description": "Avantiqo transforma las firmas contables en socios de inteligencia operativa en tiempo real.",
+        "primary": "Reservar Demo Enterprise"
       },
       "enterpriseCards": [
         {
-          "title": "Role-Based Permissions",
-          "description": "Every accountant only sees assigned companies, approvals and operational areas."
+          "title": "Permisos Basados en Roles",
+          "description": "Cada contador solo ve las empresas, aprobaciones y áreas operativas asignadas."
         },
         {
-          "title": "Full Audit Trail",
-          "description": "Every approval, document upload and operational action tracked automatically."
+          "title": "Historial Completo de Auditoría",
+          "description": "Cada aprobación, documento y acción operativa queda registrada automáticamente."
         },
         {
-          "title": "Approval Accountability",
-          "description": "Know exactly who approved what, when and from which operational workflow."
+          "title": "Responsabilidad de Aprobaciones",
+          "description": "Sepa exactamente quién aprobó qué, cuándo y desde qué flujo operativo."
         },
         {
-          "title": "Multi-Company Runtime",
-          "description": "Manage multiple companies, branches and operational entities from one connected system."
+          "title": "Runtime Multiempresa",
+          "description": "Gestione múltiples empresas, sucursales y entidades operativas desde un sistema conectado."
         },
         {
-          "title": "Searchable Operational History",
-          "description": "Find invoices, approvals, payroll activity and operational changes instantly."
+          "title": "Historial Operativo Buscable",
+          "description": "Encuentre instantáneamente facturas, aprobaciones, actividad de nómina y cambios operativos."
         },
         {
-          "title": "Live Operational Monitoring",
-          "description": "Identify financial and operational issues before they become month-end surprises."
+          "title": "Monitoreo Operativo en Vivo",
+          "description": "Identifique problemas financieros y operativos antes de que se conviertan en sorpresas de fin de mes."
         }
       ],
       "advisorCards": [
         {
-          "label": "Advisory",
-          "title": "Become a Live Business Advisor",
-          "description": "Move from reactive bookkeeping to proactive operational guidance with live client revenue, payroll, procurement and approval visibility.",
+          "label": "Asesoría",
+          "title": "Conviértase en un Asesor Empresarial en Tiempo Real",
+          "description": "Pase de una contabilidad reactiva a una guía operativa proactiva con visibilidad en tiempo real.",
           "items": [
-            "Spot revenue drops early",
-            "Monitor payroll pressure",
-            "Track procurement issues",
-            "Advise clients before month-end"
+            "Detectar caídas de ingresos rápidamente",
+            "Monitorear presión de nómina",
+            "Seguir problemas de compras",
+            "Asesorar antes del cierre mensual"
           ]
         },
         {
-          "label": "Trust",
-          "title": "Increase Owner Confidence",
-          "description": "Give business owners transparent access to approvals, documents, expenses and financial activity so trust increases between client and accountant.",
+          "label": "Confianza",
+          "title": "Aumentar la Confianza del Propietario",
+          "description": "Ofrezca acceso transparente a aprobaciones, documentos, gastos y actividad financiera.",
           "items": [
-            "Live owner visibility",
-            "Connected approvals",
-            "Searchable documents",
-            "Clear responsibility tracking"
+            "Visibilidad en tiempo real",
+            "Aprobaciones conectadas",
+            "Documentos buscables",
+            "Responsabilidad clara"
           ]
         },
         {
-          "label": "Risk",
-          "title": "Reduce Leakage & Mistakes",
-          "description": "See unusual activity, missing invoices, delayed approvals and operational cost problems before they become month-end surprises.",
+          "label": "Riesgo",
+          "title": "Reducir Pérdidas y Errores",
+          "description": "Detecte actividad inusual, facturas faltantes y retrasos antes de que se conviertan en problemas de fin de mes.",
           "items": [
-            "Expense visibility",
-            "Audit history",
-            "Approval controls",
-            "Operational anomaly alerts"
+            "Visibilidad de gastos",
+            "Historial de auditoría",
+            "Controles de aprobación",
+            "Alertas de anomalías"
           ]
         }
       ],
       "roiCards": [
         {
-          "label": "Growth",
-          "title": "Handle More Clients",
-          "description": "Reduce manual accounting workload by connecting invoices, payroll, procurement, approvals and operational activity into one live runtime.",
+          "label": "Crecimiento",
+          "title": "Gestionar Más Clientes",
+          "description": "Reduzca el trabajo contable manual conectando facturas, nómina, compras y aprobaciones.",
           "items": [
-            "AI-assisted invoice extraction",
-            "Faster month-end closing",
-            "Less manual bookkeeping",
-            "More clients without more paperwork"
+            "Extracción de facturas con IA",
+            "Cierre mensual más rápido",
+            "Menos contabilidad manual",
+            "Más clientes sin más papeleo"
           ]
         },
         {
-          "label": "Visibility",
-          "title": "Discover Problems Earlier",
-          "description": "Monitor client operations in real time instead of waiting for documents and reports at the end of the month.",
+          "label": "Visibilidad",
+          "title": "Descubrir Problemas Antes",
+          "description": "Monitoree operaciones en tiempo real en lugar de esperar informes de fin de mes.",
           "items": [
-            "Live revenue visibility",
-            "Payroll and procurement tracking",
-            "Approval monitoring",
-            "Full operational audit trail"
+            "Visibilidad de ingresos en vivo",
+            "Seguimiento de nómina y compras",
+            "Monitoreo de aprobaciones",
+            "Auditoría completa"
           ]
         }
       ],
       "features": [
         {
-          "title": "LIVE FINANCIAL VISIBILITY",
-          "description": "Monitor revenue, payroll, procurement, approvals and operational costs in real time across all clients.",
+          "title": "VISIBILIDAD FINANCIERA EN TIEMPO REAL",
+          "description": "Monitoree ingresos, nómina, compras, aprobaciones y costos operativos en tiempo real.",
           "image": "/images/accounting-live-control.png"
         },
         {
-          "title": "AI DOCUMENT EXTRACTION",
-          "description": "Invoices, receipts and paperwork automatically extracted and organized into the financial workflow.",
+          "title": "EXTRACCIÓN DE DOCUMENTOS CON IA",
+          "description": "Facturas, recibos y documentos extraídos y organizados automáticamente.",
           "image": "/images/documents-flow.png"
         },
         {
-          "title": "MULTI-COMPANY CONTROL",
-          "description": "Accounting firms manage multiple businesses from one connected operational runtime.",
+          "title": "CONTROL MULTIEMPRESA",
+          "description": "Gestione múltiples empresas desde un runtime conectado.",
           "image": "/images/accounting-multi-company.png"
         },
         {
-          "title": "LIVE APPROVALS & AUDIT",
-          "description": "Every approval, document and operational change tracked with full audit visibility.",
+          "title": "APROBACIONES Y AUDITORÍA EN VIVO",
+          "description": "Cada aprobación y cambio operativo queda registrado con trazabilidad completa.",
           "image": "/images/accounting-approval-runtime.png"
         }
       ],
       "beforeAfterCards": [
         {
           "label": "item1",
-          "name": "Missing invoices and receipts",
-          "status": "Pending"
+          "name": "Facturas y recibos faltantes",
+          "status": "Pendiente"
         },
         {
           "label": "item2",
-          "name": "Manual data entry",
-          "status": "Pending"
+          "name": "Entrada manual de datos",
+          "status": "Pendiente"
         },
         {
           "label": "item3",
-          "name": "Line messages and paperwork",
-          "status": "Pending"
+          "name": "Mensajes de Line y documentación",
+          "status": "Pendiente"
         },
         {
           "label": "item4",
-          "name": "No real-time visibility",
-          "status": "Pending"
+          "name": "Sin visibilidad en tiempo real",
+          "status": "Pendiente"
         },
         {
           "label": "item5",
-          "name": "Delayed financial oversight",
-          "status": "Pending"
+          "name": "Supervisión financiera retrasada",
+          "status": "Pendiente"
         },
         {
           "label": "item6",
-          "name": "Operational problems discovered too late",
-          "status": "Pending"
+          "name": "Problemas operativos descubiertos demasiado tarde",
+          "status": "Pendiente"
         }
       ],
       "runtimeEvents": {
-        "title": "Live Runtime Event Stream",
-        "subtitle": "Continuous Operational Flow",
-        "status": "LIVE",
+        "title": "Flujo de Eventos Runtime en Vivo",
+        "subtitle": "Flujo Operativo Continuo",
+        "status": "EN VIVO",
         "events": [
           {
             "time": "09:22",
-            "title": "Payroll runtime locked"
+            "title": "Runtime de nómina bloqueado"
           },
           {
             "time": "09:24",
-            "title": "Inventory ledger synchronized"
+            "title": "Libro de inventario sincronizado"
           },
           {
             "time": "09:26",
-            "title": "Variance detection triggered"
+            "title": "Detección de variaciones activada"
           },
           {
             "time": "09:28",
-            "title": "Approval escalation initiated"
+            "title": "Escalación de aprobación iniciada"
           },
           {
             "time": "09:31",
-            "title": "Revenue synchronization completed"
+            "title": "Sincronización de ingresos completada"
           }
         ]
       },
       "governanceTimeline": {
-        "label": "Governance Timeline",
-        "title": "Continuous Operational Flow",
-        "status": "LIVE",
+        "label": "Cronología de Gobernanza",
+        "title": "Flujo Operativo Continuo",
+        "status": "EN VIVO",
         "events": [
           {
             "time": "08:42",
-            "title": "Procurement Approved"
+            "title": "Compras aprobadas"
           },
           {
             "time": "09:14",
-            "title": "Journal Posted"
+            "title": "Asiento contabilizado"
           },
           {
             "time": "09:16",
-            "title": "Reconciliation Updated"
+            "title": "Conciliación actualizada"
           },
           {
             "time": "09:22",
-            "title": "Payroll Runtime Locked"
+            "title": "Runtime de nómina bloqueado"
           }
         ]
       },
       "multiEntity": {
-        "label": "Multi-Entity Operational Runtime",
-        "title": "Cross-Company Oversight",
-        "status": "4 ENTITIES",
+        "label": "Runtime Operativo Multiempresa",
+        "title": "Supervisión Entre Empresas",
+        "status": "4 ENTIDADES",
         "entities": [
           {
             "name": "Churchill Phuket",
-            "status": "ACTIVE"
+            "status": "ACTIVO"
           },
           {
             "name": "BEA Co., Ltd.",
-            "status": "REVIEWING"
+            "status": "EN REVISIÓN"
           },
           {
             "name": "PCS Phuket",
-            "status": "APPROVED"
+            "status": "APROBADO"
           },
           {
             "name": "Cole Ley Entertainment",
-            "status": "PENDING CLOSE"
+            "status": "CIERRE PENDIENTE"
           }
         ]
       },
       "accountability": {
-        "label": "Approval Accountability",
-        "title": "Human Governance Runtime",
-        "status": "VERIFIED",
+        "label": "Responsabilidad de Aprobaciones",
+        "title": "Runtime de Gobernanza Humana",
+        "status": "VERIFICADO",
         "items": [
           {
-            "label": "Approved By",
+            "label": "Aprobado por",
             "name": "P. Vallgarda — CFO Runtime",
-            "status": "ACTIVE"
+            "status": "ACTIVO"
           },
           {
-            "label": "Locked By",
+            "label": "Bloqueado por",
             "name": "Financial Governance Engine",
-            "status": "ENFORCED"
+            "status": "APLICADO"
           },
           {
-            "label": "Reviewed By",
+            "label": "Revisado por",
             "name": "Operations Control Runtime",
-            "status": "VERIFIED"
+            "status": "VERIFICADO"
           }
         ]
       },
       "syntheticDecisionLayer": {
-        "title": "Predictive Operational Intelligence",
-        "status": "LEARNING",
-        "recommendationLabel": "AI Recommendation",
-        "recommendationText": "Delay financial close until procurement reconciliation completes.",
-        "predictionLabel": "AI Prediction",
-        "predictionText": "Procurement shortage risk predicted within 6 operational days.",
-        "detectionLabel": "AI Detection",
-        "detectionText": "Unusual approval behavior detected in hospitality runtime."
+        "title": "Inteligencia Operativa Predictiva",
+        "status": "APRENDIENDO",
+        "recommendationLabel": "Recomendación IA",
+        "recommendationText": "Retrasar el cierre financiero hasta completar la conciliación de compras.",
+        "predictionLabel": "Predicción IA",
+        "predictionText": "Riesgo de escasez en compras previsto dentro de 6 días operativos.",
+        "detectionLabel": "Detección IA",
+        "detectionText": "Comportamiento inusual de aprobación detectado en operaciones hospitality."
       },
       "financialGovernance": {
-        "title": "Live Financial Governance"
+        "title": "Gobernanza Financiera en Vivo"
       },
       "runtimeDashboard": {
         "title": "Enterprise Runtime",
-        "connectedEntities": "Connected Entities",
-        "journalEntries": "Journal Entries Today",
-        "approvalFlows": "Approval Flows",
-        "governanceIntegrity": "Governance Integrity"
+        "connectedEntities": "Entidades Conectadas",
+        "journalEntries": "Asientos de Hoy",
+        "approvalFlows": "Flujos de Aprobación",
+        "governanceIntegrity": "Integridad de Gobernanza"
       },
       "riskRuntime": {
-        "monthEndClose": "Month-End Close Runtime",
-        "operationalRisk": "Operational Risk Runtime",
-        "auditViolations": "Audit Violations",
-        "liveDetection": "Live Runtime Detection"
+        "liveDetection": "Detección Runtime en Vivo",
+        "operationalRisk": "Runtime de Riesgo Operativo",
+        "auditViolations": "Violaciones de Auditoría",
+        "monthEndClose": "Runtime de Cierre Mensual"
       },
       "beforeAfterLists": {
         "before": [
-          "Missing invoices and receipts",
-          "Manual data entry",
-          "Line messages and paperwork",
-          "No real-time visibility",
-          "Delayed financial oversight",
-          "Operational problems discovered too late"
+          "Facturas y recibos faltantes",
+          "Entrada manual de datos",
+          "Mensajes de Line y documentación",
+          "Sin visibilidad en tiempo real",
+          "Supervisión financiera retrasada",
+          "Problemas operativos descubiertos demasiado tarde"
         ],
         "after": [
-          "AI invoice extraction",
-          "Real-time operational visibility",
-          "Live payroll and procurement tracking",
-          "Connected approvals and audit trails",
-          "Multi-company dashboard control",
-          "Accounting firms handle more clients efficiently"
+          "Extracción de facturas con IA",
+          "Visibilidad operativa en tiempo real",
+          "Seguimiento en vivo de nómina y compras",
+          "Aprobaciones y auditorías conectadas",
+          "Control multiempresa",
+          "Más clientes gestionados eficientemente"
         ]
       },
       "switchLists": {
         "traditional": [
-          "Reports after the month ends",
-          "No operational visibility",
-          "Manual document collection",
-          "Problems discovered too late",
-          "No approval intelligence",
-          "No operational accountability",
-          "No live client monitoring"
+          "Informes después del cierre mensual",
+          "Sin visibilidad operativa",
+          "Recopilación manual de documentos",
+          "Problemas descubiertos demasiado tarde",
+          "Sin inteligencia de aprobaciones",
+          "Sin responsabilidad operativa",
+          "Sin monitoreo en vivo de clientes"
         ],
         "avantiqo": [
-          "Live operational visibility",
-          "AI document extraction",
-          "Multi-company control",
-          "Approval accountability",
-          "Operational anomaly detection",
-          "Continuous audit trail",
-          "Synthetic Intelligence recommendations"
+          "Visibilidad operativa en tiempo real",
+          "Extracción documental con IA",
+          "Control multiempresa",
+          "Responsabilidad de aprobaciones",
+          "Detección de anomalías operativas",
+          "Auditoría continua",
+          "Recomendaciones de inteligencia sintética"
         ]
       },
       "syntheticSection": {
-        "badge": "SYNTHETIC INTELLIGENCE",
-        "headline1": "Artificial Intelligence answers questions.",
-        "headline2": "Synthetic Intelligence understands businesses.",
-        "aiTitle": "AI",
-        "aiText": "Generates content. Answers questions. Creates reports. Responds to prompts.",
-        "syntheticTitle": "Synthetic Intelligence",
-        "syntheticText": "Understands relationships between payroll, procurement, approvals, documents, accounting, inventory and operations. Detects risks. Predicts outcomes. Recommends actions. Creates operational intelligence.",
-        "receiptText": "It affects approvals, accounting, procurement reconciliation, financial close, audit confidence, and management visibility.",
-        "receiptFooter": "Synthetic Intelligence understands the entire chain reaction."
+        "badge": "INTELIGENCIA SINTÉTICA",
+        "headline1": "La inteligencia artificial responde preguntas.",
+        "headline2": "La inteligencia sintética entiende los negocios.",
+        "aiTitle": "IA",
+        "aiText": "Genera contenido. Responde preguntas. Crea informes. Responde a instrucciones.",
+        "syntheticTitle": "Inteligencia Sintética",
+        "syntheticText": "Comprende relaciones entre nómina, compras, aprobaciones, documentos, contabilidad, inventario y operaciones. Detecta riesgos. Predice resultados. Recomienda acciones. Genera inteligencia operativa.",
+        "receiptText": "Afecta aprobaciones, contabilidad, conciliación de compras, cierre financiero, confianza de auditoría y visibilidad directiva.",
+        "receiptFooter": "La inteligencia sintética comprende toda la reacción en cadena."
       },
       "riskRuntimeLists": {
-        "missingReceipts": "Missing Receipts",
-        "payrollApproval": "Payroll Approval Delayed",
-        "procurementExceptions": "Procurement Exceptions",
-        "continuousFlow": "Continuous Operational Flow",
-        "enterpriseNervousSystem": "Enterprise Operational Nervous System",
-        "monitoringBehavior": "Monitoring Operational Behavior",
-        "aiVariance": "Procurement variance detected in hospitality operations.",
-        "aiPayroll": "Payroll inconsistency identified before financial close.",
-        "aiConfidence": "AI Runtime Confidence",
-        "aiPercentage": "97.2%",
-        "aiStatus": "No critical anomalies detected."
+        "enterpriseNervousSystem": "Sistema Nervioso Operativo Empresarial",
+        "continuousFlow": "Flujo Operativo Continuo",
+        "monitoringBehavior": "Monitoreo del Comportamiento Operativo",
+        "missingReceipts": "Recibos Faltantes",
+        "payrollApproval": "Aprobación de Nómina Retrasada",
+        "procurementExceptions": "Excepciones de Compras",
+        "aiVariance": "Variación detectada en operaciones hospitality.",
+        "aiPayroll": "Inconsistencia de nómina identificada antes del cierre financiero.",
+        "aiStatus": "No se detectaron anomalías críticas.",
+        "aiConfidence": "Nivel de Confianza IA",
+        "aiPercentage": "97.2%"
       },
       "statusLabels": {
-        "aiActive": "AI ACTIVE",
-        "systemActive": "SYSTEM ACTIVE",
-        "detected": "AI DETECTED",
-        "analysis": "AI ANALYSIS",
-        "recommendation": "AI RECOMMENDATION",
-        "live": "LIVE",
-        "verified": "VERIFIED",
-        "active": "ACTIVE",
-        "reviewing": "REVIEWING",
-        "approved": "APPROVED",
-        "pendingClose": "PENDING CLOSE",
-        "enforced": "ENFORCED",
-        "enabled": "ENABLED",
-        "ready": "READY",
-        "synchronized": "SYNCHRONIZED",
-        "operational": "OPERATIONAL"
+        "active": "ACTIVO",
+        "aiActive": "IA ACTIVA",
+        "analysis": "ANÁLISIS IA",
+        "approved": "APROBADO",
+        "detected": "IA DETECTADA",
+        "enabled": "HABILITADO",
+        "enforced": "APLICADO",
+        "live": "EN VIVO",
+        "operational": "OPERATIVO",
+        "pendingClose": "CIERRE PENDIENTE",
+        "ready": "LISTO",
+        "recommendation": "RECOMENDACIÓN IA",
+        "reviewing": "EN REVISIÓN",
+        "synchronized": "SINCRONIZADO",
+        "systemActive": "SISTEMA ACTIVO",
+        "verified": "VERIFICADO"
       },
       "enterpriseRuntime": {
-        "auditTraceability": "Enterprise Audit Traceability",
-        "auditDescription": "Every approval, edit, transaction and operational event is permanently tracked across the enterprise runtime architecture.",
-        "noAnomalies": "No critical anomalies detected.",
-        "allSystems": "ALL SYSTEMS SYNCHRONIZED",
-        "payrollRuntime": "Payroll Runtime",
-        "payrollDesc": "Synced with Operations Control",
-        "procurementRuntime": "Procurement Runtime",
-        "procurementDesc": "Connected to Inventory Ledger",
-        "financialRuntime": "Financial Runtime",
-        "financialDesc": "Linked to Live Revenue Streams",
-        "aiRuntime": "AI Runtime",
-        "journalEngine": "Canonical Journal Engine",
-        "threeWay": "3-Way Matching",
-        "auditChain": "Audit Chain Integrity",
-        "procurementGovernance": "Procurement Governance",
-        "inventoryLedger": "Inventory Ledger",
-        "multiEntity": "Multi-Entity Consolidation",
-        "approvalRuntime": "Approval Runtime",
-        "periodLocking": "Period Locking",
-        "high": "HIGH",
-        "learning": "LEARNING",
-        "varianceTriggered": "AI variance detection triggered"
+        "aiRuntime": "Runtime IA",
+        "allSystems": "TODOS LOS SISTEMAS SINCRONIZADOS",
+        "approvalRuntime": "Runtime de Aprobaciones",
+        "auditChain": "Integridad de la Cadena de Auditoría",
+        "auditDescription": "Cada aprobación, edición, transacción y evento operativo queda rastreado permanentemente.",
+        "auditTraceability": "Trazabilidad de Auditoría Empresarial",
+        "financialRuntime": "Runtime Financiero",
+        "financialDesc": "Conectado a flujos de ingresos en vivo",
+        "procurementRuntime": "Runtime de Compras",
+        "procurementDesc": "Conectado al libro de inventario",
+        "procurementGovernance": "Gobernanza de Compras",
+        "inventoryLedger": "Libro de Inventario",
+        "journalEngine": "Motor Canónico de Asientos",
+        "payrollRuntime": "Runtime de Nómina",
+        "payrollDesc": "Sincronizado con Control Operativo",
+        "periodLocking": "Bloqueo de Períodos",
+        "threeWay": "Conciliación de 3 Vías",
+        "multiEntity": "Consolidación Multiempresa",
+        "varianceTriggered": "Detección de variación IA activada",
+        "noAnomalies": "No se detectaron anomalías críticas.",
+        "high": "ALTO",
+        "learning": "APRENDIENDO"
       },
       "challenges": [
         {
-          "title": "Disconnected client data",
-          "text": "Client documents, accounting systems, approvals, payroll, invoices and reports live in different places. Partners lose visibility and teams waste time searching, checking and correcting."
+          "title": "Datos de clientes desconectados",
+          "text": "Los documentos de clientes, sistemas contables, aprobaciones, nómina, facturas e informes viven en lugares diferentes. Los socios pierden visibilidad y los equipos pierden tiempo buscando, verificando y corrigiendo."
         },
         {
-          "title": "Low-margin clients are hard to see",
-          "text": "Many firms know revenue per client, but not true profitability. Avantiqo helps reveal which clients consume time, create exceptions and reduce firm margin."
+          "title": "Los clientes de bajo margen son difíciles de identificar",
+          "text": "Muchas firmas conocen los ingresos por cliente, pero no la rentabilidad real. Avantiqo ayuda a revelar qué clientes consumen tiempo, generan excepciones y reducen el margen."
         },
         {
-          "title": "Manual compliance pressure",
-          "text": "Deadlines, approvals, document trails, tax workflows and audit preparation create risk when they depend on manual follow-up and memory."
+          "title": "Presión de cumplimiento manual",
+          "text": "Los plazos, aprobaciones, rastros documentales, flujos fiscales y preparación de auditorías generan riesgos cuando dependen del seguimiento manual."
         },
         {
-          "title": "Advisory work is difficult to scale",
-          "text": "Most accounting firms want to move beyond bookkeeping, but advisory insight is trapped inside senior staff. Avantiqo turns financial data into repeatable intelligence."
+          "title": "La asesoría es difícil de escalar",
+          "text": "Muchas firmas quieren ir más allá de la contabilidad, pero el conocimiento de asesoría suele estar atrapado en personal senior. Avantiqo convierte los datos financieros en inteligencia repetible."
         }
       ],
       "whyCards": [
         {
-          "title": "Client Profitability Intelligence",
-          "text": "See which clients are profitable, which clients need intervention and which clients are consuming too much team capacity before margins decline."
+          "title": "Inteligencia de Rentabilidad del Cliente",
+          "text": "Vea qué clientes son rentables, cuáles necesitan intervención y cuáles consumen demasiada capacidad antes de que los márgenes disminuyan."
         },
         {
-          "title": "Practice Performance",
-          "text": "Track utilization, realization, recoverability, workload, WIP, approvals and team performance across the full accounting firm."
+          "title": "Rendimiento de la Firma",
+          "text": "Supervise utilización, recuperación, carga de trabajo, WIP, aprobaciones y desempeño del equipo en toda la firma."
         },
         {
-          "title": "Compliance & Audit Readiness",
-          "text": "Maintain governance, approval trails, document control, period locking, exception tracking and audit visibility from one operating layer."
+          "title": "Cumplimiento y Preparación para Auditorías",
+          "text": "Mantenga gobernanza, trazabilidad de aprobaciones, control documental y visibilidad de auditoría desde una sola capa operativa."
         },
         {
-          "title": "Advisory Intelligence",
-          "text": "Identify risks, cash flow issues, unusual trends, advisory opportunities and recommended next actions for every client."
+          "title": "Inteligencia de Asesoría",
+          "text": "Identifique riesgos, problemas de flujo de caja, tendencias inusuales, oportunidades de asesoría y próximas acciones recomendadas."
         }
       ],
       "operatingSystem": [
         {
-          "title": "Client Intelligence",
-          "text": "Client profiles, document status, accounting activity, deadlines, communication, profitability and risk in one place."
+          "title": "Inteligencia del Cliente",
+          "text": "Perfiles de clientes, estado documental, actividad contable, plazos, comunicación, rentabilidad y riesgo en un solo lugar."
         },
         {
-          "title": "Workflow Control",
-          "text": "Control bookkeeping, payroll, reconciliation, tax preparation, approval flows, review cycles and monthly close workflows."
+          "title": "Control de Flujos de Trabajo",
+          "text": "Controle contabilidad, nómina, conciliaciones, impuestos, aprobaciones, revisiones y cierres mensuales."
         },
         {
-          "title": "Financial Runtime",
-          "text": "Connect accounting events, operational approvals, journal logic, reconciliation, exceptions and financial reporting."
+          "title": "Runtime Financiero",
+          "text": "Conecta eventos contables, aprobaciones operativas, conciliaciones, excepciones e informes financieros."
         },
         {
-          "title": "Partner Dashboard",
-          "text": "Give partners live visibility into clients, team capacity, deadlines, revenue, profitability, risk and advisory opportunities."
+          "title": "Panel de Socios",
+          "text": "Ofrece visibilidad en tiempo real sobre clientes, capacidad del equipo, plazos, ingresos, rentabilidad y riesgos."
         },
         {
-          "title": "Synthetic Intelligence",
-          "text": "Predict client risk, detect anomalies, recommend action, highlight advisory opportunities and reduce manual review work."
+          "title": "Inteligencia Sintética",
+          "text": "Predice riesgos, detecta anomalías, recomienda acciones y reduce el trabajo manual de revisión."
         },
         {
-          "title": "Client Deliverables",
-          "text": "Create board-ready reports, advisory summaries, financial reviews, client updates and management presentations faster."
+          "title": "Entregables para Clientes",
+          "text": "Cree informes, resúmenes de asesoría, revisiones financieras y presentaciones de gestión más rápido."
         }
       ],
       "intelligence": [
         {
-          "title": "Predict client risk",
-          "text": "Identify clients likely to miss deadlines, submit incomplete documents, delay payment or create compliance exposure."
+          "title": "Predecir riesgo del cliente",
+          "text": "Identifique clientes propensos a incumplir plazos, presentar documentación incompleta o generar riesgos de cumplimiento."
         },
         {
-          "title": "Detect anomalies",
-          "text": "Find unusual transactions, payroll variance, reconciliation exceptions, margin drops and operational inconsistencies."
+          "title": "Detectar anomalías",
+          "text": "Encuentre transacciones inusuales, variaciones de nómina, excepciones de conciliación y caídas de margen."
         },
         {
-          "title": "Recommend advisory actions",
-          "text": "Turn bookkeeping data into recommendations clients can understand, trust and pay for."
+          "title": "Recomendar acciones de asesoría",
+          "text": "Convierta los datos contables en recomendaciones que los clientes comprendan y valoren."
         },
         {
-          "title": "Prioritize partner attention",
-          "text": "Show which clients, tasks, exceptions and opportunities need leadership focus today."
+          "title": "Priorizar la atención de los socios",
+          "text": "Muestre qué clientes, tareas, excepciones y oportunidades requieren atención hoy."
         }
       ],
       "roi": [
         {
-          "label": "Higher margin",
-          "title": "Reduce unbilled work",
-          "text": "When work, exceptions and approvals are visible, firms can protect margin and reduce hidden time leakage."
+          "label": "Mayor margen",
+          "title": "Reducir trabajo no facturado",
+          "text": "Cuando el trabajo, las excepciones y las aprobaciones son visibles, las firmas pueden proteger márgenes y reducir pérdidas de tiempo ocultas."
         },
         {
-          "label": "More advisory revenue",
-          "title": "Turn data into advice",
-          "text": "Avantiqo helps accounting firms convert financial data into client-facing advisory insight."
+          "label": "Más ingresos por asesoría",
+          "title": "Convertir datos en asesoría",
+          "text": "Avantiqo ayuda a convertir datos financieros en información de alto valor para clientes."
         },
         {
-          "label": "Better control",
-          "title": "Know every client status",
-          "text": "Partners can see client health, compliance status, deadlines, workload and financial exposure from one operating system."
+          "label": "Mejor control",
+          "title": "Conocer el estado de cada cliente",
+          "text": "Los socios pueden ver salud del cliente, cumplimiento, plazos, carga de trabajo y exposición financiera desde un solo sistema."
         },
         {
-          "label": "Scalable practice",
-          "title": "Grow without chaos",
-          "text": "Standardized workflows, synthetic intelligence and governance make it easier to manage more clients without losing control."
+          "label": "Firma escalable",
+          "title": "Crecer sin caos",
+          "text": "Los flujos estandarizados, la inteligencia sintética y la gobernanza facilitan el crecimiento sin perder control."
         }
       ],
       "runtimeMetrics": [
         [
-          "Connected Clients",
+          "Clientes Conectados",
           "128"
         ],
         [
-          "Open Exceptions",
+          "Excepciones Abiertas",
           "14"
         ],
         [
-          "Advisory Opportunities",
+          "Oportunidades de Asesoría",
           "32"
         ],
         [
-          "Governance Integrity",
+          "Integridad de Gobernanza",
           "96%"
         ]
       ]
