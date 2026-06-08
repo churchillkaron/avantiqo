@@ -125,9 +125,9 @@ export default function SecurityPage() {
 
       <section className="px-6 py-28 bg-white/[0.018]">
         <div className="mx-auto grid max-w-7xl gap-8 md:grid-cols-2 xl:grid-cols-3">
-          {pillars.map((pillar) => (
+          {pillars.map((pillar, index) => (
             <div
-              key={pillar.title}
+              key={`${pillar.title}-${index}`}
               className="rounded-[34px] border border-white/10 bg-white/[0.035] p-8 shadow-[0_30px_110px_rgba(0,0,0,0.35)] backdrop-blur-2xl"
             >
               <div className="mb-5 h-1 w-14 rounded-full bg-gradient-to-r from-[#D6A66A] to-[#8C6BFF]" />
@@ -180,9 +180,9 @@ export default function SecurityPage() {
             </p>
 
             <div className="grid gap-4">
-              {layers.map((item) => (
+              {layers.map((item, index) => (
                 <div
-                  key={item}
+                  key={`${item}-${index}`}
                   className="rounded-2xl border border-white/10 bg-black/25 p-5 text-white/72"
                 >
                   {item}

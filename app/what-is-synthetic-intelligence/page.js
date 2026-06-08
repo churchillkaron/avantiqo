@@ -222,8 +222,7 @@ export default function SyntheticIntelligencePage() {
 
     <h3 className="mb-8 text-5xl font-extralight leading-tight">
       {si.vision_title || "The Goal Is Not To Automate Work."}
-      <br />
-      To Automate Work.
+      
     </h3>
 
     <div className="mx-auto max-w-4xl text-2xl text-white/80 leading-relaxed">
