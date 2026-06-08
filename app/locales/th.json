@@ -367,226 +367,226 @@
     },
     "hospitality": {
       "hero": {
-        "badge": "HOSPITALITY INTELLIGENCE PLATFORM",
-        "title1": "See The Entire Business.",
-        "title2": "Know What Happens Next.",
-        "description": "Reservations, operations, workforce, finance, marketing and guest experience connected through one synthetic intelligence layer.",
-        "primary": "Book Demo",
-        "secondary": "Explore Platform"
+        "badge": "แพลตฟอร์มอัจฉริยะสำหรับธุรกิจการบริการ",
+        "title1": "มองเห็นทั้งธุรกิจ",
+        "title2": "รู้ล่วงหน้าว่าจะเกิดอะไรขึ้น",
+        "description": "การจอง การดำเนินงาน พนักงาน การเงิน การตลาด และประสบการณ์ลูกค้า เชื่อมต่อผ่านชั้นของ Synthetic Intelligence เดียว",
+        "primary": "จองเดโม",
+        "secondary": "สำรวจแพลตฟอร์ม"
       },
       "reality": {
-        "badge": "HOSPITALITY REALITY",
-        "title1": "Hospitality today is connected everywhere.",
-        "title2": "But understood nowhere."
+        "badge": "ความเป็นจริงของธุรกิจการบริการ",
+        "title1": "ธุรกิจการบริการเชื่อมต่อกันทุกที่",
+        "title2": "แต่ยังไม่มีใครเข้าใจภาพรวมทั้งหมด"
       },
       "runtime": {
-        "badge": "ONE HOSPITALITY RUNTIME",
-        "title1": "Guests. Operations. Finance. Ownership.",
-        "title2": "One connected runtime."
+        "badge": "HOSPITALITY RUNTIME เดียว",
+        "title1": "ลูกค้า การดำเนินงาน การเงิน เจ้าของ",
+        "title2": "เชื่อมต่ออยู่ใน Runtime เดียว"
       },
       "relationships": {
-        "badge": "FROM ACTIVITY TO INTELLIGENCE",
-        "title1": "Most systems store events.",
-        "title2": "Avantiqo understands relationships."
+        "badge": "จากกิจกรรมสู่ความอัจฉริยะ",
+        "title1": "ระบบส่วนใหญ่เก็บเหตุการณ์",
+        "title2": "Avantiqo เข้าใจความสัมพันธ์"
       },
       "intelligence": {
-        "badge": "REAL HOSPITALITY INTELLIGENCE",
-        "title1": "One reservation.",
-        "title2": "One chain reaction."
+        "badge": "INTELLIGENCE สำหรับธุรกิจการบริการ",
+        "title1": "การจองหนึ่งรายการ",
+        "title2": "สร้างปฏิกิริยาลูกโซ่"
       },
       "synthetic": {
-        "badge": "SYNTHETIC INTELLIGENCE LAYER",
-        "title1": "Observe.",
-        "title2": "Understand.",
-        "title3": "Recommend."
+        "badge": "ชั้น SYNTHETIC INTELLIGENCE",
+        "title1": "สังเกต",
+        "title2": "เข้าใจ",
+        "title3": "แนะนำ"
       },
       "ownership": {
-        "badge": "OWNERSHIP LAYER",
-        "title1": "Ownership sees everything.",
-        "title2": "Before it happens."
+        "badge": "ชั้นข้อมูลสำหรับเจ้าของ",
+        "title1": "เจ้าของมองเห็นทุกอย่าง",
+        "title2": "ก่อนที่มันจะเกิดขึ้น"
       },
       "cta": {
-        "badge": "HOSPITALITY OPERATING SYSTEM",
-        "title1": "Hospitality was built around operations.",
-        "title2": "The future will be built around intelligence.",
-        "description": "Avantiqo connects operations, finance, workforce, marketing and guest experience through one Synthetic Intelligence Operating System.",
-        "primary": "Book Demo"
+        "badge": "ระบบปฏิบัติการสำหรับธุรกิจการบริการ",
+        "title1": "อดีตสร้างธุรกิจการบริการจากการปฏิบัติงาน",
+        "title2": "อนาคตจะสร้างจากความอัจฉริยะ",
+        "description": "Avantiqo เชื่อมต่อการดำเนินงาน การเงิน พนักงาน การตลาด และประสบการณ์ลูกค้าไว้ในระบบเดียว",
+        "primary": "จองเดโม"
       },
       "flow": [
-        "Guest arrives",
-        "Reservation",
-        "Service",
-        "Inventory",
-        "Payroll",
-        "Accounting",
-        "Profitability",
-        "Ownership"
+        "ลูกค้ามาถึง",
+        "การจอง",
+        "บริการ",
+        "สต็อก",
+        "เงินเดือน",
+        "บัญชี",
+        "กำไร",
+        "เจ้าของ"
       ],
       "realityContent": [
-        "Most hospitality businesses operate through disconnected systems. Reservations live in one platform. Operations live in another. Finance sees the business weeks later. Marketing works from assumptions. Management reacts instead of leading.",
-        "The problem is not a lack of data. The problem is a lack of understanding.",
-        "Hospitality businesses do not need more software. They need one operating system."
+        "ธุรกิจการบริการส่วนใหญ่ทำงานผ่านระบบที่ไม่เชื่อมต่อกัน การจองอยู่ในแพลตฟอร์มหนึ่ง การดำเนินงานอยู่อีกระบบหนึ่ง การเงินเห็นข้อมูลช้าหลายสัปดาห์ การตลาดทำงานจากการคาดเดา และผู้บริหารต้องคอยแก้ปัญหาแทนที่จะนำธุรกิจ",
+        "ปัญหาไม่ใช่การขาดข้อมูล แต่คือการขาดความเข้าใจ",
+        "ธุรกิจการบริการไม่ต้องการซอฟต์แวร์เพิ่มอีกหลายตัว แต่ต้องการระบบปฏิบัติการเดียว"
       ],
-      "runtimeContent": "Not separate departments. Not separate software. One connected foundation where every action becomes part of the same business story.",
+      "runtimeContent": "ไม่ใช่แผนกที่แยกกัน ไม่ใช่ซอฟต์แวร์ที่แยกกัน แต่เป็นรากฐานเดียวที่ทุกการกระทำกลายเป็นเรื่องราวเดียวกันของธุรกิจ",
       "relationshipsItems": [
-        "A reservation is not a reservation. It is demand.",
-        "A shift is not a shift. It is labour cost.",
-        "An order is not an order. It is revenue.",
-        "A review is not a review. It is future growth."
+        "การจองไม่ใช่แค่การจอง แต่คือความต้องการ",
+        "กะงานไม่ใช่แค่กะงาน แต่คือต้นทุนแรงงาน",
+        "ออเดอร์ไม่ใช่แค่ออเดอร์ แต่คือรายได้",
+        "รีวิวไม่ใช่แค่รีวิว แต่คือการเติบโตในอนาคต"
       ],
-      "relationshipsDescription": "That is the difference between software and Synthetic Intelligence. Avantiqo connects operational activity directly to business meaning.",
-      "intelligenceDescription": "Hospitality is not a collection of separate events. Every action creates consequences throughout the business. Avantiqo follows those consequences automatically.",
+      "relationshipsDescription": "นี่คือความแตกต่างระหว่างซอฟต์แวร์กับ Synthetic Intelligence Avantiqo เชื่อมโยงกิจกรรมในการดำเนินงานเข้ากับความหมายทางธุรกิจโดยตรง",
+      "intelligenceDescription": "ธุรกิจการบริการไม่ใช่ชุดเหตุการณ์ที่แยกจากกัน ทุกการกระทำสร้างผลกระทบทั่วทั้งธุรกิจ และ Avantiqo ติดตามผลกระทบเหล่านั้นโดยอัตโนมัติ",
       "intelligenceChain": {
-        "eventLabel": "Event",
-        "eventTitle": "Reservation demand increases for next weekend",
+        "eventLabel": "เหตุการณ์",
+        "eventTitle": "ความต้องการจองสำหรับสุดสัปดาห์หน้ากำลังเพิ่มขึ้น",
         "cards": [
           {
-            "label": "Operations",
-            "title": "Service demand increases"
+            "label": "การดำเนินงาน",
+            "title": "ความต้องการด้านบริการเพิ่มขึ้น"
           },
           {
-            "label": "Workforce",
-            "title": "Staffing requirements adjust automatically"
+            "label": "พนักงาน",
+            "title": "ความต้องการกำลังคนถูกปรับอัตโนมัติ"
           },
           {
-            "label": "Inventory",
-            "title": "Purchasing forecasts update"
+            "label": "สต็อก",
+            "title": "การคาดการณ์การจัดซื้อถูกอัปเดต"
           },
           {
-            "label": "Finance",
-            "title": "Revenue and labour projections recalculate"
+            "label": "การเงิน",
+            "title": "รายได้และต้นทุนแรงงานถูกคำนวณใหม่"
           }
         ],
-        "ownershipLabel": "Ownership",
-        "ownershipTitle": "Ownership sees the impact before it happens."
+        "ownershipLabel": "เจ้าของ",
+        "ownershipTitle": "เจ้าของมองเห็นผลกระทบก่อนที่จะเกิดขึ้น"
       },
       "syntheticContent": [
-        "Most platforms stop at reporting. Avantiqo continues into action.",
-        "The system continuously observes activity across guests, staff, operations, finance and ownership. It identifies patterns, predicts outcomes, recommends actions and executes approved workflows automatically.",
-        "This is not a chatbot. This is an operational intelligence layer built into the business itself."
+        "แพลตฟอร์มส่วนใหญ่จบลงที่รายงาน แต่ Avantiqo ไปไกลกว่านั้นจนถึงการลงมือทำ",
+        "ระบบเฝ้าติดตามกิจกรรมของลูกค้า พนักงาน การดำเนินงาน การเงิน และเจ้าของอย่างต่อเนื่อง ตรวจจับรูปแบบ คาดการณ์ผลลัพธ์ แนะนำการดำเนินการ และดำเนิน Workflow ที่ได้รับอนุมัติโดยอัตโนมัติ",
+        "นี่ไม่ใช่ Chatbot แต่เป็นชั้นของ Operational Intelligence ที่ฝังอยู่ในธุรกิจโดยตรง"
       ],
-      "syntheticExecute": "Execute.",
+      "syntheticExecute": "ดำเนินการ",
       "ownershipTypes": [
-        "Restaurant",
-        "Hotel",
-        "Beach Club",
-        "Multi Venue Group",
-        "Enterprise Hospitality Organization"
+        "ร้านอาหาร",
+        "โรงแรม",
+        "บีชคลับ",
+        "กลุ่มธุรกิจหลายสาขา",
+        "องค์กรธุรกิจการบริการระดับองค์กร"
       ],
       "challenges": [
         {
-          "title": "Guest experience is fragmented",
-          "text": "Guest history, preferences, reviews, loyalty, table activity and marketing data are usually spread across different systems. Avantiqo brings the full guest picture into one operating layer."
+          "title": "ประสบการณ์ลูกค้ากระจัดกระจาย",
+          "text": "ประวัติลูกค้า ความชอบ รีวิว โปรแกรมสมาชิก กิจกรรมโต๊ะ และข้อมูลการตลาด มักกระจายอยู่ในหลายระบบ Avantiqo รวมทุกอย่างไว้ในมุมมองเดียว"
         },
         {
-          "title": "Staff performance is invisible",
-          "text": "Managers often know who is working, but not who is performing, who is late, who creates value and where service quality is dropping. Avantiqo connects staff activity to accountability."
+          "title": "ประสิทธิภาพพนักงานมองไม่เห็น",
+          "text": "ผู้จัดการรู้ว่าใครมาทำงาน แต่ไม่รู้ว่าใครสร้างผลงาน ใครมาสาย หรือใครกำลังลดคุณภาพการบริการ Avantiqo เชื่อมโยงกิจกรรมของพนักงานเข้ากับความรับผิดชอบ"
         },
         {
-          "title": "POS is disconnected from control",
-          "text": "Traditional POS systems record sales. Avantiqo connects sales to kitchen flow, stock, customer profiles, staff performance, revenue control and management decisions."
+          "title": "POS แยกออกจากการควบคุม",
+          "text": "POS แบบดั้งเดิมบันทึกยอดขาย แต่ Avantiqo เชื่อมโยงยอดขายกับครัว สต็อก ลูกค้า ผลงานพนักงาน และการตัดสินใจของผู้บริหาร"
         },
         {
-          "title": "Kitchen and production lose margin",
-          "text": "Without connected production, recipe costing, waste tracking and stock visibility, hospitality businesses lose money quietly every day."
+          "title": "ครัวและการผลิตสูญเสียกำไร",
+          "text": "หากไม่มีระบบสูตรอาหาร ต้นทุน วัตถุดิบ และการติดตามของเสีย ธุรกิจจะสูญเสียกำไรโดยไม่รู้ตัวทุกวัน"
         },
         {
-          "title": "Marketing happens too late",
-          "text": "Most venues post randomly. Avantiqo can turn slow days, guest behavior, events, campaigns and business goals into automatic ads and social posts."
+          "title": "การตลาดมาช้าเกินไป",
+          "text": "หลายธุรกิจโพสต์คอนเทนต์แบบสุ่ม Avantiqo สามารถเปลี่ยนวันเงียบ พฤติกรรมลูกค้า อีเวนต์ และเป้าหมายธุรกิจ ให้เป็นแคมเปญอัตโนมัติ"
         },
         {
-          "title": "Owners lack one source of truth",
-          "text": "Restaurants, hotels, beach clubs, spas and multi-location groups need one operating system that shows what is happening now and what should happen next."
+          "title": "เจ้าของไม่มีแหล่งข้อมูลเดียวที่เชื่อถือได้",
+          "text": "ร้านอาหาร โรงแรม บีชคลับ สปา และธุรกิจหลายสาขา ต้องการระบบเดียวที่แสดงว่ากำลังเกิดอะไรขึ้นและควรทำอะไรต่อไป"
         }
       ],
       "whyCards": [
         {
-          "title": "Customer Portal",
-          "text": "Give guests access to loyalty, rewards, bookings, preferences, history and personalized offers. Every interaction becomes part of the customer intelligence layer."
+          "title": "พอร์ทัลลูกค้า",
+          "text": "ให้ลูกค้าเข้าถึงสมาชิก สิทธิประโยชน์ การจอง ความชอบ ประวัติการใช้บริการ และข้อเสนอเฉพาะบุคคล ทุกการโต้ตอบจะกลายเป็นส่วนหนึ่งของ Customer Intelligence"
         },
         {
-          "title": "Staff Portal",
-          "text": "Staff can manage attendance, tasks, confirmations, salary visibility and performance. Managers can see accountability and approve exceptions before they affect payroll."
+          "title": "พอร์ทัลพนักงาน",
+          "text": "พนักงานสามารถจัดการเวลาเข้างาน งานที่ได้รับมอบหมาย การยืนยันงาน การมองเห็นรายได้ และประสิทธิภาพ ผู้จัดการสามารถอนุมัติข้อยกเว้นก่อนกระทบเงินเดือน"
         },
         {
-          "title": "POS Control",
-          "text": "Sales are not isolated. Every order can connect to customer data, kitchen operations, staff performance, stock usage, financial reporting and management dashboards."
+          "title": "การควบคุม POS",
+          "text": "ยอดขายไม่ใช่ข้อมูลที่แยกเดี่ยว ทุกออเดอร์สามารถเชื่อมโยงกับลูกค้า ครัว ผลงานพนักงาน สต็อก และแดชบอร์ดผู้บริหาร"
         },
         {
-          "title": "Kitchen Flow",
-          "text": "Orders move from POS to kitchen with clear status, preparation flow, completion tracking and operational visibility for service teams and managers."
+          "title": "Workflow ของครัว",
+          "text": "ออเดอร์ไหลจาก POS ไปยังครัวด้วยสถานะที่ชัดเจน การติดตามการเตรียมอาหาร และการมองเห็นการดำเนินงานแบบเรียลไทม์"
         },
         {
-          "title": "Stock & Production",
-          "text": "Connect recipes, inventory, cost control, production usage and waste so food and beverage margins are visible before month-end."
+          "title": "สต็อกและการผลิต",
+          "text": "เชื่อมโยงสูตรอาหาร สินค้าคงคลัง ต้นทุน การใช้วัตถุดิบ และของเสีย เพื่อให้มองเห็นกำไรก่อนสิ้นเดือน"
         },
         {
           "title": "AI Marketing Engine",
-          "text": "Generate ads, captions, campaign ideas, event promotions and social media posts automatically from business context, slow days, guest behavior and revenue targets."
+          "text": "สร้างโฆษณา แคมเปญ โปรโมชันอีเวนต์ และคอนเทนต์โซเชียลมีเดียโดยอัตโนมัติจากข้อมูลจริงของธุรกิจ"
         }
       ],
       "operatingSystem": [
         {
-          "title": "Guest Intelligence",
-          "text": "Profiles, loyalty, visit history, favorite items, reviews, VIP status, marketing consent and customer value in one view."
+          "title": "Customer Intelligence",
+          "text": "โปรไฟล์ลูกค้า สมาชิก ประวัติการเข้าชม สินค้ายอดนิยม รีวิว สถานะ VIP การยินยอมด้านการตลาด และมูลค่าลูกค้าในมุมมองเดียว"
         },
         {
-          "title": "Reservations & Tables",
-          "text": "Bookings, tables, guest flow, service timing and operational planning connected with the rest of the business."
+          "title": "การจองและโต๊ะ",
+          "text": "การจอง โต๊ะ การไหลของลูกค้า เวลาการให้บริการ และการวางแผนการดำเนินงาน เชื่อมต่อกับทุกส่วนของธุรกิจ"
         },
         {
-          "title": "POS & Orders",
-          "text": "Fast sales flow connected to kitchen, customer history, staff accountability, revenue reporting and daily control."
+          "title": "POS และออเดอร์",
+          "text": "ระบบขายที่รวดเร็ว เชื่อมโยงกับครัว ประวัติลูกค้า ความรับผิดชอบของพนักงาน และรายงานทางการเงิน"
         },
         {
-          "title": "Kitchen & Production",
-          "text": "Live order status, preparation control, recipe costing, stock impact, waste visibility and production accountability."
+          "title": "ครัวและการผลิต",
+          "text": "สถานะออเดอร์แบบเรียลไทม์ การควบคุมการผลิต การคำนวณสูตรอาหาร ผลกระทบต่อสต็อก และการมองเห็นของเสีย"
         },
         {
-          "title": "Staff & Payroll",
-          "text": "Attendance, lateness, approvals, task completion, salary confirmation, performance and payroll-ready control."
+          "title": "พนักงานและเงินเดือน",
+          "text": "การเข้างาน การมาสาย การอนุมัติ การยืนยันงาน การยืนยันเงินเดือน และการควบคุมตามผลงาน"
         },
         {
-          "title": "Inventory & Cost",
-          "text": "Stock usage, purchasing, transfers, product costing, food cost, waste and profitability connected to operations."
+          "title": "สต็อกและต้นทุน",
+          "text": "การใช้สต็อก การจัดซื้อ การโอนสินค้า ต้นทุนสินค้า ต้นทุนอาหาร ของเสีย และกำไร เชื่อมโยงกับการดำเนินงาน"
         },
         {
-          "title": "Reviews & Reputation",
-          "text": "Google reviews, guest feedback, service issues and response opportunities connected to customer and staff intelligence."
+          "title": "รีวิวและชื่อเสียง",
+          "text": "รีวิว Google ความคิดเห็นลูกค้า ปัญหาการบริการ และโอกาสในการตอบกลับ เชื่อมโยงกับข้อมูลลูกค้าและพนักงาน"
         },
         {
-          "title": "Marketing & Design Studio",
-          "text": "Create campaigns, posters, ads, social posts, promotions and branded content directly from the operating system."
+          "title": "การตลาดและ Creative Studio",
+          "text": "สร้างแคมเปญ โปสเตอร์ โฆษณา คอนเทนต์โซเชียลมีเดีย และสื่อแบรนด์ได้โดยตรงจากระบบ"
         },
         {
           "title": "Synthetic Intelligence",
-          "text": "Predict slow days, staffing pressure, stock issues, customer churn, marketing opportunities and operational risk."
+          "text": "คาดการณ์วันเงียบ ปัญหากำลังคน ปัญหาสต็อก การสูญเสียลูกค้า โอกาสทางการตลาด และความเสี่ยงในการดำเนินงาน"
         }
       ],
       "syntheticActions": [
         {
-          "title": "Predict slow days",
-          "text": "When revenue patterns show a coming quiet period, Avantiqo can recommend offers, campaigns, events and staffing adjustments."
+          "title": "คาดการณ์วันเงียบ",
+          "text": "เมื่อแนวโน้มรายได้บ่งชี้ว่าธุรกิจจะชะลอตัว Avantiqo สามารถแนะนำโปรโมชัน อีเวนต์ และการปรับกำลังคน"
         },
         {
-          "title": "Recommend promotions",
-          "text": "The system can suggest what to promote based on guest behavior, stock levels, margin, weather, seasonality and historical sales."
+          "title": "แนะนำโปรโมชัน",
+          "text": "ระบบแนะนำสิ่งที่ควรโปรโมตจากพฤติกรรมลูกค้า ระดับสต็อก กำไร สภาพอากาศ และฤดูกาล"
         },
         {
-          "title": "Generate ads and posts",
-          "text": "Turn business goals into ready-to-use social captions, campaign concepts, visuals, event promotions and offer messaging."
+          "title": "สร้างโฆษณาและโพสต์",
+          "text": "เปลี่ยนเป้าหมายทางธุรกิจให้เป็นแคมเปญ ข้อความโฆษณา ภาพสร้างสรรค์ และคอนเทนต์พร้อมเผยแพร่"
         },
         {
-          "title": "Detect service risk",
-          "text": "If reviews, delays, staff behavior or operational exceptions indicate a problem, management can act before it damages reputation."
+          "title": "ตรวจจับความเสี่ยงด้านบริการ",
+          "text": "หากรีวิว ความล่าช้า พฤติกรรมพนักงาน หรือเหตุการณ์ผิดปกติบ่งชี้ปัญหา ผู้บริหารสามารถดำเนินการได้ก่อนกระทบชื่อเสียง"
         },
         {
-          "title": "Optimize staffing",
-          "text": "Use revenue, bookings, order volume and guest flow to understand staffing pressure before service quality drops."
+          "title": "เพิ่มประสิทธิภาพกำลังคน",
+          "text": "ใช้ข้อมูลรายได้ การจอง ปริมาณออเดอร์ และการไหลของลูกค้า เพื่อคาดการณ์ความต้องการพนักงาน"
         },
         {
-          "title": "Protect margin",
-          "text": "Connect POS, kitchen, recipes, stock and waste so owners can see where profit is leaking."
+          "title": "ปกป้องกำไร",
+          "text": "เชื่อมโยง POS ครัว สูตรอาหาร สต็อก และของเสีย เพื่อให้เจ้าของเห็นทันทีว่ากำไรสูญหายที่จุดใด"
         }
       ]
     },
