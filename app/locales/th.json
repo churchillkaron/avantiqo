@@ -1,184 +1,184 @@
 {
   "brand": {
     "name": "AVANTIQO",
-    "tagline": "Synthetic Intelligence Operating System"
+    "tagline": "ระบบปฏิบัติการปัญญาสังเคราะห์"
   },
   "topnav": {
-    "platform": "Platform",
-    "industries": "Industries",
-    "modules": "Modules",
-    "aiRuntime": "AI Runtime",
-    "security": "Security",
-    "signIn": "Login",
-    "workspace": "Workspace",
-    "startSetup": "Start Setup",
-    "accountingFirms": "Accounting Firms",
-    "demo": "Demo"
+    "platform": "แพลตฟอร์ม",
+    "industries": "อุตสาหกรรม",
+    "modules": "โมดูล",
+    "aiRuntime": "ระบบ AI",
+    "security": "ความปลอดภัย",
+    "signIn": "เข้าสู่ระบบ",
+    "workspace": "เวิร์กสเปซ",
+    "startSetup": "เริ่มต้นระบบ",
+    "accountingFirms": "สำนักงานบัญชี",
+    "demo": "เดโม"
   },
   "home": {
     "hero": {
-      "badge": "SYNTHETIC INTELLIGENCE OPERATING SYSTEM",
-      "title1": "Where Business Reality",
-      "title2": "Becomes Financial Intelligence.",
-      "description": "Avantiqo connects business operations directly to accounting, finance, documents, payroll, approvals, and execution through one Synthetic Intelligence layer. Every operational event becomes financial intelligence in real time.",
-      "book_demo": "Experience Avantiqo",
-      "start_setup": "For Accounting Firms",
-      "trust": "Built for accounting firms, business owners, multi-entity groups, and companies ready to move beyond disconnected software.",
-      "image_caption": "BUSINESS REALITY TO FINANCIAL INTELLIGENCE"
+      "badge": "ระบบปฏิบัติการปัญญาสังเคราะห์",
+      "title1": "จุดที่การดำเนินธุรกิจ",
+      "title2": "กลายเป็นปัญญาทางการเงิน",
+      "description": "Avantiqo เชื่อมโยงการดำเนินงานของธุรกิจเข้ากับบัญชี การเงิน เอกสาร เงินเดือน การอนุมัติ และการปฏิบัติจริง ผ่านชั้นปัญญาสังเคราะห์เดียว ทุกเหตุการณ์ทางธุรกิจกลายเป็นปัญญาทางการเงินแบบเรียลไทม์",
+      "book_demo": "สัมผัส Avantiqo",
+      "start_setup": "สำหรับสำนักงานบัญชี",
+      "trust": "สร้างขึ้นสำหรับสำนักงานบัญชี เจ้าของธุรกิจ กลุ่มบริษัทหลายนิติบุคคล และองค์กรที่พร้อมก้าวข้ามซอฟต์แวร์ที่แยกจากกัน",
+      "image_caption": "จากความจริงของธุรกิจสู่ปัญญาทางการเงิน"
     },
     "accounting": {
-      "badge": "THE END OF THE GAP BETWEEN BUSINESS AND ACCOUNTING",
-      "title1": "Accounting Should Not Start",
-      "title2": "After The Month Ends.",
-      "description": "For decades, businesses operated in one world while accountants worked in another. Avantiqo eliminates that gap by turning operations, invoices, payroll, procurement, documents, and approvals into live financial intelligence."
+      "badge": "จุดจบของช่องว่างระหว่างธุรกิจและบัญชี",
+      "title1": "บัญชีไม่ควรเริ่มต้น",
+      "title2": "หลังจากสิ้นเดือน",
+      "description": "ธุรกิจทำงานอยู่โลกหนึ่ง ส่วนสำนักงานบัญชีทำงานอยู่อีกโลกหนึ่งมานานหลายสิบปี Avantiqo ปิดช่องว่างนี้ด้วยการเปลี่ยนการดำเนินงาน ใบแจ้งหนี้ เงินเดือน การจัดซื้อ เอกสาร และการอนุมัติ ให้เป็นปัญญาทางการเงินแบบสด"
     },
     "pillars": {
       "operations": {
         "badge": "01",
-        "title": "Business Reality",
-        "description": "Revenue, costs, staff, inventory, projects, documents, and approvals are captured while the business is operating."
+        "title": "ความจริงของธุรกิจ",
+        "description": "รายได้ ต้นทุน พนักงาน สต็อก โปรเจกต์ เอกสาร และการอนุมัติ ถูกบันทึกในขณะที่ธุรกิจกำลังดำเนินอยู่"
       },
       "accounting": {
         "badge": "02",
-        "title": "Financial Intelligence",
-        "description": "Operational activity becomes accounting-ready intelligence instead of delayed paperwork, spreadsheets, and manual reconciliation."
+        "title": "ปัญญาทางการเงิน",
+        "description": "กิจกรรมทางธุรกิจกลายเป็นข้อมูลพร้อมสำหรับบัญชี แทนที่จะเป็นเอกสารล่าช้า สเปรดชีต และการกระทบยอดด้วยมือ"
       },
       "firms": {
         "badge": "03",
-        "title": "Accounting Firms",
-        "description": "Firms can monitor clients continuously, detect risks earlier, and move from bookkeeping into high-value advisory."
+        "title": "สำนักงานบัญชี",
+        "description": "สำนักงานบัญชีสามารถติดตามลูกค้าได้ต่อเนื่อง ตรวจพบความเสี่ยงเร็วขึ้น และเปลี่ยนจากงานบันทึกบัญชีไปสู่บริการที่ปรึกษามูลค่าสูง"
       },
       "execution": {
         "badge": "04",
-        "title": "Enterprise Execution",
-        "description": "The system does not stop at reports. It coordinates approvals, governance, workflows, and operational accountability."
+        "title": "การดำเนินงานระดับองค์กร",
+        "description": "ระบบไม่หยุดแค่รายงาน แต่ประสานการอนุมัติ การกำกับดูแล เวิร์กโฟลว์ และความรับผิดชอบในการดำเนินงาน"
       }
     },
     "synthetic": {
-      "badge": "WHY SYNTHETIC INTELLIGENCE",
-      "title1": "Artificial Intelligence Answers.",
-      "title2": "Synthetic Intelligence Operates.",
-      "description": "AI can generate text, images, and reports. Synthetic Intelligence understands how the business actually works. It connects people, money, documents, customers, suppliers, workflows, decisions, and accounting into one living operating layer.",
-      "formulaBadge": "THE AVANTIQO FORMULA",
-      "formula": "Business Operations + Accounting Intelligence + Enterprise Memory + Execution = Synthetic Intelligence."
+      "badge": "ทำไมต้องปัญญาสังเคราะห์",
+      "title1": "ปัญญาประดิษฐ์ตอบคำถาม",
+      "title2": "ปัญญาสังเคราะห์ดำเนินธุรกิจ",
+      "description": "AI สามารถสร้างข้อความ รูปภาพ และรายงานได้ แต่ปัญญาสังเคราะห์เข้าใจว่าธุรกิจทำงานอย่างไรจริง ๆ มันเชื่อมผู้คน เงิน เอกสาร ลูกค้า ซัพพลายเออร์ เวิร์กโฟลว์ การตัดสินใจ และบัญชี เข้ากับชั้นปฏิบัติการเดียวที่มีชีวิต",
+      "formulaBadge": "สูตรของ AVANTIQO",
+      "formula": "การดำเนินธุรกิจ + ปัญญาบัญชี + ความทรงจำองค์กร + การลงมือทำ = ปัญญาสังเคราะห์"
     },
     "cta": {
-      "badge": "OWN THE FUTURE OF ACCOUNTING",
-      "title1": "From Bookkeeping",
-      "title2": "To Business Intelligence.",
-      "title3": "Powered By Synthetic Intelligence.",
-      "description": "Accounting firms that connect directly to their clients' operations will not just report the past. They will understand the present, forecast risk, guide decisions, and help businesses operate better."
-    },
-    "flow": {
-      "businessReality": [
-        "Operations",
-        "Sales",
-        "Inventory",
-        "Procurement",
-        "Projects",
-        "People",
-        "Documents"
-      ],
-      "financialIntelligence": [
-        "Accounting",
-        "Governance",
-        "Forecasting",
-        "Cash Flow",
-        "Performance",
-        "Owner Control"
-      ],
-      "businessRealityTitle": "BUSINESS REALITY",
-      "financialIntelligenceTitle": "FINANCIAL INTELLIGENCE",
-      "centerTitle": "Synthetic Intelligence"
+      "badge": "ครอบครองอนาคตของบัญชี",
+      "title1": "จากการทำบัญชี",
+      "title2": "สู่ปัญญาธุรกิจ",
+      "title3": "ขับเคลื่อนด้วยปัญญาสังเคราะห์",
+      "description": "สำนักงานบัญชีที่เชื่อมต่อโดยตรงกับการดำเนินงานของลูกค้า จะไม่เพียงรายงานอดีต แต่จะเข้าใจปัจจุบัน คาดการณ์ความเสี่ยง ช่วยตัดสินใจ และทำให้ธุรกิจทำงานได้ดีขึ้น"
     },
     "workspace": {
-      "badge": "SEE AVANTIQO IN ACTION",
-      "title1": "One Workspace.",
-      "title2": "Every Business Function.",
-      "description": "Operations, Finance, Accounting, Documents, Approvals, Marketing, AI Runtime and Enterprise Control connected through one operating layer.",
+      "badge": "ดู Avantiqo ในการทำงานจริง",
+      "title1": "หนึ่ง Workspace",
+      "title2": "ทุกฟังก์ชันของธุรกิจ",
+      "description": "Operations, Finance, Accounting, Documents, Approvals, Marketing, Runtime IA และ Enterprise Control เชื่อมต่อกันผ่าน operating layer เดียว",
       "cards": {
         "clientManagement": {
-          "title": "CLIENT MANAGEMENT",
-          "description": "Manage all clients from one workspace."
+          "title": "จัดการลูกค้า",
+          "description": "บริหารลูกค้าทั้งหมดจาก Workspace เดียว"
         },
         "accountantAssignment": {
-          "title": "ACCOUNTANT ASSIGNMENT",
-          "description": "Assign accountants and balance workloads."
+          "title": "มอบหมายผู้ทำบัญชี",
+          "description": "กำหนดผู้รับผิดชอบและกระจายภาระงาน"
         },
         "complianceControl": {
-          "title": "COMPLIANCE CONTROL",
-          "description": "Track deadlines, approvals and obligations."
+          "title": "ควบคุม Compliance",
+          "description": "ติดตามกำหนดเวลา การอนุมัติ และข้อกำหนดต่าง ๆ"
         },
         "aiRuntime": {
-          "title": "AI ACCOUNTING RUNTIME",
-          "description": "AI-assisted operational and accounting workflows."
+          "title": "AI Accounting Runtime",
+          "description": "ระบบ AI ช่วยดำเนินงานและกระบวนการทางบัญชี"
         }
       },
       "modules": [
-        "Operations",
-        "Finance",
-        "Accounting",
-        "Documents",
-        "Approvals",
+        "การดำเนินงาน",
+        "การเงิน",
+        "บัญชี",
+        "เอกสาร",
+        "การอนุมัติ",
         "AI Runtime"
       ]
     },
     "comparison": {
       "software": {
-        "title": "TRADITIONAL SOFTWARE",
+        "title": "ซอฟต์แวร์แบบเดิม",
         "items": [
-          "Stores Data",
-          "Manual Work",
-          "Accounting Later"
+          "เก็บข้อมูล",
+          "ทำงานด้วยคน",
+          "ลงบัญชีภายหลัง"
         ]
       },
       "ai": {
-        "title": "TRADITIONAL AI",
+        "title": "AI แบบเดิม",
         "items": [
-          "Generates Answers",
-          "More Manual Work",
-          "No Financial Context"
+          "ตอบคำถาม",
+          "ยังต้องทำงานเอง",
+          "ไม่มีบริบททางการเงิน"
         ]
       },
       "avantiqo": {
         "title": "AVANTIQO",
         "items": [
-          "Observe",
-          "Decide",
-          "Execute",
-          "Account"
+          "สังเกต",
+          "ตัดสินใจ",
+          "ดำเนินการ",
+          "บันทึกบัญชี"
         ]
       }
     },
+    "flow": {
+      "businessReality": [
+        "การดำเนินงาน",
+        "ยอดขาย",
+        "สต็อก",
+        "จัดซื้อ",
+        "โครงการ",
+        "บุคลากร",
+        "เอกสาร"
+      ],
+      "financialIntelligence": [
+        "บัญชี",
+        "การกำกับดูแล",
+        "การคาดการณ์",
+        "กระแสเงินสด",
+        "ประสิทธิภาพ",
+        "การควบคุมเจ้าของ"
+      ],
+      "businessRealityTitle": "ความเป็นจริงทางธุรกิจ",
+      "financialIntelligenceTitle": "ข้อมูลเชิงลึกทางการเงิน",
+      "centerTitle": "ปัญญาสังเคราะห์"
+    },
     "industries": {
-      "badge": "INDUSTRY SOLUTIONS",
-      "title1": "Built For Your Industry.",
-      "title2": "Configured For Your Business.",
-      "description": "Every industry operates differently. Restaurants, hotels, accounting firms, retailers, construction companies and enterprise groups all require different workflows, controls and intelligence. Avantiqo adapts to your business while keeping Customers, Marketing, Operations, Finance and Intelligence connected on one platform.",
+      "badge": "โซลูชันตามอุตสาหกรรม",
+      "title1": "สร้างมาเพื่ออุตสาหกรรมของคุณ",
+      "title2": "ปรับให้เหมาะกับธุรกิจของคุณ",
+      "description": "แต่ละอุตสาหกรรมมีรูปแบบการดำเนินงานแตกต่างกัน ร้านอาหาร โรงแรม สำนักงานบัญชี ค้าปลีก ธุรกิจก่อสร้าง และกลุ่มบริษัทต้องการกระบวนการ การควบคุม และระบบอัจฉริยะที่แตกต่างกัน Avantiqo ปรับให้เข้ากับธุรกิจของคุณ พร้อมเชื่อมโยงลูกค้า การตลาด การดำเนินงาน การเงิน และระบบอัจฉริยะไว้บนแพลตฟอร์มเดียว",
       "groups": {
         "professionalServices": {
-          "title": "Professional Services",
-          "description": "Accounting firms, legal firms, consultants, agencies and service businesses."
+          "title": "บริการวิชาชีพ",
+          "description": "สำนักงานบัญชี สำนักงานกฎหมาย ที่ปรึกษา เอเจนซี่ และธุรกิจบริการ"
         },
         "hospitality": {
-          "title": "Hospitality",
-          "description": "Restaurants, hotels, resorts, beach clubs and nightlife venues."
+          "title": "โรงแรมและการบริการ",
+          "description": "ร้านอาหาร โรงแรม รีสอร์ท บีชคลับ และสถานบันเทิงยามค่ำคืน"
         },
         "retail": {
-          "title": "Retail & Commerce",
-          "description": "Retail stores, shopping malls, franchises and e-commerce."
+          "title": "ค้าปลีกและการค้า",
+          "description": "ร้านค้าปลีก ศูนย์การค้า ธุรกิจแฟรนไชส์ และอีคอมเมิร์ซ"
         },
         "construction": {
-          "title": "Construction & Property",
-          "description": "Construction, real estate, property management and development."
+          "title": "ก่อสร้างและอสังหาริมทรัพย์",
+          "description": "งานก่อสร้าง อสังหาริมทรัพย์ การบริหารทรัพย์สิน และการพัฒนาโครงการ"
         },
         "distribution": {
-          "title": "Distribution & Manufacturing",
-          "description": "Warehousing, logistics, procurement and production."
+          "title": "กระจายสินค้าและการผลิต",
+          "description": "คลังสินค้า โลจิสติกส์ การจัดซื้อ และการผลิต"
         },
         "enterprise": {
-          "title": "Enterprise",
-          "description": "Multi-company groups, holdings, family offices and enterprise organizations."
+          "title": "องค์กร",
+          "description": "กลุ่มบริษัท โฮลดิ้ง แฟมิลี่ออฟฟิศ และองค์กรธุรกิจ"
         }
       },
       "pillars": {
@@ -198,21 +198,21 @@
           ]
         },
         "operations": {
-          "title": "Operations",
+          "title": "การดำเนินงาน",
           "items": [
             "Projects",
             "Inventory",
             "Procurement",
             "Production",
             "Scheduling",
-            "Documents",
+            "เอกสาร",
             "Workflow Engine"
           ]
         },
         "finance": {
-          "title": "Finance",
+          "title": "การเงิน",
           "items": [
-            "Accounting",
+            "บัญชี",
             "Payroll",
             "Treasury",
             "Tax",
@@ -222,7 +222,7 @@
           ]
         },
         "intelligence": {
-          "title": "Synthetic Intelligence",
+          "title": "Intelligenza Sintetica",
           "items": [
             "AI Runtime",
             "Recommendations",
@@ -239,183 +239,183 @@
         "title2": "One Intelligence Layer.",
         "description": "Avantiqo adapts to your industry while keeping Revenue, Operations, Finance and Intelligence connected through one operating platform."
       },
-      "runtimeLabel": "Industry Operating System",
-      "exploreIndustry": "Explore Solution",
+      "runtimeLabel": "ระบบปฏิบัติการสำหรับอุตสาหกรรม",
+      "exploreIndustry": "ดูโซลูชัน",
       "cta": {
-        "badge": "ONE PLATFORM",
-        "title1": "Built for your industry.",
-        "title2": "Configured for your operation.",
-        "title3": "Powered by one intelligence layer.",
-        "description": "Whether you run a restaurant, accounting firm, hotel, construction company, retail chain or enterprise group, Avantiqo adapts the operating system to your industry while keeping Revenue, Operations, Finance and Intelligence connected.",
-        "primary": "Explore Industry Solutions",
-        "secondary": "See Platform Architecture"
+        "badge": "แพลตฟอร์มแบบรวมศูนย์",
+        "title1": "สร้างขึ้นสำหรับอุตสาหกรรมของคุณ",
+        "title2": "กำหนดค่าตามธุรกิจของคุณ",
+        "title3": "ขับเคลื่อนด้วยชั้นอัจฉริยะแบบรวมศูนย์",
+        "description": "ไม่ว่าคุณจะดำเนินธุรกิจร้านอาหาร สำนักงานบัญชี โรงแรม บริษัทก่อสร้าง เครือข่ายค้าปลีก หรือกลุ่มบริษัท Avantiqo จะปรับระบบให้เหมาะกับอุตสาหกรรมของคุณ พร้อมเชื่อมรายได้ การดำเนินงาน การเงิน และระบบอัจฉริยะเข้าด้วยกัน",
+        "primary": "สำรวจโซลูชันอุตสาหกรรม",
+        "secondary": "ดูสถาปัตยกรรมแพลตฟอร์ม"
       },
       "businessFunctions": {
-        "badge": "BUSINESS FUNCTIONS",
-        "title1": "Every Business Function.",
-        "title2": "One Connected Platform.",
-        "description": "From customer acquisition to financial reporting, every function operates on the same foundation.",
+        "badge": "ฟังก์ชันธุรกิจ",
+        "title1": "ทุกฟังก์ชันของธุรกิจ",
+        "title2": "บนแพลตฟอร์มเดียว",
+        "description": "ตั้งแต่การหาลูกค้าไปจนถึงการรายงานทางการเงิน ทุกฟังก์ชันทำงานบนรากฐานเดียวกัน",
         "cards": [
           {
-            "title": "MARKETING",
+            "title": "การตลาด",
             "items": [
-              "Campaigns",
-              "Design Studio",
-              "Social Media",
-              "Content AI"
+              "แคมเปญ",
+              "สตูดิโอออกแบบ",
+              "โซเชียลมีเดีย",
+              "คอนเทนต์ AI"
             ]
           },
           {
-            "title": "CUSTOMERS",
+            "title": "ลูกค้า",
             "items": [
               "CRM",
-              "Loyalty",
-              "Reviews",
-              "Sales"
+              "สมาชิก",
+              "รีวิว",
+              "ยอดขาย"
             ]
           },
           {
-            "title": "OPERATIONS",
+            "title": "ปฏิบัติการ",
             "items": [
-              "Projects",
-              "Scheduling",
-              "Workforce",
-              "Approvals"
+              "โครงการ",
+              "ตารางงาน",
+              "บุคลากร",
+              "การอนุมัติ"
             ]
           },
           {
-            "title": "FINANCE",
+            "title": "การเงิน",
             "items": [
-              "Accounting",
-              "Revenue",
-              "Treasury",
-              "Compliance"
+              "บัญชี",
+              "รายได้",
+              "บริหารเงิน",
+              "การปฏิบัติตามข้อกำหนด"
             ]
           },
           {
-            "title": "DOCUMENTS",
+            "title": "เอกสาร",
             "items": [
-              "Contracts",
-              "Policies",
-              "Governance",
-              "Records"
+              "สัญญา",
+              "นโยบาย",
+              "ธรรมาภิบาล",
+              "บันทึก"
             ]
           },
           {
-            "title": "INTELLIGENCE",
+            "title": "อัจฉริยะ",
             "items": [
-              "Insights",
-              "Recommendations",
-              "Automation",
-              "Execution"
+              "ข้อมูลเชิงลึก",
+              "คำแนะนำ",
+              "ระบบอัตโนมัติ",
+              "การดำเนินการ"
             ]
           }
         ]
       },
       "intelligenceLayer": {
-        "badge": "INTELLIGENCE LAYER",
-        "title1": "One Intelligence Layer.",
-        "title2": "Across Every Industry.",
-        "description": "Avantiqo observes activity across every department, understands relationships between data, recommends actions, and gradually automates execution.",
+        "badge": "ชั้นปัญญาอัจฉริยะ",
+        "title1": "หนึ่งชั้นปัญญาอัจฉริยะ",
+        "title2": "สำหรับทุกอุตสาหกรรม",
+        "description": "Avantiqo สังเกตกิจกรรมทั้งหมด เชื่อมโยงข้อมูล แนะนำการดำเนินการ และค่อย ๆ ทำงานอัตโนมัติ",
         "steps": [
           {
-            "title": "OBSERVE",
-            "desc": "Collects activity across customers, operations, finance and workforce."
+            "title": "สังเกต",
+            "desc": "รวบรวมกิจกรรมจากลูกค้า การดำเนินงาน การเงิน และพนักงาน"
           },
           {
-            "title": "UNDERSTAND",
-            "desc": "Builds relationships between people, data, processes and outcomes."
+            "title": "เข้าใจ",
+            "desc": "เชื่อมโยงผู้คน ข้อมูล กระบวนการ และผลลัพธ์"
           },
           {
-            "title": "RECOMMEND",
-            "desc": "Identifies opportunities, risks and actions."
+            "title": "แนะนำ",
+            "desc": "ระบุโอกาส ความเสี่ยง และแนวทางดำเนินการ"
           },
           {
-            "title": "EXECUTE",
-            "desc": "Automates workflows, approvals and decisions."
+            "title": "ดำเนินการ",
+            "desc": "ทำงานอัตโนมัติ การอนุมัติ และการตัดสินใจ"
           }
         ]
       },
       "dataFoundation": {
-        "badge": "ONE DATA FOUNDATION",
-        "title1": "Unified Business Data.",
-        "title2": "Across Every Department.",
-        "description": "No disconnected systems. No duplicated records. No manual reconciliation. Every module, department and industry runtime operates from the same foundation.",
+        "badge": "ฐานข้อมูลเดียว",
+        "title1": "ข้อมูลธุรกิจแบบรวมศูนย์",
+        "title2": "สำหรับทุกแผนก",
+        "description": "ไม่มีระบบแยก ไม่มีข้อมูลซ้ำ ไม่มีการกระทบยอดด้วยมือ",
         "entities": [
           {
-            "title": "Customer",
-            "desc": "Sales, CRM, loyalty and marketing"
+            "title": "ลูกค้า",
+            "desc": "ยอดขาย CRM สมาชิก และการตลาด"
           },
           {
-            "title": "Employee",
-            "desc": "Workforce, payroll and performance"
+            "title": "พนักงาน",
+            "desc": "บุคลากร เงินเดือน และประสิทธิภาพ"
           },
           {
-            "title": "Supplier",
-            "desc": "Procurement and vendor management"
+            "title": "ซัพพลายเออร์",
+            "desc": "การจัดซื้อและการบริหารผู้ขาย"
           },
           {
-            "title": "Transaction",
-            "desc": "Operations, finance and reporting"
+            "title": "ธุรกรรม",
+            "desc": "การดำเนินงาน การเงิน และรายงาน"
           },
           {
-            "title": "Unified Record",
-            "desc": "One foundation across the platform"
+            "title": "ข้อมูลกลาง",
+            "desc": "รากฐานเดียวสำหรับทั้งแพลตฟอร์ม"
           }
         ]
       }
     },
     "hospitality": {
       "hero": {
-        "badge": "แพลตฟอร์มอัจฉริยะสำหรับธุรกิจการบริการ",
-        "title1": "มองเห็นทั้งธุรกิจ",
-        "title2": "รู้ล่วงหน้าว่าจะเกิดอะไรขึ้น",
-        "description": "การจอง การดำเนินงาน พนักงาน การเงิน การตลาด และประสบการณ์ลูกค้า เชื่อมต่อผ่านชั้นของ Synthetic Intelligence เดียว",
+        "badge": "แพลตฟอร์มปัญญาโรงแรม",
+        "title1": "เห็นธุรกิจทั้งหมด",
+        "title2": "รู้ว่าต่อไปจะเกิดอะไร",
+        "description": "การจอง การดำเนินงาน พนักงาน การเงิน การตลาด และประสบการณ์ลูกค้าถูกเชื่อมต่อผ่าน Avantiqo แบบเรียลไทม์",
         "primary": "จองเดโม",
         "secondary": "สำรวจแพลตฟอร์ม"
       },
       "reality": {
-        "badge": "ความเป็นจริงของธุรกิจการบริการ",
-        "title1": "ธุรกิจการบริการเชื่อมต่อกันทุกที่",
-        "title2": "แต่ยังไม่มีใครเข้าใจภาพรวมทั้งหมด"
+        "badge": "ความเป็นจริงในโรงแรม",
+        "title1": "วันนี้ทุกอย่างเชื่อมต่อกัน",
+        "title2": "แต่ไม่ถูกเข้าใจ"
       },
       "runtime": {
-        "badge": "HOSPITALITY RUNTIME เดียว",
-        "title1": "ลูกค้า การดำเนินงาน การเงิน เจ้าของ",
-        "title2": "เชื่อมต่ออยู่ใน Runtime เดียว"
+        "badge": "One Hospitality Runtime",
+        "title1": "ลูกค้า. การดำเนินงาน. การเงิน. ความเป็นเจ้าของ.",
+        "title2": "Runtime เชื่อมต่อเดียว"
       },
       "relationships": {
-        "badge": "จากกิจกรรมสู่ความอัจฉริยะ",
+        "badge": "จากกิจกรรมสู่ปัญญา",
         "title1": "ระบบส่วนใหญ่เก็บเหตุการณ์",
         "title2": "Avantiqo เข้าใจความสัมพันธ์"
       },
       "intelligence": {
-        "badge": "INTELLIGENCE สำหรับธุรกิจการบริการ",
-        "title1": "การจองหนึ่งรายการ",
-        "title2": "สร้างปฏิกิริยาลูกโซ่"
+        "badge": "ปัญญาโรงแรมแท้",
+        "title1": "การจองหนึ่งครั้ง",
+        "title2": "ผลกระทบต่อเนื่อง"
       },
       "synthetic": {
-        "badge": "ชั้น SYNTHETIC INTELLIGENCE",
-        "title1": "สังเกต",
-        "title2": "เข้าใจ",
-        "title3": "แนะนำ"
+        "badge": "SYNTHETIC INTELLIGENCE LAYER",
+        "title1": "Observe.",
+        "title2": "Understand.",
+        "title3": "Recommend."
       },
       "ownership": {
-        "badge": "ชั้นข้อมูลสำหรับเจ้าของ",
-        "title1": "เจ้าของมองเห็นทุกอย่าง",
-        "title2": "ก่อนที่มันจะเกิดขึ้น"
+        "badge": "ชั้นความเป็นเจ้าของ",
+        "title1": "เจ้าของเห็นทุกอย่าง",
+        "title2": "ก่อนที่จะเกิดขึ้น"
       },
       "cta": {
-        "badge": "ระบบปฏิบัติการสำหรับธุรกิจการบริการ",
-        "title1": "อดีตสร้างธุรกิจการบริการจากการปฏิบัติงาน",
-        "title2": "อนาคตจะสร้างจากความอัจฉริยะ",
-        "description": "Avantiqo เชื่อมต่อการดำเนินงาน การเงิน พนักงาน การตลาด และประสบการณ์ลูกค้าไว้ในระบบเดียว",
+        "badge": "ระบบปฏิบัติการโรงแรม",
+        "title1": "Hospitality สร้างขึ้นรอบการดำเนินงาน",
+        "title2": "อนาคตจะสร้างขึ้นรอบปัญญา",
+        "description": "Avantiqo เชื่อมต่อการดำเนินงาน การเงิน พนักงาน การตลาด และประสบการณ์ลูกค้าผ่าน Synthetic Intelligence Operating System",
         "primary": "จองเดโม"
       },
       "flow": [
         "ลูกค้ามาถึง",
         "การจอง",
-        "บริการ",
+        "การบริการ",
         "สต็อก",
         "เงินเดือน",
         "บัญชี",
@@ -423,196 +423,82 @@
         "เจ้าของ"
       ],
       "realityContent": [
-        "ธุรกิจการบริการส่วนใหญ่ทำงานผ่านระบบที่ไม่เชื่อมต่อกัน การจองอยู่ในแพลตฟอร์มหนึ่ง การดำเนินงานอยู่อีกระบบหนึ่ง การเงินเห็นข้อมูลช้าหลายสัปดาห์ การตลาดทำงานจากการคาดเดา และผู้บริหารต้องคอยแก้ปัญหาแทนที่จะนำธุรกิจ",
-        "ปัญหาไม่ใช่การขาดข้อมูล แต่คือการขาดความเข้าใจ",
-        "ธุรกิจการบริการไม่ต้องการซอฟต์แวร์เพิ่มอีกหลายตัว แต่ต้องการระบบปฏิบัติการเดียว"
+        "ธุรกิจโรงแรมและร้านอาหารส่วนใหญ่ยังทำงานผ่านระบบที่แยกจากกัน การจองอยู่ในระบบหนึ่ง การดำเนินงานอยู่อีกระบบหนึ่ง ฝ่ายการเงินเห็นข้อมูลล่าช้า การตลาดทำงานจากการคาดเดา และผู้บริหารต้องแก้ปัญหาแทนที่จะเป็นผู้นำ",
+        "ปัญหาไม่ใช่การขาดข้อมูล แต่เป็นการขาดความเข้าใจ",
+        "ธุรกิจ Hospitality ไม่ต้องการซอฟต์แวร์เพิ่ม แต่ต้องการระบบปฏิบัติการเดียว"
       ],
-      "runtimeContent": "ไม่ใช่แผนกที่แยกกัน ไม่ใช่ซอฟต์แวร์ที่แยกกัน แต่เป็นรากฐานเดียวที่ทุกการกระทำกลายเป็นเรื่องราวเดียวกันของธุรกิจ",
+      "runtimeContent": "ไม่ใช่แผนกแยก ไม่ใช่ซอฟต์แวร์แยก แต่เป็นรากฐานเดียวที่ทุกการกระทำกลายเป็นส่วนหนึ่งของเรื่องราวธุรกิจเดียวกัน",
       "relationshipsItems": [
         "การจองไม่ใช่แค่การจอง แต่คือความต้องการ",
         "กะงานไม่ใช่แค่กะงาน แต่คือต้นทุนแรงงาน",
         "ออเดอร์ไม่ใช่แค่ออเดอร์ แต่คือรายได้",
         "รีวิวไม่ใช่แค่รีวิว แต่คือการเติบโตในอนาคต"
       ],
-      "relationshipsDescription": "นี่คือความแตกต่างระหว่างซอฟต์แวร์กับ Synthetic Intelligence Avantiqo เชื่อมโยงกิจกรรมในการดำเนินงานเข้ากับความหมายทางธุรกิจโดยตรง",
-      "intelligenceDescription": "ธุรกิจการบริการไม่ใช่ชุดเหตุการณ์ที่แยกจากกัน ทุกการกระทำสร้างผลกระทบทั่วทั้งธุรกิจ และ Avantiqo ติดตามผลกระทบเหล่านั้นโดยอัตโนมัติ",
+      "relationshipsDescription": "นี่คือความแตกต่างระหว่างซอฟต์แวร์กับ Synthetic Intelligence Avantiqo เชื่อมโยงกิจกรรมการดำเนินงานเข้ากับความหมายทางธุรกิจโดยตรง",
+      "intelligenceDescription": "ธุรกิจ Hospitality ไม่ได้เป็นเพียงชุดของเหตุการณ์แยกกัน ทุกการกระทำสร้างผลกระทบต่อทั้งธุรกิจ Avantiqo ติดตามผลกระทบเหล่านั้นโดยอัตโนมัติ",
       "intelligenceChain": {
         "eventLabel": "เหตุการณ์",
-        "eventTitle": "ความต้องการจองสำหรับสุดสัปดาห์หน้ากำลังเพิ่มขึ้น",
+        "eventTitle": "ความต้องการจองสำหรับสุดสัปดาห์หน้าเพิ่มขึ้น",
         "cards": [
           {
-            "label": "การดำเนินงาน",
-            "title": "ความต้องการด้านบริการเพิ่มขึ้น"
+            "label": "ปฏิบัติการ",
+            "title": "ความต้องการการบริการเพิ่มขึ้น"
           },
           {
             "label": "พนักงาน",
-            "title": "ความต้องการกำลังคนถูกปรับอัตโนมัติ"
+            "title": "ความต้องการกำลังคนปรับอัตโนมัติ"
           },
           {
             "label": "สต็อก",
-            "title": "การคาดการณ์การจัดซื้อถูกอัปเดต"
+            "title": "การคาดการณ์การจัดซื้ออัปเดต"
           },
           {
             "label": "การเงิน",
-            "title": "รายได้และต้นทุนแรงงานถูกคำนวณใหม่"
+            "title": "ประมาณการรายได้และต้นทุนแรงงานคำนวณใหม่"
           }
         ],
         "ownershipLabel": "เจ้าของ",
-        "ownershipTitle": "เจ้าของมองเห็นผลกระทบก่อนที่จะเกิดขึ้น"
+        "ownershipTitle": "เจ้าของเห็นผลกระทบก่อนที่จะเกิดขึ้น"
       },
       "syntheticContent": [
-        "แพลตฟอร์มส่วนใหญ่จบลงที่รายงาน แต่ Avantiqo ไปไกลกว่านั้นจนถึงการลงมือทำ",
-        "ระบบเฝ้าติดตามกิจกรรมของลูกค้า พนักงาน การดำเนินงาน การเงิน และเจ้าของอย่างต่อเนื่อง ตรวจจับรูปแบบ คาดการณ์ผลลัพธ์ แนะนำการดำเนินการ และดำเนิน Workflow ที่ได้รับอนุมัติโดยอัตโนมัติ",
-        "นี่ไม่ใช่ Chatbot แต่เป็นชั้นของ Operational Intelligence ที่ฝังอยู่ในธุรกิจโดยตรง"
+        "แพลตฟอร์มส่วนใหญ่หยุดอยู่ที่รายงาน Avantiqo ก้าวต่อไปสู่การลงมือทำ",
+        "ระบบสังเกตกิจกรรมของลูกค้า พนักงาน การดำเนินงาน การเงิน และเจ้าของอย่างต่อเนื่อง ตรวจจับรูปแบบ คาดการณ์ผลลัพธ์ แนะนำการดำเนินการ และดำเนินเวิร์กโฟลว์ที่ได้รับอนุมัติโดยอัตโนมัติ",
+        "นี่ไม่ใช่แชตบอท แต่นี่คือชั้นปัญญาการดำเนินงานที่ฝังอยู่ในธุรกิจ"
       ],
-      "syntheticExecute": "ดำเนินการ",
+      "syntheticExecute": "Execute.",
       "ownershipTypes": [
         "ร้านอาหาร",
         "โรงแรม",
         "บีชคลับ",
         "กลุ่มธุรกิจหลายสาขา",
-        "องค์กรธุรกิจการบริการระดับองค์กร"
+        "องค์กร Hospitality ระดับ Enterprise"
       ],
-      "challenges": [
-        {
-          "title": "ประสบการณ์ลูกค้ากระจัดกระจาย",
-          "text": "ประวัติลูกค้า ความชอบ รีวิว โปรแกรมสมาชิก กิจกรรมโต๊ะ และข้อมูลการตลาด มักกระจายอยู่ในหลายระบบ Avantiqo รวมทุกอย่างไว้ในมุมมองเดียว"
-        },
-        {
-          "title": "ประสิทธิภาพพนักงานมองไม่เห็น",
-          "text": "ผู้จัดการรู้ว่าใครมาทำงาน แต่ไม่รู้ว่าใครสร้างผลงาน ใครมาสาย หรือใครกำลังลดคุณภาพการบริการ Avantiqo เชื่อมโยงกิจกรรมของพนักงานเข้ากับความรับผิดชอบ"
-        },
-        {
-          "title": "POS แยกออกจากการควบคุม",
-          "text": "POS แบบดั้งเดิมบันทึกยอดขาย แต่ Avantiqo เชื่อมโยงยอดขายกับครัว สต็อก ลูกค้า ผลงานพนักงาน และการตัดสินใจของผู้บริหาร"
-        },
-        {
-          "title": "ครัวและการผลิตสูญเสียกำไร",
-          "text": "หากไม่มีระบบสูตรอาหาร ต้นทุน วัตถุดิบ และการติดตามของเสีย ธุรกิจจะสูญเสียกำไรโดยไม่รู้ตัวทุกวัน"
-        },
-        {
-          "title": "การตลาดมาช้าเกินไป",
-          "text": "หลายธุรกิจโพสต์คอนเทนต์แบบสุ่ม Avantiqo สามารถเปลี่ยนวันเงียบ พฤติกรรมลูกค้า อีเวนต์ และเป้าหมายธุรกิจ ให้เป็นแคมเปญอัตโนมัติ"
-        },
-        {
-          "title": "เจ้าของไม่มีแหล่งข้อมูลเดียวที่เชื่อถือได้",
-          "text": "ร้านอาหาร โรงแรม บีชคลับ สปา และธุรกิจหลายสาขา ต้องการระบบเดียวที่แสดงว่ากำลังเกิดอะไรขึ้นและควรทำอะไรต่อไป"
-        }
-      ],
-      "whyCards": [
-        {
-          "title": "พอร์ทัลลูกค้า",
-          "text": "ให้ลูกค้าเข้าถึงสมาชิก สิทธิประโยชน์ การจอง ความชอบ ประวัติการใช้บริการ และข้อเสนอเฉพาะบุคคล ทุกการโต้ตอบจะกลายเป็นส่วนหนึ่งของ Customer Intelligence"
-        },
-        {
-          "title": "พอร์ทัลพนักงาน",
-          "text": "พนักงานสามารถจัดการเวลาเข้างาน งานที่ได้รับมอบหมาย การยืนยันงาน การมองเห็นรายได้ และประสิทธิภาพ ผู้จัดการสามารถอนุมัติข้อยกเว้นก่อนกระทบเงินเดือน"
-        },
-        {
-          "title": "การควบคุม POS",
-          "text": "ยอดขายไม่ใช่ข้อมูลที่แยกเดี่ยว ทุกออเดอร์สามารถเชื่อมโยงกับลูกค้า ครัว ผลงานพนักงาน สต็อก และแดชบอร์ดผู้บริหาร"
-        },
-        {
-          "title": "Workflow ของครัว",
-          "text": "ออเดอร์ไหลจาก POS ไปยังครัวด้วยสถานะที่ชัดเจน การติดตามการเตรียมอาหาร และการมองเห็นการดำเนินงานแบบเรียลไทม์"
-        },
-        {
-          "title": "สต็อกและการผลิต",
-          "text": "เชื่อมโยงสูตรอาหาร สินค้าคงคลัง ต้นทุน การใช้วัตถุดิบ และของเสีย เพื่อให้มองเห็นกำไรก่อนสิ้นเดือน"
-        },
-        {
-          "title": "AI Marketing Engine",
-          "text": "สร้างโฆษณา แคมเปญ โปรโมชันอีเวนต์ และคอนเทนต์โซเชียลมีเดียโดยอัตโนมัติจากข้อมูลจริงของธุรกิจ"
-        }
-      ],
-      "operatingSystem": [
-        {
-          "title": "Customer Intelligence",
-          "text": "โปรไฟล์ลูกค้า สมาชิก ประวัติการเข้าชม สินค้ายอดนิยม รีวิว สถานะ VIP การยินยอมด้านการตลาด และมูลค่าลูกค้าในมุมมองเดียว"
-        },
-        {
-          "title": "การจองและโต๊ะ",
-          "text": "การจอง โต๊ะ การไหลของลูกค้า เวลาการให้บริการ และการวางแผนการดำเนินงาน เชื่อมต่อกับทุกส่วนของธุรกิจ"
-        },
-        {
-          "title": "POS และออเดอร์",
-          "text": "ระบบขายที่รวดเร็ว เชื่อมโยงกับครัว ประวัติลูกค้า ความรับผิดชอบของพนักงาน และรายงานทางการเงิน"
-        },
-        {
-          "title": "ครัวและการผลิต",
-          "text": "สถานะออเดอร์แบบเรียลไทม์ การควบคุมการผลิต การคำนวณสูตรอาหาร ผลกระทบต่อสต็อก และการมองเห็นของเสีย"
-        },
-        {
-          "title": "พนักงานและเงินเดือน",
-          "text": "การเข้างาน การมาสาย การอนุมัติ การยืนยันงาน การยืนยันเงินเดือน และการควบคุมตามผลงาน"
-        },
-        {
-          "title": "สต็อกและต้นทุน",
-          "text": "การใช้สต็อก การจัดซื้อ การโอนสินค้า ต้นทุนสินค้า ต้นทุนอาหาร ของเสีย และกำไร เชื่อมโยงกับการดำเนินงาน"
-        },
-        {
-          "title": "รีวิวและชื่อเสียง",
-          "text": "รีวิว Google ความคิดเห็นลูกค้า ปัญหาการบริการ และโอกาสในการตอบกลับ เชื่อมโยงกับข้อมูลลูกค้าและพนักงาน"
-        },
-        {
-          "title": "การตลาดและ Creative Studio",
-          "text": "สร้างแคมเปญ โปสเตอร์ โฆษณา คอนเทนต์โซเชียลมีเดีย และสื่อแบรนด์ได้โดยตรงจากระบบ"
-        },
-        {
-          "title": "Synthetic Intelligence",
-          "text": "คาดการณ์วันเงียบ ปัญหากำลังคน ปัญหาสต็อก การสูญเสียลูกค้า โอกาสทางการตลาด และความเสี่ยงในการดำเนินงาน"
-        }
-      ],
-      "syntheticActions": [
-        {
-          "title": "คาดการณ์วันเงียบ",
-          "text": "เมื่อแนวโน้มรายได้บ่งชี้ว่าธุรกิจจะชะลอตัว Avantiqo สามารถแนะนำโปรโมชัน อีเวนต์ และการปรับกำลังคน"
-        },
-        {
-          "title": "แนะนำโปรโมชัน",
-          "text": "ระบบแนะนำสิ่งที่ควรโปรโมตจากพฤติกรรมลูกค้า ระดับสต็อก กำไร สภาพอากาศ และฤดูกาล"
-        },
-        {
-          "title": "สร้างโฆษณาและโพสต์",
-          "text": "เปลี่ยนเป้าหมายทางธุรกิจให้เป็นแคมเปญ ข้อความโฆษณา ภาพสร้างสรรค์ และคอนเทนต์พร้อมเผยแพร่"
-        },
-        {
-          "title": "ตรวจจับความเสี่ยงด้านบริการ",
-          "text": "หากรีวิว ความล่าช้า พฤติกรรมพนักงาน หรือเหตุการณ์ผิดปกติบ่งชี้ปัญหา ผู้บริหารสามารถดำเนินการได้ก่อนกระทบชื่อเสียง"
-        },
-        {
-          "title": "เพิ่มประสิทธิภาพกำลังคน",
-          "text": "ใช้ข้อมูลรายได้ การจอง ปริมาณออเดอร์ และการไหลของลูกค้า เพื่อคาดการณ์ความต้องการพนักงาน"
-        },
-        {
-          "title": "ปกป้องกำไร",
-          "text": "เชื่อมโยง POS ครัว สูตรอาหาร สต็อก และของเสีย เพื่อให้เจ้าของเห็นทันทีว่ากำไรสูญหายที่จุดใด"
-        }
-      ]
+      "ownershipNotice": "For the first time, ownership can see the complete business. Not isolated reports. Not disconnected dashboards.",
+      "operationalReality": "One operational reality. One financial reality. One intelligence layer."
     },
     "accountingFirms": {
       "hero": {
-        "badge": "SYNTHETIC INTELLIGENCE สำหรับสำนักงานบัญชี",
+        "badge": "ซินเธติกอินเทลลิเจนซ์สำหรับสำนักงานบัญชี",
         "title1": "หยุดรายงาน",
         "title2": "อดีต",
         "title3": "เริ่มบริหาร",
         "title4": "อนาคต",
-        "description": "Avantiqo มอบการมองเห็นแบบเรียลไทม์ในด้านการดำเนินงาน การอนุมัติ เงินเดือน การจัดซื้อ และกิจกรรมทางการเงิน โดยไม่ต้องรอเอกสารหลังสิ้นเดือน 30 วัน",
-        "primary": "สร้างสำนักงานบัญชีแห่งอนาคต",
-        "secondary": "พูดคุยกับทีม Enterprise"
+        "description": "Avantiqo ช่วยให้สำนักงานบัญชีมองเห็นการดำเนินงาน การอนุมัติ เงินเดือน การจัดซื้อ และกิจกรรมทางการเงินแบบเรียลไทม์ แทนการรอเอกสารหลังผ่านไป 30 วัน",
+        "primary": "สร้างสำนักงานบัญชียุคใหม่",
+        "secondary": "คุยกับทีมองค์กร"
       },
       "beforeAfter": {
         "badge": "ก่อนและหลัง",
-        "title1": "หยุดสร้างธุรกิจใหม่",
-        "title2": "จากเอกสารกระดาษ"
+        "title1": "หยุดสร้างภาพธุรกิจใหม่",
+        "title2": "จากงานเอกสาร"
       },
       "switch": {
-        "badge": "เหตุใดสำนักงานบัญชีจึงเปลี่ยนมาใช้",
-        "title1": "ซอฟต์แวร์อื่นเก็บธุรกรรม",
+        "badge": "ทำไมสำนักงานบัญชีจึงเปลี่ยนมาใช้",
+        "title1": "ซอฟต์แวร์ทั่วไปเก็บแค่ธุรกรรม",
         "title2": "Avantiqo เข้าใจธุรกิจ"
       },
       "runtime": {
-        "badge": "ACCOUNTING RUNTIME",
+        "badge": "ระบบปฏิบัติการบัญชี",
         "title1": "ทุกอย่างเชื่อมต่อกัน",
         "title2": "ทุกอย่างมองเห็นได้"
       },
@@ -621,77 +507,77 @@
         "title1": "ขยายสำนักงานบัญชีโดยไม่เพิ่มความวุ่นวายในการดำเนินงาน"
       },
       "advisory": {
-        "badge": "ทำไมสำนักงานบัญชีจึงเลือก AVANTIQO",
-        "title1": "เปลี่ยนงานบัญชีให้เป็นข้อมูลเชิงปฏิบัติการ",
-        "description": "Avantiqo ช่วยให้สำนักงานบัญชีกลายเป็นพันธมิตรด้านข้อมูลเชิงปฏิบัติการแบบเรียลไทม์ ไม่ใช่เพียงผู้ทำบัญชีปลายเดือน"
+        "badge": "เหตุผลที่สำนักงานบัญชีเลือก Avantiqo",
+        "title1": "เปลี่ยนงานบัญชีจากการทำบัญชีเป็นข่าวกรองการดำเนินงาน",
+        "description": "Avantiqo ช่วยให้สำนักงานบัญชีกลายเป็นพันธมิตรด้านข่าวกรองธุรกิจแบบเรียลไทม์ ไม่ใช่เพียงผู้ทำบัญชีตอนสิ้นเดือน"
       },
       "enterprise": {
-        "badge": "การควบคุมองค์กรและการปฏิบัติตามข้อกำหนด",
-        "title1": "สร้างขึ้นเพื่อความไว้วางใจ",
-        "title2": "ความรับผิดชอบ และการมองเห็น",
-        "description": "Avantiqo มอบการมองเห็นระดับองค์กร การควบคุมสิทธิ์ และความสามารถในการตรวจสอบย้อนหลังสำหรับลูกค้าทั้งหมด"
+        "badge": "การควบคุมและการปฏิบัติตามมาตรฐานระดับองค์กร",
+        "title1": "สร้างขึ้นเพื่อความไว้วางใจในการดำเนินงาน",
+        "title2": "ความรับผิดชอบ และความโปร่งใส",
+        "description": "Avantiqo มอบการมองเห็นการดำเนินงานระดับองค์กร การควบคุมสิทธิ์ และความรับผิดชอบด้านการตรวจสอบสำหรับลูกค้าทั้งหมด"
       },
       "cta": {
         "badge": "การควบคุมบัญชีแบบเรียลไทม์",
         "title1": "สำนักงานบัญชีของคุณ",
-        "title2": "ไม่ควรค้นพบปัญหา",
-        "title3": "หลังจากผ่านไป 30 วัน",
-        "description": "Avantiqo เปลี่ยนสำนักงานบัญชีให้เป็นพันธมิตรด้านข้อมูลเชิงปฏิบัติการแบบเรียลไทม์",
-        "primary": "จอง Enterprise Demo"
+        "title2": "ไม่ควรค้นพบ",
+        "title3": "ปัญหาหลังผ่านไป 30 วัน",
+        "description": "Avantiqo เปลี่ยนสำนักงานบัญชีให้เป็นพันธมิตรด้านข่าวกรองการดำเนินงานแบบเรียลไทม์",
+        "primary": "จองเดโมสำหรับองค์กร"
       },
       "enterpriseCards": [
         {
           "title": "สิทธิ์ตามบทบาท",
-          "description": "นักบัญชีแต่ละคนเห็นเฉพาะบริษัท การอนุมัติ และส่วนงานที่ได้รับมอบหมาย"
+          "description": "นักบัญชีแต่ละคนเห็นเฉพาะบริษัท การอนุมัติ และพื้นที่ดำเนินงานที่ได้รับมอบหมาย"
         },
         {
           "title": "ประวัติการตรวจสอบครบถ้วน",
-          "description": "ทุกการอนุมัติ เอกสาร และการดำเนินงานถูกบันทึกอัตโนมัติ"
+          "description": "ทุกการอนุมัติ การอัปโหลดเอกสาร และการดำเนินงานถูกติดตามโดยอัตโนมัติ"
         },
         {
           "title": "ความรับผิดชอบในการอนุมัติ",
-          "description": "ทราบได้ว่าใครอนุมัติอะไร เมื่อใด และมาจากกระบวนการใด"
+          "description": "รู้ได้ทันทีว่าใครอนุมัติอะไร เมื่อไร และมาจากกระบวนการใด"
         },
         {
           "title": "ระบบหลายบริษัท",
-          "description": "บริหารหลายบริษัท หลายสาขา และหลายหน่วยงานจากระบบเดียว"
+          "description": "จัดการหลายบริษัท หลายสาขา และหลายหน่วยงานจากระบบเดียว"
         },
         {
-          "title": "ค้นหาประวัติการดำเนินงานได้ทันที",
-          "description": "ค้นหาใบแจ้งหนี้ การอนุมัติ เงินเดือน และการเปลี่ยนแปลงต่าง ๆ ได้ทันที"
+          "title": "ประวัติการดำเนินงานที่ค้นหาได้",
+          "description": "ค้นหาใบแจ้งหนี้ การอนุมัติ เงินเดือน และการเปลี่ยนแปลงได้ทันที"
         },
         {
-          "title": "การติดตามการดำเนินงานแบบเรียลไทม์",
-          "description": "ค้นพบปัญหาทางการเงินและการดำเนินงานก่อนจะกลายเป็นปัญหาปลายเดือน"
+          "title": "การติดตามการดำเนินงานแบบสด",
+          "description": "ระบุปัญหาทางการเงินและการดำเนินงานก่อนกลายเป็นปัญหาสิ้นเดือน"
         }
       ],
       "advisorCards": [
         {
           "label": "ที่ปรึกษา",
           "title": "เป็นที่ปรึกษาธุรกิจแบบเรียลไทม์",
-          "description": "เปลี่ยนจากการทำบัญชีเชิงรับเป็นการให้คำแนะนำเชิงรุกด้วยข้อมูลแบบเรียลไทม์",
+          "description": "เปลี่ยนจากการทำบัญชีเชิงรับเป็นการให้คำแนะนำเชิงรุกด้วยข้อมูลรายได้ เงินเดือน การจัดซื้อ และการอนุมัติแบบสด",
           "items": [
-            "ตรวจพบรายได้ลดลงเร็วขึ้น",
-            "ติดตามต้นทุนเงินเดือน",
-            "ติดตามปัญหาการจัดซื้อ",
-            "ให้คำแนะนำก่อนสิ้นเดือน"
+            "เห็นรายได้ที่ลดลงตั้งแต่เนิ่นๆ",
+            "ติดตามแรงกดดันด้านเงินเดือน",
+            "ตรวจสอบปัญหาการจัดซื้อ",
+            "ให้คำแนะนำลูกค้าก่อนสิ้นเดือน"
           ]
         },
         {
           "label": "ความไว้วางใจ",
           "title": "เพิ่มความมั่นใจให้เจ้าของธุรกิจ",
-          "description": "ให้เจ้าของธุรกิจเข้าถึงการอนุมัติ เอกสาร ค่าใช้จ่าย และข้อมูลทางการเงินอย่างโปร่งใส",
+          "description": "ให้เจ้าของธุรกิจมองเห็นการอนุมัติ เอกสาร ค่าใช้จ่าย และกิจกรรมทางการเงินอย่างโปร่งใส",
           "items": [
-            "มองเห็นข้อมูลแบบเรียลไทม์",
-            "การอนุมัติที่เชื่อมต่อกัน",
-            "ค้นหาเอกสารได้",
-            "ความรับผิดชอบที่ชัดเจน"
+            "เจ้าของเห็นข้อมูลแบบสด",
+            "การอนุมัติเชื่อมต่อกัน",
+            "เอกสารค้นหาได้",
+            "ติดตามความรับผิดชอบได้ชัดเจน"
           ]
         },
         {
           "label": "ความเสี่ยง",
-          "title": "ลดความผิดพลาดและการรั่วไหล",
-          "description": "ตรวจพบกิจกรรมผิดปกติ เอกสารหาย และการอนุมัติล่าช้าก่อนจะกลายเป็นปัญหา",
+          "title": "ลดการรั่วไหลและข้อผิดพลาด",
+          "description": "มองเห็นกิจกรรมผิดปกติ ใบแจ้งหนี้ที่หายไป การอนุมัติล่าช้า และปัญหาต้นทุนก่อนถึงสิ้นเดือน",
           "items": [
             "มองเห็นค่าใช้จ่าย",
             "ประวัติการตรวจสอบ",
@@ -703,135 +589,115 @@
       "roiCards": [
         {
           "label": "การเติบโต",
-          "title": "ดูแลลูกค้าได้มากขึ้น",
-          "description": "ลดงานบัญชีแบบแมนนวลด้วยการเชื่อมต่อใบแจ้งหนี้ เงินเดือน การจัดซื้อ และการอนุมัติ",
+          "title": "รับลูกค้าได้มากขึ้น",
+          "description": "ลดงานบัญชีด้วยการเชื่อมใบแจ้งหนี้ เงินเดือน การจัดซื้อ การอนุมัติ และการดำเนินงานเข้าสู่ระบบเดียว",
           "items": [
-            "ดึงข้อมูลใบแจ้งหนี้ด้วย AI",
-            "ปิดงบได้เร็วขึ้น",
-            "ลดงานบัญชีแบบแมนนวล",
-            "ลูกค้าเพิ่มขึ้นโดยไม่เพิ่มงานเอกสาร"
+            "AI ช่วยดึงข้อมูลใบแจ้งหนี้",
+            "ปิดงบสิ้นเดือนได้เร็วขึ้น",
+            "ลดงานบัญชีด้วยมือ",
+            "รับลูกค้าเพิ่มโดยไม่เพิ่มเอกสาร"
           ]
         },
         {
           "label": "การมองเห็น",
-          "title": "ค้นพบปัญหาได้เร็วขึ้น",
-          "description": "ติดตามธุรกิจลูกค้าแบบเรียลไทม์แทนการรอรายงานสิ้นเดือน",
+          "title": "พบปัญหาได้เร็วขึ้น",
+          "description": "ติดตามการดำเนินงานของลูกค้าแบบเรียลไทม์ แทนการรอเอกสารและรายงานตอนสิ้นเดือน",
           "items": [
-            "มองเห็นรายได้แบบเรียลไทม์",
+            "เห็นรายได้แบบสด",
             "ติดตามเงินเดือนและการจัดซื้อ",
             "ติดตามการอนุมัติ",
-            "Audit Trail ครบถ้วน"
+            "ประวัติการตรวจสอบครบถ้วน"
           ]
         }
       ],
       "features": [
         {
-          "title": "การมองเห็นทางการเงินแบบเรียลไทม์",
-          "description": "ติดตามรายได้ เงินเดือน การจัดซื้อ การอนุมัติ และต้นทุนแบบเรียลไทม์",
+          "title": "การมองเห็นการเงินแบบสด",
+          "description": "ติดตามรายได้ เงินเดือน การจัดซื้อ การอนุมัติ และต้นทุนแบบเรียลไทม์ในทุกลูกค้า",
           "image": "/images/accounting-live-control.png"
         },
         {
-          "title": "ดึงข้อมูลเอกสารด้วย AI",
-          "description": "ใบแจ้งหนี้ ใบเสร็จ และเอกสารถูกจัดการอัตโนมัติ",
+          "title": "AI ดึงข้อมูลเอกสาร",
+          "description": "ใบแจ้งหนี้ ใบเสร็จ และเอกสารถูกดึงข้อมูลและจัดระเบียบเข้าสู่กระบวนการทางการเงินโดยอัตโนมัติ",
           "image": "/images/documents-flow.png"
         },
         {
           "title": "ควบคุมหลายบริษัท",
-          "description": "บริหารหลายธุรกิจจาก Runtime เดียวที่เชื่อมต่อกัน",
+          "description": "สำนักงานบัญชีจัดการหลายธุรกิจจากระบบปฏิบัติการเดียวที่เชื่อมต่อกัน",
           "image": "/images/accounting-multi-company.png"
         },
         {
-          "title": "การอนุมัติและการตรวจสอบแบบเรียลไทม์",
-          "description": "ทุกการอนุมัติและการเปลี่ยนแปลงถูกติดตามอย่างครบถ้วน",
+          "title": "การอนุมัติและตรวจสอบแบบสด",
+          "description": "ทุกการอนุมัติ เอกสาร และการเปลี่ยนแปลงถูกติดตามพร้อมมุมมองการตรวจสอบครบถ้วน",
           "image": "/images/accounting-approval-runtime.png"
         }
       ],
       "beforeAfterCards": [
         {
-          "label": "item1",
-          "name": "ใบแจ้งหนี้และใบเสร็จสูญหาย",
+          "label": "รายการ 1",
+          "name": "ความโกลาหลสิ้นเดือน",
           "status": "รอดำเนินการ"
         },
         {
-          "label": "item2",
-          "name": "ป้อนข้อมูลด้วยตนเอง",
-          "status": "รอดำเนินการ"
-        },
-        {
-          "label": "item3",
-          "name": "ข้อความ Line และเอกสารกระดาษ",
-          "status": "รอดำเนินการ"
-        },
-        {
-          "label": "item4",
-          "name": "ไม่มีการมองเห็นแบบเรียลไทม์",
-          "status": "รอดำเนินการ"
-        },
-        {
-          "label": "item5",
-          "name": "การกำกับดูแลทางการเงินล่าช้า",
-          "status": "รอดำเนินการ"
-        },
-        {
-          "label": "item6",
-          "name": "ค้นพบปัญหาช้าเกินไป",
+          "label": "รายการ 2",
+          "name": "มองเห็นการดำเนินงานแบบเรียลไทม์",
           "status": "รอดำเนินการ"
         }
       ],
       "runtimeEvents": {
-        "title": "สตรีมเหตุการณ์ Runtime แบบเรียลไทม์",
-        "subtitle": "การดำเนินงานต่อเนื่อง",
-        "status": "LIVE",
+        "title": "ระบบ Runtime แบบสด",
+        "subtitle": "กระบวนการดำเนินงานต่อเนื่อง",
+        "status": "สด",
         "events": [
           {
             "time": "09:22",
-            "title": "ล็อก Runtime เงินเดือน"
+            "title": "ล็อกระบบเงินเดือน"
           },
           {
             "time": "09:24",
-            "title": "ซิงโครไนซ์บัญชีสต๊อก"
+            "title": "ซิงก์บัญชีสินค้าคงคลังแล้ว"
           },
           {
             "time": "09:26",
-            "title": "ตรวจพบความผิดปกติ"
+            "title": "ตรวจพบความคลาดเคลื่อน"
           },
           {
             "time": "09:28",
-            "title": "เริ่มกระบวนการยกระดับการอนุมัติ"
+            "title": "เริ่มการอนุมัติขั้นสูง"
           },
           {
             "time": "09:31",
-            "title": "ซิงโครไนซ์รายได้เสร็จสมบูรณ์"
+            "title": "ซิงก์รายได้เสร็จสิ้น"
           }
         ]
       },
       "governanceTimeline": {
         "label": "ไทม์ไลน์การกำกับดูแล",
-        "title": "การดำเนินงานต่อเนื่อง",
-        "status": "LIVE",
+        "title": "กระบวนการดำเนินงานต่อเนื่อง",
+        "status": "สด",
         "events": [
           {
             "time": "08:42",
-            "title": "อนุมัติการจัดซื้อ"
+            "title": "อนุมัติการจัดซื้อแล้ว"
           },
           {
             "time": "09:14",
-            "title": "บันทึกบัญชีแล้ว"
+            "title": "บันทึกรายการบัญชีแล้ว"
           },
           {
             "time": "09:16",
-            "title": "อัปเดตการกระทบยอด"
+            "title": "อัปเดตการกระทบยอดแล้ว"
           },
           {
             "time": "09:22",
-            "title": "ล็อก Runtime เงินเดือน"
+            "title": "ล็อกระบบเงินเดือน"
           }
         ]
       },
       "multiEntity": {
-        "label": "ระบบหลายบริษัท",
-        "title": "ภาพรวมข้ามองค์กร",
-        "status": "4 องค์กร",
+        "label": "ระบบดำเนินงานหลายหน่วยงาน",
+        "title": "การกำกับดูแลข้ามบริษัท",
+        "status": "4 หน่วยงาน",
         "entities": [
           {
             "name": "Churchill Phuket",
@@ -847,1008 +713,418 @@
           },
           {
             "name": "Cole Ley Entertainment",
-            "status": "รอปิดงบ"
+            "status": "รอปิดงวด"
           }
         ]
       },
       "accountability": {
         "label": "ความรับผิดชอบในการอนุมัติ",
-        "title": "Human Governance Runtime",
-        "status": "ยืนยันแล้ว",
+        "title": "ระบบกำกับดูแลโดยมนุษย์",
+        "status": "ตรวจสอบแล้ว",
         "items": [
           {
             "label": "อนุมัติโดย",
-            "name": "P. Vallgarda — CFO Runtime",
+            "name": "P. Vallgarda — ระบบ CFO",
             "status": "ใช้งานอยู่"
           },
           {
             "label": "ล็อกโดย",
-            "name": "Financial Governance Engine",
-            "status": "บังคับใช้"
+            "name": "เครื่องมือกำกับดูแลทางการเงิน",
+            "status": "บังคับใช้แล้ว"
           },
           {
             "label": "ตรวจสอบโดย",
-            "name": "Operations Control Runtime",
-            "status": "ยืนยันแล้ว"
+            "name": "ระบบควบคุมการดำเนินงาน",
+            "status": "ตรวจสอบแล้ว"
           }
         ]
       },
       "syntheticDecisionLayer": {
-        "title": "ข้อมูลเชิงปฏิบัติการเชิงคาดการณ์",
+        "title": "ข่าวกรองการดำเนินงานเชิงพยากรณ์",
         "status": "กำลังเรียนรู้",
-        "recommendationLabel": "คำแนะนำจาก AI",
-        "recommendationText": "ชะลอการปิดงบจนกว่าการกระทบยอดการจัดซื้อจะเสร็จสิ้น",
-        "predictionLabel": "การคาดการณ์จาก AI",
-        "predictionText": "คาดการณ์ความเสี่ยงด้านการจัดซื้อภายใน 6 วันปฏิบัติการ",
-        "detectionLabel": "การตรวจจับจาก AI",
-        "detectionText": "ตรวจพบพฤติกรรมการอนุมัติที่ผิดปกติในธุรกิจ Hospitality"
+        "recommendationLabel": "คำแนะนำ AI",
+        "recommendationText": "เลื่อนการปิดบัญชีจนกว่าการกระทบยอดการจัดซื้อจะเสร็จสิ้น",
+        "predictionLabel": "การคาดการณ์ AI",
+        "predictionText": "คาดว่ามีความเสี่ยงขาดแคลนการจัดซื้อภายใน 6 วันทำการ",
+        "detectionLabel": "การตรวจจับ AI",
+        "detectionText": "ตรวจพบพฤติกรรมการอนุมัติที่ผิดปกติในระบบการดำเนินงาน"
       },
       "financialGovernance": {
         "title": "การกำกับดูแลทางการเงินแบบเรียลไทม์"
       },
       "runtimeDashboard": {
         "title": "Enterprise Runtime",
-        "connectedEntities": "หน่วยงานที่เชื่อมต่อ",
-        "journalEntries": "รายการบัญชีวันนี้",
-        "approvalFlows": "กระบวนการอนุมัติ",
-        "governanceIntegrity": "ความสมบูรณ์ของการกำกับดูแล"
+        "connectedEntities": "Connected Entities",
+        "journalEntries": "Journal Entries Today",
+        "approvalFlows": "Approval Flows",
+        "governanceIntegrity": "Governance Integrity"
       },
       "riskRuntime": {
-        "liveDetection": "การตรวจจับแบบเรียลไทม์",
-        "operationalRisk": "Runtime ความเสี่ยงในการดำเนินงาน",
+        "monthEndClose": "Runtime ปิดสิ้นเดือน",
+        "operationalRisk": "Runtime ความเสี่ยงเชิงปฏิบัติการ",
         "auditViolations": "การละเมิดการตรวจสอบ",
-        "monthEndClose": "Runtime ปิดงบสิ้นเดือน"
+        "liveDetection": "การตรวจจับแบบสด"
       },
       "beforeAfterLists": {
         "before": [
-          "ใบแจ้งหนี้และใบเสร็จสูญหาย",
-          "ป้อนข้อมูลด้วยตนเอง",
-          "ข้อความ Line และเอกสารกระดาษ",
+          "ใบแจ้งหนี้และใบเสร็จหาย",
+          "ป้อนข้อมูลด้วยมือ",
+          "ข้อความไลน์และเอกสารกระจัดกระจาย",
           "ไม่มีการมองเห็นแบบเรียลไทม์",
-          "การกำกับดูแลทางการเงินล่าช้า",
-          "ค้นพบปัญหาช้าเกินไป"
+          "ตรวจสอบการเงินล่าช้า",
+          "พบปัญหาการดำเนินงานช้าเกินไป"
         ],
         "after": [
-          "ดึงข้อมูลใบแจ้งหนี้ด้วย AI",
+          "ดึงข้อมูลเอกสารด้วย AI",
           "มองเห็นการดำเนินงานแบบเรียลไทม์",
           "ติดตามเงินเดือนและการจัดซื้อแบบสด",
-          "การอนุมัติและ Audit Trail ที่เชื่อมต่อกัน",
-          "การควบคุมหลายบริษัท",
-          "ดูแลลูกค้าได้มากขึ้นอย่างมีประสิทธิภาพ"
+          "เชื่อมต่อการอนุมัติและตรวจสอบ",
+          "ควบคุมแดชบอร์ดหลายบริษัท",
+          "สำนักงานบัญชีจัดการลูกค้าได้อย่างมีประสิทธิภาพ"
         ]
       },
       "switchLists": {
         "traditional": [
           "รายงานหลังสิ้นเดือน",
           "ไม่มีการมองเห็นการดำเนินงาน",
-          "รวบรวมเอกสารด้วยตนเอง",
-          "ค้นพบปัญหาช้าเกินไป",
-          "ไม่มีข้อมูลการอนุมัติ",
+          "รวบรวมเอกสารด้วยมือ",
+          "พบปัญหาช้าเกินไป",
+          "ไม่มีความชาญฉลาดในการอนุมัติ",
           "ไม่มีความรับผิดชอบในการดำเนินงาน",
-          "ไม่มีการติดตามลูกค้าแบบเรียลไทม์"
+          "ไม่มีการติดตามลูกค้าแบบสด"
         ],
         "avantiqo": [
           "มองเห็นการดำเนินงานแบบเรียลไทม์",
           "ดึงข้อมูลเอกสารด้วย AI",
-          "การควบคุมหลายบริษัท",
+          "ควบคุมหลายบริษัท",
           "ความรับผิดชอบในการอนุมัติ",
-          "ตรวจจับความผิดปกติ",
-          "Audit Trail ต่อเนื่อง",
-          "คำแนะนำจาก Synthetic Intelligence"
+          "ตรวจจับความผิดปกติในการดำเนินงาน",
+          "ติดตามการตรวจสอบต่อเนื่อง",
+          "คำแนะนำจากสติปัญญาประดิษฐ์"
         ]
       },
       "syntheticSection": {
-        "badge": "SYNTHETIC INTELLIGENCE",
-        "headline1": "AI ตอบคำถาม",
-        "headline2": "Synthetic Intelligence เข้าใจธุรกิจ",
+        "badge": "สติปัญญาประดิษฐ์",
+        "headline1": "ปัญญาประดิษฐ์ตอบคำถามได้",
+        "headline2": "สติปัญญาประดิษฐ์เข้าใจธุรกิจ",
         "aiTitle": "AI",
-        "aiText": "สร้างเนื้อหา ตอบคำถาม สร้างรายงาน และตอบสนองต่อคำสั่ง",
-        "syntheticTitle": "Synthetic Intelligence",
-        "syntheticText": "เข้าใจความสัมพันธ์ระหว่างเงินเดือน การจัดซื้อ การอนุมัติ เอกสาร บัญชี สต๊อก และการดำเนินงาน ตรวจจับความเสี่ยง คาดการณ์ผลลัพธ์ และแนะนำการดำเนินการ",
-        "receiptText": "ส่งผลต่อการอนุมัติ การบัญชี การกระทบยอดการจัดซื้อ การปิดงบ ความเชื่อมั่นในการตรวจสอบ และการมองเห็นของผู้บริหาร",
-        "receiptFooter": "Synthetic Intelligence เข้าใจปฏิกิริยาลูกโซ่ทั้งหมด"
+        "aiText": "สร้างเนื้อหา ตอบคำถาม สร้างรายงาน ตอบสนองต่อคำสั่ง",
+        "syntheticTitle": "สติปัญญาประดิษฐ์",
+        "syntheticText": "เข้าใจความสัมพันธ์ระหว่างเงินเดือน การจัดซื้อ การอนุมัติ เอกสาร บัญชี สต็อก และการดำเนินงาน ตรวจจับความเสี่ยง ทำนายผลลัพธ์ แนะนำการดำเนินการ สร้างความชาญฉลาดในการดำเนินงาน",
+        "receiptText": "มีผลต่อการอนุมัติ การบัญชี การตรวจสอบการจัดซื้อ ปิดงบการเงิน ความมั่นใจในการตรวจสอบ และการมองเห็นของผู้บริหาร",
+        "receiptFooter": "สติปัญญาประดิษฐ์เข้าใจทุกปฏิกิริยาของกระบวนการ"
       },
       "riskRuntimeLists": {
-        "enterpriseNervousSystem": "ระบบประสาทการดำเนินงานขององค์กร",
-        "continuousFlow": "การดำเนินงานต่อเนื่อง",
-        "monitoringBehavior": "ติดตามพฤติกรรมการดำเนินงาน",
-        "missingReceipts": "ใบเสร็จสูญหาย",
+        "missingReceipts": "ใบเสร็จที่หายไป",
         "payrollApproval": "การอนุมัติเงินเดือนล่าช้า",
-        "procurementExceptions": "ข้อยกเว้นด้านการจัดซื้อ",
+        "procurementExceptions": "ความผิดปกติในการจัดซื้อ",
+        "continuousFlow": "กระบวนการดำเนินงานต่อเนื่อง",
+        "enterpriseNervousSystem": "ระบบประสาทเชิงปฏิบัติการขององค์กร",
+        "monitoringBehavior": "การตรวจสอบพฤติกรรมเชิงปฏิบัติการ",
         "aiVariance": "ตรวจพบความคลาดเคลื่อนในการจัดซื้อ",
-        "aiPayroll": "ตรวจพบความผิดปกติของเงินเดือนก่อนปิดงบ",
-        "aiStatus": "ไม่พบความผิดปกติที่สำคัญ",
-        "aiConfidence": "ระดับความเชื่อมั่นของ AI",
-        "aiPercentage": "97.2%"
+        "aiPayroll": "พบความไม่สอดคล้องของเงินเดือนก่อนปิดงบ",
+        "aiConfidence": "ความมั่นใจใน Runtime ของ AI",
+        "aiPercentage": "97.2%",
+        "aiStatus": "ไม่พบความผิดปกติที่สำคัญ"
       },
       "statusLabels": {
-        "active": "ใช้งานอยู่",
-        "aiActive": "AI ทำงานอยู่",
-        "analysis": "AI วิเคราะห์",
-        "approved": "อนุมัติแล้ว",
+        "aiActive": "AI ทำงาน",
+        "systemActive": "ระบบทำงาน",
         "detected": "AI ตรวจพบ",
-        "enabled": "เปิดใช้งาน",
-        "enforced": "บังคับใช้",
-        "live": "LIVE",
-        "operational": "กำลังดำเนินงาน",
-        "pendingClose": "รอปิดงบ",
-        "ready": "พร้อม",
-        "recommendation": "คำแนะนำจาก AI",
+        "analysis": "AI วิเคราะห์",
+        "recommendation": "AI แนะนำ",
+        "live": "สด",
+        "verified": "ตรวจสอบแล้ว",
+        "active": "ใช้งาน",
         "reviewing": "กำลังตรวจสอบ",
-        "synchronized": "ซิงโครไนซ์แล้ว",
-        "systemActive": "ระบบทำงานอยู่",
-        "verified": "ยืนยันแล้ว"
+        "approved": "อนุมัติแล้ว",
+        "pendingClose": "รอดำเนินการปิด",
+        "enforced": "บังคับใช้",
+        "enabled": "เปิดใช้งาน",
+        "ready": "พร้อม",
+        "synchronized": "ซิงค์แล้ว",
+        "operational": "ปฏิบัติการได้"
       },
       "enterpriseRuntime": {
-        "aiRuntime": "AI Runtime",
-        "allSystems": "ทุกระบบซิงโครไนซ์แล้ว",
-        "approvalRuntime": "Approval Runtime",
-        "auditChain": "ความสมบูรณ์ของ Audit Chain",
-        "auditDescription": "ทุกการอนุมัติ การแก้ไข ธุรกรรม และเหตุการณ์ในการดำเนินงานถูกติดตามอย่างถาวร",
-        "auditTraceability": "การตรวจสอบย้อนหลังระดับองค์กร",
-        "financialRuntime": "Financial Runtime",
-        "financialDesc": "เชื่อมต่อกับรายได้แบบเรียลไทม์",
-        "procurementRuntime": "Procurement Runtime",
-        "procurementDesc": "เชื่อมต่อกับ Inventory Ledger",
-        "procurementGovernance": "การกำกับดูแลการจัดซื้อ",
-        "inventoryLedger": "Inventory Ledger",
-        "journalEngine": "Canonical Journal Engine",
-        "payrollRuntime": "Payroll Runtime",
-        "payrollDesc": "ซิงค์กับ Operations Control",
-        "periodLocking": "ล็อกงวดบัญชี",
-        "threeWay": "3-Way Matching",
-        "multiEntity": "การรวมหลายบริษัท",
-        "varianceTriggered": "AI ตรวจพบความคลาดเคลื่อน",
+        "auditTraceability": "การติดตามการตรวจสอบระดับองค์กร",
+        "auditDescription": "ทุกการอนุมัติ การแก้ไข ธุรกรรม และเหตุการณ์การดำเนินงานถูกติดตามอย่างถาวรในระบบ Runtime ขององค์กร",
         "noAnomalies": "ไม่พบความผิดปกติที่สำคัญ",
+        "allSystems": "ทุกระบบซิงโครไนซ์แล้ว",
+        "payrollRuntime": "ระบบเงินเดือน",
+        "payrollDesc": "ซิงค์กับการควบคุมการดำเนินงาน",
+        "procurementRuntime": "ระบบจัดซื้อ",
+        "procurementDesc": "เชื่อมต่อกับบัญชีสต็อก",
+        "financialRuntime": "ระบบการเงิน",
+        "financialDesc": "เชื่อมต่อกับรายได้แบบสด",
+        "aiRuntime": "ระบบ AI",
+        "journalEngine": "ระบบบัญชีหลัก",
+        "threeWay": "การจับคู่ 3 ทาง",
+        "auditChain": "ความสมบูรณ์ของสายการตรวจสอบ",
+        "procurementGovernance": "การกำกับดูแลการจัดซื้อ",
+        "inventoryLedger": "บัญชีสต็อก",
+        "multiEntity": "การรวมหลายกิจการ",
+        "approvalRuntime": "ระบบอนุมัติ",
+        "periodLocking": "การล็อกรอบบัญชี",
         "high": "สูง",
-        "learning": "กำลังเรียนรู้"
-      },
-      "challenges": [
-        {
-          "title": "ข้อมูลลูกค้ากระจัดกระจาย",
-          "text": "เอกสาร ระบบบัญชี การอนุมัติ เงินเดือน ใบแจ้งหนี้ และรายงานอยู่คนละที่ ทำให้ผู้บริหารขาดการมองเห็นและทีมเสียเวลาในการค้นหา ตรวจสอบ และแก้ไข"
-        },
-        {
-          "title": "ลูกค้าที่มีกำไรต่ำมองเห็นได้ยาก",
-          "text": "หลายสำนักงานรู้รายได้ต่อลูกค้า แต่ไม่รู้กำไรที่แท้จริง Avantiqo ช่วยให้เห็นว่าลูกค้ารายใดใช้เวลามาก สร้างข้อยกเว้น และลดกำไรขององค์กร"
-        },
-        {
-          "title": "แรงกดดันด้าน Compliance แบบแมนนวล",
-          "text": "กำหนดส่ง การอนุมัติ เอกสาร ภาษี และการเตรียมตรวจสอบ สร้างความเสี่ยงเมื่อพึ่งพาการติดตามด้วยคน"
-        },
-        {
-          "title": "งานที่ปรึกษาขยายได้ยาก",
-          "text": "หลายสำนักงานต้องการก้าวข้ามงานบัญชี แต่ความรู้ด้านที่ปรึกษามักอยู่กับพนักงานระดับสูง Avantiqo เปลี่ยนข้อมูลทางการเงินให้เป็นความรู้ที่นำกลับมาใช้ซ้ำได้"
-        }
-      ],
-      "whyCards": [
-        {
-          "title": "ข้อมูลกำไรของลูกค้า",
-          "text": "เห็นว่าลูกค้ารายใดทำกำไร รายใดต้องการการแก้ไข และรายใดใช้ทรัพยากรมากเกินไปก่อนที่กำไรจะลดลง"
-        },
-        {
-          "title": "ประสิทธิภาพของสำนักงาน",
-          "text": "ติดตามการใช้ทรัพยากร ภาระงาน WIP การอนุมัติ และประสิทธิภาพของทีมทั้งองค์กร"
-        },
-        {
-          "title": "พร้อมสำหรับ Compliance และ Audit",
-          "text": "ควบคุม Governance การอนุมัติ เอกสาร การล็อกงวดบัญชี และการตรวจสอบจากระบบเดียว"
-        },
-        {
-          "title": "ข้อมูลเชิงลึกสำหรับที่ปรึกษา",
-          "text": "ค้นหาความเสี่ยง ปัญหากระแสเงินสด แนวโน้มผิดปกติ และโอกาสในการให้คำปรึกษา"
-        }
-      ],
-      "operatingSystem": [
-        {
-          "title": "ข้อมูลลูกค้า",
-          "text": "โปรไฟล์ลูกค้า สถานะเอกสาร กิจกรรมบัญชี กำหนดส่ง การสื่อสาร กำไร และความเสี่ยงในที่เดียว"
-        },
-        {
-          "title": "การควบคุม Workflow",
-          "text": "ควบคุมบัญชี เงินเดือน การกระทบยอด ภาษี การอนุมัติ การตรวจสอบ และการปิดงบ"
-        },
-        {
-          "title": "Financial Runtime",
-          "text": "เชื่อมต่อเหตุการณ์ทางบัญชี การอนุมัติ การกระทบยอด ข้อยกเว้น และรายงานทางการเงิน"
-        },
-        {
-          "title": "Partner Dashboard",
-          "text": "มองเห็นลูกค้า ภาระงาน รายได้ กำไร ความเสี่ยง และโอกาสทางธุรกิจแบบเรียลไทม์"
-        },
-        {
-          "title": "Synthetic Intelligence",
-          "text": "คาดการณ์ความเสี่ยง ตรวจจับความผิดปกติ แนะนำการดำเนินการ และลดงานตรวจสอบด้วยคน"
-        },
-        {
-          "title": "รายงานสำหรับลูกค้า",
-          "text": "สร้างรายงาน สรุปคำแนะนำ รีวิวทางการเงิน และงานนำเสนอได้รวดเร็วยิ่งขึ้น"
-        }
-      ],
-      "intelligence": [
-        {
-          "title": "คาดการณ์ความเสี่ยงของลูกค้า",
-          "text": "ระบุลูกค้าที่อาจพลาดกำหนดส่ง ส่งเอกสารไม่ครบ หรือสร้างความเสี่ยงด้าน Compliance"
-        },
-        {
-          "title": "ตรวจจับความผิดปกติ",
-          "text": "ค้นหาธุรกรรมผิดปกติ ความคลาดเคลื่อนของเงินเดือน ปัญหาการกระทบยอด และกำไรที่ลดลง"
-        },
-        {
-          "title": "แนะนำการให้คำปรึกษา",
-          "text": "เปลี่ยนข้อมูลบัญชีให้เป็นคำแนะนำที่ลูกค้าเข้าใจ เชื่อถือ และพร้อมจ่ายเงิน"
-        },
-        {
-          "title": "จัดลำดับความสำคัญของผู้บริหาร",
-          "text": "แสดงว่าลูกค้า งาน ข้อยกเว้น และโอกาสใดต้องได้รับความสนใจในวันนี้"
-        }
-      ],
-      "roi": [
-        {
-          "label": "กำไรสูงขึ้น",
-          "title": "ลดงานที่ไม่ได้เรียกเก็บเงิน",
-          "text": "เมื่อมองเห็นงาน ข้อยกเว้น และการอนุมัติได้ชัดเจน องค์กรจะลดการสูญเสียเวลาและรักษากำไรได้"
-        },
-        {
-          "label": "รายได้จากที่ปรึกษามากขึ้น",
-          "title": "เปลี่ยนข้อมูลเป็นคำแนะนำ",
-          "text": "Avantiqo ช่วยเปลี่ยนข้อมูลทางการเงินให้เป็นบริการที่มีมูลค่าสูงสำหรับลูกค้า"
-        },
-        {
-          "label": "การควบคุมที่ดีกว่า",
-          "title": "รู้สถานะของลูกค้าทุกคน",
-          "text": "ผู้บริหารสามารถเห็นสุขภาพธุรกิจ Compliance ภาระงาน และความเสี่ยงทางการเงินจากระบบเดียว"
-        },
-        {
-          "label": "สำนักงานที่ขยายได้",
-          "title": "เติบโตโดยไม่เกิดความวุ่นวาย",
-          "text": "Workflow มาตรฐาน Synthetic Intelligence และ Governance ช่วยให้เติบโตโดยไม่สูญเสียการควบคุม"
-        }
-      ],
-      "runtimeMetrics": [
-        [
-          "ลูกค้าที่เชื่อมต่อ",
-          "128"
-        ],
-        [
-          "ข้อยกเว้นที่เปิดอยู่",
-          "14"
-        ],
-        [
-          "โอกาสด้านที่ปรึกษา",
-          "32"
-        ],
-        [
-          "ความสมบูรณ์ของ Governance",
-          "96%"
-        ]
-      ]
-    },
-    "healthcare": {
-      "hero": {
-        "badge": "แพลตฟอร์มอัจฉริยะด้านสาธารณสุข",
-        "title1": "มองเห็นทั้งระบบสาธารณสุข",
-        "title2": "ก่อนที่ระบบจะบอกคุณว่ามีปัญหา",
-        "description": "ผู้ป่วย บุคลากร การดำเนินงาน การเงิน การกำกับดูแล และผู้บริหาร เชื่อมต่อกันผ่านชั้นอัจฉริยะสังเคราะห์เดียว",
-        "primary": "ขอข้อมูลสำหรับผู้บริหาร"
-      },
-      "reality": {
-        "badge": "ความเป็นจริงของสาธารณสุข",
-        "title1": "ระบบสาธารณสุขเชื่อมโยงถึงกันทุกที่",
-        "title2": "แต่ยังไม่มีใครมองเห็นภาพรวมทั้งหมด"
-      },
-      "runtime": {
-        "badge": "แพลตฟอร์มสาธารณสุขแบบรวมศูนย์",
-        "title1": "ความต้องการของผู้ป่วย ภาระงานทางคลินิก ความจุของเตียง",
-        "title2": "ความพร้อมของบุคลากร ความเสี่ยงทางการเงิน ความเสี่ยงด้านการกำกับดูแล"
-      },
-      "synthetic": {
-        "badge": "ชั้นปัญญาประดิษฐ์สังเคราะห์",
-        "title1": "ระบบแบบเดิมบอกคุณว่า",
-        "title2": "เกิดอะไรขึ้นแล้ว",
-        "title3": "Avantiqo แสดงให้คุณเห็นว่า",
-        "title4": "อะไรจะเกิดขึ้นต่อไป"
-      },
-      "ownership": {
-        "badge": "ชั้นผู้บริหาร",
-        "title1": "ผู้บริหารมองเห็นทุกอย่าง",
-        "title2": "ก่อนที่มันจะเกิดขึ้น"
-      },
-      "cta": {
-        "badge": "ระบบปฏิบัติการสำหรับสาธารณสุข",
-        "title1": "ระบบสาธารณสุขถูกสร้างขึ้นรอบการรักษา",
-        "title2": "อนาคตจะถูกสร้างขึ้นรอบความฉลาดของระบบ",
-        "description": "Avantiqo เชื่อมโยงผู้ป่วย บุคลากรทางการแพทย์ การดำเนินงาน การเงิน การกำกับดูแล และผู้บริหาร ผ่านระบบปฏิบัติการปัญญาประดิษฐ์สังเคราะห์เดียวกัน",
-        "primary": "ขอข้อมูลสำหรับผู้บริหาร"
-      },
-      "healthcare_hero": "ภาพรวมทั้งระบบสาธารณสุข",
-      "patient_systems": "ระบบผู้ป่วย",
-      "clinical_systems": "ระบบทางคลินิก",
-      "billing_systems": "ระบบเรียกเก็บเงิน",
-      "compliance_systems": "ระบบการกำกับดูแล",
-      "patient_waiting_time": "เวลารอของผู้ป่วย",
-      "staff_utilization": "การใช้ทรัพยากรบุคลากร",
-      "revenue_leakage": "รายได้รั่วไหล",
-      "capacity_planning": "การวางแผนกำลังการรองรับ",
-      "compliance_exposure": "ความเสี่ยงด้านการปฏิบัติตามข้อกำหนด",
-      "executive_blind_spots": "จุดบอดของผู้บริหาร",
-      "patient_demand": "ความต้องการของผู้ป่วย",
-      "clinical_workload": "ภาระงานทางคลินิก",
-      "bed_capacity": "ความจุเตียง",
-      "staff_availability": "ความพร้อมของบุคลากร",
-      "financial_exposure": "ความเสี่ยงทางการเงิน",
-      "compliance_risk": "ความเสี่ยงด้านการกำกับดูแล",
-      "what_is_happening": "กำลังเกิดอะไรขึ้น",
-      "what_happens_next": "อะไรจะเกิดขึ้นต่อไป",
-      "what_to_do_about_it": "ควรทำอย่างไร",
-      "patient_surge_risk__87": "ความเสี่ยงผู้ป่วยเพิ่มขึ้น · 87%",
-      "staff_shortage_risk__73": "ความเสี่ยงขาดแคลนบุคลากร · 73%",
-      "up_capacity_utilization": "↑ การใช้ความจุ",
-      "up_revenue_capture": "↑ การรักษารายได้",
-      "up_leadership_visibility": "↑ การมองเห็นของผู้บริหาร",
-      "down_waiting_time": "↓ เวลารอคอย",
-      "down_staffing_cost": "↓ ต้นทุนบุคลากร",
-      "operational_bottlenecks_create_delays_long_before_management_becomes_aware_of_them": "คอขวดในการดำเนินงานสร้างความล่าช้าก่อนที่ผู้บริหารจะรับรู้",
-      "overstaffing_and_understaffing_often_happen_at_the_same_time_across_different_departments": "การมีบุคลากรมากเกินไปและน้อยเกินไปมักเกิดขึ้นพร้อมกันในหลายแผนก",
-      "disconnected_systems_create_missed_billing_opportunities_and_hidden_operational_costs": "ระบบที่แยกจากกันทำให้สูญเสียโอกาสในการเรียกเก็บเงินและเกิดต้นทุนแฝง",
-      "beds_rooms_equipment_and_staff_capacity_are_rarely_viewed_as_one_connected_reality": "เตียง ห้อง อุปกรณ์ และบุคลากรมักไม่ได้ถูกมองว่าเป็นความจริงที่เชื่อมโยงกัน",
-      "risk_grows_when_operational_events_and_compliance_obligations_are_disconnected": "ความเสี่ยงเพิ่มขึ้นเมื่อเหตุการณ์ในการดำเนินงานและข้อกำหนดด้านการกำกับดูแลไม่เชื่อมโยงกัน",
-      "leadership_receives_reports_after_events_occur_instead_of_understanding_risks_before_they_happen": "ผู้บริหารได้รับรายงานหลังเหตุการณ์เกิดขึ้น แทนที่จะเข้าใจความเสี่ยงล่วงหน้า",
-      "live_operational_visibility_across_patients_clinicians_capacity_finance_and_compliance": "การมองเห็นการดำเนินงานแบบเรียลไทม์ครอบคลุมผู้ป่วย บุคลากร ความจุ การเงิน และการกำกับดูแล",
-      "predictive_intelligence_identifies_pressure_risk_and_bottlenecks_before_escalation": "ปัญญาเชิงคาดการณ์สามารถระบุแรงกดดัน ความเสี่ยง และคอขวดก่อนที่จะรุนแรงขึ้น",
-      "recommended_actions_help_leadership_intervene_before_operational_failure_occurs": "คำแนะนำช่วยให้ผู้บริหารเข้าแทรกแซงก่อนเกิดความล้มเหลวในการดำเนินงาน",
-      "reality_content_1": "การรับผู้ป่วยเข้ารักษาส่งผลต่อบุคลากร บุคลากรส่งผลต่อการจัดตาราง การจัดตารางส่งผลต่อความจุ และความจุส่งผลต่อระยะเวลาในการรักษา",
-      "reality_content_2": "การรักษาส่งผลต่อผลลัพธ์ ผลลัพธ์ส่งผลต่อการเบิกจ่าย และการเบิกจ่ายส่งผลต่อผลการดำเนินงานทางการเงิน",
-      "reality_content_3": "องค์กรด้านสุขภาพส่วนใหญ่ติดตามเหตุการณ์เหล่านี้แยกกัน Avantiqo เข้าใจสิ่งเหล่านี้ในฐานะห่วงโซ่การดำเนินงานที่เชื่อมโยงกัน",
-      "reality_content_4": "ปัญหาไม่ใช่ข้อมูล ปัญหาคือไม่มีใครมองเห็นว่าข้อมูลไหลผ่านธุรกิจอย่างไร",
-      "runtime_content_1": "ความต้องการของผู้ป่วย ภาระงานทางคลินิก การใช้เตียง และความจุห้องผ่าตัด",
-      "runtime_content_2": "ประสิทธิภาพห้องปฏิบัติการ ความพร้อมของบุคลากร ผลการดำเนินงานทางการเงิน และความเสี่ยงด้านการกำกับดูแล",
-      "runtime_content_3": "เชื่อมต่อผ่านระบบปฏิบัติการเดียวเพื่อให้ผู้บริหารสามารถดำเนินการได้ก่อนที่แรงกดดันจะกลายเป็นปัญหา",
-      "ownership_content_1": "ผู้บริหารส่วนใหญ่มักได้รับรายงานหลังจากเหตุการณ์เกิดขึ้นแล้ว Avantiqo สามารถระบุแรงกดดันในการดำเนินงานได้ก่อนที่จะกลายเป็นปัญหา",
-      "ownership_content_2": "มองเห็นการขาดแคลนบุคลากรก่อนที่ตารางงานจะล้มเหลว มองเห็นข้อจำกัดด้านความจุก่อนที่ความล่าช้าของผู้ป่วยจะเพิ่มขึ้น",
-      "ownership_content_3": "มองเห็นความเสี่ยงทางการเงินก่อนที่งบประมาณจะได้รับผลกระทบ มองเห็นความเสี่ยงด้านการกำกับดูแลก่อนที่การตรวจสอบจะค้นพบ",
-      "outcomes_content_1": "การปรับปรุงการดำเนินงานที่วัดผลได้",
-      "healthcare_connects": "ระบบสาธารณสุขเชื่อมต่อถึงกันทุกแห่ง",
-      "healthcare_misunderstood": "แต่ไม่มีใครเข้าใจภาพรวมทั้งหมด",
-      "outcomes_badge": "OUTCOMES"
-    },
-    "construction": {
-      "construction_hero_badge": "การดำเนินงานก่อสร้าง",
-      "construction_hero_title1": "ควบคุมทุกไซต์งานก่อนที่ความล่าช้าจะกลายเป็นความสูญเสีย",
-      "construction_hero_title2": "แพลตฟอร์มก่อสร้างแบบเรียลไทม์",
-      "construction_hero_description": "งบประมาณ การจัดซื้อ แรงงาน การอนุมัติ รายงานหน้างาน เอกสาร และข้อมูลทางการเงิน เชื่อมต่ออยู่ในระบบก่อสร้างเดียว",
-      "construction_cta_primary": "จองการสาธิตระบบ",
-      "construction_cta_secondary": "ติดต่อทีมงานองค์กร",
-      "before_after_badge": "ก่อน / หลัง",
-      "before_after_title": "เปลี่ยนจากการบริหารงานก่อสร้างที่แยกส่วน สู่การควบคุมโครงการแบบเรียลไทม์",
-      "features_badge": "แพลตฟอร์มก่อสร้าง",
-      "features_title": "หน้างาน สำนักงาน และการเงิน เชื่อมต่อกันแบบเรียลไทม์",
-      "feature_1_title": "ควบคุมโครงการแบบเรียลไทม์",
-      "feature_1_text": "ติดตามความคืบหน้า งบประมาณ การอนุมัติ ความล่าช้า บุคลากร และประสิทธิภาพแบบเรียลไทม์",
-      "feature_2_title": "รายงานไซต์งาน",
-      "feature_2_text": "ผู้ควบคุมอัปโหลดรูปภาพ รายงานประจำวัน ปัญหา และอัปเดตโดยตรงจากไซต์",
-      "feature_3_title": "จัดซื้อและวัสดุ",
-      "feature_3_text": "ควบคุมคำขอจัดซื้อ คำสั่งซื้อผู้ขาย การส่งมอบวัสดุ และการมองเห็นสต็อก",
-      "feature_4_title": "แรงงานและเงินเดือน",
-      "feature_4_text": "ติดตามการเข้างาน ผู้รับเหมา ค่าแรง การอนุมัติเงินเดือน และกิจกรรมของพนักงาน",
-      "feature_5_title": "ควบคุมหลายโครงการ",
-      "feature_5_text": "บริหารหลายไซต์งาน หลายงบประมาณ และหลายทีมงานจากแพลตฟอร์มเดียว",
-      "feature_6_title": "มุมมองสำหรับเจ้าของโครงการ",
-      "feature_6_text": "เจ้าของโครงการและผู้บริหารสามารถเห็นความคืบหน้า ต้นทุน การอนุมัติ และความเสี่ยงแบบเรียลไทม์จากทุกที่",
-      "hero_primary": "[TH] hero_primary",
-      "hero_secondary": "[TH] hero_secondary",
-      "reduce_project_delays": "ลดความล่าช้าของโครงการ",
-      "reduce_project_delays_description": "ระบุปัญหาไซต์ คอขวดการอนุมัติ และความล่าช้าก่อนที่จะส่งผลต่อการส่งมอบ",
-      "control_budget_overruns": "ควบคุมงบประมาณ",
-      "control_budget_overruns_description": "[TH] Track committed costs, supplier spend, labor cost and project financial exposure live.",
-      "connect_site_office": "เชื่อมต่อไซต์และสำนักงาน",
-      "connect_site_office_description": "[TH] Bring field updates, project management, approvals and finance into one connected workflow.",
-      "improve_contractor_accountability": "เพิ่มความรับผิดชอบของผู้รับเหมา",
-      "improve_contractor_accountability_description": "ติดตามกิจกรรมผู้รับเหมา ความคืบหน้า การเข้างาน และการทำงานเสร็จพร้อมหลักฐาน",
-      "faster_approvals": "อนุมัติได้รวดเร็วขึ้น",
-      "faster_approvals_description": "จัดการคำขอซื้อ การเปลี่ยนแปลง ใบแจ้งหนี้ และการอนุมัติโครงการผ่านเวิร์กโฟลว์ที่เป็นระบบ",
-      "real_time_owner_reporting": "รายงานเจ้าของโครงการแบบเรียลไทม์",
-      "real_time_owner_reporting_description": "แทนที่รายงานล่าช้าด้วยการมองเห็นความคืบหน้า ความเสี่ยง และงบประมาณแบบเรียลไทม์",
-      "construction_problems_become_expensive_when_visibility_arrives_too_late": "",
-      "why_title": "Why Construction Companies Choose Avantiqo",
-      "why_1_title": "Project Intelligence",
-      "why_1_text": "See every project, milestone, budget, delay, approval and risk from one operational runtime.",
-      "why_2_title": "Contractor Accountability",
-      "why_2_text": "Track subcontractors, attendance, progress, photos and task completion with evidence.",
-      "why_3_title": "Cost Intelligence",
-      "why_3_text": "Connect procurement, labor, inventory and project spend to understand real profitability.",
-      "why_4_title": "Executive Visibility",
-      "why_4_text": "Owners and executives can monitor every site without waiting for weekly reports.",
-      "portal_title": "Client & Contractor Portals",
-      "portal_client_title": "Client Portal",
-      "portal_client_text": "Clients can follow progress, approvals, milestones, photos, invoices and project status in real time.",
-      "portal_contractor_title": "Contractor Portal",
-      "portal_contractor_text": "Subcontractors can submit updates, attendance, photos, documents and completion evidence directly from site.",
-      "si_title": "Synthetic Intelligence",
-      "si_1_title": "Predict Delays",
-      "si_1_text": "Identify schedule risks before they impact project delivery.",
-      "si_2_title": "Predict Budget Overruns",
-      "si_2_text": "Detect procurement, labor and change-order risks before they become financial problems.",
-      "si_3_title": "Automatic Progress Reports",
-      "si_3_text": "Generate owner-ready project summaries automatically from site activity.",
-      "si_4_title": "Procurement Intelligence",
-      "si_4_text": "Recommend purchasing actions based on inventory, project schedules and supplier performance.",
-      "marketing_title": "Marketing & Tender Intelligence",
-      "marketing_text": "Generate company profiles, capability statements, tender documents, project case studies, social media posts and marketing campaigns directly from completed projects.",
-      "challenge_title": "Construction Companies Are Losing Money Every Day",
-      "challenge_text": "Most construction companies do not lose money because they lack projects. They lose money because they lack visibility. Delays, procurement mistakes, subcontractor issues, budget overruns and communication failures often remain hidden until they have already damaged profitability. Avantiqo gives management real-time visibility across projects, people, suppliers, budgets and execution so problems can be solved before they become losses.",
-      "profitability_title": "Know Which Projects Actually Make Money",
-      "profitability_text": "Revenue is not profit. Most construction companies can tell you project revenue, but very few can accurately explain project profitability. Avantiqo connects quotations, budgets, procurement, inventory, labor, subcontractors, equipment costs and invoices into one financial model so management can see exactly where profit is generated and where margins are disappearing.",
-      "flow_title": "From Lead To Completed Project",
-      "flow_text": "Construction companies often operate with disconnected systems. Sales uses one platform, project teams use another, procurement uses spreadsheets and accounting operates separately. Avantiqo connects the entire lifecycle from lead generation and quotations to project completion, billing, case studies and marketing, creating a single operational runtime for the entire company.",
-      "workforce_title": "Workforce, Payroll & Site Operations",
-      "workforce_text": "Managing hundreds of workers, supervisors and subcontractors across multiple sites is one of the biggest challenges in construction. Avantiqo provides workforce visibility, attendance tracking, payroll management, productivity monitoring, contractor oversight and operational reporting from one connected platform.",
-      "procurement_title": "Procurement, Inventory & Equipment Control",
-      "procurement_text": "Materials, equipment and procurement represent some of the largest project costs. Avantiqo connects purchase requests, supplier management, inventory, warehouses, equipment tracking and project allocations into one procurement engine. Every material movement becomes visible and every purchase becomes traceable.",
-      "difference_title": "Why Avantiqo Is Different",
-      "difference_text": "Most software solves one problem. Project management software manages tasks. ERP systems manage accounting. CRM systems manage customers. Avantiqo connects the entire construction business. Projects, procurement, workforce, finance, clients, marketing and synthetic intelligence operate from one environment instead of ten disconnected systems.",
-      "future_title": "The Future Construction Company",
-      "future_text": "The future construction company operates with live visibility, connected workflows and predictive intelligence. Instead of reacting to delays, budget overruns and operational surprises, management can make informed decisions before problems occur. Avantiqo transforms construction companies from reactive organizations into proactive businesses.",
-      "cta_title": "Construction Without Blind Spots",
-      "cta_text": "Connect projects, procurement, workforce, finance, reporting, client visibility, marketing and synthetic intelligence into one construction operating system.",
-      "flow_step_1": "Lead",
-      "flow_step_2": "CRM",
-      "flow_step_3": "Quotation",
-      "flow_step_4": "Tender",
-      "flow_step_5": "Project Award",
-      "flow_step_6": "Project Setup",
-      "flow_step_7": "Procurement",
-      "flow_step_8": "Inventory",
-      "flow_step_9": "Workforce",
-      "flow_step_10": "Site Reporting",
-      "flow_step_11": "Billing",
-      "flow_step_12": "Invoices",
-      "flow_step_13": "Project Completion",
-      "flow_step_14": "Case Study",
-      "flow_step_15": "Marketing",
-      "flow_step_16": "Next Project",
-      "difference_1_title": "Not Project Management Software",
-      "difference_1_text": "Project management tools manage tasks. Construction companies need to manage entire businesses.",
-      "difference_2_title": "Not Traditional ERP",
-      "difference_2_text": "Traditional ERP systems were built around accounting. Avantiqo is built around operational reality.",
-      "difference_3_title": "Digital Twin Of Your Business",
-      "difference_3_text": "Every project, supplier, worker, asset and transaction becomes part of one connected operational model.",
-      "difference_4_title": "One Platform Instead Of Five",
-      "difference_4_text": "Replace disconnected project software, CRM, ERP, reporting and marketing tools with one connected environment.",
-      "marketing_item_1": "Company profiles",
-      "marketing_item_2": "Capability statements",
-      "marketing_item_3": "Tender documents",
-      "marketing_item_4": "Project case studies",
-      "marketing_item_5": "Website content",
-      "marketing_item_6": "Social media campaigns",
-      "marketing_item_7": "Client presentations"
-    },
-    "professionalServices": {
-      "hero": {
-        "title": "บริการวิชาชีพที่ขับเคลื่อนด้วยปัญญาสังเคราะห์",
-        "description": "เปลี่ยนความเชี่ยวชาญให้เป็นข้อมูลเชิงลึกที่นำไปใช้ได้จริงสำหรับสำนักงานบัญชี สำนักงานกฎหมาย และธุรกิจที่ปรึกษา บริหารลูกค้า โครงการ การปฏิบัติตามข้อกำหนด และผลการดำเนินงานทางการเงินจากแพลตฟอร์มเดียว",
-        "primary": "จองเดโม",
-        "secondary": "สำรวจแพลตฟอร์ม"
-      },
-      "sections": [
-        {
-          "title": "ความท้าทายของธุรกิจบริการวิชาชีพ",
-          "cards": [
-            {
-              "title": "การดำเนินงานที่ไม่มีประสิทธิภาพ",
-              "desc": "กระบวนการแบบแมนนวลและเวิร์กโฟลว์ที่แยกส่วนทำให้การให้บริการล่าช้า"
-            },
-            {
-              "title": "ข้อมูลกระจัดกระจาย",
-              "desc": "ข้อมูลสำคัญกระจายอยู่หลายระบบ ทำให้การตัดสินใจทำได้ยาก"
-            },
-            {
-              "title": "ช่องว่างในประสบการณ์ลูกค้า",
-              "desc": "การขาดข้อมูลแบบเรียลไทม์ส่งผลต่อความพึงพอใจและการรักษาลูกค้า"
-            }
-          ]
-        },
-        {
-          "title": "ปัญญาสังเคราะห์สำหรับบัญชีและกฎหมาย",
-          "cards": [
-            {
-              "title": "คำแนะนำจาก AI",
-              "desc": "ใช้ AI เพื่อเพิ่มประสิทธิภาพเวิร์กโฟลว์ การอนุมัติ และการรายงาน"
-            },
-            {
-              "title": "การวิเคราะห์เชิงคาดการณ์",
-              "desc": "คาดการณ์รายได้ ความเสี่ยง และคอขวดในการดำเนินงานได้อย่างแม่นยำ"
-            },
-            {
-              "title": "การตัดสินใจอัตโนมัติ",
-              "desc": "ปรับปรุงกระบวนการอนุมัติและการปฏิบัติตามข้อกำหนดด้วยข้อมูลเชิงลึกจาก AI"
-            },
-            {
-              "title": "ข้อมูลเชิงลึกพฤติกรรมลูกค้า",
-              "desc": "เข้าใจแนวโน้ม การรักษาลูกค้า และรูปแบบการมีส่วนร่วม"
-            },
-            {
-              "title": "ตัวชี้วัดการดำเนินงาน",
-              "desc": "ติดตามประสิทธิภาพขององค์กร ผลิตภาพพนักงาน และความสามารถในการทำกำไรของลูกค้า"
-            }
-          ]
-        },
-        {
-          "title": "เหตุใดองค์กรจึงเลือก Avantiqo",
-          "cards": [
-            {
-              "title": "ข้อมูลกำไรของลูกค้า",
-              "desc": "ทราบได้อย่างชัดเจนว่าลูกค้ารายใดสร้างกำไรและรายใดใช้ทรัพยากรมากเกินไป"
-            },
-            {
-              "title": "ประสิทธิภาพขององค์กร",
-              "desc": "ติดตามอัตราการใช้ทรัพยากร งานระหว่างดำเนินการ และประสิทธิภาพของทีม"
-            },
-            {
-              "title": "การปฏิบัติตามข้อกำหนดและการตรวจสอบ",
-              "desc": "จัดการบันทึกการตรวจสอบ การอนุมัติ และการควบคุมด้าน Compliance โดยอัตโนมัติ"
-            },
-            {
-              "title": "ข้อมูลเชิงลึกด้านที่ปรึกษา",
-              "desc": "ค้นหาโอกาส ความเสี่ยง และคำแนะนำสำหรับลูกค้าแต่ละราย"
-            }
-          ]
-        }
-      ],
-      "cta": {
-        "title": "ดำเนินงาน ควบคุม ให้คำปรึกษา ส่งมอบ",
-        "description": "Avantiqo เชื่อมโยงการจัดการลูกค้า โครงการ Compliance การเงิน และปัญญาสังเคราะห์ไว้ในระบบเดียวสำหรับธุรกิจบริการวิชาชีพ"
-      }
-    },
-    "retailCommerce": {
-      "hero": {
-        "title": "จากระบบขายหน้าร้านสู่ปัญญาธุรกิจค้าปลีกแบบครบวงจร",
-        "description": "จัดการยอดขาย สินค้าคงคลัง ลูกค้า การตลาด การเงิน ปัญญาสังเคราะห์ และงานออกแบบจากแพลตฟอร์มเดียว",
-        "primary": "จองเดโม",
-        "secondary": "สำรวจแพลตฟอร์ม"
-      },
-      "sections": [
-        {
-          "title": "ความท้าทายของธุรกิจค้าปลีก",
-          "cards": [
-            {
-              "title": "ความคลาดเคลื่อนของสินค้าคงคลัง",
-              "desc": "การมองเห็นสต็อกที่กระจัดกระจายระหว่างสาขาทำให้เกิดสินค้าล้นสต็อกและสูญเสียยอดขาย"
-            },
-            {
-              "title": "ระบบที่ไม่เชื่อมต่อกัน",
-              "desc": "ซอฟต์แวร์ที่แตกต่างกันในแต่ละสาขาสร้าง Data Silo และทำให้การดำเนินงานล่าช้า"
-            },
-            {
-              "title": "การสูญเสียลูกค้า",
-              "desc": "การขาดข้อมูลลูกค้าแบบเรียลไทม์ทำให้พลาดโอกาสทางธุรกิจ"
-            },
-            {
-              "title": "ข้อมูลทางการเงินล่าช้า",
-              "desc": "รายงานแบบแมนนวลและข้อมูลการเงินที่กระจัดกระจายทำให้การตัดสินใจล่าช้า"
-            },
-            {
-              "title": "การจัดการสต็อกด้วยมือ",
-              "desc": "การทำงานอัตโนมัติที่จำกัดเพิ่มความผิดพลาดและภาระงาน"
-            },
-            {
-              "title": "ข้อมูลเชิงลึกด้านการตลาดจำกัด",
-              "desc": "การเพิ่มประสิทธิภาพแคมเปญทำได้ยากหากไม่มีระบบรวมศูนย์"
-            }
-          ]
-        },
-        {
-          "title": "ระบบปฏิบัติการสำหรับธุรกิจค้าปลีก",
-          "cards": [
-            {
-              "title": "ข้อมูลเชิงลึกลูกค้า",
-              "desc": "โปรไฟล์ลูกค้า ระบบสมาชิก และข้อมูลเชิงลึกจาก AI"
-            },
-            {
-              "title": "ระบบขายหน้าร้าน",
-              "desc": "POS สมัยใหม่ รองรับการคืนสินค้า ส่วนลด บัตรของขวัญ และหลายสาขา"
-            },
-            {
-              "title": "สินค้าคงคลังและซัพพลายเชน",
-              "desc": "จัดการสต็อก คลังสินค้า การโอนสินค้า ใบสั่งซื้อ และระบบอัตโนมัติ"
-            },
-            {
-              "title": "การเงินและบัญชี",
-              "desc": "รายได้ ค่าใช้จ่าย กำไร กระแสเงินสด และรายงานแบบบูรณาการ"
-            },
-            {
-              "title": "การตลาดอัตโนมัติ",
-              "desc": "สร้างแคมเปญ โพสต์โซเชียล และคอนเทนต์ที่สร้างด้วย AI"
-            },
-            {
-              "title": "ปัญญาสังเคราะห์",
-              "desc": "การวิเคราะห์เชิงคาดการณ์ ข้อมูลเชิงลึกการดำเนินงาน และการตัดสินใจอัตโนมัติ"
-            },
-            {
-              "title": "สตูดิโอออกแบบ",
-              "desc": "ออกแบบแคมเปญ กราฟิกโซเชียลมีเดีย และภาพนำเสนอสินค้า"
-            },
-            {
-              "title": "Business Intelligence",
-              "desc": "แดชบอร์ด KPI การวิเคราะห์หลายสาขา และการพยากรณ์ด้วย AI"
-            }
-          ]
-        },
-        {
-          "title": "ค้าปลีกโดยไม่มีจุดบอด",
-          "cards": [
-            {
-              "title": "การมองเห็นแบบครบวงจร",
-              "desc": "มองเห็นการดำเนินงาน สินค้าคงคลัง และพฤติกรรมลูกค้าแบบ End-to-End"
-            },
-            {
-              "title": "การตัดสินใจบนพื้นฐานข้อมูล",
-              "desc": "ใช้ข้อมูลจาก AI เพื่อเพิ่มประสิทธิภาพยอดขาย การตลาด และการดำเนินงาน"
-            },
-            {
-              "title": "การเชื่อมต่ออย่างสมบูรณ์",
-              "desc": "ทุกระบบเชื่อมต่อกันเพื่อสร้างข้อมูลเชิงลึกที่ใช้งานได้จริงแบบเรียลไทม์"
-            }
-          ]
-        }
-      ],
-      "cta": {
-        "title": "พร้อมเปลี่ยนธุรกิจค้าปลีกของคุณหรือยัง?",
-        "description": "เชื่อมโยงยอดขาย สต็อก ลูกค้า การเงิน การตลาด และ AI ไว้ในระบบเดียว",
-        "primary": "จองเดโม",
-        "secondary": "สำรวจแพลตฟอร์ม"
-      }
-    },
-    "distributionManufacturing": {
-      "hero": {
-        "title": "จากวัตถุดิบสู่สินค้าพร้อมส่งมอบ",
-        "description": "ควบคุมการจัดซื้อ สินค้าคงคลัง การผลิต คลังสินค้า โลจิสติกส์ การเงิน และข้อมูลเชิงลึกด้านการดำเนินงานจากแพลตฟอร์มเดียว",
-        "primary": "จองเดโม",
-        "secondary": "สำรวจแพลตฟอร์ม"
-      },
-      "sections": [
-        {
-          "title": "ความท้าทายของอุตสาหกรรม",
-          "cards": [
-            {
-              "title": "ความคลาดเคลื่อนของสินค้าคงคลัง",
-              "desc": "ความแตกต่างของสต็อกทำให้เกิดสินค้าล้นคลังและสูญเสียยอดขาย"
-            },
-            {
-              "title": "ความล่าช้าในการผลิต",
-              "desc": "คอขวดในกระบวนการผลิตทำให้การส่งมอบคำสั่งซื้อล่าช้า"
-            },
-            {
-              "title": "ปัญหาในห่วงโซ่อุปทาน",
-              "desc": "การจัดการโลจิสติกส์ที่ไม่สอดประสานเพิ่มระยะเวลาการจัดส่ง"
-            },
-            {
-              "title": "คลังสินค้าที่แยกจากกัน",
-              "desc": "หลายสถานที่จัดเก็บโดยไม่มีการควบคุมจากศูนย์กลาง"
-            },
-            {
-              "title": "การคาดการณ์ที่ไม่มีประสิทธิภาพ",
-              "desc": "ข้อมูลวิเคราะห์ที่จำกัดทำให้การวางแผนการผลิตไม่แม่นยำ"
-            },
-            {
-              "title": "ขาดการมองเห็นภาพรวม",
-              "desc": "การมองเห็นข้อมูลการดำเนินงานและประสิทธิภาพสินค้าคงคลังมีจำกัด"
-            }
-          ]
-        },
-        {
-          "title": "ระบบปฏิบัติการสำหรับการผลิต",
-          "cards": [
-            {
-              "title": "การจัดซื้อ",
-              "desc": "คำขอซื้อ ใบสั่งซื้อ การจัดการผู้ขาย การอนุมัติ และการรับสินค้า"
-            },
-            {
-              "title": "สินค้าคงคลังและคลังสินค้า",
-              "desc": "ระดับสต็อก ตำแหน่งจัดเก็บ การโอนสินค้า การติดตามล็อต และการตรวจนับ"
-            },
-            {
-              "title": "การผลิต",
-              "desc": "สูตรการผลิต BOM คำสั่งผลิต ต้นทุน และการติดตามผลผลิต"
-            },
-            {
-              "title": "โลจิสติกส์",
-              "desc": "การจัดส่ง การบริหารยานพาหนะ การขนส่ง การติดตาม และการกระจายสินค้า"
-            },
-            {
-              "title": "การเงินและบัญชี",
-              "desc": "เจ้าหนี้ ลูกหนี้ บัญชีแยกประเภท การคำนวณต้นทุน และรายงานทางการเงิน"
-            },
-            {
-              "title": "ปัญญาสังเคราะห์",
-              "desc": "คาดการณ์ความต้องการ วางแผนสต็อก ระบุคอขวด ลดของเสีย และตัดสินใจอัตโนมัติ"
-            },
-            {
-              "title": "สตูดิโอออกแบบ",
-              "desc": "ออกแบบสินค้า บรรจุภัณฑ์ ฉลาก สื่อการตลาด และการเปิดตัวผลิตภัณฑ์"
-            }
-          ]
-        },
-        {
-          "title": "การกระจายสินค้าโดยไม่มีจุดบอด",
-          "cards": [
-            {
-              "title": "การมองเห็นแบบครบวงจร",
-              "desc": "มองเห็นกระบวนการตั้งแต่การผลิตจนถึงการกระจายสินค้าอย่างสมบูรณ์"
-            },
-            {
-              "title": "การตัดสินใจบนพื้นฐานข้อมูล",
-              "desc": "ใช้ข้อมูลจาก AI เพื่อเพิ่มประสิทธิภาพการดำเนินงาน สินค้าคงคลัง และโลจิสติกส์"
-            },
-            {
-              "title": "การเชื่อมต่ออย่างสมบูรณ์",
-              "desc": "ทุกโมดูลเชื่อมต่อกันเพื่อสร้างข้อมูลเชิงลึกที่นำไปใช้ได้จริงแบบเรียลไทม์"
-            }
-          ]
-        }
-      ],
-      "cta": {
-        "title": "ดำเนินงาน ควบคุม ผลิต ส่งมอบ",
-        "description": "Avantiqo เชื่อมโยงการจัดซื้อ สินค้าคงคลัง การผลิต โลจิสติกส์ การเงิน ปัญญาสังเคราะห์ และการออกแบบไว้ในระบบเดียว",
-        "primary": "จองเดโม",
-        "secondary": "สำรวจแพลตฟอร์ม"
+        "learning": "กำลังเรียนรู้",
+        "varianceTriggered": "ตรวจพบความคลาดเคลื่อนโดย AI"
       }
     }
   },
   "navigation": {
-    "dashboard": "Dashboard",
-    "operations": "Operations",
-    "inventory": "Inventory",
-    "production": "Production",
-    "finance": "Finance",
-    "marketing": "Marketing",
-    "settings": "Settings",
+    "dashboard": "แดชบอร์ด",
+    "operations": "การดำเนินงาน",
+    "inventory": "สต็อก",
+    "production": "การผลิต",
+    "finance": "การเงิน",
+    "marketing": "การตลาด",
+    "settings": "ตั้งค่า",
     "pos": "POS",
-    "kitchen": "Kitchen",
-    "expo": "Expo",
-    "reservations": "Reservations",
-    "dishStock": "Dish Stock",
-    "ingredientStock": "Ingredient Stock",
-    "procurement": "Procurement",
-    "accounting": "Accounting",
-    "payroll": "Payroll",
+    "kitchen": "ครัว",
+    "expo": "เอ็กซ์โป",
+    "reservations": "การจอง",
+    "dishStock": "สต็อกอาหาร",
+    "ingredientStock": "สต็อกวัตถุดิบ",
+    "procurement": "จัดซื้อ",
+    "accounting": "บัญชี",
+    "payroll": "เงินเดือน",
     "hr": "HR",
-    "projects": "Projects",
+    "projects": "โปรเจกต์",
     "crm": "CRM",
-    "customers": "Customers",
-    "designStudio": "Design Studio",
-    "documents": "Documents"
+    "customers": "ลูกค้า",
+    "designStudio": "ดีไซน์สตูดิโอ",
+    "documents": "เอกสาร"
   },
   "workspace": {
-    "activeProvider": "Active Provider",
+    "activeProvider": "ผู้ให้บริการที่ใช้งาน",
     "runtime": "Churchill Runtime",
-    "start": "Start",
-    "login": "Login",
-    "modules": "Modules",
-    "designStudio": "Design Studio"
+    "start": "เริ่มต้น",
+    "login": "เข้าสู่ระบบ",
+    "modules": "โมดูล",
+    "designStudio": "ดีไซน์สตูดิโอ"
   },
   "accounting": {
     "hero": {
-      "badge": "ACCOUNTING RUNTIME",
-      "title": "Financial Ledger Intelligence",
-      "description": "Procurement, revenue, payroll, inventory, and AI synchronize automatically into accounting runtime.",
-      "statusLabel": "ACCOUNTING STATUS",
-      "status": "BALANCED"
+      "badge": "ระบบบัญชี",
+      "title": "ระบบบัญชีอัจฉริยะ",
+      "description": "จัดซื้อ รายได้ เงินเดือน สต็อก และ AI เชื่อมต่อเข้าสู่ระบบบัญชีอัตโนมัติ",
+      "statusLabel": "สถานะบัญชี",
+      "status": "สมดุล"
     },
     "metrics": {
       "entries": {
-        "title": "Journal Entries",
-        "description": "Runtime synchronized"
+        "title": "รายการบัญชี",
+        "description": "ซิงค์ระบบแล้ว"
       },
       "payables": {
-        "title": "Open Payables",
-        "description": "Supplier liabilities"
+        "title": "เจ้าหนี้ค้างชำระ",
+        "description": "ภาระหนี้ซัพพลายเออร์"
       },
       "cashflow": {
-        "title": "Cash Flow",
-        "description": "Financial health stable",
-        "value": "POSITIVE"
+        "title": "กระแสเงินสด",
+        "description": "สถานะการเงินมั่นคง",
+        "value": "เป็นบวก"
       },
       "audit": {
-        "title": "AI Audit Layer",
-        "description": "Runtime monitoring active",
+        "title": "AI ตรวจสอบบัญชี",
+        "description": "ระบบตรวจสอบกำลังทำงาน",
         "value": "LIVE"
       }
     },
     "entries": {
-      "badge": "LIVE ACCOUNTING",
-      "title": "Financial Entries",
+      "badge": "บัญชีเรียลไทม์",
+      "title": "รายการการเงิน",
       "items": {
         "invoicePosted": {
-          "title": "Supplier Invoice Posted",
-          "account": "Accounts Payable"
+          "title": "ลงบัญชีใบแจ้งหนี้แล้ว",
+          "account": "เจ้าหนี้การค้า"
         },
         "revenue": {
-          "title": "Restaurant Revenue",
-          "account": "Sales Revenue"
+          "title": "รายได้ร้านอาหาร",
+          "account": "รายได้จากการขาย"
         },
         "payroll": {
-          "title": "Payroll Allocation",
-          "account": "Labor Expense"
+          "title": "จัดสรรเงินเดือน",
+          "account": "ค่าแรง"
         }
       }
     },
     "approvals": {
-      "badge": "APPROVAL RUNTIME",
-      "title": "AI Verification Flow",
-      "active": "AI ACTIVE",
-      "description": "Accounting synchronization runtime",
+      "badge": "ระบบอนุมัติ",
+      "title": "AI ตรวจสอบข้อมูล",
+      "active": "AI ทำงาน",
+      "description": "ระบบซิงค์บัญชีอัตโนมัติ",
       "items": {
         "ocr": {
-          "title": "Invoice OCR Extraction"
+          "title": "AI อ่านใบแจ้งหนี้"
         },
         "match": {
-          "title": "Procurement Match"
+          "title": "ตรวจสอบการจัดซื้อ"
         },
         "journal": {
-          "title": "Accounting Journal"
+          "title": "สมุดบัญชี"
         }
       }
     },
     "status": {
-      "posted": "POSTED",
-      "synced": "SYNCED",
-      "processing": "PROCESSING",
-      "approved": "APPROVED",
-      "matched": "MATCHED",
-      "ready": "READY"
+      "posted": "บันทึกแล้ว",
+      "synced": "ซิงค์แล้ว",
+      "processing": "กำลังประมวลผล",
+      "approved": "อนุมัติแล้ว",
+      "matched": "ตรงกัน",
+      "ready": "พร้อม"
     }
   },
   "finance": {
     "hero": {
-      "badge": "FINANCIAL RUNTIME",
-      "title": "Live Financial Intelligence",
-      "description": "Revenue, profitability, labor, inventory, procurement, and accounting synchronized in real time.",
-      "statusLabel": "FINANCE STATUS",
-      "status": "SYNCHRONIZED"
+      "badge": "ระบบการเงิน",
+      "title": "ระบบการเงินอัจฉริยะ",
+      "description": "รายได้ กำไร ต้นทุนแรงงาน สต็อก จัดซื้อ และบัญชี ซิงค์แบบเรียลไทม์",
+      "statusLabel": "สถานะการเงิน",
+      "status": "ซิงค์แล้ว"
     },
     "cards": {
-      "runtime": "Runtime synchronized",
+      "runtime": "ซิงค์ระบบแล้ว",
       "revenue": {
-        "title": "Revenue Today"
+        "title": "รายได้วันนี้"
       },
       "profit": {
-        "title": "Net Profit"
+        "title": "กำไรสุทธิ"
       },
       "labor": {
-        "title": "Labor Cost"
+        "title": "ต้นทุนแรงงาน"
       },
       "food": {
-        "title": "Food Cost"
+        "title": "ต้นทุนอาหาร"
       }
     },
     "transactions": {
-      "badge": "LIVE TRANSACTIONS",
-      "title": "Financial Runtime",
-      "description": "Financial synchronization active",
+      "badge": "ธุรกรรมเรียลไทม์",
+      "title": "ระบบการเงิน",
+      "description": "ระบบการเงินกำลังซิงค์",
       "sales": {
-        "title": "Wagyu Burger Sales"
+        "title": "ยอดขาย Wagyu Burger"
       },
       "invoice": {
-        "title": "Supplier Invoice Processed"
+        "title": "ประมวลผลใบแจ้งหนี้แล้ว"
       },
       "payroll": {
-        "title": "Payroll Allocation"
+        "title": "จัดสรรเงินเดือน"
       }
     },
     "ai": {
-      "badge": "AI FINANCIAL INTELLIGENCE",
-      "title": "Profitability Engine",
-      "active": "AI ACTIVE",
+      "badge": "AI การเงิน",
+      "title": "ระบบวิเคราะห์กำไร",
+      "active": "AI ทำงาน",
       "insights": {
         "margin": {
-          "title": "Wagyu Margin Increasing",
-          "description": "AI detected profitability increase from premium pairing sales."
+          "title": "กำไร Wagyu เพิ่มขึ้น",
+          "description": "AI ตรวจพบกำไรเพิ่มจากการขายเมนูพรีเมียม"
         },
         "labor": {
-          "title": "Labor Cost Rising",
-          "description": "AI forecasting kitchen labor increase during dinner peak."
+          "title": "ต้นทุนแรงงานเพิ่มขึ้น",
+          "description": "AI คาดการณ์ต้นทุนครัวช่วงดินเนอร์เพิ่มขึ้น"
         },
         "procurement": {
-          "title": "Procurement Optimized",
-          "description": "Supplier synchronization reduced purchasing cost by 12%."
+          "title": "การจัดซื้อมีประสิทธิภาพ",
+          "description": "ระบบซัพพลายเออร์ช่วยลดต้นทุนจัดซื้อ 12%"
         }
       }
     },
     "status": {
       "live": "LIVE",
-      "synced": "SYNCED",
-      "processing": "PROCESSING"
+      "synced": "ซิงค์แล้ว",
+      "processing": "กำลังประมวลผล"
     }
   },
   "inventory": {
     "hero": {
-      "badge": "INVENTORY RUNTIME",
-      "title": "Live Stock Intelligence",
-      "description": "Batch stock and ingredient stock synchronized directly from POS, production, procurement, and operational flow.",
-      "statusLabel": "INVENTORY STATUS",
-      "status": "SYNCHRONIZED"
+      "badge": "ระบบสต็อก",
+      "title": "ระบบสต็อกอัจฉริยะ",
+      "description": "สต็อกวัตถุดิบและสต็อกการผลิตเชื่อมต่อจาก POS การผลิต การจัดซื้อ และระบบปฏิบัติการแบบเรียลไทม์",
+      "statusLabel": "สถานะสต็อก",
+      "status": "ซิงค์แล้ว"
     },
     "cards": {
       "ingredients": {
-        "title": "Ingredient Items",
-        "description": "Live stock tracked"
+        "title": "รายการวัตถุดิบ",
+        "description": "ติดตามสต็อกแบบเรียลไทม์"
       },
       "batch": {
-        "title": "Batch Production",
-        "description": "Prepared stock active"
+        "title": "การผลิตแบบ Batch",
+        "description": "สต็อกเตรียมพร้อมใช้งาน"
       },
       "risk": {
-        "title": "AI Risk Signals",
-        "description": "Inventory warnings active"
+        "title": "สัญญาณความเสี่ยง AI",
+        "description": "มีการแจ้งเตือนสต็อก"
       },
       "procurement": {
-        "title": "Procurement Sync",
-        "description": "Invoice runtime connected"
+        "title": "ซิงค์การจัดซื้อ",
+        "description": "เชื่อมต่อระบบใบแจ้งหนี้"
       }
     },
     "batch": {
-      "badge": "BATCH STOCK",
-      "title": "Prepared Production",
-      "type": "BATCH STOCK",
-      "wagyu": "Wagyu Patties",
-      "buns": "Burger Buns",
-      "sauce": "Tomato Sauce",
-      "fries": "Prepared Fries"
+      "badge": "สต็อกการผลิต",
+      "title": "การผลิตที่เตรียมไว้",
+      "type": "สต็อกการผลิต",
+      "wagyu": "เนื้อ Wagyu",
+      "buns": "ขนมปังเบอร์เกอร์",
+      "sauce": "ซอสมะเขือเทศ",
+      "fries": "เฟรนช์ฟรายส์"
     },
     "ingredients": {
-      "badge": "INGREDIENT STOCK",
-      "title": "Raw Ingredient Runtime",
-      "usage": "Usage",
-      "tomatoes": "Tomatoes",
-      "lettuce": "Lettuce",
-      "potatoes": "Potatoes",
-      "cheese": "Cheddar Cheese"
+      "badge": "สต็อกวัตถุดิบ",
+      "title": "ระบบวัตถุดิบ",
+      "usage": "การใช้",
+      "tomatoes": "มะเขือเทศ",
+      "lettuce": "ผักกาด",
+      "potatoes": "มันฝรั่ง",
+      "cheese": "ชีสเชดดาร์"
     },
     "status": {
       "live": "LIVE",
-      "good": "GOOD",
-      "stable": "STABLE",
-      "low": "LOW",
-      "warning": "WARNING"
+      "good": "ปกติ",
+      "stable": "เสถียร",
+      "low": "ต่ำ",
+      "warning": "เตือน"
     }
   },
   "procurement": {
     "hero": {
-      "badge": "PROCUREMENT RUNTIME",
-      "title": "Purchasing Intelligence",
-      "description": "Procurement synchronized directly into inventory, accounting, AI forecasting, and profitability systems.",
-      "statusLabel": "PROCUREMENT STATUS",
+      "badge": "ระบบจัดซื้อ",
+      "title": "ระบบจัดซื้ออัจฉริยะ",
+      "description": "การจัดซื้อเชื่อมต่อกับสต็อก บัญชี AI พยากรณ์ และระบบกำไรแบบเรียลไทม์",
+      "statusLabel": "สถานะจัดซื้อ",
       "status": "ACTIVE"
     },
     "cards": {
       "orders": {
-        "title": "Open Purchase Orders",
-        "description": "Runtime synchronized"
+        "title": "ใบสั่งซื้อเปิดอยู่",
+        "description": "ซิงค์ระบบแล้ว"
       },
       "deliveries": {
-        "title": "Deliveries Today",
-        "description": "Inventory updated"
+        "title": "การจัดส่งวันนี้",
+        "description": "อัปเดตสต็อกแล้ว"
       },
       "invoice": {
-        "title": "Invoice Automation",
-        "description": "OCR processing active"
+        "title": "ระบบใบแจ้งหนี้อัตโนมัติ",
+        "description": "OCR กำลังทำงาน"
       },
       "suppliers": {
-        "title": "Supplier Sync",
-        "description": "AI demand forecasting"
+        "title": "ซิงค์ซัพพลายเออร์",
+        "description": "AI พยากรณ์ความต้องการ"
       }
     },
     "sections": {
       "procurement": {
-        "badge": "LIVE PROCUREMENT",
-        "title": "Purchase Orders"
+        "badge": "จัดซื้อเรียลไทม์",
+        "title": "ใบสั่งซื้อ"
       },
       "invoice": {
-        "badge": "AI INVOICE FLOW",
-        "title": "Accounting Synchronization",
+        "badge": "AI FLOW ใบแจ้งหนี้",
+        "title": "ซิงค์ระบบบัญชี",
         "active": "AI ACTIVE",
-        "description": "Procurement runtime synchronized"
+        "description": "ระบบจัดซื้อซิงค์แล้ว"
       }
     },
     "suppliers": {
@@ -1857,121 +1133,121 @@
       "ocean": "Ocean Beverage"
     },
     "items": {
-      "tomatoes": "Tomatoes 40kg",
-      "wagyu": "Wagyu Patties",
-      "wine": "Wine Restock"
+      "tomatoes": "มะเขือเทศ 40kg",
+      "wagyu": "เนื้อ Wagyu",
+      "wine": "เติมสต็อกไวน์"
     },
     "flow": {
-      "upload": "Invoice Photo Uploaded",
-      "ocr": "AI OCR Extraction",
-      "inventory": "Inventory Synchronization",
-      "accounting": "Accounting Entry"
+      "upload": "อัปโหลดรูปใบแจ้งหนี้",
+      "ocr": "AI OCR อ่านข้อมูล",
+      "inventory": "ซิงค์สต็อก",
+      "accounting": "ลงบัญชี"
     },
     "status": {
       "live": "LIVE",
       "active": "ACTIVE",
-      "delivered": "DELIVERED",
-      "transit": "IN TRANSIT",
-      "approval": "APPROVAL",
-      "complete": "COMPLETE",
-      "processing": "PROCESSING"
+      "delivered": "จัดส่งแล้ว",
+      "transit": "กำลังขนส่ง",
+      "approval": "รออนุมัติ",
+      "complete": "เสร็จสมบูรณ์",
+      "processing": "กำลังประมวลผล"
     }
   },
   "production": {
     "hero": {
-      "badge": "PRODUCTION RUNTIME",
+      "badge": "ระบบการผลิต",
       "title": "Batch + À La Minute",
-      "description": "Production runtime synchronizes prepared stock with live ingredient consumption during service.",
-      "statusLabel": "PRODUCTION STATUS",
-      "status": "RUNNING"
+      "description": "ระบบการผลิตซิงค์สต็อกที่เตรียมไว้กับการใช้วัตถุดิบแบบเรียลไทม์ระหว่างการบริการ",
+      "statusLabel": "สถานะการผลิต",
+      "status": "กำลังทำงาน"
     },
     "sections": {
       "batch": {
-        "badge": "BATCH PRODUCTION",
-        "title": "Prepared Runtime",
-        "produced": "Produced"
+        "badge": "การผลิตแบบ Batch",
+        "title": "ระบบสต็อกที่เตรียมไว้",
+        "produced": "ผลิตแล้ว"
       },
       "consumption": {
-        "badge": "LIVE INGREDIENT CONSUMPTION",
-        "title": "À La Minute Runtime",
-        "deduction": "LIVE DEDUCTION"
+        "badge": "การใช้วัตถุดิบแบบเรียลไทม์",
+        "title": "ระบบ À La Minute",
+        "deduction": "ตัดสต็อกสด"
       }
     },
     "batch": {
-      "wagyu": "Wagyu Patties",
-      "buns": "Burger Buns",
-      "sauce": "Tomato Sauce"
+      "wagyu": "เนื้อ Wagyu",
+      "buns": "ขนมปังเบอร์เกอร์",
+      "sauce": "ซอสมะเขือเทศ"
     },
     "ingredients": {
-      "tomatoes": "Tomatoes",
-      "potatoes": "Potatoes",
-      "lettuce": "Lettuce"
+      "tomatoes": "มะเขือเทศ",
+      "potatoes": "มันฝรั่ง",
+      "lettuce": "ผักกาด"
     },
     "consumption": {
       "burger": "1 Wagyu Burger",
-      "fries": "1 Fries Portion",
-      "assembly": "1 Burger Assembly"
+      "fries": "เฟรนช์ฟรายส์ 1 ที่",
+      "assembly": "ประกอบเบอร์เกอร์ 1 ชุด"
     },
     "status": {
       "live": "LIVE",
       "active": "ACTIVE",
-      "good": "GOOD",
-      "low": "LOW"
+      "good": "ปกติ",
+      "low": "ต่ำ"
     }
   },
   "dashboard": {
     "hero": {
-      "badge": "EXECUTIVE COMMAND CENTER",
-      "title": "Enterprise Runtime",
-      "description": "Real-time operational intelligence across finance, production, procurement, labor, and AI orchestration.",
-      "statusLabel": "SYSTEM STATUS",
+      "badge": "ศูนย์ควบคุมผู้บริหาร",
+      "title": "ระบบ Enterprise Runtime",
+      "description": "ระบบวิเคราะห์ปฏิบัติการแบบเรียลไทม์ ครอบคลุมการเงิน การผลิต การจัดซื้อ แรงงาน และ AI orchestration",
+      "statusLabel": "สถานะระบบ",
       "status": "Operational"
     },
     "cards": {
       "revenue": {
-        "title": "Revenue Today",
-        "description": "+18.4% operational growth"
+        "title": "รายได้วันนี้",
+        "description": "+18.4% การเติบโตของระบบ"
       },
       "profit": {
-        "title": "Net Profit",
-        "description": "Live operational profitability"
+        "title": "กำไรสุทธิ",
+        "description": "กำไรระบบแบบเรียลไทม์"
       },
       "kitchen": {
-        "title": "Kitchen Efficiency",
-        "description": "Runtime synchronization stable"
+        "title": "ประสิทธิภาพครัว",
+        "description": "การซิงค์ระบบเสถียร"
       },
       "forecast": {
         "title": "AI Forecast",
-        "description": "Predicted dinner demand spike"
+        "description": "คาดการณ์ยอดดินเนอร์พุ่งสูง"
       }
     },
     "locations": {
-      "badge": "LIVE LOCATIONS",
-      "title": "Multi-Location Runtime",
-      "today": "Today",
+      "badge": "สาขาแบบเรียลไทม์",
+      "title": "ระบบหลายสาขา",
+      "today": "วันนี้",
       "churchill": "Restaurant Runtime Active",
       "mongos": "Café Runtime Active",
       "yona": "Beach Club Runtime Active"
     },
     "ai": {
       "badge": "AI OPERATIONAL FEED",
-      "title": "Runtime Intelligence",
+      "title": "ระบบวิเคราะห์ Runtime",
       "active": "AI ACTIVE",
       "tomato": {
-        "title": "Tomato Inventory Risk",
-        "description": "AI predicts inventory shortage within 5 hours."
+        "title": "ความเสี่ยงสต็อกมะเขือเทศ",
+        "description": "AI คาดการณ์ว่าสต็อกจะหมดภายใน 5 ชั่วโมง"
       },
       "fryer": {
-        "title": "Fryer Congestion Forecast",
-        "description": "Kitchen runtime load expected to exceed 84%."
+        "title": "คาดการณ์ความแออัดของ Fryer",
+        "description": "โหลดครัวอาจเกิน 84%"
       },
       "profit": {
-        "title": "Profitability Increase",
-        "description": "Wagyu + wine pairing performing 18% above average."
+        "title": "กำไรเพิ่มขึ้น",
+        "description": "Wagyu + wine pairing ทำผลงานสูงกว่าค่าเฉลี่ย 18%"
       },
       "procurement": {
-        "title": "Procurement Synchronized",
-        "description": "Supplier invoice processed and inventory updated automatically."
+        "title": "ระบบจัดซื้อซิงค์แล้ว",
+        "description": "ใบแจ้งหนี้ซัพพลายเออร์และสต็อกอัปเดตอัตโนมัติ"
       }
     },
     "status": {
@@ -1980,51 +1256,51 @@
   },
   "hr": {
     "hero": {
-      "badge": "HUMAN RUNTIME INTELLIGENCE",
+      "badge": "ระบบวิเคราะห์บุคลากร",
       "title1": "Workforce",
       "title2": "Synchronization",
-      "description": "AI monitors operational stress, productivity, payroll efficiency, attendance, and labor balance."
+      "description": "AI ตรวจสอบความเครียด ประสิทธิภาพ เงินเดือน การเข้างาน และสมดุลแรงงาน"
     },
     "staff": {
-      "badge": "LIVE STAFF CONDITION",
+      "badge": "สภาพพนักงานแบบเรียลไทม์",
       "title": "Operational Pulse",
-      "mood": "Mood",
-      "energy": "Energy",
-      "risk": "Burnout Risk"
+      "mood": "อารมณ์",
+      "energy": "พลังงาน",
+      "risk": "ความเสี่ยง Burnout"
     },
     "ai": {
       "badge": "AI LABOR SIGNALS",
       "title": "Predictive HR",
       "burnout": {
-        "title": "Burnout Risk Detected",
-        "description": "Service team overtime increasing during dinner peak."
+        "title": "ตรวจพบความเสี่ยง Burnout",
+        "description": "ชั่วโมง OT ของทีมบริการเพิ่มขึ้นช่วงดินเนอร์"
       },
       "performance": {
-        "title": "Top Performer Identified",
-        "description": "Kitchen productivity outperforming historical average."
+        "title": "พบพนักงานผลงานสูง",
+        "description": "ประสิทธิภาพครัวสูงกว่าค่าเฉลี่ยเดิม"
       },
       "training": {
-        "title": "Training Opportunity",
-        "description": "AI suggests cross-training additional expo runner."
+        "title": "โอกาสในการฝึกอบรม",
+        "description": "AI แนะนำให้ฝึก Expo Runner เพิ่ม"
       }
     },
     "payroll": {
       "badge": "PAYROLL SYNCHRONIZATION",
-      "description": "Attendance, performance, lateness, operational score, and service charge synchronize directly into payroll runtime."
+      "description": "การเข้างาน ประสิทธิภาพ ความสาย operational score และ service charge เชื่อมต่อเข้าสู่ payroll runtime โดยตรง"
     },
     "roles": {
-      "kitchen": "Kitchen Lead",
-      "floor": "Floor Supervisor",
-      "bar": "Bar Lead"
+      "kitchen": "หัวหน้าครัว",
+      "floor": "หัวหน้าฟลอร์",
+      "bar": "หัวหน้าบาร์"
     },
     "moods": {
-      "focused": "FOCUSED",
-      "overloaded": "OVERLOADED",
-      "performance": "HIGH PERFORMANCE"
+      "focused": "โฟกัสสูง",
+      "overloaded": "งานหนักเกินไป",
+      "performance": "ผลงานสูง"
     },
     "risk": {
-      "low": "LOW",
-      "medium": "MEDIUM"
+      "low": "ต่ำ",
+      "medium": "กลาง"
     },
     "status": {
       "live": "LIVE"
@@ -2032,26 +1308,26 @@
   },
   "payroll": {
     "hero": {
-      "badge": "PAYROLL RUNTIME",
+      "badge": "ระบบ PAYROLL",
       "title": "Performance Payroll Engine",
-      "description": "Payroll synchronized directly from attendance, operational performance, service charge, and approvals.",
-      "statusLabel": "PAYROLL STATUS"
+      "description": "Payroll เชื่อมต่อโดยตรงจาก attendance, performance, service charge และ approvals",
+      "statusLabel": "สถานะ PAYROLL"
     },
     "cards": {
       "staff": {
-        "title": "Staff Runtime",
-        "description": "Active payroll staff"
+        "title": "พนักงาน Payroll",
+        "description": "พนักงานในระบบ payroll"
       },
       "service": {
         "title": "Service Charge Pool",
-        "description": "Runtime allocation active"
+        "description": "กำลังกระจายผลตอบแทน"
       },
       "performance": {
-        "title": "Avg Performance",
+        "title": "ค่าเฉลี่ย Performance",
         "description": "AI performance scoring"
       },
       "approval": {
-        "title": "Payroll Approval",
+        "title": "อนุมัติ Payroll",
         "description": "Manager synchronization"
       }
     },
@@ -2062,46 +1338,46 @@
       "badge": "PAYROLL FLOW",
       "title": "Runtime Synchronization",
       "active": "AI ACTIVE",
-      "processing": "Payroll runtime processing"
+      "processing": "กำลังประมวลผล payroll runtime"
     },
     "flow": {
-      "attendance": "Attendance synchronized",
-      "performance": "Performance score calculated",
-      "serviceCharge": "Service charge allocated",
+      "attendance": "ซิงค์การเข้างานแล้ว",
+      "performance": "คำนวณ performance score แล้ว",
+      "serviceCharge": "จัดสรร service charge แล้ว",
       "approval": "Manager approval active",
       "accounting": "Accounting payout processing"
     },
     "roles": {
-      "kitchen": "Kitchen",
-      "service": "Service",
-      "bar": "Bar"
+      "kitchen": "ครัว",
+      "service": "บริการ",
+      "bar": "บาร์"
     },
     "status": {
-      "approved": "APPROVED",
-      "pending": "PENDING",
-      "processing": "PROCESSING",
+      "approved": "อนุมัติแล้ว",
+      "pending": "รอดำเนินการ",
+      "processing": "กำลังประมวลผล",
       "active": "ACTIVE",
       "live": "LIVE"
     }
   },
   "reservations": {
     "hero": {
-      "badge": "RESERVATION RUNTIME",
+      "badge": "ระบบจองโต๊ะ",
       "title": "Guest Coordination",
-      "description": "Reservation flow synchronized with tables, kitchen forecasting, staffing, and AI demand planning.",
-      "statusLabel": "RESERVATION STATUS"
+      "description": "ระบบจองโต๊ะเชื่อมต่อกับโต๊ะ ครัว การจัดพนักงาน และ AI demand planning",
+      "statusLabel": "สถานะการจอง"
     },
     "cards": {
       "today": {
-        "title": "Reservations Today",
+        "title": "การจองวันนี้",
         "description": "Runtime synchronized"
       },
       "guests": {
-        "title": "Expected Guests",
+        "title": "จำนวนลูกค้าที่คาดการณ์",
         "description": "AI forecast active"
       },
       "spend": {
-        "title": "Avg Spend Forecast",
+        "title": "คาดการณ์ยอดใช้จ่าย",
         "description": "AI profitability prediction"
       },
       "waitlist": {
@@ -2111,17 +1387,17 @@
     },
     "runtime": {
       "badge": "LIVE RESERVATION",
-      "table": "Table",
-      "guests": "Guests",
-      "arrival": "Arrival",
-      "spend": "Spend Forecast",
+      "table": "โต๊ะ",
+      "guests": "ลูกค้า",
+      "arrival": "เวลาเข้า",
+      "spend": "คาดการณ์ยอดใช้จ่าย",
       "aiTitle": "AI Coordination Active",
-      "aiDescription": "Kitchen prep, staffing, and table flow synchronized automatically."
+      "aiDescription": "ครัว พนักงาน และ flow โต๊ะ ซิงค์อัตโนมัติ"
     },
     "actions": {
       "checkin": "CHECK-IN",
-      "start": "Start Dining Flow",
-      "view": "VIEW TABLE",
+      "start": "เริ่ม Dining Flow",
+      "view": "ดูโต๊ะ",
       "status": "Runtime Status"
     },
     "spending": {
@@ -2131,8 +1407,8 @@
     },
     "status": {
       "live": "LIVE",
-      "arriving": "ARRIVING",
-      "confirmed": "CONFIRMED",
+      "arriving": "กำลังมา",
+      "confirmed": "ยืนยันแล้ว",
       "waitlist": "WAITLIST"
     }
   },
@@ -2140,47 +1416,47 @@
     "hero": {
       "badge": "POINT OF SALE",
       "title": "Live Ordering Runtime",
-      "description": "Orders route automatically into kitchen, bar, inventory, profitability, AI, and accounting systems.",
-      "statusLabel": "POS STATUS"
+      "description": "ออเดอร์เชื่อมต่ออัตโนมัติไปยังครัว บาร์ inventory profitability AI และ accounting",
+      "statusLabel": "สถานะ POS"
     },
     "tables": {
-      "badge": "TABLE SELECTION",
-      "title": "Active Tables",
+      "badge": "เลือกโต๊ะ",
+      "title": "โต๊ะที่ใช้งาน",
       "active": "14 ACTIVE",
       "runtime": "Open Runtime"
     },
     "menu": {
       "badge": "MENU RUNTIME",
-      "title": "Live Menu",
+      "title": "เมนูแบบเรียลไทม์",
       "aiPricing": "AI PRICING ACTIVE",
       "runtime": "Runtime synchronized",
-      "add": "ADD TO ORDER"
+      "add": "เพิ่มเข้าออเดอร์"
     },
     "order": {
       "badge": "CURRENT ORDER",
       "kitchenRouting": "Kitchen Routing",
       "barRouting": "Bar Routing",
-      "subtotal": "Subtotal",
+      "subtotal": "ยอดรวม",
       "serviceCharge": "Service Charge",
-      "total": "Total",
-      "send": "SEND ORDER",
-      "routing": "Routes automatically to kitchen + bar + inventory"
+      "total": "รวมทั้งหมด",
+      "send": "ส่งออเดอร์",
+      "routing": "ส่งอัตโนมัติไปยัง kitchen + bar + inventory"
     },
     "runtime": {
       "badge": "LIVE RUNTIME",
       "title": "Operational Sync",
       "kitchenTitle": "Kitchen Runtime",
-      "kitchenDescription": "Wagyu Burger routed to grill station.",
+      "kitchenDescription": "Wagyu Burger ถูกส่งไปยัง grill station",
       "inventoryTitle": "Inventory Runtime",
-      "inventoryDescription": "Patties, buns, tomato, fries updated automatically.",
+      "inventoryDescription": "Patties buns tomato fries ถูกอัปเดตอัตโนมัติ",
       "profitTitle": "Profitability Runtime",
-      "profitDescription": "AI recalculating live operational margin."
+      "profitDescription": "AI กำลังคำนวณ operational margin"
     },
     "categories": {
-      "burgers": "Burgers",
-      "starters": "Starters",
-      "drinks": "Drinks",
-      "desserts": "Desserts"
+      "burgers": "เบอร์เกอร์",
+      "starters": "ของทานเล่น",
+      "drinks": "เครื่องดื่ม",
+      "desserts": "ของหวาน"
     },
     "dishes": {
       "wagyu": "Wagyu Burger",
@@ -2201,24 +1477,24 @@
     "hero": {
       "badge": "KITCHEN DISPLAY SYSTEM",
       "title": "Kitchen Runtime",
-      "description": "Orders synchronize directly from POS into production flow, inventory, timing, labor, and expo coordination.",
-      "statusLabel": "KITCHEN STATUS"
+      "description": "ออเดอร์เชื่อมต่อจาก POS ไปยัง production flow, inventory, timing, labor และ expo coordination",
+      "statusLabel": "สถานะครัว"
     },
     "cards": {
       "new": {
-        "title": "New Orders",
-        "description": "Waiting production"
+        "title": "ออเดอร์ใหม่",
+        "description": "รอการผลิต"
       },
       "cooking": {
-        "title": "Cooking",
+        "title": "กำลังทำอาหาร",
         "description": "Active kitchen runtime"
       },
       "ready": {
-        "title": "Ready For Expo",
-        "description": "Awaiting dispatch"
+        "title": "พร้อมส่ง Expo",
+        "description": "รอการส่งออก"
       },
       "ticket": {
-        "title": "Avg Ticket Time",
+        "title": "เวลาเฉลี่ยต่อ Ticket",
         "description": "Runtime synchronized"
       }
     },
@@ -2227,17 +1503,17 @@
       "ticket": "Ticket Runtime"
     },
     "actions": {
-      "start": "START",
-      "begin": "Begin Cooking",
-      "hold": "HOLD",
-      "pause": "Pause Runtime",
-      "ready": "READY",
-      "expo": "Send To Expo",
-      "issue": "ISSUE",
+      "start": "เริ่ม",
+      "begin": "เริ่มทำอาหาร",
+      "hold": "พัก",
+      "pause": "หยุด runtime",
+      "ready": "พร้อม",
+      "expo": "ส่งไป Expo",
+      "issue": "ปัญหา",
       "problem": "Runtime Problem",
       "expoReady": "EXPO",
-      "await": "Await Pickup",
-      "complete": "COMPLETE",
+      "await": "รอรับ",
+      "complete": "เสร็จสิ้น",
       "closed": "Runtime Closed"
     },
     "dishes": {
@@ -2257,8 +1533,8 @@
     "hero": {
       "badge": "AI INTELLIGENCE LAYER",
       "title": "Operational Intelligence",
-      "description": "AI continuously analyzes operations, production, profitability, procurement, labor, and customer behavior in real time.",
-      "statusLabel": "AI STATUS"
+      "description": "AI วิเคราะห์ operations, production, profitability, procurement, labor และ customer behavior แบบเรียลไทม์",
+      "statusLabel": "สถานะ AI"
     },
     "cards": {
       "predictions": {
@@ -2287,7 +1563,7 @@
       "title": "Continuous Optimization",
       "customer": {
         "title": "Customer Behavior",
-        "description": "AI analyzing order patterns"
+        "description": "AI วิเคราะห์พฤติกรรมการสั่งซื้อ"
       },
       "signals": {
         "title": "Operational Signals",
@@ -2299,24 +1575,24 @@
       },
       "autonomous": {
         "title": "Autonomous Operational Layer",
-        "description": "AI coordinates procurement, labor allocation, production forecasting, and profitability optimization continuously across all locations."
+        "description": "AI ประสาน procurement, labor allocation, production forecasting และ profitability optimization ทุกสาขาแบบต่อเนื่อง"
       }
     },
     "signals": {
       "inventory": {
-        "title": "Tomato Inventory Risk",
-        "description": "AI predicts tomato shortage during evening peak service.",
-        "recommendation": "Recommended: Create procurement request immediately."
+        "title": "ความเสี่ยง Tomato Inventory",
+        "description": "AI คาดการณ์ tomato shortage ช่วง evening peak",
+        "recommendation": "แนะนำ: สร้าง procurement request ทันที"
       },
       "fryer": {
         "title": "Fryer Runtime Congestion",
-        "description": "Fryer utilization expected to exceed 87%.",
-        "recommendation": "Recommended: Open secondary fryer station."
+        "description": "คาดว่า fryer utilization จะเกิน 87%",
+        "recommendation": "แนะนำ: เปิด fryer station เพิ่ม"
       },
       "profit": {
         "title": "High Profitability Opportunity",
-        "description": "Wagyu + wine combination performing 18% above forecast.",
-        "recommendation": "Recommended: Increase promotion priority."
+        "description": "Wagyu + wine ทำผลงานสูงกว่าคาดการณ์ 18%",
+        "recommendation": "แนะนำ: เพิ่ม promotion priority"
       }
     },
     "status": {
@@ -2346,20 +1622,20 @@
     "hero": {
       "badge": "FULL OPERATION RUNTIME",
       "title": "Enterprise Coordination",
-      "description": "Entire restaurant operation synchronized in real time across ordering, production, inventory, labor, AI, procurement, accounting, and profitability.",
-      "statusLabel": "SYSTEM STATUS"
+      "description": "ระบบร้านอาหารทั้งหมดเชื่อมต่อแบบเรียลไทม์ระหว่าง ordering, production, inventory, labor, AI, procurement, accounting และ profitability",
+      "statusLabel": "สถานะระบบ"
     },
     "cards": {
       "orders": {
-        "title": "Active Orders",
+        "title": "ออเดอร์ที่ใช้งาน",
         "description": "Runtime active"
       },
       "kitchen": {
-        "title": "Kitchen Load",
+        "title": "ภาระงานครัว",
         "description": "Production synchronized"
       },
       "inventory": {
-        "title": "Inventory Health",
+        "title": "สถานะ Inventory",
         "description": "AI monitoring active"
       },
       "procurement": {
@@ -2367,7 +1643,7 @@
         "description": "Invoice sync active"
       },
       "profit": {
-        "title": "Net Profit Today",
+        "title": "กำไรสุทธิวันนี้",
         "description": "Live profitability runtime"
       }
     },
@@ -2421,9 +1697,9 @@
       }
     },
     "alerts": {
-      "inventory": "Tomato inventory running low",
-      "wagyu": "Wagyu demand spike detected",
-      "fryer": "Kitchen fryer utilization high",
+      "inventory": "Tomato inventory ใกล้หมด",
+      "wagyu": "ตรวจพบ Wagyu demand spike",
+      "fryer": "Kitchen fryer utilization สูง",
       "invoice": "Supplier invoice processed automatically"
     },
     "status": {
@@ -2440,8 +1716,8 @@
     "hero": {
       "badge": "ANALYTICS ENGINE",
       "title": "Enterprise Analytics",
-      "description": "Real-time operational analytics across profitability, inventory, labor, customer behavior, and production flow.",
-      "statusLabel": "ANALYTICS STATUS"
+      "description": "วิเคราะห์ operations แบบเรียลไทม์ด้าน profitability, inventory, labor, customer behavior และ production flow",
+      "statusLabel": "สถานะ Analytics"
     },
     "cards": {
       "orders": {
@@ -2457,7 +1733,7 @@
         "description": "Kitchen synchronization performance"
       },
       "signals": {
-        "title": "AI Runtime Signals",
+        "title": "Runtime IA Signals",
         "description": "Operational intelligence active"
       }
     },
@@ -2513,15 +1789,15 @@
       "badge": "AI MARKETING OPERATING SYSTEM",
       "title1": "Marketing",
       "title2": "Runtime Engine",
-      "description": "AI-generated campaigns synchronized directly into Meta publishing, customer intelligence, revenue forecasting, and engagement analytics."
+      "description": "แคมเปญที่สร้างโดย AI เชื่อมต่อกับ Meta publishing, customer intelligence, revenue forecasting และ engagement analytics"
     },
     "performance": {
       "badge": "AI PERFORMANCE",
-      "description": "Average engagement increase from AI campaign optimization."
+      "description": "ค่าเฉลี่ย engagement เพิ่มขึ้นจาก AI campaign optimization"
     },
     "cards": {
       "campaigns": {
-        "title": "Active Campaigns",
+        "title": "แคมเปญที่กำลังทำงาน",
         "description": "AI synchronized"
       },
       "queue": {
@@ -2548,7 +1824,7 @@
       },
       "optimization": {
         "badge": "AI OPTIMIZATION",
-        "description": "AI continuously optimizes posting time, audience targeting, visuals, captions, and engagement strategy."
+        "description": "AI ปรับเวลาโพสต์ กลุ่มเป้าหมาย รูปภาพ แคปชัน และกลยุทธ์ engagement อย่างต่อเนื่อง"
       }
     },
     "campaigns": {
@@ -2590,17 +1866,17 @@
       "badge": "CUSTOMER RELATIONSHIP INTELLIGENCE",
       "title1": "Revenue",
       "title2": "Relationship Engine",
-      "description": "AI-powered customer intelligence synchronized with reservations, POS, marketing, and profitability runtime."
+      "description": "ระบบ AI Customer Intelligence เชื่อมต่อกับ Reservations, POS, Marketing และ Profitability Runtime"
     },
     "value": {
       "badge": "RELATIONSHIP VALUE",
-      "description": "Predicted customer lifetime value"
+      "description": "มูลค่าลูกค้าตลอดอายุการใช้งานที่คาดการณ์ไว้"
     },
     "pipeline": {
-      "leads": "New Leads",
-      "vip": "VIP Guests",
-      "events": "Event Clients",
-      "returning": "Returning Guests",
+      "leads": "ลูกค้าใหม่",
+      "vip": "ลูกค้า VIP",
+      "events": "ลูกค้าอีเวนต์",
+      "returning": "ลูกค้ากลับมาใช้บริการ",
       "description": "AI runtime tracking active"
     },
     "runtime": {
@@ -2608,9 +1884,9 @@
       "title": "Revenue Interactions"
     },
     "interactions": {
-      "vipReservation": "VIP reservation booked",
-      "loyaltyOffer": "AI loyalty offer triggered",
-      "eventProposal": "Private event proposal sent"
+      "vipReservation": "จองโต๊ะ VIP สำเร็จ",
+      "loyaltyOffer": "AI Loyalty Offer ถูกส่ง",
+      "eventProposal": "ส่งข้อเสนอ Private Event แล้ว"
     },
     "status": {
       "live": "LIVE"
@@ -2621,23 +1897,23 @@
       "badge": "CUSTOMER INTELLIGENCE",
       "title1": "Guest",
       "title2": "Behavior Runtime",
-      "description": "AI continuously learns customer preferences, spending patterns, reservation behavior, and profitability signals across locations."
+      "description": "AI เรียนรู้พฤติกรรมลูกค้า ความชอบ รูปแบบการใช้จ่าย การจอง และสัญญาณความสามารถในการทำกำไรอย่างต่อเนื่อง"
     },
     "labels": {
-      "favorite": "Favorite",
-      "visits": "Visits",
-      "spend": "Spend"
+      "favorite": "เมนูโปรด",
+      "visits": "จำนวนครั้ง",
+      "spend": "ยอดใช้จ่าย"
     },
     "favorites": {
-      "wagyuWine": "Wagyu + Wine",
-      "cocktails": "Cocktails",
-      "privateEvents": "Private Events"
+      "wagyuWine": "วากิว + ไวน์",
+      "cocktails": "ค็อกเทล",
+      "privateEvents": "งานอีเวนต์ส่วนตัว"
     },
     "insights": {
-      "wineDemand": "VIP guests increasing premium wine demand",
-      "tastingMenus": "Returning customers respond strongly to tasting menus",
-      "personalization": "High-spend guests prefer reservation personalization",
-      "multilocation": "Beach club events driving multi-location traffic"
+      "wineDemand": "ลูกค้า VIP มีความต้องการไวน์ระดับพรีเมียมเพิ่มขึ้น",
+      "tastingMenus": "ลูกค้าประจำตอบสนองต่อ Tasting Menu ได้ดี",
+      "personalization": "ลูกค้ากลุ่มใช้จ่ายสูงชอบการจองแบบเฉพาะบุคคล",
+      "multilocation": "กิจกรรม Beach Club สร้างการเข้าชมหลายสาขา"
     },
     "signals": {
       "badge": "AI CUSTOMER SIGNALS",
@@ -2649,7 +1925,7 @@
     "hero": {
       "badge": "TABLE RUNTIME",
       "title": "Dining Floor Live",
-      "description": "Real-time synchronization between tables, kitchen, bar, expo, service, and payment flow."
+      "description": "การซิงโครไนซ์แบบเรียลไทม์ระหว่างโต๊ะ ครัว บาร์ Expo การบริการ และการชำระเงิน"
     },
     "floor": {
       "badge": "FLOOR STATUS",
@@ -2657,26 +1933,26 @@
     },
     "cards": {
       "activeTables": {
-        "title": "Active Tables",
+        "title": "โต๊ะที่กำลังใช้งาน",
         "description": "Runtime synchronized"
       },
       "guests": {
-        "title": "Guests Dining",
+        "title": "ลูกค้าที่กำลังรับประทาน",
         "description": "Live floor occupancy"
       },
       "avgTicket": {
-        "title": "Avg Ticket",
+        "title": "ยอดเฉลี่ยต่อโต๊ะ",
         "description": "Operational average"
       },
       "paymentQueue": {
-        "title": "Payment Queue",
+        "title": "คิวชำระเงิน",
         "description": "Awaiting settlement"
       }
     },
     "table": {
       "badge": "LIVE TABLE",
-      "guests": "Guests",
-      "total": "Current Total",
+      "guests": "จำนวนลูกค้า",
+      "total": "ยอดรวมปัจจุบัน",
       "runtime": "Runtime synchronized",
       "live": "LIVE"
     },
@@ -2687,17 +1963,17 @@
       "settle": "Settle Runtime"
     },
     "status": {
-      "dining": "DINING",
-      "waitingFood": "WAITING FOOD",
-      "payment": "PAYMENT",
-      "highValue": "HIGH VALUE"
+      "dining": "กำลังรับประทาน",
+      "waitingFood": "รออาหาร",
+      "payment": "รอชำระเงิน",
+      "highValue": "ลูกค้ามูลค่าสูง"
     }
   },
   "expo": {
     "hero": {
       "badge": "EXPO COORDINATION",
       "title": "Service Synchronization",
-      "description": "Kitchen and bar orders synchronize through expo before service dispatch to tables and payment runtime."
+      "description": "คำสั่งซื้อจากครัวและบาร์ถูกซิงโครไนซ์ผ่าน Expo ก่อนส่งเสิร์ฟไปยังโต๊ะและระบบชำระเงิน"
     },
     "runtime": {
       "badge": "EXPO STATUS",
@@ -2705,26 +1981,26 @@
     },
     "cards": {
       "waiting": {
-        "title": "Waiting Expo",
-        "description": "Awaiting synchronization"
+        "title": "รอ Expo",
+        "description": "รอการซิงโครไนซ์"
       },
       "ready": {
-        "title": "Ready To Serve",
-        "description": "Dispatch available"
+        "title": "พร้อมเสิร์ฟ",
+        "description": "พร้อมส่งออก"
       },
       "runners": {
-        "title": "Active Runners",
+        "title": "พนักงานส่งอาหาร",
         "description": "Runtime synchronized"
       },
       "dispatch": {
-        "title": "Avg Dispatch Time",
+        "title": "เวลาเฉลี่ยส่งออก",
         "description": "Service runtime stable"
       }
     },
     "order": {
       "badge": "EXPO ORDER",
-      "ready": "Ready for synchronization",
-      "runner": "Assigned Runner",
+      "ready": "พร้อมสำหรับการซิงโครไนซ์",
+      "runner": "พนักงานรับผิดชอบ",
       "runtime": "Runtime",
       "sync": "Operational synchronization active"
     },
@@ -2735,14 +2011,14 @@
       "close": "Close Expo Flow"
     },
     "sources": {
-      "kitchen": "KITCHEN",
-      "bar": "BAR",
-      "kitchenBar": "KITCHEN + BAR"
+      "kitchen": "ครัว",
+      "bar": "บาร์",
+      "kitchenBar": "ครัว + บาร์"
     },
     "status": {
-      "readyForService": "READY FOR SERVICE",
-      "waitingRunner": "WAITING RUNNER",
-      "serving": "SERVING"
+      "readyForService": "พร้อมเสิร์ฟ",
+      "waitingRunner": "รอพนักงานส่ง",
+      "serving": "กำลังเสิร์ฟ"
     }
   },
   "projects": {
@@ -2750,14 +2026,14 @@
       "badge": "MULTI-LOCATION DEPLOYMENT",
       "title1": "Enterprise",
       "title2": "Rollout Engine",
-      "description": "Live operational deployment across restaurants, beach clubs, cafés, and hospitality runtime environments."
+      "description": "การติดตั้งระบบปฏิบัติการจริงในร้านอาหาร บีชคลับ คาเฟ่ และธุรกิจ Hospitality หลายแห่ง"
     },
     "global": {
       "badge": "GLOBAL STATUS",
       "description": "Live runtime deployments active"
     },
     "labels": {
-      "progress": "Progress"
+      "progress": "ความคืบหน้า"
     },
     "stack": {
       "badge": "DEPLOYMENT STACK",
@@ -2765,14 +2041,14 @@
       "description": "Enterprise synchronization layer"
     },
     "phases": {
-      "operationalDeployment": "Operational Deployment",
-      "aiSynchronization": "AI Synchronization",
-      "inventoryArchitecture": "Inventory Architecture"
+      "operationalDeployment": "ติดตั้งระบบปฏิบัติการ",
+      "aiSynchronization": "เชื่อมต่อ AI",
+      "inventoryArchitecture": "สถาปัตยกรรมคลังสินค้า"
     },
     "status": {
-      "liveBuild": "LIVE BUILD",
-      "integration": "INTEGRATION",
-      "planning": "PLANNING"
+      "liveBuild": "กำลังใช้งาน",
+      "integration": "กำลังเชื่อมต่อ",
+      "planning": "วางแผน"
     },
     "layers": {
       "pos": "POS Runtime",
@@ -2788,29 +2064,29 @@
       "badge": "DOCUMENT INTELLIGENCE",
       "title1": "Enterprise",
       "title2": "Documents",
-      "description": "AI-synchronized contracts, invoices, reports, payroll approvals, procurement documents, and operational records."
+      "description": "สัญญา ใบแจ้งหนี้ รายงาน การอนุมัติเงินเดือน เอกสารจัดซื้อ และเอกสารปฏิบัติการที่ซิงโครไนซ์ด้วย AI"
     },
     "storage": {
       "badge": "STORAGE STATUS",
       "live": "LIVE",
-      "description": "Cloud synchronization active"
+      "description": "ระบบซิงโครไนซ์คลาวด์กำลังทำงาน"
     },
     "actions": {
-      "open": "Open",
-      "download": "Download",
-      "analyze": "AI Analyze"
+      "open": "เปิด",
+      "download": "ดาวน์โหลด",
+      "analyze": "วิเคราะห์ด้วย AI"
     },
     "types": {
-      "procurement": "PROCUREMENT",
-      "hr": "HR",
-      "operations": "OPERATIONS",
-      "marketing": "MARKETING"
+      "procurement": "จัดซื้อ",
+      "hr": "ทรัพยากรบุคคล",
+      "operations": "ปฏิบัติการ",
+      "marketing": "การตลาด"
     },
     "status": {
-      "synced": "SYNCED",
-      "pending": "PENDING",
-      "approved": "APPROVED",
-      "archived": "ARCHIVED"
+      "synced": "ซิงโครไนซ์แล้ว",
+      "pending": "รออนุมัติ",
+      "approved": "อนุมัติแล้ว",
+      "archived": "เก็บถาวร"
     }
   },
   "settings": {
@@ -2818,33 +2094,33 @@
       "badge": "SYSTEM CONFIGURATION",
       "title1": "Runtime",
       "title2": "Settings",
-      "description": "Configure enterprise runtime, AI systems, integrations, organizations, permissions, and operational intelligence."
+      "description": "กำหนดค่าระบบองค์กร AI การเชื่อมต่อ องค์กร สิทธิ์การเข้าถึง และระบบอัจฉริยะในการดำเนินงาน"
     },
     "status": {
       "badge": "SYSTEM STATUS",
-      "stable": "STABLE",
-      "description": "All runtime systems operational"
+      "stable": "เสถียร",
+      "description": "ระบบทั้งหมดทำงานปกติ"
     },
     "actions": {
-      "configure": "Configure",
-      "aiAssisted": "AI Assisted"
+      "configure": "กำหนดค่า",
+      "aiAssisted": "AI ช่วยเหลือ"
     },
     "items": {
       "organization": {
-        "title": "Organization Runtime",
-        "desc": "Tenant structure, organizations, and locations"
+        "title": "โครงสร้างองค์กร",
+        "desc": "ผู้เช่า องค์กร และสาขา"
       },
       "ai": {
-        "title": "AI Engine Configuration",
-        "desc": "Marketing, operations, and intelligence engines"
+        "title": "การตั้งค่า AI",
+        "desc": "ระบบการตลาด ปฏิบัติการ และระบบอัจฉริยะ"
       },
       "meta": {
-        "title": "Meta Integrations",
-        "desc": "Facebook, Instagram, publishing runtime"
+        "title": "การเชื่อมต่อ Meta",
+        "desc": "Facebook, Instagram และระบบเผยแพร่"
       },
       "security": {
-        "title": "Security & Permissions",
-        "desc": "Roles, approvals, and enterprise access"
+        "title": "ความปลอดภัยและสิทธิ์",
+        "desc": "บทบาท การอนุมัติ และสิทธิ์ระดับองค์กร"
       }
     }
   },
@@ -2853,7 +2129,7 @@
       "badge": "AI CREATIVE OPERATING SYSTEM",
       "title1": "Design",
       "title2": "Studio",
-      "description": "Multi-engine AI content generation for luxury hospitality, nightlife, restaurants, and premium branding."
+      "description": "ระบบสร้างคอนเทนต์ AI หลายเอนจินสำหรับธุรกิจ Hospitality ร้านอาหาร ไนต์ไลฟ์ และแบรนด์ระดับพรีเมียม"
     },
     "labels": {
       "engine": "ENGINE"
@@ -2865,228 +2141,27 @@
       "badge": "PHUKET BEACH CLUB",
       "title1": "Sunset",
       "title2": "DJ Reel",
-      "description": "Vertical luxury reel format for Meta, TikTok, and Instagram Stories.",
+      "description": "รูปแบบวิดีโอแนวตั้งสำหรับ Meta, TikTok และ Instagram Stories",
       "story": "9:16 Story",
       "videoEngine": "Video Engine"
     },
     "engines": {
       "fullAi": {
-        "name": "FULL AI",
-        "description": "Complete AI campaign generation"
+        "name": "AI เต็มรูปแบบ",
+        "description": "สร้างแคมเปญด้วย AI อัตโนมัติ"
       },
       "enhance": {
-        "name": "ENHANCE",
-        "description": "Luxury upscale + lighting"
+        "name": "ปรับปรุงภาพ",
+        "description": "เพิ่มความหรูหราและแสง"
       },
       "composite": {
-        "name": "COMPOSITE",
-        "description": "Scene + product merging"
+        "name": "ผสานภาพ",
+        "description": "รวมฉากและสินค้า"
       },
       "video": {
-        "name": "VIDEO",
-        "description": "Motion + cinematic reels"
+        "name": "วิดีโอ",
+        "description": "วิดีโอเคลื่อนไหวและงานภาพยนตร์"
       }
     }
-  },
-  "nav": {
-    "industries": "อุตสาหกรรม",
-    "synthetic_intelligence": "ซินเธติกอินเทลลิเจนซ์ (SI)",
-    "security": "ความปลอดภัย",
-    "login": "เข้าสู่ระบบ",
-    "start_setup": "เริ่มต้น"
-  },
-  "synthetic_intelligence": {
-    "hero_title": "Centralized Synthetic Intelligence",
-    "hero_subtitle": "Harness the power of Synthetic Intelligence to unify data, predict trends, and make informed decisions faster across your enterprise.",
-    "request_demo": "Request Demo",
-    "explore_industries": "Explore Industries",
-    "section_1_title": "What is Synthetic Intelligence?",
-    "section_2_title": "Why It Matters",
-    "section_3_title": "Key Benefits",
-    "section_4_title": "Artificial Intelligence vs Synthetic Intelligence",
-    "advanced_title": "Advanced Synthetic Intelligence",
-    "ai_title": "Artificial Intelligence",
-    "ai_subtitle": "Creates Outputs",
-    "si_title": "Synthetic Intelligence",
-    "si_subtitle": "Creates Understanding",
-    "vision_label": "Avantiqo Vision",
-    "vision_title": "The Goal Is Not To Automate Work.",
-    "vision_text": "The goal is to create organizations that understand themselves.",
-    "vision_footer": "That is the future Avantiqo is building.",
-    "enterprise_label": "Enterprise Intelligence Layer",
-    "section_1_description": "Synthetic Intelligence (SI) is a next-generation intelligence system designed\nto analyze, predict, and optimize operational and financial performance across a business\nin real time. Unlike traditional AI, SI integrates multiple streams of business data—including\nfinance, operations, customer management, and human resources—into a single, intelligent layer\nthat provides actionable insights and predictive recommendations.",
-    "section_2_description": "SI allows businesses to anticipate bottlenecks, optimize workflows, and improve\ndecision-making by providing a comprehensive, real-time overview of all critical business\noperations. By leveraging SI, executives can make informed decisions proactively, rather than\nreacting to problems after they occur, improving efficiency, reducing costs, and increasing growth.",
-    "section_3_description": "- Real-time insights across departments and functions\n- Predictive analytics for operational efficiency\n- Centralized intelligence for faster decision-making\n- Enhanced visibility for leadership to monitor KPIs\n- Automated recommendations to optimize resource allocation",
-    "section_4_description": "Artificial Intelligence Creates Answers:\nAI can generate text, images, reports, and recommendations. However, it does not understand\nthe organization itself. It can answer questions, but it cannot continuously understand\nthe relationships between operations, customers, staff, finance, compliance, and performance.\n\nSynthetic Intelligence Creates Understanding:\nSI is not designed to generate answers. It creates organizational awareness. Every customer\ninteraction, operational event, financial transaction, staff activity, project milestone, and\ncompliance requirement becomes part of a continuously evolving model of the organization.\nThis allows leadership to understand not only what happened, but why and what is likely to\nhappen next.\n\nThe Digital Twin Of The Organization:\nSI produces a living operational model of the business—a digital twin. Instead of viewing\ndepartments separately, the organization is understood as a connected system where decisions,\nevents, and outcomes influence each other. Leaders can identify risks, opportunities, and\nbottlenecks before they appear in reports."
-  },
-  "security": {
-    "hero_label": "SECURITY & TRUST",
-    "hero_title": "Security Is Not A Feature.",
-    "hero_title_highlight": "It Is The Foundation.",
-    "hero_subtitle": "Avantiqo is designed for businesses that manage sensitive operational, financial, customer, staff and organizational data. Security must exist across every layer: access, approvals, visibility, audit trails, portals, integrations and data separation.",
-    "request_briefing": "Request Security Briefing",
-    "explore_platform": "Explore Platform",
-    "model_label": "SECURITY MODEL",
-    "model_title": "Protect The Business. Protect The Data. Protect The Decisions.",
-    "why_label": "WHY IT MATTERS",
-    "why_title": "Security Creates Trust. Trust Creates Adoption.",
-    "layers_label": "SECURITY LAYERS",
-    "data_label": "DATA RESPONSIBILITY",
-    "data_title": "A Platform That Understands Sensitive Business Data.",
-    "pillar_1_title": "Organization-Level Access Control",
-    "pillar_1_text": "Avantiqo is built around organization-based access. Users only see the companies, departments, workspaces and records they are permitted to access. This prevents staff, managers, clients or external users from seeing information outside their responsibility.",
-    "pillar_2_title": "Role-Based Permissions",
-    "pillar_2_text": "Every user role can be restricted by function. Owners, managers, accounting teams, staff, customers and external collaborators can receive different levels of access. Sensitive actions such as approvals, payments, payroll, finance, customer records and reporting can be protected behind permission layers.",
-    "pillar_3_title": "Multi-Tenant Data Separation",
-    "pillar_3_text": "Avantiqo is designed for multi-company and multi-client use. Each organization operates inside its own controlled environment. This is especially important for accounting firms, hospitality groups, healthcare groups and enterprise companies managing multiple clients, branches or subsidiaries.",
-    "pillar_4_title": "Approval Governance",
-    "pillar_4_text": "Important actions should not happen silently. Avantiqo supports approval flows for invoices, payroll, accounting actions, customer requests, operational changes and management decisions. This creates accountability and reduces the risk of unauthorized or accidental actions.",
-    "pillar_5_title": "Audit Trail And Activity Visibility",
-    "pillar_5_text": "A secure system must show who did what, when it happened and why it matters. Avantiqo is designed to support audit trails across approvals, records, submissions, changes and operational events so leadership can investigate actions instead of guessing.",
-    "pillar_6_title": "Customer And Staff Portal Separation",
-    "pillar_6_text": "Customer portals and staff portals should never expose internal business controls. Avantiqo separates external customer visibility from internal operational access, allowing customers to see what is relevant to them while protecting internal data, financial logic and management decisions.",
-    "layer_1": "Authentication and controlled login access",
-    "layer_2": "Role-based authorization",
-    "layer_3": "Organization and workspace separation",
-    "layer_4": "Approval-based sensitive actions",
-    "layer_5": "Audit logs and traceable activity",
-    "layer_6": "Controlled customer portal visibility",
-    "layer_7": "Controlled staff portal visibility",
-    "layer_8": "Finance and payroll protection",
-    "layer_9": "Document and asset access control",
-    "layer_10": "Future-ready compliance structure"
-  },
-  "privacy": {
-    "hero_label": "PRIVACY & TRUST",
-    "hero_title": "Privacy Is Not A Feature.",
-    "hero_highlight": "It Is A Foundation.",
-    "hero_subtitle": "Trust cannot exist without privacy. Organizations cannot build intelligence, governance, compliance, operational visibility or enterprise-scale decision making without confidence that their information remains protected.",
-    "section_1_title": "Privacy By Design",
-    "section_2_title": "Privacy Is A Business Requirement",
-    "section_3_title": "Who Owns The Data?",
-    "section_4_title": "How Avantiqo Does NOT Use Data",
-    "section_5_title": "Synthetic Intelligence And Privacy",
-    "section_1_text": "Privacy cannot be added after a system is built.\n\nPrivacy must be incorporated into architecture, governance, access controls, workflows, intelligence systems and operational processes from the beginning.\n\nAt Avantiqo, privacy is not treated as a legal checkbox. Privacy is built into the foundation of the platform itself.\n\nEvery workflow.\nEvery approval.\nEvery operational process.\nEvery customer interaction.\nEvery financial transaction.\nEvery intelligence layer.\n\nPrivacy exists as a fundamental design principle because trust is the foundation of every modern organization.",
-    "section_2_text": "Modern organizations generate information continuously.\n\nEvery customer interaction.\nEvery financial transaction.\nEvery approval.\nEvery operational event.\nEvery employee action.\nEvery project milestone.\nEvery compliance activity.\nEvery document.\nEvery decision.\n\nTogether these activities create the operational memory of the organization.\n\nProtecting that information is not simply a regulatory requirement.\n\nIt is a business requirement.",
-    "section_3_text": "Your organization owns its data.\n\nAlways.\n\nAvantiqo does not sell customer information.\nAvantiqo does not sell employee information.\nAvantiqo does not sell operational information.\nAvantiqo does not sell financial information.\nAvantiqo does not monetize organizational intelligence.\n\nThe platform exists to help organizations understand themselves, not to take ownership of the information they generate.",
-    "section_4_text": "Avantiqo does not sell customer data.\n\nAvantiqo does not share information between organizations.\n\nAvantiqo does not build advertising profiles.\n\nAvantiqo does not monetize operational activity.\n\nAvantiqo does not use customer information to train public AI systems.\n\nThe objective of the platform is to help organizations understand themselves.\n\nNot to exploit the information they generate.",
-    "section_5_text": "Synthetic Intelligence introduces a fundamentally different approach to intelligence.\n\nTraditional artificial intelligence often attempts to learn from large volumes of public information.\n\nSynthetic Intelligence focuses on understanding organizational reality.\n\nIts purpose is not to profile individuals.\n\nIts purpose is not to create advertising models.\n\nIts purpose is not to exploit user behavior.\n\nIts purpose is organizational awareness.\n\nNot personal surveillance.",
-    "section_6_title": "Organizational Privacy",
-    "section_7_title": "Data Lifecycle Management",
-    "section_8_title": "Privacy And Executive Responsibility",
-    "section_9_title": "Privacy And Governance",
-    "section_10_title": "Privacy And Trust",
-    "section_11_title": "Data Isolation And Organizational Boundaries",
-    "section_12_title": "Data Storage And Infrastructure",
-    "section_13_title": "Data Separation And Isolation",
-    "section_14_title": "Access Control And Permissions",
-    "section_15_title": "Encryption And Data Protection",
-    "section_16_title": "Platform Administrators And Data Access",
-    "section_17_title": "Artificial Intelligence And Customer Data",
-    "section_18_title": "Backup, Resilience And Business Continuity",
-    "section_19_title": "Data Deletion And Exit Rights",
-    "section_20_title": "Customer Rights And Transparency",
-    "section_21_title": "Global Privacy Standards",
-    "section_22_title": "The Future Of Privacy"
-  },
-  "governance": {
-    "hero_label": "GOVERNANCE & ACCOUNTABILITY",
-    "hero_title": "Governance Creates Control.",
-    "hero_highlight": "Control Creates Trust.",
-    "hero_subtitle": "Governance is not bureaucracy. Governance creates accountability, visibility, consistency and decision control across the organization.",
-    "section_1_title": "Governance Is Not Management",
-    "section_2_title": "Why Governance Matters",
-    "section_3_title": "Governance As A Competitive Advantage",
-    "section_4_title": "Decision Governance",
-    "section_5_title": "Approval Workflows",
-    "section_6_title": "Organizational Accountability",
-    "section_7_title": "Auditability And Transparency",
-    "section_8_title": "Governance Across The Entire Organization",
-    "section_9_title": "Governance And Synthetic Intelligence",
-    "section_10_title": "Role-Based Authority",
-    "section_11_title": "Governance And Risk Management",
-    "section_12_title": "Governance And Compliance",
-    "section_13_title": "Governance And Executive Leadership",
-    "section_14_title": "The Future Of Governance",
-    "section_1_text": "Governance is not the same as management. Management focuses on executing work, while governance defines how decisions are made, who is responsible, what controls exist and how accountability is maintained. Strong governance creates consistency across the organization and ensures decisions align with strategic objectives.",
-    "section_2_text": "Organizations become increasingly complex as they grow. More people, more departments, more approvals and more operational processes create opportunities for inconsistency and risk. Governance provides the structure that allows organizations to scale while maintaining control, transparency and accountability.",
-    "section_3_text": "Governance is often viewed as an administrative burden, but in reality it can become a competitive advantage. Organizations with strong governance make decisions faster, reduce operational risk, improve accountability and build greater trust with customers, partners, regulators and investors.",
-    "section_4_text": "Every important decision should follow a clear governance framework. Decision governance defines who can make decisions, when approvals are required, what information is needed and how outcomes are documented. This reduces confusion and ensures consistency across the organization.",
-    "section_5_text": "Approval workflows transform governance into operational practice. Invoices, payroll actions, procurement requests, project changes and financial transactions can all follow defined approval paths. This creates visibility, accountability and control while reducing unauthorized actions.",
-    "section_6_text": "Governance only works when accountability is clear. Every action, approval, exception and decision should have an identifiable owner. Organizational accountability ensures responsibilities are visible and leadership can understand who is responsible for outcomes.",
-    "section_7_text": "Transparency is essential for effective governance. Auditability allows organizations to understand what happened, when it happened, who was involved and why decisions were made. Strong audit trails support investigations, compliance activities and continuous improvement.",
-    "section_8_text": "Governance should not be limited to finance or compliance teams. It must extend across operations, human resources, procurement, projects, customer management, technology and executive decision-making. Governance becomes most effective when it is embedded into every workflow.",
-    "section_9_text": "Synthetic Intelligence strengthens governance by identifying anomalies, monitoring organizational behavior, highlighting risks and recommending actions. Instead of replacing governance, Synthetic Intelligence enhances visibility and helps leaders make better-informed decisions.",
-    "section_10_text": "Authority should be assigned intentionally. Role-based authority ensures that employees, managers, executives and external stakeholders only have access to the decisions and actions appropriate to their responsibilities. This reduces risk while improving operational clarity.",
-    "section_11_text": "Risk management and governance are closely connected. Governance establishes controls that reduce financial, operational, legal and reputational risks. Organizations that manage risk proactively are more resilient and better positioned for long-term success.",
-    "section_12_text": "Compliance requirements become easier to manage when governance is built into daily operations. Governance creates consistent processes, approval structures and accountability mechanisms that support regulatory compliance without relying on manual oversight.",
-    "section_13_text": "Executive leadership is ultimately responsible for governance. Leaders define organizational standards, establish accountability structures and create the culture that supports ethical decision-making, transparency and long-term sustainability.",
-    "section_14_text": "The future of governance will combine human judgment, operational transparency and Synthetic Intelligence. Organizations will move beyond static policies toward dynamic governance systems that continuously monitor risk, accountability and performance in real time."
-  },
-  "compliance": {
-    "hero_label": "COMPLIANCE & TRUST",
-    "hero_title": "Compliance Is Not A Project.",
-    "hero_highlight": "It Is Continuous.",
-    "hero_subtitle": "Avantiqo integrates compliance into operational workflows, ensuring accountability, visibility, and auditability across every department and process.",
-    "request_briefing": "Request Compliance Briefing",
-    "explore_platform": "Explore Platform",
-    "section_1_title": "Compliance Is Not A Project",
-    "section_1_text": "Compliance is not a one-time initiative. Regulations, operational requirements, customer expectations and internal controls evolve continuously. Organizations must embed compliance into everyday operations rather than treating it as a periodic project.",
-    "section_2_title": "Why Compliance Matters",
-    "section_2_text": "Compliance protects organizations from financial, operational, legal and reputational risk. It creates confidence among customers, regulators, investors and employees by demonstrating that the organization operates responsibly and consistently.",
-    "section_3_title": "Operational Compliance",
-    "section_3_text": "Operational compliance ensures that daily activities follow established procedures, policies and standards. From approvals and workflows to customer service and procurement, compliance helps maintain consistency and accountability.",
-    "section_4_title": "Financial Compliance",
-    "section_4_text": "Financial compliance supports accurate reporting, accountability and regulatory adherence. Strong financial controls reduce the risk of fraud, misstatements and operational errors while improving trust in financial information.",
-    "section_5_title": "Data Compliance",
-    "section_5_text": "Data compliance focuses on protecting information, managing access and respecting privacy requirements. Organizations must understand what data exists, where it is stored, who can access it and how it is protected.",
-    "section_6_title": "Governance And Compliance",
-    "section_6_text": "Governance provides the framework that makes compliance sustainable. Policies, approvals, accountability structures and decision controls create an environment where compliance becomes part of normal business operations.",
-    "section_7_title": "Audit Readiness",
-    "section_7_text": "Organizations should always be prepared for audits. Audit readiness requires accurate records, traceable decisions, documented approvals and reliable reporting processes that can be reviewed at any time.",
-    "section_8_title": "Continuous Monitoring",
-    "section_8_text": "Continuous monitoring allows organizations to identify compliance issues before they become serious problems. Real-time visibility improves responsiveness and reduces the likelihood of regulatory violations.",
-    "section_9_title": "Compliance And Synthetic Intelligence",
-    "section_9_text": "Synthetic Intelligence can strengthen compliance by detecting anomalies, monitoring operational behavior and identifying patterns that may indicate risk. This provides leadership with earlier visibility into potential compliance concerns.",
-    "section_10_title": "Enterprise Accountability",
-    "section_10_text": "Compliance depends on accountability. Every process, approval, exception and decision should have a responsible owner. Clear accountability improves control and reduces organizational risk.",
-    "section_11_title": "Regulatory Readiness",
-    "section_11_text": "Regulatory readiness means being prepared for changing requirements. Organizations that build strong compliance foundations can adapt more quickly to new laws, standards and reporting obligations.",
-    "section_12_title": "Compliance At Scale",
-    "section_12_text": "As organizations grow, compliance becomes more complex. Scalable compliance systems help maintain consistency across multiple departments, locations, subsidiaries and operational environments.",
-    "section_13_title": "The Future Of Compliance",
-    "section_13_text": "The future of compliance will combine governance, operational transparency and intelligent monitoring. Organizations will move toward continuous compliance models that provide real-time assurance rather than periodic reviews."
-  },
-  "gdpr": {
-    "hero_label": "GDPR & DATA RIGHTS",
-    "hero_title": "Privacy Requires Accountability.",
-    "hero_highlight": "Accountability Requires Visibility.",
-    "hero_subtitle": "GDPR is built around transparency, accountability, privacy and control. Organizations must understand what information exists, how it is used and how it is protected.",
-    "section_1_title": "GDPR Is Not A Checkbox",
-    "section_1_text": "GDPR is not a checkbox exercise. It is a framework designed to ensure transparency, accountability and responsible handling of personal information throughout the organization.",
-    "section_2_title": "What Information Is Stored",
-    "section_2_text": "Organizations must understand what information they collect, why it is collected, how it is used and how long it is retained. Visibility is the foundation of data protection.",
-    "section_3_title": "Where Information Is Stored",
-    "section_3_text": "Data may exist across applications, databases, documents, communication systems and operational platforms. Organizations must know where information is stored in order to protect it effectively.",
-    "section_4_title": "Who Owns The Data",
-    "section_4_text": "The organization remains the owner of its data. Service providers, software platforms and technology vendors process information on behalf of the organization but do not own the information itself.",
-    "section_5_title": "Who Can Access Information",
-    "section_5_text": "Access to information should be restricted according to responsibility and legitimate business need. Role-based access controls help protect sensitive information from unauthorized access.",
-    "section_6_title": "Right Of Access",
-    "section_6_text": "Individuals have the right to request access to personal information held about them. Organizations must be able to identify, retrieve and present that information in a transparent manner.",
-    "section_7_title": "Right To Rectification",
-    "section_7_text": "Individuals have the right to correct inaccurate or incomplete personal information. Organizations should maintain processes that support accurate and up-to-date records.",
-    "section_8_title": "Right To Erasure",
-    "section_8_text": "Individuals may request the deletion of personal information when retention is no longer required. Organizations must understand how data is stored and managed to support these requests.",
-    "section_9_title": "Data Portability",
-    "section_9_text": "Data portability allows individuals to obtain and transfer their information between service providers. Organizations should maintain systems capable of providing information in accessible formats.",
-    "section_10_title": "Artificial Intelligence And GDPR",
-    "section_10_text": "Artificial Intelligence systems must respect privacy, transparency and data protection requirements. Organizations should understand how customer information is processed and ensure responsible use of AI technologies.",
-    "section_11_title": "Auditability And Accountability",
-    "section_11_text": "Accountability requires evidence. Audit trails, activity logs, approvals and governance controls help organizations demonstrate compliance and investigate issues when necessary.",
-    "section_12_title": "Privacy, Governance And Compliance",
-    "section_12_text": "Privacy, governance and compliance are interconnected. Effective GDPR programs rely on strong governance structures, operational controls and transparent decision-making.",
-    "section_13_title": "The Future Of Data Protection",
-    "section_13_text": "The future of data protection will focus on continuous visibility, stronger accountability and intelligent governance systems that help organizations protect information while maintaining operational efficiency."
   }
 }
