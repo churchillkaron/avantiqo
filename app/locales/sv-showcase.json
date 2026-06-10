@@ -1,0 +1,164 @@
+{
+  "showcaseSections": [
+    {
+      "eyebrow": "PERSONALPORTAL",
+      "title": "En arbetsmiljö för varje anställd. En sanningskälla för ledningen.",
+      "intro": "De flesta organisationer tror att de har ett personalhanteringssystem. I verkligheten har de en samling separata verktyg som tvingar anställda och chefer att ständigt växla mellan plattformar.",
+      "paragraphs": [
+        "Närvaro spåras i ett system. Schemaläggning hanteras på annat håll. Löneberäkningar sker i kalkylblad. Träningsregister lagras i mappar. Prestationsutvärderingar beror på manuell övervakning, minne och separata rapporter.",
+        "När organisationen växer skapar denna fragmentering komplexitet. Chefer spenderar mer tid på att samla information än på att leda. Anställda blir frustrerade eftersom förväntningarna är oklara. Ledningen tappar översikt över personalens prestationer.",
+        "Avantiqo Staff Portal skapar en dedikerad arbetsmiljö för varje anställd. Istället för att navigera mellan flera system interagerar medarbetare i en miljö där de kan hantera närvaro, scheman, ansvar, lön, utbildning, kommunikation och prestation.",
+        "Chefer får realtidsinsikt om vem som är närvarande, vem som är sen, vem som är produktiv, vem som behöver stöd och vem som överträffar förväntningarna. Detta förvandlar personalhantering från en reaktiv process till en proaktiv disciplin.",
+        "Resultatet är ansvar, klarhet och kontroll. Varje handling blir mätbar. Varje ansvar synligt. Varje medarbetare blir en del av den operativa intelligensnivån."
+      ],
+      "points": [
+        "Närvaro, in- och utstämpling, förseningar och frånvaro",
+        "Schemaläggning, skift, uppgiftsfördelning och daglig utförande",
+        "Löneöversikt, bonusar, avdrag och godkännanden",
+        "Prestandautvärderingar, utbildning och efterlevnad"
+      ]
+    },
+    {
+      "eyebrow": "KUNDPORTAL",
+      "title": "Koppla allt. Ersätt ingenting.",
+      "intro": "Företag interagerar med kunder via flera kanaler. Kundportalen centraliserar kommunikationen och ger en fullständig översikt.",
+      "paragraphs": [
+        "Kommunikation blir dokumenterad och spårbar. Varje interaktion blir en del av en dokumenterad operativ process.",
+        "Det förbättrar förtroende, minskar administrativ arbetsbelastning och skapar en mer professionell kundupplevelse.",
+        "Kunder känner sig informerade. Företag ser organiserade ut. Relationer stärks."
+      ],
+      "points": [
+        "Centraliserad kundkommunikation",
+        "Minskad manuell administration",
+        "Bättre kundlojalitet",
+        "Transparens i alla interaktioner"
+      ]
+    },
+    {
+      "eyebrow": "OPERATIONSPLATTFORM",
+      "title": "Traditionell mjukvara registrerar händelser. Syntetisk intelligens förstår dem.",
+      "intro": "Operationer dokumenteras inte bara, de förstås och tolkas i realtid.",
+      "paragraphs": [
+        "Alla operativa data fångas: projekt, resurser, uppgifter och ekonomi.",
+        "Chefer får dashboards som visar prestanda, flaskhalsar och risker.",
+        "Automatiska aviseringar informerar om potentiella problem innan de eskalerar.",
+        "Plattformen kopplar operativa data till strategiska beslut.",
+        "Varje händelse blir en del av en intelligent beslutsgrund."
+      ],
+      "points": [
+        "Fullständig insyn i processer",
+        "Realtidsövervakning",
+        "Tidigt riskupptäckt",
+        "Integration med alla operativa datakällor"
+      ]
+    },
+    {
+      "eyebrow": "FINANSPLATTFORM",
+      "title": "Finansiell intelligens i realtid",
+      "intro": "Finansiella data flödar automatiskt från alla operativa system.",
+      "paragraphs": [
+        "Bokföring, kontroll och rapportering är kopplade till operationer.",
+        "Avvikelser markeras automatiskt.",
+        "Prediktiva modeller stödjer kassaflöde och budgetbeslut.",
+        "Allt konsolideras för en tydlig finansiell översikt.",
+        "Inga manuella avstämningar behövs längre."
+      ],
+      "points": [
+        "Automatiserad rapportering",
+        "Integration med operativa data",
+        "Finansiella varningar",
+        "Realtidstransparens"
+      ]
+    },
+    {
+      "eyebrow": "CRM",
+      "title": "Intelligenta kunddata",
+      "intro": "Alla kundinteraktioner samlas i en plattform.",
+      "paragraphs": [
+        "360°-vy över kundaktiviteter.",
+        "Historik, kontakter och kampanjer i en dashboard.",
+        "Analys av kundlojalitet och konvertering.",
+        "Automatiserade rekommendationer för försäljning och support.",
+        "Koppling mellan marknadsföring, försäljning och service."
+      ],
+      "points": [
+        "Centraliserad kunddata",
+        "Realtidshistorik",
+        "Automatiserade analyser",
+        "Förbättrade kundrelationer"
+      ]
+    },
+    {
+      "eyebrow": "MARKETINGSTUDIO",
+      "title": "Intelligent marknadsföringshantering",
+      "intro": "Alla kampanjer, kanaler och innehåll hanteras i ett centralt studioverktyg.",
+      "paragraphs": [
+        "Planering och genomförande av kampanjer i realtid.",
+        "Analys och optimering av prestation.",
+        "Teamkoordinering och godkännanden centralt.",
+        "Automatiska rapporter och KPI:er.",
+        "Integration med CRM och Analytics."
+      ],
+      "points": [
+        "Centraliserad kampanjhantering",
+        "Realtidsanalys",
+        "Teamkoordinering",
+        "Prestandaövervakning"
+      ]
+    },
+    {
+      "eyebrow": "DESIGNSTUDIO",
+      "title": "Design och kreativitet i en plattform",
+      "intro": "Designprojekt och resurser är centraliserade och spårbara.",
+      "paragraphs": [
+        "Versionering av resurser och projekt.",
+        "Godkännandeprocesser för designteam.",
+        "Samarbete i realtid.",
+        "Integration med marknadsföring och CRM.",
+        "Resursspårning och revision."
+      ],
+      "points": [
+        "Centraliserad resurshantering",
+        "Versionskontroll",
+        "Team-samarbete",
+        "Transparens i designprocessen"
+      ]
+    },
+    {
+      "eyebrow": "INTEGRATIONER",
+      "title": "Alla system är kopplade",
+      "intro": "Plattformar, verktyg och datakällor är sömlöst integrerade.",
+      "paragraphs": [
+        "Automatisk datasynkronisering.",
+        "API:er för alla affärsprocesser.",
+        "Övervakning och aviseringar.",
+        "Säkerställande av datakonsistens.",
+        "Fullständig systemöversikt."
+      ],
+      "points": [
+        "Centraliserade integrationer",
+        "Datakonsistens",
+        "Automatisk övervakning",
+        "API:er för affärsprocesser"
+      ]
+    },
+    {
+      "eyebrow": "SYNTETISK INTELLIGENS",
+      "title": "Artificiell intelligens för företag",
+      "intro": "Syntetisk intelligens kopplar alla operativa data och ger beslutsstöd.",
+      "paragraphs": [
+        "Realtidsanalyser för företaget.",
+        "Proaktiva förutsägelser och rekommendationer.",
+        "Automatiserat beslutsstöd.",
+        "Integration med operationer och ekonomi.",
+        "Kontinuerliga inlärningscykler."
+      ],
+      "points": [
+        "Realtidsinsikter",
+        "Proaktiva rekommendationer",
+        "Automatiserade beslut",
+        "Intelligent datakoppling"
+      ]
+    }
+  ]
+}

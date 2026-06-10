@@ -1,0 +1,164 @@
+{
+  "showcaseSections": [
+    {
+      "eyebrow": "PORTALE DEL PERSONALE",
+      "title": "Un ambiente di lavoro per ogni dipendente. Una fonte di verità per la leadership.",
+      "intro": "La maggior parte delle organizzazioni pensa di avere un sistema di gestione del personale. In realtà, dispongono di una raccolta di strumenti scollegati che costringono dipendenti e manager a passare continuamente tra piattaforme diverse.",
+      "paragraphs": [
+        "La presenza viene registrata in un unico sistema. La programmazione viene gestita altrove. I calcoli della retribuzione avvengono in fogli di calcolo. I registri della formazione vengono archiviati in cartelle. Le valutazioni delle performance dipendono dalla supervisione manuale, dalla memoria e da report separati.",
+        "Con la crescita dell'organizzazione, questa frammentazione genera complessità. I manager trascorrono più tempo a raccogliere informazioni che a guidare. I dipendenti si frustrano perché le aspettative non sono chiare. La leadership perde visibilità sulle prestazioni del personale.",
+        "Il Portale del Personale di Avantiqo crea un ambiente operativo dedicato per ogni dipendente. Invece di navigare tra più sistemi, i dipendenti interagiscono in un ambiente dove possono gestire presenza, pianificazione, responsabilità, retribuzione, formazione, comunicazione e performance.",
+        "I manager ottengono una visibilità in tempo reale su chi è presente, chi è in ritardo, chi è produttivo, chi necessita supporto e chi supera le aspettative. Questo trasforma la gestione del personale da processo reattivo a disciplina proattiva.",
+        "Il risultato è responsabilità, chiarezza e controllo. Ogni azione diventa misurabile. Ogni responsabilità visibile. Ogni dipendente fa parte dello strato di intelligenza operativa."
+      ],
+      "points": [
+        "Tracciamento presenze, timbrature, ritardi e assenze",
+        "Programmazione, turni, assegnazione compiti e esecuzione giornaliera",
+        "Trasparenza sulla retribuzione, bonus, deduzioni e approvazioni",
+        "Valutazioni delle performance, formazione e conformità"
+      ]
+    },
+    {
+      "eyebrow": "PORTALE CLIENTI",
+      "title": "Connetti tutto. Non sostituire nulla.",
+      "intro": "Le aziende interagiscono con i clienti tramite più canali. Il portale clienti centralizza la comunicazione e fornisce una vista completa.",
+      "paragraphs": [
+        "La comunicazione viene documentata e tracciata. Ogni interazione diventa parte di un processo operativo documentato.",
+        "Questo migliora la fiducia, riduce il carico amministrativo e crea un’esperienza cliente più professionale.",
+        "I clienti sono informati. Le aziende appaiono organizzate. Le relazioni si rafforzano."
+      ],
+      "points": [
+        "Comunicazione clienti centralizzata",
+        "Riduzione del lavoro amministrativo",
+        "Miglioramento della fidelizzazione",
+        "Trasparenza in tutte le interazioni"
+      ]
+    },
+    {
+      "eyebrow": "PIATTAFORMA OPERATIVA",
+      "title": "Il software tradizionale registra eventi. L’Intelligenza Sintetica li comprende.",
+      "intro": "Le operazioni non sono solo documentate, ma comprese e interpretate in tempo reale.",
+      "paragraphs": [
+        "Tutti i dati operativi vengono acquisiti: progetti, risorse, attività, finanze.",
+        "I manager ricevono una dashboard che mostra prestazioni, colli di bottiglia e rischi.",
+        "Avvisi automatici segnalano potenziali problemi prima che si aggravino.",
+        "La piattaforma collega i dati operativi alle decisioni strategiche.",
+        "Ogni evento diventa parte di una base decisionale intelligente."
+      ],
+      "points": [
+        "Trasparenza completa dei processi",
+        "Monitoraggio in tempo reale",
+        "Rilevamento precoce dei rischi",
+        "Integrazione con tutte le fonti dati operative"
+      ]
+    },
+    {
+      "eyebrow": "PIATTAFORMA FINANZIARIA",
+      "title": "Intelligenza finanziaria in tempo reale",
+      "intro": "I dati finanziari fluiscono automaticamente da tutti i sistemi operativi.",
+      "paragraphs": [
+        "Contabilità, controllo e reporting collegati alle operazioni.",
+        "Le discrepanze vengono evidenziate automaticamente.",
+        "I modelli predittivi supportano flussi di cassa e decisioni di budget.",
+        "Tutto è consolidato per una visione chiara delle finanze.",
+        "Non servono più riconciliazioni manuali."
+      ],
+      "points": [
+        "Report automatici",
+        "Integrazione con dati operativi",
+        "Avvisi finanziari",
+        "Trasparenza in tempo reale"
+      ]
+    },
+    {
+      "eyebrow": "CRM",
+      "title": "Dati clienti collegati in modo intelligente",
+      "intro": "Tutte le interazioni con i clienti sono unite in un’unica piattaforma.",
+      "paragraphs": [
+        "Vista a 360° delle attività dei clienti.",
+        "Storico, contatti e campagne in un unico pannello.",
+        "Analisi fidelizzazione e conversioni.",
+        "Raccomandazioni automatiche per vendite e supporto.",
+        "Collegamento tra marketing, vendite e servizio clienti."
+      ],
+      "points": [
+        "Dati clienti centralizzati",
+        "Storico interazioni in tempo reale",
+        "Analisi automatizzate",
+        "Miglioramento delle relazioni"
+      ]
+    },
+    {
+      "eyebrow": "STUDIO MARKETING",
+      "title": "Gestisci le attività di marketing in modo intelligente",
+      "intro": "Tutte le campagne, canali e contenuti sono gestiti in uno studio centralizzato.",
+      "paragraphs": [
+        "Pianificazione ed esecuzione delle campagne in tempo reale.",
+        "Analisi delle prestazioni e ottimizzazione.",
+        "Coordinamento del team e approvazioni centralizzate.",
+        "Report e KPI automatici.",
+        "Integrazione con CRM e Analytics."
+      ],
+      "points": [
+        "Gestione campagne centralizzata",
+        "Analisi in tempo reale",
+        "Coordinamento del team",
+        "Monitoraggio delle prestazioni"
+      ]
+    },
+    {
+      "eyebrow": "STUDIO DESIGN",
+      "title": "Design e creatività su un’unica piattaforma",
+      "intro": "Progetti e asset di design centralizzati e tracciabili.",
+      "paragraphs": [
+        "Versionamento di asset e progetti.",
+        "Processi di approvazione per i team di design.",
+        "Collaborazione in tempo reale.",
+        "Integrazione con marketing e CRM.",
+        "Tracciamento e audit degli asset."
+      ],
+      "points": [
+        "Gestione centralizzata degli asset",
+        "Controllo versioni",
+        "Collaborazione del team",
+        "Trasparenza nel processo creativo"
+      ]
+    },
+    {
+      "eyebrow": "INTEGRAZIONI",
+      "title": "Tutti i sistemi connessi",
+      "intro": "Piattaforme, strumenti e fonti dati integrate senza soluzione di continuità.",
+      "paragraphs": [
+        "Sincronizzazione automatica dei dati.",
+        "API per ogni processo aziendale.",
+        "Monitoraggio e avvisi.",
+        "Garanzia di coerenza dei dati.",
+        "Vista completa del sistema."
+      ],
+      "points": [
+        "Integrazioni centralizzate",
+        "Coerenza dei dati",
+        "Monitoraggio automatico",
+        "API per processi aziendali"
+      ]
+    },
+    {
+      "eyebrow": "INTELLIGENZA SINTETICA",
+      "title": "Intelligenza artificiale per le aziende",
+      "intro": "L’Intelligenza Sintetica collega tutti i dati operativi e fornisce raccomandazioni.",
+      "paragraphs": [
+        "Analisi in tempo reale per l’azienda.",
+        "Previsioni e raccomandazioni.",
+        "Supporto decisionale automatizzato.",
+        "Integrazione con operazioni e finanza.",
+        "Cicli di apprendimento continui."
+      ],
+      "points": [
+        "Insights in tempo reale",
+        "Raccomandazioni proattive",
+        "Decisioni automatizzate",
+        "Collegamento intelligente dei dati"
+      ]
+    }
+  ]
+}

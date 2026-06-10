@@ -1,0 +1,56 @@
+{
+  "whatIsAvantiqo": {
+    "eyebrow": "VAD ÄR AVANTIQO",
+    "title1": "De Flesta Företag Har Data.",
+    "title2": "Mycket Få Har Intelligens.",
+    "paragraphs": [
+      "De flesta organisationer arbetar genom en samling frånkopplade system, kalkylblad, e-post, chattapplikationer och avdelningsspecifik programvara. Varje team ser endast en liten del av verksamheten medan ledningen försöker fatta beslut utan att förstå helhetsbilden.",
+      "Försäljning arbetar separat från ekonomi. Drift arbetar separat från kundservice. Marknadsföring arbetar separat från genomförande. Medarbetare använder en uppsättning verktyg medan ledningen förlitar sig på en annan.",
+      "Resultatet blir förseningar, dubbelarbete, missade möjligheter och beslut baserade på ofullständig information. Utmaningen är inte brist på data. Utmaningen är att ingen kan se hur informationen hänger samman.",
+      "Avantiqo blir det operativa intelligenslagret som sammanlänkar varje del av organisationen i en gemensam miljö."
+    ]
+  },
+
+  "whyAvantiqo": {
+    "eyebrow": "VARFÖR AVANTIQO ÄR ANNORLUNDA",
+    "title1": "De Flesta System Skapar",
+    "title2": "Fler System.",
+    "title3": "Avantiqo Skapar Ett Intelligenslager.",
+    "intro": "Moderna företag lider inte av brist på programvara. De lider av brist på kopplingar mellan programvaror.",
+    "paragraphs": [
+      "Moderna organisationer har blivit fast i en växande samling av programvaror.",
+      "Ett CRM för kunder. Ett ekonomisystem för finans. En projektplattform för drift. Separata verktyg för löner. Separata verktyg för marknadsföring. Separata verktyg för kommunikation. Separata verktyg för rapportering.",
+      "Varje nytt problem skapar ännu ett system. Varje nytt system skapar ännu en informationskälla. Varje ny informationskälla skapar ännu ett lager av komplexitet.",
+      "Med tiden omges organisationer av programvara men blir samtidigt allt mer frånkopplade från förståelsen av vad som faktiskt händer i verksamheten.",
+      "Avdelningar börjar arbeta självständigt. Informationen blir fragmenterad. Rapporter blir inkonsekventa. Ledningen lägger mer tid på att samla information än på att fatta beslut.",
+      "Problemet är inte att organisationer saknar teknik. Problemet är att tekniken är frånkopplad.",
+      "De flesta system löser ett enda problem. Mycket få system förstår hur problem hänger samman.",
+      "Ett kundproblem blir till slut ett operativt problem. Ett operativt problem blir till slut ett ekonomiskt problem. Ett personalproblem blir till slut ett kundproblem. Ett marknadsföringsbeslut blir till slut ett lönsamhetsbeslut.",
+      "Allt inom ett företag är sammankopplat. Traditionell programvara speglar sällan denna verklighet.",
+      "Avantiqo byggdes utifrån en annan filosofi. Istället för att skapa ännu en isolerad applikation skapar Avantiqo ett enhetligt intelligenslager för hela organisationen.",
+      "Personal. Kunder. Drift. Ekonomi. Marknadsföring. Projekt. Regelefterlevnad. Rapportering. Ledning.",
+      "Allt sammankopplat i en gemensam miljö.",
+      "Det innebär att ledningen inte längre ser separata rapporter från olika avdelningar. Ledningen ser samband.",
+      "Hur personalens prestation påverkar lönsamheten. Hur operativt genomförande påverkar kundnöjdheten. Hur marknadsföring påverkar intäkterna. Hur projektleveranser påverkar kassaflödet. Hur regelefterlevnad påverkar verksamhetsrisker.",
+      "Istället för att hantera programvarusystem hanterar organisationer själva verksamheten."
+    ],
+    "conclusion1": "En organisation. Ett intelligenslager. En operativ verklighet. En enda sanningskälla.",
+    "conclusion2": "De flesta system hjälper organisationer att lagra information. Avantiqo hjälper organisationer att förstå information."
+  },
+
+  "accountingFirms": {
+    "eyebrow": "REDOVISNINGSBYRÅER",
+    "title1": "Traditionell Redovisning Förklarar Det Förflutna.",
+    "title2": "Modern Rådgivning Kräver Förståelse För Nuläget.",
+    "intro": "De flesta redovisningsbyråer får information efter att viktiga beslut redan har fattats. Avantiqo ger redovisningskonsulter insyn i verksamheten medan den pågår, inte veckor efteråt.",
+    "paragraphs": [
+      "De flesta redovisningsbyråer får information efter att viktiga beslut redan har fattats.",
+      "Fakturor anländer efter att arbetet har utförts. Löner behandlas efter att arbetet har genomförts. Finansiella rapporter skapas efter att operativa beslut redan har påverkat lönsamheten.",
+      "När en redovisningskonsult identifierar ett problem har det ofta existerat i veckor eller månader. De kan förklara vad som hände, men ofta inte varför det hände.",
+      "Minskad lönsamhet kan orsakas av ineffektiv bemanning. Kassaflödesproblem kan orsakas av operativa förseningar. Marginalpress kan orsakas av projektöverskridanden. Kundbortfall kan orsakas av brister i servicen. Marknadsföringskostnader kan öka samtidigt som konverteringen minskar.",
+      "Avantiqo förändrar detta genom att koppla operativ aktivitet direkt till finansiell intelligens. Istället för att vänta till månadsslutet kan redovisningsbyråer förstå hur verksamheten presterar medan den pågår.",
+      "De kan se personalens prestationer. De kan identifiera operativa flaskhalsar. De kan följa projektgenomförande. De kan analysera kundaktivitet. De kan mäta marknadsföringens effektivitet. Viktigast av allt kan de förstå hur dessa faktorer påverkar ekonomisk prestation i realtid.",
+      "Detta förändrar redovisningskonsultens roll. Istället för att främst vara en leverantör av regelefterlevnad blir byrån en strategisk affärsrådgivare."
+    ]
+  }
+}

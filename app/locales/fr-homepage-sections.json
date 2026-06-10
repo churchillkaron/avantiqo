@@ -1,0 +1,56 @@
+{
+  "whatIsAvantiqo": {
+    "eyebrow": "QU'EST-CE QU'AVANTIQO",
+    "title1": "La Plupart Des Entreprises Ont Des Données.",
+    "title2": "Très Peu Ont De L'Intelligence.",
+    "paragraphs": [
+      "La plupart des organisations fonctionnent à travers une collection de systèmes déconnectés, feuilles de calcul, e-mails, applications de messagerie et logiciels spécifiques aux départements. Chaque équipe ne voit qu'une petite partie de l'entreprise tandis que la direction tente de prendre des décisions sans comprendre l'ensemble de la situation.",
+      "Les ventes fonctionnent séparément de la finance. Les opérations fonctionnent séparément du service client. Le marketing fonctionne séparément de l'exécution. Les employés utilisent un ensemble d'outils tandis que la direction s'appuie sur un autre.",
+      "Le résultat est constitué de retards, de travail dupliqué, d'opportunités manquées et de décisions basées sur des informations incomplètes. Le problème n'est pas le manque de données. Le problème est que personne ne peut voir comment les données sont connectées.",
+      "Avantiqo devient la couche d'intelligence opérationnelle qui connecte chaque partie de l'organisation dans un environnement unique."
+    ]
+  },
+
+  "whyAvantiqo": {
+    "eyebrow": "POURQUOI AVANTIQO EST DIFFÉRENT",
+    "title1": "La Plupart Des Logiciels Créent",
+    "title2": "Davantage De Systèmes.",
+    "title3": "Avantiqo Crée Une Couche D'Intelligence.",
+    "intro": "Les entreprises modernes ne souffrent pas d'un manque de logiciels. Elles souffrent d'un manque de connexion entre les logiciels.",
+    "paragraphs": [
+      "Les organisations modernes sont devenues prisonnières d'une collection croissante de logiciels.",
+      "Un CRM pour les clients. Un système comptable pour la finance. Une plateforme de gestion de projet pour les opérations. Des outils séparés pour la paie. Des outils séparés pour le marketing. Des outils séparés pour la communication. Des outils séparés pour le reporting.",
+      "Chaque nouveau problème crée un nouveau système. Chaque nouveau système crée une nouvelle source d'information. Chaque nouvelle source d'information crée un nouveau niveau de complexité.",
+      "Avec le temps, les organisations se retrouvent entourées de logiciels tout en étant de plus en plus déconnectées de la compréhension de ce qui se passe réellement dans l'entreprise.",
+      "Les départements commencent à fonctionner indépendamment. L'information devient fragmentée. Les rapports deviennent incohérents. La direction passe plus de temps à collecter des informations qu'à prendre des décisions.",
+      "Le problème n'est pas que les organisations manquent de technologie. Le problème est que la technologie est déconnectée.",
+      "La plupart des logiciels résolvent un seul problème. Très peu comprennent comment les problèmes sont liés.",
+      "Un problème client devient finalement un problème opérationnel. Un problème opérationnel devient finalement un problème financier. Un problème de personnel devient finalement un problème client. Une décision marketing devient finalement une décision de rentabilité.",
+      "Tout est connecté à l'intérieur d'une entreprise. Les logiciels traditionnels reflètent rarement cette réalité.",
+      "Avantiqo a été construit selon une philosophie différente. Au lieu de créer une application isolée supplémentaire, Avantiqo crée une couche d'intelligence unifiée pour l'ensemble de l'organisation.",
+      "Personnel. Clients. Opérations. Finance. Marketing. Projets. Conformité. Reporting. Direction.",
+      "Tout est connecté dans un environnement unique.",
+      "Cela signifie que la direction ne voit plus des rapports déconnectés provenant de départements séparés. La direction voit les relations.",
+      "Comment la performance du personnel influence la rentabilité. Comment l'exécution opérationnelle influence la satisfaction client. Comment la performance marketing influence les revenus. Comment la livraison des projets influence la trésorerie. Comment la conformité influence les risques organisationnels.",
+      "Au lieu de gérer des systèmes logiciels, les organisations gèrent l'entreprise elle-même."
+    ],
+    "conclusion1": "Une organisation. Une couche d'intelligence. Une réalité opérationnelle. Une seule source de vérité.",
+    "conclusion2": "La plupart des logiciels aident les organisations à stocker des informations. Avantiqo aide les organisations à comprendre les informations."
+  },
+
+  "accountingFirms": {
+    "eyebrow": "CABINETS COMPTABLES",
+    "title1": "La Comptabilité Traditionnelle Explique Le Passé.",
+    "title2": "Le Conseil Moderne Exige De Comprendre Le Présent.",
+    "intro": "La plupart des cabinets comptables reçoivent les informations après que les décisions importantes ont déjà été prises. Avantiqo donne aux comptables une visibilité sur l'entreprise pendant qu'elle fonctionne, et non plusieurs semaines après.",
+    "paragraphs": [
+      "La plupart des cabinets comptables reçoivent les informations après que les décisions importantes ont déjà été prises.",
+      "Les factures arrivent après que le travail a été effectué. La paie est traitée après que le travail a été réalisé. Les rapports financiers sont produits après que les décisions opérationnelles ont déjà impacté la rentabilité.",
+      "Lorsqu'un comptable identifie un problème, celui-ci existe souvent depuis des semaines ou des mois. Il peut expliquer ce qui s'est passé, mais il ne peut souvent pas voir pourquoi cela s'est produit.",
+      "Une baisse de rentabilité peut être causée par des inefficacités du personnel. Une pression sur la trésorerie peut être causée par des retards opérationnels. Une érosion des marges peut être causée par des dépassements de projet. Une perte de clients peut être causée par des défaillances de service. Les dépenses marketing peuvent augmenter tandis que les performances de conversion diminuent.",
+      "Avantiqo change cela en reliant directement l'activité opérationnelle à l'intelligence financière. Au lieu d'attendre la fin du mois, les cabinets comptables peuvent comprendre comment une entreprise fonctionne pendant qu'elle fonctionne.",
+      "Ils peuvent voir la performance du personnel. Ils peuvent identifier les goulots d'étranglement opérationnels. Ils peuvent suivre l'exécution des projets. Ils peuvent analyser l'activité des clients. Ils peuvent mesurer l'efficacité du marketing. Plus important encore, ils peuvent comprendre comment ces facteurs influencent la performance financière en temps réel.",
+      "Cela transforme le rôle du comptable. Au lieu d'agir principalement comme fournisseur de conformité, le cabinet comptable devient un conseiller stratégique pour l'entreprise."
+    ]
+  }
+}

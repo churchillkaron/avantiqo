@@ -1,0 +1,56 @@
+{
+  "whatIsAvantiqo": {
+    "eyebrow": "COS'È AVANTIQO",
+    "title1": "La Maggior Parte Delle Aziende Ha Dati.",
+    "title2": "Pochissime Hanno Intelligenza.",
+    "paragraphs": [
+      "La maggior parte delle organizzazioni opera attraverso una raccolta di sistemi scollegati, fogli di calcolo, email, applicazioni di messaggistica e software specifici per reparto. Ogni team vede solo una piccola parte dell'azienda mentre la leadership cerca di prendere decisioni senza comprendere il quadro completo.",
+      "Le vendite operano separatamente dalla finanza. Le operazioni operano separatamente dal servizio clienti. Il marketing opera separatamente dall'esecuzione. I dipendenti utilizzano un insieme di strumenti mentre la direzione si affida ad altri.",
+      "Il risultato sono ritardi, lavoro duplicato, opportunità perse e decisioni basate su informazioni incomplete. La sfida non è la mancanza di dati. La sfida è che nessuno riesce a vedere come i dati siano collegati.",
+      "Avantiqo diventa il livello di intelligenza operativa che collega ogni parte dell'organizzazione in un unico ambiente."
+    ]
+  },
+
+  "whyAvantiqo": {
+    "eyebrow": "PERCHÉ AVANTIQO È DIVERSO",
+    "title1": "La Maggior Parte Del Software Crea",
+    "title2": "Più Sistemi.",
+    "title3": "Avantiqo Crea Un Livello Di Intelligenza.",
+    "intro": "Le aziende moderne non soffrono per la mancanza di software. Soffrono per la mancanza di connessione tra i software.",
+    "paragraphs": [
+      "Le organizzazioni moderne sono rimaste intrappolate in una raccolta sempre più ampia di software.",
+      "Un CRM per i clienti. Un sistema contabile per la finanza. Una piattaforma di gestione progetti per le operazioni. Strumenti separati per le buste paga. Strumenti separati per il marketing. Strumenti separati per la comunicazione. Strumenti separati per la reportistica.",
+      "Ogni nuovo problema crea un nuovo sistema. Ogni nuovo sistema crea una nuova fonte di informazioni. Ogni nuova fonte di informazioni crea un nuovo livello di complessità.",
+      "Con il tempo, le organizzazioni si ritrovano circondate dal software ma sempre più scollegate dalla comprensione di ciò che accade realmente all'interno dell'azienda.",
+      "I reparti iniziano a operare in modo indipendente. Le informazioni diventano frammentate. I report diventano incoerenti. La leadership trascorre più tempo a raccogliere informazioni che a prendere decisioni.",
+      "Il problema non è che le organizzazioni manchino di tecnologia. Il problema è che la tecnologia è scollegata.",
+      "La maggior parte del software risolve un singolo problema. Pochissimo software comprende come i problemi siano collegati.",
+      "Un problema del cliente diventa alla fine un problema operativo. Un problema operativo diventa un problema finanziario. Un problema del personale diventa un problema del cliente. Una decisione di marketing diventa una decisione sulla redditività.",
+      "Tutto all'interno di un'azienda è collegato. Il software tradizionale raramente riflette questa realtà.",
+      "Avantiqo è stato costruito su una filosofia diversa. Invece di creare un'altra applicazione isolata, Avantiqo crea un livello di intelligenza unificato per l'intera organizzazione.",
+      "Personale. Clienti. Operazioni. Finanza. Marketing. Progetti. Conformità. Reportistica. Leadership.",
+      "Tutto collegato all'interno di un unico ambiente.",
+      "Questo significa che la leadership non vede più report scollegati provenienti da reparti separati. La leadership vede relazioni.",
+      "Come le prestazioni della forza lavoro influenzano la redditività. Come l'esecuzione operativa influenza la soddisfazione dei clienti. Come le prestazioni del marketing influenzano i ricavi. Come la consegna dei progetti influenza il flusso di cassa. Come la conformità influenza il rischio organizzativo.",
+      "Invece di gestire sistemi software, le organizzazioni gestiscono l'azienda stessa."
+    ],
+    "conclusion1": "Un'organizzazione. Un livello di intelligenza. Una realtà operativa. Un'unica fonte di verità.",
+    "conclusion2": "La maggior parte del software aiuta le organizzazioni ad archiviare informazioni. Avantiqo aiuta le organizzazioni a comprendere le informazioni."
+  },
+
+  "accountingFirms": {
+    "eyebrow": "STUDI CONTABILI",
+    "title1": "La Contabilità Tradizionale Spiega Il Passato.",
+    "title2": "La Consulenza Moderna Richiede Di Comprendere Il Presente.",
+    "intro": "La maggior parte degli studi contabili riceve informazioni dopo che le decisioni importanti sono già state prese. Avantiqo offre ai contabili visibilità sull'azienda mentre è in funzione, non settimane dopo.",
+    "paragraphs": [
+      "La maggior parte degli studi contabili riceve informazioni dopo che le decisioni importanti sono già state prese.",
+      "Le fatture arrivano dopo che il lavoro è stato completato. Le buste paga vengono elaborate dopo che il lavoro è stato svolto. I report finanziari vengono prodotti dopo che le decisioni operative hanno già influenzato la redditività.",
+      "Quando un contabile identifica un problema, questo spesso esiste da settimane o mesi. Può spiegare cosa è successo, ma spesso non riesce a capire perché sia successo.",
+      "Una diminuzione della redditività può essere causata da inefficienze del personale. La pressione sul flusso di cassa può essere causata da ritardi operativi. L'erosione dei margini può essere causata da sforamenti di progetto. La perdita di clienti può essere causata da problemi di servizio. Le spese di marketing possono aumentare mentre le conversioni diminuiscono.",
+      "Avantiqo cambia questa situazione collegando direttamente l'attività operativa all'intelligenza finanziaria. Invece di aspettare la fine del mese, gli studi contabili possono comprendere come un'azienda sta operando mentre opera.",
+      "Possono vedere le prestazioni del personale. Possono identificare i colli di bottiglia operativi. Possono monitorare l'esecuzione dei progetti. Possono analizzare l'attività dei clienti. Possono misurare l'efficacia del marketing. Soprattutto, possono comprendere come questi fattori influenzano le prestazioni finanziarie in tempo reale.",
+      "Questo trasforma il ruolo del contabile. Invece di agire principalmente come fornitore di conformità normativa, lo studio contabile diventa un consulente strategico per l'azienda."
+    ]
+  }
+}

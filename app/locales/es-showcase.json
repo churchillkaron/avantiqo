@@ -1,0 +1,164 @@
+{
+  "showcaseSections": [
+    {
+      "eyebrow": "PORTAL DEL PERSONAL",
+      "title": "Un espacio de trabajo para cada empleado. Una fuente de verdad para la dirección.",
+      "intro": "La mayoría de las organizaciones cree que tiene un sistema de gestión de personal. En realidad, tienen un conjunto de herramientas desconectadas que obligan a empleados y gerentes a cambiar constantemente entre plataformas.",
+      "paragraphs": [
+        "La asistencia se registra en un solo sistema. La programación se gestiona en otro lugar. La nómina se calcula en hojas de cálculo. Los registros de formación se almacenan en carpetas. Las evaluaciones de desempeño dependen de la supervisión manual, la memoria y los informes desconectados.",
+        "A medida que la organización crece, esta fragmentación genera complejidad. Los gerentes pasan más tiempo recopilando información que liderando. Los empleados se frustran porque las expectativas no son claras. La dirección pierde visibilidad del desempeño del personal.",
+        "El Portal de Personal de Avantiqo crea un espacio operativo dedicado para cada empleado. En lugar de navegar entre múltiples sistemas, los empleados interactúan en un entorno donde pueden gestionar asistencia, horarios, responsabilidades, nómina, formación, comunicación y desempeño.",
+        "Los gerentes obtienen visibilidad en tiempo real de quién está presente, quién llega tarde, quién es productivo, quién necesita apoyo y quién supera las expectativas. Esto convierte la gestión de personal de un proceso reactivo en una disciplina proactiva.",
+        "El resultado es responsabilidad, claridad y control. Cada acción se vuelve medible. Cada responsabilidad visible. Cada empleado forma parte de la capa de inteligencia operativa."
+      ],
+      "points": [
+        "Asistencia, control de entradas, retrasos y ausencias",
+        "Programación, turnos, asignación de tareas y ejecución diaria",
+        "Visibilidad de nómina, bonificaciones, deducciones y aprobaciones",
+        "Evaluaciones, formación y registros de cumplimiento"
+      ]
+    },
+    {
+      "eyebrow": "PORTAL DEL CLIENTE",
+      "title": "Conectar todo. Reemplazar nada.",
+      "intro": "Las empresas interactúan con los clientes a través de múltiples canales. El portal del cliente centraliza la comunicación y proporciona una vista completa.",
+      "paragraphs": [
+        "La comunicación se documenta y rastrea. Cada interacción se convierte en parte de un proceso operativo documentado.",
+        "Esto mejora la confianza, reduce la carga administrativa y crea una experiencia de cliente más profesional.",
+        "Los clientes se sienten informados. Las empresas parecen organizadas. Las relaciones se fortalecen."
+      ],
+      "points": [
+        "Comunicación centralizada con clientes",
+        "Reducción de la gestión manual",
+        "Mayor fidelización del cliente",
+        "Transparencia en todas las interacciones"
+      ]
+    },
+    {
+      "eyebrow": "PLATAFORMA DE OPERACIONES",
+      "title": "El software tradicional registra eventos. La Inteligencia Sintética los comprende.",
+      "intro": "Las operaciones no solo se documentan, se entienden e interpretan en tiempo real.",
+      "paragraphs": [
+        "Se capturan todos los datos operativos: proyectos, recursos, tareas, finanzas.",
+        "Los gerentes obtienen un panel que muestra desempeño, cuellos de botella y riesgos.",
+        "Alertas automáticas notifican problemas potenciales antes de que se escalen.",
+        "La plataforma conecta los datos operativos con decisiones estratégicas.",
+        "Cada evento forma parte de una base de decisiones inteligente."
+      ],
+      "points": [
+        "Transparencia completa en los procesos",
+        "Monitoreo en tiempo real",
+        "Detección temprana de riesgos",
+        "Integración con todas las fuentes de datos operativos"
+      ]
+    },
+    {
+      "eyebrow": "PLATAFORMA FINANCIERA",
+      "title": "Inteligencia financiera en tiempo real",
+      "intro": "Los datos financieros fluyen automáticamente desde todos los sistemas operativos.",
+      "paragraphs": [
+        "Contabilidad, control y reportes conectados con operaciones.",
+        "Las desviaciones se resaltan automáticamente.",
+        "Los modelos predictivos apoyan decisiones de flujo de efectivo y presupuestos.",
+        "Todo se consolida para una visión financiera clara.",
+        "No se requieren conciliaciones manuales."
+      ],
+      "points": [
+        "Reportes automáticos",
+        "Integración con datos operativos",
+        "Alertas financieras",
+        "Transparencia en tiempo real"
+      ]
+    },
+    {
+      "eyebrow": "CRM",
+      "title": "Datos de clientes inteligentemente conectados",
+      "intro": "Todas las interacciones con clientes se reúnen en una sola plataforma.",
+      "paragraphs": [
+        "Vista 360° de las actividades del cliente.",
+        "Historial, contactos y campañas en un solo panel.",
+        "Análisis de fidelización y conversiones.",
+        "Recomendaciones automatizadas para ventas y soporte.",
+        "Vinculación de marketing, ventas y servicio."
+      ],
+      "points": [
+        "Datos de clientes centralizados",
+        "Historial de interacciones en tiempo real",
+        "Análisis automatizados",
+        "Mejora de relaciones con clientes"
+      ]
+    },
+    {
+      "eyebrow": "ESTUDIO DE MARKETING",
+      "title": "Gestionar actividades de marketing inteligentemente",
+      "intro": "Todas las campañas, canales y contenidos se gestionan en un estudio centralizado.",
+      "paragraphs": [
+        "Planificación y ejecución de campañas en tiempo real.",
+        "Análisis de rendimiento y optimización.",
+        "Coordinación y aprobaciones de equipo centralizadas.",
+        "Reportes automáticos y KPIs.",
+        "Integración con CRM y Analytics."
+      ],
+      "points": [
+        "Gestión centralizada de campañas",
+        "Análisis en tiempo real",
+        "Coordinación de equipo",
+        "Seguimiento del rendimiento"
+      ]
+    },
+    {
+      "eyebrow": "ESTUDIO DE DISEÑO",
+      "title": "Diseño y creatividad en una plataforma",
+      "intro": "Proyectos y recursos de diseño centralizados y rastreables.",
+      "paragraphs": [
+        "Versionado de recursos y proyectos.",
+        "Procesos de aprobación para equipos de diseño.",
+        "Colaboración en tiempo real.",
+        "Integración con marketing y CRM.",
+        "Seguimiento y auditoría de recursos."
+      ],
+      "points": [
+        "Gestión centralizada de recursos",
+        "Control de versiones",
+        "Colaboración en equipo",
+        "Transparencia del proceso de diseño"
+      ]
+    },
+    {
+      "eyebrow": "INTEGRACIONES",
+      "title": "Todos los sistemas conectados",
+      "intro": "Plataformas, herramientas y fuentes de datos integradas de manera transparente.",
+      "paragraphs": [
+        "Sincronización automática de datos.",
+        "APIs para cada proceso empresarial.",
+        "Monitoreo y alertas.",
+        "Garantía de consistencia de datos.",
+        "Vista completa del sistema."
+      ],
+      "points": [
+        "Integraciones centralizadas",
+        "Consistencia de datos",
+        "Monitoreo automático",
+        "APIs para procesos empresariales"
+      ]
+    },
+    {
+      "eyebrow": "INTELIGENCIA SINTÉTICA",
+      "title": "Inteligencia artificial para empresas",
+      "intro": "La Inteligencia Sintética conecta todos los datos operativos y proporciona recomendaciones.",
+      "paragraphs": [
+        "Análisis en tiempo real para la empresa.",
+        "Predicciones y recomendaciones.",
+        "Soporte de decisiones automatizado.",
+        "Integración con operaciones y finanzas.",
+        "Ciclos de aprendizaje continuos."
+      ],
+      "points": [
+        "Insights en tiempo real",
+        "Recomendaciones proactivas",
+        "Decisiones automatizadas",
+        "Conexión inteligente de datos"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "whatIsAvantiqo": {
+    "eyebrow": "WAS IST AVANTIQO",
+    "title1": "Die Meisten Unternehmen Haben Daten.",
+    "title2": "Nur Wenige Haben Intelligenz.",
+    "paragraphs": [
+      "Die meisten Organisationen arbeiten mit einer Sammlung voneinander getrennter Systeme, Tabellenkalkulationen, E-Mails, Chat-Anwendungen und abteilungsspezifischer Software. Jedes Team sieht nur einen kleinen Teil des Unternehmens, während die Führung versucht, Entscheidungen zu treffen, ohne das vollständige Bild zu verstehen.",
+      "Vertrieb arbeitet getrennt von Finanzen. Betrieb arbeitet getrennt vom Kundenservice. Marketing arbeitet getrennt von der Ausführung. Mitarbeiter nutzen eine Reihe von Werkzeugen, während das Management auf andere Systeme angewiesen ist.",
+      "Das Ergebnis sind Verzögerungen, doppelte Arbeit, verpasste Chancen und Entscheidungen auf Grundlage unvollständiger Informationen. Die Herausforderung ist nicht ein Mangel an Daten. Die Herausforderung besteht darin, dass niemand erkennen kann, wie die Daten zusammenhängen.",
+      "Avantiqo wird zur operativen Intelligenzschicht, die jeden Teil der Organisation in einer einzigen Umgebung verbindet."
+    ]
+  },
+
+  "whyAvantiqo": {
+    "eyebrow": "WARUM AVANTIQO ANDERS IST",
+    "title1": "Die Meiste Software Erzeugt",
+    "title2": "Mehr Systeme.",
+    "title3": "Avantiqo Schafft Eine Intelligenzschicht.",
+    "intro": "Moderne Unternehmen leiden nicht unter einem Mangel an Software. Sie leiden unter einem Mangel an Verbindung zwischen Software.",
+    "paragraphs": [
+      "Moderne Organisationen sind in einer ständig wachsenden Sammlung von Software gefangen.",
+      "Ein CRM für Kunden. Ein Buchhaltungssystem für Finanzen. Eine Projektmanagement-Plattform für den Betrieb. Separate Werkzeuge für Lohnabrechnung. Separate Werkzeuge für Marketing. Separate Werkzeuge für Kommunikation. Separate Werkzeuge für Berichte.",
+      "Jedes neue Problem schafft ein weiteres System. Jedes neue System schafft eine weitere Informationsquelle. Jede neue Informationsquelle schafft eine weitere Ebene der Komplexität.",
+      "Mit der Zeit werden Organisationen von Software umgeben, verlieren jedoch zunehmend das Verständnis dafür, was tatsächlich im Unternehmen geschieht.",
+      "Abteilungen beginnen unabhängig voneinander zu arbeiten. Informationen werden fragmentiert. Berichte werden inkonsistent. Die Führung verbringt mehr Zeit damit, Informationen zu sammeln, als Entscheidungen zu treffen.",
+      "Das Problem ist nicht, dass Organisationen keine Technologie besitzen. Das Problem ist, dass die Technologie voneinander getrennt ist.",
+      "Die meiste Software löst ein einzelnes Problem. Nur sehr wenige Systeme verstehen, wie Probleme miteinander verbunden sind.",
+      "Ein Kundenproblem wird schließlich zu einem Betriebsproblem. Ein Betriebsproblem wird schließlich zu einem Finanzproblem. Ein Personalproblem wird schließlich zu einem Kundenproblem. Eine Marketingentscheidung wird schließlich zu einer Rentabilitätsentscheidung.",
+      "Alles innerhalb eines Unternehmens ist miteinander verbunden. Traditionelle Software spiegelt diese Realität selten wider.",
+      "Avantiqo wurde auf einer anderen Philosophie aufgebaut. Anstatt eine weitere isolierte Anwendung zu schaffen, schafft Avantiqo eine einheitliche Intelligenzschicht für die gesamte Organisation.",
+      "Mitarbeiter. Kunden. Betrieb. Finanzen. Marketing. Projekte. Compliance. Berichterstattung. Führung.",
+      "Alles verbunden innerhalb einer einzigen Umgebung.",
+      "Das bedeutet, dass die Führung nicht länger getrennte Berichte aus einzelnen Abteilungen sieht. Die Führung erkennt Zusammenhänge.",
+      "Wie die Leistung der Mitarbeiter die Rentabilität beeinflusst. Wie operative Ausführung die Kundenzufriedenheit beeinflusst. Wie Marketingleistung den Umsatz beeinflusst. Wie Projektabwicklung den Cashflow beeinflusst. Wie Compliance das Unternehmensrisiko beeinflusst.",
+      "Anstatt Softwaresysteme zu verwalten, verwalten Organisationen das Unternehmen selbst."
+    ],
+    "conclusion1": "Eine Organisation. Eine Intelligenzschicht. Eine operative Realität. Eine einzige Quelle der Wahrheit.",
+    "conclusion2": "Die meiste Software hilft Organisationen dabei, Informationen zu speichern. Avantiqo hilft Organisationen dabei, Informationen zu verstehen."
+  },
+
+  "accountingFirms": {
+    "eyebrow": "BUCHHALTUNGSUNTERNEHMEN",
+    "title1": "Traditionelle Buchhaltung Erklärt Die Vergangenheit.",
+    "title2": "Moderne Beratung Erfordert Verständnis Der Gegenwart.",
+    "intro": "Die meisten Buchhaltungsunternehmen erhalten Informationen erst, nachdem wichtige Entscheidungen bereits getroffen wurden. Avantiqo verschafft Buchhaltern Einblick in das Unternehmen während des Betriebs und nicht erst Wochen später.",
+    "paragraphs": [
+      "Die meisten Buchhaltungsunternehmen erhalten Informationen erst, nachdem wichtige Entscheidungen bereits getroffen wurden.",
+      "Rechnungen treffen ein, nachdem die Arbeit abgeschlossen wurde. Die Lohnabrechnung wird verarbeitet, nachdem die Arbeitsleistung erbracht wurde. Finanzberichte werden erstellt, nachdem operative Entscheidungen die Rentabilität bereits beeinflusst haben.",
+      "Wenn ein Buchhalter ein Problem erkennt, besteht dieses oft bereits seit Wochen oder Monaten. Er kann erklären, was passiert ist, aber häufig nicht, warum es passiert ist.",
+      "Ein Rückgang der Rentabilität kann durch ineffiziente Personaleinsätze verursacht werden. Cashflow-Druck kann durch operative Verzögerungen entstehen. Sinkende Margen können durch Projektüberschreitungen verursacht werden. Kundenabwanderung kann durch Serviceprobleme entstehen. Marketingausgaben können steigen, während die Konversionsleistung sinkt.",
+      "Avantiqo verändert dies, indem operative Aktivitäten direkt mit finanzieller Intelligenz verbunden werden. Anstatt bis zum Monatsende zu warten, können Buchhaltungsunternehmen verstehen, wie ein Unternehmen arbeitet, während es arbeitet.",
+      "Sie können die Leistung der Mitarbeiter sehen. Sie können operative Engpässe erkennen. Sie können die Projektausführung sehen. Sie können Kundenaktivitäten verfolgen. Sie können die Wirksamkeit des Marketings bewerten. Vor allem können sie verstehen, wie diese Faktoren die finanzielle Leistung in Echtzeit beeinflussen.",
+      "Dies verändert die Rolle des Buchhalters. Anstatt hauptsächlich als Compliance-Dienstleister zu agieren, wird das Buchhaltungsunternehmen zu einem strategischen Unternehmensberater."
+    ]
+  }
+}

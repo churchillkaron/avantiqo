@@ -1,0 +1,164 @@
+{
+  "showcaseSections": [
+    {
+      "eyebrow": "PORTAIL EMPLOYÉS",
+      "title": "Un espace de travail pour chaque employé. Une source de vérité pour la direction.",
+      "intro": "La plupart des organisations pensent disposer d'un système de gestion des effectifs. En réalité, elles utilisent une collection d'outils déconnectés qui obligent employés et managers à passer constamment d'une plateforme à l'autre.",
+      "paragraphs": [
+        "La présence est suivie dans un seul système. La planification est gérée ailleurs. La paie est calculée dans des feuilles de calcul. Les dossiers de formation sont stockés dans des fichiers. Les évaluations dépendent de la supervision manuelle, de la mémoire et de rapports déconnectés.",
+        "En grandissant, cette fragmentation crée de la complexité. Les managers passent plus de temps à collecter des informations qu'à diriger. Les employés sont frustrés car les attentes sont floues. La direction perd de la visibilité sur la performance des équipes.",
+        "Le portail Avantiqo Staff crée un espace de travail dédié pour chaque employé. Au lieu de naviguer entre plusieurs systèmes, les employés interagissent dans un environnement où ils peuvent gérer la présence, les plannings, les responsabilités, la paie, la formation, la communication et la performance.",
+        "Les managers ont une visibilité en temps réel sur qui est présent, en retard, productif, nécessite du soutien ou dépasse les attentes. Cela transforme la gestion des effectifs d'un processus réactif à une discipline proactive.",
+        "Le résultat est responsabilité, clarté et contrôle. Chaque action devient mesurable. Chaque responsabilité visible. Chaque employé fait partie de la couche d'intelligence opérationnelle."
+      ],
+      "points": [
+        "Suivi de présence, pointage, retards et absences",
+        "Planification, équipes, répartition des tâches et exécution quotidienne",
+        "Visibilité de la paie, bonus, déductions et approbations",
+        "Évaluations, formation et conformité"
+      ]
+    },
+    {
+      "eyebrow": "PORTAIL CLIENT",
+      "title": "Tout connecté. Rien à remplacer.",
+      "intro": "Les entreprises interagissent avec les clients via plusieurs canaux. Le portail client centralise la communication et fournit une vue complète.",
+      "paragraphs": [
+        "La communication devient documentée et traçable. Chaque interaction fait partie d’un processus opérationnel documenté.",
+        "Cela renforce la confiance, réduit la charge administrative et crée une expérience client plus professionnelle.",
+        "Les clients sont informés. Les entreprises apparaissent organisées. Les relations sont renforcées."
+      ],
+      "points": [
+        "Communication centralisée avec le client",
+        "Réduction de la gestion manuelle",
+        "Meilleure fidélisation client",
+        "Transparence de toutes les interactions"
+      ]
+    },
+    {
+      "eyebrow": "PLATEFORME OPÉRATIONS",
+      "title": "Le logiciel traditionnel enregistre les événements. L’Intelligence Synthétique les comprend.",
+      "intro": "Les opérations ne sont pas seulement documentées, elles sont comprises et interprétées en temps réel.",
+      "paragraphs": [
+        "Toutes les données opérationnelles sont capturées : projets, ressources, tâches, finances.",
+        "Les managers disposent d’un tableau de bord indiquant performances, goulots d'étranglement et risques.",
+        "Les alertes automatiques signalent les problèmes potentiels avant qu’ils n’évoluent.",
+        "La plateforme relie les données opérationnelles aux décisions stratégiques.",
+        "Chaque événement fait partie d'une base décisionnelle intelligente."
+      ],
+      "points": [
+        "Transparence totale des processus",
+        "Surveillance en temps réel",
+        "Détection précoce des risques",
+        "Intégration avec toutes les sources de données opérationnelles"
+      ]
+    },
+    {
+      "eyebrow": "PLATEFORME FINANCE",
+      "title": "Intelligence financière en temps réel",
+      "intro": "Les données financières circulent automatiquement depuis tous les systèmes opérationnels.",
+      "paragraphs": [
+        "Comptabilité, contrôle et reporting sont liés aux opérations.",
+        "Les écarts sont automatiquement signalés.",
+        "Les modèles de prévision soutiennent la trésorerie et les décisions budgétaires.",
+        "Tout est consolidé pour une vue claire des finances.",
+        "Plus de rapprochements manuels nécessaires."
+      ],
+      "points": [
+        "Reporting automatisé",
+        "Intégration avec les données opérationnelles",
+        "Alertes financières",
+        "Transparence en temps réel"
+      ]
+    },
+    {
+      "eyebrow": "CRM",
+      "title": "Données clients intelligemment connectées",
+      "intro": "Toutes les interactions clients sont réunies sur une seule plateforme.",
+      "paragraphs": [
+        "Vue à 360° des activités clients.",
+        "Historique, contacts et campagnes dans un seul tableau de bord.",
+        "Analyse de la fidélisation et des conversions.",
+        "Recommandations automatisées pour ventes et support.",
+        "Connexion du marketing, des ventes et du service client."
+      ],
+      "points": [
+        "Données clients centralisées",
+        "Historique des interactions en temps réel",
+        "Analyses automatisées",
+        "Amélioration des relations clients"
+      ]
+    },
+    {
+      "eyebrow": "MARKETING STUDIO",
+      "title": "Piloter intelligemment les activités marketing",
+      "intro": "Toutes les campagnes, canaux et contenus sont gérés dans un studio centralisé.",
+      "paragraphs": [
+        "Planification et exécution des campagnes en temps réel.",
+        "Analyse de la performance et optimisation.",
+        "Coordination et validations centralisées de l’équipe.",
+        "Rapports et KPIs automatisés.",
+        "Intégration avec CRM et Analytics."
+      ],
+      "points": [
+        "Gestion centralisée des campagnes",
+        "Analyse en temps réel",
+        "Coordination d’équipe",
+        "Suivi des performances"
+      ]
+    },
+    {
+      "eyebrow": "DESIGN STUDIO",
+      "title": "Design et créativité sur une seule plateforme",
+      "intro": "Projets et assets de design centralisés et traçables.",
+      "paragraphs": [
+        "Versionnage des assets et projets.",
+        "Processus de validation pour les équipes de design.",
+        "Collaboration en temps réel.",
+        "Intégration avec marketing et CRM.",
+        "Suivi et audit des assets."
+      ],
+      "points": [
+        "Gestion centralisée des assets",
+        "Contrôle des versions",
+        "Collaboration d’équipe",
+        "Transparence du processus de design"
+      ]
+    },
+    {
+      "eyebrow": "INTÉGRATIONS",
+      "title": "Tous les systèmes connectés",
+      "intro": "Plateformes, outils et sources de données intégrés de manière transparente.",
+      "paragraphs": [
+        "Synchronisation automatique des données.",
+        "APIs pour chaque processus métier.",
+        "Monitoring et alertes.",
+        "Assurance de la cohérence des données.",
+        "Vue complète du système."
+      ],
+      "points": [
+        "Intégrations centralisées",
+        "Cohérence des données",
+        "Monitoring automatisé",
+        "APIs pour les processus métier"
+      ]
+    },
+    {
+      "eyebrow": "INTELLIGENCE SYNTHÉTIQUE",
+      "title": "Intelligence artificielle pour les entreprises",
+      "intro": "L’Intelligence Synthétique connecte toutes les données opérationnelles et fournit des recommandations.",
+      "paragraphs": [
+        "Analyses en temps réel pour l’entreprise.",
+        "Prévisions et recommandations.",
+        "Support décisionnel automatisé.",
+        "Intégration avec opérations et finance.",
+        "Boucles d’apprentissage continues."
+      ],
+      "points": [
+        "Insights en temps réel",
+        "Recommandations proactives",
+        "Décisions automatisées",
+        "Connexion intelligente des données"
+      ]
+    }
+  ]
+}

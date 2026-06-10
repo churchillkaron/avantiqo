@@ -1,0 +1,56 @@
+{
+  "whatIsAvantiqo": {
+    "eyebrow": "QUÉ ES AVANTIQO",
+    "title1": "La Mayoría De Las Empresas Tienen Datos.",
+    "title2": "Muy Pocas Tienen Inteligencia.",
+    "paragraphs": [
+      "La mayoría de las organizaciones operan mediante una colección de sistemas desconectados, hojas de cálculo, correos electrónicos, aplicaciones de chat y software específico para cada departamento. Cada equipo ve solo una pequeña parte del negocio mientras la dirección intenta tomar decisiones sin comprender el panorama completo.",
+      "Ventas opera por separado de finanzas. Operaciones opera por separado del servicio al cliente. Marketing opera por separado de la ejecución. Los empleados utilizan un conjunto de herramientas mientras la dirección depende de otro.",
+      "El resultado son retrasos, trabajo duplicado, oportunidades perdidas y decisiones basadas en información incompleta. El desafío no es la falta de datos. El desafío es que nadie puede ver cómo se conectan los datos.",
+      "Avantiqo se convierte en la capa de inteligencia operativa que conecta cada parte de la organización dentro de un único entorno."
+    ]
+  },
+
+  "whyAvantiqo": {
+    "eyebrow": "POR QUÉ AVANTIQO ES DIFERENTE",
+    "title1": "La Mayor Parte Del Software Crea",
+    "title2": "Más Sistemas.",
+    "title3": "Avantiqo Crea Una Capa De Inteligencia.",
+    "intro": "Las empresas modernas no sufren por falta de software. Sufren por la falta de conexión entre el software.",
+    "paragraphs": [
+      "Las organizaciones modernas han quedado atrapadas dentro de una colección creciente de software.",
+      "Un CRM para clientes. Un sistema contable para finanzas. Una plataforma de gestión de proyectos para operaciones. Herramientas separadas para nómina. Herramientas separadas para marketing. Herramientas separadas para comunicación. Herramientas separadas para informes.",
+      "Cada nuevo problema crea otro sistema. Cada nuevo sistema crea otra fuente de información. Cada nueva fuente de información crea otra capa de complejidad.",
+      "Con el tiempo, las organizaciones terminan rodeadas de software pero cada vez más desconectadas de comprender lo que realmente ocurre dentro del negocio.",
+      "Los departamentos comienzan a operar de forma independiente. La información se fragmenta. Los informes se vuelven inconsistentes. La dirección dedica más tiempo a recopilar información que a tomar decisiones.",
+      "El problema no es que las organizaciones carezcan de tecnología. El problema es que la tecnología está desconectada.",
+      "La mayoría del software resuelve un único problema. Muy poco software comprende cómo se conectan los problemas.",
+      "Un problema de cliente termina convirtiéndose en un problema operativo. Un problema operativo termina convirtiéndose en un problema financiero. Un problema de personal termina convirtiéndose en un problema de cliente. Una decisión de marketing termina convirtiéndose en una decisión de rentabilidad.",
+      "Todo dentro de una empresa está conectado. El software tradicional rara vez refleja esta realidad.",
+      "Avantiqo fue construido sobre una filosofía diferente. En lugar de crear otra aplicación aislada, Avantiqo crea una capa de inteligencia unificada para toda la organización.",
+      "Personal. Clientes. Operaciones. Finanzas. Marketing. Proyectos. Cumplimiento. Informes. Dirección.",
+      "Todo conectado dentro de un único entorno.",
+      "Esto significa que la dirección ya no ve informes desconectados de departamentos separados. La dirección ve relaciones.",
+      "Cómo el rendimiento del personal afecta la rentabilidad. Cómo la ejecución operativa afecta la satisfacción del cliente. Cómo el rendimiento del marketing afecta los ingresos. Cómo la entrega de proyectos afecta el flujo de caja. Cómo el cumplimiento afecta el riesgo organizacional.",
+      "En lugar de gestionar sistemas de software, las organizaciones gestionan el propio negocio."
+    ],
+    "conclusion1": "Una organización. Una capa de inteligencia. Una realidad operativa. Una única fuente de verdad.",
+    "conclusion2": "La mayoría del software ayuda a las organizaciones a almacenar información. Avantiqo ayuda a las organizaciones a comprender la información."
+  },
+
+  "accountingFirms": {
+    "eyebrow": "FIRMAS CONTABLES",
+    "title1": "La Contabilidad Tradicional Explica El Pasado.",
+    "title2": "La Asesoría Moderna Requiere Comprender El Presente.",
+    "intro": "La mayoría de las firmas contables reciben información después de que ya se han tomado las decisiones importantes. Avantiqo ofrece visibilidad del negocio mientras está operando, no semanas después.",
+    "paragraphs": [
+      "La mayoría de las firmas contables reciben información después de que ya se han tomado las decisiones importantes.",
+      "Las facturas llegan después de que el trabajo se ha completado. La nómina se procesa después de que la mano de obra ha sido utilizada. Los informes financieros se producen después de que las decisiones operativas ya han afectado la rentabilidad.",
+      "Cuando un contador identifica un problema, este suele haber existido durante semanas o meses. Puede explicar qué ocurrió, pero muchas veces no puede ver por qué ocurrió.",
+      "Una disminución de la rentabilidad puede estar causada por ineficiencias de personal. La presión sobre el flujo de caja puede estar causada por retrasos operativos. La erosión de márgenes puede estar causada por sobrecostes de proyectos. La pérdida de clientes puede estar causada por fallos de servicio. El gasto en marketing puede estar aumentando mientras disminuye la conversión.",
+      "Avantiqo cambia esto conectando la actividad operativa directamente con la inteligencia financiera. En lugar de esperar al cierre de mes, las firmas contables pueden comprender cómo funciona una empresa mientras está funcionando.",
+      "Pueden ver el rendimiento del personal. Pueden identificar cuellos de botella operativos. Pueden supervisar la ejecución de proyectos. Pueden analizar la actividad de los clientes. Pueden medir la eficacia del marketing. Lo más importante es que pueden comprender cómo estos factores influyen en el rendimiento financiero en tiempo real.",
+      "Esto transforma el papel del contador. En lugar de actuar principalmente como proveedor de cumplimiento normativo, la firma contable se convierte en un asesor estratégico del negocio."
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "whatIsAvantiqo": {
+    "eyebrow": "O QUE É A AVANTIQO",
+    "title1": "A Maioria Das Empresas Tem Dados.",
+    "title2": "Muito Poucas Têm Inteligência.",
+    "paragraphs": [
+      "A maioria das organizações opera através de uma coleção de sistemas desconectados, folhas de cálculo, emails, aplicações de chat e software específico para departamentos. Cada equipa vê apenas uma pequena parte do negócio enquanto a liderança tenta tomar decisões sem compreender o quadro completo.",
+      "Vendas opera separadamente das finanças. Operações opera separadamente do serviço ao cliente. Marketing opera separadamente da execução. Os colaboradores utilizam um conjunto de ferramentas enquanto a gestão depende de outro.",
+      "O resultado são atrasos, trabalho duplicado, oportunidades perdidas e decisões baseadas em informação incompleta. O desafio não é a falta de dados. O desafio é que ninguém consegue ver como os dados se ligam.",
+      "A Avantiqo torna-se a camada de inteligência operacional que conecta todas as partes da organização num único ambiente."
+    ]
+  },
+
+  "whyAvantiqo": {
+    "eyebrow": "POR QUE A AVANTIQO É DIFERENTE",
+    "title1": "A Maioria Dos Softwares Cria",
+    "title2": "Mais Sistemas.",
+    "title3": "A Avantiqo Cria Uma Camada De Inteligência.",
+    "intro": "As empresas modernas não sofrem por falta de software. Sofrem pela falta de ligação entre os softwares.",
+    "paragraphs": [
+      "As organizações modernas ficaram presas numa coleção crescente de softwares.",
+      "Um CRM para clientes. Um sistema de contabilidade para finanças. Uma plataforma de gestão de projetos para operações. Ferramentas separadas para processamento salarial. Ferramentas separadas para marketing. Ferramentas separadas para comunicação. Ferramentas separadas para relatórios.",
+      "Cada novo problema cria outro sistema. Cada novo sistema cria outra fonte de informação. Cada nova fonte de informação cria outra camada de complexidade.",
+      "Com o tempo, as organizações ficam rodeadas por software, mas cada vez mais desconectadas da compreensão do que realmente está a acontecer dentro do negócio.",
+      "Os departamentos começam a operar de forma independente. A informação torna-se fragmentada. Os relatórios tornam-se inconsistentes. A liderança passa mais tempo a reunir informação do que a tomar decisões.",
+      "O problema não é a falta de tecnologia. O problema é que a tecnologia está desconectada.",
+      "A maioria dos softwares resolve apenas um problema. Muito poucos compreendem como os problemas se relacionam.",
+      "Um problema de cliente acaba por se tornar um problema operacional. Um problema operacional acaba por se tornar um problema financeiro. Um problema de pessoal acaba por se tornar um problema de cliente. Uma decisão de marketing acaba por se tornar uma decisão de rentabilidade.",
+      "Tudo dentro de uma empresa está ligado. O software tradicional raramente reflete esta realidade.",
+      "A Avantiqo foi construída com uma filosofia diferente. Em vez de criar mais uma aplicação isolada, a Avantiqo cria uma camada de inteligência unificada para toda a organização.",
+      "Colaboradores. Clientes. Operações. Finanças. Marketing. Projetos. Conformidade. Relatórios. Liderança.",
+      "Tudo ligado dentro de um único ambiente.",
+      "Isto significa que a liderança deixa de ver relatórios desconectados de departamentos separados. A liderança passa a ver relações.",
+      "Como o desempenho dos colaboradores afeta a rentabilidade. Como a execução operacional afeta a satisfação dos clientes. Como o desempenho do marketing afeta as receitas. Como a entrega de projetos afeta o fluxo de caixa. Como a conformidade afeta o risco organizacional.",
+      "Em vez de gerir sistemas de software, as organizações gerem o próprio negócio."
+    ],
+    "conclusion1": "Uma organização. Uma camada de inteligência. Uma realidade operacional. Uma única fonte de verdade.",
+    "conclusion2": "A maioria dos softwares ajuda as organizações a armazenar informação. A Avantiqo ajuda as organizações a compreender a informação."
+  },
+
+  "accountingFirms": {
+    "eyebrow": "EMPRESAS DE CONTABILIDADE",
+    "title1": "A Contabilidade Tradicional Explica O Passado.",
+    "title2": "A Consultoria Moderna Exige Compreender O Presente.",
+    "intro": "A maioria das empresas de contabilidade recebe informação depois de as decisões importantes já terem sido tomadas. A Avantiqo oferece aos contabilistas visibilidade do negócio enquanto este está a operar, e não semanas depois.",
+    "paragraphs": [
+      "A maioria das empresas de contabilidade recebe informação depois de as decisões importantes já terem sido tomadas.",
+      "As faturas chegam depois do trabalho concluído. Os salários são processados depois de o trabalho ter sido realizado. Os relatórios financeiros são produzidos depois de as decisões operacionais já terem afetado a rentabilidade.",
+      "Quando um contabilista identifica um problema, este frequentemente existe há semanas ou meses. Pode explicar o que aconteceu, mas muitas vezes não consegue perceber por que aconteceu.",
+      "Uma redução da rentabilidade pode ser causada por ineficiências da equipa. A pressão sobre o fluxo de caixa pode ser causada por atrasos operacionais. A erosão das margens pode ser causada por derrapagens de projetos. A perda de clientes pode ser causada por falhas de serviço. Os custos de marketing podem estar a aumentar enquanto as conversões diminuem.",
+      "A Avantiqo altera esta realidade ao ligar diretamente a atividade operacional à inteligência financeira. Em vez de esperar pelo final do mês, as empresas de contabilidade podem compreender como um negócio está a funcionar enquanto está a funcionar.",
+      "Podem ver o desempenho da equipa. Podem identificar estrangulamentos operacionais. Podem acompanhar a execução de projetos. Podem analisar a atividade dos clientes. Podem medir a eficácia do marketing. Mais importante ainda, podem compreender como estes fatores influenciam o desempenho financeiro em tempo real.",
+      "Isto transforma o papel do contabilista. Em vez de atuar principalmente como fornecedor de conformidade, a empresa de contabilidade torna-se um consultor estratégico do negócio."
+    ]
+  }
+}

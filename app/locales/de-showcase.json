@@ -1,0 +1,164 @@
+{
+  "showcaseSections": [
+    {
+      "eyebrow": "STAFF PORTAL",
+      "title": "Eine Arbeitsumgebung für jeden Mitarbeiter. Eine Quelle der Wahrheit für Führungskräfte.",
+      "intro": "Die meisten Organisationen glauben, ein Workforce-Management-System zu haben. In Wirklichkeit haben sie eine Sammlung getrennter Tools, die Mitarbeiter und Manager ständig zwischen Plattformen wechseln lassen.",
+      "paragraphs": [
+        "Anwesenheit wird in einem System erfasst. Die Planung wird woanders verwaltet. Gehaltsabrechnungen erfolgen in Tabellen. Trainingsnachweise werden in Ordnern aufbewahrt. Leistungsbeurteilungen hängen von manueller Überwachung, Erinnerung und getrennten Berichten ab.",
+        "Mit wachsendem Unternehmen wird diese Fragmentierung komplex. Manager verbringen mehr Zeit mit Informationsbeschaffung als mit Führung. Mitarbeiter sind frustriert, weil Erwartungen unklar sind. Die Führung verliert den Überblick über die Leistung der Belegschaft.",
+        "Das Avantiqo Staff Portal schafft eine dedizierte Arbeitsumgebung für jeden Mitarbeiter. Anstatt mehrere Systeme zu nutzen, interagieren Mitarbeiter in einer Umgebung, in der sie Anwesenheit, Zeitpläne, Verantwortlichkeiten, Gehalt, Training, Kommunikation und Leistung verwalten können.",
+        "Manager erhalten in Echtzeit Einblicke, wer anwesend, wer verspätet, wer produktiv, wer Unterstützung benötigt und wer die Erwartungen übertrifft. Dies verwandelt das Workforce-Management von einem reaktiven Prozess in eine proaktive Disziplin.",
+        "Das Ergebnis ist Verantwortlichkeit, Klarheit und Kontrolle. Jede Handlung wird messbar. Jede Verantwortung sichtbar. Jeder Mitarbeiter Teil der operativen Intelligenzschicht."
+      ],
+      "points": [
+        "Anwesenheit, Zeiterfassung, Verspätungen und Abwesenheiten",
+        "Planung, Schichten, Aufgabenverteilung und tägliche Ausführung",
+        "Gehaltsabrechnung, Boni, Abzüge und Genehmigungen",
+        "Leistungsbeurteilungen, Trainingsfortschritte und Compliance-Nachweise"
+      ]
+    },
+    {
+      "eyebrow": "CUSTOMER PORTAL",
+      "title": "Alles verbunden. Nichts ersetzen.",
+      "intro": "Unternehmen interagieren mit Kunden über mehrere Kanäle. Das Customer Portal zentralisiert die Kommunikation und ermöglicht eine durchgängige Sicht.",
+      "paragraphs": [
+        "Kommunikation wird dokumentiert und nachverfolgbar. Anstatt über E-Mails, Telefon und Messenger verstreut zu sein, wird jede Interaktion Teil eines dokumentierten Prozesses.",
+        "Das verbessert Vertrauen, reduziert Verwaltungsaufwand und schafft ein professionelleres Kundenerlebnis.",
+        "Kunden fühlen sich informiert. Unternehmen wirken organisiert. Beziehungen werden gestärkt."
+      ],
+      "points": [
+        "Zentralisierte Kundenkommunikation",
+        "Reduzierte manuelle Verwaltung",
+        "Bessere Kundenbindung",
+        "Transparenz in allen Interaktionen"
+      ]
+    },
+    {
+      "eyebrow": "OPERATIONS PLATFORM",
+      "title": "Traditionelle Software erfasst Ereignisse. Synthetic Intelligence versteht sie.",
+      "intro": "Operations werden nicht nur dokumentiert, sie werden verstanden und interpretiert in Echtzeit.",
+      "paragraphs": [
+        "Alle operativen Daten werden erfasst: Projekte, Ressourcen, Aufgaben, Finanzen.",
+        "Manager erhalten ein Dashboard, das die Leistung, Engpässe und Risiken anzeigt.",
+        "Automatisierte Alerts informieren über potenzielle Probleme, bevor sie eskalieren.",
+        "Die Plattform verbindet operative Daten mit strategischen Entscheidungen.",
+        "Jedes Ereignis wird Teil einer intelligenten Entscheidungsgrundlage."
+      ],
+      "points": [
+        "Vollständige Transparenz in Prozessen",
+        "Echtzeit-Überwachung",
+        "Frühzeitige Risikoerkennung",
+        "Integration mit allen operativen Datenquellen"
+      ]
+    },
+    {
+      "eyebrow": "FINANCE PLATFORM",
+      "title": "Finanzielle Intelligenz in Echtzeit",
+      "intro": "Finanzdaten fließen automatisch aus allen operativen Systemen ein.",
+      "paragraphs": [
+        "Buchhaltung, Controlling und Reporting sind verbunden mit Operations.",
+        "Abweichungen werden automatisch hervorgehoben.",
+        "Vorhersagemodelle unterstützen Cashflow und Budgetentscheidungen.",
+        "Alles ist konsolidiert für klare Finanzübersicht.",
+        "Keine manuellen Abgleiche mehr erforderlich."
+      ],
+      "points": [
+        "Automatisiertes Reporting",
+        "Integration mit operativen Daten",
+        "Finanzielle Frühwarnungen",
+        "Echtzeit-Transparenz"
+      ]
+    },
+    {
+      "eyebrow": "CRM",
+      "title": "Kundendaten intelligent vernetzt",
+      "intro": "Alle Kundeninteraktionen werden in einer Plattform zusammengeführt.",
+      "paragraphs": [
+        "360° Sicht auf Kundenaktivitäten.",
+        "Verlauf, Kontakte und Kampagnen in einem Dashboard.",
+        "Analyse der Kundenbindung und Conversion.",
+        "Automatisierte Empfehlungen für Upselling und Support.",
+        "Verknüpfung von Marketing, Sales und Service."
+      ],
+      "points": [
+        "Zentrale Kundendaten",
+        "Echtzeit-Interaktionshistorie",
+        "Automatisierte Analysen",
+        "Verbesserte Kundenbeziehung"
+      ]
+    },
+    {
+      "eyebrow": "MARKETING STUDIO",
+      "title": "Marketingaktivitäten intelligent steuern",
+      "intro": "Alle Kampagnen, Kanäle und Inhalte werden in einem zentralen Studio verwaltet.",
+      "paragraphs": [
+        "Planung und Ausführung von Kampagnen in Echtzeit.",
+        "Analyse der Performance und Optimierung.",
+        "Teamkoordination und Freigaben zentralisiert.",
+        "Automatisierte Reports und KPIs.",
+        "Integration mit CRM und Analytics."
+      ],
+      "points": [
+        "Zentrale Kampagnenverwaltung",
+        "Echtzeit-Analyse",
+        "Teamkoordination",
+        "Performance-Tracking"
+      ]
+    },
+    {
+      "eyebrow": "DESIGN STUDIO",
+      "title": "Design und Kreativität in einer Plattform",
+      "intro": "Designprojekte und Assets werden zentral verwaltet und nachverfolgbar.",
+      "paragraphs": [
+        "Versionierung von Assets und Projekten.",
+        "Freigabeprozesse für Designteams.",
+        "Kollaboration in Echtzeit.",
+        "Integration mit Marketing und CRM.",
+        "Asset-Tracking und Audit."
+      ],
+      "points": [
+        "Zentrale Asset-Verwaltung",
+        "Revisionskontrolle",
+        "Teamkollaboration",
+        "Transparenz im Designprozess"
+      ]
+    },
+    {
+      "eyebrow": "INTEGRATIONS",
+      "title": "Alle Systeme verbunden",
+      "intro": "Plattformen, Tools und Datenquellen werden nahtlos integriert.",
+      "paragraphs": [
+        "Automatisierte Datensynchronisation.",
+        "APIs für jeden Geschäftsprozess.",
+        "Monitoring und Alerts.",
+        "Sicherstellung der Datenkonsistenz.",
+        "Vollständige Systemübersicht."
+      ],
+      "points": [
+        "Zentrale Integrationen",
+        "Datenkonsistenz",
+        "Automatisches Monitoring",
+        "APIs für Geschäftsprozesse"
+      ]
+    },
+    {
+      "eyebrow": "SYNTHETIC INTELLIGENCE",
+      "title": "Künstliche Intelligenz für Unternehmen",
+      "intro": "Synthetic Intelligence verbindet alle operativen Daten und liefert Entscheidungshilfen.",
+      "paragraphs": [
+        "Echtzeit-Analysen für Unternehmen.",
+        "Vorhersagen und Empfehlungen.",
+        "Automatisierte Entscheidungsunterstützung.",
+        "Integration mit Operations und Finance.",
+        "Kontinuierliche Lernschleifen."
+      ],
+      "points": [
+        "Echtzeit-Insights",
+        "Proaktive Empfehlungen",
+        "Automatisierte Entscheidungen",
+        "Intelligente Datenverknüpfung"
+      ]
+    }
+  ]
+}

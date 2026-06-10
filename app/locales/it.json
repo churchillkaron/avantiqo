@@ -17,14 +17,14 @@
   },
   "home": {
     "hero": {
-      "badge": "SISTEMA OPERATIVO DI INTELLIGENZA SINTETICA",
-      "title1": "Dove La Realtà Aziendale",
-      "title2": "Diventa Intelligenza Finanziaria.",
-      "description": "Avantiqo collega le operazioni aziendali direttamente a contabilità, finanza, documenti, paghe, approvazioni ed esecuzione attraverso un unico livello di Intelligenza Sintetica. Ogni evento operativo diventa intelligenza finanziaria in tempo reale.",
-      "book_demo": "Scopri Avantiqo",
-      "start_setup": "Per Studi Contabili",
-      "trust": "Creato per studi contabili, imprenditori, gruppi multi-entità e aziende pronte a superare software frammentati.",
-      "image_caption": "DALLA REALTÀ AZIENDALE ALL'INTELLIGENZA FINANZIARIA"
+      "badge": "SISTEMA OPERATIVO AVANTIQO",
+      "title1": "Controlla L'Intera Azienda.",
+      "title2": "Prima Che I Problemi Si Presentino.",
+      "description": "Avantiqo collega personale, clienti, operazioni, finanza, CRM, marketing, design, integrazioni e Intelligenza Sintetica in un unico sistema operativo aziendale. Non si limita a memorizzare informazioni. Collega l'organizzazione affinché la leadership comprenda cosa sta accadendo, perché sta accadendo e cosa dovrebbe accadere dopo.",
+      "book_demo": "Prenota Demo",
+      "start_setup": "Esplora La Piattaforma",
+      "trust": "Una piattaforma. Ogni reparto. Un livello di intelligenza.",
+      "image_caption": "UN'AZIENDA. UN SISTEMA OPERATIVO."
     },
     "accounting": {
       "badge": "LA FINE DEL DIVARIO TRA BUSINESS E CONTABILITÀ",
@@ -889,6 +889,679 @@
         "learning": "APPRENDIMENTO",
         "varianceTriggered": "Rilevamento scostamento IA attivato"
       }
+    },
+    "healthcare": {
+      "hero": {
+        "badge": "HEALTHCARE INTELLIGENCE PLATFORM",
+        "title1": "See The Entire Healthcare System.",
+        "title2": "Before It Tells You Something Is Wrong.",
+        "description": "Patients, clinicians, operations, finance, compliance and leadership connected through one synthetic intelligence layer.",
+        "primary": "Request Executive Briefing"
+      },
+      "reality": {
+        "badge": "HEALTHCARE REALITY",
+        "title1": "Healthcare is connected everywhere.",
+        "title2": "But understood nowhere."
+      },
+      "runtime": {
+        "badge": "ONE HEALTHCARE RUNTIME",
+        "title1": "Patient Demand. Clinical Workload. Bed Capacity.",
+        "title2": "Staff Availability. Financial Exposure. Compliance Risk."
+      },
+      "synthetic": {
+        "badge": "SYNTHETIC INTELLIGENCE LAYER",
+        "title1": "Traditional systems tell you",
+        "title2": "what happened.",
+        "title3": "Avantiqo shows you",
+        "title4": "what happens next."
+      },
+      "ownership": {
+        "badge": "LEADERSHIP LAYER",
+        "title1": "Leadership sees everything.",
+        "title2": "Before it happens."
+      },
+      "cta": {
+        "badge": "HEALTHCARE OPERATING SYSTEM",
+        "title1": "Healthcare was built around treatment.",
+        "title2": "The future will be built around intelligence.",
+        "description": "Avantiqo connects patients, clinicians, operations, finance, compliance and leadership through one Synthetic Intelligence Operating System.",
+        "primary": "Request Executive Briefing"
+      },
+      "healthcare_hero": "Healthcare Hero",
+      "patient_systems": "Patient Systems",
+      "clinical_systems": "Clinical Systems",
+      "billing_systems": "Billing Systems",
+      "compliance_systems": "Compliance Systems",
+      "patient_waiting_time": "Patient Waiting Time",
+      "staff_utilization": "Staff Utilization",
+      "revenue_leakage": "Revenue Leakage",
+      "capacity_planning": "Capacity Planning",
+      "compliance_exposure": "Compliance Exposure",
+      "executive_blind_spots": "Executive Blind Spots",
+      "patient_demand": "Patient Demand",
+      "clinical_workload": "Clinical Workload",
+      "bed_capacity": "Bed Capacity",
+      "staff_availability": "Staff Availability",
+      "financial_exposure": "Financial Exposure",
+      "compliance_risk": "Compliance Risk",
+      "what_is_happening": "What Is Happening",
+      "what_happens_next": "What Happens Next",
+      "what_to_do_about_it": "What To Do About It",
+      "patient_surge_risk__87": "Patient Surge Risk · 87%",
+      "staff_shortage_risk__73": "Staff Shortage Risk · 73%",
+      "up_capacity_utilization": "↑ Capacity Utilization",
+      "up_revenue_capture": "↑ Revenue Capture",
+      "up_leadership_visibility": "↑ Leadership Visibility",
+      "down_waiting_time": "↓ Waiting Time",
+      "down_staffing_cost": "↓ Staffing Cost",
+      "operational_bottlenecks_create_delays_long_before_management_becomes_aware_of_them": "Operational bottlenecks create delays long before management becomes aware of them.",
+      "overstaffing_and_understaffing_often_happen_at_the_same_time_across_different_departments": "Overstaffing and understaffing often happen at the same time across different departments.",
+      "disconnected_systems_create_missed_billing_opportunities_and_hidden_operational_costs": "Disconnected systems create missed billing opportunities and hidden operational costs.",
+      "beds_rooms_equipment_and_staff_capacity_are_rarely_viewed_as_one_connected_reality": "Beds, rooms, equipment and staff capacity are rarely viewed as one connected reality.",
+      "risk_grows_when_operational_events_and_compliance_obligations_are_disconnected": "Risk grows when operational events and compliance obligations are disconnected.",
+      "leadership_receives_reports_after_events_occur_instead_of_understanding_risks_before_they_happen": "Leadership receives reports after events occur instead of understanding risks before they happen.",
+      "live_operational_visibility_across_patients_clinicians_capacity_finance_and_compliance": "Live operational visibility across patients, clinicians, capacity, finance and compliance.",
+      "predictive_intelligence_identifies_pressure_risk_and_bottlenecks_before_escalation": "Predictive intelligence identifies pressure, risk and bottlenecks before escalation.",
+      "recommended_actions_help_leadership_intervene_before_operational_failure_occurs": "Recommended actions help leadership intervene before operational failure occurs.",
+      "reality_content_1": "A patient admission affects staffing. Staffing affects scheduling. Scheduling affects capacity. Capacity affects treatment times.",
+      "reality_content_2": "Treatment affects outcomes. Outcomes affect reimbursement. Reimbursement affects financial performance.",
+      "reality_content_3": "Most healthcare organizations track these as separate events. Avantiqo understands them as one connected operational chain.",
+      "reality_content_4": "The problem is not data. The problem is that nobody sees how the data moves through the business.",
+      "runtime_content_1": "Patient demand. Clinical workload. Bed utilization. Operating theatre capacity.",
+      "runtime_content_2": "Laboratory throughput. Staff availability. Financial performance. Compliance exposure.",
+      "runtime_content_3": "Connected through one operational runtime so leadership can act before pressure becomes failure.",
+      "ownership_content_1": "Most executives receive reports after events occur. Avantiqo identifies operational pressure before it becomes a problem.",
+      "ownership_content_2": "See staffing shortages before schedules fail. See capacity constraints before patient delays increase.",
+      "ownership_content_3": "See financial exposure before budgets are impacted. See compliance risk before audits reveal it.",
+      "outcomes_content_1": "Measurable operational improvement.",
+      "healthcare_connects": "Healthcare is connected everywhere.",
+      "healthcare_misunderstood": "But understood nowhere.",
+      "outcomes_badge": "OUTCOMES"
+    },
+    "construction": {
+      "construction_hero_badge": "CONSTRUCTION OPERATIONS",
+      "construction_hero_title1": "Control every site before delays become losses.",
+      "construction_hero_title2": "Real-time site visibility.",
+      "construction_hero_description": "Replace delayed site reporting and disconnected workflows with one connected construction operating system.",
+      "construction_cta_primary": "One runtime.",
+      "construction_cta_secondary": "Every project.",
+      "before_after_badge": "BEFORE VS AFTER",
+      "before_after_title": "Replace disconnected construction management with live project control.",
+      "features_badge": "CONSTRUCTION RUNTIME",
+      "features_title": "Site, office and finance connected live.",
+      "feature_1_title": "Live Project Control",
+      "feature_1_text": "Track progress, budgets, approvals, delays, manpower and site performance in real time.",
+      "feature_2_title": "Site Reporting",
+      "feature_2_text": "Supervisors upload photos, daily reports, issues and progress updates directly from site.",
+      "feature_3_title": "Procurement & Materials",
+      "feature_3_text": "Control purchase requests, supplier orders, material delivery and inventory visibility.",
+      "feature_4_title": "Workforce & Payroll",
+      "feature_4_text": "Monitor attendance, subcontractors, labor cost, payroll approvals and workforce activity.",
+      "feature_5_title": "Multi-Project Control",
+      "feature_5_text": "Manage multiple construction sites, budgets and project teams from one operational runtime.",
+      "feature_6_title": "Owner Visibility",
+      "feature_6_text": "Project owners and executives see live progress, costs, approvals and risks from anywhere.",
+      "why_title": "Why Construction Companies Choose Avantiqo",
+      "why_1_title": "Project Intelligence",
+      "why_1_text": "See every project, milestone, budget, delay, approval and risk from one operational runtime.",
+      "why_2_title": "Contractor Accountability",
+      "why_2_text": "Track subcontractors, attendance, progress, photos and task completion with evidence.",
+      "why_3_title": "Cost Intelligence",
+      "why_3_text": "Connect procurement, labor, inventory and project spend to understand real profitability.",
+      "why_4_title": "Executive Visibility",
+      "why_4_text": "Owners and executives can monitor every site without waiting for weekly reports.",
+      "portal_title": "Client & Contractor Portals",
+      "portal_client_title": "Client Portal",
+      "portal_client_text": "Clients can follow progress, approvals, milestones, photos, invoices and project status in real time.",
+      "portal_contractor_title": "Contractor Portal",
+      "portal_contractor_text": "Subcontractors can submit updates, attendance, photos, documents and completion evidence directly from site.",
+      "si_title": "Synthetic Intelligence",
+      "si_1_title": "Predict Delays",
+      "si_1_text": "Identify schedule risks before they impact project delivery.",
+      "si_2_title": "Predict Budget Overruns",
+      "si_2_text": "Detect procurement, labor and change-order risks before they become financial problems.",
+      "si_3_title": "Automatic Progress Reports",
+      "si_3_text": "Generate owner-ready project summaries automatically from site activity.",
+      "si_4_title": "Procurement Intelligence",
+      "si_4_text": "Recommend purchasing actions based on inventory, project schedules and supplier performance.",
+      "marketing_title": "Marketing & Tender Intelligence",
+      "marketing_text": "Generate company profiles, capability statements, tender documents, project case studies, social media posts and marketing campaigns directly from completed projects.",
+      "challenge_title": "Construction Companies Are Losing Money Every Day",
+      "challenge_text": "Most construction companies do not lose money because they lack projects. They lose money because they lack visibility. Delays, procurement mistakes, subcontractor issues, budget overruns and communication failures often remain hidden until they have already damaged profitability. Avantiqo gives management real-time visibility across projects, people, suppliers, budgets and execution so problems can be solved before they become losses.",
+      "profitability_title": "Know Which Projects Actually Make Money",
+      "profitability_text": "Revenue is not profit. Most construction companies can tell you project revenue, but very few can accurately explain project profitability. Avantiqo connects quotations, budgets, procurement, inventory, labor, subcontractors, equipment costs and invoices into one financial model so management can see exactly where profit is generated and where margins are disappearing.",
+      "flow_title": "From Lead To Completed Project",
+      "flow_text": "Construction companies often operate with disconnected systems. Sales uses one platform, project teams use another, procurement uses spreadsheets and accounting operates separately. Avantiqo connects the entire lifecycle from lead generation and quotations to project completion, billing, case studies and marketing, creating a single operational runtime for the entire company.",
+      "workforce_title": "Workforce, Payroll & Site Operations",
+      "workforce_text": "Managing hundreds of workers, supervisors and subcontractors across multiple sites is one of the biggest challenges in construction. Avantiqo provides workforce visibility, attendance tracking, payroll management, productivity monitoring, contractor oversight and operational reporting from one connected platform.",
+      "procurement_title": "Procurement, Inventory & Equipment Control",
+      "procurement_text": "Materials, equipment and procurement represent some of the largest project costs. Avantiqo connects purchase requests, supplier management, inventory, warehouses, equipment tracking and project allocations into one procurement engine. Every material movement becomes visible and every purchase becomes traceable.",
+      "difference_title": "Why Avantiqo Is Different",
+      "difference_text": "Most software solves one problem. Project management software manages tasks. ERP systems manage accounting. CRM systems manage customers. Avantiqo connects the entire construction business. Projects, procurement, workforce, finance, clients, marketing and synthetic intelligence operate from one environment instead of ten disconnected systems.",
+      "future_title": "The Future Construction Company",
+      "future_text": "The future construction company operates with live visibility, connected workflows and predictive intelligence. Instead of reacting to delays, budget overruns and operational surprises, management can make informed decisions before problems occur. Avantiqo transforms construction companies from reactive organizations into proactive businesses.",
+      "cta_title": "Construction Without Blind Spots",
+      "cta_text": "Connect projects, procurement, workforce, finance, reporting, client visibility, marketing and synthetic intelligence into one construction operating system.",
+      "flow_step_1": "Lead",
+      "flow_step_2": "CRM",
+      "flow_step_3": "Quotation",
+      "flow_step_4": "Tender",
+      "flow_step_5": "Project Award",
+      "flow_step_6": "Project Setup",
+      "flow_step_7": "Procurement",
+      "flow_step_8": "Inventory",
+      "flow_step_9": "Workforce",
+      "flow_step_10": "Site Reporting",
+      "flow_step_11": "Billing",
+      "flow_step_12": "Invoices",
+      "flow_step_13": "Project Completion",
+      "flow_step_14": "Case Study",
+      "flow_step_15": "Marketing",
+      "flow_step_16": "Next Project",
+      "difference_1_title": "Not Project Management Software",
+      "difference_1_text": "Project management tools manage tasks. Construction companies need to manage entire businesses.",
+      "difference_2_title": "Not Traditional ERP",
+      "difference_2_text": "Traditional ERP systems were built around accounting. Avantiqo is built around operational reality.",
+      "difference_3_title": "Digital Twin Of Your Business",
+      "difference_3_text": "Every project, supplier, worker, asset and transaction becomes part of one connected operational model.",
+      "difference_4_title": "One Platform Instead Of Five",
+      "difference_4_text": "Replace disconnected project software, CRM, ERP, reporting and marketing tools with one connected environment.",
+      "marketing_item_1": "Company profiles",
+      "marketing_item_2": "Capability statements",
+      "marketing_item_3": "Tender documents",
+      "marketing_item_4": "Project case studies",
+      "marketing_item_5": "Website content",
+      "marketing_item_6": "Social media campaigns",
+      "marketing_item_7": "Client presentations"
+    },
+    "professionalServices": {
+      "hero": {
+        "title": "Professional Services Powered by Synthetic Intelligence",
+        "description": "Turn expertise into actionable intelligence for accounting firms, law firms, and advisory businesses. Control clients, projects, compliance, and financial performance from a single platform.",
+        "primary": "Book Demo",
+        "secondary": "Explore Platform"
+      },
+      "sections": [
+        {
+          "title": "Professional Services Challenges",
+          "cards": [
+            {
+              "title": "Inefficient Operations",
+              "desc": "Manual processes and fragmented workflows slow down service delivery."
+            },
+            {
+              "title": "Data Silos",
+              "desc": "Critical insights are scattered across platforms, limiting decision-making."
+            },
+            {
+              "title": "Client Experience Gaps",
+              "desc": "Lack of real-time visibility reduces client satisfaction and retention."
+            }
+          ]
+        },
+        {
+          "title": "Synthetic Intelligence for Accounting & Law",
+          "cards": [
+            {
+              "title": "AI Recommendations",
+              "desc": "Leverage AI to optimize client workflows, approvals, and reporting."
+            },
+            {
+              "title": "Predictive Analytics",
+              "desc": "Forecast revenue, risk, and operational bottlenecks with precision."
+            },
+            {
+              "title": "Automated Decision Making",
+              "desc": "Streamline internal approvals and compliance using AI-driven insights."
+            },
+            {
+              "title": "Client Behavior Insights",
+              "desc": "Understand client trends, retention, and engagement patterns."
+            },
+            {
+              "title": "Operational KPIs",
+              "desc": "Track firm-wide performance, staff productivity, and client profitability."
+            }
+          ]
+        },
+        {
+          "title": "Why Accounting Firms Choose Avantiqo",
+          "cards": [
+            {
+              "title": "Client Profitability Intelligence",
+              "desc": "Know exactly which clients generate profit, consume resources, and require intervention before margins decline."
+            },
+            {
+              "title": "Practice Performance",
+              "desc": "Monitor utilization, realization rates, WIP, recoverability, and team performance across the entire firm."
+            },
+            {
+              "title": "Compliance & Audit Readiness",
+              "desc": "Maintain audit trails, approvals, governance, and compliance controls automatically."
+            },
+            {
+              "title": "Advisory Intelligence",
+              "desc": "Move beyond bookkeeping by identifying opportunities, risks, and recommendations for every client."
+            }
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Operate. Control. Advise. Deliver.",
+        "description": "Avantiqo connects client management, projects, compliance, finance, and synthetic intelligence into one operating system for professional services businesses."
+      }
+    },
+    "retailCommerce": {
+      "hero": {
+        "title": "From Point of Sale to Complete Retail Intelligence & Design",
+        "description": "Manage sales, inventory, customers, marketing, finance, synthetic intelligence, and design from one unified platform.",
+        "primary": "Book Demo",
+        "secondary": "Explore Platform"
+      },
+      "sections": [
+        {
+          "title": "Retail Challenges",
+          "cards": [
+            {
+              "title": "Inventory Inaccuracies",
+              "desc": "Stock visibility is fragmented across locations, causing overstock and lost sales."
+            },
+            {
+              "title": "Disconnected Systems",
+              "desc": "Different software across stores leads to data silos and slow operations."
+            },
+            {
+              "title": "Customer Churn",
+              "desc": "Lack of real-time customer insights leads to missed opportunities."
+            },
+            {
+              "title": "Delayed Financial Insights",
+              "desc": "Manual reporting and fragmented finance data delay decision-making."
+            },
+            {
+              "title": "Manual Stock Tracking",
+              "desc": "Limited automation increases errors and operational burden."
+            },
+            {
+              "title": "Limited Marketing Intelligence",
+              "desc": "Campaigns are hard to optimize without a unified system."
+            }
+          ]
+        },
+        {
+          "title": "Retail Operating System",
+          "cards": [
+            {
+              "title": "Customer Intelligence",
+              "desc": "Detailed customer profiles, loyalty tracking, AI-driven insights."
+            },
+            {
+              "title": "Point of Sale",
+              "desc": "Modern POS with returns, discounts, gift cards, multi-location support."
+            },
+            {
+              "title": "Inventory & Supply Chain",
+              "desc": "Stock levels, warehouses, transfers, purchase orders, automation."
+            },
+            {
+              "title": "Finance & Accounting",
+              "desc": "Revenue, expenses, profitability, cash flow, integrated reporting."
+            },
+            {
+              "title": "Marketing Automation",
+              "desc": "Campaign creation, social publishing, AI-generated content."
+            },
+            {
+              "title": "Synthetic Intelligence",
+              "desc": "Predictive analytics, operational intelligence, automated decisions."
+            },
+            {
+              "title": "Design Studio",
+              "desc": "Visual campaign design, social media graphics, product mockups."
+            },
+            {
+              "title": "Business Intelligence",
+              "desc": "Sales dashboards, KPIs, multi-store analytics, AI forecasting."
+            }
+          ]
+        },
+        {
+          "title": "Retail Without Blind Spots",
+          "cards": [
+            {
+              "title": "Complete Visibility",
+              "desc": "End-to-end view of operations, inventory, and customer behavior."
+            },
+            {
+              "title": "Data-Driven Decisions",
+              "desc": "AI-powered insights to optimize sales, marketing, and operations."
+            },
+            {
+              "title": "Seamless Integration",
+              "desc": "All systems connected for real-time, actionable intelligence."
+            }
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Ready To Transform Retail?",
+        "description": "Connect sales, inventory, customers, finance, marketing and AI into one operating system.",
+        "primary": "Book Demo",
+        "secondary": "Explore Platform"
+      }
+    },
+    "distributionManufacturing": {
+      "hero": {
+        "title": "From Raw Materials To Delivered Products",
+        "description": "Control procurement, inventory, production, warehousing, logistics, finance, and operational intelligence from one unified platform.",
+        "primary": "Book Demo",
+        "secondary": "Explore Platform"
+      },
+      "sections": [
+        {
+          "title": "Industry Challenges",
+          "cards": [
+            {
+              "title": "Inventory Inaccuracy",
+              "desc": "Stock discrepancies cause overstock and lost sales."
+            },
+            {
+              "title": "Production Delays",
+              "desc": "Manufacturing bottlenecks delay order fulfillment."
+            },
+            {
+              "title": "Supply Chain Disruption",
+              "desc": "Uncoordinated logistics increase lead times."
+            },
+            {
+              "title": "Disconnected Warehouses",
+              "desc": "Multiple locations without centralized control."
+            },
+            {
+              "title": "Poor Forecasting",
+              "desc": "Limited analytics prevent accurate production planning."
+            },
+            {
+              "title": "Lack Of Visibility",
+              "desc": "Limited insight into operations and inventory performance."
+            }
+          ]
+        },
+        {
+          "title": "Manufacturing Operating System",
+          "cards": [
+            {
+              "title": "Procurement",
+              "desc": "Purchase requests, orders, supplier management, approvals, receiving."
+            },
+            {
+              "title": "Inventory & Warehousing",
+              "desc": "Stock levels, locations, transfers, batch tracking, cycle counts."
+            },
+            {
+              "title": "Production",
+              "desc": "Recipes, BOM, production orders, costing, yield tracking."
+            },
+            {
+              "title": "Logistics",
+              "desc": "Deliveries, fleet management, shipping, tracking, distribution."
+            },
+            {
+              "title": "Finance & Accounting",
+              "desc": "AP, AR, ledger, cost accounting, reporting."
+            },
+            {
+              "title": "Synthetic Intelligence",
+              "desc": "Predict demand, forecast inventory, identify bottlenecks, reduce waste, automate decisions."
+            },
+            {
+              "title": "Design Studio",
+              "desc": "Product design, packaging, labels, marketing assets, product launches."
+            }
+          ]
+        },
+        {
+          "title": "Distribution Without Blind Spots",
+          "cards": [
+            {
+              "title": "Complete Visibility",
+              "desc": "Full end-to-end visibility across production and distribution."
+            },
+            {
+              "title": "Data-Driven Decisions",
+              "desc": "AI-powered insights to optimize operations, inventory and logistics."
+            },
+            {
+              "title": "Seamless Integration",
+              "desc": "All modules connected for real-time actionable intelligence."
+            }
+          ]
+        }
+      ],
+      "cta": {
+        "title": "Operate. Control. Produce. Deliver.",
+        "description": "Modern manufacturing requires visibility across every step of the supply chain. Avantiqo connects procurement, inventory, production, logistics, finance, synthetic intelligence, and design into one operating system.",
+        "primary": "Book Demo",
+        "secondary": "Explore Platform"
+      }
+    },
+    "showcaseSections": [
+      {
+        "eyebrow": "PORTALE DEL PERSONALE",
+        "title": "Un ambiente di lavoro per ogni dipendente. Una fonte di verità per la leadership.",
+        "intro": "La maggior parte delle organizzazioni pensa di avere un sistema di gestione del personale. In realtà, dispongono di una raccolta di strumenti scollegati che costringono dipendenti e manager a passare continuamente tra piattaforme diverse.",
+        "paragraphs": [
+          "La presenza viene registrata in un unico sistema. La programmazione viene gestita altrove. I calcoli della retribuzione avvengono in fogli di calcolo. I registri della formazione vengono archiviati in cartelle. Le valutazioni delle performance dipendono dalla supervisione manuale, dalla memoria e da report separati.",
+          "Con la crescita dell'organizzazione, questa frammentazione genera complessità. I manager trascorrono più tempo a raccogliere informazioni che a guidare. I dipendenti si frustrano perché le aspettative non sono chiare. La leadership perde visibilità sulle prestazioni del personale.",
+          "Il Portale del Personale di Avantiqo crea un ambiente operativo dedicato per ogni dipendente. Invece di navigare tra più sistemi, i dipendenti interagiscono in un ambiente dove possono gestire presenza, pianificazione, responsabilità, retribuzione, formazione, comunicazione e performance.",
+          "I manager ottengono una visibilità in tempo reale su chi è presente, chi è in ritardo, chi è produttivo, chi necessita supporto e chi supera le aspettative. Questo trasforma la gestione del personale da processo reattivo a disciplina proattiva.",
+          "Il risultato è responsabilità, chiarezza e controllo. Ogni azione diventa misurabile. Ogni responsabilità visibile. Ogni dipendente fa parte dello strato di intelligenza operativa."
+        ],
+        "points": [
+          "Tracciamento presenze, timbrature, ritardi e assenze",
+          "Programmazione, turni, assegnazione compiti e esecuzione giornaliera",
+          "Trasparenza sulla retribuzione, bonus, deduzioni e approvazioni",
+          "Valutazioni delle performance, formazione e conformità"
+        ]
+      },
+      {
+        "eyebrow": "PORTALE CLIENTI",
+        "title": "Connetti tutto. Non sostituire nulla.",
+        "intro": "Le aziende interagiscono con i clienti tramite più canali. Il portale clienti centralizza la comunicazione e fornisce una vista completa.",
+        "paragraphs": [
+          "La comunicazione viene documentata e tracciata. Ogni interazione diventa parte di un processo operativo documentato.",
+          "Questo migliora la fiducia, riduce il carico amministrativo e crea un’esperienza cliente più professionale.",
+          "I clienti sono informati. Le aziende appaiono organizzate. Le relazioni si rafforzano."
+        ],
+        "points": [
+          "Comunicazione clienti centralizzata",
+          "Riduzione del lavoro amministrativo",
+          "Miglioramento della fidelizzazione",
+          "Trasparenza in tutte le interazioni"
+        ]
+      },
+      {
+        "eyebrow": "PIATTAFORMA OPERATIVA",
+        "title": "Il software tradizionale registra eventi. L’Intelligenza Sintetica li comprende.",
+        "intro": "Le operazioni non sono solo documentate, ma comprese e interpretate in tempo reale.",
+        "paragraphs": [
+          "Tutti i dati operativi vengono acquisiti: progetti, risorse, attività, finanze.",
+          "I manager ricevono una dashboard che mostra prestazioni, colli di bottiglia e rischi.",
+          "Avvisi automatici segnalano potenziali problemi prima che si aggravino.",
+          "La piattaforma collega i dati operativi alle decisioni strategiche.",
+          "Ogni evento diventa parte di una base decisionale intelligente."
+        ],
+        "points": [
+          "Trasparenza completa dei processi",
+          "Monitoraggio in tempo reale",
+          "Rilevamento precoce dei rischi",
+          "Integrazione con tutte le fonti dati operative"
+        ]
+      },
+      {
+        "eyebrow": "PIATTAFORMA FINANZIARIA",
+        "title": "Intelligenza finanziaria in tempo reale",
+        "intro": "I dati finanziari fluiscono automaticamente da tutti i sistemi operativi.",
+        "paragraphs": [
+          "Contabilità, controllo e reporting collegati alle operazioni.",
+          "Le discrepanze vengono evidenziate automaticamente.",
+          "I modelli predittivi supportano flussi di cassa e decisioni di budget.",
+          "Tutto è consolidato per una visione chiara delle finanze.",
+          "Non servono più riconciliazioni manuali."
+        ],
+        "points": [
+          "Report automatici",
+          "Integrazione con dati operativi",
+          "Avvisi finanziari",
+          "Trasparenza in tempo reale"
+        ]
+      },
+      {
+        "eyebrow": "CRM",
+        "title": "Dati clienti collegati in modo intelligente",
+        "intro": "Tutte le interazioni con i clienti sono unite in un’unica piattaforma.",
+        "paragraphs": [
+          "Vista a 360° delle attività dei clienti.",
+          "Storico, contatti e campagne in un unico pannello.",
+          "Analisi fidelizzazione e conversioni.",
+          "Raccomandazioni automatiche per vendite e supporto.",
+          "Collegamento tra marketing, vendite e servizio clienti."
+        ],
+        "points": [
+          "Dati clienti centralizzati",
+          "Storico interazioni in tempo reale",
+          "Analisi automatizzate",
+          "Miglioramento delle relazioni"
+        ]
+      },
+      {
+        "eyebrow": "STUDIO MARKETING",
+        "title": "Gestisci le attività di marketing in modo intelligente",
+        "intro": "Tutte le campagne, canali e contenuti sono gestiti in uno studio centralizzato.",
+        "paragraphs": [
+          "Pianificazione ed esecuzione delle campagne in tempo reale.",
+          "Analisi delle prestazioni e ottimizzazione.",
+          "Coordinamento del team e approvazioni centralizzate.",
+          "Report e KPI automatici.",
+          "Integrazione con CRM e Analytics."
+        ],
+        "points": [
+          "Gestione campagne centralizzata",
+          "Analisi in tempo reale",
+          "Coordinamento del team",
+          "Monitoraggio delle prestazioni"
+        ]
+      },
+      {
+        "eyebrow": "STUDIO DESIGN",
+        "title": "Design e creatività su un’unica piattaforma",
+        "intro": "Progetti e asset di design centralizzati e tracciabili.",
+        "paragraphs": [
+          "Versionamento di asset e progetti.",
+          "Processi di approvazione per i team di design.",
+          "Collaborazione in tempo reale.",
+          "Integrazione con marketing e CRM.",
+          "Tracciamento e audit degli asset."
+        ],
+        "points": [
+          "Gestione centralizzata degli asset",
+          "Controllo versioni",
+          "Collaborazione del team",
+          "Trasparenza nel processo creativo"
+        ]
+      },
+      {
+        "eyebrow": "INTEGRAZIONI",
+        "title": "Tutti i sistemi connessi",
+        "intro": "Piattaforme, strumenti e fonti dati integrate senza soluzione di continuità.",
+        "paragraphs": [
+          "Sincronizzazione automatica dei dati.",
+          "API per ogni processo aziendale.",
+          "Monitoraggio e avvisi.",
+          "Garanzia di coerenza dei dati.",
+          "Vista completa del sistema."
+        ],
+        "points": [
+          "Integrazioni centralizzate",
+          "Coerenza dei dati",
+          "Monitoraggio automatico",
+          "API per processi aziendali"
+        ]
+      },
+      {
+        "eyebrow": "INTELLIGENZA SINTETICA",
+        "title": "Intelligenza artificiale per le aziende",
+        "intro": "L’Intelligenza Sintetica collega tutti i dati operativi e fornisce raccomandazioni.",
+        "paragraphs": [
+          "Analisi in tempo reale per l’azienda.",
+          "Previsioni e raccomandazioni.",
+          "Supporto decisionale automatizzato.",
+          "Integrazione con operazioni e finanza.",
+          "Cicli di apprendimento continui."
+        ],
+        "points": [
+          "Insights in tempo reale",
+          "Raccomandazioni proattive",
+          "Decisioni automatizzate",
+          "Collegamento intelligente dei dati"
+        ]
+      }
+    ],
+    "whatIsAvantiqo": {
+      "eyebrow": "COS'È AVANTIQO",
+      "title1": "La Maggior Parte Delle Aziende Ha Dati.",
+      "title2": "Pochissime Hanno Intelligenza.",
+      "paragraphs": [
+        "La maggior parte delle organizzazioni opera attraverso una raccolta di sistemi scollegati, fogli di calcolo, email, applicazioni di messaggistica e software specifici per reparto. Ogni team vede solo una piccola parte dell'azienda mentre la leadership cerca di prendere decisioni senza comprendere il quadro completo.",
+        "Le vendite operano separatamente dalla finanza. Le operazioni operano separatamente dal servizio clienti. Il marketing opera separatamente dall'esecuzione. I dipendenti utilizzano un insieme di strumenti mentre la direzione si affida ad altri.",
+        "Il risultato sono ritardi, lavoro duplicato, opportunità perse e decisioni basate su informazioni incomplete. La sfida non è la mancanza di dati. La sfida è che nessuno riesce a vedere come i dati siano collegati.",
+        "Avantiqo diventa il livello di intelligenza operativa che collega ogni parte dell'organizzazione in un unico ambiente."
+      ]
+    },
+    "whyAvantiqo": {
+      "eyebrow": "PERCHÉ AVANTIQO È DIVERSO",
+      "title1": "La Maggior Parte Del Software Crea",
+      "title2": "Più Sistemi.",
+      "title3": "Avantiqo Crea Un Livello Di Intelligenza.",
+      "intro": "Le aziende moderne non soffrono per la mancanza di software. Soffrono per la mancanza di connessione tra i software.",
+      "paragraphs": [
+        "Le organizzazioni moderne sono rimaste intrappolate in una raccolta sempre più ampia di software.",
+        "Un CRM per i clienti. Un sistema contabile per la finanza. Una piattaforma di gestione progetti per le operazioni. Strumenti separati per le buste paga. Strumenti separati per il marketing. Strumenti separati per la comunicazione. Strumenti separati per la reportistica.",
+        "Ogni nuovo problema crea un nuovo sistema. Ogni nuovo sistema crea una nuova fonte di informazioni. Ogni nuova fonte di informazioni crea un nuovo livello di complessità.",
+        "Con il tempo, le organizzazioni si ritrovano circondate dal software ma sempre più scollegate dalla comprensione di ciò che accade realmente all'interno dell'azienda.",
+        "I reparti iniziano a operare in modo indipendente. Le informazioni diventano frammentate. I report diventano incoerenti. La leadership trascorre più tempo a raccogliere informazioni che a prendere decisioni.",
+        "Il problema non è che le organizzazioni manchino di tecnologia. Il problema è che la tecnologia è scollegata.",
+        "La maggior parte del software risolve un singolo problema. Pochissimo software comprende come i problemi siano collegati.",
+        "Un problema del cliente diventa alla fine un problema operativo. Un problema operativo diventa un problema finanziario. Un problema del personale diventa un problema del cliente. Una decisione di marketing diventa una decisione sulla redditività.",
+        "Tutto all'interno di un'azienda è collegato. Il software tradizionale raramente riflette questa realtà.",
+        "Avantiqo è stato costruito su una filosofia diversa. Invece di creare un'altra applicazione isolata, Avantiqo crea un livello di intelligenza unificato per l'intera organizzazione.",
+        "Personale. Clienti. Operazioni. Finanza. Marketing. Progetti. Conformità. Reportistica. Leadership.",
+        "Tutto collegato all'interno di un unico ambiente.",
+        "Questo significa che la leadership non vede più report scollegati provenienti da reparti separati. La leadership vede relazioni.",
+        "Come le prestazioni della forza lavoro influenzano la redditività. Come l'esecuzione operativa influenza la soddisfazione dei clienti. Come le prestazioni del marketing influenzano i ricavi. Come la consegna dei progetti influenza il flusso di cassa. Come la conformità influenza il rischio organizzativo.",
+        "Invece di gestire sistemi software, le organizzazioni gestiscono l'azienda stessa."
+      ],
+      "conclusion1": "Un'organizzazione. Un livello di intelligenza. Una realtà operativa. Un'unica fonte di verità.",
+      "conclusion2": "La maggior parte del software aiuta le organizzazioni ad archiviare informazioni. Avantiqo aiuta le organizzazioni a comprendere le informazioni."
+    },
+    "accountingAdvisory": {
+      "eyebrow": "STUDI DI CONTABILITÀ",
+      "title1": "La Contabilità Tradizionale Spiega Il Passato.",
+      "title2": "La Consulenza Moderna Richiede Di Comprendere Il Presente.",
+      "intro": "La maggior parte degli studi di contabilità riceve le informazioni dopo che le decisioni importanti sono già state prese. Avantiqo offre visibilità sull'azienda mentre è operativa, non settimane dopo.",
+      "paragraphs": [
+        "La maggior parte degli studi di contabilità riceve le informazioni dopo che le decisioni importanti sono già state prese.",
+        "Le fatture arrivano dopo che il lavoro è stato completato. Le buste paga vengono elaborate dopo che il costo del lavoro è già stato sostenuto. I report finanziari vengono prodotti dopo che le decisioni operative hanno già influenzato la redditività.",
+        "Quando un commercialista identifica un problema, spesso esso esiste già da settimane o mesi. Può spiegare cosa è successo, ma non sempre perché è successo.",
+        "Un calo della redditività può essere causato da inefficienze del personale. Le pressioni sul flusso di cassa possono essere causate da ritardi operativi. L'erosione dei margini può essere causata da sforamenti di progetto.",
+        "Avantiqo cambia questo collegando direttamente l'attività operativa all'intelligenza finanziaria. Invece di aspettare la fine del mese, gli studi possono comprendere le prestazioni aziendali mentre l'azienda è in funzione.",
+        "Possono vedere le prestazioni del personale. Possono vedere i colli di bottiglia operativi. Possono vedere l'esecuzione dei progetti. Possono vedere l'attività dei clienti. Possono vedere l'efficacia del marketing.",
+        "Questo trasforma il ruolo del commercialista. Invece di essere principalmente un fornitore di conformità, lo studio diventa un consulente strategico per l'impresa.",
+        "Le conversazioni con i clienti diventano più preziose. Le raccomandazioni diventano più accurate. I problemi possono essere identificati prima che causino danni finanziari.",
+        "Questo crea relazioni più forti con i clienti perché il commercialista non si limita più a riportare i risultati. Aiuta a influenzarli.",
+        "Per gli studi di contabilità, questo crea un significativo vantaggio competitivo. I clienti rimangono più a lungo. I ricavi da consulenza aumentano. Le relazioni diventano più profonde.",
+        "La contabilità tradizionale spiega il passato. Avantiqo aiuta gli studi a comprendere l'azienda mentre gli eventi stanno accadendo."
+      ]
     }
   },
   "navigation": {
@@ -2006,5 +2679,12 @@
       "ai": "AI Forecasting",
       "accounting": "Accounting Runtime"
     }
+  },
+  "nav": {
+    "industries": "Settori",
+    "synthetic_intelligence": "Intelligenza Sintetica",
+    "security": "Sicurezza",
+    "login": "Accedi",
+    "start_setup": "Inizia"
   }
 }

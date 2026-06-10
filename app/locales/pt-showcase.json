@@ -1,0 +1,166 @@
+{
+  "showcaseSections": [
+    {
+      "eyebrow": "PORTAL DE FUNCIONÁRIOS",
+      "title": "Um espaço de trabalho para cada colaborador. Uma única fonte de verdade para a liderança.",
+      "intro": "A maioria das organizações acredita que possui um sistema de gestão de colaboradores. Na realidade, possui uma coleção de ferramentas desconectadas que obriga funcionários e gestores a alternar constantemente entre plataformas.",
+      "paragraphs": [
+        "A presença é registrada em um sistema. Os horários são geridos em outro. A folha de pagamento é calculada em planilhas. Os registros de treinamento são armazenados em pastas. As avaliações de desempenho dependem de supervisão manual, memória e relatórios desconectados.",
+        "À medida que a organização cresce, essa fragmentação gera complexidade. Os gestores passam mais tempo reunindo informações do que liderando pessoas. Os colaboradores ficam frustrados porque as expectativas não são claras. A liderança perde visibilidade sobre o desempenho da equipe.",
+        "O Portal de Funcionários da Avantiqo cria um ambiente operacional dedicado para cada colaborador. Em vez de navegar entre vários sistemas, os funcionários interagem em um único ambiente onde podem gerenciar presença, horários, responsabilidades, folha de pagamento, treinamento, comunicação e desempenho.",
+        "Os gestores obtêm visibilidade em tempo real sobre quem está presente, quem está atrasado, quem é produtivo, quem precisa de apoio e quem supera as expectativas. Isso transforma a gestão de pessoas de um processo reativo para uma disciplina proativa.",
+        "O resultado é responsabilidade, clareza e controle. Cada ação torna-se mensurável. Cada responsabilidade torna-se visível. Cada colaborador passa a fazer parte da camada de inteligência operacional."
+      ],
+      "points": [
+        "Presença, registro de ponto, atrasos e ausências",
+        "Escalas, turnos, atribuição de tarefas e execução diária",
+        "Visibilidade da folha de pagamento, bônus, descontos e aprovações",
+        "Avaliações de desempenho, treinamentos e conformidade"
+      ]
+    },
+    {
+      "eyebrow": "PORTAL DO CLIENTE",
+      "title": "Conecte tudo. Não substitua nada.",
+      "intro": "As empresas interagem com clientes através de vários canais. O Portal do Cliente centraliza a comunicação e fornece uma visão completa.",
+      "paragraphs": [
+        "A comunicação torna-se documentada e rastreável. Cada interação passa a fazer parte de um processo operacional documentado.",
+        "Isso aumenta a confiança, reduz a carga administrativa e cria uma experiência mais profissional para o cliente.",
+        "Os clientes sentem-se informados. As empresas parecem organizadas. Os relacionamentos tornam-se mais fortes.",
+        "Todas as solicitações, aprovações e atualizações ficam centralizadas em um único local.",
+        "O resultado é uma experiência consistente para clientes e equipes."
+      ],
+      "points": [
+        "Comunicação centralizada com clientes",
+        "Redução de processos administrativos",
+        "Maior retenção de clientes",
+        "Transparência em todas as interações"
+      ]
+    },
+    {
+      "eyebrow": "PLATAFORMA DE OPERAÇÕES",
+      "title": "O software tradicional registra eventos. A Inteligência Sintética compreende eventos.",
+      "intro": "As operações não são apenas registradas. Elas são compreendidas e interpretadas em tempo real.",
+      "paragraphs": [
+        "Todos os dados operacionais são capturados: projetos, recursos, tarefas e finanças.",
+        "Os gestores recebem painéis que mostram desempenho, gargalos e riscos.",
+        "Alertas automáticos identificam problemas antes que se tornem críticos.",
+        "A plataforma conecta dados operacionais às decisões estratégicas.",
+        "Cada evento torna-se parte de uma base inteligente para tomada de decisões."
+      ],
+      "points": [
+        "Transparência completa dos processos",
+        "Monitoramento em tempo real",
+        "Detecção antecipada de riscos",
+        "Integração com todas as fontes operacionais"
+      ]
+    },
+    {
+      "eyebrow": "PLATAFORMA FINANCEIRA",
+      "title": "Inteligência financeira em tempo real.",
+      "intro": "Os dados financeiros fluem automaticamente de todos os sistemas operacionais.",
+      "paragraphs": [
+        "Contabilidade, controle financeiro e relatórios estão conectados às operações.",
+        "Desvios e inconsistências são destacados automaticamente.",
+        "Modelos preditivos auxiliam decisões de fluxo de caixa e orçamento.",
+        "Tudo é consolidado em uma visão financeira clara.",
+        "Elimina a necessidade de reconciliações manuais demoradas."
+      ],
+      "points": [
+        "Relatórios automatizados",
+        "Integração com dados operacionais",
+        "Alertas financeiros inteligentes",
+        "Transparência em tempo real"
+      ]
+    },
+    {
+      "eyebrow": "CRM",
+      "title": "Dados de clientes conectados de forma inteligente.",
+      "intro": "Todas as interações com clientes são reunidas em uma única plataforma.",
+      "paragraphs": [
+        "Visão 360° das atividades dos clientes.",
+        "Histórico, contatos e campanhas em um único painel.",
+        "Análise de retenção e conversão de clientes.",
+        "Recomendações automatizadas para vendas e suporte.",
+        "Integração entre marketing, vendas e atendimento."
+      ],
+      "points": [
+        "Dados centralizados de clientes",
+        "Histórico de interações em tempo real",
+        "Análises automatizadas",
+        "Relacionamentos mais fortes"
+      ]
+    },
+    {
+      "eyebrow": "ESTÚDIO DE MARKETING",
+      "title": "Gerencie atividades de marketing de forma inteligente.",
+      "intro": "Campanhas, canais e conteúdos são gerenciados em um estúdio centralizado.",
+      "paragraphs": [
+        "Planejamento e execução de campanhas em tempo real.",
+        "Análise de desempenho e otimização contínua.",
+        "Coordenação de equipes e aprovações centralizadas.",
+        "Relatórios automáticos e indicadores-chave.",
+        "Integração completa com CRM e Analytics."
+      ],
+      "points": [
+        "Gestão centralizada de campanhas",
+        "Análise em tempo real",
+        "Coordenação de equipes",
+        "Monitoramento de desempenho"
+      ]
+    },
+    {
+      "eyebrow": "ESTÚDIO DE DESIGN",
+      "title": "Design e criatividade em uma única plataforma.",
+      "intro": "Projetos e ativos criativos são centralizados e rastreáveis.",
+      "paragraphs": [
+        "Controle de versões para projetos e ativos.",
+        "Fluxos de aprovação para equipes criativas.",
+        "Colaboração em tempo real.",
+        "Integração com marketing e CRM.",
+        "Auditoria e rastreamento de ativos."
+      ],
+      "points": [
+        "Gestão centralizada de ativos",
+        "Controle de versões",
+        "Colaboração em equipe",
+        "Transparência criativa"
+      ]
+    },
+    {
+      "eyebrow": "INTEGRAÇÕES",
+      "title": "Todos os sistemas conectados.",
+      "intro": "Plataformas, ferramentas e fontes de dados integradas sem barreiras.",
+      "paragraphs": [
+        "Sincronização automática de dados.",
+        "APIs para todos os processos empresariais.",
+        "Monitoramento e alertas automáticos.",
+        "Garantia de consistência de dados.",
+        "Visão completa de todo o ecossistema tecnológico."
+      ],
+      "points": [
+        "Integrações centralizadas",
+        "Consistência de dados",
+        "Monitoramento automatizado",
+        "APIs para processos empresariais"
+      ]
+    },
+    {
+      "eyebrow": "INTELIGÊNCIA SINTÉTICA",
+      "title": "Inteligência artificial para empresas.",
+      "intro": "A Inteligência Sintética conecta todos os dados operacionais e fornece recomendações inteligentes.",
+      "paragraphs": [
+        "Análises empresariais em tempo real.",
+        "Previsões e recomendações proativas.",
+        "Suporte automatizado à tomada de decisões.",
+        "Integração com operações e finanças.",
+        "Ciclos contínuos de aprendizado e melhoria."
+      ],
+      "points": [
+        "Insights em tempo real",
+        "Recomendações proativas",
+        "Decisões automatizadas",
+        "Conexão inteligente de dados"
+      ]
+    }
+  ]
+}
