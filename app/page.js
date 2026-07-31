@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const LOGIN_URL = "https://app.churchillkaron.com/login";
+const LOGIN_URL = "https://app.churchillkaron.com/login?brand=avantiqo";
 
 const orbitNodes = [
   ["Finance", "left-[1%] top-[46%]"],
