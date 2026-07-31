@@ -1,164 +1,140 @@
 const LOGIN_URL = "https://app.churchillkaron.com/login?brand=avantiqo";
 
-const priorities = [
-  ["Finance", "Payment run ready for approval", "Review"],
-  ["Operations", "Three service commitments need attention", "Open"],
-  ["Commercial", "New campaign approved and ready to publish", "Ready"],
-  ["People", "August workforce plan is complete", "Done"],
+const workRows = [
+  ["Finance", "Approve supplier payments", "Today", "Ready"],
+  ["Operations", "Resolve service delay", "14:30", "Priority"],
+  ["Commercial", "Publish campaign", "16:00", "Approved"],
+  ["People", "Confirm August staffing", "Tomorrow", "Review"],
 ];
 
-const operatingAreas = [
-  ["Finance", "Cash, revenue, cost, billing and reporting"],
-  ["Operations", "Work, service, inventory and delivery"],
-  ["Commercial", "Customers, sales, marketing and growth"],
-  ["People", "Responsibility, capacity and performance"],
-  ["Projects", "Plan, deliver, control and close"],
-  ["Governance", "Approvals, compliance and evidence"],
+const roleCards = [
+  ["Leadership", "A single view of performance, priorities and risk."],
+  ["Finance", "Cash, revenue, cost, control and reporting."],
+  ["Operations", "Work, service, inventory and delivery."],
+  ["Growth", "Customers, campaigns, websites and publishing."],
 ];
 
-const outcomes = [
-  ["Campaign", "A complete launch, ready for every channel", "campaign"],
-  ["Website", "A premium customer experience, ready to publish", "website"],
-  ["Film", "A finished brand story, planned scene by scene", "film"],
-  ["Report", "A clear executive view, ready for decision", "report"],
-];
-
-function Brand() {
+function Logo() {
   return (
     <div className="flex items-center gap-4">
       <img src="/avantiqo-logo.png" alt="Avantiqo" className="h-10 w-auto sm:h-11" />
       <div>
-        <p className="text-[11px] font-medium uppercase tracking-[0.46em] text-[#E2BA72]">Avantiqo</p>
-        <p className="mt-1 hidden text-[7px] uppercase tracking-[0.24em] text-white/35 sm:block">
+        <div className="text-[11px] font-semibold uppercase tracking-[0.46em] text-[#D9B36A]">Avantiqo</div>
+        <div className="mt-1 hidden text-[7px] uppercase tracking-[0.24em] text-white/38 sm:block">
           Synthetic Intelligence Operating System
-        </p>
+        </div>
       </div>
     </div>
   );
 }
 
-function Eyebrow({ children }) {
+function ProductWindow() {
   return (
-    <div className="flex items-center gap-4 text-[9px] uppercase tracking-[0.34em] text-[#D6A66A]/80">
-      <span className="h-px w-10 bg-[#D6A66A]/45" />
-      {children}
-    </div>
-  );
-}
-
-function CompanyCommand() {
-  return (
-    <div className="relative overflow-hidden rounded-[34px] border border-white/[0.09] bg-[#0A0A0B] shadow-[0_45px_140px_rgba(0,0,0,.58)]">
+    <div className="overflow-hidden rounded-[30px] border border-white/10 bg-[#0B0B0C] shadow-[0_45px_140px_rgba(0,0,0,.55)]">
       <div className="flex items-center justify-between border-b border-white/[0.07] px-5 py-4 sm:px-7">
-        <div>
-          <p className="text-[8px] uppercase tracking-[0.24em] text-[#D6A66A]/75">Company command</p>
-          <p className="mt-2 text-[12px] text-white/38">Everything that needs attention, in one place.</p>
+        <div className="flex items-center gap-3">
+          <div className="flex gap-1.5">
+            <span className="h-2 w-2 rounded-full bg-white/15" />
+            <span className="h-2 w-2 rounded-full bg-white/10" />
+            <span className="h-2 w-2 rounded-full bg-white/10" />
+          </div>
+          <span className="text-[8px] uppercase tracking-[0.2em] text-white/28">Avantiqo Business Command</span>
         </div>
-        <div className="flex items-center gap-2 rounded-full border border-emerald-300/15 bg-emerald-300/[0.04] px-3 py-2">
-          <span className="h-1.5 w-1.5 rounded-full bg-emerald-300 shadow-[0_0_10px_rgba(110,231,183,.65)]" />
-          <span className="text-[7px] uppercase tracking-[0.18em] text-emerald-200/65">Live</span>
-        </div>
-      </div>
-
-      <div className="grid gap-px bg-white/[0.06] md:grid-cols-[1fr_.42fr]">
-        <div className="bg-[#09090A] p-5 sm:p-7">
-          <div className="flex items-end justify-between gap-4">
-            <div>
-              <p className="text-[8px] uppercase tracking-[0.2em] text-white/28">Today</p>
-              <h3 className="mt-3 text-3xl font-light tracking-[-0.04em] text-white/88">The company is moving.</h3>
-            </div>
-            <p className="text-right text-[9px] leading-5 text-white/28">4 decisions<br />12 actions</p>
-          </div>
-
-          <div className="mt-7 space-y-3">
-            {priorities.map(([area, title, status], index) => (
-              <div key={title} className="group flex items-center gap-4 rounded-2xl border border-white/[0.065] bg-white/[0.022] p-4 transition hover:border-[#D6A66A]/22 hover:bg-[#D6A66A]/[0.035]">
-                <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl border border-[#D6A66A]/18 bg-[#D6A66A]/[0.055] text-[9px] text-[#E6C17B]">
-                  0{index + 1}
-                </div>
-                <div className="min-w-0 flex-1">
-                  <p className="text-[8px] uppercase tracking-[0.17em] text-[#D6A66A]/60">{area}</p>
-                  <p className="mt-1 truncate text-[12px] text-white/64 sm:text-[13px]">{title}</p>
-                </div>
-                <span className="rounded-full border border-white/[0.07] px-3 py-1.5 text-[7px] uppercase tracking-[0.13em] text-white/32">
-                  {status}
-                </span>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <div className="bg-[#0C0C0D] p-5 sm:p-7">
-          <p className="text-[8px] uppercase tracking-[0.2em] text-white/28">Business health</p>
-          <div className="mt-6 flex aspect-square items-center justify-center rounded-full border border-[#D6A66A]/18 bg-[radial-gradient(circle,rgba(214,166,106,.11),rgba(214,166,106,.015)_58%,transparent_60%)]">
-            <div className="text-center">
-              <p className="text-5xl font-extralight text-[#F2D595]">91</p>
-              <p className="mt-2 text-[7px] uppercase tracking-[0.2em] text-white/30">Healthy</p>
-            </div>
-          </div>
-          <div className="mt-6 space-y-3">
-            {["Cash position", "Delivery", "Customer growth"].map((label, index) => (
-              <div key={label}>
-                <div className="mb-2 flex justify-between text-[8px] text-white/30">
-                  <span>{label}</span>
-                  <span>{[94, 87, 92][index]}%</span>
-                </div>
-                <div className="h-1 rounded-full bg-white/[0.055]">
-                  <div className="h-full rounded-full bg-gradient-to-r from-[#7D542D] to-[#E4BE77]" style={{ width: `${[94, 87, 92][index]}%` }} />
-                </div>
-              </div>
-            ))}
-          </div>
+        <div className="flex items-center gap-2 rounded-full border border-emerald-300/15 bg-emerald-300/[0.04] px-3 py-1.5">
+          <span className="h-1.5 w-1.5 rounded-full bg-emerald-300" />
+          <span className="text-[7px] uppercase tracking-[0.18em] text-emerald-200/70">Live</span>
         </div>
       </div>
-    </div>
-  );
-}
 
-function OperatingWorkspace() {
-  return (
-    <div className="overflow-hidden rounded-[36px] border border-white/[0.09] bg-[#080809] shadow-[0_40px_130px_rgba(0,0,0,.5)]">
-      <div className="grid min-h-[620px] lg:grid-cols-[180px_1fr]">
-        <aside className="hidden border-r border-white/[0.07] bg-black/28 p-5 lg:block">
+      <div className="grid min-h-[590px] lg:grid-cols-[150px_1fr]">
+        <aside className="hidden border-r border-white/[0.07] bg-black/25 p-4 lg:block">
           <img src="/avantiqo-logo.png" alt="" className="h-8 w-auto" />
-          <div className="mt-10 space-y-2">
-            {operatingAreas.map(([area], index) => (
-              <div key={area} className={`rounded-xl px-3 py-3 text-[8px] uppercase tracking-[0.15em] ${index === 0 ? "border border-[#D6A66A]/18 bg-[#D6A66A]/[0.055] text-[#E4BD74]" : "text-white/26"}`}>
-                {area}
+          <div className="mt-9 space-y-2">
+            {["Overview", "Finance", "Operations", "Commercial", "People", "Projects", "Documents"].map((item, index) => (
+              <div
+                key={item}
+                className={`rounded-xl px-3 py-3 text-[8px] uppercase tracking-[0.13em] ${
+                  index === 0
+                    ? "border border-[#D6A66A]/20 bg-[#D6A66A]/[0.06] text-[#E7C07A]"
+                    : "text-white/24"
+                }`}
+              >
+                {item}
               </div>
             ))}
           </div>
         </aside>
 
-        <div className="p-5 sm:p-8 lg:p-10">
-          <div className="flex flex-col gap-5 sm:flex-row sm:items-end sm:justify-between">
+        <div className="p-5 sm:p-7 lg:p-8">
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
             <div>
-              <p className="text-[8px] uppercase tracking-[0.24em] text-[#D6A66A]/70">One operating workspace</p>
-              <h3 className="mt-4 text-4xl font-extralight tracking-[-0.05em] text-white/90 sm:text-5xl">The work behind the company.</h3>
+              <p className="text-[8px] uppercase tracking-[0.22em] text-[#D6A66A]/75">Good afternoon</p>
+              <h3 className="mt-3 text-3xl font-light tracking-[-0.045em] text-white/90 sm:text-4xl">What needs attention today.</h3>
             </div>
-            <div className="rounded-full border border-white/[0.07] px-4 py-2 text-[8px] uppercase tracking-[0.16em] text-white/28">Current organisation</div>
+            <div className="rounded-full border border-white/[0.07] px-4 py-2 text-[8px] uppercase tracking-[0.16em] text-white/30">
+              All organisations
+            </div>
           </div>
 
-          <div className="mt-9 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
-            {operatingAreas.map(([area, text], index) => (
-              <article key={area} className={`min-h-[185px] rounded-[22px] border p-5 ${index === 0 || index === 3 ? "border-[#D6A66A]/20 bg-[#D6A66A]/[0.045]" : "border-white/[0.065] bg-white/[0.018]"}`}>
-                <div className="flex items-center justify-between">
-                  <span className="text-[8px] text-[#D6A66A]/52">0{index + 1}</span>
-                  <span className={`h-1.5 w-1.5 rounded-full ${index < 4 ? "bg-emerald-300/75" : "bg-[#D6A66A]/70"}`} />
-                </div>
-                <h4 className="mt-8 text-xl font-light text-white/80">{area}</h4>
-                <p className="mt-4 text-[12px] leading-6 text-white/34">{text}</p>
-              </article>
+          <div className="mt-7 grid grid-cols-2 gap-3 xl:grid-cols-4">
+            {[
+              ["Business health", "91", "Stable"],
+              ["Cash position", "THB 1.94M", "+8.1%"],
+              ["Open work", "128", "17 priority"],
+              ["Growth", "+14.6%", "This period"],
+            ].map(([label, value, note], index) => (
+              <div key={label} className={`rounded-2xl border p-4 ${index === 0 ? "border-[#D6A66A]/22 bg-[#D6A66A]/[0.055]" : "border-white/[0.065] bg-white/[0.022]"}`}>
+                <p className="text-[7px] uppercase tracking-[0.16em] text-white/30">{label}</p>
+                <p className="mt-4 text-xl font-light text-white/85">{value}</p>
+                <p className="mt-2 text-[8px] text-[#D6A66A]/65">{note}</p>
+              </div>
             ))}
           </div>
 
-          <div className="mt-5 rounded-[24px] border border-white/[0.065] bg-black/25 p-5 sm:p-6">
-            <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-              <div>
-                <p className="text-[8px] uppercase tracking-[0.2em] text-white/28">Next best action</p>
-                <p className="mt-3 text-lg font-light text-white/72">Approve the supplier payment run before 16:00.</p>
+          <div className="mt-4 grid gap-4 xl:grid-cols-[1.15fr_.85fr]">
+            <div className="rounded-[22px] border border-white/[0.065] bg-black/22 p-5">
+              <div className="flex items-center justify-between">
+                <div>
+                  <p className="text-[8px] uppercase tracking-[0.18em] text-white/28">Priority work</p>
+                  <p className="mt-2 text-sm text-white/50">Owned, timed and ready to move.</p>
+                </div>
+                <span className="text-[8px] text-[#D6A66A]/60">4 active</span>
               </div>
-              <span className="rounded-xl border border-[#D6A66A]/25 bg-[#D6A66A]/[0.06] px-5 py-3 text-[8px] uppercase tracking-[0.18em] text-[#E4BD74]">Review decision</span>
+              <div className="mt-5 space-y-2.5">
+                {workRows.map(([area, task, time, state], index) => (
+                  <div key={task} className="grid grid-cols-[36px_1fr_auto] items-center gap-3 rounded-xl border border-white/[0.055] bg-white/[0.02] p-3">
+                    <span className="flex h-8 w-8 items-center justify-center rounded-lg border border-[#D6A66A]/16 bg-[#D6A66A]/[0.045] text-[8px] text-[#E2B96E]">0{index + 1}</span>
+                    <div className="min-w-0">
+                      <p className="text-[7px] uppercase tracking-[0.14em] text-[#D6A66A]/55">{area}</p>
+                      <p className="mt-1 truncate text-[11px] text-white/58">{task}</p>
+                    </div>
+                    <div className="text-right">
+                      <p className="text-[8px] text-white/35">{time}</p>
+                      <p className="mt-1 text-[7px] uppercase tracking-[0.12em] text-white/22">{state}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="rounded-[22px] border border-white/[0.065] bg-[linear-gradient(145deg,rgba(214,166,106,.055),rgba(255,255,255,.015))] p-5">
+              <p className="text-[8px] uppercase tracking-[0.18em] text-white/28">Avantiqo prepared</p>
+              <div className="mt-5 rounded-2xl border border-[#D6A66A]/18 bg-black/25 p-5">
+                <p className="text-[8px] uppercase tracking-[0.18em] text-[#D6A66A]/70">Next action</p>
+                <p className="mt-4 text-xl font-light leading-7 text-white/78">Approve the supplier payment run before 16:00.</p>
+                <div className="mt-5 flex items-center justify-between">
+                  <span className="text-[8px] text-white/28">Finance · 12 payments</span>
+                  <span className="rounded-lg border border-[#D6A66A]/25 bg-[#D6A66A]/[0.07] px-3 py-2 text-[7px] uppercase tracking-[0.14em] text-[#E5BC73]">Review</span>
+                </div>
+              </div>
+              <div className="mt-3 grid grid-cols-2 gap-3">
+                {["Campaign ready", "Risk resolved"].map((item, index) => (
+                  <div key={item} className="rounded-xl border border-white/[0.055] bg-white/[0.018] p-3">
+                    <span className={`block h-1.5 w-1.5 rounded-full ${index ? "bg-emerald-300" : "bg-[#D6A66A]"}`} />
+                    <p className="mt-3 text-[10px] text-white/48">{item}</p>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
@@ -167,128 +143,196 @@ function OperatingWorkspace() {
   );
 }
 
-function OutputVisual({ type }) {
-  if (type === "campaign") {
-    return (
-      <div className="relative h-full overflow-hidden bg-[radial-gradient(circle_at_72%_20%,rgba(225,171,82,.42),transparent_28%),linear-gradient(145deg,#28170B,#0C0B10_62%)] p-6">
-        <p className="text-[8px] uppercase tracking-[0.28em] text-[#F0C97C]/80">New market campaign</p>
-        <div className="absolute bottom-6 left-6 right-6">
-          <p className="max-w-xs text-4xl font-extralight leading-[.98] tracking-[-0.05em] text-white">Move first.<br /><span className="text-[#E4B76C]">Own the moment.</span></p>
-          <div className="mt-5 flex gap-2">
-            {["Social", "Display", "Launch"].map((item) => <span key={item} className="rounded-full border border-white/10 px-3 py-1.5 text-[7px] uppercase tracking-[0.14em] text-white/40">{item}</span>)}
-          </div>
-        </div>
+function CreativeStudio() {
+  return (
+    <div className="overflow-hidden rounded-[32px] border border-white/10 bg-[#0B0B0D] shadow-[0_35px_110px_rgba(0,0,0,.45)]">
+      <div className="flex items-center justify-between border-b border-white/[0.07] px-6 py-4">
+        <p className="text-[8px] uppercase tracking-[0.22em] text-[#D6A66A]/75">Creative Studio</p>
+        <p className="text-[8px] text-white/26">From brief to publication</p>
       </div>
-    );
-  }
-
-  if (type === "website") {
-    return (
-      <div className="h-full bg-[#0B0B0D] p-4">
-        <div className="h-full overflow-hidden rounded-2xl border border-white/[0.08] bg-[linear-gradient(145deg,#17100A,#0B0B0E)]">
-          <div className="flex h-9 items-center justify-between border-b border-white/[0.06] px-4">
-            <div className="flex gap-1.5"><span className="h-1.5 w-1.5 rounded-full bg-white/15" /><span className="h-1.5 w-1.5 rounded-full bg-white/15" /><span className="h-1.5 w-1.5 rounded-full bg-white/15" /></div>
-            <span className="text-[6px] uppercase tracking-[0.2em] text-white/20">Customer experience</span>
-          </div>
-          <div className="grid h-[calc(100%-36px)] grid-cols-[.8fr_1.2fr]">
-            <div className="flex flex-col justify-center p-5">
-              <div className="h-1.5 w-16 rounded-full bg-[#D6A66A]/35" />
-              <div className="mt-4 h-5 w-full rounded bg-white/[0.075]" />
-              <div className="mt-2 h-5 w-4/5 rounded bg-white/[0.045]" />
-              <div className="mt-5 h-8 w-24 rounded-lg bg-[#D6A66A]/18" />
+      <div className="grid gap-px bg-white/[0.06] lg:grid-cols-[1.1fr_.9fr]">
+        <div className="bg-[#0B0B0D] p-5 sm:p-7">
+          <div className="relative min-h-[430px] overflow-hidden rounded-[24px] border border-[#D6A66A]/18 bg-[radial-gradient(circle_at_72%_18%,rgba(229,178,87,.42),transparent_27%),linear-gradient(145deg,#2B170B,#0B0B10_64%)] p-7">
+            <p className="text-[8px] uppercase tracking-[0.28em] text-[#F1C97B]/82">Master campaign</p>
+            <div className="absolute bottom-8 left-8 right-8">
+              <p className="max-w-md text-5xl font-extralight leading-[.96] tracking-[-0.055em] text-white">Build the moment.<br /><span className="text-[#E1B56A]">Own the market.</span></p>
+              <p className="mt-5 max-w-sm text-[12px] leading-6 text-white/38">Strategy, offer, creative direction and every channel prepared as one launch.</p>
+              <div className="mt-6 flex flex-wrap gap-2">
+                {["Film", "Social", "Display", "Landing page", "Publish"].map((item) => (
+                  <span key={item} className="rounded-full border border-white/10 px-3 py-1.5 text-[7px] uppercase tracking-[0.13em] text-white/38">{item}</span>
+                ))}
+              </div>
             </div>
-            <div className="m-4 rounded-xl bg-[radial-gradient(circle_at_70%_20%,rgba(214,166,106,.34),transparent_30%),linear-gradient(145deg,#1B1410,#11121A)]" />
+          </div>
+        </div>
+
+        <div className="grid gap-px bg-white/[0.06] sm:grid-cols-2 lg:grid-cols-1">
+          <div className="bg-[#0A0A0C] p-5">
+            <div className="h-full min-h-[205px] overflow-hidden rounded-[20px] border border-white/[0.07] bg-[#0E0E12] p-4">
+              <div className="flex h-8 items-center justify-between border-b border-white/[0.06] px-2">
+                <div className="flex gap-1.5"><span className="h-1.5 w-1.5 rounded-full bg-white/15" /><span className="h-1.5 w-1.5 rounded-full bg-white/10" /><span className="h-1.5 w-1.5 rounded-full bg-white/10" /></div>
+                <span className="text-[6px] uppercase tracking-[0.18em] text-white/18">Website</span>
+              </div>
+              <div className="mt-4 grid h-[135px] grid-cols-[.82fr_1.18fr] gap-3">
+                <div className="flex flex-col justify-center">
+                  <div className="h-1.5 w-14 rounded-full bg-[#D6A66A]/35" />
+                  <div className="mt-3 h-4 w-full rounded bg-white/[0.075]" />
+                  <div className="mt-2 h-4 w-4/5 rounded bg-white/[0.045]" />
+                  <div className="mt-4 h-7 w-20 rounded-lg bg-[#D6A66A]/18" />
+                </div>
+                <div className="rounded-xl bg-[radial-gradient(circle_at_70%_20%,rgba(214,166,106,.34),transparent_30%),linear-gradient(145deg,#1B1410,#14121B)]" />
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-[#0A0A0C] p-5">
+            <div className="min-h-[205px] rounded-[20px] border border-white/[0.07] bg-[#111014] p-4">
+              <div className="grid grid-cols-3 gap-2">
+                {[0, 1, 2, 3, 4, 5].map((item) => (
+                  <div key={item} className={`relative aspect-video rounded-lg border border-white/[0.055] ${item === 1 || item === 4 ? "bg-[radial-gradient(circle_at_60%_40%,rgba(214,166,106,.28),transparent_42%),#17100C]" : "bg-white/[0.025]"}`}>
+                    {item === 2 && <span className="absolute inset-0 flex items-center justify-center text-[#D6A66A]/55">▶</span>}
+                  </div>
+                ))}
+              </div>
+              <div className="mt-4 space-y-2">
+                {[74, 48, 89].map((width, index) => (
+                  <div key={index} className="flex items-center gap-2">
+                    <span className="w-8 text-[6px] text-white/18">0{index + 1}</span>
+                    <div className="h-4 flex-1 rounded bg-white/[0.035]"><div className="h-full rounded bg-[#D6A66A]/22" style={{ width: `${width}%` }} /></div>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    );
-  }
+    </div>
+  );
+}
 
-  if (type === "film") {
-    return (
-      <div className="relative h-full bg-[linear-gradient(145deg,#171217,#08080A)] p-5">
-        <div className="grid h-full grid-cols-3 gap-2">
-          {[0, 1, 2, 3, 4, 5].map((item) => (
-            <div key={item} className={`relative overflow-hidden rounded-xl border border-white/[0.06] ${item === 1 || item === 4 ? "bg-[radial-gradient(circle_at_60%_40%,rgba(214,166,106,.28),transparent_42%),#17100C]" : "bg-white/[0.025]"}`}>
-              <span className="absolute left-2 top-2 text-[6px] text-white/18">0{item + 1}</span>
-              {item === 2 && <span className="absolute inset-0 flex items-center justify-center text-2xl text-[#D6A66A]/55">▶</span>}
+function ReportPreview() {
+  return (
+    <div className="overflow-hidden rounded-[28px] border border-black/10 bg-[#EFE7DA] text-[#17120F] shadow-[0_30px_90px_rgba(0,0,0,.22)]">
+      <div className="flex items-center justify-between border-b border-black/10 px-6 py-5">
+        <img src="/avantiqo-logo.png" alt="" className="h-7 w-auto brightness-0" />
+        <span className="text-[7px] uppercase tracking-[0.22em] text-black/35">Executive brief</span>
+      </div>
+      <div className="p-6 sm:p-8">
+        <p className="text-[8px] uppercase tracking-[0.24em] text-[#8B642D]">August outlook</p>
+        <h3 className="mt-4 text-4xl font-light leading-tight tracking-[-0.045em]">What changed.<br />What matters next.</h3>
+        <div className="mt-7 grid grid-cols-3 gap-3">
+          {[["Revenue", "+14%"], ["Cash", "92"], ["Delivery", "87%"]].map(([label, value]) => (
+            <div key={label} className="rounded-xl border border-black/10 bg-white/30 p-4">
+              <p className="text-[7px] uppercase tracking-[0.14em] text-black/40">{label}</p>
+              <p className="mt-3 text-xl">{value}</p>
             </div>
           ))}
         </div>
+        <div className="mt-5 rounded-2xl border border-black/10 bg-white/25 p-5">
+          <p className="text-[8px] uppercase tracking-[0.16em] text-black/38">Recommended focus</p>
+          <p className="mt-3 text-lg leading-7">Protect cash, accelerate the approved campaign and resolve the three delayed commitments.</p>
+        </div>
       </div>
-    );
-  }
-
-  return (
-    <div className="h-full bg-[#F0E9DD] p-6 text-[#16110E]">
-      <div className="flex items-center justify-between border-b border-black/10 pb-4">
-        <img src="/avantiqo-logo.png" alt="" className="h-7 w-auto brightness-0" />
-        <span className="text-[7px] uppercase tracking-[0.2em] text-black/40">Executive report</span>
-      </div>
-      <p className="mt-7 text-3xl font-light leading-tight tracking-[-0.04em]">Business performance<br />and priorities</p>
-      <div className="mt-7 grid grid-cols-3 gap-3">
-        {["Revenue", "Cash", "Delivery"].map((item, index) => (
-          <div key={item} className="rounded-lg border border-black/10 p-3">
-            <p className="text-[6px] uppercase tracking-[0.14em] text-black/40">{item}</p>
-            <p className="mt-3 text-lg">{["+14%", "92", "87%"][index]}</p>
-          </div>
-        ))}
-      </div>
-      <div className="mt-5 h-16 rounded-xl bg-[linear-gradient(90deg,rgba(83,53,28,.18),rgba(214,166,106,.48))]" />
     </div>
   );
 }
 
 export default function Home() {
   return (
-    <main className="overflow-hidden bg-[#030303] text-white">
-      <div className="pointer-events-none fixed inset-0 bg-[radial-gradient(circle_at_78%_8%,rgba(214,166,106,.08),transparent_27%),radial-gradient(circle_at_16%_48%,rgba(128,87,119,.055),transparent_30%)]" />
+    <main className="overflow-hidden bg-[#050505] text-white">
+      <style>{`
+        @keyframes glowShift {
+          0%,100% { opacity:.35; transform:translate3d(0,0,0); }
+          50% { opacity:.65; transform:translate3d(-18px,12px,0); }
+        }
+        .ambient-glow { animation: glowShift 12s ease-in-out infinite; }
+      `}</style>
+
+      <div className="pointer-events-none fixed inset-0 bg-[radial-gradient(circle_at_78%_10%,rgba(214,166,106,.08),transparent_28%),radial-gradient(circle_at_12%_48%,rgba(126,86,118,.055),transparent_30%)]" />
 
       <header className="relative z-50 mx-auto flex w-full max-w-[1600px] items-center justify-between px-6 py-6 sm:px-10 lg:px-14">
-        <Brand />
+        <Logo />
         <a href={LOGIN_URL} className="rounded-xl border border-[#D6A66A]/45 bg-black/35 px-6 py-3 text-[10px] uppercase tracking-[0.24em] text-[#F0CC83] transition hover:border-[#E6C17B]/75 hover:bg-[#D6A66A]/10">Login</a>
       </header>
 
-      <section className="relative mx-auto grid min-h-[calc(100vh-92px)] w-full max-w-[1600px] items-center gap-14 px-6 pb-20 pt-8 sm:px-10 lg:grid-cols-[.78fr_1.22fr] lg:px-14 lg:pb-24 lg:pt-10">
-        <div className="relative z-20 max-w-[680px]">
+      <section className="relative mx-auto grid min-h-[calc(100vh-92px)] w-full max-w-[1600px] items-center gap-14 px-6 pb-20 pt-8 sm:px-10 lg:grid-cols-[.7fr_1.3fr] lg:px-14 lg:pb-24 lg:pt-10">
+        <div className="relative z-20 max-w-[610px]">
           <div className="inline-flex items-center gap-3 rounded-full border border-[#D6A66A]/22 bg-[#D6A66A]/[0.045] px-4 py-2">
             <span className="h-1.5 w-1.5 rounded-full bg-[#D6A66A] shadow-[0_0_14px_rgba(214,166,106,.9)]" />
             <span className="text-[8px] uppercase tracking-[0.3em] text-[#E4BD74]">Coming soon</span>
           </div>
           <p className="mt-9 text-[9px] uppercase tracking-[0.4em] text-[#D6A66A]/62">Synthetic Intelligence Operating System</p>
-          <h1 className="mt-6 max-w-[670px] text-[clamp(3.6rem,6.4vw,6.9rem)] font-extralight leading-[0.93] tracking-[-0.065em] text-[#F4F0E9]">
-            The complete company.
-            <span className="mt-2 block bg-gradient-to-r from-[#F3D895] via-[#D6A66A] to-[#9B7389] bg-clip-text text-transparent">One operating system.</span>
+          <h1 className="mt-6 text-[clamp(3.5rem,5.7vw,6.25rem)] font-extralight leading-[0.96] tracking-[-0.06em] text-[#F5F1EA]">
+            Run the whole company from one place.
           </h1>
-          <p className="mt-8 max-w-[610px] text-[16px] leading-8 text-white/48 sm:text-[18px] sm:leading-9">
-            Avantiqo understands the business, coordinates the work and turns decisions into outcomes across the whole company.
+          <p className="mt-7 max-w-[590px] text-[16px] leading-8 text-white/50 sm:text-[18px] sm:leading-9">
+            Avantiqo brings finance, operations, customers, people, projects and creative execution into one clear operating environment.
           </p>
           <div className="mt-9 flex flex-wrap gap-3">
             {["Understand", "Coordinate", "Execute"].map((item, index) => (
-              <div key={item} className="flex items-center gap-3 rounded-full border border-white/[0.07] bg-white/[0.018] px-4 py-2.5">
-                <span className="text-[8px] text-[#D6A66A]/55">0{index + 1}</span>
-                <span className="text-[8px] uppercase tracking-[0.19em] text-white/38">{item}</span>
+              <div key={item} className="flex items-center gap-3 rounded-full border border-white/[0.075] bg-white/[0.02] px-4 py-2.5">
+                <span className="text-[8px] text-[#D6A66A]/60">0{index + 1}</span>
+                <span className="text-[8px] uppercase tracking-[0.18em] text-white/42">{item}</span>
               </div>
             ))}
           </div>
         </div>
-        <CompanyCommand />
+        <div className="relative">
+          <div className="ambient-glow absolute -right-20 -top-20 h-72 w-72 rounded-full bg-[#D6A66A]/12 blur-[110px]" />
+          <ProductWindow />
+        </div>
       </section>
 
-      <section className="relative border-y border-white/[0.06] bg-white/[0.012] px-6 py-24 sm:px-10 lg:px-14 lg:py-32">
+      <section className="relative border-y border-white/[0.06] bg-[#F0E8DC] px-6 py-24 text-[#17120F] sm:px-10 lg:px-14 lg:py-32">
         <div className="mx-auto max-w-[1500px]">
-          <Eyebrow>Simple by design</Eyebrow>
-          <div className="mt-8 grid gap-7 lg:grid-cols-3">
-            {[
-              ["Understand", "Avantiqo keeps the company context together, so leadership sees what is happening and what matters now."],
-              ["Coordinate", "Priorities become owned work with responsibility, approvals, timing and evidence."],
-              ["Execute", "Approved decisions move into finance, operations, campaigns, publishing and connected services."],
-            ].map(([title, text], index) => (
-              <article key={title} className="rounded-[28px] border border-white/[0.07] bg-[#080809] p-7 sm:p-8">
-                <span className="text-[8px] text-[#D6A66A]/55">0{index + 1}</span>
-                <h2 className="mt-10 text-4xl font-extralight tracking-[-0.045em] text-white/88">{title}</h2>
-                <p className="mt-5 text-[14px] leading-7 text-white/38">{text}</p>
-              </article>
+          <div className="grid gap-10 lg:grid-cols-[.72fr_1.28fr] lg:items-end">
+            <div>
+              <p className="text-[9px] uppercase tracking-[0.34em] text-[#8C642C]">One company view</p>
+              <h2 className="mt-6 text-5xl font-light leading-[1.02] tracking-[-0.055em] sm:text-6xl lg:text-7xl">Every team works from the same reality.</h2>
+            </div>
+            <p className="max-w-2xl text-[15px] leading-8 text-black/55 sm:text-[17px]">
+              No disconnected tools, duplicate information or hidden decisions. The work, numbers, customers and priorities stay connected from planning to completion.
+            </p>
+          </div>
+
+          <div className="mt-14 grid gap-5 lg:grid-cols-[1.2fr_.8fr]">
+            <div className="overflow-hidden rounded-[30px] border border-black/10 bg-[#171413] text-white shadow-[0_30px_90px_rgba(31,20,10,.18)]">
+              <div className="grid min-h-[520px] md:grid-cols-[.72fr_1.28fr]">
+                <div className="border-b border-white/[0.07] p-7 md:border-b-0 md:border-r sm:p-8">
+                  <p className="text-[8px] uppercase tracking-[0.22em] text-[#D6A66A]/75">Company today</p>
+                  <h3 className="mt-5 text-4xl font-extralight leading-tight tracking-[-0.045em]">One plan.<br />Clear ownership.<br />Visible progress.</h3>
+                  <p className="mt-6 text-[13px] leading-7 text-white/42">Avantiqo keeps every important action attached to the company context, owner, deadline and evidence.</p>
+                </div>
+                <div className="p-6 sm:p-8">
+                  <div className="space-y-3">
+                    {[
+                      ["09:00", "Finance", "Payment run approved"],
+                      ["11:30", "Operations", "Delivery issue assigned"],
+                      ["14:00", "Commercial", "Campaign ready to publish"],
+                      ["16:00", "Leadership", "Daily brief prepared"],
+                    ].map(([time, area, item], index) => (
+                      <div key={item} className="grid grid-cols-[54px_1fr] gap-4 rounded-2xl border border-white/[0.065] bg-white/[0.022] p-4">
+                        <span className="text-[9px] text-[#D6A66A]/65">{time}</span>
+                        <div>
+                          <p className="text-[7px] uppercase tracking-[0.16em] text-white/25">{area}</p>
+                          <p className="mt-2 text-[13px] text-white/66">{item}</p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ReportPreview />
+          </div>
+
+          <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {roleCards.map(([title, text], index) => (
+              <div key={title} className="rounded-[24px] border border-black/10 bg-white/35 p-6">
+                <span className="text-[8px] text-[#8C642C]">0{index + 1}</span>
+                <h3 className="mt-7 text-2xl font-light">{title}</h3>
+                <p className="mt-4 text-[13px] leading-7 text-black/48">{text}</p>
+              </div>
             ))}
           </div>
         </div>
@@ -296,59 +340,25 @@ export default function Home() {
 
       <section className="relative px-6 py-24 sm:px-10 lg:px-14 lg:py-36">
         <div className="mx-auto max-w-[1500px]">
-          <div className="grid gap-10 lg:grid-cols-[.72fr_1.28fr] lg:items-end">
+          <div className="grid gap-10 lg:grid-cols-[.7fr_1.3fr] lg:items-end">
             <div>
-              <Eyebrow>Operate the company</Eyebrow>
-              <h2 className="mt-7 text-5xl font-extralight leading-[1.02] tracking-[-0.055em] text-[#F3EFE8] sm:text-6xl lg:text-7xl">
-                One place for the work behind the business.
-              </h2>
+              <p className="text-[9px] uppercase tracking-[0.34em] text-[#D6A66A]/75">Create and grow</p>
+              <h2 className="mt-6 text-5xl font-extralight leading-[1.02] tracking-[-0.055em] text-[#F3EFE8] sm:text-6xl lg:text-7xl">Business goals become finished work.</h2>
             </div>
-            <p className="max-w-2xl text-[15px] leading-8 text-white/40 sm:text-[17px]">
-              Finance, operations, supply chain, commercial, people, projects and governance remain connected without turning the experience into technical complexity.
+            <p className="max-w-2xl text-[15px] leading-8 text-white/42 sm:text-[17px]">
+              Campaigns, films, websites, reports and customer experiences move from strategy to approved delivery inside the same operating system.
             </p>
           </div>
-          <div className="mt-14"><OperatingWorkspace /></div>
+          <div className="mt-14"><CreativeStudio /></div>
         </div>
       </section>
 
-      <section className="relative border-y border-white/[0.06] bg-white/[0.012] px-6 py-24 sm:px-10 lg:px-14 lg:py-36">
-        <div className="mx-auto max-w-[1500px]">
-          <div className="max-w-4xl">
-            <Eyebrow>Create and grow</Eyebrow>
-            <h2 className="mt-7 text-5xl font-extralight leading-[1.02] tracking-[-0.055em] text-[#F3EFE8] sm:text-6xl lg:text-7xl">
-              Ideas become finished work.
-              <span className="block text-white/28">Not another list of recommendations.</span>
-            </h2>
-            <p className="mt-7 max-w-2xl text-[15px] leading-8 text-white/40 sm:text-[17px]">
-              Avantiqo can turn a business goal into a complete campaign, website, film, report, presentation or customer experience—ready for approval and delivery.
-            </p>
-          </div>
-
-          <div className="mt-14 grid gap-5 md:grid-cols-2">
-            {outcomes.map(([title, text, type], index) => (
-              <article key={title} className={`overflow-hidden rounded-[30px] border border-white/[0.08] bg-[#080809] ${index === 0 || index === 3 ? "md:translate-y-8" : ""}`}>
-                <div className="h-[320px]"><OutputVisual type={type} /></div>
-                <div className="border-t border-white/[0.06] p-6 sm:p-7">
-                  <p className="text-[8px] uppercase tracking-[0.24em] text-[#D6A66A]/68">{title}</p>
-                  <p className="mt-3 text-lg font-light text-white/70">{text}</p>
-                </div>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="relative px-6 py-28 sm:px-10 lg:px-14 lg:py-40">
-        <div className="mx-auto max-w-[1400px] text-center">
-          <Eyebrow>One connected experience</Eyebrow>
-          <h2 className="mx-auto mt-8 max-w-5xl text-[clamp(3.2rem,6vw,6.7rem)] font-extralight leading-[.98] tracking-[-0.06em] text-[#F3EFE8]">
-            Your company does not need more disconnected software.
-            <span className="mt-3 block bg-gradient-to-r from-[#F1D38F] via-[#D6A66A] to-[#967087] bg-clip-text text-transparent">It needs one system that understands the whole business.</span>
-          </h2>
-          <p className="mx-auto mt-8 max-w-3xl text-[16px] leading-8 text-white/40 sm:text-[18px] sm:leading-9">
-            Avantiqo is being built as the operating layer between strategy, people, information and execution—universal across companies, roles and industries.
-          </p>
-          <div className="mt-12">
+      <section className="relative border-t border-white/[0.06] px-6 py-28 sm:px-10 lg:px-14 lg:py-36">
+        <div className="mx-auto max-w-[1300px] overflow-hidden rounded-[38px] border border-[#D6A66A]/18 bg-[linear-gradient(135deg,rgba(44,29,15,.75),rgba(8,8,9,.97)_48%,rgba(35,22,37,.7))] px-7 py-16 text-center shadow-[0_45px_130px_rgba(0,0,0,.4)] sm:px-12 lg:px-20 lg:py-24">
+          <img src="/avantiqo-logo.png" alt="Avantiqo" className="mx-auto h-14 w-auto" />
+          <p className="mt-8 text-[9px] uppercase tracking-[0.36em] text-[#D6A66A]/72">Coming soon</p>
+          <h2 className="mx-auto mt-7 max-w-4xl text-5xl font-extralight leading-[1.03] tracking-[-0.055em] text-[#F3EFE8] sm:text-6xl lg:text-7xl">One system that understands and operates the whole company.</h2>
+          <div className="mt-10">
             <a href={LOGIN_URL} className="inline-flex min-h-14 items-center justify-center rounded-xl border border-[#F0CB7C] bg-[linear-gradient(105deg,#83511D,#D8A64F,#F1D184,#A66B27)] px-9 text-[10px] font-semibold uppercase tracking-[0.22em] text-black shadow-[0_18px_55px_rgba(179,116,38,.17)] transition hover:brightness-110">Login to Avantiqo</a>
           </div>
         </div>
