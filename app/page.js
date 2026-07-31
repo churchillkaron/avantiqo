@@ -1,67 +1,240 @@
 const LOGIN_URL = "https://app.churchillkaron.com/login?brand=avantiqo";
 
+const priorities = [
+  ["Finance", "Payment run ready for approval", "Review"],
+  ["Operations", "Three service commitments need attention", "Open"],
+  ["Commercial", "New campaign approved and ready to publish", "Ready"],
+  ["People", "August workforce plan is complete", "Done"],
+];
+
 const operatingAreas = [
-  {
-    number: "01",
-    title: "Run the company",
-    text: "Finance, operations, supply chain, people, projects, documents and compliance work together in one accountable environment.",
-    image: "/images/professional-services-hero.png",
-  },
-  {
-    number: "02",
-    title: "Grow the business",
-    text: "Customers, offers, campaigns, websites, sales channels and service experiences are planned and executed as one connected growth system.",
-    image: "/images/hero-retail.png",
-  },
-  {
-    number: "03",
-    title: "See what matters",
-    text: "Leadership gets a clear view of performance, risk, priorities and next actions without searching across disconnected software.",
-    image: "/images/hero-accounting.png",
-  },
+  ["Finance", "Cash, revenue, cost, billing and reporting"],
+  ["Operations", "Work, service, inventory and delivery"],
+  ["Commercial", "Customers, sales, marketing and growth"],
+  ["People", "Responsibility, capacity and performance"],
+  ["Projects", "Plan, deliver, control and close"],
+  ["Governance", "Approvals, compliance and evidence"],
 ];
 
-const creativeOutputs = [
-  ["Campaigns", "Strategy, offers and complete launch systems"],
-  ["Advertising", "Channel-ready creative and paid media execution"],
-  ["Film + video", "Brand films, promotions and social content"],
-  ["Web experiences", "Websites, landing pages, portals and applications"],
-  ["Brand systems", "Identity, content, presentations and documents"],
-  ["Publishing", "Approval, scheduling, distribution and monitoring"],
-];
-
-const companyViews = [
-  ["Leadership", "Direction, priorities, performance and business health."],
-  ["Finance", "Control, cash, revenue, cost, reporting and governance."],
-  ["Operations", "Work, service, inventory, delivery and evidence."],
-  ["People", "Responsibility, capacity, learning and performance."],
+const outcomes = [
+  ["Campaign", "A complete launch, ready for every channel", "campaign"],
+  ["Website", "A premium customer experience, ready to publish", "website"],
+  ["Film", "A finished brand story, planned scene by scene", "film"],
+  ["Report", "A clear executive view, ready for decision", "report"],
 ];
 
 function Brand() {
   return (
     <div className="flex items-center gap-4">
-      <img
-        src="/avantiqo-logo.png"
-        alt="Avantiqo"
-        className="h-10 w-auto drop-shadow-[0_0_24px_rgba(214,166,106,.2)] sm:h-11"
-      />
+      <img src="/avantiqo-logo.png" alt="Avantiqo" className="h-10 w-auto sm:h-11" />
       <div>
-        <div className="text-[11px] font-medium uppercase tracking-[0.46em] text-[#E2BA72] sm:text-[12px]">
-          Avantiqo
-        </div>
-        <div className="mt-1 hidden text-[7px] uppercase tracking-[0.23em] text-white/30 sm:block">
+        <p className="text-[11px] font-medium uppercase tracking-[0.46em] text-[#E2BA72]">Avantiqo</p>
+        <p className="mt-1 hidden text-[7px] uppercase tracking-[0.24em] text-white/35 sm:block">
           Synthetic Intelligence Operating System
+        </p>
+      </div>
+    </div>
+  );
+}
+
+function Eyebrow({ children }) {
+  return (
+    <div className="flex items-center gap-4 text-[9px] uppercase tracking-[0.34em] text-[#D6A66A]/80">
+      <span className="h-px w-10 bg-[#D6A66A]/45" />
+      {children}
+    </div>
+  );
+}
+
+function CompanyCommand() {
+  return (
+    <div className="relative overflow-hidden rounded-[34px] border border-white/[0.09] bg-[#0A0A0B] shadow-[0_45px_140px_rgba(0,0,0,.58)]">
+      <div className="flex items-center justify-between border-b border-white/[0.07] px-5 py-4 sm:px-7">
+        <div>
+          <p className="text-[8px] uppercase tracking-[0.24em] text-[#D6A66A]/75">Company command</p>
+          <p className="mt-2 text-[12px] text-white/38">Everything that needs attention, in one place.</p>
+        </div>
+        <div className="flex items-center gap-2 rounded-full border border-emerald-300/15 bg-emerald-300/[0.04] px-3 py-2">
+          <span className="h-1.5 w-1.5 rounded-full bg-emerald-300 shadow-[0_0_10px_rgba(110,231,183,.65)]" />
+          <span className="text-[7px] uppercase tracking-[0.18em] text-emerald-200/65">Live</span>
+        </div>
+      </div>
+
+      <div className="grid gap-px bg-white/[0.06] md:grid-cols-[1fr_.42fr]">
+        <div className="bg-[#09090A] p-5 sm:p-7">
+          <div className="flex items-end justify-between gap-4">
+            <div>
+              <p className="text-[8px] uppercase tracking-[0.2em] text-white/28">Today</p>
+              <h3 className="mt-3 text-3xl font-light tracking-[-0.04em] text-white/88">The company is moving.</h3>
+            </div>
+            <p className="text-right text-[9px] leading-5 text-white/28">4 decisions<br />12 actions</p>
+          </div>
+
+          <div className="mt-7 space-y-3">
+            {priorities.map(([area, title, status], index) => (
+              <div key={title} className="group flex items-center gap-4 rounded-2xl border border-white/[0.065] bg-white/[0.022] p-4 transition hover:border-[#D6A66A]/22 hover:bg-[#D6A66A]/[0.035]">
+                <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl border border-[#D6A66A]/18 bg-[#D6A66A]/[0.055] text-[9px] text-[#E6C17B]">
+                  0{index + 1}
+                </div>
+                <div className="min-w-0 flex-1">
+                  <p className="text-[8px] uppercase tracking-[0.17em] text-[#D6A66A]/60">{area}</p>
+                  <p className="mt-1 truncate text-[12px] text-white/64 sm:text-[13px]">{title}</p>
+                </div>
+                <span className="rounded-full border border-white/[0.07] px-3 py-1.5 text-[7px] uppercase tracking-[0.13em] text-white/32">
+                  {status}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="bg-[#0C0C0D] p-5 sm:p-7">
+          <p className="text-[8px] uppercase tracking-[0.2em] text-white/28">Business health</p>
+          <div className="mt-6 flex aspect-square items-center justify-center rounded-full border border-[#D6A66A]/18 bg-[radial-gradient(circle,rgba(214,166,106,.11),rgba(214,166,106,.015)_58%,transparent_60%)]">
+            <div className="text-center">
+              <p className="text-5xl font-extralight text-[#F2D595]">91</p>
+              <p className="mt-2 text-[7px] uppercase tracking-[0.2em] text-white/30">Healthy</p>
+            </div>
+          </div>
+          <div className="mt-6 space-y-3">
+            {["Cash position", "Delivery", "Customer growth"].map((label, index) => (
+              <div key={label}>
+                <div className="mb-2 flex justify-between text-[8px] text-white/30">
+                  <span>{label}</span>
+                  <span>{[94, 87, 92][index]}%</span>
+                </div>
+                <div className="h-1 rounded-full bg-white/[0.055]">
+                  <div className="h-full rounded-full bg-gradient-to-r from-[#7D542D] to-[#E4BE77]" style={{ width: `${[94, 87, 92][index]}%` }} />
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>
   );
 }
 
-function SectionLabel({ children }) {
+function OperatingWorkspace() {
   return (
-    <div className="flex items-center gap-4 text-[9px] uppercase tracking-[0.34em] text-[#D6A66A]/72">
-      <span className="h-px w-10 bg-[#D6A66A]/35" />
-      {children}
+    <div className="overflow-hidden rounded-[36px] border border-white/[0.09] bg-[#080809] shadow-[0_40px_130px_rgba(0,0,0,.5)]">
+      <div className="grid min-h-[620px] lg:grid-cols-[180px_1fr]">
+        <aside className="hidden border-r border-white/[0.07] bg-black/28 p-5 lg:block">
+          <img src="/avantiqo-logo.png" alt="" className="h-8 w-auto" />
+          <div className="mt-10 space-y-2">
+            {operatingAreas.map(([area], index) => (
+              <div key={area} className={`rounded-xl px-3 py-3 text-[8px] uppercase tracking-[0.15em] ${index === 0 ? "border border-[#D6A66A]/18 bg-[#D6A66A]/[0.055] text-[#E4BD74]" : "text-white/26"}`}>
+                {area}
+              </div>
+            ))}
+          </div>
+        </aside>
+
+        <div className="p-5 sm:p-8 lg:p-10">
+          <div className="flex flex-col gap-5 sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <p className="text-[8px] uppercase tracking-[0.24em] text-[#D6A66A]/70">One operating workspace</p>
+              <h3 className="mt-4 text-4xl font-extralight tracking-[-0.05em] text-white/90 sm:text-5xl">The work behind the company.</h3>
+            </div>
+            <div className="rounded-full border border-white/[0.07] px-4 py-2 text-[8px] uppercase tracking-[0.16em] text-white/28">Current organisation</div>
+          </div>
+
+          <div className="mt-9 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+            {operatingAreas.map(([area, text], index) => (
+              <article key={area} className={`min-h-[185px] rounded-[22px] border p-5 ${index === 0 || index === 3 ? "border-[#D6A66A]/20 bg-[#D6A66A]/[0.045]" : "border-white/[0.065] bg-white/[0.018]"}`}>
+                <div className="flex items-center justify-between">
+                  <span className="text-[8px] text-[#D6A66A]/52">0{index + 1}</span>
+                  <span className={`h-1.5 w-1.5 rounded-full ${index < 4 ? "bg-emerald-300/75" : "bg-[#D6A66A]/70"}`} />
+                </div>
+                <h4 className="mt-8 text-xl font-light text-white/80">{area}</h4>
+                <p className="mt-4 text-[12px] leading-6 text-white/34">{text}</p>
+              </article>
+            ))}
+          </div>
+
+          <div className="mt-5 rounded-[24px] border border-white/[0.065] bg-black/25 p-5 sm:p-6">
+            <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+              <div>
+                <p className="text-[8px] uppercase tracking-[0.2em] text-white/28">Next best action</p>
+                <p className="mt-3 text-lg font-light text-white/72">Approve the supplier payment run before 16:00.</p>
+              </div>
+              <span className="rounded-xl border border-[#D6A66A]/25 bg-[#D6A66A]/[0.06] px-5 py-3 text-[8px] uppercase tracking-[0.18em] text-[#E4BD74]">Review decision</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function OutputVisual({ type }) {
+  if (type === "campaign") {
+    return (
+      <div className="relative h-full overflow-hidden bg-[radial-gradient(circle_at_72%_20%,rgba(225,171,82,.42),transparent_28%),linear-gradient(145deg,#28170B,#0C0B10_62%)] p-6">
+        <p className="text-[8px] uppercase tracking-[0.28em] text-[#F0C97C]/80">New market campaign</p>
+        <div className="absolute bottom-6 left-6 right-6">
+          <p className="max-w-xs text-4xl font-extralight leading-[.98] tracking-[-0.05em] text-white">Move first.<br /><span className="text-[#E4B76C]">Own the moment.</span></p>
+          <div className="mt-5 flex gap-2">
+            {["Social", "Display", "Launch"].map((item) => <span key={item} className="rounded-full border border-white/10 px-3 py-1.5 text-[7px] uppercase tracking-[0.14em] text-white/40">{item}</span>)}
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (type === "website") {
+    return (
+      <div className="h-full bg-[#0B0B0D] p-4">
+        <div className="h-full overflow-hidden rounded-2xl border border-white/[0.08] bg-[linear-gradient(145deg,#17100A,#0B0B0E)]">
+          <div className="flex h-9 items-center justify-between border-b border-white/[0.06] px-4">
+            <div className="flex gap-1.5"><span className="h-1.5 w-1.5 rounded-full bg-white/15" /><span className="h-1.5 w-1.5 rounded-full bg-white/15" /><span className="h-1.5 w-1.5 rounded-full bg-white/15" /></div>
+            <span className="text-[6px] uppercase tracking-[0.2em] text-white/20">Customer experience</span>
+          </div>
+          <div className="grid h-[calc(100%-36px)] grid-cols-[.8fr_1.2fr]">
+            <div className="flex flex-col justify-center p-5">
+              <div className="h-1.5 w-16 rounded-full bg-[#D6A66A]/35" />
+              <div className="mt-4 h-5 w-full rounded bg-white/[0.075]" />
+              <div className="mt-2 h-5 w-4/5 rounded bg-white/[0.045]" />
+              <div className="mt-5 h-8 w-24 rounded-lg bg-[#D6A66A]/18" />
+            </div>
+            <div className="m-4 rounded-xl bg-[radial-gradient(circle_at_70%_20%,rgba(214,166,106,.34),transparent_30%),linear-gradient(145deg,#1B1410,#11121A)]" />
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (type === "film") {
+    return (
+      <div className="relative h-full bg-[linear-gradient(145deg,#171217,#08080A)] p-5">
+        <div className="grid h-full grid-cols-3 gap-2">
+          {[0, 1, 2, 3, 4, 5].map((item) => (
+            <div key={item} className={`relative overflow-hidden rounded-xl border border-white/[0.06] ${item === 1 || item === 4 ? "bg-[radial-gradient(circle_at_60%_40%,rgba(214,166,106,.28),transparent_42%),#17100C]" : "bg-white/[0.025]"}`}>
+              <span className="absolute left-2 top-2 text-[6px] text-white/18">0{item + 1}</span>
+              {item === 2 && <span className="absolute inset-0 flex items-center justify-center text-2xl text-[#D6A66A]/55">▶</span>}
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="h-full bg-[#F0E9DD] p-6 text-[#16110E]">
+      <div className="flex items-center justify-between border-b border-black/10 pb-4">
+        <img src="/avantiqo-logo.png" alt="" className="h-7 w-auto brightness-0" />
+        <span className="text-[7px] uppercase tracking-[0.2em] text-black/40">Executive report</span>
+      </div>
+      <p className="mt-7 text-3xl font-light leading-tight tracking-[-0.04em]">Business performance<br />and priorities</p>
+      <div className="mt-7 grid grid-cols-3 gap-3">
+        {["Revenue", "Cash", "Delivery"].map((item, index) => (
+          <div key={item} className="rounded-lg border border-black/10 p-3">
+            <p className="text-[6px] uppercase tracking-[0.14em] text-black/40">{item}</p>
+            <p className="mt-3 text-lg">{["+14%", "92", "87%"][index]}</p>
+          </div>
+        ))}
+      </div>
+      <div className="mt-5 h-16 rounded-xl bg-[linear-gradient(90deg,rgba(83,53,28,.18),rgba(214,166,106,.48))]" />
     </div>
   );
 }
@@ -69,123 +242,52 @@ function SectionLabel({ children }) {
 export default function Home() {
   return (
     <main className="overflow-hidden bg-[#030303] text-white">
-      <style>{`
-        @keyframes slowFloat {
-          0%, 100% { transform: translate3d(0, 0, 0); }
-          50% { transform: translate3d(0, -10px, 0); }
-        }
-        @keyframes softPulse {
-          0%, 100% { opacity: .42; }
-          50% { opacity: .72; }
-        }
-        .slow-float { animation: slowFloat 9s ease-in-out infinite; }
-        .soft-pulse { animation: softPulse 7s ease-in-out infinite; }
-      `}</style>
-
-      <div className="pointer-events-none fixed inset-0 bg-[radial-gradient(circle_at_72%_10%,rgba(214,166,106,.09),transparent_28%),radial-gradient(circle_at_18%_38%,rgba(126,86,117,.06),transparent_30%)]" />
+      <div className="pointer-events-none fixed inset-0 bg-[radial-gradient(circle_at_78%_8%,rgba(214,166,106,.08),transparent_27%),radial-gradient(circle_at_16%_48%,rgba(128,87,119,.055),transparent_30%)]" />
 
       <header className="relative z-50 mx-auto flex w-full max-w-[1600px] items-center justify-between px-6 py-6 sm:px-10 lg:px-14">
         <Brand />
-        <a
-          href={LOGIN_URL}
-          className="rounded-xl border border-[#D6A66A]/45 bg-black/35 px-6 py-3 text-[10px] uppercase tracking-[0.24em] text-[#F0CC83] transition hover:border-[#E6C17B]/75 hover:bg-[#D6A66A]/10"
-        >
-          Login
-        </a>
+        <a href={LOGIN_URL} className="rounded-xl border border-[#D6A66A]/45 bg-black/35 px-6 py-3 text-[10px] uppercase tracking-[0.24em] text-[#F0CC83] transition hover:border-[#E6C17B]/75 hover:bg-[#D6A66A]/10">Login</a>
       </header>
 
-      <section className="relative mx-auto grid min-h-[calc(100vh-92px)] w-full max-w-[1600px] items-center gap-14 px-6 pb-20 pt-10 sm:px-10 lg:grid-cols-[.86fr_1.14fr] lg:px-14 lg:pb-24 lg:pt-12">
-        <div className="relative z-20 max-w-[720px]">
+      <section className="relative mx-auto grid min-h-[calc(100vh-92px)] w-full max-w-[1600px] items-center gap-14 px-6 pb-20 pt-8 sm:px-10 lg:grid-cols-[.78fr_1.22fr] lg:px-14 lg:pb-24 lg:pt-10">
+        <div className="relative z-20 max-w-[680px]">
           <div className="inline-flex items-center gap-3 rounded-full border border-[#D6A66A]/22 bg-[#D6A66A]/[0.045] px-4 py-2">
             <span className="h-1.5 w-1.5 rounded-full bg-[#D6A66A] shadow-[0_0_14px_rgba(214,166,106,.9)]" />
             <span className="text-[8px] uppercase tracking-[0.3em] text-[#E4BD74]">Coming soon</span>
           </div>
-
-          <p className="mt-9 text-[9px] uppercase tracking-[0.42em] text-[#D6A66A]/60">
-            Synthetic Intelligence Operating System
-          </p>
-
-          <h1 className="mt-6 text-[clamp(4rem,7.3vw,8rem)] font-extralight leading-[0.88] tracking-[-0.07em] text-[#F4F0E9]">
-            One system to
-            <br />
-            <span className="bg-gradient-to-r from-[#F4D99B] via-[#D6A66A] to-[#9D748B] bg-clip-text text-transparent">
-              run, understand
-            </span>
-            <br />
-            and grow your company.
+          <p className="mt-9 text-[9px] uppercase tracking-[0.4em] text-[#D6A66A]/62">Synthetic Intelligence Operating System</p>
+          <h1 className="mt-6 max-w-[670px] text-[clamp(3.6rem,6.4vw,6.9rem)] font-extralight leading-[0.93] tracking-[-0.065em] text-[#F4F0E9]">
+            The complete company.
+            <span className="mt-2 block bg-gradient-to-r from-[#F3D895] via-[#D6A66A] to-[#9B7389] bg-clip-text text-transparent">One operating system.</span>
           </h1>
-
-          <p className="mt-8 max-w-[650px] text-[16px] leading-8 text-white/46 sm:text-[18px] sm:leading-9">
-            Avantiqo connects people, finance, operations, customers, projects and creative execution so the entire business can move as one.
+          <p className="mt-8 max-w-[610px] text-[16px] leading-8 text-white/48 sm:text-[18px] sm:leading-9">
+            Avantiqo understands the business, coordinates the work and turns decisions into outcomes across the whole company.
           </p>
-
-          <div className="mt-10 flex flex-wrap gap-x-7 gap-y-3 text-[9px] uppercase tracking-[0.21em] text-white/30">
-            <span>Understand the business</span>
-            <span>Coordinate the work</span>
-            <span>Create growth</span>
+          <div className="mt-9 flex flex-wrap gap-3">
+            {["Understand", "Coordinate", "Execute"].map((item, index) => (
+              <div key={item} className="flex items-center gap-3 rounded-full border border-white/[0.07] bg-white/[0.018] px-4 py-2.5">
+                <span className="text-[8px] text-[#D6A66A]/55">0{index + 1}</span>
+                <span className="text-[8px] uppercase tracking-[0.19em] text-white/38">{item}</span>
+              </div>
+            ))}
           </div>
         </div>
-
-        <div className="relative min-h-[560px] lg:min-h-[690px]">
-          <div className="absolute inset-0 rounded-[46px] border border-white/[0.06] bg-[linear-gradient(145deg,rgba(255,255,255,.025),rgba(255,255,255,.005))]" />
-          <div className="soft-pulse absolute -right-24 top-14 h-72 w-72 rounded-full bg-[#D6A66A]/10 blur-[100px]" />
-
-          <div className="absolute inset-x-[7%] top-[4%] h-[58%] overflow-hidden rounded-[34px] border border-white/[0.08] shadow-[0_35px_100px_rgba(0,0,0,.5)]">
-            <img src="/images/professional-services-hero.png" alt="Modern business environment" className="h-full w-full object-cover opacity-78" />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#050505] via-black/10 to-transparent" />
-            <div className="absolute bottom-7 left-7 right-7">
-              <p className="text-[8px] uppercase tracking-[0.3em] text-[#E4BD74]/85">One operating environment</p>
-              <p className="mt-3 max-w-lg text-2xl font-light leading-tight text-white/88 sm:text-3xl">
-                A complete view of the company, from strategy to daily execution.
-              </p>
-            </div>
-          </div>
-
-          <div className="slow-float absolute bottom-[4%] left-[2%] h-[40%] w-[42%] overflow-hidden rounded-[28px] border border-white/[0.08] bg-[#090909] shadow-[0_28px_80px_rgba(0,0,0,.65)]">
-            <img src="/images/hero-construction.png" alt="Project and field operations" className="h-full w-full object-cover opacity-65" />
-            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/10 to-transparent" />
-            <div className="absolute bottom-5 left-5">
-              <p className="text-[8px] uppercase tracking-[0.22em] text-[#D6A66A]/75">Operate</p>
-              <p className="mt-2 text-lg font-light text-white/82">Work becomes visible and accountable.</p>
-            </div>
-          </div>
-
-          <div className="absolute bottom-[8%] right-[1%] h-[34%] w-[48%] overflow-hidden rounded-[28px] border border-white/[0.08] bg-[#090909] shadow-[0_28px_80px_rgba(0,0,0,.65)]">
-            <img src="/images/hero-retail.png" alt="Customer and commercial experience" className="h-full w-full object-cover opacity-62" />
-            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/15 to-transparent" />
-            <div className="absolute bottom-5 left-5 right-5">
-              <p className="text-[8px] uppercase tracking-[0.22em] text-[#D6A66A]/75">Grow</p>
-              <p className="mt-2 text-lg font-light text-white/82">Ideas become customer experiences.</p>
-            </div>
-          </div>
-        </div>
+        <CompanyCommand />
       </section>
 
       <section className="relative border-y border-white/[0.06] bg-white/[0.012] px-6 py-24 sm:px-10 lg:px-14 lg:py-32">
         <div className="mx-auto max-w-[1500px]">
-          <SectionLabel>What Avantiqo does</SectionLabel>
-          <div className="mt-7 grid gap-8 lg:grid-cols-[.88fr_1.12fr] lg:items-end">
-            <h2 className="max-w-3xl text-5xl font-extralight leading-[1.02] tracking-[-0.055em] text-[#F3EFE8] sm:text-6xl lg:text-7xl">
-              The whole company,
-              <span className="block text-white/27">working from the same reality.</span>
-            </h2>
-            <p className="max-w-2xl text-[15px] leading-8 text-white/40 sm:text-[17px]">
-              Instead of adding another disconnected tool, Avantiqo brings the work, information, decisions and execution together in one operating system.
-            </p>
-          </div>
-
-          <div className="mt-16 grid gap-5 lg:grid-cols-3">
-            {operatingAreas.map((item) => (
-              <article key={item.title} className="group overflow-hidden rounded-[30px] border border-white/[0.07] bg-[#080808]">
-                <div className="relative h-[270px] overflow-hidden">
-                  <img src={item.image} alt="" className="h-full w-full object-cover opacity-58 transition duration-700 group-hover:scale-[1.04] group-hover:opacity-70" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#080808] via-transparent to-black/10" />
-                  <span className="absolute left-6 top-6 text-[8px] uppercase tracking-[0.26em] text-[#D6A66A]/78">{item.number}</span>
-                </div>
-                <div className="p-7 sm:p-8">
-                  <h3 className="text-3xl font-light tracking-[-0.035em] text-white/88">{item.title}</h3>
-                  <p className="mt-5 text-[14px] leading-7 text-white/38">{item.text}</p>
-                </div>
+          <Eyebrow>Simple by design</Eyebrow>
+          <div className="mt-8 grid gap-7 lg:grid-cols-3">
+            {[
+              ["Understand", "Avantiqo keeps the company context together, so leadership sees what is happening and what matters now."],
+              ["Coordinate", "Priorities become owned work with responsibility, approvals, timing and evidence."],
+              ["Execute", "Approved decisions move into finance, operations, campaigns, publishing and connected services."],
+            ].map(([title, text], index) => (
+              <article key={title} className="rounded-[28px] border border-white/[0.07] bg-[#080809] p-7 sm:p-8">
+                <span className="text-[8px] text-[#D6A66A]/55">0{index + 1}</span>
+                <h2 className="mt-10 text-4xl font-extralight tracking-[-0.045em] text-white/88">{title}</h2>
+                <p className="mt-5 text-[14px] leading-7 text-white/38">{text}</p>
               </article>
             ))}
           </div>
@@ -193,119 +295,62 @@ export default function Home() {
       </section>
 
       <section className="relative px-6 py-24 sm:px-10 lg:px-14 lg:py-36">
-        <div className="mx-auto grid max-w-[1500px] gap-14 lg:grid-cols-[.8fr_1.2fr] lg:items-center">
-          <div>
-            <SectionLabel>Creative + growth</SectionLabel>
-            <h2 className="mt-7 text-5xl font-extralight leading-[1.01] tracking-[-0.055em] text-[#F3EFE8] sm:text-6xl lg:text-7xl">
-              A complete agency
-              <span className="block bg-gradient-to-r from-[#F1D391] via-[#D6A66A] to-[#9B738A] bg-clip-text text-transparent">
-                inside the operating system.
-              </span>
-            </h2>
-            <p className="mt-8 max-w-xl text-[15px] leading-8 text-white/40 sm:text-[17px]">
-              Avantiqo does not stop at analysis. It turns business goals into campaigns, content, websites, film, customer experiences and coordinated execution.
+        <div className="mx-auto max-w-[1500px]">
+          <div className="grid gap-10 lg:grid-cols-[.72fr_1.28fr] lg:items-end">
+            <div>
+              <Eyebrow>Operate the company</Eyebrow>
+              <h2 className="mt-7 text-5xl font-extralight leading-[1.02] tracking-[-0.055em] text-[#F3EFE8] sm:text-6xl lg:text-7xl">
+                One place for the work behind the business.
+              </h2>
+            </div>
+            <p className="max-w-2xl text-[15px] leading-8 text-white/40 sm:text-[17px]">
+              Finance, operations, supply chain, commercial, people, projects and governance remain connected without turning the experience into technical complexity.
             </p>
           </div>
-
-          <div className="relative min-h-[650px] overflow-hidden rounded-[38px] border border-[#D6A66A]/15 bg-[linear-gradient(145deg,#171008,#080808_52%,#111017)] p-6 shadow-[0_40px_120px_rgba(0,0,0,.45)] sm:p-9">
-            <div className="absolute -right-16 -top-20 h-64 w-64 rounded-full bg-[#D6A66A]/14 blur-[90px]" />
-            <div className="relative overflow-hidden rounded-[28px] border border-white/[0.08]">
-              <img src="/images/hero-hospitality.png" alt="Creative campaign experience" className="h-[330px] w-full object-cover opacity-62" />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#080808] via-transparent to-transparent" />
-              <div className="absolute bottom-7 left-7 right-7">
-                <p className="text-[8px] uppercase tracking-[0.28em] text-[#E4BC74]">From strategy to market</p>
-                <p className="mt-3 max-w-xl text-3xl font-light leading-tight text-white/88">
-                  One idea becomes a complete, coordinated customer experience.
-                </p>
-              </div>
-            </div>
-
-            <div className="relative mt-5 grid gap-3 sm:grid-cols-2">
-              {creativeOutputs.map(([title, text], index) => (
-                <div
-                  key={title}
-                  className={`rounded-2xl border p-5 ${
-                    index === 0 || index === 3
-                      ? "border-[#D6A66A]/20 bg-[#D6A66A]/[0.055]"
-                      : "border-white/[0.065] bg-black/25"
-                  }`}
-                >
-                  <p className="text-[10px] uppercase tracking-[0.21em] text-[#E3BC76]/78">{title}</p>
-                  <p className="mt-3 text-[12px] leading-6 text-white/34">{text}</p>
-                </div>
-              ))}
-            </div>
-          </div>
+          <div className="mt-14"><OperatingWorkspace /></div>
         </div>
       </section>
 
       <section className="relative border-y border-white/[0.06] bg-white/[0.012] px-6 py-24 sm:px-10 lg:px-14 lg:py-36">
         <div className="mx-auto max-w-[1500px]">
-          <SectionLabel>One company view</SectionLabel>
-          <div className="mt-7 grid gap-10 lg:grid-cols-[1.05fr_.95fr] lg:items-center">
-            <div className="relative min-h-[560px] overflow-hidden rounded-[36px] border border-white/[0.07]">
-              <img src="/images/distribution-hero.png" alt="Connected company operations" className="absolute inset-0 h-full w-full object-cover opacity-52" />
-              <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/48 to-black/20" />
-              <div className="relative flex min-h-[560px] max-w-xl flex-col justify-end p-8 sm:p-11">
-                <p className="text-[9px] uppercase tracking-[0.3em] text-[#D6A66A]/78">Shared context</p>
-                <h2 className="mt-5 text-5xl font-extralight leading-[1.01] tracking-[-0.055em] text-[#F3EFE8] sm:text-6xl">
-                  Every team sees the same company.
-                </h2>
-                <p className="mt-7 text-[15px] leading-8 text-white/42">
-                  The numbers, the work, the customers, the priorities and the evidence remain connected—so decisions can move directly into action.
-                </p>
-              </div>
-            </div>
+          <div className="max-w-4xl">
+            <Eyebrow>Create and grow</Eyebrow>
+            <h2 className="mt-7 text-5xl font-extralight leading-[1.02] tracking-[-0.055em] text-[#F3EFE8] sm:text-6xl lg:text-7xl">
+              Ideas become finished work.
+              <span className="block text-white/28">Not another list of recommendations.</span>
+            </h2>
+            <p className="mt-7 max-w-2xl text-[15px] leading-8 text-white/40 sm:text-[17px]">
+              Avantiqo can turn a business goal into a complete campaign, website, film, report, presentation or customer experience—ready for approval and delivery.
+            </p>
+          </div>
 
-            <div className="grid gap-4 sm:grid-cols-2">
-              {companyViews.map(([title, text], index) => (
-                <div key={title} className="min-h-[230px] rounded-[26px] border border-white/[0.07] bg-[#080808] p-7">
-                  <span className="text-[8px] uppercase tracking-[0.24em] text-[#D6A66A]/52">0{index + 1}</span>
-                  <h3 className="mt-9 text-2xl font-light text-white/84">{title}</h3>
-                  <p className="mt-4 text-[13px] leading-7 text-white/35">{text}</p>
+          <div className="mt-14 grid gap-5 md:grid-cols-2">
+            {outcomes.map(([title, text, type], index) => (
+              <article key={title} className={`overflow-hidden rounded-[30px] border border-white/[0.08] bg-[#080809] ${index === 0 || index === 3 ? "md:translate-y-8" : ""}`}>
+                <div className="h-[320px]"><OutputVisual type={type} /></div>
+                <div className="border-t border-white/[0.06] p-6 sm:p-7">
+                  <p className="text-[8px] uppercase tracking-[0.24em] text-[#D6A66A]/68">{title}</p>
+                  <p className="mt-3 text-lg font-light text-white/70">{text}</p>
                 </div>
-              ))}
-            </div>
+              </article>
+            ))}
           </div>
         </div>
       </section>
 
       <section className="relative px-6 py-28 sm:px-10 lg:px-14 lg:py-40">
         <div className="mx-auto max-w-[1400px] text-center">
-          <p className="text-[9px] uppercase tracking-[0.4em] text-[#D6A66A]/68">Universal by design</p>
-          <h2 className="mx-auto mt-8 max-w-6xl text-[clamp(3.4rem,7vw,7.6rem)] font-extralight leading-[0.93] tracking-[-0.065em] text-[#F3EFE8]">
-            Built around your company.
-            <span className="block bg-gradient-to-r from-[#F0D28E] via-[#D6A66A] to-[#967087] bg-clip-text text-transparent">
-              Never restricted by industry.
-            </span>
+          <Eyebrow>One connected experience</Eyebrow>
+          <h2 className="mx-auto mt-8 max-w-5xl text-[clamp(3.2rem,6vw,6.7rem)] font-extralight leading-[.98] tracking-[-0.06em] text-[#F3EFE8]">
+            Your company does not need more disconnected software.
+            <span className="mt-3 block bg-gradient-to-r from-[#F1D38F] via-[#D6A66A] to-[#967087] bg-clip-text text-transparent">It needs one system that understands the whole business.</span>
           </h2>
           <p className="mx-auto mt-8 max-w-3xl text-[16px] leading-8 text-white/40 sm:text-[18px] sm:leading-9">
-            Avantiqo adapts to the way the business is structured, governed and operated—without forcing every company into the same template.
+            Avantiqo is being built as the operating layer between strategy, people, information and execution—universal across companies, roles and industries.
           </p>
-        </div>
-
-        <div className="mx-auto mt-16 grid max-w-[1500px] gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {[
-            "/images/hero-healthcare.png",
-            "/images/hero-construction.png",
-            "/images/hero-retail.png",
-            "/images/professional-services-hero.png",
-          ].map((image, index) => (
-            <div key={image} className={`overflow-hidden rounded-[26px] border border-white/[0.07] ${index % 2 ? "lg:translate-y-10" : ""}`}>
-              <img src={image} alt="" className="h-[300px] w-full object-cover opacity-58 transition duration-700 hover:scale-[1.04] hover:opacity-72" />
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section className="relative border-t border-white/[0.06] px-6 py-28 sm:px-10 lg:px-14 lg:py-36">
-        <div className="mx-auto max-w-[1400px] overflow-hidden rounded-[42px] border border-[#D6A66A]/18 bg-[linear-gradient(135deg,rgba(49,33,17,.72),rgba(8,8,8,.97)_48%,rgba(37,23,39,.68))] px-7 py-16 text-center shadow-[0_45px_130px_rgba(0,0,0,.42)] sm:px-12 lg:px-20 lg:py-24">
-          <img src="/avantiqo-logo.png" alt="Avantiqo" className="mx-auto h-16 w-auto drop-shadow-[0_0_28px_rgba(214,166,106,.25)]" />
-          <p className="mt-8 text-[9px] uppercase tracking-[0.38em] text-[#D6A66A]/70">Coming soon</p>
-          <h2 className="mx-auto mt-7 max-w-5xl text-5xl font-extralight leading-[1.02] tracking-[-0.055em] text-[#F3EFE8] sm:text-6xl lg:text-8xl">
-            Your company will not simply use Avantiqo.
-            <span className="block text-white/31">It will operate through it.</span>
-          </h2>
+          <div className="mt-12">
+            <a href={LOGIN_URL} className="inline-flex min-h-14 items-center justify-center rounded-xl border border-[#F0CB7C] bg-[linear-gradient(105deg,#83511D,#D8A64F,#F1D184,#A66B27)] px-9 text-[10px] font-semibold uppercase tracking-[0.22em] text-black shadow-[0_18px_55px_rgba(179,116,38,.17)] transition hover:brightness-110">Login to Avantiqo</a>
+          </div>
         </div>
       </section>
 
