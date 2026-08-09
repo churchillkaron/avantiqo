@@ -1,3 +1,5 @@
+import ConnectedServiceDataOverview from "@/components/ConnectedServiceDataOverview";
+
 const LOGIN_URL = "https://app.churchillkaron.com/login?brand=avantiqo";
 
 const businessAreas = [
@@ -15,15 +17,6 @@ const businessAreas = [
   ["Administration", "Organizations, entities, users, permissions, integrations, policies and governance."],
 ];
 
-const integrationGroups = [
-  ["Google", "Business Profile, reviews, Google Ads and other approved Google services."],
-  ["Marketing channels", "Social platforms, advertising networks, publishing channels and campaign services."],
-  ["Email & calendars", "Authorized communication, scheduling and collaboration services."],
-  ["Payments & banking", "Approved payment providers, banking connections and financial reconciliation services."],
-  ["Websites & portals", "Avantiqo websites, customer portals, external websites, forms, widgets and APIs."],
-  ["Business providers", "Accounting, logistics, hospitality, service, document, automation and specialist providers."],
-];
-
 const principles = [
   ["Organization first", "Each customer organization has its own business context, users, permissions, records and connected services."],
   ["Explicit authorization", "External accounts are connected only when an authorized customer user chooses to connect them."],
@@ -36,16 +29,10 @@ const principles = [
 function SectionTitle({ eyebrow, title, children }) {
   return (
     <div className="max-w-4xl">
-      <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#D6A66A]">
-        {eyebrow}
-      </p>
-      <h2 className="mt-4 text-3xl font-light tracking-[-0.04em] text-white sm:text-4xl lg:text-5xl">
-        {title}
-      </h2>
+      <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#D6A66A]">{eyebrow}</p>
+      <h2 className="mt-4 text-3xl font-light tracking-[-0.04em] text-white sm:text-4xl lg:text-5xl">{title}</h2>
       {children ? (
-        <div className="mt-5 text-[15px] leading-7 text-white/55 sm:text-base sm:leading-8">
-          {children}
-        </div>
+        <div className="mt-5 text-[15px] leading-7 text-white/55 sm:text-base sm:leading-8">{children}</div>
       ) : null}
     </div>
   );
@@ -75,12 +62,10 @@ export default function Home() {
 
           <nav className="flex items-center gap-4">
             <a href="#platform" className="hidden text-xs text-white/50 hover:text-white md:inline">Platform</a>
-            <a href="#integrations" className="hidden text-xs text-white/50 hover:text-white md:inline">Integrations</a>
+            <a href="#connected-service-data" className="hidden text-xs text-white/50 hover:text-white md:inline">Integrations</a>
             <a href="/policy" className="hidden text-xs text-white/50 hover:text-white sm:inline">Privacy</a>
             <a href="/terms" className="hidden text-xs text-white/50 hover:text-white sm:inline">Terms</a>
-            <a href={LOGIN_URL} className="rounded-xl bg-[#D6A66A] px-5 py-2.5 text-xs font-semibold text-black transition hover:bg-[#E2BF79]">
-              Login
-            </a>
+            <a href={LOGIN_URL} className="rounded-xl bg-[#D6A66A] px-5 py-2.5 text-xs font-semibold text-black transition hover:bg-[#E2BF79]">Login</a>
           </nav>
         </div>
       </header>
@@ -89,29 +74,19 @@ export default function Home() {
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_75%_15%,rgba(214,166,106,.14),transparent_34%),radial-gradient(circle_at_15%_75%,rgba(112,76,104,.12),transparent_34%)]" />
         <div className="relative mx-auto max-w-7xl px-6 py-20 sm:py-24 lg:px-8 lg:py-28">
           <div className="max-w-5xl">
-            <p className="inline-flex rounded-full border border-[#D6A66A]/25 bg-[#D6A66A]/[0.06] px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.2em] text-[#E7C67F]">
-              Multi-tenant business management platform
-            </p>
-
+            <p className="inline-flex rounded-full border border-[#D6A66A]/25 bg-[#D6A66A]/[0.06] px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.2em] text-[#E7C67F]">Multi-tenant business management platform</p>
             <h1 className="mt-8 text-5xl font-light leading-[1.02] tracking-[-0.055em] text-[#F7F3EB] sm:text-6xl lg:text-7xl">
               Avantiqo is a Business Operating System for running companies from one accountable platform.
             </h1>
-
             <p className="mt-8 max-w-4xl text-lg leading-8 text-white/62 sm:text-xl sm:leading-9">
               Avantiqo helps organizations manage finance, operations, commercial activity, supply chain, people, projects, documents, customers, marketing, analytics, administration and connected business services in one system.
             </p>
-
             <p className="mt-5 max-w-4xl text-base leading-8 text-white/48">
               Each customer organization has its own users, permissions, business records, workflows, approvals and integrations. Avantiqo connects those parts so owners, managers, staff and authorized service providers can work from the same governed source of truth.
             </p>
-
             <div className="mt-10 flex flex-wrap gap-3">
-              <a href={LOGIN_URL} className="rounded-xl bg-[#D6A66A] px-6 py-3.5 text-sm font-semibold text-black transition hover:bg-[#E2BF79]">
-                Login to Avantiqo
-              </a>
-              <a href="#how-it-works" className="rounded-xl border border-white/12 bg-white/[0.03] px-6 py-3.5 text-sm font-medium text-white/75 transition hover:border-white/25 hover:text-white">
-                How Avantiqo works
-              </a>
+              <a href={LOGIN_URL} className="rounded-xl bg-[#D6A66A] px-6 py-3.5 text-sm font-semibold text-black transition hover:bg-[#E2BF79]">Login to Avantiqo</a>
+              <a href="#how-it-works" className="rounded-xl border border-white/12 bg-white/[0.03] px-6 py-3.5 text-sm font-medium text-white/75 transition hover:border-white/25 hover:text-white">How Avantiqo works</a>
             </div>
           </div>
         </div>
@@ -120,15 +95,10 @@ export default function Home() {
       <section id="platform" className="border-b border-white/[0.07] bg-white/[0.015]">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-24">
           <SectionTitle eyebrow="The platform" title="One operating system across the company.">
-            <p>
-              Avantiqo is not a single-purpose accounting app, CRM, POS or marketing tool. It is a platform that connects business domains while keeping responsibility, permissions and business rules inside the correct domain.
-            </p>
+            <p>Avantiqo is not a single-purpose accounting app, CRM, POS or marketing tool. It is a platform that connects business domains while keeping responsibility, permissions and business rules inside the correct domain.</p>
           </SectionTitle>
-
           <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {businessAreas.map(([title, description]) => (
-              <Card key={title} title={title}>{description}</Card>
-            ))}
+            {businessAreas.map(([title, description]) => <Card key={title} title={title}>{description}</Card>)}
           </div>
         </div>
       </section>
@@ -136,11 +106,8 @@ export default function Home() {
       <section id="how-it-works" className="border-b border-white/[0.07]">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-24">
           <SectionTitle eyebrow="How it works" title="Avantiqo connects context, people, workflows and execution.">
-            <p>
-              The platform is designed around the organization. Business data and actions are not mixed between customers. Users operate inside the company context they are authorized to access.
-            </p>
+            <p>The platform is designed around the organization. Business data and actions are not mixed between customers. Users operate inside the company context they are authorized to access.</p>
           </SectionTitle>
-
           <div className="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
             {[
               ["01", "Set up the organization", "Define the company, business entities, users, roles, policies and operating context."],
@@ -160,58 +127,11 @@ export default function Home() {
 
       <section className="border-b border-white/[0.07] bg-white/[0.015]">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-24">
-          <SectionTitle eyebrow="Who uses Avantiqo" title="Different people. One governed company context.">
-            <p>
-              Avantiqo can provide different experiences for owners, managers, employees, accounting teams, operational staff, customers and external service providers. Access depends on the organization and the permissions assigned to the user.
-            </p>
-          </SectionTitle>
-
-          <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {[
-              ["Owners & executives", "Business health, approvals, financial control, performance, risk and strategic visibility."],
-              ["Managers", "Teams, work, budgets, schedules, approvals, customers, operations and performance."],
-              ["Employees", "Assigned work, schedules, attendance, documents, tasks, requests and self-service."],
-              ["Finance & accounting", "Accounting, journals, receivables, payables, bank processes, tax, reporting and controls."],
-              ["Customers", "Portals, requests, bookings, documents, communications, payments and service history where enabled."],
-              ["Authorized partners", "Controlled access to the work or data an organization explicitly allows them to handle."],
-            ].map(([title, description]) => (
-              <Card key={title} title={title}>{description}</Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section id="integrations" className="border-b border-white/[0.07]">
-        <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-24">
-          <SectionTitle eyebrow="Connected services" title="Avantiqo can connect the services a business already uses.">
-            <p>
-              Integrations are optional. An authorized customer user chooses what to connect and grants access through the external provider&apos;s own authorization process. Customers do not need to give Avantiqo their external-service passwords.
-            </p>
-            <p className="mt-3">
-              The exact permissions requested depend on the service and the feature the customer wants to use. Avantiqo aims to request only the access needed for that feature.
-            </p>
-          </SectionTitle>
-
-          <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {integrationGroups.map(([title, description]) => (
-              <Card key={title} title={title}>{description}</Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="border-b border-white/[0.07] bg-white/[0.015]">
-        <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-24">
           <SectionTitle eyebrow="Permissions & control" title="Customers control what Avantiqo can access and execute.">
-            <p>
-              The platform is designed to keep external connections, business data and execution attached to the correct organization and authorized user context.
-            </p>
+            <p>The platform is designed to keep external connections, business data and execution attached to the correct organization and authorized user context.</p>
           </SectionTitle>
-
           <div className="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-            {principles.map(([title, description]) => (
-              <Card key={title} title={title}>{description}</Card>
-            ))}
+            {principles.map(([title, description]) => <Card key={title} title={title}>{description}</Card>)}
           </div>
         </div>
       </section>
@@ -219,79 +139,31 @@ export default function Home() {
       <section className="border-b border-white/[0.07]">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-24">
           <SectionTitle eyebrow="AI & automation" title="Intelligence supports the business. Governance stays in control.">
-            <p>
-              Avantiqo can use AI to research, summarize, classify, recommend, create drafts, detect issues and coordinate workflows. Automation can execute approved work where the organization enables it. Important commitments can still require human approval according to the organization&apos;s policy.
-            </p>
+            <p>Avantiqo can use AI to research, summarize, classify, recommend, create drafts, detect issues and coordinate workflows. Automation can execute approved work where the organization enables it. Important commitments can still require human approval according to the organization&apos;s policy.</p>
           </SectionTitle>
-
           <div className="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
             {[
               ["Understand", "Bring relevant business context together so users do not have to search across disconnected systems."],
               ["Recommend", "Surface risks, opportunities, next actions and improvements based on available authorized data."],
               ["Create", "Prepare documents, campaigns, reports, communications and operational drafts for review."],
               ["Execute", "Run approved workflows and provider actions where the organization has enabled automation."],
-            ].map(([title, description]) => (
-              <Card key={title} title={title}>{description}</Card>
-            ))}
+            ].map(([title, description]) => <Card key={title} title={title}>{description}</Card>)}
           </div>
         </div>
       </section>
 
-      <section id="google" className="border-b border-white/[0.07] bg-white/[0.015]">
-        <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-24">
-          <SectionTitle eyebrow="Current Google integrations" title="Why Avantiqo asks for Google access.">
-            <p>
-              Google access is optional and initiated by an authorized customer administrator. The customer signs in directly with Google and grants the permissions required for the Google feature they choose to connect.
-            </p>
-          </SectionTitle>
-
-          <div className="mt-12 grid gap-6 lg:grid-cols-2">
-            <article className="rounded-[26px] border border-[#D6A66A]/18 bg-[#D6A66A]/[0.035] p-7">
-              <h3 className="text-2xl font-light text-white">Google Business Profile</h3>
-              <p className="mt-5 text-[15px] leading-7 text-white/55">
-                An authorized organization administrator can connect the Google account that manages the organization&apos;s Business Profile. Avantiqo can then discover authorized business locations, synchronize reviews, support approved review replies and provide reputation-management workflows.
-              </p>
-              <div className="mt-6 rounded-2xl border border-white/[0.07] bg-black/25 p-5">
-                <p className="text-[10px] font-semibold uppercase tracking-[0.17em] text-[#D6A66A]">Data used for this feature</p>
-                <p className="mt-3 text-sm leading-6 text-white/46">
-                  Authorized business locations, reviews, review replies and the Google Account email identity used to authorize the connection.
-                </p>
-              </div>
-            </article>
-
-            <article className="rounded-[26px] border border-[#D6A66A]/18 bg-[#D6A66A]/[0.035] p-7">
-              <h3 className="text-2xl font-light text-white">Google Ads</h3>
-              <p className="mt-5 text-[15px] leading-7 text-white/55">
-                An authorized organization administrator can connect the organization&apos;s Google Ads account. Avantiqo can then support approved campaign creation and management, budgets, advertising assets, performance reporting, optimization and advertising-spend reconciliation.
-              </p>
-              <div className="mt-6 rounded-2xl border border-white/[0.07] bg-black/25 p-5">
-                <p className="text-[10px] font-semibold uppercase tracking-[0.17em] text-[#D6A66A]">Data used for this feature</p>
-                <p className="mt-3 text-sm leading-6 text-white/46">
-                  Authorized Google Ads accounts, campaigns, budgets, assets, performance metrics, spend data and the Google Account email identity used to authorize the connection.
-                </p>
-              </div>
-            </article>
-          </div>
-
-          <div className="mt-6 rounded-2xl border border-white/[0.08] bg-[#090909] p-6 text-sm leading-7 text-white/48">
-            Avantiqo does not ask customers to share their Google passwords and does not sell Google user data. Customers can disconnect Google integrations from Avantiqo and can revoke Avantiqo&apos;s access from their Google Account permissions. More detail is available in the Avantiqo Privacy Policy.
-          </div>
-        </div>
-      </section>
+      <ConnectedServiceDataOverview />
 
       <section className="border-b border-white/[0.07]">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-24">
           <div className="grid gap-10 lg:grid-cols-[1fr_.8fr] lg:items-start">
             <SectionTitle eyebrow="Privacy & transparency" title="Customers should know what the platform does with their data.">
-              <p>
-                Avantiqo&apos;s Privacy Policy explains how organizational and connected-service data is accessed, used, stored, protected, retained and deleted. The Terms of Service explain the rules governing platform access and connected services.
-              </p>
+              <p>Avantiqo&apos;s Privacy Policy explains how organizational and connected-service data is accessed, used, stored, protected, retained and deleted. The Terms of Service explain the rules governing platform access and connected services.</p>
             </SectionTitle>
-
             <div className="grid gap-4">
               <a href="/policy" className="rounded-2xl border border-[#D6A66A]/22 bg-[#D6A66A]/[0.045] p-6 transition hover:border-[#D6A66A]/40">
                 <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#D6A66A]">Privacy Policy</p>
-                <p className="mt-3 text-sm leading-6 text-white/50">How Avantiqo handles platform data, connected-service data and Google API user data.</p>
+                <p className="mt-3 text-sm leading-6 text-white/50">How Avantiqo handles platform data and connected-service data.</p>
               </a>
               <a href="/terms" className="rounded-2xl border border-white/[0.08] bg-white/[0.02] p-6 transition hover:border-white/20">
                 <p className="text-xs font-semibold uppercase tracking-[0.18em] text-white/65">Terms of Service</p>
@@ -305,24 +177,15 @@ export default function Home() {
       <section>
         <div className="mx-auto max-w-7xl px-6 py-20 text-center lg:px-8 lg:py-24">
           <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#D6A66A]">Avantiqo</p>
-          <h2 className="mx-auto mt-5 max-w-4xl text-4xl font-light tracking-[-0.04em] text-white sm:text-5xl">
-            One company context. Clear permissions. Connected workflows. Accountable execution.
-          </h2>
-          <p className="mx-auto mt-6 max-w-3xl text-base leading-8 text-white/48">
-            The organization decides who can access the platform, which external services are connected, what requires approval and which workflows may be automated.
-          </p>
-          <a href={LOGIN_URL} className="mt-9 inline-flex rounded-xl bg-[#D6A66A] px-7 py-3.5 text-sm font-semibold text-black transition hover:bg-[#E2BF79]">
-            Login to Avantiqo
-          </a>
+          <h2 className="mx-auto mt-5 max-w-4xl text-4xl font-light tracking-[-0.04em] text-white sm:text-5xl">One company context. Clear permissions. Connected workflows. Accountable execution.</h2>
+          <p className="mx-auto mt-6 max-w-3xl text-base leading-8 text-white/48">The organization decides who can access the platform, which external services are connected, what requires approval and which workflows may be automated.</p>
+          <a href={LOGIN_URL} className="mt-9 inline-flex rounded-xl bg-[#D6A66A] px-7 py-3.5 text-sm font-semibold text-black transition hover:bg-[#E2BF79]">Login to Avantiqo</a>
         </div>
       </section>
 
       <footer className="border-t border-white/[0.07] bg-black/50">
         <div className="mx-auto flex max-w-7xl flex-col gap-5 px-6 py-8 text-sm text-white/40 sm:flex-row sm:items-center sm:justify-between lg:px-8">
-          <div>
-            <span className="font-medium text-white/65">Avantiqo</span>
-            <span className="ml-2">Business Operating System</span>
-          </div>
+          <div><span className="font-medium text-white/65">Avantiqo</span><span className="ml-2">Business Operating System</span></div>
           <div className="flex gap-5">
             <a href="/policy" className="transition hover:text-white">Privacy Policy</a>
             <a href="/terms" className="transition hover:text-white">Terms of Service</a>
