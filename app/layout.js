@@ -1,6 +1,7 @@
 import "./globals.css";
 import { I18nProvider } from "./providers/I18nProvider";
 import { Manrope, Inter } from "next/font/google";
+import GoogleOAuthCompliance from "@/components/GoogleOAuthCompliance";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -18,7 +19,8 @@ const manrope = Manrope({
 
 export const metadata = {
   title: "Avantiqo",
-  description: "Enterprise AI Operating System",
+  description:
+    "Avantiqo is a multi-tenant business management platform connecting finance, operations, supply chain, commercial activities, people, projects, marketing, documents, compliance and approved business services.",
 };
 
 export default function RootLayout({ children }) {
@@ -26,7 +28,9 @@ export default function RootLayout({ children }) {
     <html lang="en" className={`${inter.variable} ${manrope.variable}`}>
       <body>
         <I18nProvider>
+          <GoogleOAuthCompliance position="before" />
           {children}
+          <GoogleOAuthCompliance position="after" />
         </I18nProvider>
       </body>
     </html>
