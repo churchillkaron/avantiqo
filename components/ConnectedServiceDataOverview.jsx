@@ -1,7 +1,3 @@
-"use client";
-
-import { usePathname } from "next/navigation";
-
 const providers = [
   {
     name: "Google",
@@ -70,89 +66,79 @@ const providers = [
 ];
 
 export default function ConnectedServiceDataOverview() {
-  const pathname = usePathname();
-
-  if (pathname !== "/") return null;
-
   return (
-    <>
-      <style jsx global>{`
-        #google { display: none !important; }
-      `}</style>
+    <section id="connected-service-data" className="border-b border-white/[0.07] bg-[#070812] text-white">
+      <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-24">
+        <div className="max-w-5xl">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#D6A66A]">
+            Connected service data
+          </p>
+          <h2 className="mt-4 text-3xl font-light tracking-[-0.04em] text-white sm:text-4xl lg:text-5xl">
+            How Avantiqo uses data from connected business services.
+          </h2>
+          <p className="mt-5 text-[15px] leading-7 text-white/55 sm:text-base sm:leading-8">
+            Avantiqo connects external services only when an authorized customer user chooses to connect them. The customer authenticates directly with the provider and grants the permissions needed for the selected feature. Avantiqo does not require customers to share their external-service passwords.
+          </p>
+          <p className="mt-3 text-[15px] leading-7 text-white/45 sm:text-base sm:leading-8">
+            The exact data accessed depends on the provider and the feature the organization enables. Avantiqo is designed to use the minimum data required for that workflow, keep it attached to the correct organization, and allow authorized administrators to disconnect services when required.
+          </p>
+        </div>
 
-      <section id="connected-service-data" className="border-b border-white/[0.07] bg-white/[0.015] text-white">
-        <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-24">
-          <div className="max-w-5xl">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#D6A66A]">
-              Connected service data
-            </p>
-            <h2 className="mt-4 text-3xl font-light tracking-[-0.04em] text-white sm:text-4xl lg:text-5xl">
-              How Avantiqo uses data from connected business services.
-            </h2>
-            <p className="mt-5 text-[15px] leading-7 text-white/55 sm:text-base sm:leading-8">
-              Avantiqo connects external services only when an authorized customer user chooses to connect them. The customer authenticates directly with the provider and grants the permissions needed for the selected feature. Avantiqo does not require customers to share their external-service passwords.
-            </p>
-            <p className="mt-3 text-[15px] leading-7 text-white/45 sm:text-base sm:leading-8">
-              The exact data accessed depends on the provider and the feature the organization enables. Avantiqo is designed to use the minimum data required for that workflow, keep it attached to the correct organization, and allow authorized administrators to disconnect services when required.
-            </p>
-          </div>
+        <div className="mt-12 grid gap-6 lg:grid-cols-2">
+          {providers.map((provider) => (
+            <article
+              key={provider.name}
+              className="rounded-[26px] border border-[#D6A66A]/18 bg-[#D6A66A]/[0.035] p-7"
+            >
+              <div className="flex flex-wrap items-start justify-between gap-3">
+                <h3 className="text-2xl font-light text-white">{provider.name}</h3>
+                <span className="rounded-full border border-white/[0.08] bg-black/20 px-3 py-1.5 text-[9px] uppercase tracking-[0.13em] text-white/38">
+                  {provider.status}
+                </span>
+              </div>
 
-          <div className="mt-12 grid gap-6 lg:grid-cols-2">
-            {providers.map((provider) => (
-              <article
-                key={provider.name}
-                className="rounded-[26px] border border-[#D6A66A]/18 bg-[#D6A66A]/[0.035] p-7"
-              >
-                <div className="flex flex-wrap items-start justify-between gap-3">
-                  <h3 className="text-2xl font-light text-white">{provider.name}</h3>
-                  <span className="rounded-full border border-white/[0.08] bg-black/20 px-3 py-1.5 text-[9px] uppercase tracking-[0.13em] text-white/38">
-                    {provider.status}
-                  </span>
-                </div>
+              <p className="mt-5 text-[15px] leading-7 text-white/55">
+                {provider.purpose}
+              </p>
 
-                <p className="mt-5 text-[15px] leading-7 text-white/55">
-                  {provider.purpose}
+              <div className="mt-6 rounded-2xl border border-white/[0.07] bg-black/25 p-5">
+                <p className="text-[10px] font-semibold uppercase tracking-[0.17em] text-[#D6A66A]">
+                  Data used for this feature
                 </p>
+                <p className="mt-3 text-sm leading-6 text-white/46">
+                  {provider.data}
+                </p>
+              </div>
+            </article>
+          ))}
+        </div>
 
-                <div className="mt-6 rounded-2xl border border-white/[0.07] bg-black/25 p-5">
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.17em] text-[#D6A66A]">
-                    Data used for this feature
-                  </p>
-                  <p className="mt-3 text-sm leading-6 text-white/46">
-                    {provider.data}
-                  </p>
-                </div>
-              </article>
-            ))}
-          </div>
-
-          <div className="mt-8 rounded-[26px] border border-white/[0.08] bg-[#090909] p-7">
-            <p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-[#D6A66A]">
-              Customer control
+        <div className="mt-8 rounded-[26px] border border-white/[0.08] bg-[#090909] p-7">
+          <p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-[#D6A66A]">
+            Customer control
+          </p>
+          <div className="mt-5 grid gap-5 text-sm leading-7 text-white/48 md:grid-cols-3">
+            <p>
+              <strong className="font-medium text-white/82">Authorization:</strong> external access begins only after an authorized customer user connects the service through the provider&apos;s own authorization flow.
             </p>
-            <div className="mt-5 grid gap-5 text-sm leading-7 text-white/48 md:grid-cols-3">
-              <p>
-                <strong className="font-medium text-white/82">Authorization:</strong> external access begins only after an authorized customer user connects the service through the provider's own authorization flow.
-              </p>
-              <p>
-                <strong className="font-medium text-white/82">Use:</strong> connected data is used to provide the business feature selected by the customer, such as communication, publishing, reporting, reconciliation or approved execution.
-              </p>
-              <p>
-                <strong className="font-medium text-white/82">Revocation:</strong> authorized administrators can disconnect integrations in Avantiqo and, where supported, revoke access directly with the external provider.
-              </p>
-            </div>
-          </div>
-
-          <div className="mt-8 flex flex-wrap gap-3">
-            <a href="/policy" className="rounded-xl border border-[#D6A66A]/28 bg-[#D6A66A]/[0.045] px-5 py-3 text-xs font-medium text-[#E7C67F] transition hover:border-[#D6A66A]/50">
-              Read Privacy Policy
-            </a>
-            <a href="/terms" className="rounded-xl border border-white/[0.09] bg-white/[0.02] px-5 py-3 text-xs font-medium text-white/60 transition hover:border-white/20 hover:text-white">
-              Read Terms of Service
-            </a>
+            <p>
+              <strong className="font-medium text-white/82">Use:</strong> connected data is used to provide the business feature selected by the customer, such as communication, publishing, reporting, reconciliation or approved execution.
+            </p>
+            <p>
+              <strong className="font-medium text-white/82">Revocation:</strong> authorized administrators can disconnect integrations in Avantiqo and, where supported, revoke access directly with the external provider.
+            </p>
           </div>
         </div>
-      </section>
-    </>
+
+        <div className="mt-8 flex flex-wrap gap-3">
+          <a href="/policy" className="rounded-xl border border-[#D6A66A]/28 bg-[#D6A66A]/[0.045] px-5 py-3 text-xs font-medium text-[#E7C67F] transition hover:border-[#D6A66A]/50">
+            Read Privacy Policy
+          </a>
+          <a href="/terms" className="rounded-xl border border-white/[0.09] bg-white/[0.02] px-5 py-3 text-xs font-medium text-white/60 transition hover:border-white/20 hover:text-white">
+            Read Terms of Service
+          </a>
+        </div>
+      </div>
+    </section>
   );
 }
