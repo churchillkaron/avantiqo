@@ -2,6 +2,7 @@ import "./globals.css";
 import { I18nProvider } from "./providers/I18nProvider";
 import { Manrope, Inter } from "next/font/google";
 import GoogleOAuthCompliance from "@/components/GoogleOAuthCompliance";
+import ConnectedServiceDataOverview from "@/components/ConnectedServiceDataOverview";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
       <body>
         <I18nProvider>
           {children}
+          <ConnectedServiceDataOverview />
           <GoogleOAuthCompliance position="after" />
         </I18nProvider>
       </body>
