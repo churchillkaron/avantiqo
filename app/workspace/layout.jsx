@@ -1,5 +1,6 @@
 import WorkspaceSidebar from "@/components/workspace/WorkspaceSidebar";
 import WorkspaceTopbar from "@/components/workspace/WorkspaceTopbar";
+import MobileBottomNav from "@/components/workspace/MobileBottomNav";
 
 export default function WorkspaceLayout({
   children,
@@ -16,6 +17,8 @@ export default function WorkspaceLayout({
         {children}
 
       </main>
+
+      <MobileBottomNav />
 
     </div>
   );

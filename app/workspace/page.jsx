@@ -1,6 +1,5 @@
 "use client";
 
-import MobileBottomNav from "@/components/workspace/MobileBottomNav";
 import { useTranslation } from "@/app/providers/I18nProvider";
 
 export default function WorkspacePage() {
@@ -1212,7 +1211,6 @@ export default function WorkspacePage() {
 
       </div>
 
-      <MobileBottomNav />
     </main>
   );
 }

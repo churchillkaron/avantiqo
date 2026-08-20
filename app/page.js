@@ -1,4 +1,5 @@
 import ConnectedServiceDataOverview from "@/components/ConnectedServiceDataOverview";
+import Link from "next/link";
 
 const LOGIN_URL = "https://app.churchillkaron.com/login?brand=avantiqo";
 
@@ -52,19 +53,19 @@ export default function Home() {
     <main className="min-h-screen bg-[#050505] text-white">
       <header className="sticky top-0 z-50 border-b border-white/[0.07] bg-[#050505]/95 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-6 py-4 lg:px-8">
-          <a href="/" className="flex items-center gap-3" aria-label="Avantiqo home">
+          <Link href="/" className="flex items-center gap-3" aria-label="Avantiqo home">
             <img src="/avantiqo-logo.png" alt="Avantiqo" className="h-10 w-auto object-contain" />
             <div>
               <div className="text-sm font-semibold tracking-[0.16em] text-[#E8CB8A]">Avantiqo</div>
               <div className="mt-1 text-[9px] uppercase tracking-[0.16em] text-white/35">Business Operating System</div>
             </div>
-          </a>
+          </Link>
 
           <nav className="flex items-center gap-4">
             <a href="#platform" className="hidden text-xs text-white/50 hover:text-white md:inline">Platform</a>
             <a href="#connected-service-data" className="hidden text-xs text-white/50 hover:text-white md:inline">Integrations</a>
-            <a href="/policy" className="hidden text-xs text-white/50 hover:text-white sm:inline">Privacy</a>
-            <a href="/terms" className="hidden text-xs text-white/50 hover:text-white sm:inline">Terms</a>
+            <Link href="/policy" className="hidden text-xs text-white/50 hover:text-white sm:inline">Privacy</Link>
+            <Link href="/terms" className="hidden text-xs text-white/50 hover:text-white sm:inline">Terms</Link>
             <a href={LOGIN_URL} className="rounded-xl bg-[#D6A66A] px-5 py-2.5 text-xs font-semibold text-black transition hover:bg-[#E2BF79]">Login</a>
           </nav>
         </div>
@@ -161,14 +162,14 @@ export default function Home() {
               <p>Avantiqo&apos;s Privacy Policy explains how organizational and connected-service data is accessed, used, stored, protected, retained and deleted. The Terms of Service explain the rules governing platform access and connected services.</p>
             </SectionTitle>
             <div className="grid gap-4">
-              <a href="/policy" className="rounded-2xl border border-[#D6A66A]/22 bg-[#D6A66A]/[0.045] p-6 transition hover:border-[#D6A66A]/40">
+              <Link href="/policy" className="rounded-2xl border border-[#D6A66A]/22 bg-[#D6A66A]/[0.045] p-6 transition hover:border-[#D6A66A]/40">
                 <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#D6A66A]">Privacy Policy</p>
                 <p className="mt-3 text-sm leading-6 text-white/50">How Avantiqo handles platform data and connected-service data.</p>
-              </a>
-              <a href="/terms" className="rounded-2xl border border-white/[0.08] bg-white/[0.02] p-6 transition hover:border-white/20">
+              </Link>
+              <Link href="/terms" className="rounded-2xl border border-white/[0.08] bg-white/[0.02] p-6 transition hover:border-white/20">
                 <p className="text-xs font-semibold uppercase tracking-[0.18em] text-white/65">Terms of Service</p>
                 <p className="mt-3 text-sm leading-6 text-white/45">The terms governing Avantiqo platform access and authorized business use.</p>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -187,8 +188,8 @@ export default function Home() {
         <div className="mx-auto flex max-w-7xl flex-col gap-5 px-6 py-8 text-sm text-white/40 sm:flex-row sm:items-center sm:justify-between lg:px-8">
           <div><span className="font-medium text-white/65">Avantiqo</span><span className="ml-2">Business Operating System</span></div>
           <div className="flex gap-5">
-            <a href="/policy" className="transition hover:text-white">Privacy Policy</a>
-            <a href="/terms" className="transition hover:text-white">Terms of Service</a>
+            <Link href="/policy" className="transition hover:text-white">Privacy Policy</Link>
+            <Link href="/terms" className="transition hover:text-white">Terms of Service</Link>
             <a href={LOGIN_URL} className="transition hover:text-white">Login</a>
           </div>
         </div>

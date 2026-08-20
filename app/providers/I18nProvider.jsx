@@ -1,57 +1,61 @@
 "use client";
 
 import {
+  useCallback,
   createContext,
   useContext,
   useMemo,
-  useState,
-  useEffect,
+  useSyncExternalStore,
 } from "react";
 
 import { translations } from "@/app/lib/i18n/translations";
 
 const I18nContext = createContext();
 
+function getLocaleSnapshot() {
+  const savedLocale = localStorage.getItem("locale");
+  return savedLocale && translations[savedLocale] ? savedLocale : "en";
+}
+
+function subscribeToLocale(callback) {
+  window.addEventListener("localeChange", callback);
+  window.addEventListener("storage", callback);
+
+  return () => {
+    window.removeEventListener("localeChange", callback);
+    window.removeEventListener("storage", callback);
+  };
+}
+
 export function I18nProvider({ children }) {
-  const [locale, setLocaleState] = useState("en");
+  const locale = useSyncExternalStore(
+    subscribeToLocale,
+    getLocaleSnapshot,
+    () => "en",
+  );
 
-  useEffect(() => {
-    const savedLocale =
-      typeof window !== "undefined"
-        ? localStorage.getItem("locale")
-        : null;
-
-    if (
-      savedLocale &&
-      translations[savedLocale]
-    ) {
-      setLocaleState(savedLocale);
+  const setLocale = useCallback((newLocale) => {
+    if (!translations[newLocale]) {
+      return;
     }
+
+    localStorage.setItem("locale", newLocale);
+    window.dispatchEvent(new Event("localeChange"));
   }, []);
 
-  const setLocale = (newLocale) => {
-    setLocaleState(newLocale);
-
-    if (typeof window !== "undefined") {
-      localStorage.setItem(
-        "locale",
-        newLocale
-      );
-    }
-  };
-
-  const t = (key) => {
+  const t = useCallback((key) => {
     const keys = key.split(".");
 
-    let value =
-      translations?.[locale];
+    let value = translations[locale];
+    let fallback = translations.en;
 
     for (const k of keys) {
       value = value?.[k];
+      fallback = fallback?.[k];
     }
 
-    return value || key;
-  };
+    return value || fallback || key;
+  }, [locale]);
 
   const value = useMemo(() => {
     return {
@@ -60,7 +64,7 @@ export function I18nProvider({ children }) {
       t,
       translations: translations?.[locale] || {},
     };
-  }, [locale]);
+  }, [locale, setLocale, t]);
 
   return (
     <I18nContext.Provider value={value}>

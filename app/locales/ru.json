@@ -1596,7 +1596,13 @@
     "start": "Старт",
     "login": "Войти",
     "modules": "Модули",
-    "designStudio": "Дизайн Студия"
+    "designStudio": "Дизайн Студия",
+    "activeOrganization": "АКТИВНАЯ ОРГАНИЗАЦИЯ",
+    "enterprise": "Avantiqo Enterprise",
+    "search": "Поиск в рабочем пространстве",
+    "aiCommand": "ИИ-команда",
+    "notifications": "Уведомления",
+    "superAdmin": "Суперадминистратор"
   },
   "accounting": {
     "hero": {
@@ -2387,8 +2393,8 @@
         "description": "Service runners dispatch completed orders."
       },
       "tablesPayment": {
-        "title": "Tables → Payment",
-        "description": "Dining runtime linked to financial flow."
+        "title": "POS → Payment",
+        "description": "Payment and receipt completed within POS."
       }
     },
     "alerts": {

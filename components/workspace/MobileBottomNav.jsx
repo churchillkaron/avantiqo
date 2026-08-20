@@ -2,27 +2,39 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import {
+  BellRing,
+  ChefHat,
+  House,
+  MonitorCog,
+  Smartphone,
+} from "lucide-react";
 
 const items = [
   {
     label: "Home",
     href: "/workspace",
+    icon: House,
   },
   {
-    label: "POS",
-    href: "/workspace/pos",
+    label: "Waiter",
+    href: "/workspace/waiter",
+    icon: Smartphone,
   },
   {
     label: "Kitchen",
     href: "/workspace/kitchen",
+    icon: ChefHat,
   },
   {
     label: "Expo",
     href: "/workspace/expo",
+    icon: BellRing,
   },
   {
-    label: "Finance",
-    href: "/workspace/finance",
+    label: "POS",
+    href: "/workspace/pos",
+    icon: MonitorCog,
   },
 ];
 
@@ -40,16 +52,20 @@ export default function MobileBottomNav() {
           const active =
             pathname === item.href;
 
+          const Icon = item.icon;
+
           return (
             <Link
               key={item.href}
               href={item.href}
-              className={`flex flex-col items-center justify-center py-3 text-xs transition ${
+              aria-current={active ? "page" : undefined}
+              className={`flex min-h-16 flex-col items-center justify-center gap-1.5 py-2 text-[11px] transition ${
                 active
-                  ? "text-white"
-                  : "text-white/40"
+                  ? "text-[#D6A66A]"
+                  : "text-white/60"
               }`}
             >
+              <Icon aria-hidden="true" size={19} strokeWidth={1.7} />
               {item.label}
             </Link>
           );

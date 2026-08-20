@@ -34,8 +34,8 @@ const sections = [
         href: "/workspace/pos",
       },
       {
-        label: "Tables",
-        href: "/workspace/tables",
+        label: "Waiter (Mobile)",
+        href: "/workspace/waiter",
       },
       {
         label: "Kitchen",
@@ -177,7 +177,7 @@ export default function WorkspaceSidebar() {
             {sections.map((section) => (
               <div key={section.title}>
 
-                <div className="mb-3 px-3 text-[11px] tracking-[0.3em] text-white/30">
+                <div className="mb-3 px-3 text-[11px] tracking-[0.3em] text-white/55">
                   {section.title}
                 </div>
 

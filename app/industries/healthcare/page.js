@@ -209,7 +209,7 @@ export default function HealthcareIndustryPage() {
           <div className="rounded-[46px] border border-white/10 bg-black/30 p-8 shadow-[0_35px_140px_rgba(0,0,0,0.65)] backdrop-blur-3xl md:p-12">
             <div className="rounded-[46px] border border-white/10 bg-black/[0.045] p-8 shadow-[0_35px_140px_rgba(0,0,0,0.55)] backdrop-blur-3xl md:p-12">
 <p className="mb-7 text-xs uppercase tracking-[0.45em] text-[#D6A66A]">
-Healthcare Doesn't Fail In Treatment.
+Healthcare Doesn&apos;t Fail In Treatment.
 </p>
 
 <h1 className="text-5xl font-extralight leading-[0.96] tracking-[-0.075em] md:text-7xl lg:text-[88px]">

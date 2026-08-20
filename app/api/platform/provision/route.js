@@ -117,7 +117,7 @@ export async function POST(request) {
         lead.selected_modules
       )
     ) {
-      for (const module of lead.selected_modules) {
+      for (const selectedModule of lead.selected_modules) {
         await supabase
           .from(
             "tenant_modules"
@@ -127,7 +127,7 @@ export async function POST(request) {
               tenant.id,
 
             module_id:
-              module.id,
+              selectedModule.id,
 
             status:
               "active",

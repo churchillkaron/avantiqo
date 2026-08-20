@@ -16,11 +16,9 @@ export default function LanguageSwitcher() {
   const { locale, setLocale } =
     useTranslation();
 
-  console.log("LANGUAGE_SWITCHER_LOCALE", locale);
-
-
   return (
     <select
+      aria-label="Workspace language"
       value={locale}
       onChange={(event) =>
         setLocale(event.target.value)

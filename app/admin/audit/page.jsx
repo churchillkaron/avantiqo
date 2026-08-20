@@ -10,29 +10,26 @@ export default function AuditPage() {
     useState(true);
 
   useEffect(() => {
-    loadLogs();
+    let active = true;
+
+    fetch("/api/platform/audit")
+      .then((response) => response.json())
+      .then((result) => {
+        if (active && result.success) {
+          setLogs(result.logs || []);
+        }
+      })
+      .catch((error) => console.error(error))
+      .finally(() => {
+        if (active) {
+          setLoading(false);
+        }
+      });
+
+    return () => {
+      active = false;
+    };
   }, []);
-
-  async function loadLogs() {
-    try {
-      const response = await fetch(
-        "/api/platform/audit"
-      );
-
-      const result =
-        await response.json();
-
-      if (result.success) {
-        setLogs(
-          result.logs || []
-        );
-      }
-    } catch (error) {
-      console.error(error);
-    } finally {
-      setLoading(false);
-    }
-  }
 
   return (
     <main className="min-h-screen bg-[#050407] p-8 text-white">

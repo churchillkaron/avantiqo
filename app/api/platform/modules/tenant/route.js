@@ -55,14 +55,14 @@ export async function POST(request) {
       );
     }
 
-    const module = await enableTenantModule(
+    const tenantModule = await enableTenantModule(
       body.tenantId,
       body.moduleId
     );
 
     return Response.json({
       success: true,
-      module,
+      module: tenantModule,
     });
   } catch (error) {
     return Response.json(

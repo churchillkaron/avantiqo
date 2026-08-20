@@ -10,29 +10,26 @@ export default function ModulesPage() {
     useState(true);
 
   useEffect(() => {
-    loadModules();
+    let active = true;
+
+    fetch("/api/platform/modules")
+      .then((response) => response.json())
+      .then((result) => {
+        if (active && result.success) {
+          setModules(result.modules || []);
+        }
+      })
+      .catch((error) => console.error(error))
+      .finally(() => {
+        if (active) {
+          setLoading(false);
+        }
+      });
+
+    return () => {
+      active = false;
+    };
   }, []);
-
-  async function loadModules() {
-    try {
-      const response = await fetch(
-        "/api/platform/modules"
-      );
-
-      const result =
-        await response.json();
-
-      if (result.success) {
-        setModules(
-          result.modules || []
-        );
-      }
-    } catch (error) {
-      console.error(error);
-    } finally {
-      setLoading(false);
-    }
-  }
 
   return (
     <main className="min-h-screen bg-[#050407] p-8 text-white">

@@ -110,7 +110,40 @@ export default function MarketingPage() {
   }
 
   useEffect(() => {
-    loadCampaigns();
+    let active = true;
+
+    fetch("/api/marketing/campaigns", { cache: "no-store" })
+      .then(async (response) => {
+        const payload = await response.json();
+
+        if (!response.ok || !payload.success) {
+          throw new Error(payload.message || "Unable to load campaigns.");
+        }
+
+        return payload;
+      })
+      .then((payload) => {
+        if (!active) {
+          return;
+        }
+
+        setCampaigns(payload.campaigns || []);
+        setSelectedId(payload.campaigns?.[0]?.id || null);
+      })
+      .catch((loadError) => {
+        if (active) {
+          setError(loadError.message || "Unable to load campaigns.");
+        }
+      })
+      .finally(() => {
+        if (active) {
+          setLoading(false);
+        }
+      });
+
+    return () => {
+      active = false;
+    };
   }, []);
 
   const selected = useMemo(
@@ -340,7 +373,7 @@ export default function MarketingPage() {
                   <div className="text-xs tracking-[0.22em] text-cyan-300">CAMPAIGN MEDIA</div>
                   <h3 className="mt-3 text-4xl font-extralight tracking-[-0.04em]">Pictures & Video</h3>
                   <p className="mt-3 max-w-3xl text-white/50">
-                    Files uploaded here are stored inside this campaign's own organization/campaign folder and linked directly to this campaign.
+                    Files uploaded here are stored inside this campaign&apos;s own organization/campaign folder and linked directly to this campaign.
                   </p>
                 </div>
 

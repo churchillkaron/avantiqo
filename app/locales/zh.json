@@ -1594,7 +1594,13 @@
     "start": "开始",
     "login": "登录",
     "modules": "模块",
-    "designStudio": "设计工作室"
+    "designStudio": "设计工作室",
+    "activeOrganization": "当前组织",
+    "enterprise": "Avantiqo Enterprise",
+    "search": "搜索工作区",
+    "aiCommand": "AI 命令",
+    "notifications": "通知",
+    "superAdmin": "超级管理员"
   },
   "accounting": {
     "hero": {
@@ -2333,8 +2339,8 @@
         "description": "Service runners dispatch completed orders."
       },
       "tablesPayment": {
-        "title": "Tables → Payment",
-        "description": "Dining runtime linked to financial flow."
+        "title": "POS → Payment",
+        "description": "Payment and receipt completed within POS."
       }
     },
     "alerts": {

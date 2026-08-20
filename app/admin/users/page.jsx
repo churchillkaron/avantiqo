@@ -10,29 +10,26 @@ export default function UsersPage() {
     useState(true);
 
   useEffect(() => {
-    loadUsers();
+    let active = true;
+
+    fetch("/api/platform/users")
+      .then((response) => response.json())
+      .then((result) => {
+        if (active && result.success) {
+          setUsers(result.users || []);
+        }
+      })
+      .catch((error) => console.error(error))
+      .finally(() => {
+        if (active) {
+          setLoading(false);
+        }
+      });
+
+    return () => {
+      active = false;
+    };
   }, []);
-
-  async function loadUsers() {
-    try {
-      const response = await fetch(
-        "/api/platform/users"
-      );
-
-      const result =
-        await response.json();
-
-      if (result.success) {
-        setUsers(
-          result.users || []
-        );
-      }
-    } catch (error) {
-      console.error(error);
-    } finally {
-      setLoading(false);
-    }
-  }
 
   return (
     <main className="min-h-screen bg-[#050407] p-8 text-white">

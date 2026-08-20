@@ -7,23 +7,26 @@ export default function BillingPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    loadBilling();
+    let active = true;
+
+    fetch("/api/platform/billing")
+      .then((response) => response.json())
+      .then((result) => {
+        if (active && result.success) {
+          setSubscriptions(result.subscriptions || []);
+        }
+      })
+      .catch((error) => console.error(error))
+      .finally(() => {
+        if (active) {
+          setLoading(false);
+        }
+      });
+
+    return () => {
+      active = false;
+    };
   }, []);
-
-  async function loadBilling() {
-    try {
-      const response = await fetch("/api/platform/billing");
-      const result = await response.json();
-
-      if (result.success) {
-        setSubscriptions(result.subscriptions || []);
-      }
-    } catch (error) {
-      console.error(error);
-    } finally {
-      setLoading(false);
-    }
-  }
 
   return (
     <main className="min-h-screen bg-[#050407] p-8 text-white">

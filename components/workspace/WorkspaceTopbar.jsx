@@ -8,7 +8,7 @@ export default function WorkspaceTopbar() {
   const { t } = useTranslation();
 
   return (
-    <header className="sticky top-25 z-50 mb-8">
+    <header className="sticky top-25 z-50 mb-8 hidden xl:block">
 
       <div className="relative overflow-hidden rounded-[34px] border border-white/[0.05] bg-white/[0.025] px-8 py-5 backdrop-blur-3xl">
 
@@ -44,7 +44,7 @@ export default function WorkspaceTopbar() {
 
             <div className="w-full max-w-2xl rounded-[24px] border border-white/[0.05] bg-black/30 px-6 py-4 backdrop-blur-3xl">
 
-              <div className="text-white/35">
+              <div className="text-white/60">
                 {t("workspace.search")}
               </div>
 
@@ -77,7 +77,7 @@ export default function WorkspaceTopbar() {
                   Patric Vallgaarda
                 </div>
 
-                <div className="text-xs text-white/40">
+                <div className="text-xs text-white/60">
                   {t("workspace.superAdmin")}
                 </div>
 

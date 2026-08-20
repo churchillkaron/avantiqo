@@ -1574,7 +1574,13 @@
     "start": "เริ่มต้น",
     "login": "เข้าสู่ระบบ",
     "modules": "โมดูล",
-    "designStudio": "ดีไซน์สตูดิโอ"
+    "designStudio": "ดีไซน์สตูดิโอ",
+    "activeOrganization": "องค์กรที่ใช้งาน",
+    "enterprise": "Avantiqo Enterprise",
+    "search": "ค้นหาใน workspace",
+    "aiCommand": "คำสั่ง AI",
+    "notifications": "การแจ้งเตือน",
+    "superAdmin": "ผู้ดูแลระบบสูงสุด"
   },
   "accounting": {
     "hero": {
@@ -2365,8 +2371,8 @@
         "description": "Service runners dispatch completed orders."
       },
       "tablesPayment": {
-        "title": "Tables → Payment",
-        "description": "Dining runtime linked to financial flow."
+        "title": "POS → Payment",
+        "description": "Payment and receipt completed within POS."
       }
     },
     "alerts": {

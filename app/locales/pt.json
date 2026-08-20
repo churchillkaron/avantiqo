@@ -1830,7 +1830,13 @@
     "start": "Start",
     "login": "Login",
     "modules": "Modules",
-    "designStudio": "Design Studio"
+    "designStudio": "Design Studio",
+    "activeOrganization": "ORGANIZAÇÃO ATIVA",
+    "enterprise": "Avantiqo Enterprise",
+    "search": "Pesquisar no workspace",
+    "aiCommand": "Comando de IA",
+    "notifications": "Notificações",
+    "superAdmin": "Superadministrador"
   },
   "accounting": {
     "hero": {
@@ -2621,8 +2627,8 @@
         "description": "Service runners dispatch completed orders."
       },
       "tablesPayment": {
-        "title": "Tables → Payment",
-        "description": "Dining runtime linked to financial flow."
+        "title": "POS → Payment",
+        "description": "Payment and receipt completed within POS."
       }
     },
     "alerts": {
