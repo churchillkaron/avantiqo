@@ -1,19 +1,24 @@
+import { randomInt } from "node:crypto";
 import { Resend } from "resend";
 import { createClient } from "@supabase/supabase-js";
 
-const resend = new Resend(
-  process.env.RESEND_API_KEY
-);
-
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL,
-  process.env.SUPABASE_SERVICE_ROLE_KEY
-);
-
 function generateCode() {
-  return Math.floor(
-    100000 + Math.random() * 900000
-  ).toString();
+  return randomInt(100000, 1000000).toString();
+}
+
+function getEmailServices() {
+  const resendKey = process.env.RESEND_API_KEY;
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+
+  if (!resendKey || !supabaseUrl || !serviceRoleKey) {
+    return null;
+  }
+
+  return {
+    resend: new Resend(resendKey),
+    supabase: createClient(supabaseUrl, serviceRoleKey),
+  };
 }
 
 export async function POST(request) {
@@ -21,15 +26,15 @@ export async function POST(request) {
     const body = await request.json();
 
     const email =
-      body.email?.trim().toLowerCase();
+      typeof body.email === "string"
+        ? body.email.trim().toLowerCase()
+        : "";
 
-    console.log("SEND EMAIL OTP", email);
-
-    if (!email) {
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       return Response.json(
         {
           success: false,
-          message: "Email required",
+          message: "Valid email required",
         },
         {
           status: 400,
@@ -37,38 +42,45 @@ export async function POST(request) {
       );
     }
 
-    const code = generateCode();
+    const services = getEmailServices();
 
-    console.log("GENERATED CODE", code);
+    if (!services) {
+      return Response.json(
+        {
+          success: false,
+          message: "Email verification is temporarily unavailable",
+        },
+        {
+          status: 503,
+        }
+      );
+    }
+
+    const code = generateCode();
 
     const expiresAt = new Date(
       Date.now() + 1000 * 60 * 10
     );
 
-    const insert =
-      await supabase
+    const { error: insertError } =
+      await services.supabase
         .from("email_verifications")
         .insert({
           email,
           code,
           verified: false,
           expires_at: expiresAt,
-        })
-        .select();
+        });
 
-    console.log(
-      "INSERT RESULT",
-      insert
-    );
-
-    if (insert.error) {
-      console.error(insert.error);
+    if (insertError) {
+      console.error("Unable to store email verification code", {
+        code: insertError.code,
+      });
 
       return Response.json(
         {
           success: false,
-          message:
-            insert.error.message,
+          message: "Unable to start email verification",
         },
         {
           status: 500,
@@ -76,8 +88,8 @@ export async function POST(request) {
       );
     }
 
-    const resendResult =
-      await resend.emails.send({
+    const { error: resendError } =
+      await services.resend.emails.send({
         from:
         "Avantiqo <onboarding@resend.dev>",
         to: email,
@@ -104,21 +116,30 @@ export async function POST(request) {
         `,
       });
 
-    console.log(
-      "RESEND RESULT",
-      resendResult
-    );
+    if (resendError) {
+      console.error("Unable to deliver email verification code");
+
+      return Response.json(
+        {
+          success: false,
+          message: "Unable to deliver verification code",
+        },
+        {
+          status: 502,
+        }
+      );
+    }
 
     return Response.json({
       success: true,
     });
-  } catch (error) {
-    console.error(error);
+  } catch {
+    console.error("Email verification request failed");
 
     return Response.json(
       {
         success: false,
-        message: error.message,
+        message: "Unable to send verification code",
       },
       {
         status: 500,

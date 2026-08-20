@@ -1,37 +1,69 @@
 import { createClient } from "@supabase/supabase-js";
 
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL,
-  process.env.SUPABASE_SERVICE_ROLE_KEY
-);
+function getSupabaseClient() {
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+
+  if (!supabaseUrl || !serviceRoleKey) {
+    return null;
+  }
+
+  return createClient(supabaseUrl, serviceRoleKey);
+}
 
 export async function POST(request) {
   try {
     const body = await request.json();
 
     const email =
-      body.email?.trim().toLowerCase();
+      typeof body.email === "string"
+        ? body.email.trim().toLowerCase()
+        : "";
 
     const token =
-      body.token?.trim();
+      typeof body.token === "string"
+        ? body.token.trim()
+        : "";
 
-    console.log("VERIFY EMAIL", {
-      email,
-      token,
-    });
+    if (
+      !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) ||
+      !/^\d{6}$/.test(token)
+    ) {
+      return Response.json(
+        {
+          success: false,
+          message: "Valid email and verification code required",
+        },
+        {
+          status: 400,
+        }
+      );
+    }
+
+    const supabase = getSupabaseClient();
+
+    if (!supabase) {
+      return Response.json(
+        {
+          success: false,
+          message: "Email verification is temporarily unavailable",
+        },
+        {
+          status: 503,
+        }
+      );
+    }
 
     const { data, error } =
       await supabase
         .from("email_verifications")
-        .select("*")
+        .select("id, code, expires_at")
         .eq("email", email)
         .eq("verified", false)
         .order("created_at", {
           ascending: false,
-        });
-
-    console.log("DB RESULTS", data);
-    console.log("DB ERROR", error);
+        })
+        .limit(1);
 
     if (error || !data || data.length === 0) {
       return Response.json(
@@ -78,23 +110,39 @@ export async function POST(request) {
       );
     }
 
-    await supabase
+    const { error: updateError } = await supabase
       .from("email_verifications")
       .update({
         verified: true,
       })
       .eq("id", latest.id);
 
+    if (updateError) {
+      console.error("Unable to finalize email verification", {
+        code: updateError.code,
+      });
+
+      return Response.json(
+        {
+          success: false,
+          message: "Unable to verify code",
+        },
+        {
+          status: 500,
+        }
+      );
+    }
+
     return Response.json({
       success: true,
     });
-  } catch (error) {
-    console.error(error);
+  } catch {
+    console.error("Email verification check failed");
 
     return Response.json(
       {
         success: false,
-        message: error.message,
+        message: "Unable to verify code",
       },
       {
         status: 500,
