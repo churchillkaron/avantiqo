@@ -63,6 +63,7 @@ export default function Home() {
 
           <nav className="flex items-center gap-4">
             <a href="#platform" className="hidden text-xs text-white/50 hover:text-white md:inline">Platform</a>
+            <a href="#business-partner" className="hidden text-xs text-white/50 hover:text-white md:inline">Business Partner</a>
             <a href="#connected-service-data" className="hidden text-xs text-white/50 hover:text-white md:inline">Integrations</a>
             <Link href="/policy" className="hidden text-xs text-white/50 hover:text-white sm:inline">Privacy</Link>
             <Link href="/terms" className="hidden text-xs text-white/50 hover:text-white sm:inline">Terms</Link>
@@ -87,6 +88,7 @@ export default function Home() {
             </p>
             <div className="mt-10 flex flex-wrap gap-3">
               <a href={LOGIN_URL} className="rounded-xl bg-[#D6A66A] px-6 py-3.5 text-sm font-semibold text-black transition hover:bg-[#E2BF79]">Login to Avantiqo</a>
+              <a href="#business-partner" className="rounded-xl border border-[#D6A66A]/22 bg-[#D6A66A]/[0.045] px-6 py-3.5 text-sm font-medium text-[#E7C67F] transition hover:border-[#D6A66A]/40">Meet Business Partner</a>
               <a href="#how-it-works" className="rounded-xl border border-white/12 bg-white/[0.03] px-6 py-3.5 text-sm font-medium text-white/75 transition hover:border-white/25 hover:text-white">How Avantiqo works</a>
             </div>
           </div>
@@ -149,6 +151,44 @@ export default function Home() {
               ["Create", "Prepare documents, campaigns, reports, communications and operational drafts for review."],
               ["Execute", "Run approved workflows and provider actions where the organization has enabled automation."],
             ].map(([title, description]) => <Card key={title} title={title}>{description}</Card>)}
+          </div>
+        </div>
+      </section>
+
+      <section id="business-partner" className="relative overflow-hidden border-b border-white/[0.07] bg-[#070707]">
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_78%_22%,rgba(214,166,106,.12),transparent_34%),radial-gradient(circle_at_18%_82%,rgba(112,76,104,.09),transparent_34%)]" />
+        <div className="relative mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-24">
+          <div className="grid gap-12 lg:grid-cols-[1.02fr_.98fr] lg:items-start">
+            <div>
+              <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-[#D6A66A]">Business Partner</p>
+              <h2 className="mt-4 text-4xl font-light tracking-[-0.045em] text-white sm:text-5xl">Start with the business problem. Continue into execution.</h2>
+              <p className="mt-6 max-w-3xl text-base leading-8 text-white/52">
+                Avantiqo Business Partner is the intelligent front door to the operating system. It helps frame the objective, connect relevant company context and move the next action into the workspace that can own it.
+              </p>
+              <p className="mt-4 max-w-3xl text-sm leading-7 text-white/42">
+                When the work requires software, the path is explicit: Business Partner → Code Intelligence → Code Studio. The engineering mission keeps its business origin instead of becoming a disconnected developer prompt.
+              </p>
+              <a href={LOGIN_URL} className="mt-8 inline-flex rounded-xl bg-[#D6A66A] px-6 py-3.5 text-sm font-semibold text-black transition hover:bg-[#E2BF79]">Open Business Partner</a>
+            </div>
+
+            <div className="grid gap-4">
+              {[
+                ["01", "Understand", "Clarify the outcome, constraints and business reason before choosing an action."],
+                ["02", "Connect", "Use the organization and business context that the user is authorized to access."],
+                ["03", "Route", "Move work into Finance, Operations, Code Studio or another governed workspace."],
+                ["04", "Verify", "Keep the result connected to evidence, review and accountable execution."],
+              ].map(([number, title, description]) => (
+                <article key={number} className="rounded-2xl border border-white/[0.07] bg-white/[0.025] p-5">
+                  <div className="flex gap-4">
+                    <p className="pt-1 text-[10px] font-semibold text-[#D6A66A]">{number}</p>
+                    <div>
+                      <h3 className="text-lg font-medium text-white/88">{title}</h3>
+                      <p className="mt-2 text-sm leading-6 text-white/44">{description}</p>
+                    </div>
+                  </div>
+                </article>
+              ))}
+            </div>
           </div>
         </div>
       </section>
