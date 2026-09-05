@@ -12,6 +12,10 @@ const sections = [
         href: "/workspace/dashboard",
       },
       {
+        label: "Business Partner",
+        href: "/workspace/business-partner",
+      },
+      {
         label: "AI Intelligence",
         href: "/workspace/ai",
       },
@@ -122,8 +126,12 @@ const sections = [
     title: "CREATIVE",
     items: [
       {
-        label: "Design Studio",
+        label: "Code Studio",
         href: "/workspace/studio",
+      },
+      {
+        label: "Design Studio",
+        href: "/workspace/design-studio",
       },
       {
         label: "Documents",
