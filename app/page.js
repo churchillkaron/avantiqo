@@ -1,28 +1,26 @@
 import ConnectedServiceDataOverview from "@/components/ConnectedServiceDataOverview";
 import Image from "next/image";
 import Link from "next/link";
-import {
-  Activity,
-  ArrowRight,
-  Bell,
-  Boxes,
-  Building2,
-  Calendar,
-  ChartNoAxesCombined,
-  CheckCircle2,
-  ChevronDown,
-  Files,
-  FolderKanban,
-  Handshake,
-  Home as HomeIcon,
-  Landmark,
-  LockKeyhole,
-  Search,
-  ShieldCheck,
-  Sparkles,
-  Users,
-  Workflow,
-} from "lucide-react";
+import Activity from "lucide-react/dist/esm/icons/activity";
+import ArrowRight from "lucide-react/dist/esm/icons/arrow-right";
+import Bell from "lucide-react/dist/esm/icons/bell";
+import Boxes from "lucide-react/dist/esm/icons/boxes";
+import Building2 from "lucide-react/dist/esm/icons/building-2";
+import Calendar from "lucide-react/dist/esm/icons/calendar";
+import ChartNoAxesCombined from "lucide-react/dist/esm/icons/chart-no-axes-combined";
+import CheckCircle2 from "lucide-react/dist/esm/icons/circle-check-big";
+import ChevronDown from "lucide-react/dist/esm/icons/chevron-down";
+import Files from "lucide-react/dist/esm/icons/files";
+import FolderKanban from "lucide-react/dist/esm/icons/folder-kanban";
+import Handshake from "lucide-react/dist/esm/icons/handshake";
+import HomeIcon from "lucide-react/dist/esm/icons/house";
+import Landmark from "lucide-react/dist/esm/icons/landmark";
+import LockKeyhole from "lucide-react/dist/esm/icons/lock-keyhole";
+import Search from "lucide-react/dist/esm/icons/search";
+import ShieldCheck from "lucide-react/dist/esm/icons/shield-check";
+import Sparkles from "lucide-react/dist/esm/icons/sparkles";
+import Users from "lucide-react/dist/esm/icons/users";
+import Workflow from "lucide-react/dist/esm/icons/workflow";
 
 const LOGIN_URL = "https://app.churchillkaron.com/login?brand=avantiqo";
 
