@@ -20,7 +20,7 @@ const manrope = Manrope({
 export const metadata = {
   title: "Avantiqo | Business Operating System",
   description:
-    "Avantiqo is a multi-tenant Business Operating System for finance, operations, commercial activity, supply chain, people, projects, marketing, documents, analytics, customers, administration, AI automation and connected business services. Organizations control their own users, permissions, approvals and external integrations.",
+    "Avantiqo is an organization-scoped Business Operating System for finance, operations, supply chain, commercial activity, people, projects, documents, analytics, compliance, AI-assisted workflows and connected business services. Organizations control their own users, permissions, approvals and external integrations.",
 };
 
 export default function RootLayout({ children }) {
